@@ -48,7 +48,10 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
             flexibleSpace: FlexibleSpaceBar(
               title: Text(
                 'Leaderboard',
-                style: FlutterFlowTheme.of(context).headlineMedium,
+                style: FlutterFlowTheme.of(context).headlineMedium.override(
+                      fontFamily: 'Outfit',
+                      letterSpacing: 0.0,
+                    ),
               ),
               centerTitle: true,
               expandedTitleScale: 1.0,
@@ -71,6 +74,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                     style: FlutterFlowTheme.of(context).headlineLarge.override(
                           fontFamily: 'Outfit',
                           fontSize: 20.0,
+                          letterSpacing: 0.0,
                         ),
                   ),
                 ),
@@ -102,6 +106,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                   .override(
                                     fontFamily: 'Outfit',
                                     color: FlutterFlowTheme.of(context).primary,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                             Expanded(
@@ -117,6 +122,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                         fontFamily: 'Readex Pro',
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -129,6 +135,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                     fontFamily: 'Readex Pro',
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryText,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                           ],
@@ -165,6 +172,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                   .override(
                                     fontFamily: 'Outfit',
                                     color: FlutterFlowTheme.of(context).primary,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                             Expanded(
@@ -180,6 +188,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                         fontFamily: 'Readex Pro',
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -192,6 +201,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                     fontFamily: 'Readex Pro',
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryText,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                           ],
@@ -228,6 +238,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                   .override(
                                     fontFamily: 'Outfit',
                                     color: FlutterFlowTheme.of(context).primary,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                             Expanded(
@@ -243,6 +254,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                         fontFamily: 'Readex Pro',
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -255,6 +267,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                     fontFamily: 'Readex Pro',
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryText,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                           ],
@@ -291,6 +304,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                   .override(
                                     fontFamily: 'Outfit',
                                     color: FlutterFlowTheme.of(context).primary,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                             Expanded(
@@ -306,6 +320,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                         fontFamily: 'Readex Pro',
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -318,6 +333,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                     fontFamily: 'Readex Pro',
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryText,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                           ],
@@ -354,6 +370,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                   .override(
                                     fontFamily: 'Outfit',
                                     color: FlutterFlowTheme.of(context).primary,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                             Expanded(
@@ -369,6 +386,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                         fontFamily: 'Readex Pro',
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -381,6 +399,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                     fontFamily: 'Readex Pro',
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryText,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                           ],
@@ -417,6 +436,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                   .override(
                                     fontFamily: 'Outfit',
                                     color: FlutterFlowTheme.of(context).primary,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                             Expanded(
@@ -432,6 +452,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                         fontFamily: 'Readex Pro',
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -444,6 +465,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                     fontFamily: 'Readex Pro',
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryText,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                           ],
@@ -480,6 +502,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                   .override(
                                     fontFamily: 'Outfit',
                                     color: FlutterFlowTheme.of(context).primary,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                             Expanded(
@@ -495,6 +518,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                         fontFamily: 'Readex Pro',
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -507,6 +531,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                     fontFamily: 'Readex Pro',
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryText,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                           ],
@@ -543,6 +568,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                   .override(
                                     fontFamily: 'Outfit',
                                     color: FlutterFlowTheme.of(context).primary,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                             Expanded(
@@ -558,6 +584,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                         fontFamily: 'Readex Pro',
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -570,6 +597,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                     fontFamily: 'Readex Pro',
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryText,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                           ],
@@ -606,6 +634,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                   .override(
                                     fontFamily: 'Outfit',
                                     color: FlutterFlowTheme.of(context).primary,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                             Expanded(
@@ -621,6 +650,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                         fontFamily: 'Readex Pro',
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -633,6 +663,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                     fontFamily: 'Readex Pro',
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryText,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                           ],
@@ -669,6 +700,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                   .override(
                                     fontFamily: 'Outfit',
                                     color: FlutterFlowTheme.of(context).primary,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                             Expanded(
@@ -684,6 +716,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                         fontFamily: 'Readex Pro',
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -696,6 +729,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                     fontFamily: 'Readex Pro',
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryText,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                           ],
@@ -732,6 +766,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                   .override(
                                     fontFamily: 'Outfit',
                                     color: FlutterFlowTheme.of(context).primary,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                             Expanded(
@@ -747,6 +782,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                         fontFamily: 'Readex Pro',
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -759,6 +795,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                     fontFamily: 'Readex Pro',
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryText,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                           ],
@@ -795,6 +832,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                   .override(
                                     fontFamily: 'Outfit',
                                     color: FlutterFlowTheme.of(context).primary,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                             Expanded(
@@ -810,6 +848,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                         fontFamily: 'Readex Pro',
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -822,6 +861,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                     fontFamily: 'Readex Pro',
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryText,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                           ],
@@ -858,6 +898,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                   .override(
                                     fontFamily: 'Outfit',
                                     color: FlutterFlowTheme.of(context).primary,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                             Expanded(
@@ -873,6 +914,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                         fontFamily: 'Readex Pro',
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -885,6 +927,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                     fontFamily: 'Readex Pro',
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryText,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                           ],
@@ -921,6 +964,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                   .override(
                                     fontFamily: 'Outfit',
                                     color: FlutterFlowTheme.of(context).primary,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                             Expanded(
@@ -936,6 +980,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                         fontFamily: 'Readex Pro',
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -948,6 +993,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                     fontFamily: 'Readex Pro',
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryText,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                           ],
@@ -984,6 +1030,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                   .override(
                                     fontFamily: 'Outfit',
                                     color: FlutterFlowTheme.of(context).primary,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                             Expanded(
@@ -999,6 +1046,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                         fontFamily: 'Readex Pro',
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -1011,6 +1059,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                     fontFamily: 'Readex Pro',
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryText,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                           ],
@@ -1047,6 +1096,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                   .override(
                                     fontFamily: 'Outfit',
                                     color: FlutterFlowTheme.of(context).primary,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                             Expanded(
@@ -1062,6 +1112,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                         fontFamily: 'Readex Pro',
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -1074,6 +1125,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                     fontFamily: 'Readex Pro',
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryText,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                           ],
@@ -1110,6 +1162,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                   .override(
                                     fontFamily: 'Outfit',
                                     color: FlutterFlowTheme.of(context).primary,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                             Expanded(
@@ -1125,6 +1178,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                         fontFamily: 'Readex Pro',
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -1137,6 +1191,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                     fontFamily: 'Readex Pro',
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryText,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                           ],
@@ -1173,6 +1228,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                   .override(
                                     fontFamily: 'Outfit',
                                     color: FlutterFlowTheme.of(context).primary,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                             Expanded(
@@ -1188,6 +1244,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                         fontFamily: 'Readex Pro',
                                         color: FlutterFlowTheme.of(context)
                                             .primaryText,
+                                        letterSpacing: 0.0,
                                       ),
                                 ),
                               ),
@@ -1200,6 +1257,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                                     fontFamily: 'Readex Pro',
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryText,
+                                    letterSpacing: 0.0,
                                   ),
                             ),
                           ],

@@ -89,10 +89,18 @@ class _SearchWidgetState extends State<SearchWidget> {
                                 obscureText: false,
                                 decoration: InputDecoration(
                                   labelText: 'Search...',
-                                  labelStyle:
-                                      FlutterFlowTheme.of(context).labelMedium,
-                                  hintStyle:
-                                      FlutterFlowTheme.of(context).labelMedium,
+                                  labelStyle: FlutterFlowTheme.of(context)
+                                      .labelMedium
+                                      .override(
+                                        fontFamily: 'Readex Pro',
+                                        letterSpacing: 0.0,
+                                      ),
+                                  hintStyle: FlutterFlowTheme.of(context)
+                                      .labelMedium
+                                      .override(
+                                        fontFamily: 'Readex Pro',
+                                        letterSpacing: 0.0,
+                                      ),
                                   enabledBorder: InputBorder.none,
                                   focusedBorder: InputBorder.none,
                                   errorBorder: InputBorder.none,
@@ -101,7 +109,13 @@ class _SearchWidgetState extends State<SearchWidget> {
                                   fillColor: FlutterFlowTheme.of(context)
                                       .secondaryBackground,
                                 ),
-                                style: FlutterFlowTheme.of(context).bodyMedium,
+                                style: FlutterFlowTheme.of(context)
+                                    .bodyMedium
+                                    .override(
+                                      fontFamily: 'Readex Pro',
+                                      letterSpacing: 0.0,
+                                    ),
+                                minLines: null,
                                 validator: _model.textControllerValidator
                                     .asValidator(context),
                               ),

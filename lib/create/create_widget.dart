@@ -50,7 +50,10 @@ class _CreateWidgetState extends State<CreateWidget> {
           automaticallyImplyLeading: false,
           title: Text(
             'Create Recipe',
-            style: FlutterFlowTheme.of(context).headlineLarge,
+            style: FlutterFlowTheme.of(context).headlineLarge.override(
+                  fontFamily: 'Outfit',
+                  letterSpacing: 0.0,
+                ),
           ),
           actions: const [],
           centerTitle: true,
@@ -70,11 +73,16 @@ class _CreateWidgetState extends State<CreateWidget> {
                   child: TextFormField(
                     controller: _model.textController1,
                     focusNode: _model.textFieldFocusNode1,
+                    autofocus: false,
                     obscureText: false,
                     decoration: InputDecoration(
                       labelText: 'Recipe',
                       hintText: 'Enter the name of your dish',
-                      hintStyle: FlutterFlowTheme.of(context).bodyLarge,
+                      hintStyle:
+                          FlutterFlowTheme.of(context).bodyLarge.override(
+                                fontFamily: 'Readex Pro',
+                                letterSpacing: 0.0,
+                              ),
                       enabledBorder: OutlineInputBorder(
                         borderSide: BorderSide(
                           color: FlutterFlowTheme.of(context).primary,
@@ -104,7 +112,11 @@ class _CreateWidgetState extends State<CreateWidget> {
                         borderRadius: BorderRadius.circular(8.0),
                       ),
                     ),
-                    style: FlutterFlowTheme.of(context).bodyLarge,
+                    style: FlutterFlowTheme.of(context).bodyLarge.override(
+                          fontFamily: 'Readex Pro',
+                          letterSpacing: 0.0,
+                        ),
+                    minLines: null,
                     validator:
                         _model.textController1Validator.asValidator(context),
                   ),
@@ -114,11 +126,16 @@ class _CreateWidgetState extends State<CreateWidget> {
                   child: TextFormField(
                     controller: _model.textController2,
                     focusNode: _model.textFieldFocusNode2,
+                    autofocus: false,
                     obscureText: false,
                     decoration: InputDecoration(
                       labelText: 'Ingredients',
                       hintText: 'Enter the ingredients needed to make the dish',
-                      hintStyle: FlutterFlowTheme.of(context).bodyLarge,
+                      hintStyle:
+                          FlutterFlowTheme.of(context).bodyLarge.override(
+                                fontFamily: 'Readex Pro',
+                                letterSpacing: 0.0,
+                              ),
                       enabledBorder: OutlineInputBorder(
                         borderSide: BorderSide(
                           color: FlutterFlowTheme.of(context).primary,
@@ -148,7 +165,10 @@ class _CreateWidgetState extends State<CreateWidget> {
                         borderRadius: BorderRadius.circular(8.0),
                       ),
                     ),
-                    style: FlutterFlowTheme.of(context).bodyLarge,
+                    style: FlutterFlowTheme.of(context).bodyLarge.override(
+                          fontFamily: 'Readex Pro',
+                          letterSpacing: 0.0,
+                        ),
                     maxLines: 10,
                     minLines: 5,
                     validator:
@@ -168,7 +188,10 @@ class _CreateWidgetState extends State<CreateWidget> {
                     iconPadding:
                         const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                     color: FlutterFlowTheme.of(context).primary,
-                    textStyle: FlutterFlowTheme.of(context).titleSmall,
+                    textStyle: FlutterFlowTheme.of(context).titleSmall.override(
+                          fontFamily: 'Readex Pro',
+                          letterSpacing: 0.0,
+                        ),
                     elevation: 3.0,
                     borderSide: const BorderSide(
                       color: Colors.transparent,
@@ -200,6 +223,7 @@ class _CreateWidgetState extends State<CreateWidget> {
                               FlutterFlowTheme.of(context).titleMedium.override(
                                     fontFamily: 'Readex Pro',
                                     color: Colors.white,
+                                    letterSpacing: 0.0,
                                   ),
                           elevation: 0.0,
                           borderRadius: BorderRadius.circular(8.0),

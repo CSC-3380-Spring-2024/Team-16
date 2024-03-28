@@ -59,6 +59,7 @@ class _AccountWidgetState extends State<AccountWidget> {
                     style: FlutterFlowTheme.of(context).headlineMedium.override(
                           fontFamily: 'Outfit',
                           color: FlutterFlowTheme.of(context).primaryText,
+                          letterSpacing: 0.0,
                         ),
                   ),
                 ),
@@ -69,6 +70,7 @@ class _AccountWidgetState extends State<AccountWidget> {
                     style: FlutterFlowTheme.of(context).bodySmall.override(
                           fontFamily: 'Readex Pro',
                           color: FlutterFlowTheme.of(context).secondaryText,
+                          letterSpacing: 0.0,
                         ),
                   ),
                 ),
@@ -91,6 +93,7 @@ class _AccountWidgetState extends State<AccountWidget> {
                           FlutterFlowTheme.of(context).bodySmall.override(
                                 fontFamily: 'Readex Pro',
                                 color: Colors.white,
+                                letterSpacing: 0.0,
                               ),
                       elevation: 0.0,
                       borderRadius: BorderRadius.circular(8.0),
@@ -116,6 +119,7 @@ class _AccountWidgetState extends State<AccountWidget> {
                           FlutterFlowTheme.of(context).bodySmall.override(
                                 fontFamily: 'Readex Pro',
                                 color: Colors.white,
+                                letterSpacing: 0.0,
                               ),
                       elevation: 0.0,
                       borderRadius: BorderRadius.circular(8.0),

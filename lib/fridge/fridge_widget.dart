@@ -62,6 +62,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
               textStyle: FlutterFlowTheme.of(context).titleLarge.override(
                     fontFamily: 'Outfit',
                     fontSize: 50.0,
+                    letterSpacing: 0.0,
                     fontWeight: FontWeight.w600,
                   ),
               elevation: 3.0,
@@ -74,7 +75,10 @@ class _FridgeWidgetState extends State<FridgeWidget> {
           ),
           title: Text(
             'My Fridge',
-            style: FlutterFlowTheme.of(context).headlineLarge,
+            style: FlutterFlowTheme.of(context).headlineLarge.override(
+                  fontFamily: 'Outfit',
+                  letterSpacing: 0.0,
+                ),
           ),
           actions: [
             FlutterFlowIconButton(
@@ -104,7 +108,10 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                       const EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 0.0, 16.0),
                   child: Text(
                     'Ingredients in Your Fridge',
-                    style: FlutterFlowTheme.of(context).headlineMedium,
+                    style: FlutterFlowTheme.of(context).headlineMedium.override(
+                          fontFamily: 'Outfit',
+                          letterSpacing: 0.0,
+                        ),
                   ),
                 ),
                 Padding(
@@ -160,6 +167,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                                             fontFamily: 'Readex Pro',
                                             color: FlutterFlowTheme.of(context)
                                                 .primaryText,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                     Text(
@@ -170,6 +178,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                                             fontFamily: 'Readex Pro',
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryText,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ],
@@ -227,6 +236,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                                             fontFamily: 'Readex Pro',
                                             color: FlutterFlowTheme.of(context)
                                                 .primaryText,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                     Text(
@@ -237,6 +247,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                                             fontFamily: 'Readex Pro',
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryText,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ],
@@ -299,6 +310,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                                             fontFamily: 'Readex Pro',
                                             color: FlutterFlowTheme.of(context)
                                                 .primaryText,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                     Text(
@@ -309,6 +321,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                                             fontFamily: 'Readex Pro',
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryText,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ],
@@ -366,6 +379,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                                             fontFamily: 'Readex Pro',
                                             color: FlutterFlowTheme.of(context)
                                                 .primaryText,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                     Text(
@@ -376,6 +390,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                                             fontFamily: 'Readex Pro',
                                             color: FlutterFlowTheme.of(context)
                                                 .secondaryText,
+                                            letterSpacing: 0.0,
                                           ),
                                     ),
                                   ],
@@ -408,6 +423,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                           FlutterFlowTheme.of(context).titleSmall.override(
                                 fontFamily: 'Readex Pro',
                                 color: Colors.white,
+                                letterSpacing: 0.0,
                               ),
                       elevation: 2.0,
                       borderRadius: BorderRadius.circular(12.0),
