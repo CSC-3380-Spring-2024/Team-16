@@ -45,13 +45,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               : const HomePageWidget(),
         ),
         FFRoute(
-          name: 'Account',
-          path: '/account',
-          builder: (context, params) => params.isEmpty
-              ? const NavBarPage(initialPage: 'Account')
-              : const AccountWidget(),
-        ),
-        FFRoute(
           name: 'Search',
           path: '/search',
           builder: (context, params) => params.isEmpty
@@ -81,7 +74,28 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
         FFRoute(
           name: 'Fridge',
           path: '/fridge',
-          builder: (context, params) => const FridgeWidget(),
+          builder: (context, params) => const NavBarPage(
+            initialPage: '',
+            page: FridgeWidget(),
+          ),
+        ),
+        FFRoute(
+          name: 'Account',
+          path: '/account',
+          builder: (context, params) => params.isEmpty
+              ? const NavBarPage(initialPage: 'Account')
+              : const NavBarPage(
+                  initialPage: 'Account',
+                  page: AccountWidget(),
+                ),
+        ),
+        FFRoute(
+          name: 'RecipeSearchPage',
+          path: '/recipeSearchPage',
+          builder: (context, params) => const NavBarPage(
+            initialPage: '',
+            page: RecipeSearchPageWidget(),
+          ),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
@@ -153,6 +167,7 @@ class FFParameters {
     String paramName,
     ParamType type, [
     bool isList = false,
+    List<String>? collectionNamePath,
   ]) {
     if (futureParamValues.containsKey(paramName)) {
       return futureParamValues[paramName];
@@ -170,6 +185,7 @@ class FFParameters {
       param,
       type,
       isList,
+      collectionNamePath: collectionNamePath,
     );
   }
 }
