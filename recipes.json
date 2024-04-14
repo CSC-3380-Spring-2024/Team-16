@@ -1,0 +1,22 @@
+[
+    {
+        "name":"Mouse in Baked Beans",
+        "starRating": 2.1,
+        "difficultyRating": 5.0,
+        "servingSize": 12,
+        "ingredients":[
+            ["Mouse","14g"],
+            ["Baked Beans","16oz"]
+        ]
+    },
+    {
+        "name":"Dribble",
+        "starRating": 2.1,
+        "difficultyRating": 5.0,
+        "servingSize": 12,
+        "ingredients":[
+            ["Mouse","14g"],
+            ["Baked Beans","16oz"]
+        ]
+    }
+]

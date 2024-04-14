@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Carrot",
+        "shelfLife": 30,
+        "gramPerUnit": 69,
+        "isLiquid": false
+    },
+    {
+        "name": "Penis",
+        "shelfLife": 2,
+        "gramPerUnit": 1000,
+        "isLiquid": false
+    }
+]
