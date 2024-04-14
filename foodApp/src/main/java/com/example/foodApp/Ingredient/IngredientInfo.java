@@ -21,5 +21,27 @@ public class IngredientInfo {
     private String name;        //name of ingredient
     private int shelfLife;      //shelf life in days
     private double gramPerUnit; //unit weight
-    private boolean isLiquid;  
+    private boolean isLiquid;
+    public IngredientInfo(String name, int shelfLife, double gramPerUnit, boolean isLiquid) {
+        this.name = name;
+        this.shelfLife = shelfLife;
+        this.gramPerUnit = gramPerUnit;
+        this.isLiquid = isLiquid;
+    }
+    // Getters and setters
+    public ObjectId getId() {
+        return id;
+    }
+    public String getName() {
+        return name;
+    }
+    public int getShelfLife() {
+        return shelfLife;
+    }
+    public double getGramPerUnit() {
+        return gramPerUnit;
+    }
+    public boolean isLiquid() {
+        return isLiquid;
+    }
 }

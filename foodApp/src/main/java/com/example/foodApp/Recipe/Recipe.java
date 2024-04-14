@@ -1,8 +1,12 @@
 package com.example.foodApp.Recipe;
+import com.example.foodApp.*;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 ///import java.util.Map;
 
+import com.example.foodApp.Backend.IngredientRelated;
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -29,4 +33,49 @@ public class Recipe {
      // Tells database to store only the Ids of ingredients
     @Field("ingredients")
     private String[][] ingredients;
+    private Map<String, IngredientRelated.Ingredient> ingredientsHash;
+
+    public Recipe(ObjectId id) {
+        this.id = id;
+        ingredientsHash = new HashMap<>();
+    }
+
+    // Method to add an ingredient to the recipe
+    public void addIngredient(IngredientRelated.Ingredient ingredient) {
+        ingredientsHash.put(ingredient.getName(), ingredient);
+    }
+
+    // Method to get an ingredient from the recipe
+    public IngredientRelated.Ingredient getIngredient(String ingredientName) {
+        return ingredientsHash.get(ingredientName);
+    }
+
+    // Method to get all ingredients in the recipe
+    public Map<String, IngredientRelated.Ingredient> getAllIngredients() {
+        return ingredientsHash;
+    }
+
+    // Method to clear all ingredients from the recipe
+    public void clearIngredients() {
+        ingredientsHash.clear();
+    }
+
+    // Method to get the database ID of the recipe
+    public ObjectId getId() {
+        return id;
+    }
+    // Method to get the star rating of the recipe
+    public float getStarRating() {
+        return starRating;
+    }
+
+    // Method to get the star rating of the recipe
+    public float getDifficultyRating() {
+        return difficultyRating;
+    }
+
+    // Method to get the serving size of the recipe
+    public int getServingSize() {
+        return servingSize;
+    }
 }
