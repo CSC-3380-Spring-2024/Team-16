@@ -1,12 +1,11 @@
 package com.example.foodApp.Recipe;
-import com.example.foodApp.*;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 ///import java.util.Map;
 
 import com.example.foodApp.Backend.IngredientRelated;
+import com.example.foodApp.Backend.IngredientRelated.*;
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -77,5 +76,19 @@ public class Recipe {
     // Method to get the serving size of the recipe
     public int getServingSize() {
         return servingSize;
+    }
+
+    public void addAllIngredientsFromArray(String[][] ingredientsArray) {
+        for (String[] ingredientData : ingredientsArray) {
+            // Assuming the structure of ingredientsArray is {name, quantity}
+            String name = ingredientData[0];
+            String quantity = ingredientData[1];
+            
+            // Create an Ingredient object
+            Ingredient ingredient = new Ingredient(name, quantity, 0);
+            
+            // Add the ingredient to the ingredientsHash map
+            ingredientsHash.put(name, ingredient);
+        }
     }
 }

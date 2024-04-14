@@ -1,7 +1,6 @@
 package com.example.foodApp.Backend;
 import com.example.foodApp.Recipe.Recipe;
 import com.example.foodApp.Backend.IngredientRelated.*;
-import com.example.foodApp.Ingredient.IngredientInfo;
 import java.util.*;
 
 public class Fuzzy {
@@ -18,7 +17,7 @@ public class Fuzzy {
             double newQuantity = ingredient.getQuantity() * ratio;
 
             // Update the ingredient's quantity
-            ingredient.getNewQuantity(newQuantity);
+            ingredient.setNewQuantity(newQuantity);
         }
     }
 
@@ -41,8 +40,7 @@ public class Fuzzy {
                 if (pantryIngredient.getQuantity() < ingredient.getQuantity()) {
                     // Calculate missing quantity and add to total
                     double missingQuantity = 1 - (pantryIngredient.getQuantity() / ingredient.getQuantity());
-                    IngredientInfo pantryIngredientInfo = ingredient.getIngredientInfo(pantryIngredient.getName());
-                    double expMissing = missingQuantity * 10 / (pantryIngredientInfo.expiry+1);
+                    double expMissing = missingQuantity * 10 / (pantryIngredient.getExpiry()+1);
                     totalMissingQuantity += expMissing;
                 }
             }
@@ -67,8 +65,7 @@ public class Fuzzy {
             // Check if the ingredient is not in the recipe
             if (!recipeIngredients.containsKey(pantryIngredient.getName())) {
                 // Calculate score based on expiration date
-                IngredientInfo pantryIngredientInfo = pantryIngredient.getIngredientInfo(pantryIngredient.getName());
-                double expirationScore = 1.0 / (pantryIngredientInfo.expiry * pantryIngredientInfo.expiry);
+                double expirationScore = 1.0 / (pantryIngredient.getExpiry() * pantryIngredient.getExpiry());
                 totalUnusedIngredientScore += expirationScore;
             }
         }
@@ -141,4 +138,3 @@ public class Fuzzy {
         return topScoringRecipes;
     }
 }
-

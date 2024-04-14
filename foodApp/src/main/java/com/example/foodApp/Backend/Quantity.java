@@ -3,8 +3,8 @@ import com.example.foodApp.Ingredient.IngredientInfo;
 import com.example.foodApp.Backend.IngredientRelated.Ingredient;
 
 public class Quantity {
-    public static double dryToGram(double quantity, String unit, Ingredient ingredient) {
-        IngredientInfo ingredientInfo = Ingredient.getIngredientInfo(ingredient.name);
+    public double dryToGram(double quantity, String unit, Ingredient ingredient) {
+        IngredientInfo ingredientInfo = ingredient.getIngredientInfo(ingredient.getName());
         switch (unit.toLowerCase()) {
             case "kg":
                 return quantity * 1000;
@@ -25,8 +25,8 @@ public class Quantity {
         }
     }
 
-    public static double inverseDryToGram(double grams, String unit, Ingredient ingredient) {
-        IngredientInfo ingredientInfo = Ingredient.getIngredientInfo(ingredient.name);
+    public double inverseDryToGram(double grams, String unit, Ingredient ingredient) {
+        IngredientInfo ingredientInfo = ingredient.getIngredientInfo(ingredient.getName());
         switch (unit.toLowerCase()) {
             case "kg":
                 return grams / 1000;
@@ -46,7 +46,7 @@ public class Quantity {
                 throw new IllegalArgumentException("Invalid unit: " + unit);
         }
     }
-    public static double volumeToMilliliter(double quantity, String unit) {
+    public double volumeToMilliliter(double quantity, String unit) {
         switch (unit.toLowerCase()) {
             case "gallon":
                 return quantity * 3785.41; // 1 US gallon = 3785.41 milliliters
@@ -71,7 +71,7 @@ public class Quantity {
         }
     }
 
-    public static double inverseVolumeToMilliliter(double milliliters, String unit) {
+    public double inverseVolumeToMilliliter(double milliliters, String unit) {
         switch (unit.toLowerCase()) {
             case "gallon":
                 return milliliters / 3785.41; // 1 US gallon = 3785.41 milliliters

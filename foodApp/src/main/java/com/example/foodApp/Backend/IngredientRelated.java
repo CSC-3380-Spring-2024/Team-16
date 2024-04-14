@@ -4,23 +4,24 @@ import com.example.foodApp.Ingredient.IngredientInfo;
 import org.bson.types.ObjectId;
 
 import java.util.*;
+import java.util.regex.*;
 
 public class IngredientRelated {
     public static class Ingredient {
         private String name;
-        private double quantity;
-        private String unit;
+        private String quantity;
+        private int expiry;
 
         // Map to store ingredient name to IngredientInfo
         private static Map<String, IngredientInfo> ingredientInfoMap = new HashMap<>();
-        public Ingredient(String name, double quantity, String unit) {
+        public Ingredient(String name, String quantity, int expiry) {
             this.name = name;
             this.quantity = quantity;
-            this.unit = unit;
+            this.expiry = expiry;
         }
 
         // Method to get ingredient info for a particular ingredient name
-        public static IngredientInfo getIngredientInfo(String ingredientName) {
+        public IngredientInfo getIngredientInfo(String ingredientName) {
             return ingredientInfoMap.get(ingredientName);
         }
 
@@ -29,18 +30,48 @@ public class IngredientRelated {
             return name;
         }
 
-        // Getter for quantity
+        // Method to parse the quantity string into a double quantity
         public double getQuantity() {
-            return quantity;
+            return parseQuantity();
+        }
+
+        // Method to extract the unit from the quantity string
+        public String getUnit() {
+            return parseUnit();
+        }
+
+        // Getter for expiry
+        public int getExpiry() {
+            return expiry;
+        }
+
+        // Method to parse the quantity string into a double quantity
+        private double parseQuantity() {
+            Pattern pattern = Pattern.compile("(\\d+(?:\\.\\d+)?)"); // match one or more digits with optional decimal point
+            Matcher matcher = pattern.matcher(quantity);
+            if (matcher.find()) {
+                return Double.parseDouble(matcher.group());
+            }
+            return 0; // default value if no match is found
+        }
+
+        // Method to extract the unit from the quantity string
+        private String parseUnit() {
+            Pattern pattern = Pattern.compile("[a-zA-Z]+"); // match one or more letters
+            Matcher matcher = pattern.matcher(quantity);
+            if (matcher.find()) {
+                return matcher.group();
+            }
+            return ""; // default value if no match is found
         }
 
         // change quantity of the pantry's ingredients
-        public void getNewQuantity(double newQuantity) {
-            quantity = newQuantity;
-        }
-        // Getter for unit
-        public String getUnit() {
-            return unit;
+        public void setNewQuantity(double newQuantity) {
+            // Extract unit from the current quantity
+            String unit = parseUnit();
+        
+            // Reconstruct the quantity string with the new numeric value and the same unit
+            quantity = String.format("%.2f%s", newQuantity, unit);
         }
     }
 
@@ -57,12 +88,12 @@ public class IngredientRelated {
         }
 
         // Method to remove a recipe from the manager
-        public void removeRecipe(int recipeId) {
+        public void removeRecipe(ObjectId recipeId) {
             recipes.remove(recipeId);
         }
 
         // Method to get a recipe from the manager by ID
-        public Recipe getRecipe(int recipeId) {
+        public Recipe getRecipe(ObjectId recipeId) {
             return recipes.get(recipeId);
         }
 
@@ -100,27 +131,27 @@ public class IngredientRelated {
 
         // Method to use an ingredient in a recipe and update its quantity in the pantry
         public void useIngredient(Ingredient ingredient) {
-            Ingredient pantryIngredient = ingredients.get(ingredient.name);
+            Ingredient pantryIngredient = ingredients.get(ingredient.getName());
             Quantity quantity = new Quantity();
             if (pantryIngredient != null) {
                 double usedQuantity;
-                IngredientInfo pantryIngredientInfo = ingredient.getIngredientInfo(pantryIngredient.name);
+                IngredientInfo pantryIngredientInfo = ingredient.getIngredientInfo(pantryIngredient.getName());
                 if (pantryIngredientInfo.isLiquid()) {
-                    usedQuantity = quantity.volumeToMilliliter(ingredient.quantity, ingredient.unit);
-                    pantryIngredient.quantity = quantity.volumeToMilliliter(pantryIngredient.quantity, pantryIngredient.unit);
+                    usedQuantity = quantity.volumeToMilliliter(ingredient.getQuantity(), ingredient.getUnit());
+                    pantryIngredient.setNewQuantity(quantity.volumeToMilliliter(pantryIngredient.getQuantity(), pantryIngredient.getUnit()));
                 } else {
-                    usedQuantity = quantity.dryToGram(ingredient.quantity, ingredient.unit, ingredient);
-                    pantryIngredient.quantity = quantity.dryToGram(pantryIngredient.quantity, pantryIngredient.unit, pantryIngredient);
+                    usedQuantity = quantity.dryToGram(ingredient.getQuantity(), ingredient.getUnit(), ingredient);
+                    pantryIngredient.setNewQuantity(quantity.dryToGram(pantryIngredient.getQuantity(), pantryIngredient.getUnit(), pantryIngredient));
                 }
-                double remainingQuantity = pantryIngredient.quantity - usedQuantity;
+                double remainingQuantity = pantryIngredient.getQuantity() - usedQuantity;
                 if (remainingQuantity > 0) {
                     if (pantryIngredientInfo.isLiquid()) {
-                        pantryIngredient.quantity = quantity.inverseVolumeToMilliliter(remainingQuantity, pantryIngredient.unit);
+                        pantryIngredient.setNewQuantity(quantity.inverseVolumeToMilliliter(remainingQuantity, pantryIngredient.getUnit()));
                     } else {
-                        pantryIngredient.quantity = quantity.inverseDryToGram(remainingQuantity, pantryIngredient.unit, pantryIngredient);
+                        pantryIngredient.setNewQuantity(quantity.inverseDryToGram(remainingQuantity, pantryIngredient.getUnit(), pantryIngredient));
                     }
                 } else {
-                    ingredients.remove(pantryIngredient.name);
+                    ingredients.remove(pantryIngredient.getName());
                 }
             }
         }
@@ -136,7 +167,7 @@ public class IngredientRelated {
             for (Map.Entry<String, IngredientRelated.Ingredient> entry : pantryIngredients.entrySet()) {
                 String ingredientName = entry.getKey();
                 IngredientRelated.Ingredient ingredient = entry.getValue();
-                System.out.println("Ingredient: " + ingredientName + ", Quantity: " + ingredient.quantity + " " + ingredient.unit);
+                System.out.println("Ingredient: " + ingredientName + ", Quantity: " + ingredient.getQuantity() + " " + ingredient.getUnit());
             }
         }
     }
