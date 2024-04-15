@@ -36,4 +36,16 @@ public class RecipeService {
         return mongoTemplate.find(query, Recipe.class);
     }
      */
+
+    public Recipe addRecipe (Recipe recipe)
+    {
+        if(recipe.getName() == null || recipe.getIngredients() == null)
+        {
+            return null;
+        }
+        else
+        {
+            return mongoTemplate.insert(recipe);
+        }
+    }
 }
