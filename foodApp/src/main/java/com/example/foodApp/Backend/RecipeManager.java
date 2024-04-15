@@ -35,9 +35,9 @@ public class RecipeManager {
     }
 
     // Method to clear all recipes from the manager
-    /*public void clearRecipes() {
+    public void clearRecipes() {
         recipes.clear();
-    }*/
+    }
 
     public float getStarRating(ObjectId id) {
         Recipe recipe = recipes.get(id);
