@@ -4,12 +4,13 @@ import java.util.List;
 //import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("recipe")
+@RequestMapping("/recipe")
 public class RecipeController {
     @Autowired
     private RecipeService recipeService;
@@ -22,5 +23,11 @@ public class RecipeController {
     public ResponseEntity<List<Recipe>> getRecipesWithIngredient(@PathVariable String name) {
         System.out.println("it work");
         return new ResponseEntity<List<Recipe>>(recipeService.recipesWithIngredient(name), HttpStatus.OK);
+    }
+    @PostMapping()
+    public Recipe addRecipe (@RequestBody Recipe recipe)
+    {
+        System.out.println(recipe.getName());
+        return recipeService.addRecipe(recipe);
     }
 }

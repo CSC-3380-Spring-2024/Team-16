@@ -1,6 +1,7 @@
 package com.example.foodApp.Recipe;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 ///import java.util.Map;
 
@@ -27,7 +28,12 @@ public class Recipe {
     private String name;
     private float starRating;       // Star rating out of 5
     private float difficultyRating; // Difficulty Rating out of 5
-    private int servingSize;        // Serving size that the recipe produces
+    private int servingSize;
+    private List<String> method;
+    private String description;
+    private String backdrop;
+
+    // Serving size that the recipe produces
      // Tells database to store only the Ids of ingredients
     @Field("ingredients")
     private String[][] ingredients;
