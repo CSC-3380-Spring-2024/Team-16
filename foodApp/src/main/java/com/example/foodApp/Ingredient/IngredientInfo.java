@@ -22,6 +22,7 @@ public class IngredientInfo {
     private int shelfLife;      //shelf life in days
     private double gramPerUnit; //unit weight
     private boolean isLiquid;
+    private boolean isCountable;
     public IngredientInfo(String name, int shelfLife, double gramPerUnit, boolean isLiquid) {
         this.name = name;
         this.shelfLife = shelfLife;

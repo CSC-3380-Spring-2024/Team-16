@@ -1,6 +1,5 @@
 package com.example.foodApp.Backend;
 import com.example.foodApp.Recipe.Recipe;
-import com.example.foodApp.Backend.IngredientRelated.*;
 import java.util.*;
 
 public class Fuzzy {
@@ -50,18 +49,18 @@ public class Fuzzy {
         return totalMissingQuantity;
     }
 
-    public static double calculateUnusedIngredientScore(IngredientRelated.Pantry pantry, Recipe recipe) {
+    public static double calculateUnusedIngredientScore(Pantry pantry, Recipe recipe) {
         // Get all ingredients in the pantry
-        Map<String, IngredientRelated.Ingredient> pantryIngredients = pantry.getAllIngredients();
+        Map<String, Ingredient> pantryIngredients = pantry.getAllIngredients();
 
         // Get all ingredients in the recipe
-        Map<String, IngredientRelated.Ingredient> recipeIngredients = recipe.getAllIngredients();
+        Map<String, Ingredient> recipeIngredients = recipe.getAllIngredients();
 
         // Initialize total unused ingredient score
         double totalUnusedIngredientScore = 1.0;
 
         // Iterate through each ingredient in the pantry
-        for (IngredientRelated.Ingredient pantryIngredient : pantryIngredients.values()) {
+        for (Ingredient pantryIngredient : pantryIngredients.values()) {
             // Check if the ingredient is not in the recipe
             if (!recipeIngredients.containsKey(pantryIngredient.getName())) {
                 // Calculate score based on expiration date
@@ -73,7 +72,7 @@ public class Fuzzy {
         return totalUnusedIngredientScore;
     }
 
-    public static double generateRecipeScore(Recipe recipe, float starRating, float difficultyRating, IngredientRelated.Pantry pantry) {
+    public static double generateRecipeScore(Recipe recipe, float starRating, float difficultyRating, Pantry pantry) {
         // Initialize score with a starting value of 100
         double score = 10.0;
 
@@ -101,7 +100,7 @@ public class Fuzzy {
 
 
     //use when given 500 matching recipes:
-    public static List<Map<Double, Recipe>> findTopScoringRecipes(IngredientRelated.RecipeManager recipeManager, IngredientRelated.Pantry pantry, int servingSize) {
+    public static List<Map<Double, Recipe>> findTopScoringRecipes(RecipeManager recipeManager, Pantry pantry, int servingSize) {
         List<Map<Double, Recipe>> topScoringRecipes = new ArrayList<>();
 
         // Process each recipe in the RecipeManager

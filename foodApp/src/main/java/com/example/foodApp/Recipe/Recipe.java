@@ -4,8 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 ///import java.util.Map;
 
-import com.example.foodApp.Backend.IngredientRelated;
-import com.example.foodApp.Backend.IngredientRelated.*;
+import com.example.foodApp.Backend.Ingredient;
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -32,7 +31,7 @@ public class Recipe {
      // Tells database to store only the Ids of ingredients
     @Field("ingredients")
     private String[][] ingredients;
-    private Map<String, IngredientRelated.Ingredient> ingredientsHash;
+    private Map<String, Ingredient> ingredientsHash = new HashMap<String, Ingredient>();
 
     public Recipe(ObjectId id) {
         this.id = id;
@@ -40,17 +39,17 @@ public class Recipe {
     }
 
     // Method to add an ingredient to the recipe
-    public void addIngredient(IngredientRelated.Ingredient ingredient) {
+    public void addIngredient(Ingredient ingredient) {
         ingredientsHash.put(ingredient.getName(), ingredient);
     }
 
     // Method to get an ingredient from the recipe
-    public IngredientRelated.Ingredient getIngredient(String ingredientName) {
+    public Ingredient getIngredient(String ingredientName) {
         return ingredientsHash.get(ingredientName);
     }
 
     // Method to get all ingredients in the recipe
-    public Map<String, IngredientRelated.Ingredient> getAllIngredients() {
+    public Map<String, Ingredient> getAllIngredients() {
         return ingredientsHash;
     }
 
@@ -85,6 +84,7 @@ public class Recipe {
             String quantity = ingredientData[1];
             
             // Create an Ingredient object
+            //IngredientRelated related = new IngredientRelated();
             Ingredient ingredient = new Ingredient(name, quantity, 0);
             
             // Add the ingredient to the ingredientsHash map

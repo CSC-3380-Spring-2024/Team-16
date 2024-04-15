@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class FoodAppApplication {
 
 	public static void main(String[] args) {
-		System.out.println("run");
 		SpringApplication.run(FoodAppApplication.class, args);
+		
 	}
 	@GetMapping
 	public String bais() {

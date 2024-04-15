@@ -1,10 +1,9 @@
 package com.example.foodApp.Backend;
 import com.example.foodApp.Ingredient.IngredientInfo;
-import com.example.foodApp.Backend.IngredientRelated.Ingredient;
 
 public class Quantity {
     public double dryToGram(double quantity, String unit, Ingredient ingredient) {
-        IngredientInfo ingredientInfo = ingredient.getIngredientInfo(ingredient.getName());
+        IngredientInfo ingredientInfo = ingredient.getIngredientInfo();
         switch (unit.toLowerCase()) {
             case "kg":
                 return quantity * 1000;
@@ -26,7 +25,7 @@ public class Quantity {
     }
 
     public double inverseDryToGram(double grams, String unit, Ingredient ingredient) {
-        IngredientInfo ingredientInfo = ingredient.getIngredientInfo(ingredient.getName());
+        IngredientInfo ingredientInfo = ingredient.getIngredientInfo();
         switch (unit.toLowerCase()) {
             case "kg":
                 return grams / 1000;
@@ -48,15 +47,15 @@ public class Quantity {
     }
     public double volumeToMilliliter(double quantity, String unit) {
         switch (unit.toLowerCase()) {
-            case "gallon":
+            case "gal":
                 return quantity * 3785.41; // 1 US gallon = 3785.41 milliliters
-            case "quart":
+            case "qt":
                 return quantity * 946.353; // 1 quart = 946.353 milliliters
-            case "pint":
+            case "pt":
                 return quantity * 473.176; // 1 pint = 473.176 milliliters
             case "cup":
                 return quantity * 236.588; // 1 cup = 236.588 milliliters
-            case "fluid oz":
+            case "fl oz":
                 return quantity * 29.5735; // 1 fluid ounce = 29.5735 milliliters
             case "tbsp":
                 return quantity * 14.7868; // 1 tablespoon = 14.7868 milliliters
