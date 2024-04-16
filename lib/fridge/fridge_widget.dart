@@ -4,8 +4,6 @@ import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:provider/provider.dart';
 import 'fridge_model.dart';
 export 'fridge_model.dart';
 
@@ -58,8 +56,8 @@ class _FridgeWidgetState extends State<FridgeWidget> {
             ),
             options: FFButtonOptions(
               height: 40.0,
-              padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-              iconPadding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+              padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+              iconPadding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
               color: FlutterFlowTheme.of(context).primaryBackground,
               textStyle: FlutterFlowTheme.of(context).titleLarge.override(
                     fontFamily: 'Outfit',
@@ -68,7 +66,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                     fontWeight: FontWeight.w600,
                   ),
               elevation: 3.0,
-              borderSide: BorderSide(
+              borderSide: const BorderSide(
                 color: Colors.transparent,
                 width: 1.0,
               ),
@@ -107,7 +105,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
               children: [
                 Padding(
                   padding:
-                      EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 0.0, 16.0),
+                      const EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 0.0, 16.0),
                   child: Text(
                     'Ingredients in Your Fridge',
                     style: FlutterFlowTheme.of(context).headlineMedium.override(
@@ -117,13 +115,13 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                   ),
                 ),
                 Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(16.0, 8.0, 16.0, 8.0),
+                  padding: const EdgeInsetsDirectional.fromSTEB(16.0, 8.0, 16.0, 8.0),
                   child: SingleChildScrollView(
                     child: Column(
                       mainAxisSize: MainAxisSize.max,
                       children: [
                         Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
+                          padding: const EdgeInsetsDirectional.fromSTEB(
                               0.0, 0.0, 8.0, 0.0),
                           child: InkWell(
                             splashColor: Colors.transparent,
@@ -137,7 +135,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       8.0, 8.0, 8.0, 8.0),
                                   child: Container(
                                     width: 100.0,
@@ -145,7 +143,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                                     decoration: BoxDecoration(
                                       color: FlutterFlowTheme.of(context)
                                           .secondaryBackground,
-                                      borderRadius: BorderRadius.only(
+                                      borderRadius: const BorderRadius.only(
                                         bottomLeft: Radius.circular(2.0),
                                         bottomRight: Radius.circular(2.0),
                                         topLeft: Radius.circular(2.0),
@@ -153,7 +151,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                                       ),
                                     ),
                                     child: Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                      padding: const EdgeInsetsDirectional.fromSTEB(
                                           2.0, 2.0, 2.0, 2.0),
                                       child: ClipRRect(
                                         borderRadius:
@@ -170,7 +168,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                                 ),
                                 Expanded(
                                   child: Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
                                         8.0, 0.0, 0.0, 12.0),
                                     child: Column(
                                       mainAxisSize: MainAxisSize.max,
@@ -210,13 +208,13 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
+                          padding: const EdgeInsetsDirectional.fromSTEB(
                               0.0, 0.0, 8.0, 0.0),
                           child: Row(
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
                                     8.0, 8.0, 8.0, 8.0),
                                 child: Container(
                                   width: 100.0,
@@ -224,7 +222,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                                   decoration: BoxDecoration(
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryBackground,
-                                    borderRadius: BorderRadius.only(
+                                    borderRadius: const BorderRadius.only(
                                       bottomLeft: Radius.circular(2.0),
                                       bottomRight: Radius.circular(2.0),
                                       topLeft: Radius.circular(2.0),
@@ -232,7 +230,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                                     ),
                                   ),
                                   child: Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
                                         2.0, 2.0, 2.0, 2.0),
                                     child: ClipRRect(
                                       borderRadius: BorderRadius.circular(8.0),
@@ -248,7 +246,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                               ),
                               Expanded(
                                 child: Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       8.0, 0.0, 0.0, 12.0),
                                   child: Column(
                                     mainAxisSize: MainAxisSize.max,
@@ -287,13 +285,13 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
+                          padding: const EdgeInsetsDirectional.fromSTEB(
                               0.0, 0.0, 8.0, 0.0),
                           child: Row(
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
                                     8.0, 8.0, 8.0, 8.0),
                                 child: Container(
                                   width: 100.0,
@@ -301,7 +299,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                                   decoration: BoxDecoration(
                                     color: FlutterFlowTheme.of(context)
                                         .secondaryBackground,
-                                    borderRadius: BorderRadius.only(
+                                    borderRadius: const BorderRadius.only(
                                       bottomLeft: Radius.circular(2.0),
                                       bottomRight: Radius.circular(2.0),
                                       topLeft: Radius.circular(2.0),
@@ -309,7 +307,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                                     ),
                                   ),
                                   child: Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
                                         2.0, 2.0, 2.0, 2.0),
                                     child: ClipRRect(
                                       borderRadius: BorderRadius.circular(8.0),
@@ -325,7 +323,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                               ),
                               Expanded(
                                 child: Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       8.0, 0.0, 0.0, 12.0),
                                   child: Column(
                                     mainAxisSize: MainAxisSize.max,
@@ -369,7 +367,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                 ),
                 Padding(
                   padding:
-                      EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 16.0),
+                      const EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 16.0),
                   child: FFButtonWidget(
                     onPressed: () {
                       print('Button pressed ...');
@@ -379,9 +377,9 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                       width: double.infinity,
                       height: 50.0,
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                          const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                       iconPadding:
-                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                          const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                       color: FlutterFlowTheme.of(context).primary,
                       textStyle:
                           FlutterFlowTheme.of(context).titleSmall.override(

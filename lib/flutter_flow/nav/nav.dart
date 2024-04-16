@@ -1,18 +1,11 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
-import 'package:page_transition/page_transition.dart';
 import 'package:provider/provider.dart';
-import '/backend/backend.dart';
 
 import '/index.dart';
 import '/main.dart';
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/lat_lng.dart';
-import '/flutter_flow/place.dart';
 import '/flutter_flow/flutter_flow_util.dart';
-import 'serialization_util.dart';
 
 export 'package:go_router/go_router.dart';
 export 'serialization_util.dart';
@@ -37,26 +30,26 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       initialLocation: '/',
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
-      errorBuilder: (context, state) => NavBarPage(),
+      errorBuilder: (context, state) => const NavBarPage(),
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
-          builder: (context, _) => NavBarPage(),
+          builder: (context, _) => const NavBarPage(),
         ),
         FFRoute(
           name: 'HomePage',
           path: '/homePage',
           builder: (context, params) => params.isEmpty
-              ? NavBarPage(initialPage: 'HomePage')
-              : HomePageWidget(),
+              ? const NavBarPage(initialPage: 'HomePage')
+              : const HomePageWidget(),
         ),
         FFRoute(
           name: 'Create',
           path: '/create',
           builder: (context, params) => params.isEmpty
-              ? NavBarPage(initialPage: 'Create')
-              : NavBarPage(
+              ? const NavBarPage(initialPage: 'Create')
+              : const NavBarPage(
                   initialPage: 'Create',
                   page: CreateWidget(),
                 ),
@@ -65,8 +58,8 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'Leaderboard',
           path: '/leaderboard',
           builder: (context, params) => params.isEmpty
-              ? NavBarPage(initialPage: 'Leaderboard')
-              : NavBarPage(
+              ? const NavBarPage(initialPage: 'Leaderboard')
+              : const NavBarPage(
                   initialPage: 'Leaderboard',
                   page: LeaderboardWidget(),
                 ),
@@ -74,7 +67,7 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
         FFRoute(
           name: 'Fridge',
           path: '/fridge',
-          builder: (context, params) => NavBarPage(
+          builder: (context, params) => const NavBarPage(
             initialPage: '',
             page: FridgeWidget(),
           ),
@@ -83,8 +76,8 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'Account',
           path: '/account',
           builder: (context, params) => params.isEmpty
-              ? NavBarPage(initialPage: 'Account')
-              : NavBarPage(
+              ? const NavBarPage(initialPage: 'Account')
+              : const NavBarPage(
                   initialPage: 'Account',
                   page: AccountWidget(),
                 ),
@@ -253,7 +246,7 @@ class TransitionInfo {
   final Duration duration;
   final Alignment? alignment;
 
-  static TransitionInfo appDefault() => TransitionInfo(hasTransition: false);
+  static TransitionInfo appDefault() => const TransitionInfo(hasTransition: false);
 }
 
 class RootPageContext {
