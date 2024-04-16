@@ -142,6 +142,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                     child: FFButtonWidget(
                       onPressed: () {
                         print('Find Recipe Button pressed for $selectedIngredient');
+                        _showRecipeDialog(context);
                       },
                       text: 'Find Recipe',
                       options: FFButtonOptions(
@@ -166,67 +167,173 @@ class _FridgeWidgetState extends State<FridgeWidget> {
   }
 
   Widget buildIngredient(String name, String imageUrl, String expiry) {
-  bool isSelected = selectedIngredient == name;
-  return Padding(
-    padding: const EdgeInsetsDirectional.fromSTEB(16.0, 8.0, 16.0, 8.0),
-    child: InkWell(
-      onTap: () {
-        setState(() {
-          selectedIngredient = isSelected ? null : name; // Toggle selection
-        });
-      },
-      child: Container(
-        decoration: BoxDecoration(
-          color: isSelected ? FlutterFlowTheme.of(context).tertiary : FlutterFlowTheme.of(context).secondaryBackground,
-          borderRadius: BorderRadius.circular(8.0),
-          border: isSelected ? Border.all(color: FlutterFlowTheme.of(context).primary, width: 2) : null,
-        ),
-        child: Row(
-          mainAxisSize: MainAxisSize.max,
-          children: [
-            Padding(
-              padding: const EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
-              child: Container(
-                width: 100.0,
-                height: 100.0,
-                decoration: BoxDecoration(
-                  color: FlutterFlowTheme.of(context).secondaryBackground,
-                  borderRadius: BorderRadius.circular(8.0),
-                  image: DecorationImage(
-                    image: NetworkImage(imageUrl),
-                    fit: BoxFit.cover,
+    bool isSelected = selectedIngredient == name;
+    return Padding(
+      padding: const EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
+      child: InkWell(
+        onTap: () {
+          setState(() {
+            selectedIngredient = isSelected ? null : name; // Toggle selection
+          });
+        },
+        child: Container(
+          decoration: BoxDecoration(
+            color: isSelected ? FlutterFlowTheme.of(context).tertiary : FlutterFlowTheme.of(context).secondaryBackground,
+            borderRadius: BorderRadius.circular(8.0),
+            border: Border.all(color: Color(0xFF8476AB)), // Apply grayish purple border
+          ),
+          child: Row(
+            mainAxisSize: MainAxisSize.max,
+            children: [
+              Padding(
+                padding: const EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
+                child: Container(
+                  width: 100.0,
+                  height: 100.0,
+                  decoration: BoxDecoration(
+                    color: FlutterFlowTheme.of(context).secondaryBackground,
+                    borderRadius: BorderRadius.circular(8.0),
+                    image: DecorationImage(
+                      image: NetworkImage(imageUrl),
+                      fit: BoxFit.cover,
+                    ),
                   ),
                 ),
               ),
-            ),
-            Expanded(
-              child: Padding(
-                padding: const EdgeInsetsDirectional.fromSTEB(8.0, 0.0, 0.0, 12.0),
-                child: Column(
-                  mainAxisSize: MainAxisSize.max,
-                  crossAxisAlignment: CrossAxisAlignment.start,
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsetsDirectional.fromSTEB(8.0, 0.0, 0.0, 12.0),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.max,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        name,
+                        style: FlutterFlowTheme.of(context).titleMedium.override(
+                          fontFamily: 'Readex Pro',
+                          color: FlutterFlowTheme.of(context).primaryText,
+                        ),
+                      ),
+                      Text(
+                        expiry,
+                        style: FlutterFlowTheme.of(context).labelMedium.override(
+                          fontFamily: 'Readex Pro',
+                          color: FlutterFlowTheme.of(context).secondaryText,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  void _showRecipeDialog(BuildContext context) {
+  showDialog(
+    context: context,
+    builder: (BuildContext context) {
+      return Dialog(
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12.0)), // Smooth corner radius
+        child: Container(
+          width: MediaQuery.of(context).size.width * 0.8,
+          height: MediaQuery.of(context).size.height * 0.8,
+          padding: EdgeInsets.all(16.0),
+          child: Column(
+            children: [
+              // Dialog Title and Close Button
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    'Suggested Recipes',
+                    style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
+                  ),
+                  IconButton(
+                    icon: Icon(Icons.close),
+                    onPressed: () => Navigator.of(context).pop(),
+                  ),
+                ],
+              ),
+              Divider(),
+              Expanded(
+                child: ListView(
+                  // Replace with a dynamic list builder in a real app
                   children: [
-                    Text(
-                      name,
-                      style: FlutterFlowTheme.of(context).titleMedium.override(
-                        fontFamily: 'Readex Pro',
-                        color: FlutterFlowTheme.of(context).primaryText,
-                      ),
-                    ),
-                    Text(
-                      expiry,
-                      style: FlutterFlowTheme.of(context).labelMedium.override(
-                        fontFamily: 'Readex Pro',
-                        color: FlutterFlowTheme.of(context).secondaryText,
-                      ),
-                    ),
+                    _buildRecipeCard(),
+                    // ... Add more cards
                   ],
                 ),
               ),
-            ),
+            ],
+          ),
+        ),
+      );
+    },
+  );
+}
+
+Widget _buildRecipeCard() {
+  // Replace with your recipe model or data structure
+  String recipeTitle = "Charcoal Grilled Armadillo";
+  String authorName = "Yolanda Smith";
+  String description = "This recipe will give you the flaming shits! When I was born in Massachusetts...";
+  double rating = 4.7;
+  String difficulty = "Easy";
+
+  return Container(
+    margin: EdgeInsets.only(bottom: 16.0),
+    padding: EdgeInsets.all(16.0),
+    decoration: BoxDecoration(
+      color: Colors.white,
+      borderRadius: BorderRadius.circular(8.0),
+      boxShadow: [
+        BoxShadow(
+          color: Colors.grey.withOpacity(0.2),
+          spreadRadius: 1,
+          blurRadius: 1,
+          offset: Offset(0, 2), // changes position of shadow
+        ),
+      ],
+    ),
+    child: Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          recipeTitle,
+          style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
+        ),
+        SizedBox(height: 4.0),
+        Text(
+          authorName,
+          style: TextStyle(fontSize: 14.0, fontWeight: FontWeight.normal),
+        ),
+        SizedBox(height: 8.0),
+        Container(
+          height: 120.0, // Fixed height for the image
+          color: Colors.blue, // Placeholder color
+          // TODO: Add your image
+        ),
+        SizedBox(height: 8.0),
+        Text(
+          description,
+          maxLines: 3,
+          overflow: TextOverflow.ellipsis,
+          style: TextStyle(fontSize: 14.0),
+        ),
+        SizedBox(height: 8.0),
+        Row(
+          children: [
+            // Placeholder for rating bar
+            Text("⭐ $rating", style: TextStyle(fontSize: 14.0)),
+            Spacer(),
+            Text("Difficulty: $difficulty", style: TextStyle(fontSize: 14.0)),
           ],
         ),
-      ),
+      ],
     ),
   );
 }
