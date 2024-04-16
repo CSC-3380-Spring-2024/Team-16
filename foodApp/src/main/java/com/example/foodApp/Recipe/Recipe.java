@@ -31,6 +31,7 @@ public class Recipe {
     private int servingSize;
     private List<String> method;
     private String description;
+    private List<String> reviewId;
     private String backdrop;
 
     // Serving size that the recipe produces
