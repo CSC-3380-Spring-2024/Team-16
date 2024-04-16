@@ -5937,5 +5937,1810 @@
             ["Vanilla Ice Cream", "0 g"],
             ["Whipped Cream", "0 g"]
         ]
+    },
+    {
+        "name": "Dutch Apple Pie",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.0,
+        "servingSize": 8,
+        "method": [
+            "Preheat oven to 190°C.",
+            "Toss 600 g peeled and sliced apples with 200 g sugar, 5 g cinnamon, and 15 mL lemon juice. Place in a pie dish.",
+            "Mix 150 g flour and 100 g butter in a bowl until crumbly. Sprinkle over the apples.",
+            "Bake for 45 minutes or until the topping is golden brown.",
+            "Serve warm, optional to add vanilla ice cream."
+        ],
+        "description": "A classic Dutch apple pie with a sweet and buttery crumble topping, perfect for any occasion.",
+        "backdrop": "",
+        "ingredients": [
+            ["Apples", "600 g"],
+            ["Sugar", "200 g"],
+            ["Cinnamon", "5 g"],
+            ["Lemon Juice", "15 mL"],
+            ["Flour", "150 g"],
+            ["Butter", "100 g"],
+            ["Vanilla Ice Cream", "0 g"]
+        ]
+    },
+    {
+        "name": "Dijon Mustard Chicken",
+        "author": "System",
+        "starRating": 4.3,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Rub 4 chicken breasts with 30 g Dijon mustard and 2 minced garlic cloves.",
+            "Cook in a skillet over medium heat for 20 minutes or until the chicken is fully cooked.",
+            "Pour 200 mL cream into the skillet, reduce heat, and simmer for 10 more minutes.",
+            "Finish with 5 mL lemon juice and serve."
+        ],
+        "description": "Creamy and tangy Dijon mustard chicken, a simple yet flavorful dish for a hearty meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breasts", "4 units"],
+            ["Dijon Mustard", "30 g"],
+            ["Cream", "200 mL"],
+            ["Garlic", "2 cloves"],
+            ["Lemon Juice", "5 mL"]
+        ]
+    },
+    {
+        "name": "Date and Walnut Cake",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 3.0,
+        "servingSize": 10,
+        "method": [
+            "Preheat oven to 180°C.",
+            "Combine 250 g chopped dates and 100 g chopped walnuts with 200 g flour, 150 g sugar, and 3 beaten eggs into a batter.",
+            "Pour batter into a lined baking tin.",
+            "Bake for 55 minutes or until a skewer comes out clean.",
+            "Cool before serving."
+        ],
+        "description": "A moist and rich date cake with crunchy walnuts, perfect with afternoon tea or as a dessert.",
+        "backdrop": "",
+        "ingredients": [
+            ["Dates", "250 g"],
+            ["Walnuts", "100 g"],
+            ["Flour", "200 g"],
+            ["Sugar", "150 g"],
+            ["Butter", "100 g"],
+            ["Eggs", "3 units"],
+            ["Baking Powder", "5 g"]
+        ]
+    },
+    {
+        "name": "Dill Pickle Soup",
+        "author": "System",
+        "starRating": 4.2,
+        "difficultyRating": 2.5,
+        "servingSize": 6,
+        "method": [
+            "In a pot, sauté 1 diced onion until translucent.",
+            "Add 300 g chopped dill pickles and 200 g cubed potatoes.",
+            "Pour in 1 L of vegetable broth and bring to a boil, then simmer for 20 minutes.",
+            "Stir in 100 mL cream and 30 mL pickle juice, heat through.",
+            "Serve hot, garnished with fresh dill."
+        ],
+        "description": "A unique and savory soup with a tangy pickle twist, enriched with creamy undertones.",
+        "backdrop": "",
+        "ingredients": [
+            ["Dill Pickles", "300 g"],
+            ["Vegetable Broth", "1 L"],
+            ["Potatoes", "200 g"],
+            ["Onion", "1 unit"],
+            ["Cream", "100 mL"],
+            ["Pickle Juice", "30 mL"],
+            ["Dill", "2 tbsp"]
+        ]
+    },
+    {
+        "name": "Dark Chocolate Mousse",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Melt 200 g dark chocolate gently over a double boiler, then let cool slightly.",
+            "Whip 300 mL heavy cream to soft peaks.",
+            "Fold whipped cream into cooled chocolate until well combined.",
+            "Divide mixture into serving dishes and refrigerate for at least 2 hours.",
+            "Serve chilled, optionally garnished with chocolate shavings."
+        ],
+        "description": "A rich and velvety dark chocolate mousse, an indulgent dessert that's surprisingly easy to make.",
+        "backdrop": "",
+        "ingredients": [
+            ["Dark Chocolate", "200 g"],
+            ["Heavy Cream", "300 mL"]
+        ]
+    },
+    {
+        "name": "Duck à l'Orange",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 3.8,
+        "servingSize": 4,
+        "method": [
+            "Season 2 duck breasts with salt and pepper.",
+            "Sear duck skin-side down in a skillet over medium-high heat until golden, about 5 minutes each side.",
+            "Transfer duck to a preheated 200°C oven and roast for 8 minutes.",
+            "For the sauce, deglaze the skillet with 50 mL orange liqueur, add 150 mL chicken stock and the juice of 1 orange, and reduce by half.",
+            "Slice duck, serve with sauce."
+        ],
+        "description": "Classic French dish featuring duck with a tangy orange sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Duck Breasts", "2 units"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Orange Liqueur", "50 mL"],
+            ["Chicken Stock", "150 mL"],
+            ["Orange", "1 unit"]
+        ]
+    },
+    {
+        "name": "Dim Sum Shrimp Dumplings",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 4.0,
+        "servingSize": 6,
+        "method": [
+            "Mix 200 g chopped shrimp with 50 g finely chopped bamboo shoots, 2 tbsp soy sauce, and 1 tbsp sesame oil.",
+            "Wrap mixture in 20 g dumpling wrappers and seal edges with water.",
+            "Steam dumplings in a bamboo steamer over boiling water for 10 minutes.",
+            "Serve hot with additional soy sauce for dipping."
+        ],
+        "description": "Delicate and flavorful shrimp dumplings, a staple in Chinese cuisine.",
+        "backdrop": "",
+        "ingredients": [
+            ["Shrimp", "200 g"],
+            ["Bamboo Shoots", "50 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Sesame Oil", "15 mL"],
+            ["Dumpling Wrappers", "200 g"]
+        ]
+    },
+    {
+        "name": "Double Cheeseburger",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.5,
+        "servingSize": 2,
+        "method": [
+            "Form 400 g ground beef into 4 thin patties.",
+            "Cook patties on a grill over medium heat for 4 minutes each side.",
+            "Top each with a slice of cheddar cheese during the last minute of cooking to melt.",
+            "Assemble burgers with buns, lettuce, tomato, and ketchup."
+        ],
+        "description": "Juicy double cheeseburger with melted cheddar, a fast food classic.",
+        "backdrop": "",
+        "ingredients": [
+            ["Ground Beef", "400 g"],
+            ["Cheddar Cheese", "4 slices"],
+            ["Hamburger Buns", "2 units"],
+            ["Lettuce", "4 leaves"],
+            ["Tomato", "2 slices"],
+            ["Ketchup", "30 mL"]
+        ]
+    },
+    {
+        "name": "Dried Fig Biscotti",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.9,
+        "servingSize": 10,
+        "method": [
+            "Preheat oven to 180°C.",
+            "Mix 300 g flour, 150 g sugar, 1 tsp baking powder, and 2 beaten eggs into a dough.",
+            "Fold in 100 g chopped dried figs.",
+            "Shape dough into two logs, place on a baking sheet, and bake for 25 minutes.",
+            "Slice logs while warm, return slices to oven, and bake for another 10 minutes until crisp."
+        ],
+        "description": "Crunchy biscotti with sweet dried figs, perfect for coffee dipping.",
+        "backdrop": "",
+        "ingredients": [
+            ["Flour", "300 g"],
+            ["Sugar", "150 g"],
+            ["Baking Powder", "5 g"],
+            ["Eggs", "2 units"],
+            ["Dried Figs", "100 g"]
+        ]
+    },
+    {
+        "name": "Dandelion Green Salad",
+        "author": "System",
+        "starRating": 4.3,
+        "difficultyRating": 1.2,
+        "servingSize": 4,
+        "method": [
+            "Wash 300 g dandelion greens and pat dry.",
+            "Toss greens with 30 mL olive oil, 15 mL balsamic vinegar, and salt and pepper to taste.",
+            "Top with 50 g crumbled goat cheese and 30 g toasted pine nuts before serving."
+        ],
+        "description": "A refreshing and slightly bitter salad with dandelion greens, goat cheese, and pine nuts.",
+        "backdrop": "",
+        "ingredients": [
+            ["Dandelion Greens", "300 g"],
+            ["Olive Oil", "30 mL"],
+            ["Balsamic Vinegar", "15 mL"],
+            ["Goat Cheese", "50 g"],
+            ["Pine Nuts", "30 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Deviled Crab Cakes",
+        "author": "System",
+        "starRating": 4.4,
+        "difficultyRating": 2.8,
+        "servingSize": 4,
+        "method": [
+            "Combine 300 g crabmeat, 50 g breadcrumbs, 1 beaten egg, 10 mL Worcestershire sauce, and 5 g paprika in a bowl.",
+            "Form mixture into 8 cakes and chill for 30 minutes to set.",
+            "Pan-fry in 30 mL oil over medium heat for 4 minutes on each side or until golden brown.",
+            "Serve with lemon wedges and tartar sauce."
+        ],
+        "description": "Savory crab cakes with a hint of spice, perfect for a light meal or appetizer.",
+        "backdrop": "",
+        "ingredients": [
+            ["Crabmeat", "300 g"],
+            ["Breadcrumbs", "50 g"],
+            ["Egg", "1 unit"],
+            ["Worcestershire Sauce", "10 mL"],
+            ["Paprika", "5 g"],
+            ["Oil", "30 mL"],
+            ["Lemon Wedges", "4 units"],
+            ["Tartar Sauce", "50 g"]
+        ]
+    },
+    {
+        "name": "Duck Ramen",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 3.1,
+        "servingSize": 2,
+        "method": [
+            "Season 2 duck legs with salt and pepper, and roast at 200°C for 90 minutes until tender.",
+            "In a pot, simmer 1 L chicken broth with 30 mL soy sauce, 15 mL mirin, and 1 clove minced garlic for 30 minutes.",
+            "Shred duck meat and add to broth. Cook 200 g ramen noodles in broth for 5 minutes.",
+            "Serve hot, topped with sliced green onions and boiled egg halves."
+        ],
+        "description": "Rich and flavorful duck ramen with tender meat and a deeply seasoned broth.",
+        "backdrop": "",
+        "ingredients": [
+            ["Duck Legs", "2 units"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Chicken Broth", "1 L"],
+            ["Soy Sauce", "30 mL"],
+            ["Mirin", "15 mL"],
+            ["Garlic", "1 clove"],
+            ["Ramen Noodles", "200 g"],
+            ["Green Onions", "2 units"],
+            ["Boiled Eggs", "2 units"]
+        ]
+    },
+    {
+        "name": "Dandelion Wine",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 4.3,
+        "servingSize": 10,
+        "method": [
+            "Pick 400 g fresh dandelion flowers and rinse thoroughly.",
+            "Boil flowers in 1 L water with 200 g sugar and the zest of 1 lemon until sugar dissolves.",
+            "Cool to room temperature, add 5 g yeast, and ferment in a sealed container for 60 days.",
+            "Strain and bottle the wine, then age for at least 6 months before serving."
+        ],
+        "description": "Homemade dandelion wine with a floral and slightly sweet taste, perfect for special occasions.",
+        "backdrop": "",
+        "ingredients": [
+            ["Dandelion Flowers", "400 g"],
+            ["Water", "1 L"],
+            ["Sugar", "200 g"],
+            ["Lemon Zest", "1 unit"],
+            ["Yeast", "5 g"]
+        ]
+    },
+    {
+        "name": "Dulce de Leche Brownies",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.0,
+        "servingSize": 8,
+        "method": [
+            "Preheat oven to 180°C.",
+            "Mix 100 g melted butter with 200 g sugar and 2 beaten eggs until smooth.",
+            "Stir in 100 g flour, 30 g cocoa powder, and 5 g salt.",
+            "Swirl in 100 g dulce de leche and pour into a greased baking dish.",
+            "Bake for 25 minutes or until a toothpick comes out with moist crumbs.",
+            "Cool and cut into squares before serving."
+        ],
+        "description": "Decadent brownies with rich swirls of dulce de leche, a chocolate lover’s dream.",
+        "backdrop": "",
+        "ingredients": [
+            ["Butter", "100 g"],
+            ["Sugar", "200 g"],
+            ["Eggs", "2 units"],
+            ["Flour", "100 g"],
+            ["Cocoa Powder", "30 g"],
+            ["Salt", "5 g"],
+            ["Dulce de Leche", "100 g"]
+        ]
+    },
+    {
+        "name": "Dijon Roasted Potatoes",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Preheat oven to 200°C.",
+            "Toss 500 g cubed potatoes with 30 mL olive oil, 20 g Dijon mustard, 5 g garlic powder, and salt and pepper to taste.",
+            "Spread on a baking sheet and roast for 35 minutes, stirring halfway through, until crispy and golden.",
+            "Serve immediately, garnished with fresh parsley."
+        ],
+        "description": "Crispy roasted potatoes with a tangy Dijon mustard coating, an easy and flavorful side dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Potatoes", "500 g"],
+            ["Olive Oil", "30 mL"],
+            ["Dijon Mustard", "20 g"],
+            ["Garlic Powder", "5 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Parsley", "5 g"]
+        ]
+    },
+    {
+        "name": "Date Nut Loaf",
+        "author": "System",
+        "starRating": 4.3,
+        "difficultyRating": 2.5,
+        "servingSize": 8,
+        "method": [
+            "Preheat oven to 175°C.",
+            "In a bowl, mix 200 g chopped dates, 100 g chopped walnuts, 250 g flour, 100 g brown sugar, 5 g baking soda, and 1 beaten egg.",
+            "Add 250 mL boiling water and stir until combined.",
+            "Pour into a greased loaf pan and bake for 60 minutes or until a toothpick inserted comes out clean.",
+            "Cool in the pan for 10 minutes, then remove to cool completely on a wire rack."
+        ],
+        "description": "Moist and hearty date nut loaf, perfect for breakfast or as a snack.",
+        "backdrop": "",
+        "ingredients": [
+            ["Dates", "200 g"],
+            ["Walnuts", "100 g"],
+            ["Flour", "250 g"],
+            ["Brown Sugar", "100 g"],
+            ["Baking Soda", "5 g"],
+            ["Egg", "1 unit"],
+            ["Water", "250 mL"]
+        ]
+    },
+    {
+        "name": "Dried Tomato Pesto Pasta",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "In a food processor, blend 150 g dried tomatoes, 50 g pine nuts, 50 g grated Parmesan, 2 cloves garlic, and 30 mL olive oil into a smooth paste.",
+            "Cook 400 g pasta according to package instructions, drain.",
+            "Toss hot pasta with tomato pesto.",
+            "Serve garnished with additional Parmesan and fresh basil leaves."
+        ],
+        "description": "Rich and flavorful pasta coated in a homemade dried tomato pesto.",
+        "backdrop": "",
+        "ingredients": [
+            ["Dried Tomatoes", "150 g"],
+            ["Pine Nuts", "50 g"],
+            ["Parmesan", "50 g"],
+            ["Garlic", "2 cloves"],
+            ["Olive Oil", "30 mL"],
+            ["Pasta", "400 g"],
+            ["Basil Leaves", "10 g"]
+        ]
+    },
+    {
+        "name": "Duck Pate",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 3.6,
+        "servingSize": 10,
+        "method": [
+            "In a skillet, cook 500 g duck liver and 1 chopped onion in 30 mL brandy until liver is browned.",
+            "Transfer to a food processor, add 200 g softened butter, 5 g thyme, and blend until smooth.",
+            "Season with salt and pepper, then press into a mold lined with cling film.",
+            "Chill for at least 4 hours or overnight.",
+            "Unmold and serve with crackers or toast points."
+        ],
+        "description": "A smooth and rich duck pate, infused with brandy and thyme, perfect for an elegant appetizer.",
+        "backdrop": "",
+        "ingredients": [
+            ["Duck Liver", "500 g"],
+            ["Onion", "1 unit"],
+            ["Brandy", "30 mL"],
+            ["Butter", "200 g"],
+            ["Thyme", "5 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Dill Cucumber Salad",
+        "author": "System",
+        "starRating": 4.2,
+        "difficultyRating": 1.3,
+        "servingSize": 4,
+        "method": [
+            "Thinly slice 300 g cucumbers and 1 small red onion.",
+            "In a bowl, mix 15 mL vinegar, 30 mL olive oil, 5 g chopped dill, salt, and pepper.",
+            "Add cucumbers and onion to the dressing and toss to coat.",
+            "Chill for 30 minutes before serving."
+        ],
+        "description": "A light and refreshing salad featuring crisp cucumbers, dill, and a simple vinaigrette.",
+        "backdrop": "",
+        "ingredients": [
+            ["Cucumbers", "300 g"],
+            ["Red Onion", "1 small unit"],
+            ["Vinegar", "15 mL"],
+            ["Olive Oil", "30 mL"],
+            ["Dill", "5 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Dry Rubbed Steak",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.9,
+        "servingSize": 2,
+        "method": [
+            "Mix 5 g salt, 5 g black pepper, 5 g garlic powder, 5 g onion powder, and 5 g smoked paprika.",
+            "Rub mixture onto 500 g ribeye steak, covering all sides.",
+            "Let steak sit at room temperature for 30 minutes.",
+            "Grill over high heat for 4 minutes per side for medium-rare.",
+            "Rest steak for 10 minutes before slicing and serving."
+        ],
+        "description": "Perfectly seasoned steak with a homemade dry rub, grilled to juicy perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Ribeye Steak", "500 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Garlic Powder", "5 g"],
+            ["Onion Powder", "5 g"],
+            ["Smoked Paprika", "5 g"]
+        ]
+    },
+    {
+        "name": "Danish Blue Cheese Salad",
+        "author": "System",
+        "starRating": 4.4,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Combine 150 g mixed salad greens, 100 g sliced cucumbers, and 50 g halved cherry tomatoes in a salad bowl.",
+            "Crumble 100 g Danish blue cheese over the top.",
+            "In a small jar, shake together 30 mL olive oil, 15 mL balsamic vinegar, salt, and pepper to make dressing.",
+            "Drizzle dressing over the salad and toss gently before serving."
+        ],
+        "description": "A fresh and sharp salad featuring Danish blue cheese and a simple homemade vinaigrette.",
+        "backdrop": "",
+        "ingredients": [
+            ["Mixed Salad Greens", "150 g"],
+            ["Cucumbers", "100 g"],
+            ["Cherry Tomatoes", "50 g"],
+            ["Danish Blue Cheese", "100 g"],
+            ["Olive Oil", "30 mL"],
+            ["Balsamic Vinegar", "15 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Duck and Orange Risotto",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 3.5,
+        "servingSize": 4,
+        "method": [
+            "In a saucepan, cook 200 g chopped duck breast over medium heat until browned.",
+            "Add 1 chopped onion and cook until translucent.",
+            "Stir in 300 g Arborio rice until well coated with the duck fat.",
+            "Gradually add 1 L chicken stock, stirring continuously, until the rice is creamy and al dente, about 18 minutes.",
+            "Stir in the zest of 1 orange, juice of the orange, and 50 g grated Parmesan before serving."
+        ],
+        "description": "Luxurious risotto with rich duck and vibrant orange flavors, finished with Parmesan.",
+        "backdrop": "",
+        "ingredients": [
+            ["Duck Breast", "200 g"],
+            ["Onion", "1 unit"],
+            ["Arborio Rice", "300 g"],
+            ["Chicken Stock", "1 L"],
+            ["Orange", "1 unit"],
+            ["Parmesan", "50 g"]
+        ]
+    },
+    {
+        "name": "Dark Ale Onion Soup",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.1,
+        "servingSize": 6,
+        "method": [
+            "In a large pot, melt 50 g butter and add 600 g thinly sliced onions, cooking on low heat until caramelized, about 30 minutes.",
+            "Stir in 1 tsp sugar and cook for an additional 10 minutes.",
+            "Pour in 500 mL dark ale and 1 L beef broth, bring to a simmer, and cook for 45 minutes.",
+            "Serve hot with toasted baguette slices topped with melted Gruyere cheese."
+        ],
+        "description": "Hearty onion soup enriched with dark ale, topped with a cheesy baguette slice.",
+        "backdrop": "",
+        "ingredients": [
+            ["Butter", "50 g"],
+            ["Onions", "600 g"],
+            ["Sugar", "5 g"],
+            ["Dark Ale", "500 mL"],
+            ["Beef Broth", "1 L"],
+            ["Baguette", "6 slices"],
+            ["Gruyere Cheese", "100 g"]
+        ]
+    },
+    {
+        "name": "Dried Apricot Compote",
+        "author": "System",
+        "starRating": 4.2,
+        "difficultyRating": 1.7,
+        "servingSize": 8,
+        "method": [
+            "In a saucepan, combine 300 g dried apricots with 500 mL water, 100 g sugar, and 1 cinnamon stick.",
+            "Bring to a boil, then reduce heat and simmer for 20 minutes.",
+            "Remove cinnamon stick and serve the compote warm or chilled."
+        ],
+        "description": "Sweet and tangy dried apricot compote, perfect as a dessert or yogurt topping.",
+        "backdrop": "",
+        "ingredients": [
+            ["Dried Apricots", "300 g"],
+            ["Water", "500 mL"],
+            ["Sugar", "100 g"],
+            ["Cinnamon Stick", "1 unit"]
+        ]
+    },
+    {
+        "name": "Double Chocolate Cookies",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.0,
+        "servingSize": 12,
+        "method": [
+            "Preheat oven to 180°C.",
+            "In a mixing bowl, cream together 100 g butter and 150 g sugar until light and fluffy.",
+            "Beat in 1 egg and 1 tsp vanilla extract.",
+            "Mix in 200 g flour, 30 g cocoa powder, 1 tsp baking soda, and a pinch of salt until combined.",
+            "Stir in 100 g chopped dark chocolate and 100 g milk chocolate chips.",
+            "Drop spoonfuls of the dough onto a baking sheet and bake for 10 minutes or until the edges are set but the center is still soft.",
+            "Cool on the baking sheet for 5 minutes before transferring to a wire rack to cool completely."
+        ],
+        "description": "Rich and gooey double chocolate cookies, loaded with dark and milk chocolate.",
+        "backdrop": "",
+        "ingredients": [
+            ["Butter", "100 g"],
+            ["Sugar", "150 g"],
+            ["Egg", "1 unit"],
+            ["Vanilla Extract", "5 mL"],
+            ["Flour", "200 g"],
+            ["Cocoa Powder", "30 g"],
+            ["Baking Soda", "5 g"],
+            ["Salt", "1 g"],
+            ["Dark Chocolate", "100 g"],
+            ["Milk Chocolate Chips", "100 g"]
+        ]
+    },
+    {
+        "name": "Dairy-Free Vanilla Pudding",
+        "author": "System",
+        "starRating": 4.2,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "In a saucepan, mix 500 mL almond milk, 100 g sugar, and 30 g cornstarch.",
+            "Cook over medium heat, stirring constantly, until the mixture thickens, about 10 minutes.",
+            "Remove from heat, stir in 5 mL vanilla extract.",
+            "Pour into serving dishes and chill for at least 2 hours before serving."
+        ],
+        "description": "A smooth and creamy vanilla pudding, perfect for those looking for a dairy-free dessert option.",
+        "backdrop": "",
+        "ingredients": [
+            ["Almond Milk", "500 mL"],
+            ["Sugar", "100 g"],
+            ["Cornstarch", "30 g"],
+            ["Vanilla Extract", "5 mL"]
+        ]
+    },
+    {
+        "name": "Dandelion Honey Tea",
+        "author": "System",
+        "starRating": 4.3,
+        "difficultyRating": 1.0,
+        "servingSize": 2,
+        "method": [
+            "Boil 500 mL water in a kettle.",
+            "Add 15 g dried dandelion leaves and steep for 10 minutes.",
+            "Strain the tea into cups and stir in 20 g honey.",
+            "Serve warm."
+        ],
+        "description": "Herbal and soothing, this dandelion tea sweetened with honey is a comforting drink.",
+        "backdrop": "",
+        "ingredients": [
+            ["Water", "500 mL"],
+            ["Dried Dandelion Leaves", "15 g"],
+            ["Honey", "20 g"]
+        ]
+    },
+    {
+        "name": "Dry-Aged Beef Tacos",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Cook 500 g dry-aged beef strips in a skillet over high heat until browned, about 5 minutes.",
+            "Add 10 mL lime juice and 5 g cumin.",
+            "Warm 8 corn tortillas in a dry pan.",
+            "Assemble tacos by placing beef in tortillas, topped with 100 g chopped lettuce, 50 g diced tomatoes, and 30 g shredded cheese.",
+            "Serve with 30 mL salsa."
+        ],
+        "description": "Flavorful and hearty tacos made with premium dry-aged beef, a festive and tasty meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Dry-Aged Beef", "500 g"],
+            ["Lime Juice", "10 mL"],
+            ["Cumin", "5 g"],
+            ["Corn Tortillas", "8 units"],
+            ["Lettuce", "100 g"],
+            ["Tomatoes", "50 g"],
+            ["Cheese", "30 g"],
+            ["Salsa", "30 mL"]
+        ]
+    },
+    {
+        "name": "Dijon Maple Glazed Salmon",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Preheat oven to 200°C.",
+            "In a small bowl, mix 30 g Dijon mustard, 30 mL maple syrup, 5 mL soy sauce, and 1 clove minced garlic.",
+            "Place 4 salmon fillets on a greased baking sheet and brush with the glaze.",
+            "Bake for 15 minutes or until salmon is cooked through.",
+            "Serve garnished with chopped parsley."
+        ],
+        "description": "Sweet and tangy glazed salmon, a quick and elegant main dish perfect for any night of the week.",
+        "backdrop": "",
+        "ingredients": [
+            ["Dijon Mustard", "30 g"],
+            ["Maple Syrup", "30 mL"],
+            ["Soy Sauce", "5 mL"],
+            ["Garlic", "1 clove"],
+            ["Salmon Fillets", "4 units"],
+            ["Parsley", "5 g"]
+        ]
+    },
+    {
+        "name": "Dried Cherry and Almond Biscotti",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.8,
+        "servingSize": 10,
+        "method": [
+            "Preheat oven to 180°C.",
+            "In a large bowl, mix 250 g flour, 150 g sugar, 1 tsp baking powder, and 3 beaten eggs until combined.",
+            "Stir in 100 g dried cherries and 100 g chopped almonds.",
+            "Form the dough into two logs on a lined baking sheet and bake for 35 minutes.",
+            "Remove from oven, slice diagonally, and bake again for 10 minutes until crisp.",
+            "Cool on a wire rack."
+        ],
+        "description": "Crunchy biscotti loaded with sweet dried cherries and nutty almonds, perfect for dipping in coffee or tea.",
+        "backdrop": "",
+        "ingredients": [
+            ["Flour", "250 g"],
+            ["Sugar", "150 g"],
+            ["Baking Powder", "5 g"],
+            ["Eggs", "3 units"],
+            ["Dried Cherries", "100 g"],
+            ["Almonds", "100 g"]
+        ]
+    },
+    {
+        "name": "Duck Breast with Cherry Sauce",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 3.5,
+        "servingSize": 2,
+        "method": [
+            "Score the skin of 2 duck breasts and season with salt and pepper.",
+            "Place skin side down in a cold skillet, turn heat to medium, and cook until fat is rendered and skin is crisp, about 8 minutes.",
+            "Flip and cook for another 5 minutes for medium rare. Rest for 10 minutes.",
+            "For the sauce, deglaze the pan with 50 mL red wine, add 100 g pitted cherries, 10 g sugar, and simmer until thickened.",
+            "Slice duck and serve with cherry sauce."
+        ],
+        "description": "Tender duck breasts with a sweet and tangy cherry sauce, perfect for a sophisticated dinner.",
+        "backdrop": "",
+        "ingredients": [
+            ["Duck Breasts", "2 units"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Red Wine", "50 mL"],
+            ["Cherries", "100 g"],
+            ["Sugar", "10 g"]
+        ]
+    },
+    {
+        "name": "Durian Smoothie",
+        "author": "System",
+        "starRating": 4.2,
+        "difficultyRating": 1.8,
+        "servingSize": 2,
+        "method": [
+            "Combine 150 g durian flesh, 200 mL coconut milk, 50 g ice, and 10 mL honey in a blender.",
+            "Blend until smooth.",
+            "Serve immediately, garnished with a sprig of mint."
+        ],
+        "description": "Creamy and distinctively flavored smoothie made with durian fruit and coconut milk.",
+        "backdrop": "",
+        "ingredients": [
+            ["Durian Flesh", "150 g"],
+            ["Coconut Milk", "200 mL"],
+            ["Ice", "50 g"],
+            ["Honey", "10 mL"],
+            ["Mint", "1 sprig"]
+        ]
+    },
+    {
+        "name": "Dilled Salmon Patties",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Mix 400 g canned salmon, drained, with 100 g bread crumbs, 1 beaten egg, 15 mL lemon juice, and 5 g chopped dill.",
+            "Form into 8 patties.",
+            "Fry patties in 30 mL olive oil over medium heat until golden on each side, about 4 minutes per side.",
+            "Serve hot with tartar sauce."
+        ],
+        "description": "Easy-to-make salmon patties with a fresh hint of dill, ideal for a quick meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Canned Salmon", "400 g"],
+            ["Bread Crumbs", "100 g"],
+            ["Egg", "1 unit"],
+            ["Lemon Juice", "15 mL"],
+            ["Dill", "5 g"],
+            ["Olive Oil", "30 mL"],
+            ["Tartar Sauce", "50 mL"]
+        ]
+    },
+    {
+        "name": "Double Bean Chili",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.3,
+        "servingSize": 6,
+        "method": [
+            "In a large pot, sauté 1 chopped onion and 2 cloves minced garlic in 30 mL vegetable oil until soft.",
+            "Add 200 g chopped tomatoes, 400 g drained kidney beans, 400 g drained black beans, 500 mL vegetable broth, 10 g chili powder, and 5 g cumin.",
+            "Simmer for 30 minutes, stirring occasionally.",
+            "Serve hot, topped with shredded cheddar cheese and sour cream."
+        ],
+        "description": "Hearty and spicy chili with kidney and black beans, perfect for a cold day.",
+        "backdrop": "",
+        "ingredients": [
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Vegetable Oil", "30 mL"],
+            ["Tomatoes", "200 g"],
+            ["Kidney Beans", "400 g"],
+            ["Black Beans", "400 g"],
+            ["Vegetable Broth", "500 mL"],
+            ["Chili Powder", "10 g"],
+            ["Cumin", "5 g"],
+            ["Cheddar Cheese", "50 g"],
+            ["Sour Cream", "50 mL"]
+        ]
+    },
+    {
+        "name": "Dill Pickled Beets",
+        "author": "System",
+        "starRating": 4.4,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Peel and slice 500 g beets into thin strips.",
+            "In a saucepan, bring 250 mL water, 125 mL vinegar, 50 g sugar, and 5 g salt to a boil.",
+            "Add beets and simmer for 10 minutes.",
+            "Stir in 5 g chopped dill, then transfer to jars and seal.",
+            "Chill for at least 48 hours before serving."
+        ],
+        "description": "Tangy and flavorful pickled beets with a hint of dill, a great addition to salads or as a side dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Beets", "500 g"],
+            ["Water", "250 mL"],
+            ["Vinegar", "125 mL"],
+            ["Sugar", "50 g"],
+            ["Salt", "5 g"],
+            ["Dill", "5 g"]
+        ]
+    },
+    {
+        "name": "Dark Chocolate Fondue",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "In a double boiler, melt 300 g dark chocolate with 150 mL heavy cream until smooth.",
+            "Stir in 5 mL vanilla extract.",
+            "Transfer to a fondue pot and keep warm.",
+            "Serve with assorted fruits and marshmallows for dipping."
+        ],
+        "description": "Rich and velvety dark chocolate fondue, perfect for dipping fruits and marshmallows.",
+        "backdrop": "",
+        "ingredients": [
+            ["Dark Chocolate", "300 g"],
+            ["Heavy Cream", "150 mL"],
+            ["Vanilla Extract", "5 mL"],
+            ["Assorted Fruits", "200 g"],
+            ["Marshmallows", "100 g"]
+        ]
+    },
+    {
+        "name": "Dijon Crusted Lamb Chops",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 3.0,
+        "servingSize": 2,
+        "method": [
+            "Rub 4 lamb chops with 20 g Dijon mustard.",
+            "Coat with a mixture of 50 g breadcrumbs, 5 g rosemary, and 2 g salt.",
+            "In a skillet, heat 15 mL olive oil over medium heat and cook lamb chops for 3 minutes each side for medium-rare.",
+            "Rest for 5 minutes before serving."
+        ],
+        "description": "Savory lamb chops with a mustard and rosemary crust, cooked to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lamb Chops", "4 units"],
+            ["Dijon Mustard", "20 g"],
+            ["Breadcrumbs", "50 g"],
+            ["Rosemary", "5 g"],
+            ["Salt", "2 g"],
+            ["Olive Oil", "15 mL"]
+        ]
+    },
+    {
+        "name": "Duck Fat Potatoes",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "Cube 600 g potatoes and toss with 30 g duck fat, 5 g salt, and 2 g black pepper.",
+            "Roast in a preheated oven at 200°C for 45 minutes, turning occasionally, until golden and crisp.",
+            "Garnish with 5 g chopped parsley and serve."
+        ],
+        "description": "Crispy potatoes roasted in duck fat, seasoned simply with salt and pepper.",
+        "backdrop": "",
+        "ingredients": [
+            ["Potatoes", "600 g"],
+            ["Duck Fat", "30 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "2 g"],
+            ["Parsley", "5 g"]
+        ]
+    },
+    {
+        "name": "Dulce de Leche Crepes",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.5,
+        "servingSize": 4,
+        "method": [
+            "Prepare crepe batter by whisking together 100 g flour, 250 mL milk, 1 beaten egg, and 1 g salt.",
+            "Cook thin crepes in a nonstick skillet, about 2 minutes per side.",
+            "Spread each crepe with 20 g dulce de leche, fold, and serve warm."
+        ],
+        "description": "Sweet and creamy crepes filled with rich dulce de leche, a delightful dessert or breakfast treat.",
+        "backdrop": "",
+        "ingredients": [
+            ["Flour", "100 g"],
+            ["Milk", "250 mL"],
+            ["Egg", "1 unit"],
+            ["Salt", "1 g"],
+            ["Dulce de Leche", "80 g"]
+        ]
+    },
+    {
+        "name": "Dragon Fruit Parfait",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.3,
+        "servingSize": 2,
+        "method": [
+            "Cube 1 dragon fruit and layer in two glasses with 100 g yogurt and 30 g granola.",
+            "Repeat the layers until all ingredients are used.",
+            "Top with a drizzle of 10 mL honey and a sprinkle of 5 g chia seeds.",
+            "Serve immediately or chill until ready to serve."
+        ],
+        "description": "A visually striking and healthy parfait with layers of dragon fruit, yogurt, and granola.",
+        "backdrop": "",
+        "ingredients": [
+            ["Dragon Fruit", "1 unit"],
+            ["Yogurt", "100 g"],
+            ["Granola", "30 g"],
+            ["Honey", "10 mL"],
+            ["Chia Seeds", "5 g"]
+        ]
+    },
+    {
+        "name": "Deviled Egg Salad",
+        "author": "System",
+        "starRating": 4.4,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Boil 8 eggs for 10 minutes, cool, peel, and chop.",
+            "Mix eggs with 50 g mayonnaise, 10 g mustard, 5 g paprika, salt, and pepper.",
+            "Stir in 30 g chopped celery and 20 g chopped onions.",
+            "Chill for 1 hour and serve on lettuce leaves."
+        ],
+        "description": "A twist on traditional deviled eggs, turned into a delightful and creamy egg salad.",
+        "backdrop": "",
+        "ingredients": [
+            ["Eggs", "8 units"],
+            ["Mayonnaise", "50 g"],
+            ["Mustard", "10 g"],
+            ["Paprika", "5 g"],
+            ["Celery", "30 g"],
+            ["Onion", "20 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Lettuce Leaves", "4 units"]
+        ]
+    },
+    {
+        "name": "Dutch Baby Pancake",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Preheat oven to 220°C and place a 25 cm cast iron skillet inside to heat.",
+            "Whisk together 100 g flour, 200 mL milk, 3 eggs, 30 g sugar, and 5 mL vanilla extract.",
+            "Remove skillet from oven, add 30 g butter to melt, then pour in batter.",
+            "Bake for 20 minutes until puffed and golden.",
+            "Serve immediately with powdered sugar and lemon wedges."
+        ],
+        "description": "A large, fluffy pancake that bakes in the oven, with a custard-like texture.",
+        "backdrop": "",
+        "ingredients": [
+            ["Flour", "100 g"],
+            ["Milk", "200 mL"],
+            ["Eggs", "3 units"],
+            ["Sugar", "30 g"],
+            ["Vanilla Extract", "5 mL"],
+            ["Butter", "30 g"],
+            ["Powdered Sugar", "20 g"],
+            ["Lemon Wedges", "4 units"]
+        ]
+    },
+    {
+        "name": "Dry Fried String Beans",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Heat 30 mL vegetable oil in a wok over high heat.",
+            "Add 500 g trimmed string beans and stir-fry until blistered and slightly charred, about 7 minutes.",
+            "Add 10 g minced garlic, 10 g minced ginger, and stir-fry for 1 minute.",
+            "Season with 5 mL soy sauce and 5 g sesame oil before serving."
+        ],
+        "description": "Sichuan-inspired dish where string beans are fried to a crispy texture without any batter.",
+        "backdrop": "",
+        "ingredients": [
+            ["String Beans", "500 g"],
+            ["Vegetable Oil", "30 mL"],
+            ["Garlic", "10 g"],
+            ["Ginger", "10 g"],
+            ["Soy Sauce", "5 mL"],
+            ["Sesame Oil", "5 g"]
+        ]
+    },
+    {
+        "name": "Dark Rye Bread",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.5,
+        "servingSize": 8,
+        "method": [
+            "Combine 300 g rye flour, 200 g bread flour, 10 g salt, 5 g sugar, and 10 g active dry yeast in a large bowl.",
+            "Add 350 mL warm water and knead until smooth, about 10 minutes.",
+            "Let rise in a warm place for 1 hour.",
+            "Shape into a loaf, let rise again for 30 minutes, then bake in a preheated oven at 200°C for 30 minutes.",
+            "Cool on a wire rack."
+        ],
+        "description": "Hearty and flavorful bread made from dark rye, perfect for sandwiches or toasting.",
+        "backdrop": "",
+        "ingredients": [
+            ["Rye Flour", "300 g"],
+            ["Bread Flour", "200 g"],
+            ["Salt", "10 g"],
+            ["Sugar", "5 g"],
+            ["Active Dry Yeast", "10 g"],
+            ["Water", "350 mL"]
+        ]
+    },
+    {
+        "name": "Dumpling Soup",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 3.1,
+        "servingSize": 6,
+        "method": [
+            "Prepare dumplings by mixing 200 g minced pork, 50 g chopped cabbage, 20 g minced scallions, 5 g salt, and 5 g pepper.",
+            "Wrap mixture in 30 g dumpling wrappers.",
+            "Bring 1.5 L chicken broth to a boil, add dumplings, and cook for 5 minutes.",
+            "Season with 10 mL soy sauce and 5 g minced ginger.",
+            "Garnish with chopped cilantro and serve hot."
+        ],
+        "description": "Comforting soup with homemade pork dumplings simmered in a flavorful broth.",
+        "backdrop": "",
+        "ingredients": [
+            ["Minced Pork", "200 g"],
+            ["Cabbage", "50 g"],
+            ["Scallions", "20 g"],
+            ["Salt", "5 g"],
+            ["Pepper", "5 g"],
+            ["Dumpling Wrappers", "30 g"],
+            ["Chicken Broth", "1.5 L"],
+            ["Soy Sauce", "10 mL"],
+            ["Ginger", "5 g"],
+            ["Cilantro", "10 g"]
+        ]
+    },
+    {
+        "name": "Duck and Watermelon Salad",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 3.2,
+        "servingSize": 4,
+        "method": [
+            "Season 400 g duck breast with salt and pepper, sear in a hot skillet until medium rare, about 7 minutes per side. Let rest and slice thinly.",
+            "Combine sliced duck with 500 g cubed watermelon, 100 g arugula, and 50 g crumbled feta cheese in a large bowl.",
+            "Whisk together 30 mL olive oil, 15 mL balsamic vinegar, and 5 g honey for the dressing.",
+            "Toss the salad with the dressing and serve immediately."
+        ],
+        "description": "Refreshing summer salad with juicy watermelon and rich duck breast, dressed in a sweet balsamic glaze.",
+        "backdrop": "",
+        "ingredients": [
+            ["Duck Breast", "400 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Watermelon", "500 g"],
+            ["Arugula", "100 g"],
+            ["Feta Cheese", "50 g"],
+            ["Olive Oil", "30 mL"],
+            ["Balsamic Vinegar", "15 mL"],
+            ["Honey", "5 g"]
+        ]
+    },
+    {
+        "name": "Date and Almond Energy Balls",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.3,
+        "servingSize": 10,
+        "method": [
+            "In a food processor, blend 200 g pitted dates, 100 g almonds, and 50 g shredded coconut until sticky.",
+            "Form the mixture into 20 small balls.",
+            "Roll each ball in 30 g sesame seeds for coating.",
+            "Chill in the refrigerator for 2 hours before serving."
+        ],
+        "description": "No-bake energy balls packed with dates, almonds, and coconut, perfect for a quick snack or energy boost.",
+        "backdrop": "",
+        "ingredients": [
+            ["Dates", "200 g"],
+            ["Almonds", "100 g"],
+            ["Shredded Coconut", "50 g"],
+            ["Sesame Seeds", "30 g"]
+        ]
+    },
+    {
+        "name": "Dijon-Braised Brussels Sprouts",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Trim and halve 500 g Brussels sprouts.",
+            "Heat 15 mL olive oil in a skillet over medium heat and sauté sprouts until golden, about 5 minutes.",
+            "Add 100 mL chicken broth and 15 g Dijon mustard, cover and simmer for 10 minutes until tender.",
+            "Season with salt and pepper and serve warm."
+        ],
+        "description": "Tender Brussels sprouts braised with Dijon mustard and chicken broth, a flavorful side dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Brussels Sprouts", "500 g"],
+            ["Olive Oil", "15 mL"],
+            ["Chicken Broth", "100 mL"],
+            ["Dijon Mustard", "15 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Dark Soy Glazed Tofu",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Cut 400 g firm tofu into cubes.",
+            "In a pan, heat 15 mL vegetable oil over medium heat and fry tofu until golden on all sides, about 8 minutes.",
+            "Add 30 mL dark soy sauce and 20 mL honey, glaze tofu evenly, and cook for another 2 minutes.",
+            "Sprinkle with 5 g sesame seeds and serve with steamed rice."
+        ],
+        "description": "Crispy tofu cubes with a sweet and savory dark soy and honey glaze, sprinkled with sesame seeds.",
+        "backdrop": "",
+        "ingredients": [
+            ["Firm Tofu", "400 g"],
+            ["Vegetable Oil", "15 mL"],
+            ["Dark Soy Sauce", "30 mL"],
+            ["Honey", "20 mL"],
+            ["Sesame Seeds", "5 g"],
+            ["Steamed Rice", "200 g"]
+        ]
+    },
+    {
+        "name": "Dry Spice Rubbed Ribs",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.8,
+        "servingSize": 6,
+        "method": [
+            "Mix 10 g smoked paprika, 10 g brown sugar, 5 g salt, 5 g black pepper, and 2 g cayenne pepper.",
+            "Rub the spice mix onto 1 kg pork ribs evenly.",
+            "Wrap ribs in foil and bake in a preheated 160°C oven for 3 hours.",
+            "Unwrap and grill for 10 minutes for a charred finish.",
+            "Serve hot with barbecue sauce."
+        ],
+        "description": "Fall-off-the-bone pork ribs coated with a smoky and spicy dry rub, slow-baked and finished on the grill.",
+        "backdrop": "",
+        "ingredients": [
+            ["Smoked Paprika", "10 g"],
+            ["Brown Sugar", "10 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Cayenne Pepper", "2 g"],
+            ["Pork Ribs", "1 kg"],
+            ["Barbecue Sauce", "50 mL"]
+        ]
+    },
+    {
+        "name": "Dandelion Tea",
+        "author": "System",
+        "starRating": 4.2,
+        "difficultyRating": 1.0,
+        "servingSize": 4,
+        "method": [
+            "Boil 1 L of water in a kettle.",
+            "Add 20 g of dried dandelion leaves and steep for 10 minutes.",
+            "Strain and serve hot, with optional honey or lemon for flavor."
+        ],
+        "description": "A herbal detox tea made from dandelion leaves, known for its health benefits.",
+        "backdrop": "",
+        "ingredients": [
+            ["Water", "1 L"],
+            ["Dried Dandelion Leaves", "20 g"]
+        ]
+    },
+    {
+        "name": "Dried Fig and Ricotta Tart",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.7,
+        "servingSize": 6,
+        "method": [
+            "Preheat oven to 190°C.",
+            "Roll out 200 g puff pastry and fit into a tart pan.",
+            "Mix 250 g ricotta with 50 g sugar, 1 beaten egg, and 5 mL vanilla extract, spread over pastry.",
+            "Top with 150 g chopped dried figs.",
+            "Bake for 30 minutes until set and golden.",
+            "Cool before serving."
+        ],
+        "description": "Sweet and creamy tart with dried figs and a smooth ricotta filling.",
+        "backdrop": "",
+        "ingredients": [
+            ["Puff Pastry", "200 g"],
+            ["Ricotta Cheese", "250 g"],
+            ["Sugar", "50 g"],
+            ["Egg", "1 unit"],
+            ["Vanilla Extract", "5 mL"],
+            ["Dried Figs", "150 g"]
+        ]
+    },
+    {
+        "name": "Dijon Mustard Vinaigrette",
+        "author": "System",
+        "starRating": 4.3,
+        "difficultyRating": 1.2,
+        "servingSize": 8,
+        "method": [
+            "In a jar, combine 30 mL Dijon mustard, 15 mL honey, 60 mL white wine vinegar, and 90 mL olive oil.",
+            "Shake vigorously until emulsified.",
+            "Season with salt and pepper to taste and use as a dressing for salads."
+        ],
+        "description": "A tangy and slightly sweet mustard vinaigrette, perfect for dressing greens or vegetable salads.",
+        "backdrop": "",
+        "ingredients": [
+            ["Dijon Mustard", "30 mL"],
+            ["Honey", "15 mL"],
+            ["White Wine Vinegar", "60 mL"],
+            ["Olive Oil", "90 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Dark Chocolate Ganache",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.4,
+        "servingSize": 10,
+        "method": [
+            "Chop 300 g dark chocolate into small pieces and place in a heatproof bowl.",
+            "Heat 250 mL heavy cream in a saucepan until just boiling.",
+            "Pour cream over chocolate, let sit for 5 minutes, then stir until smooth.",
+            "Use as a filling or topping for cakes, or let set and roll into truffles."
+        ],
+        "description": "Rich and creamy chocolate ganache made with high-quality dark chocolate, versatile for various desserts.",
+        "backdrop": "",
+        "ingredients": [
+            ["Dark Chocolate", "300 g"],
+            ["Heavy Cream", "250 mL"]
+        ]
+    },
+    {
+        "name": "Double Baked Sweet Potatoes",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Preheat oven to 200°C.",
+            "Bake 4 large sweet potatoes for 1 hour until soft.",
+            "Halve lengthwise, scoop out insides, leaving a thin layer of potato in the skin.",
+            "Mix potato flesh with 50 g butter, 30 g brown sugar, and 50 mL cream, spoon back into skins.",
+            "Bake for another 20 minutes until tops are browned.",
+            "Serve warm."
+        ],
+        "description": "Twice-baked sweet potatoes with a creamy and sweet filling, topped with a crispy crust.",
+        "backdrop": "",
+        "ingredients": [
+            ["Sweet Potatoes", "4 units"],
+            ["Butter", "50 g"],
+            ["Brown Sugar", "30 g"],
+            ["Cream", "50 mL"]
+        ]
+    },
+    {
+        "name": "Dairy-Free Coconut Yogurt",
+        "author": "System",
+        "starRating": 4.3,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Heat 1 L coconut milk to 40°C.",
+            "Mix in 5 g probiotic powder until well combined.",
+            "Pour mixture into a sterile jar, cover with a cloth, and let ferment in a warm place for 24 hours.",
+            "Refrigerate to thicken before serving."
+        ],
+        "description": "A smooth and creamy alternative to traditional yogurt, made entirely from coconut milk.",
+        "backdrop": "",
+        "ingredients": [
+            ["Coconut Milk", "1 L"],
+            ["Probiotic Powder", "5 g"]
+        ]
+    },
+    {
+        "name": "Decadent Chocolate Truffles",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.2,
+        "servingSize": 20,
+        "method": [
+            "Heat 250 mL heavy cream in a saucepan until it just begins to simmer.",
+            "Pour over 300 g finely chopped dark chocolate, let sit for 5 minutes, then stir until smooth.",
+            "Chill mixture for 2 hours, then form into small balls.",
+            "Roll truffles in cocoa powder, chopped nuts, or coconut flakes.",
+            "Chill again until firm before serving."
+        ],
+        "description": "Rich and luxurious chocolate truffles, perfect for gifting or indulging.",
+        "backdrop": "",
+        "ingredients": [
+            ["Heavy Cream", "250 mL"],
+            ["Dark Chocolate", "300 g"],
+            ["Cocoa Powder", "50 g"]
+        ]
+    },
+    {
+        "name": "Dill and Lemon Baked Salmon",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Preheat oven to 200°C.",
+            "Place 4 salmon fillets on a baking sheet.",
+            "Season with salt, pepper, 10 g chopped dill, and slices from 1 lemon.",
+            "Drizzle with 30 mL olive oil.",
+            "Bake for 15 minutes or until salmon is cooked through.",
+            "Serve immediately."
+        ],
+        "description": "Flavorful salmon fillets enhanced with fresh dill and lemon, baked to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Salmon Fillets", "4 units"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Dill", "10 g"],
+            ["Lemon", "1 unit"],
+            ["Olive Oil", "30 mL"]
+        ]
+    },
+    {
+        "name": "Dry Curry Chicken",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.8,
+        "servingSize": 4,
+        "method": [
+            "In a large skillet, heat 15 mL vegetable oil.",
+            "Add 1 chopped onion, 2 cloves minced garlic, and cook until translucent.",
+            "Add 500 g chicken breast, cut into cubes, and brown.",
+            "Stir in 15 g curry powder, 5 g turmeric, and salt to taste.",
+            "Cook until chicken is done and spices are fragrant.",
+            "Garnish with cilantro and serve with rice."
+        ],
+        "description": "A robust chicken curry with intense flavors and no sauce, served best with steamed rice.",
+        "backdrop": "",
+        "ingredients": [
+            ["Vegetable Oil", "15 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Chicken Breast", "500 g"],
+            ["Curry Powder", "15 g"],
+            ["Turmeric", "5 g"],
+            ["Salt", "0 g"],
+            ["Cilantro", "5 g"]
+        ]
+    },
+    {
+        "name": "Dijon Roast Beef",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 3.0,
+        "servingSize": 6,
+        "method": [
+            "Preheat oven to 180°C.",
+            "Rub 1 kg beef roast with a mixture of 30 g Dijon mustard, 5 g garlic powder, and 5 g thyme.",
+            "Roast in the oven for 1 hour, or until desired doneness.",
+            "Rest for 10 minutes before slicing.",
+            "Serve with a side of roasted vegetables."
+        ],
+        "description": "Succulent roast beef with a tangy Dijon crust, aromatic and ideal for a hearty meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Beef Roast", "1 kg"],
+            ["Dijon Mustard", "30 g"],
+            ["Garlic Powder", "5 g"],
+            ["Thyme", "5 g"]
+        ]
+    },
+    {
+        "name": "Dark Cherry Compote",
+        "author": "System",
+        "starRating": 4.4,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "In a saucepan, combine 300 g pitted dark cherries, 50 g sugar, and 100 mL water.",
+            "Simmer over medium heat for 15 minutes until cherries are soft and the syrup has thickened.",
+            "Stir in 5 mL vanilla extract and cool before serving over pancakes or yogurt."
+        ],
+        "description": "Sweet and slightly tart cherry compote, perfect as a topping for breakfast or dessert dishes.",
+        "backdrop": "",
+        "ingredients": [
+            ["Dark Cherries", "300 g"],
+            ["Sugar", "50 g"],
+            ["Water", "100 mL"],
+            ["Vanilla Extract", "5 mL"]
+        ]
+    },
+    {
+        "name": "Duck Fat Fries",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Preheat your oven to 200°C.",
+            "Cut 800 g of potatoes into sticks and soak in water for 30 minutes to remove excess starch.",
+            "Dry thoroughly with a towel.",
+            "Toss the potatoes with 60 mL duck fat and spread on a baking sheet.",
+            "Bake for 45 minutes, turning occasionally, until golden and crispy.",
+            "Season with sea salt and serve with a side of garlic aioli."
+        ],
+        "description": "Crispy and rich fries cooked in duck fat, with a perfect golden exterior and fluffy interior.",
+        "backdrop": "",
+        "ingredients": [
+            ["Potatoes", "800 g"],
+            ["Duck Fat", "60 mL"],
+            ["Sea Salt", "5 g"]
+        ]
+    },
+    {
+        "name": "Dijon Maple Glazed Carrots",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Preheat the oven to 200°C.",
+            "Peel and slice 500 g carrots into batons.",
+            "In a bowl, mix 20 g Dijon mustard, 30 mL maple syrup, and 15 mL olive oil.",
+            "Toss the carrots in the mixture, then lay them on a baking tray.",
+            "Roast for 30 minutes, or until tender and caramelized.",
+            "Garnish with chopped parsley before serving."
+        ],
+        "description": "Sweet and tangy carrots roasted with a Dijon and maple syrup glaze, an easy and delicious side dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Carrots", "500 g"],
+            ["Dijon Mustard", "20 g"],
+            ["Maple Syrup", "30 mL"],
+            ["Olive Oil", "15 mL"],
+            ["Parsley", "5 g"]
+        ]
+    },
+    {
+        "name": "Dark Molasses Bread",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 3.0,
+        "servingSize": 8,
+        "method": [
+            "In a large bowl, combine 400 g whole wheat flour, 100 g rye flour, 10 g salt, and 5 g yeast.",
+            "Warm 250 mL water and 100 mL molasses until lukewarm, then add to the dry ingredients.",
+            "Knead for 10 minutes until smooth.",
+            "Let rise in a warm place for 1 hour.",
+            "Shape into a loaf, place in a greased pan, and let rise again for 30 minutes.",
+            "Bake in a preheated oven at 180°C for 35 minutes.",
+            "Cool on a wire rack before slicing."
+        ],
+        "description": "Hearty bread with a deep flavor from dark molasses, ideal for toasting or as a sandwich base.",
+        "backdrop": "",
+        "ingredients": [
+            ["Whole Wheat Flour", "400 g"],
+            ["Rye Flour", "100 g"],
+            ["Salt", "10 g"],
+            ["Yeast", "5 g"],
+            ["Water", "250 mL"],
+            ["Molasses", "100 mL"]
+        ]
+    },
+    {
+        "name": "Dry Spiced Chickpeas",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "Rinse and drain 400 g canned chickpeas.",
+            "Toss with 15 mL olive oil, 5 g cumin, 5 g smoked paprika, and salt to taste.",
+            "Spread on a baking sheet and roast at 200°C for 20 minutes until crispy.",
+            "Serve as a snack or as a topping for salads."
+        ],
+        "description": "Crunchy, spiced chickpeas roasted to perfection, a healthy and satisfying snack.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chickpeas", "400 g"],
+            ["Olive Oil", "15 mL"],
+            ["Cumin", "5 g"],
+            ["Smoked Paprika", "5 g"],
+            ["Salt", "0 g"]
+        ]
+    },
+    {
+        "name": "Dill Pickle Deviled Eggs",
+        "author": "System",
+        "starRating": 4.4,
+        "difficultyRating": 2.2,
+        "servingSize": 6,
+        "method": [
+            "Hard-boil 12 eggs, cool, peel, and halve.",
+            "Remove yolks and mix with 30 g mayonnaise, 20 g chopped dill pickles, 5 mL pickle juice, and 5 g mustard.",
+            "Pipe the mixture back into the egg whites.",
+            "Garnish with paprika and extra dill before serving."
+        ],
+        "description": "A classic appetizer with a twist, featuring the tangy taste of dill pickles mixed into creamy deviled eggs.",
+        "backdrop": "",
+        "ingredients": [
+            ["Eggs", "12 units"],
+            ["Mayonnaise", "30 g"],
+            ["Dill Pickles", "20 g"],
+            ["Pickle Juice", "5 mL"],
+            ["Mustard", "5 g"],
+            ["Paprika", "2 g"],
+            ["Dill", "2 g"]
+        ]
+    },
+    {
+        "name": "Dulce de Leche Ice Cream",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.5,
+        "servingSize": 6,
+        "method": [
+            "In a saucepan, combine 500 mL heavy cream, 250 mL whole milk, and 200 g sugar. Heat until sugar dissolves.",
+            "Remove from heat, stir in 200 g dulce de leche until smooth.",
+            "Chill the mixture in the refrigerator for 4 hours.",
+            "Churn in an ice cream maker according to the manufacturer's instructions.",
+            "Freeze for at least 2 hours before serving."
+        ],
+        "description": "Creamy homemade ice cream with rich dulce de leche flavor, perfect for a sweet treat.",
+        "backdrop": "",
+        "ingredients": [
+            ["Heavy Cream", "500 mL"],
+            ["Whole Milk", "250 mL"],
+            ["Sugar", "200 g"],
+            ["Dulce de Leche", "200 g"]
+        ]
+    },
+    {
+        "name": "Date and Nut Bars",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 12,
+        "method": [
+            "Preheat oven to 180°C.",
+            "In a food processor, blend 300 g pitted dates, 100 g almonds, and 100 g walnuts until sticky.",
+            "Press the mixture into a lined 20x20 cm baking pan.",
+            "Bake for 20 minutes. Allow to cool and slice into bars.",
+            "Store in an airtight container."
+        ],
+        "description": "Energy-packed bars with dates and nuts, ideal for a quick snack or energy boost on the go.",
+        "backdrop": "",
+        "ingredients": [
+            ["Dates", "300 g"],
+            ["Almonds", "100 g"],
+            ["Walnuts", "100 g"]
+        ]
+    },
+    {
+        "name": "Dragon Fruit Salad",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.4,
+        "servingSize": 4,
+        "method": [
+            "Peel and chop 2 dragon fruits into cubes.",
+            "Toss with 200 g mixed salad greens, 100 g sliced cucumbers, and 50 g blueberries.",
+            "Drizzle with a dressing made from 30 mL lime juice, 15 mL honey, and 15 mL olive oil.",
+            "Serve immediately for best freshness."
+        ],
+        "description": "A vibrant and refreshing salad featuring dragon fruit, perfect for a light meal or side dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Dragon Fruit", "2 units"],
+            ["Mixed Salad Greens", "200 g"],
+            ["Cucumbers", "100 g"],
+            ["Blueberries", "50 g"],
+            ["Lime Juice", "30 mL"],
+            ["Honey", "15 mL"],
+            ["Olive Oil", "15 mL"]
+        ]
+    },
+    {
+        "name": "Duck Confit Tacos",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 3.2,
+        "servingSize": 4,
+        "method": [
+            "Cook 4 duck leg confits in a slow cooker on low for 6 hours until tender.",
+            "Shred the duck meat.",
+            "Serve on warm corn tortillas with 100 g shredded cabbage, 50 g diced pineapple, and a drizzle of 30 mL chipotle sauce.",
+            "Garnish with cilantro before serving."
+        ],
+        "description": "Unique and flavorful tacos filled with tender duck confit, complemented by the sweetness of pineapple and the spice of chipotle sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Duck Leg Confit", "4 units"],
+            ["Corn Tortillas", "8 units"],
+            ["Cabbage", "100 g"],
+            ["Pineapple", "50 g"],
+            ["Chipotle Sauce", "30 mL"],
+            ["Cilantro", "5 g"]
+        ]
+    },
+    {
+        "name": "Dark Chocolate Raspberry Tart",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.6,
+        "servingSize": 8,
+        "method": [
+            "Preheat oven to 180°C.",
+            "Roll out 200 g of pastry dough and press into a 22 cm tart pan. Bake for 20 minutes.",
+            "In a bowl, melt 300 g dark chocolate and 150 mL cream in a microwave, stir until smooth.",
+            "Pour chocolate mixture into the baked tart shell. Top with 200 g fresh raspberries.",
+            "Refrigerate for 2 hours until set. Serve chilled."
+        ],
+        "description": "A decadent tart combining rich dark chocolate with fresh raspberries, set in a crisp pastry shell.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pastry Dough", "200 g"],
+            ["Dark Chocolate", "300 g"],
+            ["Cream", "150 mL"],
+            ["Raspberries", "200 g"]
+        ]
+    },
+    {
+        "name": "Duck Rillettes",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 3.8,
+        "servingSize": 6,
+        "method": [
+            "Simmer 1 kg duck legs in a pot with 1 L duck fat, 3 cloves garlic, and 5 g thyme on low heat for 4 hours until meat is very tender.",
+            "Shred the meat and mix with 50 mL of the cooking fat, salt, and pepper.",
+            "Pack into a terrine or jar and cover with a layer of melted fat. Chill for at least 6 hours before serving."
+        ],
+        "description": "Traditional French dish of slow-cooked, shredded duck preserved in fat, perfect as a spread on crusty bread.",
+        "backdrop": "",
+        "ingredients": [
+            ["Duck Legs", "1 kg"],
+            ["Duck Fat", "1 L"],
+            ["Garlic", "3 cloves"],
+            ["Thyme", "5 g"]
+        ]
+    },
+    {
+        "name": "Deviled Avocado Eggs",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.9,
+        "servingSize": 6,
+        "method": [
+            "Hard boil 12 eggs, cool, peel, and halve.",
+            "Remove yolks and mix with 1 ripe avocado, 30 g mayonnaise, and 10 mL lemon juice.",
+            "Season with salt and pepper, then pipe the mixture back into the egg whites.",
+            "Garnish with paprika and serve chilled."
+        ],
+        "description": "A twist on classic deviled eggs, adding creamy avocado for a richer flavor and smoother texture.",
+        "backdrop": "",
+        "ingredients": [
+            ["Eggs", "12 units"],
+            ["Avocado", "1 unit"],
+            ["Mayonnaise", "30 g"],
+            ["Lemon Juice", "10 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Paprika", "5 g"]
+        ]
+    },
+    {
+        "name": "Dijon Crusted Cod",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Preheat oven to 200°C.",
+            "Pat dry 4 cod fillets and spread 20 g Dijon mustard over each.",
+            "Mix 50 g breadcrumbs with 10 g chopped parsley and press onto the mustard-coated fillets.",
+            "Bake for 15 minutes or until the fish flakes easily with a fork.",
+            "Serve with lemon wedges."
+        ],
+        "description": "Tender cod fillets with a crispy mustard and breadcrumb crust, bursting with flavor.",
+        "backdrop": "",
+        "ingredients": [
+            ["Cod Fillets", "4 units"],
+            ["Dijon Mustard", "20 g"],
+            ["Breadcrumbs", "50 g"],
+            ["Parsley", "10 g"],
+            ["Lemon Wedges", "4 units"]
+        ]
+    },
+    {
+        "name": "Dairy-Free Spinach Quiche",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.4,
+        "servingSize": 6,
+        "method": [
+            "Preheat oven to 180°C.",
+            "Prepare 200 g gluten-free pie crust and press into a 9-inch pie dish.",
+            "Sauté 200 g spinach and 1 chopped onion in 15 mL olive oil until soft.",
+            "In a blender, mix 300 mL coconut milk, 100 g tofu, salt, and pepper until smooth.",
+            "Combine spinach mixture with the coconut milk mixture, pour into crust.",
+            "Bake for 35 minutes. Cool for 10 minutes before serving."
+        ],
+        "description": "A wholesome and hearty quiche filled with spinach, set in a dairy-free, gluten-free crust.",
+        "backdrop": "",
+        "ingredients": [
+            ["Gluten-Free Pie Crust", "200 g"],
+            ["Spinach", "200 g"],
+            ["Onion", "1 unit"],
+            ["Olive Oil", "15 mL"],
+            ["Coconut Milk", "300 mL"],
+            ["Tofu", "100 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Dulce de Leche Cheesecake",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.8,
+        "servingSize": 8,
+        "method": [
+            "Preheat oven to 160°C.",
+            "Combine 200 g crushed graham crackers with 50 g melted butter for the crust, press into a springform pan.",
+            "Beat 500 g cream cheese until smooth, add 100 g sugar, 200 g dulce de leche, and 3 eggs, one at a time.",
+            "Pour filling over crust, bake for 50 minutes.",
+            "Chill overnight. Top with a layer of dulce de leche before serving."
+        ],
+        "description": "Luxuriously creamy cheesecake with a smooth dulce de leche topping, on a buttery graham cracker crust.",
+        "backdrop": "",
+        "ingredients": [
+            ["Graham Crackers", "200 g"],
+            ["Butter", "50 g"],
+            ["Cream Cheese", "500 g"],
+            ["Sugar", "100 g"],
+            ["Dulce de Leche", "200 g"],
+            ["Eggs", "3 units"]
+        ]
+    },
+    {
+        "name": "Dry Rubbed Barbecue Chicken",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Mix 10 g paprika, 10 g brown sugar, 5 g salt, 5 g black pepper, and 2 g cayenne pepper.",
+            "Rub the spice mix onto 1 kg of chicken thighs evenly.",
+            "Grill over medium heat for 25 minutes, turning occasionally, until fully cooked.",
+            "Serve hot with a side of coleslaw and cornbread."
+        ],
+        "description": "Juicy grilled chicken coated with a sweet and spicy homemade dry rub, perfect for a summer barbecue.",
+        "backdrop": "",
+        "ingredients": [
+            ["Paprika", "10 g"],
+            ["Brown Sugar", "10 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Cayenne Pepper", "2 g"],
+            ["Chicken Thighs", "1 kg"]
+        ]
     }
+
 ]
