@@ -1,11 +1,18 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+import 'package:page_transition/page_transition.dart';
 import 'package:provider/provider.dart';
+import '/backend/backend.dart';
 
 import '/index.dart';
 import '/main.dart';
+import '/flutter_flow/flutter_flow_theme.dart';
+import '/flutter_flow/lat_lng.dart';
+import '/flutter_flow/place.dart';
 import '/flutter_flow/flutter_flow_util.dart';
+import 'serialization_util.dart';
 
 export 'package:go_router/go_router.dart';
 export 'serialization_util.dart';
@@ -30,33 +37,26 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       initialLocation: '/',
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
-      errorBuilder: (context, state) => const NavBarPage(),
+      errorBuilder: (context, state) => NavBarPage(),
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
-          builder: (context, _) => const NavBarPage(),
+          builder: (context, _) => NavBarPage(),
         ),
         FFRoute(
           name: 'HomePage',
           path: '/homePage',
           builder: (context, params) => params.isEmpty
-              ? const NavBarPage(initialPage: 'HomePage')
-              : const HomePageWidget(),
-        ),
-        FFRoute(
-          name: 'Search',
-          path: '/search',
-          builder: (context, params) => params.isEmpty
-              ? const NavBarPage(initialPage: 'Search')
-              : const SearchWidget(),
+              ? NavBarPage(initialPage: 'HomePage')
+              : HomePageWidget(),
         ),
         FFRoute(
           name: 'Create',
           path: '/create',
           builder: (context, params) => params.isEmpty
-              ? const NavBarPage(initialPage: 'Create')
-              : const NavBarPage(
+              ? NavBarPage(initialPage: 'Create')
+              : NavBarPage(
                   initialPage: 'Create',
                   page: CreateWidget(),
                 ),
@@ -65,8 +65,8 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'Leaderboard',
           path: '/leaderboard',
           builder: (context, params) => params.isEmpty
-              ? const NavBarPage(initialPage: 'Leaderboard')
-              : const NavBarPage(
+              ? NavBarPage(initialPage: 'Leaderboard')
+              : NavBarPage(
                   initialPage: 'Leaderboard',
                   page: LeaderboardWidget(),
                 ),
@@ -74,7 +74,7 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
         FFRoute(
           name: 'Fridge',
           path: '/fridge',
-          builder: (context, params) => const NavBarPage(
+          builder: (context, params) => NavBarPage(
             initialPage: '',
             page: FridgeWidget(),
           ),
@@ -83,19 +83,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'Account',
           path: '/account',
           builder: (context, params) => params.isEmpty
-              ? const NavBarPage(initialPage: 'Account')
-              : const NavBarPage(
+              ? NavBarPage(initialPage: 'Account')
+              : NavBarPage(
                   initialPage: 'Account',
                   page: AccountWidget(),
                 ),
-        ),
-        FFRoute(
-          name: 'RecipeSearchPage',
-          path: '/recipeSearchPage',
-          builder: (context, params) => const NavBarPage(
-            initialPage: '',
-            page: RecipeSearchPageWidget(),
-          ),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
@@ -261,7 +253,7 @@ class TransitionInfo {
   final Duration duration;
   final Alignment? alignment;
 
-  static TransitionInfo appDefault() => const TransitionInfo(hasTransition: false);
+  static TransitionInfo appDefault() => TransitionInfo(hasTransition: false);
 }
 
 class RootPageContext {

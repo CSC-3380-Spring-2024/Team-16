@@ -1,4 +1,5 @@
 import 'package:provider/provider.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -6,7 +7,9 @@ import 'package:flutter_web_plugins/url_strategy.dart';
 import 'backend/firebase/firebase_config.dart';
 import 'flutter_flow/flutter_flow_theme.dart';
 import 'flutter_flow/flutter_flow_util.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:floating_bottom_navigation_bar/floating_bottom_navigation_bar.dart';
+import 'flutter_flow/nav/nav.dart';
 import 'index.dart';
 
 void main() async {
@@ -21,13 +24,11 @@ void main() async {
 
   runApp(ChangeNotifierProvider(
     create: (context) => appState,
-    child: const MyApp(),
+    child: MyApp(),
   ));
 }
 
 class MyApp extends StatefulWidget {
-  const MyApp({super.key});
-
   // This widget is the root of your application.
   @override
   State<MyApp> createState() => _MyAppState();
@@ -59,7 +60,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp.router(
       title: 'foodappproject',
-      localizationsDelegates: const [
+      localizationsDelegates: [
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,
@@ -80,7 +81,7 @@ class _MyAppState extends State<MyApp> {
 }
 
 class NavBarPage extends StatefulWidget {
-  const NavBarPage({super.key, this.initialPage, this.page});
+  NavBarPage({Key? key, this.initialPage, this.page}) : super(key: key);
 
   final String? initialPage;
   final Widget? page;
@@ -104,11 +105,10 @@ class _NavBarPageState extends State<NavBarPage> {
   @override
   Widget build(BuildContext context) {
     final tabs = {
-      'HomePage': const HomePageWidget(),
-      'Search': const SearchWidget(),
-      'Create': const CreateWidget(),
-      'Leaderboard': const LeaderboardWidget(),
-      'Account': const AccountWidget(),
+      'HomePage': HomePageWidget(),
+      'Create': CreateWidget(),
+      'Leaderboard': LeaderboardWidget(),
+      'Account': AccountWidget(),
     };
     final currentIndex = tabs.keys.toList().indexOf(_currentPageName);
 
@@ -129,12 +129,12 @@ class _NavBarPageState extends State<NavBarPage> {
         }),
         backgroundColor: Colors.white,
         selectedItemColor: FlutterFlowTheme.of(context).primary,
-        unselectedItemColor: const Color(0x8A000000),
-        selectedBackgroundColor: const Color(0x00000000),
+        unselectedItemColor: Color(0x8A000000),
+        selectedBackgroundColor: Color(0x00000000),
         borderRadius: 8.0,
         itemBorderRadius: 8.0,
-        margin: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-        padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+        margin: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+        padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
         width: double.infinity,
         elevation: 0.0,
         items: [
@@ -146,7 +146,8 @@ class _NavBarPageState extends State<NavBarPage> {
                   Icons.home_outlined,
                   color: currentIndex == 0
                       ? FlutterFlowTheme.of(context).primary
-                      : const Color(0x8A000000),
+                      : Color(0x8A000000),
+                  size: 30.0,
                 ),
                 Text(
                   'Home',
@@ -154,30 +155,7 @@ class _NavBarPageState extends State<NavBarPage> {
                   style: TextStyle(
                     color: currentIndex == 0
                         ? FlutterFlowTheme.of(context).primary
-                        : const Color(0x8A000000),
-                    fontSize: 11.0,
-                  ),
-                ),
-              ],
-            ),
-          ),
-          FloatingNavbarItem(
-            customWidget: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Icon(
-                  Icons.search_sharp,
-                  color: currentIndex == 1
-                      ? FlutterFlowTheme.of(context).primary
-                      : const Color(0x8A000000),
-                ),
-                Text(
-                  'Search',
-                  overflow: TextOverflow.ellipsis,
-                  style: TextStyle(
-                    color: currentIndex == 1
-                        ? FlutterFlowTheme.of(context).primary
-                        : const Color(0x8A000000),
+                        : Color(0x8A000000),
                     fontSize: 11.0,
                   ),
                 ),
@@ -190,17 +168,17 @@ class _NavBarPageState extends State<NavBarPage> {
               children: [
                 Icon(
                   Icons.add,
-                  color: currentIndex == 2
+                  color: currentIndex == 1
                       ? FlutterFlowTheme.of(context).primary
-                      : const Color(0x8A000000),
+                      : Color(0x8A000000),
                 ),
                 Text(
                   'Create',
                   overflow: TextOverflow.ellipsis,
                   style: TextStyle(
-                    color: currentIndex == 2
+                    color: currentIndex == 1
                         ? FlutterFlowTheme.of(context).primary
-                        : const Color(0x8A000000),
+                        : Color(0x8A000000),
                     fontSize: 11.0,
                   ),
                 ),
@@ -213,17 +191,17 @@ class _NavBarPageState extends State<NavBarPage> {
               children: [
                 Icon(
                   Icons.leaderboard_sharp,
-                  color: currentIndex == 3
+                  color: currentIndex == 2
                       ? FlutterFlowTheme.of(context).primary
-                      : const Color(0x8A000000),
+                      : Color(0x8A000000),
                 ),
                 Text(
                   'Leaderboard',
                   overflow: TextOverflow.ellipsis,
                   style: TextStyle(
-                    color: currentIndex == 3
+                    color: currentIndex == 2
                         ? FlutterFlowTheme.of(context).primary
-                        : const Color(0x8A000000),
+                        : Color(0x8A000000),
                     fontSize: 11.0,
                   ),
                 ),
@@ -236,17 +214,17 @@ class _NavBarPageState extends State<NavBarPage> {
               children: [
                 Icon(
                   Icons.account_box,
-                  color: currentIndex == 4
+                  color: currentIndex == 3
                       ? FlutterFlowTheme.of(context).primary
-                      : const Color(0x8A000000),
+                      : Color(0x8A000000),
                 ),
                 Text(
                   'Account',
                   overflow: TextOverflow.ellipsis,
                   style: TextStyle(
-                    color: currentIndex == 4
+                    color: currentIndex == 3
                         ? FlutterFlowTheme.of(context).primary
-                        : const Color(0x8A000000),
+                        : Color(0x8A000000),
                     fontSize: 11.0,
                   ),
                 ),

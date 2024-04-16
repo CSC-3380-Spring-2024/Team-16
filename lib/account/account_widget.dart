@@ -1,6 +1,9 @@
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
+import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 import 'account_model.dart';
 export 'account_model.dart';
 
@@ -41,7 +44,7 @@ class _AccountWidgetState extends State<AccountWidget> {
         appBar: AppBar(
           backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
           automaticallyImplyLeading: false,
-          actions: const [],
+          actions: [],
           centerTitle: false,
           elevation: 0.0,
         ),
@@ -54,7 +57,7 @@ class _AccountWidgetState extends State<AccountWidget> {
               children: [
                 Padding(
                   padding:
-                      const EdgeInsetsDirectional.fromSTEB(24.0, 16.0, 16.0, 16.0),
+                      EdgeInsetsDirectional.fromSTEB(24.0, 16.0, 16.0, 16.0),
                   child: Text(
                     'Account Settings',
                     style: FlutterFlowTheme.of(context).headlineMedium.override(
@@ -65,7 +68,7 @@ class _AccountWidgetState extends State<AccountWidget> {
                 ),
                 Padding(
                   padding:
-                      const EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
+                      EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
                   child: Container(
                     width: double.infinity,
                     height: 60.0,
@@ -73,9 +76,9 @@ class _AccountWidgetState extends State<AccountWidget> {
                       color: FlutterFlowTheme.of(context).secondaryBackground,
                       borderRadius: BorderRadius.circular(12.0),
                     ),
-                    alignment: const AlignmentDirectional(0.0, 0.0),
+                    alignment: AlignmentDirectional(0.0, 0.0),
                     child: Padding(
-                      padding: const EdgeInsetsDirectional.fromSTEB(
+                      padding: EdgeInsetsDirectional.fromSTEB(
                           12.0, 12.0, 12.0, 12.0),
                       child: Row(
                         mainAxisSize: MainAxisSize.max,
@@ -87,7 +90,7 @@ class _AccountWidgetState extends State<AccountWidget> {
                           ),
                           Expanded(
                             child: Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
+                              padding: EdgeInsetsDirectional.fromSTEB(
                                   12.0, 0.0, 12.0, 0.0),
                               child: Text(
                                 'Profile Information',
@@ -112,7 +115,7 @@ class _AccountWidgetState extends State<AccountWidget> {
                 ),
                 Padding(
                   padding:
-                      const EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
+                      EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
                   child: Container(
                     width: double.infinity,
                     height: 60.0,
@@ -120,9 +123,9 @@ class _AccountWidgetState extends State<AccountWidget> {
                       color: FlutterFlowTheme.of(context).secondaryBackground,
                       borderRadius: BorderRadius.circular(12.0),
                     ),
-                    alignment: const AlignmentDirectional(0.0, 0.0),
+                    alignment: AlignmentDirectional(0.0, 0.0),
                     child: Padding(
-                      padding: const EdgeInsetsDirectional.fromSTEB(
+                      padding: EdgeInsetsDirectional.fromSTEB(
                           12.0, 12.0, 12.0, 12.0),
                       child: Row(
                         mainAxisSize: MainAxisSize.max,
@@ -134,7 +137,7 @@ class _AccountWidgetState extends State<AccountWidget> {
                           ),
                           Expanded(
                             child: Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
+                              padding: EdgeInsetsDirectional.fromSTEB(
                                   12.0, 0.0, 12.0, 0.0),
                               child: Text(
                                 'Change Password',
@@ -159,7 +162,7 @@ class _AccountWidgetState extends State<AccountWidget> {
                 ),
                 Padding(
                   padding:
-                      const EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
+                      EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
                   child: Container(
                     width: double.infinity,
                     height: 60.0,
@@ -167,9 +170,9 @@ class _AccountWidgetState extends State<AccountWidget> {
                       color: FlutterFlowTheme.of(context).secondaryBackground,
                       borderRadius: BorderRadius.circular(12.0),
                     ),
-                    alignment: const AlignmentDirectional(0.0, 0.0),
+                    alignment: AlignmentDirectional(0.0, 0.0),
                     child: Padding(
-                      padding: const EdgeInsetsDirectional.fromSTEB(
+                      padding: EdgeInsetsDirectional.fromSTEB(
                           12.0, 12.0, 12.0, 12.0),
                       child: Row(
                         mainAxisSize: MainAxisSize.max,
@@ -181,7 +184,7 @@ class _AccountWidgetState extends State<AccountWidget> {
                           ),
                           Expanded(
                             child: Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
+                              padding: EdgeInsetsDirectional.fromSTEB(
                                   12.0, 0.0, 12.0, 0.0),
                               child: Text(
                                 'Notifications',
@@ -206,7 +209,7 @@ class _AccountWidgetState extends State<AccountWidget> {
                 ),
                 Padding(
                   padding:
-                      const EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
+                      EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
                   child: Container(
                     width: double.infinity,
                     height: 60.0,
@@ -214,9 +217,9 @@ class _AccountWidgetState extends State<AccountWidget> {
                       color: FlutterFlowTheme.of(context).secondaryBackground,
                       borderRadius: BorderRadius.circular(12.0),
                     ),
-                    alignment: const AlignmentDirectional(0.0, 0.0),
+                    alignment: AlignmentDirectional(0.0, 0.0),
                     child: Padding(
-                      padding: const EdgeInsetsDirectional.fromSTEB(
+                      padding: EdgeInsetsDirectional.fromSTEB(
                           12.0, 12.0, 12.0, 12.0),
                       child: Row(
                         mainAxisSize: MainAxisSize.max,
@@ -228,7 +231,7 @@ class _AccountWidgetState extends State<AccountWidget> {
                           ),
                           Expanded(
                             child: Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
+                              padding: EdgeInsetsDirectional.fromSTEB(
                                   12.0, 0.0, 12.0, 0.0),
                               child: Text(
                                 'Privacy',
@@ -253,7 +256,7 @@ class _AccountWidgetState extends State<AccountWidget> {
                 ),
                 Padding(
                   padding:
-                      const EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
+                      EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
                   child: Container(
                     width: double.infinity,
                     height: 60.0,
@@ -261,9 +264,9 @@ class _AccountWidgetState extends State<AccountWidget> {
                       color: FlutterFlowTheme.of(context).secondaryBackground,
                       borderRadius: BorderRadius.circular(12.0),
                     ),
-                    alignment: const AlignmentDirectional(0.0, 0.0),
+                    alignment: AlignmentDirectional(0.0, 0.0),
                     child: Padding(
-                      padding: const EdgeInsetsDirectional.fromSTEB(
+                      padding: EdgeInsetsDirectional.fromSTEB(
                           12.0, 12.0, 12.0, 12.0),
                       child: Row(
                         mainAxisSize: MainAxisSize.max,
@@ -275,7 +278,7 @@ class _AccountWidgetState extends State<AccountWidget> {
                           ),
                           Expanded(
                             child: Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
+                              padding: EdgeInsetsDirectional.fromSTEB(
                                   12.0, 0.0, 12.0, 0.0),
                               child: Text(
                                 'Help & Support',
@@ -300,7 +303,7 @@ class _AccountWidgetState extends State<AccountWidget> {
                 ),
                 Padding(
                   padding:
-                      const EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
+                      EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
                   child: Container(
                     width: double.infinity,
                     height: 60.0,
@@ -308,9 +311,9 @@ class _AccountWidgetState extends State<AccountWidget> {
                       color: FlutterFlowTheme.of(context).secondaryBackground,
                       borderRadius: BorderRadius.circular(12.0),
                     ),
-                    alignment: const AlignmentDirectional(0.0, 0.0),
+                    alignment: AlignmentDirectional(0.0, 0.0),
                     child: Padding(
-                      padding: const EdgeInsetsDirectional.fromSTEB(
+                      padding: EdgeInsetsDirectional.fromSTEB(
                           12.0, 12.0, 12.0, 12.0),
                       child: Row(
                         mainAxisSize: MainAxisSize.max,
@@ -322,7 +325,7 @@ class _AccountWidgetState extends State<AccountWidget> {
                           ),
                           Expanded(
                             child: Padding(
-                              padding: const EdgeInsetsDirectional.fromSTEB(
+                              padding: EdgeInsetsDirectional.fromSTEB(
                                   12.0, 0.0, 12.0, 0.0),
                               child: Text(
                                 'Log Out',

@@ -1,7 +1,10 @@
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
+import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 import 'leaderboard_model.dart';
 export 'leaderboard_model.dart';
 
@@ -40,11 +43,11 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         appBar: PreferredSize(
-          preferredSize: const Size.fromHeight(0.0),
+          preferredSize: Size.fromHeight(0.0),
           child: AppBar(
             backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
             automaticallyImplyLeading: false,
-            actions: const [],
+            actions: [],
             flexibleSpace: FlexibleSpaceBar(
               title: Text(
                 'Leaderboard',
@@ -68,7 +71,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Align(
-                  alignment: const AlignmentDirectional(0.0, 0.0),
+                  alignment: AlignmentDirectional(0.0, 0.0),
                   child: Text(
                     'Top 10 Recipes of the Week',
                     style: FlutterFlowTheme.of(context).headlineLarge.override(
@@ -79,7 +82,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
                   child: Material(
                     color: Colors.transparent,
                     elevation: 1.0,
@@ -94,7 +97,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                         borderRadius: BorderRadius.circular(12.0),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
+                        padding: EdgeInsetsDirectional.fromSTEB(
                             16.0, 8.0, 16.0, 8.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
@@ -111,7 +114,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                             ),
                             Expanded(
                               child: Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 16.0, 0.0, 0.0),
                                 child: AutoSizeText(
                                   'Grilled Salmon with Asparagus',
@@ -145,7 +148,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
                   child: Material(
                     color: Colors.transparent,
                     elevation: 1.0,
@@ -160,7 +163,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                         borderRadius: BorderRadius.circular(12.0),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
+                        padding: EdgeInsetsDirectional.fromSTEB(
                             16.0, 8.0, 16.0, 8.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
@@ -177,7 +180,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                             ),
                             Expanded(
                               child: Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 16.0, 0.0, 0.0),
                                 child: AutoSizeText(
                                   'Grilled Salmon with Asparagus',
@@ -211,7 +214,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
                   child: Material(
                     color: Colors.transparent,
                     elevation: 1.0,
@@ -226,7 +229,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                         borderRadius: BorderRadius.circular(12.0),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
+                        padding: EdgeInsetsDirectional.fromSTEB(
                             16.0, 8.0, 16.0, 8.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
@@ -243,7 +246,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                             ),
                             Expanded(
                               child: Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 16.0, 0.0, 0.0),
                                 child: AutoSizeText(
                                   'Grilled Salmon with Asparagus',
@@ -277,7 +280,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
                   child: Material(
                     color: Colors.transparent,
                     elevation: 1.0,
@@ -292,7 +295,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                         borderRadius: BorderRadius.circular(12.0),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
+                        padding: EdgeInsetsDirectional.fromSTEB(
                             16.0, 8.0, 16.0, 8.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
@@ -309,7 +312,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                             ),
                             Expanded(
                               child: Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 16.0, 0.0, 0.0),
                                 child: AutoSizeText(
                                   'Grilled Salmon with Asparagus',
@@ -343,7 +346,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
                   child: Material(
                     color: Colors.transparent,
                     elevation: 1.0,
@@ -358,7 +361,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                         borderRadius: BorderRadius.circular(12.0),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
+                        padding: EdgeInsetsDirectional.fromSTEB(
                             16.0, 8.0, 16.0, 8.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
@@ -375,7 +378,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                             ),
                             Expanded(
                               child: Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 16.0, 0.0, 0.0),
                                 child: AutoSizeText(
                                   'Grilled Salmon with Asparagus',
@@ -409,7 +412,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
                   child: Material(
                     color: Colors.transparent,
                     elevation: 1.0,
@@ -424,7 +427,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                         borderRadius: BorderRadius.circular(12.0),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
+                        padding: EdgeInsetsDirectional.fromSTEB(
                             16.0, 8.0, 16.0, 8.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
@@ -441,7 +444,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                             ),
                             Expanded(
                               child: Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 16.0, 0.0, 0.0),
                                 child: AutoSizeText(
                                   'Grilled Salmon with Asparagus',
@@ -475,7 +478,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
                   child: Material(
                     color: Colors.transparent,
                     elevation: 1.0,
@@ -490,7 +493,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                         borderRadius: BorderRadius.circular(12.0),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
+                        padding: EdgeInsetsDirectional.fromSTEB(
                             16.0, 8.0, 16.0, 8.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
@@ -507,7 +510,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                             ),
                             Expanded(
                               child: Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 16.0, 0.0, 0.0),
                                 child: AutoSizeText(
                                   'Grilled Salmon with Asparagus',
@@ -541,7 +544,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
                   child: Material(
                     color: Colors.transparent,
                     elevation: 1.0,
@@ -556,7 +559,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                         borderRadius: BorderRadius.circular(12.0),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
+                        padding: EdgeInsetsDirectional.fromSTEB(
                             16.0, 8.0, 16.0, 8.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
@@ -573,7 +576,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                             ),
                             Expanded(
                               child: Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 16.0, 0.0, 0.0),
                                 child: AutoSizeText(
                                   'Grilled Salmon with Asparagus',
@@ -607,7 +610,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
                   child: Material(
                     color: Colors.transparent,
                     elevation: 1.0,
@@ -622,7 +625,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                         borderRadius: BorderRadius.circular(12.0),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
+                        padding: EdgeInsetsDirectional.fromSTEB(
                             16.0, 8.0, 16.0, 8.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
@@ -639,7 +642,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                             ),
                             Expanded(
                               child: Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 16.0, 0.0, 0.0),
                                 child: AutoSizeText(
                                   'Grilled Salmon with Asparagus',
@@ -673,7 +676,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
                   child: Material(
                     color: Colors.transparent,
                     elevation: 1.0,
@@ -688,7 +691,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                         borderRadius: BorderRadius.circular(12.0),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
+                        padding: EdgeInsetsDirectional.fromSTEB(
                             16.0, 8.0, 16.0, 8.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
@@ -705,7 +708,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                             ),
                             Expanded(
                               child: Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 16.0, 0.0, 0.0),
                                 child: AutoSizeText(
                                   'Grilled Salmon with Asparagus',
@@ -739,7 +742,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
                   child: Material(
                     color: Colors.transparent,
                     elevation: 1.0,
@@ -754,7 +757,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                         borderRadius: BorderRadius.circular(12.0),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
+                        padding: EdgeInsetsDirectional.fromSTEB(
                             16.0, 8.0, 16.0, 8.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
@@ -771,7 +774,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                             ),
                             Expanded(
                               child: Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 16.0, 0.0, 0.0),
                                 child: AutoSizeText(
                                   'Grilled Salmon with Asparagus',
@@ -805,7 +808,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
                   child: Material(
                     color: Colors.transparent,
                     elevation: 1.0,
@@ -820,7 +823,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                         borderRadius: BorderRadius.circular(12.0),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
+                        padding: EdgeInsetsDirectional.fromSTEB(
                             16.0, 8.0, 16.0, 8.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
@@ -837,7 +840,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                             ),
                             Expanded(
                               child: Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 16.0, 0.0, 0.0),
                                 child: AutoSizeText(
                                   'Grilled Salmon with Asparagus',
@@ -871,7 +874,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
                   child: Material(
                     color: Colors.transparent,
                     elevation: 1.0,
@@ -886,7 +889,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                         borderRadius: BorderRadius.circular(12.0),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
+                        padding: EdgeInsetsDirectional.fromSTEB(
                             16.0, 8.0, 16.0, 8.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
@@ -903,7 +906,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                             ),
                             Expanded(
                               child: Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 16.0, 0.0, 0.0),
                                 child: AutoSizeText(
                                   'Grilled Salmon with Asparagus',
@@ -937,7 +940,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
                   child: Material(
                     color: Colors.transparent,
                     elevation: 1.0,
@@ -952,7 +955,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                         borderRadius: BorderRadius.circular(12.0),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
+                        padding: EdgeInsetsDirectional.fromSTEB(
                             16.0, 8.0, 16.0, 8.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
@@ -969,7 +972,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                             ),
                             Expanded(
                               child: Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 16.0, 0.0, 0.0),
                                 child: AutoSizeText(
                                   'Grilled Salmon with Asparagus',
@@ -1003,7 +1006,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
                   child: Material(
                     color: Colors.transparent,
                     elevation: 1.0,
@@ -1018,7 +1021,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                         borderRadius: BorderRadius.circular(12.0),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
+                        padding: EdgeInsetsDirectional.fromSTEB(
                             16.0, 8.0, 16.0, 8.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
@@ -1035,7 +1038,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                             ),
                             Expanded(
                               child: Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 16.0, 0.0, 0.0),
                                 child: AutoSizeText(
                                   'Grilled Salmon with Asparagus',
@@ -1069,7 +1072,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
                   child: Material(
                     color: Colors.transparent,
                     elevation: 1.0,
@@ -1084,7 +1087,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                         borderRadius: BorderRadius.circular(12.0),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
+                        padding: EdgeInsetsDirectional.fromSTEB(
                             16.0, 8.0, 16.0, 8.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
@@ -1101,7 +1104,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                             ),
                             Expanded(
                               child: Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 16.0, 0.0, 0.0),
                                 child: AutoSizeText(
                                   'Grilled Salmon with Asparagus',
@@ -1135,7 +1138,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
                   child: Material(
                     color: Colors.transparent,
                     elevation: 1.0,
@@ -1150,7 +1153,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                         borderRadius: BorderRadius.circular(12.0),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
+                        padding: EdgeInsetsDirectional.fromSTEB(
                             16.0, 8.0, 16.0, 8.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
@@ -1167,7 +1170,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                             ),
                             Expanded(
                               child: Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 16.0, 0.0, 0.0),
                                 child: AutoSizeText(
                                   'Grilled Salmon with Asparagus',
@@ -1201,7 +1204,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
+                  padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
                   child: Material(
                     color: Colors.transparent,
                     elevation: 1.0,
@@ -1216,7 +1219,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                         borderRadius: BorderRadius.circular(12.0),
                       ),
                       child: Padding(
-                        padding: const EdgeInsetsDirectional.fromSTEB(
+                        padding: EdgeInsetsDirectional.fromSTEB(
                             16.0, 8.0, 16.0, 8.0),
                         child: Row(
                           mainAxisSize: MainAxisSize.max,
@@ -1233,7 +1236,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                             ),
                             Expanded(
                               child: Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
+                                padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 16.0, 0.0, 0.0),
                                 child: AutoSizeText(
                                   'Grilled Salmon with Asparagus',
@@ -1266,7 +1269,7 @@ class _LeaderboardWidgetState extends State<LeaderboardWidget> {
                     ),
                   ),
                 ),
-              ].divide(const SizedBox(height: 10.0)),
+              ].divide(SizedBox(height: 10.0)),
             ),
           ),
         ),
