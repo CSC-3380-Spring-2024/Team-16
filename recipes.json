@@ -15181,5 +15181,2020 @@
             ["Egg", "1 unit"],
             ["Cilantro", "0 g"]
         ]
+    },
+    {
+        "name": "Italian Herb Chicken",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Marinate 4 chicken breasts in a mixture of 30 mL olive oil, 5 g Italian seasoning, 3 cloves minced garlic, juice of 1 lemon, salt, and pepper for at least 2 hours.",
+            "Grill over medium heat for 6-7 minutes per side or until fully cooked.",
+            "Serve with a side of Caesar salad."
+        ],
+        "description": "Tender chicken breasts marinated with classic Italian herbs and grilled to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breasts", "4 units"],
+            ["Olive Oil", "30 mL"],
+            ["Italian Seasoning", "5 g"],
+            ["Garlic", "3 cloves"],
+            ["Lemon", "1 unit"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Caesar Salad", "200 g"]
+        ]
+    },
+    {
+        "name": "Irish Beef Stew",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.2,
+        "servingSize": 6,
+        "method": [
+            "In a large pot, brown 1 kg cubed beef in 15 mL olive oil. Remove and set aside.",
+            "Add 1 chopped onion and 2 cloves minced garlic to the pot, cook until soft.",
+            "Return beef to the pot. Add 500 mL beef broth, 200 g sliced carrots, 300 g potatoes, and simmer for 2 hours until the beef is tender.",
+            "Stir in 100 mL stout beer and cook for another 30 minutes. Season with salt and pepper.",
+            "Serve hot with fresh parsley."
+        ],
+        "description": "A hearty traditional Irish stew with tender beef, root vegetables, and a rich stout-infused broth.",
+        "backdrop": "",
+        "ingredients": [
+            ["Beef", "1 kg"],
+            ["Olive Oil", "15 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Beef Broth", "500 mL"],
+            ["Carrots", "200 g"],
+            ["Potatoes", "300 g"],
+            ["Stout Beer", "100 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Parsley", "10 g"]
+        ]
+    },
+    {
+        "name": "Indian Spiced Lentil Soup",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "In a pot, heat 15 mL vegetable oil. Add 1 chopped onion, 2 cloves minced garlic, 10 g grated ginger, and 10 g curry powder. Cook until fragrant.",
+            "Add 200 g red lentils, 1 L vegetable broth, and simmer for 30 minutes until lentils are tender.",
+            "Stir in 100 mL coconut milk and heat through. Season with salt and cayenne pepper.",
+            "Serve hot, garnished with chopped cilantro."
+        ],
+        "description": "A warm and comforting lentil soup seasoned with traditional Indian spices and enriched with coconut milk.",
+        "backdrop": "",
+        "ingredients": [
+            ["Vegetable Oil", "15 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Ginger", "10 g"],
+            ["Curry Powder", "10 g"],
+            ["Red Lentils", "200 g"],
+            ["Vegetable Broth", "1 L"],
+            ["Coconut Milk", "100 mL"],
+            ["Salt", "0 g"],
+            ["Cayenne Pepper", "1 g"],
+            ["Cilantro", "10 g"]
+        ]
+    },
+    {
+        "name": "Italian Sausage and Peppers",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "In a skillet, cook 500 g sliced Italian sausage until browned. Remove and set aside.",
+            "In the same skillet, add 200 g sliced bell peppers and 1 sliced onion. Cook until softened.",
+            "Return sausage to the skillet, add 200 mL marinara sauce, and simmer for 10 minutes.",
+            "Serve on hoagie rolls or with a side of pasta."
+        ],
+        "description": "Flavorful Italian sausages cooked with bell peppers and onions in a rich marinara sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Italian Sausage", "500 g"],
+            ["Bell Peppers", "200 g"],
+            ["Onion", "1 unit"],
+            ["Marinara Sauce", "200 mL"],
+            ["Hoagie Rolls or Pasta", "200 g"]
+        ]
+    },
+    {
+        "name": "Irish Soda Bread",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.5,
+        "servingSize": 8,
+        "method": [
+            "Preheat oven to 200°C.",
+            "Mix 400 g flour, 5 g baking soda, 5 g salt, and 50 g sugar in a large bowl.",
+            "Stir in 300 mL buttermilk to form a dough.",
+            "Shape into a round loaf and place on a baking sheet. Cut an 'X' into the top.",
+            "Bake for 45 minutes until the bread is golden and sounds hollow when tapped.",
+            "Cool on a wire rack before slicing."
+        ],
+        "description": "Traditional Irish soda bread with a crunchy crust and soft interior, perfect for slathering with butter.",
+        "backdrop": "",
+        "ingredients": [
+            ["Flour", "400 g"],
+            ["Baking Soda", "5 g"],
+            ["Salt", "5 g"],
+            ["Sugar", "50 g"],
+            ["Buttermilk", "300 mL"]
+        ]
+    },
+    {
+        "name": "Italian Meatball Soup",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.1,
+        "servingSize": 6,
+        "method": [
+            "In a large pot, heat 15 mL olive oil. Cook 20 small meatballs until browned.",
+            "Add 1 chopped onion, 2 minced garlic cloves, and 200 g chopped carrots, sauté until vegetables are soft.",
+            "Pour in 1.5 L beef broth and bring to a boil. Add 100 g chopped kale and simmer for 20 minutes.",
+            "Season with salt and pepper. Serve with grated Parmesan cheese."
+        ],
+        "description": "Hearty soup filled with savory meatballs and vegetables, simmered in a rich beef broth.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "15 mL"],
+            ["Meatballs", "20 units"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Carrots", "200 g"],
+            ["Beef Broth", "1.5 L"],
+            ["Kale", "100 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Parmesan Cheese", "30 g"]
+        ]
+    },
+    {
+        "name": "Indonesian Fried Rice",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "In a wok, heat 30 mL vegetable oil. Add 2 beaten eggs and scramble. Remove and set aside.",
+            "Add 200 g diced chicken and cook until browned.",
+            "Add 300 g cooked rice, 100 g diced carrots, 50 g peas, and 30 mL soy sauce. Stir-fry for 5 minutes.",
+            "Mix in scrambled eggs, 5 g crushed red pepper, and serve with cucumber slices and fried shallots."
+        ],
+        "description": "Spicy and flavorful Indonesian-style fried rice with chicken, vegetables, and a hint of heat from red pepper.",
+        "backdrop": "",
+        "ingredients": [
+            ["Vegetable Oil", "30 mL"],
+            ["Eggs", "2 units"],
+            ["Chicken", "200 g"],
+            ["Cooked Rice", "300 g"],
+            ["Carrots", "100 g"],
+            ["Peas", "50 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Crushed Red Pepper", "5 g"],
+            ["Cucumber", "1 unit"],
+            ["Fried Shallots", "20 g"]
+        ]
+    },
+    {
+        "name": "Indian Butter Chicken",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Marinate 500 g cubed chicken breasts in 100 mL yogurt, 10 g garam masala, 5 g turmeric, 5 g cumin, and 3 cloves minced garlic for 2 hours.",
+            "In a skillet, melt 30 g butter. Add marinated chicken and cook until browned.",
+            "Add 200 mL tomato sauce and 100 mL cream. Simmer for 20 minutes.",
+            "Serve with basmati rice and naan bread, garnished with fresh cilantro."
+        ],
+        "description": "Creamy and rich butter chicken, a popular Indian dish known for its silky tomato-based sauce spiced with garam masala.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breasts", "500 g"],
+            ["Yogurt", "100 mL"],
+            ["Garam Masala", "10 g"],
+            ["Turmeric", "5 g"],
+            ["Cumin", "5 g"],
+            ["Garlic", "3 cloves"],
+            ["Butter", "30 g"],
+            ["Tomato Sauce", "200 mL"],
+            ["Cream", "100 mL"],
+            ["Basmati Rice", "300 g"],
+            ["Naan Bread", "4 units"],
+            ["Cilantro", "10 g"]
+        ]
+    },
+    {
+        "name": "Italian Stuffed Peppers",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Preheat oven to 190°C.",
+            "Cut the tops off 4 bell peppers and remove the seeds. Blanch in boiling water for 5 minutes, then drain.",
+            "In a skillet, cook 200 g ground beef, 1 chopped onion, and 2 cloves minced garlic until beef is browned.",
+            "Stir in 100 g cooked rice, 200 mL tomato sauce, 5 g Italian seasoning, salt, and pepper. Fill peppers with this mixture.",
+            "Place peppers in a baking dish, cover with foil, and bake for 30 minutes. Uncover, top with 100 g shredded mozzarella, and bake for an additional 10 minutes.",
+            "Serve hot, garnished with fresh basil."
+        ],
+        "description": "Bell peppers stuffed with a savory mixture of beef, rice, and herbs, topped with melty mozzarella cheese.",
+        "backdrop": "",
+        "ingredients": [
+            ["Bell Peppers", "4 units"],
+            ["Ground Beef", "200 g"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Cooked Rice", "100 g"],
+            ["Tomato Sauce", "200 mL"],
+            ["Italian Seasoning", "5 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Mozzarella Cheese", "100 g"],
+            ["Basil", "10 g"]
+        ]
+    },
+    {
+        "name": "Irish Lamb Stew",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.5,
+        "servingSize": 6,
+        "method": [
+            "In a large pot, brown 1 kg cubed lamb shoulder in 15 mL vegetable oil.",
+            "Add 1 chopped onion, 2 cloves minced garlic, and cook until onion is soft.",
+            "Pour in 1.5 L beef broth, add 300 g diced potatoes, 200 g sliced carrots, and simmer for 2 hours or until lamb is tender.",
+            "Stir in 100 g chopped leeks and simmer for another 30 minutes. Season with salt and pepper.",
+            "Serve hot, garnished with chopped parsley."
+        ],
+        "description": "Traditional Irish stew made with tender lamb, hearty vegetables, and a rich broth.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lamb Shoulder", "1 kg"],
+            ["Vegetable Oil", "15 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Beef Broth", "1.5 L"],
+            ["Potatoes", "300 g"],
+            ["Carrots", "200 g"],
+            ["Leeks", "100 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Parsley", "10 g"]
+        ]
+    },
+    {
+        "name": "Indian Palak Paneer",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Blanch 500 g spinach in boiling water for 2 minutes. Drain and puree.",
+            "In a pan, heat 15 mL vegetable oil, sauté 1 chopped onion, 1 chopped green chili, and 2 cloves minced garlic until soft.",
+            "Add pureed spinach, 5 g garam masala, 5 g cumin, and cook for 10 minutes.",
+            "Add 200 g cubed paneer and cook for another 5 minutes. Stir in 50 mL cream, heat through.",
+            "Serve hot with naan or rice."
+        ],
+        "description": "A rich and flavorful North Indian dish featuring creamy spinach and fresh paneer.",
+        "backdrop": "",
+        "ingredients": [
+            ["Spinach", "500 g"],
+            ["Vegetable Oil", "15 mL"],
+            ["Onion", "1 unit"],
+            ["Green Chili", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Garam Masala", "5 g"],
+            ["Cumin", "5 g"],
+            ["Paneer", "200 g"],
+            ["Cream", "50 mL"],
+            ["Naan or Rice", "200 g"]
+        ]
+    },
+    {
+        "name": "Indonesian Chicken Satay",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Marinate 500 g chicken breast strips in a mixture of 30 mL soy sauce, 20 g grated ginger, 15 mL honey, and 15 mL sesame oil for 3 hours.",
+            "Thread chicken onto skewers.",
+            "Grill over medium heat for 6-7 minutes per side until cooked through.",
+            "Serve with peanut sauce and cucumber salad."
+        ],
+        "description": "Grilled chicken skewers marinated in an Indonesian-style sauce, served with a sweet and spicy peanut sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breast", "500 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Ginger", "20 g"],
+            ["Honey", "15 mL"],
+            ["Sesame Oil", "15 mL"],
+            ["Peanut Sauce", "100 mL"],
+            ["Cucumber Salad", "200 g"]
+        ]
+    },
+    {
+        "name": "Israeli Couscous Salad",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "Cook 200 g Israeli couscous according to package instructions; drain and cool.",
+            "In a large bowl, combine couscous with 100 g diced cucumber, 100 g cherry tomatoes halved, 50 g crumbled feta cheese, and 20 g chopped parsley.",
+            "Dress with 30 mL olive oil and 15 mL lemon juice. Season with salt and pepper.",
+            "Chill for 1 hour before serving."
+        ],
+        "description": "A refreshing salad featuring pearl couscous with fresh vegetables and feta, dressed in a simple lemon olive oil dressing.",
+        "backdrop": "",
+        "ingredients": [
+            ["Israeli Couscous", "200 g"],
+            ["Cucumber", "100 g"],
+            ["Cherry Tomatoes", "100 g"],
+            ["Feta Cheese", "50 g"],
+            ["Parsley", "20 g"],
+            ["Olive Oil", "30 mL"],
+            ["Lemon Juice", "15 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Italian Bean Soup",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.0,
+        "servingSize": 6,
+        "method": [
+            "In a large pot, heat 15 mL olive oil over medium heat. Add 1 chopped onion, 2 minced garlic cloves, and cook until softened.",
+            "Add 1 chopped carrot, 1 chopped celery stalk, and cook for 5 minutes.",
+            "Stir in 400 g canned diced tomatoes, 500 mL vegetable broth, and 400 g canned cannellini beans. Simmer for 20 minutes.",
+            "Season with 5 g Italian seasoning, salt, and pepper. Serve hot with grated Parmesan and crusty bread."
+        ],
+        "description": "A hearty and healthy Italian soup with beans, vegetables, and tomatoes, seasoned with traditional herbs.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "15 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Carrot", "1 unit"],
+            ["Celery", "1 stalk"],
+            ["Diced Tomatoes", "400 g"],
+            ["Vegetable Broth", "500 mL"],
+            ["Cannellini Beans", "400 g"],
+            ["Italian Seasoning", "5 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Parmesan", "30 g"],
+            ["Crusty Bread", "200 g"]
+        ]
+    },
+    {
+        "name": "Irish Cream Liqueur",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 1.8,
+        "servingSize": 8,
+        "method": [
+            "In a blender, combine 300 mL heavy cream, 350 mL Irish whiskey, 200 mL sweetened condensed milk, 15 mL chocolate syrup, 10 mL vanilla extract, and 5 mL instant coffee.",
+            "Blend until smooth. Store in the refrigerator for up to 2 weeks.",
+            "Serve chilled or over ice."
+        ],
+        "description": "A rich, creamy homemade liqueur infused with Irish whiskey, chocolate, and a hint of coffee.",
+        "backdrop": "",
+        "ingredients": [
+            ["Heavy Cream", "300 mL"],
+            ["Irish Whiskey", "350 mL"],
+            ["Sweetened Condensed Milk", "200 mL"],
+            ["Chocolate Syrup", "15 mL"],
+            ["Vanilla Extract", "10 mL"],
+            ["Instant Coffee", "5 mL"]
+        ]
+    },
+    {
+        "name": "Indian Spiced Roast Chicken",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.4,
+        "servingSize": 6,
+        "method": [
+            "Rub a whole chicken (about 1.5 kg) with a mix of 30 mL vegetable oil, 10 g garam masala, 5 g turmeric, 5 g cumin, and salt.",
+            "Stuff the chicken cavity with 1 halved lemon and a bunch of cilantro.",
+            "Roast in a preheated 190°C oven for 1.5 hours or until the juices run clear.",
+            "Serve with roasted vegetables and mint yogurt sauce."
+        ],
+        "description": "Whole chicken seasoned with Indian spices and roasted to golden perfection, served with a cooling mint yogurt sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Whole Chicken", "1.5 kg"],
+            ["Vegetable Oil", "30 mL"],
+            ["Garam Masala", "10 g"],
+            ["Turmeric", "5 g"],
+            ["Cumin", "5 g"],
+            ["Salt", "0 g"],
+            ["Lemon", "1 unit"],
+            ["Cilantro", "20 g"],
+            ["Roasted Vegetables", "300 g"],
+            ["Mint Yogurt Sauce", "100 mL"]
+        ]
+    },
+    {
+        "name": "Irish Coffee",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.2,
+        "servingSize": 2,
+        "method": [
+            "Brew 200 mL strong coffee and divide between two cups.",
+            "Stir in 15 mL brown sugar into each cup until dissolved.",
+            "Add 45 mL Irish whiskey to each cup.",
+            "Top with 30 mL whipped cream without stirring.",
+            "Serve hot with a dusting of nutmeg."
+        ],
+        "description": "A classic Irish coffee with a warming blend of coffee, Irish whiskey, sugar, and topped with a creamy layer.",
+        "backdrop": "",
+        "ingredients": [
+            ["Coffee", "200 mL"],
+            ["Brown Sugar", "30 mL"],
+            ["Irish Whiskey", "90 mL"],
+            ["Whipped Cream", "60 mL"],
+            ["Nutmeg", "1 g"]
+        ]
+    },
+    {
+        "name": "Italian Baked Cod",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Preheat oven to 200°C.",
+            "Place 4 cod fillets in a baking dish. Season with salt, pepper, and 10 g Italian herbs.",
+            "Top each fillet with a slice of lemon and a sprinkle of 30 g capers.",
+            "Drizzle with 30 mL olive oil and bake for 20 minutes or until fish flakes easily.",
+            "Serve with a side of steamed spinach."
+        ],
+        "description": "Deliciously tender cod fillets baked with Italian herbs, lemon, and capers.",
+        "backdrop": "",
+        "ingredients": [
+            ["Cod Fillets", "4 units"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Italian Herbs", "10 g"],
+            ["Lemon", "4 slices"],
+            ["Capers", "30 g"],
+            ["Olive Oil", "30 mL"],
+            ["Steamed Spinach", "200 g"]
+        ]
+    },
+    {
+        "name": "Indonesian Beef Rendang",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.8,
+        "servingSize": 4,
+        "method": [
+            "In a large pot, combine 500 g beef chuck, cut into cubes, with 400 mL coconut milk, 200 mL water, 2 chopped shallots, 2 cloves minced garlic, 20 g grated ginger, and 10 g turmeric.",
+            "Bring to a simmer and cook uncovered for 2 hours, stirring occasionally, until the liquid reduces and the meat is tender.",
+            "Add 5 g ground coriander, 5 g cumin, and salt to taste, cook until the sauce thickens and coats the beef.",
+            "Serve with jasmine rice and garnish with lime leaves."
+        ],
+        "description": "A slow-cooked Indonesian curry that is rich in spices and extremely tender, typically served during special occasions.",
+        "backdrop": "",
+        "ingredients": [
+            ["Beef Chuck", "500 g"],
+            ["Coconut Milk", "400 mL"],
+            ["Water", "200 mL"],
+            ["Shallots", "2 units"],
+            ["Garlic", "2 cloves"],
+            ["Ginger", "20 g"],
+            ["Turmeric", "10 g"],
+            ["Ground Coriander", "5 g"],
+            ["Cumin", "5 g"],
+            ["Salt", "0 g"],
+            ["Jasmine Rice", "200 g"],
+            ["Lime Leaves", "5 g"]
+        ]
+    },
+    {
+        "name": "Iced Vanilla Latte",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.3,
+        "servingSize": 2,
+        "method": [
+            "Brew 200 mL strong coffee and let cool.",
+            "Fill two glasses with ice cubes. Pour the cooled coffee over the ice.",
+            "Stir in 30 mL vanilla syrup into each glass.",
+            "Top with 60 mL milk and serve immediately."
+        ],
+        "description": "A refreshing and sweet caffeinated beverage with smooth vanilla flavor, perfect for hot days.",
+        "backdrop": "",
+        "ingredients": [
+            ["Coffee", "200 mL"],
+            ["Ice Cubes", "100 g"],
+            ["Vanilla Syrup", "60 mL"],
+            ["Milk", "60 mL"]
+        ]
+    },
+    {
+        "name": "Indian Vegetable Korma",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "In a large skillet, heat 15 mL vegetable oil. Add 1 chopped onion, 2 cloves minced garlic, and 10 g grated ginger, sauté until onion is soft.",
+            "Add 200 g chopped potatoes, 100 g chopped carrots, 100 g peas, and 200 g cauliflower florets. Cook for 5 minutes.",
+            "Stir in 200 mL coconut milk and 15 g korma paste. Simmer for 20 minutes or until vegetables are tender.",
+            "Season with salt and garnish with fresh cilantro. Serve with naan bread."
+        ],
+        "description": "A creamy, flavorful Indian curry made with a variety of vegetables, cooked in a rich coconut milk-based sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Vegetable Oil", "15 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Ginger", "10 g"],
+            ["Potatoes", "200 g"],
+            ["Carrots", "100 g"],
+            ["Peas", "100 g"],
+            ["Cauliflower", "200 g"],
+            ["Coconut Milk", "200 mL"],
+            ["Korma Paste", "15 g"],
+            ["Salt", "0 g"],
+            ["Cilantro", "10 g"],
+            ["Naan Bread", "4 units"]
+        ]
+    },
+    {
+        "name": "Italian Pesto Chicken",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Preheat the oven to 180°C.",
+            "Spread 200 g of homemade pesto on 4 chicken breasts. Place in a baking dish.",
+            "Bake for 25 minutes or until the chicken is thoroughly cooked.",
+            "Serve with a side of roasted vegetables and a sprinkle of grated Parmesan."
+        ],
+        "description": "Juicy chicken breasts smothered in a rich basil pesto, baked to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breasts", "4 units"],
+            ["Pesto", "200 g"],
+            ["Roasted Vegetables", "200 g"],
+            ["Parmesan", "30 g"]
+        ]
+    },
+    {
+        "name": "Irish Colcannon",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.5,
+        "servingSize": 6,
+        "method": [
+            "Boil 600 g potatoes until tender. Mash with 50 mL milk and 30 g butter.",
+            "Sauté 200 g chopped kale and 1 diced onion in 15 mL butter until soft.",
+            "Mix the vegetables with the mashed potatoes. Season with salt and pepper.",
+            "Serve hot, garnished with a pat of butter."
+        ],
+        "description": "A traditional Irish dish of creamy mashed potatoes mixed with sautéed kale and onion.",
+        "backdrop": "",
+        "ingredients": [
+            ["Potatoes", "600 g"],
+            ["Milk", "50 mL"],
+            ["Butter", "45 g"],
+            ["Kale", "200 g"],
+            ["Onion", "1 unit"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Indian Mango Lassi",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 1.2,
+        "servingSize": 4,
+        "method": [
+            "In a blender, combine 300 g ripe mango pulp, 500 mL plain yogurt, 50 mL honey, and a pinch of cardamom.",
+            "Blend until smooth. Chill for at least 1 hour.",
+            "Serve cold, garnished with a sprinkle of ground pistachios."
+        ],
+        "description": "A refreshing and creamy yogurt-based drink, sweetened with mango and a hint of cardamom.",
+        "backdrop": "",
+        "ingredients": [
+            ["Mango Pulp", "300 g"],
+            ["Plain Yogurt", "500 mL"],
+            ["Honey", "50 mL"],
+            ["Cardamom", "1 g"],
+            ["Ground Pistachios", "10 g"]
+        ]
+    },
+    {
+        "name": "Israeli Shakshuka",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "In a large skillet, heat 30 mL olive oil. Add 1 chopped bell pepper and 1 chopped onion, sauté until soft.",
+            "Add 2 minced garlic cloves, 400 g diced tomatoes, 5 g paprika, and 5 g cumin. Simmer for 10 minutes.",
+            "Make four wells in the sauce and crack an egg into each. Cover and cook until eggs are set.",
+            "Garnish with chopped cilantro and serve with crusty bread."
+        ],
+        "description": "Eggs poached in a sauce of tomatoes, chili peppers, and onions, spiced with cumin and paprika.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "30 mL"],
+            ["Bell Pepper", "1 unit"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Diced Tomatoes", "400 g"],
+            ["Paprika", "5 g"],
+            ["Cumin", "5 g"],
+            ["Eggs", "4 units"],
+            ["Cilantro", "10 g"],
+            ["Crusty Bread", "200 g"]
+        ]
+    },
+    {
+        "name": "Italian Frittata",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "Preheat the oven to 190°C.",
+            "In a skillet, sauté 1 diced onion and 100 g chopped bell peppers in 15 mL olive oil until soft.",
+            "Add 100 g spinach and cook until wilted. Remove from heat.",
+            "Whisk together 6 eggs, 50 mL milk, 50 g grated Parmesan, salt, and pepper. Pour over vegetables in the skillet.",
+            "Transfer skillet to the oven and bake for 20 minutes or until set.",
+            "Serve warm, cut into wedges."
+        ],
+        "description": "A hearty Italian frittata with eggs, cheese, and vegetables, baked to fluffy perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Onion", "1 unit"],
+            ["Bell Peppers", "100 g"],
+            ["Spinach", "100 g"],
+            ["Olive Oil", "15 mL"],
+            ["Eggs", "6 units"],
+            ["Milk", "50 mL"],
+            ["Parmesan", "50 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Irish Coddle",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "In a large pot, brown 200 g sliced bacon and 400 g pork sausages. Remove and set aside.",
+            "Layer the bacon and sausages in the pot with 300 g sliced potatoes, 2 sliced onions, and 200 g sliced carrots.",
+            "Pour over 500 mL chicken broth, season with salt and pepper. Simmer covered for 1.5 hours.",
+            "Serve hot, garnished with chopped parsley."
+        ],
+        "description": "A traditional Irish dish made with sausages, bacon, and root vegetables, stewed until tender.",
+        "backdrop": "",
+        "ingredients": [
+            ["Bacon", "200 g"],
+            ["Pork Sausages", "400 g"],
+            ["Potatoes", "300 g"],
+            ["Onions", "2 units"],
+            ["Carrots", "200 g"],
+            ["Chicken Broth", "500 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Parsley", "10 g"]
+        ]
+    },
+    {
+        "name": "Iced Caramel Macchiato",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 1.4,
+        "servingSize": 2,
+        "method": [
+            "Fill two glasses with ice. Pour 30 mL vanilla syrup into each glass.",
+            "Add 150 mL milk over the syrup. Slowly pour 60 mL espresso over the milk.",
+            "Drizzle with 15 mL caramel sauce. Serve immediately with a straw."
+        ],
+        "description": "A coffeehouse favorite, featuring layers of milk, espresso, and vanilla, topped with caramel.",
+        "backdrop": "",
+        "ingredients": [
+            ["Ice", "100 g"],
+            ["Vanilla Syrup", "60 mL"],
+            ["Milk", "300 mL"],
+            ["Espresso", "60 mL"],
+            ["Caramel Sauce", "30 mL"]
+        ]
+    },
+    {
+        "name": "Indian Chana Masala",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "In a skillet, heat 15 mL vegetable oil. Add 1 chopped onion, 2 cloves minced garlic, and 10 g grated ginger. Cook until onion is translucent.",
+            "Add 15 g garam masala, 5 g cumin, and 400 g canned tomatoes. Cook for 10 minutes.",
+            "Add 400 g canned chickpeas, drained and rinsed. Simmer for 20 minutes. Adjust seasoning with salt and chili powder.",
+            "Garnish with fresh cilantro and serve with basmati rice or naan."
+        ],
+        "description": "A robust and spicy North Indian chickpea curry, rich in flavors and perfect for a hearty meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Vegetable Oil", "15 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Ginger", "10 g"],
+            ["Garam Masala", "15 g"],
+            ["Cumin", "5 g"],
+            ["Canned Tomatoes", "400 g"],
+            ["Chickpeas", "400 g"],
+            ["Salt", "0 g"],
+            ["Chili Powder", "5 g"],
+            ["Cilantro", "10 g"],
+            ["Basmati Rice or Naan", "200 g"]
+        ]
+    },
+    {
+        "name": "Iced Tea Lemonade",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.1,
+        "servingSize": 4,
+        "method": [
+            "Brew 500 mL of strong black tea and allow to cool.",
+            "In a pitcher, mix the cooled tea with 500 mL lemonade.",
+            "Add ice, 30 mL honey, and stir well.",
+            "Serve chilled with slices of lemon."
+        ],
+        "description": "A refreshing blend of iced tea and lemonade sweetened with honey, perfect for hot days.",
+        "backdrop": "",
+        "ingredients": [
+            ["Black Tea", "500 mL"],
+            ["Lemonade", "500 mL"],
+            ["Ice", "200 g"],
+            ["Honey", "30 mL"],
+            ["Lemon", "1 unit"]
+        ]
+    },
+    {
+        "name": "Italian Wedding Soup",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.2,
+        "servingSize": 6,
+        "method": [
+            "Form 200 g ground chicken into small meatballs, season with salt, pepper, and 10 g minced parsley.",
+            "In a pot, cook meatballs in 15 mL olive oil until browned. Remove and set aside.",
+            "In the same pot, add 1 chopped onion, 2 minced garlic cloves, and sauté until translucent.",
+            "Add 1.5 L chicken broth, 100 g chopped escarole, and cooked meatballs. Simmer for 30 minutes.",
+            "Stir in 100 g acini di pepe pasta and cook until tender. Adjust seasoning.",
+            "Serve hot, garnished with grated Parmesan."
+        ],
+        "description": "A hearty Italian soup with chicken meatballs, escarole, and pasta in a savory broth.",
+        "backdrop": "",
+        "ingredients": [
+            ["Ground Chicken", "200 g"],
+            ["Parsley", "10 g"],
+            ["Olive Oil", "15 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Chicken Broth", "1.5 L"],
+            ["Escarole", "100 g"],
+            ["Acini di Pepe Pasta", "100 g"],
+            ["Parmesan", "30 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Indonesian Nasi Goreng",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "In a wok, heat 30 mL vegetable oil. Add 2 beaten eggs and scramble. Remove and set aside.",
+            "Add 200 g diced chicken and cook until browned. Remove and set aside.",
+            "Add 1 chopped onion, 2 minced garlic cloves, and 20 g chopped chili to the wok. Cook until soft.",
+            "Add 400 g cooked jasmine rice, scrambled eggs, chicken, 50 mL kecap manis, and 5 g sambal oelek. Stir-fry until everything is hot and combined.",
+            "Serve with cucumber slices and a fried egg on top."
+        ],
+        "description": "A classic Indonesian fried rice dish with chicken, kecap manis, and a hint of chili, topped with a fried egg.",
+        "backdrop": "",
+        "ingredients": [
+            ["Vegetable Oil", "30 mL"],
+            ["Eggs", "3 units"],
+            ["Chicken", "200 g"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Chili", "20 g"],
+            ["Jasmine Rice", "400 g"],
+            ["Kecap Manis", "50 mL"],
+            ["Sambal Oelek", "5 g"],
+            ["Cucumber", "1 unit"]
+        ]
+    },
+    {
+        "name": "Irish Apple Cake",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.0,
+        "servingSize": 8,
+        "method": [
+            "Preheat oven to 180°C.",
+            "Cream together 150 g butter and 150 g sugar until light and fluffy. Beat in 3 eggs one at a time.",
+            "Fold in 300 g flour, 5 g baking powder, and 5 g mixed spice. Stir in 200 g peeled, cored, and sliced apples.",
+            "Pour into a greased cake tin. Bake for 50 minutes or until a toothpick inserted into the center comes out clean.",
+            "Cool in the tin for 10 minutes, then turn out onto a wire rack to cool completely. Dust with powdered sugar before serving."
+        ],
+        "description": "A traditional Irish dessert, this apple cake is spiced with cinnamon and nutmeg, and studded with tender pieces of apple.",
+        "backdrop": "",
+        "ingredients": [
+            ["Butter", "150 g"],
+            ["Sugar", "150 g"],
+            ["Eggs", "3 units"],
+            ["Flour", "300 g"],
+            ["Baking Powder", "5 g"],
+            ["Mixed Spice", "5 g"],
+            ["Apples", "200 g"],
+            ["Powdered Sugar", "20 g"]
+        ]
+    },
+    {
+        "name": "Icelandic Fish Stew",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "In a pot, heat 15 mL olive oil over medium heat. Add 1 chopped onion and 2 minced garlic cloves, cook until translucent.",
+            "Add 500 g mixed fish fillets (cod, haddock, salmon), cut into chunks, and 200 g peeled shrimp. Sauté lightly.",
+            "Pour in 500 mL fish stock and 200 mL cream. Simmer for 20 minutes.",
+            "Stir in 10 g chopped dill, salt, and pepper to taste.",
+            "Serve hot, garnished with fresh dill and accompanied by rye bread."
+        ],
+        "description": "A comforting seafood stew, common in Icelandic cuisine, featuring a variety of fish and creamy broth.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "15 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Mixed Fish Fillets", "500 g"],
+            ["Shrimp", "200 g"],
+            ["Fish Stock", "500 mL"],
+            ["Cream", "200 mL"],
+            ["Dill", "10 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Rye Bread", "200 g"]
+        ]
+    },
+    {
+        "name": "Indian Chickpea Salad",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.4,
+        "servingSize": 4,
+        "method": [
+            "In a large bowl, combine 400 g canned chickpeas (drained and rinsed), 100 g chopped cucumber, 100 g halved cherry tomatoes, 50 g diced red onion, and 50 g chopped coriander.",
+            "For the dressing, whisk together 30 mL lemon juice, 30 mL olive oil, 5 g cumin, and salt to taste.",
+            "Pour dressing over the salad, mix well.",
+            "Chill for 30 minutes before serving. Garnish with additional coriander."
+        ],
+        "description": "A vibrant and nutritious salad with chickpeas, fresh vegetables, and a tangy cumin-lemon dressing.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chickpeas", "400 g"],
+            ["Cucumber", "100 g"],
+            ["Cherry Tomatoes", "100 g"],
+            ["Red Onion", "50 g"],
+            ["Coriander", "50 g"],
+            ["Lemon Juice", "30 mL"],
+            ["Olive Oil", "30 mL"],
+            ["Cumin", "5 g"],
+            ["Salt", "0 g"]
+        ]
+    },
+    {
+        "name": "Italian Zucchini Boats",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Preheat oven to 190°C.",
+            "Halve 4 medium zucchinis lengthwise and scoop out the centers to create boats.",
+            "In a skillet, cook 200 g ground turkey with 1 minced garlic clove, salt, and pepper until browned.",
+            "Mix cooked turkey with 100 g cooked quinoa, 100 g tomato sauce, and 10 g chopped basil.",
+            "Stuff the zucchini boats with the mixture. Top with 50 g shredded mozzarella.",
+            "Bake for 25 minutes or until zucchini is tender and cheese is melted.",
+            "Serve hot, garnished with more fresh basil."
+        ],
+        "description": "Delicious and healthy zucchini boats stuffed with a flavorful turkey and quinoa mixture, topped with melted mozzarella.",
+        "backdrop": "",
+        "ingredients": [
+            ["Zucchinis", "4 units"],
+            ["Ground Turkey", "200 g"],
+            ["Garlic", "1 clove"],
+            ["Quinoa", "100 g"],
+            ["Tomato Sauce", "100 g"],
+            ["Basil", "10 g"],
+            ["Mozzarella", "50 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Indonesian Peanut Stir-Fry",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "In a wok, heat 15 mL vegetable oil. Add 300 g thinly sliced beef, cook until browned. Remove and set aside.",
+            "Add 200 g sliced bell peppers, 100 g snap peas, and stir-fry for 3 minutes.",
+            "Return the beef to the wok. Add 100 mL peanut sauce, stir to combine and heat through.",
+            "Serve hot over cooked jasmine rice, garnished with chopped peanuts and fresh cilantro."
+        ],
+        "description": "A quick and easy stir-fry with beef and vegetables, coated in a rich peanut sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Vegetable Oil", "15 mL"],
+            ["Beef", "300 g"],
+            ["Bell Peppers", "200 g"],
+            ["Snap Peas", "100 g"],
+            ["Peanut Sauce", "100 mL"],
+            ["Jasmine Rice", "300 g"],
+            ["Peanuts", "30 g"],
+            ["Cilantro", "10 g"]
+        ]
+    },
+    {
+        "name": "Italian Minestrone Soup",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 6,
+        "method": [
+            "In a large pot, heat 30 mL olive oil over medium heat. Add 1 diced onion, 2 minced garlic cloves, 1 diced carrot, and 1 diced celery stalk; cook until softened.",
+            "Add 400 g canned diced tomatoes, 1 L vegetable broth, 100 g chopped green beans, and 100 g chopped zucchini; bring to a boil.",
+            "Reduce heat and simmer for 30 minutes. Stir in 100 g small pasta and cook until pasta is tender.",
+            "Season with salt, pepper, and 10 g Italian seasoning. Stir in 50 g chopped spinach before serving.",
+            "Serve hot, garnished with grated Parmesan."
+        ],
+        "description": "A hearty Italian soup packed with vegetables, beans, and pasta, simmered in a rich tomato broth.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Carrot", "1 unit"],
+            ["Celery", "1 stalk"],
+            ["Diced Tomatoes", "400 g"],
+            ["Vegetable Broth", "1 L"],
+            ["Green Beans", "100 g"],
+            ["Zucchini", "100 g"],
+            ["Small Pasta", "100 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Italian Seasoning", "10 g"],
+            ["Spinach", "50 g"],
+            ["Parmesan", "30 g"]
+        ]
+    },
+    {
+        "name": "Indian Paneer Tikka",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Cut 400 g paneer into cubes. Marinate in a mixture of 150 g yogurt, 10 g garam masala, 5 g turmeric, 5 g chili powder, juice of 1 lemon, and salt for 2 hours.",
+            "Thread paneer cubes onto skewers, alternating with pieces of bell pepper and onion.",
+            "Grill on a preheated grill over medium heat, turning occasionally, until charred on all sides, about 8 minutes.",
+            "Serve hot, garnished with cilantro and accompanied by mint chutney."
+        ],
+        "description": "Grilled paneer cheese marinated in Indian spices, served with crisp vegetables and a refreshing mint chutney.",
+        "backdrop": "",
+        "ingredients": [
+            ["Paneer", "400 g"],
+            ["Yogurt", "150 g"],
+            ["Garam Masala", "10 g"],
+            ["Turmeric", "5 g"],
+            ["Chili Powder", "5 g"],
+            ["Lemon", "1 unit"],
+            ["Salt", "0 g"],
+            ["Bell Pepper", "1 unit"],
+            ["Onion", "1 unit"],
+            ["Cilantro", "10 g"],
+            ["Mint Chutney", "50 mL"]
+        ]
+    },
+    {
+        "name": "Irish Potato Pancakes",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "Grate 500 g potatoes and squeeze out excess moisture. Mix with 1 beaten egg, 50 g flour, salt, and pepper.",
+            "Heat 15 mL vegetable oil in a skillet. Drop large spoonfuls of potato mixture into the skillet, flatten to form pancakes.",
+            "Cook over medium heat until golden brown on both sides, about 4 minutes per side.",
+            "Serve hot with applesauce or sour cream."
+        ],
+        "description": "Crispy on the outside and soft on the inside, these traditional Irish pancakes are a delicious breakfast or side dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Potatoes", "500 g"],
+            ["Egg", "1 unit"],
+            ["Flour", "50 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Vegetable Oil", "15 mL"],
+            ["Applesauce or Sour Cream", "50 mL"]
+        ]
+    },
+    {
+        "name": "Indonesian Bakso Soup",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Form 300 g ground beef into meatballs. Boil in 1.5 L beef broth with 1 chopped onion and 2 minced garlic cloves for 30 minutes.",
+            "Add 100 g noodles and cook until tender. Stir in 50 g chopped scallions and 10 g fried shallots.",
+            "Season with salt, pepper, and a splash of soy sauce.",
+            "Serve hot, sprinkled with more scallions and accompanied by lime wedges."
+        ],
+        "description": "A savory Indonesian soup featuring tender meatballs and noodles in a flavorful broth, topped with scallions and shallots.",
+        "backdrop": "",
+        "ingredients": [
+            ["Ground Beef", "300 g"],
+            ["Beef Broth", "1.5 L"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Noodles", "100 g"],
+            ["Scallions", "50 g"],
+            ["Fried Shallots", "10 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Soy Sauce", "5 mL"],
+            ["Lime Wedges", "4 units"]
+        ]
+    },
+    {
+        "name": "Italian Eggplant Parmesan",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "Slice 2 medium eggplants into 1 cm thick rounds. Salt lightly and set aside for 30 minutes to draw out moisture.",
+            "Dip eggplant slices in flour, then in beaten eggs, and finally in breadcrumbs mixed with 10 g Parmesan.",
+            "Fry in 30 mL olive oil until golden on each side. Drain on paper towels.",
+            "Layer eggplant in a baking dish with 200 mL marinara sauce and 100 g mozzarella cheese. Repeat layers.",
+            "Bake at 190°C for 25 minutes until bubbly and golden.",
+            "Garnish with basil before serving."
+        ],
+        "description": "Slices of eggplant coated in breadcrumbs and Parmesan, layered with marinara and mozzarella, and baked until bubbly.",
+        "backdrop": "",
+        "ingredients": [
+            ["Eggplants", "2 units"],
+            ["Salt", "0 g"],
+            ["Flour", "100 g"],
+            ["Eggs", "2 units"],
+            ["Breadcrumbs", "150 g"],
+            ["Parmesan", "10 g"],
+            ["Olive Oil", "30 mL"],
+            ["Marinara Sauce", "200 mL"],
+            ["Mozzarella Cheese", "100 g"],
+            ["Basil", "10 g"]
+        ]
+    },
+    {
+        "name": "Irish Whiskey Glazed Carrots",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "Peel and slice 400 g carrots into sticks.",
+            "In a skillet, melt 30 g butter, add carrots, and cook for 10 minutes until starting to soften.",
+            "Add 30 mL Irish whiskey and 20 g brown sugar. Cook until the carrots are glazed and the liquid is reduced, about 10 minutes.",
+            "Season with salt and garnish with chopped parsley."
+        ],
+        "description": "Tender carrots glazed with a sweet and slightly boozy whiskey sauce, enhanced with a hint of butter and sugar.",
+        "backdrop": "",
+        "ingredients": [
+            ["Carrots", "400 g"],
+            ["Butter", "30 g"],
+            ["Irish Whiskey", "30 mL"],
+            ["Brown Sugar", "20 g"],
+            ["Salt", "0 g"],
+            ["Parsley", "5 g"]
+        ]
+    },
+    {
+        "name": "Indian Vegetable Pakora",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 1.7,
+        "servingSize": 6,
+        "method": [
+            "In a large bowl, mix 100 g chickpea flour, 5 g garam masala, 5 g turmeric, salt, and water to make a thick batter.",
+            "Add 200 g chopped mixed vegetables (potato, onion, spinach, and cauliflower). Stir to coat.",
+            "Deep fry spoonfuls of the mixture in hot oil until crisp and golden.",
+            "Drain on paper towels and serve hot with mint chutney."
+        ],
+        "description": "Crispy fritters made from a variety of vegetables coated in a spiced chickpea batter, deep-fried to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chickpea Flour", "100 g"],
+            ["Garam Masala", "5 g"],
+            ["Turmeric", "5 g"],
+            ["Salt", "0 g"],
+            ["Mixed Vegetables", "200 g"],
+            ["Vegetable Oil", "for frying"],
+            ["Mint Chutney", "50 mL"]
+        ]
+    },
+    {
+        "name": "Indonesian Coconut Rice",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.4,
+        "servingSize": 4,
+        "method": [
+            "Rinse 300 g jasmine rice until water runs clear. Drain.",
+            "In a pot, combine rice, 400 mL coconut milk, 100 mL water, and a pinch of salt.",
+            "Bring to a boil, then cover, reduce heat, and simmer for 18-20 minutes until liquid is absorbed and rice is tender.",
+            "Fluff with a fork and serve with sliced green onions and toasted coconut flakes."
+        ],
+        "description": "Fragrant jasmine rice cooked in creamy coconut milk, a staple side dish in Indonesian cuisine.",
+        "backdrop": "",
+        "ingredients": [
+            ["Jasmine Rice", "300 g"],
+            ["Coconut Milk", "400 mL"],
+            ["Water", "100 mL"],
+            ["Salt", "0 g"],
+            ["Green Onions", "10 g"],
+            ["Coconut Flakes", "15 g"]
+        ]
+    },
+    {
+        "name": "Israeli Salad",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.3,
+        "servingSize": 4,
+        "method": [
+            "Dice 200 g cucumbers, 200 g tomatoes, 100 g bell peppers, and 50 g red onions.",
+            "In a large bowl, mix the chopped vegetables. Add 15 mL lemon juice, 30 mL olive oil, salt, and pepper to taste.",
+            "Toss well and garnish with 10 g chopped parsley.",
+            "Chill before serving to allow flavors to blend."
+        ],
+        "description": "A crisp and refreshing salad featuring finely diced vegetables, dressed simply with olive oil and lemon juice.",
+        "backdrop": "",
+        "ingredients": [
+            ["Cucumbers", "200 g"],
+            ["Tomatoes", "200 g"],
+            ["Bell Peppers", "100 g"],
+            ["Red Onions", "50 g"],
+            ["Lemon Juice", "15 mL"],
+            ["Olive Oil", "30 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Parsley", "10 g"]
+        ]
+    },
+    {
+        "name": "Italian Tortellini Soup",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "In a large pot, heat 15 mL olive oil. Add 1 diced onion, 2 minced garlic cloves, and cook until onion is translucent.",
+            "Add 1 L vegetable broth, 400 g canned diced tomatoes, and bring to a boil.",
+            "Add 200 g fresh tortellini and cook according to package instructions until tender.",
+            "Stir in 100 g spinach and cook until wilted. Season with salt and pepper.",
+            "Serve hot, topped with grated Parmesan."
+        ],
+        "description": "A hearty soup with cheese tortellini, tomatoes, and spinach in a savory broth, topped with Parmesan.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "15 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Vegetable Broth", "1 L"],
+            ["Diced Tomatoes", "400 g"],
+            ["Fresh Tortellini", "200 g"],
+            ["Spinach", "100 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Parmesan", "30 g"]
+        ]
+    },
+    {
+        "name": "Irish Bacon and Cabbage",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.9,
+        "servingSize": 6,
+        "method": [
+            "In a large pot, place 1 kg of bacon (in one piece). Cover with water, bring to a boil, then simmer for 1 hour.",
+            "Add 1 chopped head of green cabbage and 4 peeled, quartered potatoes to the pot. Cook for another 25 minutes until vegetables are tender.",
+            "Remove bacon, slice, and serve with the cabbage and potatoes, drizzled with the cooking broth.",
+            "Season with pepper to taste."
+        ],
+        "description": "A traditional Irish dish of gently boiled bacon served with cabbage and potatoes, flavored simply with its cooking broth.",
+        "backdrop": "",
+        "ingredients": [
+            ["Bacon", "1 kg"],
+            ["Green Cabbage", "1 unit"],
+            ["Potatoes", "4 units"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Indonesian Soto Ayam",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "In a pot, heat 15 mL vegetable oil. Add 2 minced garlic cloves, 20 g chopped ginger, and 2 chopped lemongrass stalks; sauté until fragrant.",
+            "Add 500 g diced chicken breast, cook until lightly browned.",
+            "Pour in 1.5 L chicken broth, bring to a boil, then simmer for 30 minutes.",
+            "Add 200 g cooked rice noodles and heat through. Adjust seasoning with salt and a squeeze of lime.",
+            "Serve hot, garnished with chopped green onions and fried shallots."
+        ],
+        "description": "A comforting Indonesian chicken soup with noodles and aromatic herbs, perfect for soothing the soul.",
+        "backdrop": "",
+        "ingredients": [
+            ["Vegetable Oil", "15 mL"],
+            ["Garlic", "2 cloves"],
+            ["Ginger", "20 g"],
+            ["Lemongrass", "2 stalks"],
+            ["Chicken Breast", "500 g"],
+            ["Chicken Broth", "1.5 L"],
+            ["Rice Noodles", "200 g"],
+            ["Salt", "0 g"],
+            ["Lime", "1 unit"],
+            ["Green Onions", "10 g"],
+            ["Fried Shallots", "10 g"]
+        ]
+    },
+    {
+        "name": "Irish Seafood Chowder",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "In a pot, melt 30 g butter over medium heat. Add 1 diced onion, 2 minced garlic cloves, and cook until translucent.",
+            "Add 200 g diced potatoes, 100 g sliced carrots, and cook for 5 minutes.",
+            "Pour in 500 mL fish stock and 200 mL cream. Bring to a simmer.",
+            "Add 300 g mixed seafood (shrimp, scallops, and white fish), cook for 10 minutes.",
+            "Season with salt, pepper, and 5 g chopped parsley.",
+            "Serve hot with crusty bread."
+        ],
+        "description": "A rich and creamy seafood chowder filled with shrimp, scallops, and white fish, rooted in Irish culinary tradition.",
+        "backdrop": "",
+        "ingredients": [
+            ["Butter", "30 g"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Potatoes", "200 g"],
+            ["Carrots", "100 g"],
+            ["Fish Stock", "500 mL"],
+            ["Cream", "200 mL"],
+            ["Mixed Seafood", "300 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Parsley", "5 g"],
+            ["Crusty Bread", "200 g"]
+        ]
+    },
+    {
+        "name": "Italian Risotto Balls",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Prepare 300 g risotto and let cool. Mix in 50 g grated Parmesan and 1 beaten egg.",
+            "Form into balls, insert a small cube of mozzarella into each, and roll to enclose.",
+            "Dip each ball in beaten egg, then roll in breadcrumbs.",
+            "Deep fry in hot oil until golden. Drain on paper towels.",
+            "Serve with marinara sauce for dipping."
+        ],
+        "description": "Crispy outside, creamy inside, these risotto balls stuffed with mozzarella are a delightful Italian treat.",
+        "backdrop": "",
+        "ingredients": [
+            ["Risotto", "300 g"],
+            ["Parmesan", "50 g"],
+            ["Egg", "2 units"],
+            ["Mozzarella", "100 g"],
+            ["Breadcrumbs", "100 g"],
+            ["Vegetable Oil", "for frying"],
+            ["Marinara Sauce", "100 mL"]
+        ]
+    },
+    {
+        "name": "Indian Kheer",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "In a saucepan, simmer 100 g basmati rice in 500 mL milk over low heat until the rice is soft and the mixture thickens, about 25 minutes.",
+            "Add 50 g sugar, 5 g cardamom, and 50 g raisins. Cook for another 5 minutes.",
+            "Cool to room temperature, then chill in the refrigerator.",
+            "Serve cold, garnished with sliced almonds and a sprinkle of saffron."
+        ],
+        "description": "A traditional Indian dessert made with rice, milk, and sugar, infused with cardamom and enriched with raisins and nuts.",
+        "backdrop": "",
+        "ingredients": [
+            ["Basmati Rice", "100 g"],
+            ["Milk", "500 mL"],
+            ["Sugar", "50 g"],
+            ["Cardamom", "5 g"],
+            ["Raisins", "50 g"],
+            ["Almonds", "20 g"],
+            ["Saffron", "1 g"]
+        ]
+    },
+    {
+        "name": "Indonesian Bami Goreng",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Cook 400 g egg noodles according to package instructions, drain and set aside.",
+            "In a wok, heat 15 mL vegetable oil. Stir-fry 200 g sliced chicken breast until cooked through.",
+            "Add 100 g sliced cabbage, 50 g sliced carrots, and 50 g sliced bell peppers; stir-fry until vegetables are tender.",
+            "Add noodles, 30 mL soy sauce, 30 mL oyster sauce, and toss to combine.",
+            "Serve hot, garnished with sliced green onions and sesame seeds."
+        ],
+        "description": "A popular Indonesian noodle dish with chicken and vegetables, seasoned with soy and oyster sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Egg Noodles", "400 g"],
+            ["Vegetable Oil", "15 mL"],
+            ["Chicken Breast", "200 g"],
+            ["Cabbage", "100 g"],
+            ["Carrots", "50 g"],
+            ["Bell Peppers", "50 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Oyster Sauce", "30 mL"],
+            ["Green Onions", "10 g"],
+            ["Sesame Seeds", "5 g"]
+        ]
+    },
+    {
+        "name": "Indian Mango Chutney",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Peel and chop 3 ripe mangoes. In a saucepan, combine mangoes with 100 g sugar, 50 mL vinegar, 20 g grated ginger, 1 minced garlic clove, and a pinch of salt.",
+            "Simmer over low heat for 30 minutes, stirring occasionally, until thickened.",
+            "Cool completely before storing in jars. Serve as an accompaniment to grilled meats or curry dishes."
+        ],
+        "description": "A sweet and tangy chutney made from fresh mangoes and ginger, perfect for enhancing any meal with a burst of flavor.",
+        "backdrop": "",
+        "ingredients": [
+            ["Mangoes", "3 units"],
+            ["Sugar", "100 g"],
+            ["Vinegar", "50 mL"],
+            ["Ginger", "20 g"],
+            ["Garlic", "1 clove"],
+            ["Salt", "1 g"]
+        ]
+    },
+    {
+        "name": "Italian Bean and Escarole Soup",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 6,
+        "method": [
+            "In a large pot, heat 30 mL olive oil. Add 1 chopped onion and 2 cloves minced garlic; cook until soft.",
+            "Add 200 g chopped escarole and cook until wilted. Stir in 400 g canned cannellini beans (drained and rinsed) and 1 L vegetable broth; bring to a simmer.",
+            "Cook for 20 minutes. Season with salt and pepper.",
+            "Serve hot, sprinkled with grated Parmesan."
+        ],
+        "description": "A warming soup featuring tender escarole and creamy cannellini beans, seasoned with Italian flavors.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Escarole", "200 g"],
+            ["Cannellini Beans", "400 g"],
+            ["Vegetable Broth", "1 L"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Parmesan", "30 g"]
+        ]
+    },
+    {
+        "name": "Indonesian Tempeh Satay",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Cut 400 g tempeh into cubes. Marinate in a mixture of 30 mL soy sauce, 20 g crushed garlic, 20 mL lime juice, and 5 g coriander powder for 1 hour.",
+            "Thread tempeh cubes onto skewers.",
+            "Grill on a preheated grill over medium heat, turning occasionally, until charred on all sides, about 10 minutes.",
+            "Serve with peanut sauce for dipping."
+        ],
+        "description": "Grilled tempeh skewers marinated in a flavorful blend of soy sauce, lime, and spices, served with a rich peanut sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Tempeh", "400 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Garlic", "20 g"],
+            ["Lime Juice", "20 mL"],
+            ["Coriander Powder", "5 g"],
+            ["Peanut Sauce", "50 mL"]
+        ]
+    },
+    {
+        "name": "Irish Mussels in Garlic Butter",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Clean 1 kg mussels under cold running water. Discard any that do not close when tapped.",
+            "In a large pot, melt 50 g butter. Add 4 cloves minced garlic and 1 chopped shallot; sauté until fragrant.",
+            "Add mussels and 200 mL white wine. Cover and steam over high heat until mussels open, about 5-7 minutes.",
+            "Sprinkle with chopped parsley and serve with crusty bread for dipping in the sauce."
+        ],
+        "description": "Fresh mussels steamed in a savory garlic butter and white wine sauce, perfect for soaking up with crusty bread.",
+        "backdrop": "",
+        "ingredients": [
+            ["Mussels", "1 kg"],
+            ["Butter", "50 g"],
+            ["Garlic", "4 cloves"],
+            ["Shallot", "1 unit"],
+            ["White Wine", "200 mL"],
+            ["Parsley", "10 g"],
+            ["Crusty Bread", "200 g"]
+        ]
+    },
+    {
+        "name": "Indian Spiced Chickpea Salad",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.4,
+        "servingSize": 4,
+        "method": [
+            "In a large bowl, combine 400 g canned chickpeas (drained and rinsed), 100 g diced cucumbers, 100 g cherry tomatoes halved, 50 g diced red onion, and 50 g chopped coriander.",
+            "For the dressing, whisk together 30 mL lemon juice, 30 mL olive oil, 5 g cumin, and salt to taste.",
+            "Pour dressing over the salad, mix well.",
+            "Chill for 30 minutes before serving. Garnish with additional coriander."
+        ],
+        "description": "A vibrant and nutritious salad with chickpeas, fresh vegetables, and a tangy cumin-lemon dressing.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chickpeas", "400 g"],
+            ["Cucumbers", "100 g"],
+            ["Cherry Tomatoes", "100 g"],
+            ["Red Onion", "50 g"],
+            ["Coriander", "50 g"],
+            ["Lemon Juice", "30 mL"],
+            ["Olive Oil", "30 mL"],
+            ["Cumin", "5 g"],
+            ["Salt", "0 g"]
+        ]
+    },
+    {
+        "name": "Italian Chicken Piccata",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Pound 4 chicken breast halves to even thickness. Dredge in flour seasoned with salt and pepper.",
+            "In a skillet, melt 30 g butter with 15 mL olive oil. Add chicken and cook until golden on each side.",
+            "Remove chicken, add 50 mL lemon juice, 100 mL chicken broth, and 30 g capers. Boil until reduced by half.",
+            "Return chicken to pan, cook until heated through.",
+            "Serve with sauce and a sprinkle of chopped parsley."
+        ],
+        "description": "Tender chicken breasts in a lemony caper sauce, an Italian classic perfect for a refined meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breasts", "4 units"],
+            ["Flour", "100 g"],
+            ["Butter", "30 g"],
+            ["Olive Oil", "15 mL"],
+            ["Lemon Juice", "50 mL"],
+            ["Chicken Broth", "100 mL"],
+            ["Capers", "30 g"],
+            ["Parsley", "10 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Irish Beef and Stout Stew",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.2,
+        "servingSize": 6,
+        "method": [
+            "In a large pot, brown 1 kg beef chunks in 15 mL vegetable oil. Remove and set aside.",
+            "Add 2 diced onions, 2 sliced carrots, and 2 minced garlic cloves to the pot; cook until softened.",
+            "Return beef to pot. Sprinkle with 30 g flour, cook for 2 minutes.",
+            "Add 500 mL stout beer and enough beef broth to cover the meat. Bring to a boil, then simmer for 2 hours.",
+            "Add 300 g chopped potatoes, cook until tender.",
+            "Season with salt and pepper. Serve garnished with chopped parsley."
+        ],
+        "description": "A hearty stew with tender chunks of beef, vegetables, and a rich, dark stout-based gravy.",
+        "backdrop": "",
+        "ingredients": [
+            ["Beef Chunks", "1 kg"],
+            ["Vegetable Oil", "15 mL"],
+            ["Onions", "2 units"],
+            ["Carrots", "2 units"],
+            ["Garlic", "2 cloves"],
+            ["Flour", "30 g"],
+            ["Stout Beer", "500 mL"],
+            ["Beef Broth", "as needed"],
+            ["Potatoes", "300 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Parsley", "10 g"]
+        ]
+    },
+    {
+        "name": "Italian Grilled Vegetables",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "Slice 1 zucchini, 1 bell pepper, 1 eggplant, and 4 large mushrooms into thick strips or slices.",
+            "Brush vegetables with a mixture of 30 mL olive oil, 2 minced garlic cloves, and 5 g Italian seasoning.",
+            "Grill over medium heat for 5-7 minutes on each side until tender and lightly charred.",
+            "Serve with a drizzle of balsamic glaze and fresh basil."
+        ],
+        "description": "A medley of fresh vegetables, seasoned and grilled to perfection, drizzled with balsamic and garnished with basil.",
+        "backdrop": "",
+        "ingredients": [
+            ["Zucchini", "1 unit"],
+            ["Bell Pepper", "1 unit"],
+            ["Eggplant", "1 unit"],
+            ["Mushrooms", "4 units"],
+            ["Olive Oil", "30 mL"],
+            ["Garlic", "2 cloves"],
+            ["Italian Seasoning", "5 g"],
+            ["Balsamic Glaze", "30 mL"],
+            ["Basil", "10 g"]
+        ]
+    },
+    {
+        "name": "Italian Stuffed Artichokes",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Preheat oven to 190°C.",
+            "Trim the tops of 4 artichokes, remove the outer leaves, and scoop out the choke. Drizzle with lemon juice to prevent browning.",
+            "Mix 100 g breadcrumbs, 50 g grated Parmesan, 2 minced garlic cloves, 10 g chopped parsley, salt, and pepper. Stuff mixture into the artichoke centers and between the leaves.",
+            "Place stuffed artichokes in a baking dish. Pour 250 mL water into the dish. Drizzle artichokes with 30 mL olive oil.",
+            "Cover with foil and bake for 40 minutes. Remove foil and bake for an additional 20 minutes until tops are golden.",
+            "Serve warm with additional lemon wedges."
+        ],
+        "description": "Tender artichokes filled with a flavorful breadcrumb and Parmesan stuffing, baked until perfectly golden.",
+        "backdrop": "",
+        "ingredients": [
+            ["Artichokes", "4 units"],
+            ["Lemon Juice", "15 mL"],
+            ["Breadcrumbs", "100 g"],
+            ["Parmesan", "50 g"],
+            ["Garlic", "2 cloves"],
+            ["Parsley", "10 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Water", "250 mL"],
+            ["Olive Oil", "30 mL"],
+            ["Lemon Wedges", "4 units"]
+        ]
+    },
+    {
+        "name": "Indian Butter Shrimp",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "In a skillet, heat 15 mL vegetable oil. Add 1 minced onion, 2 minced garlic cloves, and 10 g grated ginger. Cook until onion is soft.",
+            "Add 10 g garam masala, 5 g turmeric, and 400 g canned tomatoes. Simmer for 10 minutes.",
+            "Add 500 g cleaned shrimp and 100 mL cream. Cook until shrimp are pink and cooked through, about 5 minutes.",
+            "Stir in 30 g butter until melted and combined.",
+            "Serve hot, garnished with cilantro, alongside basmati rice."
+        ],
+        "description": "Creamy and rich shrimp cooked in a spiced tomato sauce with a touch of butter, served with fragrant rice.",
+        "backdrop": "",
+        "ingredients": [
+            ["Vegetable Oil", "15 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Ginger", "10 g"],
+            ["Garam Masala", "10 g"],
+            ["Turmeric", "5 g"],
+            ["Canned Tomatoes", "400 g"],
+            ["Shrimp", "500 g"],
+            ["Cream", "100 mL"],
+            ["Butter", "30 g"],
+            ["Cilantro", "10 g"],
+            ["Basmati Rice", "300 g"]
+        ]
+    },
+    {
+        "name": "Indonesian Beef Satay",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Slice 500 g beef tenderloin into thin strips. Marinate in a mixture of 30 mL soy sauce, 20 mL lime juice, 10 g crushed garlic, and 5 g chili flakes for 2 hours.",
+            "Thread beef onto skewers.",
+            "Grill over medium heat for 3-4 minutes on each side or until cooked to desired doneness.",
+            "Serve with a peanut dipping sauce and cucumber salad."
+        ],
+        "description": "Tender strips of beef marinated in a flavorful soy and lime mixture, grilled and served with peanut sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Beef Tenderloin", "500 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Lime Juice", "20 mL"],
+            ["Garlic", "10 g"],
+            ["Chili Flakes", "5 g"],
+            ["Peanut Sauce", "50 mL"],
+            ["Cucumber Salad", "200 g"]
+        ]
+    },
+    {
+        "name": "Irish Lamb Pie",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.4,
+        "servingSize": 6,
+        "method": [
+            "In a large skillet, brown 1 kg diced lamb in 15 mL vegetable oil. Remove and set aside.",
+            "In the same skillet, add 1 diced onion, 2 diced carrots, and 2 minced garlic cloves. Cook until vegetables are soft.",
+            "Return lamb to skillet, add 200 mL beef broth, 100 mL red wine, and simmer for 45 minutes.",
+            "Transfer mixture to a pie dish, cover with rolled out pastry dough, and bake at 200°C for 25 minutes until golden.",
+            "Serve hot, garnished with chopped parsley."
+        ],
+        "description": "Savory lamb pie with a rich gravy, encased in a flaky pastry crust, a true Irish comfort food.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lamb", "1 kg"],
+            ["Vegetable Oil", "15 mL"],
+            ["Onion", "1 unit"],
+            ["Carrots", "2 units"],
+            ["Garlic", "2 cloves"],
+            ["Beef Broth", "200 mL"],
+            ["Red Wine", "100 mL"],
+            ["Pastry Dough", "300 g"],
+            ["Parsley", "10 g"]
+        ]
+    },
+    {
+        "name": "Indian Spiced Roasted Cauliflower",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Preheat oven to 200°C.",
+            "Cut 1 large cauliflower into florets. Toss with 30 mL olive oil, 10 g curry powder, 5 g turmeric, and salt.",
+            "Spread on a baking sheet and roast for 25 minutes until tender and golden.",
+            "Garnish with chopped coriander and serve with yogurt dip."
+        ],
+        "description": "Cauliflower florets seasoned with aromatic Indian spices and roasted to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Cauliflower", "1 unit"],
+            ["Olive Oil", "30 mL"],
+            ["Curry Powder", "10 g"],
+            ["Turmeric", "5 g"],
+            ["Salt", "0 g"],
+            ["Coriander", "10 g"],
+            ["Yogurt Dip", "50 mL"]
+        ]
+    },
+    {
+        "name": "Indonesian Gado Gado",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Blanch 200 g green beans, 100 g bean sprouts, and 2 sliced carrots until tender-crisp.",
+            "Arrange blanched vegetables, 100 g thinly sliced cabbage, and 4 halved boiled eggs on a platter.",
+            "Prepare peanut sauce by mixing 50 mL peanut butter, 15 mL soy sauce, 15 mL lime juice, and 5 g crushed garlic.",
+            "Drizzle peanut sauce over the vegetables and eggs, garnish with fried shallots.",
+            "Serve immediately."
+        ],
+        "description": "A traditional Indonesian salad featuring a mix of cooked and fresh vegetables, boiled eggs, and a rich peanut dressing.",
+        "backdrop": "",
+        "ingredients": [
+            ["Green Beans", "200 g"],
+            ["Bean Sprouts", "100 g"],
+            ["Carrots", "2 units"],
+            ["Cabbage", "100 g"],
+            ["Boiled Eggs", "4 units"],
+            ["Peanut Butter", "50 mL"],
+            ["Soy Sauce", "15 mL"],
+            ["Lime Juice", "15 mL"],
+            ["Garlic", "5 g"],
+            ["Fried Shallots", "10 g"]
+        ]
+    },
+    {
+        "name": "Italian Lemon Chicken",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "In a skillet, heat 15 mL olive oil over medium heat. Season 4 chicken breasts with salt and pepper, and brown each side.",
+            "Add the juice of 2 lemons and 100 mL chicken broth to the skillet. Bring to a simmer.",
+            "Cover and cook for 20 minutes, or until chicken is cooked through.",
+            "Garnish with sliced lemon and chopped parsley before serving."
+        ],
+        "description": "Succulent chicken breasts cooked in a bright lemon-infused sauce, an Italian classic.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "15 mL"],
+            ["Chicken Breasts", "4 units"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Lemons", "2 units"],
+            ["Chicken Broth", "100 mL"],
+            ["Parsley", "10 g"]
+        ]
+    },
+    {
+        "name": "Irish Scones",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.6,
+        "servingSize": 8,
+        "method": [
+            "Preheat oven to 220°C.",
+            "Mix 500 g flour, 50 g sugar, 10 g baking powder, and a pinch of salt in a large bowl.",
+            "Cut in 100 g cold butter until the mixture resembles coarse crumbs.",
+            "Stir in 240 mL buttermilk just until the dough comes together.",
+            "Turn out onto a floured surface and gently knead. Cut into rounds with a biscuit cutter.",
+            "Bake for 12-15 minutes or until golden brown.",
+            "Serve warm with butter and jam."
+        ],
+        "description": "Fluffy and lightly sweetened scones, a staple of Irish tea time, perfect with butter and jam.",
+        "backdrop": "",
+        "ingredients": [
+            ["Flour", "500 g"],
+            ["Sugar", "50 g"],
+            ["Baking Powder", "10 g"],
+            ["Salt", "1 g"],
+            ["Butter", "100 g"],
+            ["Buttermilk", "240 mL"],
+            ["Jam", "50 mL"]
+        ]
+    },
+    {
+        "name": "Irish Stew with Lamb",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.2,
+        "servingSize": 6,
+        "method": [
+            "In a large pot, brown 1 kg diced lamb shoulder in 30 mL olive oil. Remove and set aside.",
+            "Add 2 diced onions, 2 minced garlic cloves, and cook until soft.",
+            "Return lamb to the pot, add 1 L beef broth, 500 g cubed potatoes, 300 g sliced carrots, and bring to a simmer.",
+            "Cover and cook over low heat for 2 hours until the lamb is tender.",
+            "Stir in 200 g chopped leeks, cook for another 30 minutes.",
+            "Season with salt and pepper, garnish with fresh parsley, and serve."
+        ],
+        "description": "A traditional Irish stew made with tender lamb, hearty vegetables, and a rich, savory broth.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lamb Shoulder", "1 kg"],
+            ["Olive Oil", "30 mL"],
+            ["Onions", "2 units"],
+            ["Garlic", "2 cloves"],
+            ["Beef Broth", "1 L"],
+            ["Potatoes", "500 g"],
+            ["Carrots", "300 g"],
+            ["Leeks", "200 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Parsley", "10 g"]
+        ]
+    },
+    {
+        "name": "Indonesian Ikan Bakar",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Marinate 4 whole mackerels in a blend of 30 mL soy sauce, 20 g crushed garlic, 20 g grated ginger, and juice of 1 lime for 1 hour.",
+            "Grill the fish on a preheated grill over medium heat, 7 minutes per side, until the fish is cooked through and the skin is crisp.",
+            "Serve with a spicy sambal sauce and steamed rice."
+        ],
+        "description": "Grilled mackerel marinated in a flavorful mix of soy, garlic, and ginger, served with spicy sambal sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Whole Mackerels", "4 units"],
+            ["Soy Sauce", "30 mL"],
+            ["Garlic", "20 g"],
+            ["Ginger", "20 g"],
+            ["Lime", "1 unit"],
+            ["Sambal Sauce", "50 mL"],
+            ["Steamed Rice", "200 g"]
+        ]
+    },
+    {
+        "name": "Italian Zuppa Toscana",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 6,
+        "method": [
+            "In a pot, cook 200 g sliced Italian sausage until browned. Remove and set aside.",
+            "In the same pot, add 1 chopped onion and 2 cloves minced garlic, cook until translucent.",
+            "Add 1 L chicken broth, 500 g sliced potatoes, and 200 g chopped kale. Bring to a boil, then simmer for 20 minutes.",
+            "Return sausage to the pot, add 200 mL heavy cream, and simmer for an additional 10 minutes.",
+            "Season with salt and pepper. Serve hot."
+        ],
+        "description": "A rich and creamy Tuscan soup with Italian sausage, potatoes, and kale.",
+        "backdrop": "",
+        "ingredients": [
+            ["Italian Sausage", "200 g"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Chicken Broth", "1 L"],
+            ["Potatoes", "500 g"],
+            ["Kale", "200 g"],
+            ["Heavy Cream", "200 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Indian Jalebi",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.4,
+        "servingSize": 8,
+        "method": [
+            "Mix 200 g all-purpose flour with 20 g gram flour, 5 g baking powder, and 200 mL yogurt to make a batter. Let it ferment overnight.",
+            "Heat 500 mL vegetable oil in a wide pan. Pour the batter in a steady stream into the oil, forming coils. Fry until crisp and golden.",
+            "Dip the fried jalebi immediately in warm sugar syrup for 2 minutes. Remove and let drain.",
+            "Serve warm or cold, garnished with pistachios."
+        ],
+        "description": "Crispy, syrupy, and sweet, these classic Indian treats are a festival favorite.",
+        "backdrop": "",
+        "ingredients": [
+            ["All-Purpose Flour", "200 g"],
+            ["Gram Flour", "20 g"],
+            ["Baking Powder", "5 g"],
+            ["Yogurt", "200 mL"],
+            ["Vegetable Oil", "500 mL"],
+            ["Sugar Syrup", "300 mL"],
+            ["Pistachios", "10 g"]
+        ]
+    },
+    {
+        "name": "Irish Coffee Pudding",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "In a saucepan, mix 500 mL heavy cream, 50 g sugar, and 2 tsp instant coffee. Heat until coffee and sugar dissolve.",
+            "Sprinkle 10 g gelatin over 50 mL cold water and let sit for 5 minutes. Add to the hot cream mixture and stir until dissolved.",
+            "Pour into dessert dishes and refrigerate until set, about 4 hours.",
+            "Top with whipped cream and a sprinkle of cocoa powder before serving."
+        ],
+        "description": "A creamy dessert infused with the rich flavors of Irish coffee, set into a smooth pudding.",
+        "backdrop": "",
+        "ingredients": [
+            ["Heavy Cream", "500 mL"],
+            ["Sugar", "50 g"],
+            ["Instant Coffee", "2 tsp"],
+            ["Gelatin", "10 g"],
+            ["Water", "50 mL"],
+            ["Whipped Cream", "100 g"],
+            ["Cocoa Powder", "5 g"]
+        ]
+    },
+    {
+        "name": "Italian Sausage and Peppers",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "In a skillet, cook 400 g Italian sausages over medium heat until browned and cooked through.",
+            "Remove sausages, slice into rounds. In the same skillet, add 1 sliced bell pepper and 1 sliced onion; cook until softened.",
+            "Return sausages to the skillet, add 200 mL marinara sauce, and simmer for 10 minutes.",
+            "Serve on hoagie rolls or with a side of pasta."
+        ],
+        "description": "Flavorful Italian sausages cooked with bell peppers and onions in a rich marinara sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Italian Sausages", "400 g"],
+            ["Bell Pepper", "1 unit"],
+            ["Onion", "1 unit"],
+            ["Marinara Sauce", "200 mL"],
+            ["Hoagie Rolls or Pasta", "200 g"]
+        ]
+    },
+    {
+        "name": "Indonesian Coconut Curry",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "In a large pot, heat 15 mL vegetable oil. Add 20 g minced ginger, 2 minced garlic cloves, and 1 chopped onion. Cook until onion is soft.",
+            "Add 500 g diced chicken, cook until browned. Stir in 20 g curry powder and cook for 1 minute.",
+            "Pour in 400 mL coconut milk and 200 mL chicken stock. Bring to a boil, then simmer for 20 minutes.",
+            "Add 100 g diced tomatoes and 100 g sliced bell peppers, cook for 10 more minutes.",
+            "Season with salt and serve with steamed rice."
+        ],
+        "description": "A rich and flavorful curry with tender chicken, infused with coconut milk and traditional Indonesian spices.",
+        "backdrop": "",
+        "ingredients": [
+            ["Vegetable Oil", "15 mL"],
+            ["Ginger", "20 g"],
+            ["Garlic", "2 cloves"],
+            ["Onion", "1 unit"],
+            ["Chicken", "500 g"],
+            ["Curry Powder", "20 g"],
+            ["Coconut Milk", "400 mL"],
+            ["Chicken Stock", "200 mL"],
+            ["Tomatoes", "100 g"],
+            ["Bell Peppers", "100 g"],
+            ["Salt", "0 g"],
+            ["Steamed Rice", "300 g"]
+        ]
+    },
+    {
+        "name": "Israeli Beet Salad",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Boil 400 g peeled and diced beets until tender, about 20 minutes. Drain and cool.",
+            "In a large bowl, combine beets with 100 g crumbled feta cheese and 50 g chopped walnuts.",
+            "Dress with a mixture of 30 mL olive oil, 15 mL lemon juice, and salt to taste.",
+            "Chill before serving, garnished with fresh mint."
+        ],
+        "description": "A refreshing salad of tender beets, rich feta, and crunchy walnuts, dressed with a simple lemon and olive oil vinaigrette.",
+        "backdrop": "",
+        "ingredients": [
+            ["Beets", "400 g"],
+            ["Feta Cheese", "100 g"],
+            ["Walnuts", "50 g"],
+            ["Olive Oil", "30 mL"],
+            ["Lemon Juice", "15 mL"],
+            ["Salt", "0 g"],
+            ["Mint", "10 g"]
+        ]
     }
-]
+]    
