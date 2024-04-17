@@ -109,9 +109,9 @@ public class Fuzzy {
             adjustIngredientQuantities(recipe, servingSize);
 
             // Generate score for the recipe
-            float starRating = recipeManager.getStarRating(recipe.getId());
+            float starRating = (float) recipeManager.getStarRating(recipe.getId());
             float difficultyRating = recipeManager.getDifficultyRating(recipe.getId());
-            double score = generateRecipeScore(recipe, starRating, difficultyRating, pantry);
+            double score = generateRecipeScore(recipe,  starRating, difficultyRating, pantry);
 
             // Create a map to store score and recipe
             Map<Double, Recipe> scoreRecipeMap = new HashMap<>();

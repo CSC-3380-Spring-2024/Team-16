@@ -1,6 +1,7 @@
 package com.example.foodApp.Recipe;
 
 import java.util.List;
+import java.util.Map;
 //import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,10 +25,26 @@ public class RecipeController {
         System.out.println("it work");
         return new ResponseEntity<List<Recipe>>(recipeService.recipesWithIngredient(name), HttpStatus.OK);
     }
-    @PostMapping()
-    public Recipe addRecipe (@RequestBody Recipe recipe)
+    @PostMapping("/add")
+    public ResponseEntity<Recipe> addRecipe (@RequestBody Recipe recipe)
     {
         System.out.println(recipe.getName());
-        return recipeService.addRecipe(recipe);
+        Recipe recipeAdded = recipeService.addRecipe(recipe);
+        if(recipeAdded== null)
+        {
+            return ResponseEntity.badRequest().build();
+        }
+        return new ResponseEntity<Recipe>(recipeAdded, HttpStatus.OK);
+    }
+    @PostMapping("/starRating")
+    public String starRating (@RequestBody Map<String, String> payload)
+    {
+        float starRating = Float.parseFloat(payload.get("starRating"));
+        String name = payload.get("name");
+
+        String updating = recipeService.starRating(starRating,name);
+
+
+        return updating;
     }
 }

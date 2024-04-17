@@ -26,7 +26,7 @@ public class Recipe {
     @Id
     private ObjectId id;        //MongoDB internal ObjectId
     private String name;
-    private float starRating;       // Star rating out of 5
+    private double starRating;       // Star rating out of 5
     private float difficultyRating; // Difficulty Rating out of 5
     private int servingSize;
     private List<String> method;
@@ -70,7 +70,7 @@ public class Recipe {
         return id;
     }
     // Method to get the star rating of the recipe
-    public float getStarRating() {
+    public double getStarRating() {
         return starRating;
     }
 
@@ -82,6 +82,10 @@ public class Recipe {
     // Method to get the serving size of the recipe
     public int getServingSize() {
         return servingSize;
+    }
+    public List<String> getReviewId()
+    {
+        return reviewId;
     }
 
     public void addAllIngredientsFromArray(String[][] ingredientsArray) {
