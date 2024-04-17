@@ -13386,5 +13386,1800 @@
             ["Melon", "50 g"], 
             ["Mint", "5 g"]
         ]
+    },
+    {
+        "name": "Hearty Beef Stew",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.5,
+        "servingSize": 6,
+        "method": [
+            "Brown 1 kg of cubed beef in 30 mL of olive oil in a large pot.",
+            "Add 1 chopped onion, 2 minced garlic cloves, and cook until the onion is translucent.",
+            "Pour in 1 L of beef broth and add 300 g of chopped carrots, 300 g of diced potatoes, and 5 g of thyme.",
+            "Simmer covered for 2 hours, until the beef is tender.",
+            "Season with salt and pepper to taste and serve hot."
+        ],
+        "description": "A traditional and comforting beef stew with tender chunks of beef, hearty vegetables, and a rich broth, perfect for a cold evening.",
+        "backdrop": "",
+        "ingredients": [
+            ["Beef", "1 kg"],
+            ["Olive Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Beef Broth", "1 L"],
+            ["Carrots", "300 g"],
+            ["Potatoes", "300 g"],
+            ["Thyme", "5 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"]
+        ]
+    },
+    {
+        "name": "Honey Garlic Chicken",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Mix 30 mL of honey, 15 mL of soy sauce, and 3 cloves of minced garlic in a bowl.",
+            "Marinate 500 g of chicken thighs in the mixture for 1 hour.",
+            "Bake in a preheated oven at 180°C (356°F) for 30 minutes or until fully cooked.",
+            "Serve garnished with chopped scallions."
+        ],
+        "description": "Sweet and savory chicken thighs coated in a sticky honey garlic sauce, baked to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Honey", "30 mL"],
+            ["Soy Sauce", "15 mL"],
+            ["Garlic", "3 cloves"],
+            ["Chicken Thighs", "500 g"],
+            ["Scallions", "0 g"]
+        ]
+    },
+    {
+        "name": "Herbed Pork Tenderloin",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "Rub 1 kg of pork tenderloin with a mix of 5 g salt, 5 g black pepper, and 10 g mixed dried herbs.",
+            "Sear all sides in a skillet with 15 mL of olive oil.",
+            "Roast in a preheated oven at 190°C (374°F) for 25 minutes.",
+            "Let rest for 10 minutes before slicing. Serve with a side of roasted vegetables."
+        ],
+        "description": "A juicy and flavorful pork tenderloin, seasoned with a blend of herbs and roasted to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pork Tenderloin", "1 kg"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Mixed Dried Herbs", "10 g"],
+            ["Olive Oil", "15 mL"]
+        ]
+    },
+    {
+        "name": "Hot and Spicy Tofu",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Cube 400 g of firm tofu and marinate in a mixture of 30 mL soy sauce, 15 mL sriracha, and 5 g grated ginger for 30 minutes.",
+            "Sauté the tofu in 30 mL of vegetable oil over high heat until crispy, about 5 minutes.",
+            "Serve hot, garnished with sesame seeds and chopped green onions."
+        ],
+        "description": "Fiery tofu cubes sautéed until crispy, infused with a hot and tangy sauce, perfect for spice lovers.",
+        "backdrop": "",
+        "ingredients": [
+            ["Firm Tofu", "400 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Sriracha", "15 mL"],
+            ["Ginger", "5 g"],
+            ["Vegetable Oil", "30 mL"],
+            ["Sesame Seeds", "5 g"],
+            ["Green Onions", "2 units"]
+        ]
+    },
+    {
+        "name": "Hazelnut Crusted Salmon",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "Coat 4 salmon fillets with a crust of 100 g ground hazelnuts mixed with 50 g breadcrumbs.",
+            "Pan-sear in 15 mL of butter over medium heat, about 4 minutes per side.",
+            "Serve with a drizzle of lemon butter sauce."
+        ],
+        "description": "Delicious salmon fillets encrusted with a nutty hazelnut layer, pan-seared to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Salmon Fillets", "4 units"],
+            ["Ground Hazelnuts", "100 g"],
+            ["Breadcrumbs", "50 g"],
+            ["Butter", "15 mL"],
+            ["Lemon Butter Sauce", "30 mL"]
+        ]
+    },
+    {
+        "name": "Honey Mustard Chicken Skewers",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Mix 30 mL of honey with 30 mL of Dijon mustard and 5 mL of apple cider vinegar to make a marinade.",
+            "Thread 500 g of cubed chicken breast onto skewers and marinate for 1 hour.",
+            "Grill over medium heat, turning occasionally, until cooked through, about 15 minutes.",
+            "Serve garnished with fresh parsley."
+        ],
+        "description": "Grilled chicken skewers marinated in a sweet and tangy honey mustard sauce, perfect for outdoor cooking.",
+        "backdrop": "",
+        "ingredients": [
+            ["Honey", "30 mL"],
+            ["Dijon Mustard", "30 mL"],
+            ["Apple Cider Vinegar", "5 mL"],
+            ["Chicken Breast", "500 g"],
+            ["Parsley", "0 g"]
+        ]
+    },
+    {
+        "name": "Herb Roasted Potatoes",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Toss 800 g of cubed potatoes with 30 mL of olive oil, 5 g of rosemary, 5 g of thyme, and salt and pepper.",
+            "Spread on a baking sheet and roast in a preheated oven at 200°C (392°F) for 40 minutes, turning halfway through.",
+            "Serve hot, sprinkled with additional herbs if desired."
+        ],
+        "description": "Crispy on the outside, soft on the inside, these potatoes are roasted with fragrant herbs for a perfect side dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Potatoes", "800 g"],
+            ["Olive Oil", "30 mL"],
+            ["Rosemary", "5 g"],
+            ["Thyme", "5 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"]
+        ]
+    },
+    {
+        "name": "Hot Chocolate Fondue",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Heat 200 mL of heavy cream in a saucepan until it simmers.",
+            "Remove from heat and add 200 g of chopped dark chocolate, stirring until melted.",
+            "Transfer to a fondue pot and keep warm.",
+            "Serve with assorted fruits and marshmallows for dipping."
+        ],
+        "description": "Rich and velvety dark chocolate fondue, served warm with fresh fruits and marshmallows for a delightful dessert experience.",
+        "backdrop": "",
+        "ingredients": [
+            ["Heavy Cream", "200 mL"],
+            ["Dark Chocolate", "200 g"],
+            ["Assorted Fruits", "0 g"],
+            ["Marshmallows", "0 g"]
+        ]
+    },
+    {
+        "name": "Homemade Hash Browns",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "Grate 500 g of potatoes and squeeze out excess moisture.",
+            "Mix with 5 g of salt and 5 g of pepper.",
+            "Form into patties and fry in 50 mL of vegetable oil over medium heat until golden brown, about 5 minutes per side.",
+            "Serve hot with ketchup or your favorite dipping sauce."
+        ],
+        "description": "Crispy and golden homemade hash browns, a perfect breakfast side or a snack.",
+        "backdrop": "",
+        "ingredients": [
+            ["Potatoes", "500 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Vegetable Oil", "50 mL"],
+            ["Ketchup", "0 g"]
+        ]
+    },
+    {
+        "name": "Honey Glazed Carrots",
+        "author": "System",
+        "starRating": 4.4,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "Peel and slice 400 g of carrots.",
+            "In a skillet, melt 30 g of butter and add the carrots, 15 mL of honey, and a pinch of salt and pepper.",
+            "Cook over medium heat until the carrots are tender and glazed, about 10 minutes.",
+            "Garnish with parsley before serving."
+        ],
+        "description": "Sweet and tender carrots glazed with honey and butter, a simple yet flavorful side dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Carrots", "400 g"],
+            ["Butter", "30 g"],
+            ["Honey", "15 mL"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Parsley", "0 g"]
+        ]
+    },
+    {
+        "name": "Ham and Cheese Croissants",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Slice 4 croissants in half and fill each with 50 g of sliced ham and 50 g of Swiss cheese.",
+            "Bake in a preheated oven at 175°C (347°F) for 5 minutes or until the cheese melts.",
+            "Serve hot, ideal for a quick breakfast or a snack."
+        ],
+        "description": "Warm, buttery croissants stuffed with savory ham and melting Swiss cheese, a delicious and easy meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Croissants", "4 units"],
+            ["Ham", "200 g"],
+            ["Swiss Cheese", "200 g"]
+        ]
+    },
+    {
+        "name": "Herb-Roasted Turkey Breast",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.6,
+        "servingSize": 6,
+        "method": [
+            "Rub a 1.5 kg turkey breast with a mixture of 10 g salt, 5 g black pepper, 10 g minced garlic, and 15 g mixed fresh herbs (rosemary, thyme, sage).",
+            "Roast in a preheated oven at 175°C (347°F) for 90 minutes or until the internal temperature reaches 74°C (165°F).",
+            "Let rest for 10 minutes before slicing.",
+            "Serve with a side of cranberry sauce and roasted vegetables."
+        ],
+        "description": "Perfectly seasoned and roasted turkey breast, accompanied by aromatic herbs, ideal for a festive meal or a family dinner.",
+        "backdrop": "",
+        "ingredients": [
+            ["Turkey Breast", "1.5 kg"],
+            ["Salt", "10 g"],
+            ["Black Pepper", "5 g"],
+            ["Garlic", "10 g"],
+            ["Fresh Herbs", "15 g"],
+            ["Cranberry Sauce", "0 g"]
+        ]
+    },
+    {
+        "name": "Honey Roasted Peanuts",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.3,
+        "servingSize": 4,
+        "method": [
+            "Toss 300 g of raw peanuts with 30 mL of honey and a pinch of salt.",
+            "Spread on a baking sheet and roast in a preheated oven at 160°C (320°F) for 20 minutes, stirring halfway through.",
+            "Let cool before serving."
+        ],
+        "description": "Sweet and slightly salty, these honey roasted peanuts are a crunchy and addictive snack.",
+        "backdrop": "",
+        "ingredients": [
+            ["Raw Peanuts", "300 g"],
+            ["Honey", "30 mL"],
+            ["Salt", "5 g"]
+        ]
+    },
+    {
+        "name": "Harissa Chicken Thighs",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Marinate 500 g of chicken thighs in 50 mL of harissa paste, 30 mL of olive oil, and the juice of 1 lemon for at least 2 hours.",
+            "Grill over medium heat until fully cooked, about 6-7 minutes per side.",
+            "Serve with a side of couscous and grilled vegetables."
+        ],
+        "description": "Spicy and flavorful chicken thighs marinated in harissa and lemon, perfect for a fiery and delicious meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Thighs", "500 g"],
+            ["Harissa Paste", "50 mL"],
+            ["Olive Oil", "30 mL"],
+            ["Lemon", "1 unit"],
+            ["Couscous", "0 g"]
+        ]
+    },
+    {
+        "name": "Hot Spinach and Artichoke Dip",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Mix 200 g of chopped cooked spinach, 200 g of chopped artichoke hearts, 100 g of cream cheese, 50 g of sour cream, and 50 g of grated Parmesan cheese.",
+            "Bake in a preheated oven at 190°C (374°F) for 20 minutes or until bubbly and golden on top.",
+            "Serve hot with toasted bread or tortilla chips."
+        ],
+        "description": "A creamy and indulgent dip made with spinach, artichokes, and a mix of cheeses, perfect for parties or as an appetizer.",
+        "backdrop": "",
+        "ingredients": [
+            ["Cooked Spinach", "200 g"],
+            ["Artichoke Hearts", "200 g"],
+            ["Cream Cheese", "100 g"],
+            ["Sour Cream", "50 g"],
+            ["Parmesan Cheese", "50 g"],
+            ["Toasted Bread", "0 g"],
+            ["Tortilla Chips", "0 g"]
+        ]
+    },
+    {
+        "name": "Herbed Quinoa Salad",
+        "author": "System",
+        "starRating": 4.4,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "Cook 200 g of quinoa according to package instructions, then let cool.",
+            "Mix quinoa with 100 g of diced cucumber, 100 g of cherry tomatoes, 50 g of feta cheese, and 30 g of chopped fresh herbs (parsley, mint).",
+            "Dress with 30 mL of olive oil and the juice of 1 lemon.",
+            "Season with salt and pepper and chill before serving."
+        ],
+        "description": "A fresh and light salad featuring quinoa tossed with cucumbers, tomatoes, feta, and vibrant herbs, dressed in a simple lemon olive oil dressing.",
+        "backdrop": "",
+        "ingredients": [
+            ["Quinoa", "200 g"],
+            ["Cucumber", "100 g"],
+            ["Cherry Tomatoes", "100 g"],
+            ["Feta Cheese", "50 g"],
+            ["Fresh Herbs", "30 g"],
+            ["Olive Oil", "30 mL"],
+            ["Lemon", "1 unit"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"]
+        ]
+    },
+    {
+        "name": "Honey Glazed Duck",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 3.0,
+        "servingSize": 4,
+        "method": [
+            "Score the skin of 4 duck breasts and season with salt and pepper.",
+            "Pan-sear skin side down over low heat until the fat renders and the skin is crispy, about 10 minutes.",
+            "Turn over and cook for another 5 minutes for medium rare.",
+            "Glaze with a mixture of 30 mL of honey, 15 mL of soy sauce, and 15 mL of orange juice during the last few minutes.",
+            "Rest for 5 minutes, then slice and serve."
+        ],
+        "description": "Rich and flavorful duck breasts with a sweet and tangy glaze, perfectly cooked to crispy-skinned perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Duck Breasts", "4 units"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Honey", "30 mL"],
+            ["Soy Sauce", "15 mL"],
+            ["Orange Juice", "15 mL"]
+        ]
+    },
+    {
+        "name": "Hearty Minestrone Soup",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 6,
+        "method": [
+            "In a large pot, heat 30 mL of olive oil over medium heat.",
+            "Add 1 chopped onion, 2 minced garlic cloves, and 2 chopped carrots, sauté until softened.",
+            "Stir in 1 L of vegetable broth, 400 g of chopped tomatoes, 200 g of chopped zucchini, and 100 g of canned kidney beans.",
+            "Simmer for 30 minutes, then add 100 g of pasta and cook until al dente.",
+            "Season with salt and pepper, serve hot garnished with grated Parmesan cheese."
+        ],
+        "description": "A classic Italian soup loaded with vegetables, beans, and pasta, simmered in a rich tomato broth, hearty and nutritious.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Carrots", "2 units"],
+            ["Vegetable Broth", "1 L"],
+            ["Chopped Tomatoes", "400 g"],
+            ["Zucchini", "200 g"],
+            ["Kidney Beans", "100 g"],
+            ["Pasta", "100 g"],
+            ["Parmesan Cheese", "50 g"]
+        ]
+    },
+    {
+        "name": "Hickory Smoked Ribs",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.8,
+        "servingSize": 4,
+        "method": [
+            "Rub 1 kg of pork ribs with a mix of 10 g smoked paprika, 10 g brown sugar, 5 g garlic powder, and salt and pepper.",
+            "Smoke over hickory wood at 120°C (248°F) for 4 hours.",
+            "Brush with barbecue sauce and grill for an additional 10 minutes to caramelize.",
+            "Serve with coleslaw and extra barbecue sauce."
+        ],
+        "description": "Slow-cooked pork ribs with a smoky hickory flavor, glazed with a sweet barbecue sauce, fall-off-the-bone tender.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pork Ribs", "1 kg"],
+            ["Smoked Paprika", "10 g"],
+            ["Brown Sugar", "10 g"],
+            ["Garlic Powder", "5 g"],
+            ["Barbecue Sauce", "50 mL"],
+            ["Coleslaw", "0 g"]
+        ]
+    },
+    {
+        "name": "Hot Smoked Salmon",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "Brine 500 g of salmon fillets in a solution of 1 L water, 100 g salt, and 50 g sugar for 2 hours.",
+            "Dry the salmon for 1 hour at room temperature on a wire rack.",
+            "Smoke at 120°C (248°F) using applewood chips for 3 hours.",
+            "Serve with a dill and yogurt sauce."
+        ],
+        "description": "Delicately flavored hot smoked salmon, perfect for adding a gourmet touch to any meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Salmon Fillets", "500 g"],
+            ["Water", "1 L"],
+            ["Salt", "100 g"],
+            ["Sugar", "50 g"],
+            ["Dill", "0 g"],
+            ["Yogurt Sauce", "0 g"]
+        ]
+    },
+    {
+        "name": "Honey Mustard Pretzel Chicken",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Crush 200 g of pretzels into coarse crumbs.",
+            "Dip 500 g of chicken breast cutlets in a mixture of 30 mL honey and 30 mL Dijon mustard, then coat in pretzel crumbs.",
+            "Bake on a greased baking sheet at 200°C (392°F) for 25 minutes or until golden and cooked through.",
+            "Serve with a honey mustard dipping sauce."
+        ],
+        "description": "Crispy baked chicken coated in a sweet and tangy honey mustard sauce and crunchy pretzel crumbs, a fun twist on classic chicken fingers.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pretzels", "200 g"],
+            ["Chicken Breast Cutlets", "500 g"],
+            ["Honey", "30 mL"],
+            ["Dijon Mustard", "30 mL"],
+            ["Honey Mustard Dipping Sauce", "50 mL"]
+        ]
+    },
+    {
+        "name": "Herb Infused Grilled Shrimp",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Marinate 400 g of shrimp in a blend of 30 mL olive oil, 15 mL lemon juice, 10 g chopped fresh basil, and 5 g chopped fresh parsley for 30 minutes.",
+            "Grill over medium heat until pink and firm, about 3-4 minutes per side.",
+            "Serve with a side of garlic butter pasta."
+        ],
+        "description": "Fresh and flavorful grilled shrimp marinated in herbs and lemon, simple yet elegant for any dining occasion.",
+        "backdrop": "",
+        "ingredients": [
+            ["Shrimp", "400 g"],
+            ["Olive Oil", "30 mL"],
+            ["Lemon Juice", "15 mL"],
+            ["Fresh Basil", "10 g"],
+            ["Fresh Parsley", "5 g"],
+            ["Garlic Butter Pasta", "0 g"]
+        ]
+    },
+    {
+        "name": "Hasselback Potatoes with Herb Butter",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Slice 4 large potatoes almost all the way through at 3mm intervals.",
+            "Melt 50 g of butter and mix with 10 g of chopped parsley, 5 g of chopped thyme, and 2 cloves of minced garlic.",
+            "Brush the potatoes with the herb butter, ensuring it gets between the slices.",
+            "Bake at 200°C (392°F) for about 1 hour until the potatoes are crispy on the edges and tender inside.",
+            "Serve hot, topped with extra herb butter."
+        ],
+        "description": "Crispy on the outside, tender on the inside Hasselback potatoes, lavishly coated with a flavorful herb butter.",
+        "backdrop": "",
+        "ingredients": [
+            ["Potatoes", "4 units"],
+            ["Butter", "50 g"],
+            ["Parsley", "10 g"],
+            ["Thyme", "5 g"],
+            ["Garlic", "2 cloves"]
+        ]
+    },
+    {
+        "name": "Honey Lime Grilled Chicken",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Marinate 500 g of chicken breasts in a mixture of 30 mL of honey, juice of 2 limes, and 5 g of salt for at least 2 hours.",
+            "Grill over medium heat until cooked through, about 6-7 minutes per side.",
+            "Serve with a fresh lime wedge and a sprinkle of cilantro."
+        ],
+        "description": "Succulent grilled chicken marinated in a sweet and tangy honey lime sauce, perfect for a light summer meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breasts", "500 g"],
+            ["Honey", "30 mL"],
+            ["Limes", "2 units"],
+            ["Salt", "5 g"],
+            ["Cilantro", "0 g"]
+        ]
+    },
+    {
+        "name": "Herbed Baked Cod",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Lay 500 g of cod fillets in a baking dish.",
+            "Mix 30 mL of olive oil with 10 g of chopped dill, 10 g of chopped parsley, and 5 g of lemon zest, then spread over the cod.",
+            "Bake at 180°C (356°F) for 15-20 minutes, until the fish flakes easily with a fork.",
+            "Serve with steamed asparagus and lemon slices."
+        ],
+        "description": "Delicate cod fillets baked with a medley of fresh herbs and a hint of lemon, offering a light and healthy dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Cod Fillets", "500 g"],
+            ["Olive Oil", "30 mL"],
+            ["Dill", "10 g"],
+            ["Parsley", "10 g"],
+            ["Lemon Zest", "5 g"],
+            ["Asparagus", "0 g"],
+            ["Lemon Slices", "0 g"]
+        ]
+    },
+    {
+        "name": "Hot Spinach Dip",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.7,
+        "servingSize": 6,
+        "method": [
+            "Combine 300 g of chopped spinach, 200 g of cream cheese, 100 g of sour cream, and 50 g of grated Parmesan in a bowl.",
+            "Season with 5 g of salt and 5 g of garlic powder, mix thoroughly.",
+            "Transfer to a baking dish and cook at 190°C (374°F) for 20 minutes or until hot and bubbly.",
+            "Serve with tortilla chips and sliced baguette."
+        ],
+        "description": "A creamy and cheesy hot spinach dip, perfect for sharing and dipping, a crowd-pleaser at any gathering.",
+        "backdrop": "",
+        "ingredients": [
+            ["Spinach", "300 g"],
+            ["Cream Cheese", "200 g"],
+            ["Sour Cream", "100 g"],
+            ["Parmesan Cheese", "50 g"],
+            ["Salt", "5 g"],
+            ["Garlic Powder", "5 g"],
+            ["Tortilla Chips", "0 g"],
+            ["Baguette", "0 g"]
+        ]
+    },
+    {
+        "name": "Honey Glazed Ham",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.5,
+        "servingSize": 8,
+        "method": [
+            "Score a 2 kg ham and place in a roasting pan.",
+            "Mix 100 mL of honey, 50 mL of orange juice, and 10 g of ground cloves to make a glaze.",
+            "Brush the glaze over the ham and bake at 160°C (320°F) for 1.5 hours, basting every 30 minutes.",
+            "Serve sliced with extra glaze and roasted vegetables."
+        ],
+        "description": "Tender ham with a sweet and aromatic honey glaze, perfect for festive occasions and family dinners.",
+        "backdrop": "",
+        "ingredients": [
+            ["Ham", "2 kg"],
+            ["Honey", "100 mL"],
+            ["Orange Juice", "50 mL"],
+            ["Ground Cloves", "10 g"],
+            ["Roasted Vegetables", "0 g"]
+        ]
+    },
+    {
+        "name": "Hummus and Roasted Veggie Wrap",
+        "author": "System",
+        "starRating": 4.4,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Spread 200 g of hummus on 4 large flour tortillas.",
+            "Top with 100 g of roasted red peppers, 100 g of roasted zucchini, and 50 g of spinach leaves.",
+            "Roll up the tortillas tightly, slice in half, and serve."
+        ],
+        "description": "A healthy and filling wrap filled with creamy hummus and a variety of roasted vegetables, perfect for a quick lunch or light dinner.",
+        "backdrop": "",
+        "ingredients": [
+            ["Hummus", "200 g"],
+            ["Flour Tortillas", "4 units"],
+            ["Roasted Red Peppers", "100 g"],
+            ["Roasted Zucchini", "100 g"],
+            ["Spinach Leaves", "50 g"]
+        ]
+    },
+    {
+        "name": "Hot Garlic Shrimp",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Sauté 400 g of shrimp with 30 mL of olive oil and 5 cloves of minced garlic until pink, about 2-3 minutes.",
+            "Sprinkle with 5 g of red pepper flakes and a squeeze of lemon juice.",
+            "Serve hot, garnished with chopped parsley."
+        ],
+        "description": "Spicy and garlicky shrimp cooked quickly for a flavorful seafood dish, garnished with fresh herbs.",
+        "backdrop": "",
+        "ingredients": [
+            ["Shrimp", "400 g"],
+            ["Olive Oil", "30 mL"],
+            ["Garlic", "5 cloves"],
+            ["Red Pepper Flakes", "5 g"],
+            ["Lemon Juice", "15 mL"],
+            ["Parsley", "5 g"]
+        ]
+    },
+    {
+        "name": "Honey Mustard Roasted Brussels Sprouts",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Toss 500 g of halved Brussels sprouts with 30 mL of olive oil, salt, and pepper.",
+            "Roast in a preheated oven at 200°C (392°F) for 20 minutes.",
+            "Drizzle with a mixture of 30 mL honey and 30 mL Dijon mustard, return to oven for an additional 10 minutes.",
+            "Serve warm, sprinkled with toasted almond slices."
+        ],
+        "description": "Crispy Brussels sprouts with a sweet and tangy honey mustard glaze, enhanced with the crunch of toasted almonds.",
+        "backdrop": "",
+        "ingredients": [
+            ["Brussels Sprouts", "500 g"],
+            ["Olive Oil", "30 mL"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Honey", "30 mL"],
+            ["Dijon Mustard", "30 mL"],
+            ["Almond Slices", "30 g"]
+        ]
+    },
+    {
+        "name": "Herb-Crusted Halibut",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Mix 50 g of breadcrumbs with 10 g of chopped fresh basil, 10 g of chopped fresh parsley, and zest of 1 lemon.",
+            "Press the mixture onto 4 halibut fillets.",
+            "Bake in a preheated oven at 180°C (356°F) for 15 minutes or until the fish flakes easily.",
+            "Serve with lemon wedges and a light salad."
+        ],
+        "description": "Flaky halibut fillets encrusted with a fragrant blend of herbs and lemon, baked to golden perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Halibut Fillets", "4 units"],
+            ["Breadcrumbs", "50 g"],
+            ["Fresh Basil", "10 g"],
+            ["Fresh Parsley", "10 g"],
+            ["Lemon Zest", "1 unit"],
+            ["Lemon Wedges", "0 g"]
+        ]
+    },
+    {
+        "name": "Honey Drizzled Pear Galette",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "Roll out 250 g of pie dough and place on a baking sheet.",
+            "Arrange 3 sliced pears in the center, leaving a border.",
+            "Fold the edges over the pears, brush with 15 mL of melted butter, and sprinkle with 50 g of sugar.",
+            "Bake at 190°C (374°F) for 35 minutes.",
+            "Drizzle with 30 mL of honey before serving."
+        ],
+        "description": "A rustic and simple pear galette, sweetened with a honey drizzle, showcasing the natural flavors of the fruit.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pie Dough", "250 g"],
+            ["Pears", "3 units"],
+            ["Butter", "15 mL"],
+            ["Sugar", "50 g"],
+            ["Honey", "30 mL"]
+        ]
+    },
+    {
+        "name": "Hickory Smoked Beef Brisket",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 3.1,
+        "servingSize": 6,
+        "method": [
+            "Rub a 2 kg beef brisket with a mix of 10 g salt, 10 g black pepper, and 5 g smoked paprika.",
+            "Smoke over hickory wood at 110°C (230°F) for 8 hours or until tender.",
+            "Rest for 30 minutes before slicing.",
+            "Serve with BBQ sauce and coleslaw."
+        ],
+        "description": "Slow-smoked beef brisket with a rich hickory aroma, offering melt-in-your-mouth tenderness and deep flavors.",
+        "backdrop": "",
+        "ingredients": [
+            ["Beef Brisket", "2 kg"],
+            ["Salt", "10 g"],
+            ["Black Pepper", "10 g"],
+            ["Smoked Paprika", "5 g"],
+            ["BBQ Sauce", "0 g"],
+            ["Coleslaw", "0 g"]
+        ]
+    },
+    {
+        "name": "Herb and Garlic Roasted Leg of Lamb",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.7,
+        "servingSize": 8,
+        "method": [
+            "Rub a 2 kg leg of lamb with a paste made from 20 g of chopped rosemary, 20 g of chopped thyme, 10 cloves of minced garlic, 30 mL of olive oil, and 10 g of salt.",
+            "Roast in a preheated oven at 190°C (374°F) for about 1.5 hours or until the meat reaches the desired doneness.",
+            "Let rest for 20 minutes before carving.",
+            "Serve with roasted potatoes and a mint sauce."
+        ],
+        "description": "A succulent leg of lamb coated with a rich blend of herbs and garlic, roasted to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Leg of Lamb", "2 kg"],
+            ["Rosemary", "20 g"],
+            ["Thyme", "20 g"],
+            ["Garlic", "10 cloves"],
+            ["Olive Oil", "30 mL"],
+            ["Salt", "10 g"],
+            ["Roasted Potatoes", "0 g"],
+            ["Mint Sauce", "0 g"]
+        ]
+    },
+    {
+        "name": "Honey Balsamic Brussel Sprouts",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Halve 500 g of Brussels sprouts and toss with 15 mL of olive oil, salt, and pepper.",
+            "Roast in a preheated oven at 200°C (392°F) for 20 minutes.",
+            "Drizzle with a mixture of 30 mL honey and 15 mL balsamic vinegar, then roast for an additional 10 minutes.",
+            "Serve hot, garnished with a sprinkle of roasted pine nuts."
+        ],
+        "description": "Caramelized Brussels sprouts with a sweet and tangy honey balsamic glaze, finished with crunchy pine nuts.",
+        "backdrop": "",
+        "ingredients": [
+            ["Brussels Sprouts", "500 g"],
+            ["Olive Oil", "15 mL"],
+            ["Honey", "30 mL"],
+            ["Balsamic Vinegar", "15 mL"],
+            ["Pine Nuts", "30 g"]
+        ]
+    },
+    {
+        "name": "Habanero and Mango Salsa",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "Dice 2 ripe mangoes and mix with 1 finely chopped habanero pepper, 50 g diced red onion, and the juice of 2 limes.",
+            "Season with salt and let sit for 30 minutes to allow flavors to meld.",
+            "Serve with tortilla chips or as a topping for grilled fish."
+        ],
+        "description": "A fiery and sweet salsa made with fresh mangoes and spicy habanero peppers, perfect for dipping or enhancing a dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Mangoes", "2 units"],
+            ["Habanero Pepper", "1 unit"],
+            ["Red Onion", "50 g"],
+            ["Limes", "2 units"],
+            ["Salt", "5 g"],
+            ["Tortilla Chips", "0 g"]
+        ]
+    },
+    {
+        "name": "Hearty Minestrone Soup",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 6,
+        "method": [
+            "In a large pot, heat 30 mL of olive oil over medium heat and sauté 1 chopped onion, 2 minced garlic cloves, and 100 g chopped carrots until softened.",
+            "Add 1.5 liters of vegetable broth, 400 g canned diced tomatoes, 100 g chopped zucchini, and 100 g of chopped celery.",
+            "Bring to a boil, then simmer for 30 minutes.",
+            "Add 100 g of small pasta shapes and cook until tender, about 10 minutes.",
+            "Stir in 200 g of canned kidney beans and heat through.",
+            "Serve hot, sprinkled with grated Parmesan cheese."
+        ],
+        "description": "A rich and filling soup packed with vegetables, beans, and pasta, simmered in a savory tomato broth.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Carrots", "100 g"],
+            ["Vegetable Broth", "1.5 L"],
+            ["Diced Tomatoes", "400 g"],
+            ["Zucchini", "100 g"],
+            ["Celery", "100 g"],
+            ["Pasta", "100 g"],
+            ["Kidney Beans", "200 g"],
+            ["Parmesan Cheese", "50 g"]
+        ]
+    },
+    {
+        "name": "Hot Chocolate Fondue",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Heat 250 mL of heavy cream in a fondue pot until it begins to simmer.",
+            "Add 200 g of chopped dark chocolate and stir until smooth.",
+            "Stir in 30 mL of honey and a pinch of cinnamon.",
+            "Keep warm and serve with assorted fruits, marshmallows, and pound cake for dipping."
+        ],
+        "description": "A decadent and smooth hot chocolate fondue, sweetened with honey and a hint of cinnamon, perfect for dipping your favorite fruits and sweets.",
+        "backdrop": "",
+        "ingredients": [
+            ["Heavy Cream", "250 mL"],
+            ["Dark Chocolate", "200 g"],
+            ["Honey", "30 mL"],
+            ["Cinnamon", "5 g"],
+            ["Assorted Fruits", "0 g"],
+            ["Marshmallows", "0 g"],
+            ["Pound Cake", "0 g"]
+        ]
+    },
+    {
+        "name": "Honey Mustard Pork Chops",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Mix 30 mL of Dijon mustard, 30 mL of honey, and 5 g of minced garlic to create a marinade.",
+            "Coat 4 pork chops in the marinade and let sit for 1 hour.",
+            "Grill over medium heat for 5-7 minutes per side or until fully cooked.",
+            "Serve with a side of steamed green beans and mashed potatoes."
+        ],
+        "description": "Juicy grilled pork chops marinated in a sweet and tangy honey mustard sauce, a simple yet flavorful dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Dijon Mustard", "30 mL"],
+            ["Honey", "30 mL"],
+            ["Garlic", "5 g"],
+            ["Pork Chops", "4 units"],
+            ["Green Beans", "0 g"],
+            ["Mashed Potatoes", "0 g"]
+        ]
+    },
+    {
+        "name": "Hot Smoked Salmon Salad",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "Smoke 400 g of salmon fillets with applewood until cooked through, about 2 hours at 120°C (248°F).",
+            "Flake the salmon and mix with 200 g of mixed salad greens, 100 g of cherry tomatoes, and 50 g of sliced cucumbers.",
+            "Dress with a mixture of 30 mL of olive oil, 15 mL of lemon juice, and 5 g of dill.",
+            "Serve chilled."
+        ],
+        "description": "A light and refreshing salad featuring hot smoked salmon tossed with crisp greens and a lemon dill dressing.",
+        "backdrop": "",
+        "ingredients": [
+            ["Salmon Fillets", "400 g"],
+            ["Mixed Salad Greens", "200 g"],
+            ["Cherry Tomatoes", "100 g"],
+            ["Cucumbers", "50 g"],
+            ["Olive Oil", "30 mL"],
+            ["Lemon Juice", "15 mL"],
+            ["Dill", "5 g"]
+        ]
+    },
+    {
+        "name": "Huevos Rancheros",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "Fry 4 corn tortillas in a skillet with a little oil until crispy.",
+            "Top each tortilla with fried eggs, 200 g of warmed refried beans, and 100 g of salsa.",
+            "Garnish with 50 g of sliced avocados, chopped cilantro, and a drizzle of sour cream.",
+            "Serve immediately."
+        ],
+        "description": "A traditional Mexican breakfast dish featuring crispy tortillas topped with eggs, beans, salsa, and avocado.",
+        "backdrop": "",
+        "ingredients": [
+            ["Corn Tortillas", "4 units"],
+            ["Eggs", "4 units"],
+            ["Refried Beans", "200 g"],
+            ["Salsa", "100 g"],
+            ["Avocados", "50 g"],
+            ["Cilantro", "0 g"],
+            ["Sour Cream", "30 mL"]
+        ]
+    },
+    {
+        "name": "Hazelnut Chocolate Mousse",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Melt 150 g of dark chocolate with 50 g of crushed hazelnuts over a double boiler.",
+            "Whip 250 mL of heavy cream to soft peaks.",
+            "Fold the chocolate mixture into the whipped cream until well combined.",
+            "Chill for 2 hours before serving, topped with whipped cream and additional hazelnuts."
+        ],
+        "description": "A rich and creamy chocolate mousse infused with the flavor of hazelnuts, a luxurious dessert.",
+        "backdrop": "",
+        "ingredients": [
+            ["Dark Chocolate", "150 g"],
+            ["Crushed Hazelnuts", "50 g"],
+            ["Heavy Cream", "250 mL"]
+        ]
+    },
+    {
+        "name": "Herbed Goat Cheese Stuffed Peppers",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Mix 200 g of soft goat cheese with 10 g of chopped basil, 5 g of chopped thyme, and 5 g of minced garlic.",
+            "Cut the tops off 4 large bell peppers and remove seeds.",
+            "Stuff the peppers with the goat cheese mixture and replace the tops.",
+            "Bake in a preheated oven at 180°C (356°F) for 25 minutes.",
+            "Serve hot, garnished with additional herbs."
+        ],
+        "description": "Colorful bell peppers stuffed with a flavorful herb-infused goat cheese mixture, baked until tender.",
+        "backdrop": "",
+        "ingredients": [
+            ["Goat Cheese", "200 g"],
+            ["Basil", "10 g"],
+            ["Thyme", "5 g"],
+            ["Garlic", "5 g"],
+            ["Bell Peppers", "4 units"]
+        ]
+    },
+    {
+        "name": "Honey-Soy Glazed Salmon",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Mix 30 mL soy sauce, 30 mL honey, and 15 mL sesame oil in a bowl.",
+            "Place 4 salmon fillets in the marinade and let sit for 30 minutes.",
+            "Bake the salmon in a preheated oven at 200°C (392°F) for 15 minutes or until cooked through.",
+            "Garnish with sesame seeds and sliced green onions before serving."
+        ],
+        "description": "Tender salmon fillets with a sweet and savory glaze, baked to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Soy Sauce", "30 mL"],
+            ["Honey", "30 mL"],
+            ["Sesame Oil", "15 mL"],
+            ["Salmon Fillets", "4 units"],
+            ["Sesame Seeds", "5 g"],
+            ["Green Onions", "2 units"]
+        ]
+    },
+    {
+        "name": "Hearty White Bean Soup",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.9,
+        "servingSize": 6,
+        "method": [
+            "Sauté 1 chopped onion and 2 cloves of minced garlic in 30 mL of olive oil until translucent.",
+            "Add 1 liter of chicken broth, 400 g of canned white beans, and 200 g of chopped ham. Bring to a boil and simmer for 30 minutes.",
+            "Season with salt, pepper, and 5 g of crushed rosemary.",
+            "Serve hot, sprinkled with grated Parmesan."
+        ],
+        "description": "A warming and filling soup with white beans, ham, and aromatic herbs, perfect for a cold day.",
+        "backdrop": "",
+        "ingredients": [
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Olive Oil", "30 mL"],
+            ["Chicken Broth", "1 L"],
+            ["White Beans", "400 g"],
+            ["Ham", "200 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Rosemary", "5 g"],
+            ["Parmesan", "50 g"]
+        ]
+    },
+    {
+        "name": "Honey Mustard Grilled Chicken",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Mix 30 mL of honey, 30 mL of Dijon mustard, and 15 mL of apple cider vinegar to make a marinade.",
+            "Marinate 4 chicken breasts for at least 2 hours.",
+            "Grill over medium heat for 7 minutes per side or until fully cooked.",
+            "Serve with steamed broccoli and carrots."
+        ],
+        "description": "Juicy chicken breasts marinated in a sweet and tangy honey mustard sauce, perfect for a summer barbecue.",
+        "backdrop": "",
+        "ingredients": [
+            ["Honey", "30 mL"],
+            ["Dijon Mustard", "30 mL"],
+            ["Apple Cider Vinegar", "15 mL"],
+            ["Chicken Breasts", "4 units"],
+            ["Broccoli", "200 g"],
+            ["Carrots", "200 g"]
+        ]
+    },
+    {
+        "name": "Herb-Crusted Rack of Lamb",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 3.0,
+        "servingSize": 4,
+        "method": [
+            "Mix 10 g of chopped rosemary, 10 g of chopped thyme, and 5 cloves of minced garlic with 30 mL of olive oil to form a paste.",
+            "Rub this paste over a 1 kg rack of lamb and let sit for 1 hour.",
+            "Roast in a preheated oven at 200°C (392°F) for 25 minutes for medium-rare.",
+            "Let rest for 10 minutes, then carve and serve with a mint jelly."
+        ],
+        "description": "A luxurious rack of lamb encrusted with fresh herbs, roasted to tender perfection, served with mint jelly.",
+        "backdrop": "",
+        "ingredients": [
+            ["Rosemary", "10 g"],
+            ["Thyme", "10 g"],
+            ["Garlic", "5 cloves"],
+            ["Olive Oil", "30 mL"],
+            ["Rack of Lamb", "1 kg"],
+            ["Mint Jelly", "0 g"]
+        ]
+    },
+    {
+        "name": "Hot Lemon Pepper Wings",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Toss 1 kg of chicken wings with 30 mL of olive oil and 10 g of lemon pepper seasoning.",
+            "Bake at 220°C (428°F) for 40 minutes, turning halfway through.",
+            "Serve hot with celery sticks and blue cheese dressing."
+        ],
+        "description": "Crispy chicken wings seasoned with zesty lemon pepper, baked to a golden finish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Wings", "1 kg"],
+            ["Olive Oil", "30 mL"],
+            ["Lemon Pepper Seasoning", "10 g"],
+            ["Celery Sticks", "0 g"],
+            ["Blue Cheese Dressing", "0 g"]
+        ]
+    },
+    {
+        "name": "Hickory Barbecue Ribs",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.8,
+        "servingSize": 4,
+        "method": [
+            "Rub 1 kg of pork ribs with a mixture of 10 g of smoked paprika, 10 g of brown sugar, and 5 g of garlic powder.",
+            "Smoke over hickory wood chips at 120°C (248°F) for 6 hours.",
+            "Brush with barbecue sauce and grill for 10 minutes to caramelize the sauce.",
+            "Serve with coleslaw and cornbread."
+        ],
+        "description": "Tender, slow-smoked pork ribs slathered in a rich barbecue sauce, served with classic sides.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pork Ribs", "1 kg"],
+            ["Smoked Paprika", "10 g"],
+            ["Brown Sugar", "10 g"],
+            ["Garlic Powder", "5 g"],
+            ["Barbecue Sauce", "50 mL"],
+            ["Coleslaw", "0 g"],
+            ["Cornbread", "0 g"]
+        ]
+    },
+    {
+        "name": "Heirloom Tomato Gazpacho",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Blend 500 g of chopped heirloom tomatoes, 1 chopped cucumber, 1 chopped bell pepper, and 1 small red onion until smooth.",
+            "Season with salt, pepper, and 15 mL of red wine vinegar.",
+            "Chill for at least 2 hours.",
+            "Serve cold, garnished with chopped basil and a drizzle of olive oil."
+        ],
+        "description": "A refreshing and colorful cold soup made with ripe heirloom tomatoes and fresh vegetables, perfect for hot weather.",
+        "backdrop": "",
+        "ingredients": [
+            ["Heirloom Tomatoes", "500 g"],
+            ["Cucumber", "1 unit"],
+            ["Bell Pepper", "1 unit"],
+            ["Red Onion", "1 unit"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Red Wine Vinegar", "15 mL"],
+            ["Basil", "5 g"],
+            ["Olive Oil", "15 mL"]
+        ]
+    },
+    {
+        "name": "Honey Lavender Ice Cream",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "Heat 250 mL of milk, 250 mL of cream, and 15 g of dried lavender until just boiling, then remove from heat and let steep for 30 minutes.",
+            "Strain the mixture, return to the pot, and add 100 g of honey. Heat until the honey dissolves.",
+            "Chill the mixture thoroughly, then churn in an ice cream maker according to the manufacturer's instructions.",
+            "Freeze until firm.",
+            "Serve scoops of ice cream garnished with lavender sprigs."
+        ],
+        "description": "Smooth and creamy ice cream infused with the delicate flavor of lavender and sweetened with honey, a unique dessert treat.",
+        "backdrop": "",
+        "ingredients": [
+            ["Milk", "250 mL"],
+            ["Cream", "250 mL"],
+            ["Dried Lavender", "15 g"],
+            ["Honey", "100 g"],
+            ["Lavender Sprigs", "0 g"]
+        ]
+    },
+    {
+        "name": "Hot Sourdough Bread",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 3.0,
+        "servingSize": 4,
+        "method": [
+            "Mix 500 g of bread flour, 300 mL of water, 100 g of sourdough starter, and 10 g of salt to form a dough.",
+            "Knead for 10 minutes, then let rise for 4 hours.",
+            "Shape the dough into a loaf and let proof for another hour.",
+            "Bake in a preheated oven at 230°C (446°F) for 30 minutes with steam.",
+            "Cool on a wire rack before slicing."
+        ],
+        "description": "Crusty and chewy sourdough bread, freshly baked, with a tangy flavor that's perfect for any meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Bread Flour", "500 g"],
+            ["Water", "300 mL"],
+            ["Sourdough Starter", "100 g"],
+            ["Salt", "10 g"]
+        ]
+    },
+    {
+        "name": "Honey Pepper Beef Stir Fry",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Slice 500 g of beef into thin strips and marinate in a mixture of 30 mL soy sauce, 30 mL honey, and 5 g black pepper for 30 minutes.",
+            "Stir fry the beef in 30 mL of vegetable oil over high heat until browned, about 5 minutes.",
+            "Add 200 g of sliced bell peppers and 100 g of sliced onions, stir fry for another 3 minutes.",
+            "Serve hot over rice."
+        ],
+        "description": "A quick and easy stir fry featuring tender beef slices in a sweet and peppery sauce, served with crisp vegetables.",
+        "backdrop": "",
+        "ingredients": [
+            ["Beef", "500 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Honey", "30 mL"],
+            ["Black Pepper", "5 g"],
+            ["Vegetable Oil", "30 mL"],
+            ["Bell Peppers", "200 g"],
+            ["Onions", "100 g"],
+            ["Rice", "0 g"]
+        ]
+    },
+    {
+        "name": "Herb-Crusted Prime Rib",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.9,
+        "servingSize": 6,
+        "method": [
+            "Create a rub by mixing 10 g of chopped rosemary, 10 g of chopped thyme, 10 g of minced garlic, and 30 mL of olive oil.",
+            "Generously apply the rub to a 2 kg prime rib roast.",
+            "Roast in a preheated oven at 120°C (250°F) for about 3 hours or until the internal temperature reaches 60°C (140°F) for medium rare.",
+            "Rest the meat for 20 minutes before slicing.",
+            "Serve with a side of garlic mashed potatoes and steamed green beans."
+        ],
+        "description": "A succulent prime rib roast encrusted with a fragrant herb mix, slow-roasted to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Rosemary", "10 g"],
+            ["Thyme", "10 g"],
+            ["Garlic", "10 g"],
+            ["Olive Oil", "30 mL"],
+            ["Prime Rib Roast", "2 kg"],
+            ["Garlic Mashed Potatoes", "0 g"],
+            ["Green Beans", "0 g"]
+        ]
+    },
+    {
+        "name": "Honey Roasted Root Vegetables",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Combine 200 g of chopped carrots, 200 g of chopped parsnips, and 200 g of chopped sweet potatoes in a baking dish.",
+            "Drizzle with 30 mL of honey and 30 mL of olive oil, then season with salt and pepper.",
+            "Roast in a preheated oven at 200°C (392°F) for 35 minutes or until tender and caramelized.",
+            "Garnish with fresh thyme before serving."
+        ],
+        "description": "A delightful mix of root vegetables, roasted with honey for a touch of sweetness and a beautiful caramelized finish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Carrots", "200 g"],
+            ["Parsnips", "200 g"],
+            ["Sweet Potatoes", "200 g"],
+            ["Honey", "30 mL"],
+            ["Olive Oil", "30 mL"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Thyme", "5 g"]
+        ]
+    },
+    {
+        "name": "Hearty Chicken Pot Pie",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "Cook 500 g of diced chicken breast in 30 mL of butter until browned.",
+            "Add 100 g of diced carrots, 100 g of peas, and 100 g of sliced mushrooms, cook for 5 more minutes.",
+            "Stir in 30 g of flour, then gradually add 500 mL of chicken broth and 100 mL of cream, simmer until thick.",
+            "Pour the mixture into a pie crust, cover with another crust, seal edges, and make slits in the top.",
+            "Bake at 180°C (356°F) for 30 minutes or until the crust is golden brown.",
+            "Serve hot."
+        ],
+        "description": "A comforting and filling chicken pot pie with a creamy filling and a flaky crust, perfect for a hearty meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breast", "500 g"],
+            ["Butter", "30 mL"],
+            ["Carrots", "100 g"],
+            ["Peas", "100 g"],
+            ["Mushrooms", "100 g"],
+            ["Flour", "30 g"],
+            ["Chicken Broth", "500 mL"],
+            ["Cream", "100 mL"],
+            ["Pie Crust", "2 units"]
+        ]
+    },
+    {
+        "name": "Homemade Herb Bread",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Combine 500 g of flour, 5 g of dry yeast, 5 g of sugar, 10 g of salt, 10 g of mixed dried herbs, and 300 mL of warm water.",
+            "Knead until smooth and let rise for 1 hour.",
+            "Shape into a loaf, let rise for another 30 minutes, then bake at 220°C (428°F) for 25 minutes.",
+            "Serve warm, sliced, with butter."
+        ],
+        "description": "Aromatic homemade bread infused with a blend of herbs, perfect for dipping in soups or as a side to any meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Flour", "500 g"],
+            ["Dry Yeast", "5 g"],
+            ["Sugar", "5 g"],
+            ["Salt", "10 g"],
+            ["Mixed Dried Herbs", "10 g"],
+            ["Warm Water", "300 mL"]
+        ]
+    },
+    {
+        "name": "Hot Spiced Cider",
+        "author": "System",
+        "starRating": 4.4,
+        "difficultyRating": 1.2,
+        "servingSize": 4,
+        "method": [
+            "In a large pot, combine 1 liter of apple cider, 5 g of cinnamon sticks, 5 g of whole cloves, and 1 orange (sliced).",
+            "Simmer gently for 20 minutes.",
+            "Strain and serve hot, garnished with cinnamon sticks and orange slices."
+        ],
+        "description": "A warm and comforting beverage, perfect for chilly evenings, infused with spices and orange for a festive touch.",
+        "backdrop": "",
+        "ingredients": [
+            ["Apple Cider", "1 L"],
+            ["Cinnamon Sticks", "5 g"],
+            ["Whole Cloves", "5 g"],
+            ["Orange", "1 unit"]
+        ]
+    },
+    {
+        "name": "Honey-Dijon Brussels Sprouts",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "Halve 400 g of Brussels sprouts and toss with 15 mL of olive oil, salt, and pepper.",
+            "Roast in a preheated oven at 200°C (392°F) for 20 minutes.",
+            "Whisk together 15 mL of honey and 15 mL of Dijon mustard.",
+            "Toss the roasted Brussels sprouts in the honey-Dijon mixture and serve immediately."
+        ],
+        "description": "Roasted Brussels sprouts tossed in a sweet and tangy honey-Dijon sauce, a delicious twist on a classic side dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Brussels Sprouts", "400 g"],
+            ["Olive Oil", "15 mL"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Honey", "15 mL"],
+            ["Dijon Mustard", "15 mL"]
+        ]
+    },
+    {
+        "name": "Herb Marinated Grilled Squid",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Marinate 500 g of cleaned squid in a mixture of 30 mL of olive oil, 10 g of chopped parsley, 5 g of minced garlic, and juice of 1 lemon for 1 hour.",
+            "Grill over high heat for 2 minutes on each side.",
+            "Serve with a wedge of lemon and a fresh arugula salad."
+        ],
+        "description": "Light and flavorful grilled squid, marinated in fresh herbs and lemon, perfect for a quick, healthy meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Squid", "500 g"],
+            ["Olive Oil", "30 mL"],
+            ["Parsley", "10 g"],
+            ["Garlic", "5 g"],
+            ["Lemon", "1 unit"],
+            ["Arugula Salad", "0 g"]
+        ]
+    },
+    {
+        "name": "Honeyed Pear and Almond Tart",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.5,
+        "servingSize": 6,
+        "method": [
+            "Roll out 300 g of pastry dough and fit into a tart pan.",
+            "Arrange 3 sliced pears over the dough and sprinkle with 50 g of sliced almonds.",
+            "Drizzle with 30 mL of honey and bake at 180°C (356°F) for 25 minutes.",
+            "Serve warm or at room temperature."
+        ],
+        "description": "A delicious tart featuring sweet pears and crunchy almonds, enhanced with a touch of honey.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pastry Dough", "300 g"],
+            ["Pears", "3 units"],
+            ["Sliced Almonds", "50 g"],
+            ["Honey", "30 mL"]
+        ]
+    },
+    {
+        "name": "Hibiscus Tea Sangria",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.4,
+        "servingSize": 4,
+        "method": [
+            "Brew 500 mL of strong hibiscus tea and chill.",
+            "Mix the chilled tea with 250 mL of red wine, juice of 1 orange, and 30 mL of brandy.",
+            "Add sliced lemons, limes, and oranges.",
+            "Chill for at least 4 hours before serving over ice."
+        ],
+        "description": "A refreshing and colorful sangria made with floral hibiscus tea, citrus fruits, and a hint of brandy, perfect for summer gatherings.",
+        "backdrop": "",
+        "ingredients": [
+            ["Hibiscus Tea", "500 mL"],
+            ["Red Wine", "250 mL"],
+            ["Orange Juice", "1 unit"],
+            ["Brandy", "30 mL"],
+            ["Lemons", "0 g"],
+            ["Limes", "0 g"],
+            ["Oranges", "0 g"]
+        ]
+    },
+    {
+        "name": "Herbed Lamb Meatballs",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Mix 500 g of ground lamb with 10 g of chopped mint, 10 g of chopped cilantro, 1 minced onion, 2 minced garlic cloves, 5 g of cumin, and salt and pepper.",
+            "Form into 20 meatballs and fry in 30 mL of olive oil until browned all around and cooked through, about 10 minutes.",
+            "Serve with tzatziki sauce and pita bread."
+        ],
+        "description": "Savory lamb meatballs seasoned with fresh herbs and spices, served with cool, creamy tzatziki.",
+        "backdrop": "",
+        "ingredients": [
+            ["Ground Lamb", "500 g"],
+            ["Mint", "10 g"],
+            ["Cilantro", "10 g"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Cumin", "5 g"],
+            ["Olive Oil", "30 mL"],
+            ["Tzatziki Sauce", "0 g"],
+            ["Pita Bread", "0 g"]
+        ]
+    },
+    {
+        "name": "Honey Roast Duck",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 3.0,
+        "servingSize": 4,
+        "method": [
+            "Score the skin of a 1.5 kg whole duck and season inside and out with salt and pepper.",
+            "Place in a roasting pan and roast at 180°C (356°F) for 1 hour.",
+            "Mix 50 mL of honey and 30 mL of soy sauce, and brush over the duck.",
+            "Continue to roast for another 30 minutes, basting frequently, until golden and crispy.",
+            "Rest for 10 minutes before carving. Serve with roasted vegetables."
+        ],
+        "description": "Juicy roast duck with a crispy, honey-glazed skin, accompanied by seasoned roasted vegetables.",
+        "backdrop": "",
+        "ingredients": [
+            ["Whole Duck", "1.5 kg"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Honey", "50 mL"],
+            ["Soy Sauce", "30 mL"],
+            ["Roasted Vegetables", "0 g"]
+        ]
+    },
+    {
+        "name": "Herb Butter Grilled Corn",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Mix 50 g of softened butter with 10 g of chopped parsley, 5 g of chopped dill, and 2 g of salt.",
+            "Spread the herb butter over 4 ears of corn.",
+            "Wrap each ear in foil and grill over medium heat for 15 minutes, turning occasionally.",
+            "Serve hot, optionally with a sprinkle of grated Parmesan."
+        ],
+        "description": "Sweet corn on the cob slathered with flavorful herb butter, perfectly grilled for a smoky taste.",
+        "backdrop": "",
+        "ingredients": [
+            ["Butter", "50 g"],
+            ["Parsley", "10 g"],
+            ["Dill", "5 g"],
+            ["Salt", "2 g"],
+            ["Corn", "4 units"],
+            ["Parmesan", "0 g"]
+        ]
+    },
+    {
+        "name": "Hot Smoked Whitefish",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "Brine 1 kg of whitefish fillets in a solution of 1 L water, 100 g salt, and 50 g sugar for 4 hours.",
+            "Rinse and dry the fillets, then smoke over applewood chips at 120°C (248°F) for 2 hours.",
+            "Serve with a side of lemon aioli and fresh dill."
+        ],
+        "description": "Delicate whitefish fillets, smoked over applewood for a rich, flavorful finish, accompanied by a tangy lemon aioli.",
+        "backdrop": "",
+        "ingredients": [
+            ["Whitefish Fillets", "1 kg"],
+            ["Water", "1 L"],
+            ["Salt", "100 g"],
+            ["Sugar", "50 g"],
+            ["Lemon Aioli", "0 g"],
+            ["Dill", "0 g"]
+        ]
+    },
+    {
+        "name": "Honey Ginger Stir-Fry",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Slice 500 g of chicken breast and marinate in a mixture of 30 mL soy sauce, 30 mL honey, and 10 g grated ginger for 30 minutes.",
+            "Heat 30 mL of vegetable oil in a wok, add the chicken and stir-fry until browned.",
+            "Add 200 g of mixed bell peppers and 100 g of snap peas, stir-fry for an additional 5 minutes.",
+            "Serve over cooked rice."
+        ],
+        "description": "A quick and flavorful stir-fry with chicken, fresh ginger, and honey, vibrant with crisp vegetables.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breast", "500 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Honey", "30 mL"],
+            ["Ginger", "10 g"],
+            ["Vegetable Oil", "30 mL"],
+            ["Bell Peppers", "200 g"],
+            ["Snap Peas", "100 g"],
+            ["Rice", "0 g"]
+        ]
+    },
+    {
+        "name": "Hazelnut Affogato",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 1.3,
+        "servingSize": 4,
+        "method": [
+            "Scoop 200 g of hazelnut gelato into 4 serving glasses.",
+            "Pour 60 mL of hot espresso over each scoop of gelato.",
+            "Sprinkle with crushed hazelnuts and serve immediately."
+        ],
+        "description": "A classic Italian dessert with a twist, featuring hazelnut gelato drowned in rich espresso and topped with crunchy hazelnuts.",
+        "backdrop": "",
+        "ingredients": [
+            ["Hazelnut Gelato", "200 g"],
+            ["Espresso", "240 mL"],
+            ["Crushed Hazelnuts", "30 g"]
+        ]
+    },
+    {
+        "name": "Herb Marinated Olives",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.4,
+        "servingSize": 4,
+        "method": [
+            "Combine 300 g of mixed olives, 30 mL of olive oil, 5 g of chopped rosemary, and 5 g of chopped thyme in a bowl.",
+            "Marinate for at least 2 hours, stirring occasionally.",
+            "Serve as part of a charcuterie board or as a standalone snack."
+        ],
+        "description": "Flavorful olives marinated in a blend of herbs and olive oil, a perfect addition to any appetizer spread.",
+        "backdrop": "",
+        "ingredients": [
+            ["Mixed Olives", "300 g"],
+            ["Olive Oil", "30 mL"],
+            ["Rosemary", "5 g"],
+            ["Thyme", "5 g"]
+        ]
+    },
+    {
+        "name": "Heavenly Blueberry Pancakes",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "Mix 200 g of all-purpose flour, 10 g of sugar, 5 g of baking powder, and a pinch of salt.",
+            "Whisk in 250 mL of milk, 1 beaten egg, and 30 mL of melted butter until smooth.",
+            "Fold in 100 g of fresh blueberries.",
+            "Cook spoonfuls of the batter in a hot, lightly buttered skillet until bubbles form, then flip and cook until golden.",
+            "Serve with maple syrup and extra blueberries."
+        ],
+        "description": "Fluffy pancakes studded with juicy blueberries, perfect for a leisurely breakfast or brunch.",
+        "backdrop": "",
+        "ingredients": [
+            ["All-Purpose Flour", "200 g"],
+            ["Sugar", "10 g"],
+            ["Baking Powder", "5 g"],
+            ["Salt", "5 g"],
+            ["Milk", "250 mL"],
+            ["Egg", "1 unit"],
+            ["Butter", "30 mL"],
+            ["Blueberries", "100 g"],
+            ["Maple Syrup", "0 g"]
+        ]
+    },
+    {
+        "name": "Hummus Crusted Chicken",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Spread 200 g of hummus evenly over 4 chicken breasts.",
+            "Sprinkle with 50 g of chopped red bell peppers and 50 g of crumbled feta cheese.",
+            "Bake at 200°C (392°F) for 25 minutes or until the chicken is cooked through.",
+            "Serve with a quinoa salad."
+        ],
+        "description": "Tender chicken breasts coated with creamy hummus, topped with bell peppers and feta, baked to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Hummus", "200 g"],
+            ["Chicken Breasts", "4 units"],
+            ["Red Bell Peppers", "50 g"],
+            ["Feta Cheese", "50 g"],
+            ["Quinoa Salad", "0 g"]
+        ]
+    },
+    {
+        "name": "Honey Lavender Ice Cream",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.5,
+        "servingSize": 4,
+        "method": [
+            "Heat 250 mL of heavy cream and 250 mL of milk with 15 g of dried lavender until just simmering, then cool for 30 minutes.",
+            "Strain the lavender and return the liquid to the heat. Stir in 100 g of honey until dissolved.",
+            "Chill the mixture thoroughly, then churn in an ice cream maker according to the manufacturer's instructions.",
+            "Freeze until firm, then serve garnished with additional lavender or honey."
+        ],
+        "description": "Creamy homemade ice cream infused with the subtle floral notes of lavender and sweetened with honey.",
+        "backdrop": "",
+        "ingredients": [
+            ["Heavy Cream", "250 mL"],
+            ["Milk", "250 mL"],
+            ["Dried Lavender", "15 g"],
+            ["Honey", "100 g"]
+        ]
+    },
+    {
+        "name": "Herbed Mushroom Toast",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Sauté 300 g of sliced mushrooms in 30 mL of olive oil until browned.",
+            "Stir in 5 g of minced garlic, 10 g of chopped parsley, and 5 g of thyme, cook for 2 more minutes.",
+            "Season with salt and pepper.",
+            "Spoon over toasted slices of sourdough bread and top with shaved Parmesan before serving."
+        ],
+        "description": "Rustic toasted sourdough topped with savory sautéed mushrooms and fresh herbs, a perfect quick meal or appetizer.",
+        "backdrop": "",
+        "ingredients": [
+            ["Mushrooms", "300 g"],
+            ["Olive Oil", "30 mL"],
+            ["Garlic", "5 g"],
+            ["Parsley", "10 g"],
+            ["Thyme", "5 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Sourdough Bread", "4 slices"],
+            ["Parmesan", "0 g"]
+        ]
+    },
+    {
+        "name": "Honey Garlic Pork Chops",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Whisk together 30 mL of honey, 15 mL of soy sauce, 5 cloves of minced garlic, and 5 mL of apple cider vinegar to make a marinade.",
+            "Marinate 4 pork chops in the mixture for at least 1 hour in the refrigerator.",
+            "Heat a skillet over medium-high heat and cook the pork chops for 6 minutes on each side, or until fully cooked.",
+            "Serve with a side of steamed green beans and mashed potatoes."
+        ],
+        "description": "Juicy pork chops marinated in a sweet and savory honey garlic sauce, perfectly cooked for a delicious dinner.",
+        "backdrop": "",
+        "ingredients": [
+            ["Honey", "30 mL"],
+            ["Soy Sauce", "15 mL"],
+            ["Garlic", "5 cloves"],
+            ["Apple Cider Vinegar", "5 mL"],
+            ["Pork Chops", "4 units"],
+            ["Green Beans", "200 g"],
+            ["Mashed Potatoes", "300 g"]
+        ]
+    },
+    {
+        "name": "Harvest Vegetable Stew",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.1,
+        "servingSize": 6,
+        "method": [
+            "In a large pot, heat 30 mL of olive oil over medium heat. Add 1 chopped onion, 2 diced carrots, and 2 diced potatoes; sauté until the onions are translucent.",
+            "Add 1 liter of vegetable broth, 200 g of chopped butternut squash, and 100 g of chopped celery. Bring to a boil, then reduce heat and simmer for 30 minutes.",
+            "Stir in 100 g of chopped kale and simmer for an additional 10 minutes.",
+            "Season with salt and pepper to taste. Serve hot, garnished with fresh parsley."
+        ],
+        "description": "A hearty and healthy stew packed with fresh harvest vegetables, simmered to perfection in a savory broth.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Carrots", "2 units"],
+            ["Potatoes", "2 units"],
+            ["Vegetable Broth", "1 L"],
+            ["Butternut Squash", "200 g"],
+            ["Celery", "100 g"],
+            ["Kale", "100 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Parsley", "0 g"]
+        ]
+    },
+    {
+        "name": "Hibachi Style Fried Rice",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Heat 15 mL of sesame oil in a large skillet or wok. Add 2 beaten eggs and scramble until fully cooked. Remove and set aside.",
+            "In the same skillet, add another 15 mL of sesame oil, then add 400 g of cooked rice, 100 g of peas, and 50 g of diced carrots. Stir-fry for 5 minutes.",
+            "Add scrambled eggs back to the skillet, along with 30 mL of soy sauce and 5 g of chopped green onions, and stir-fry for another 2 minutes.",
+            "Serve hot, garnished with additional green onions and sesame seeds."
+        ],
+        "description": "Classic hibachi-style fried rice with vegetables and eggs, seasoned with soy sauce and sesame oil for an authentic flavor.",
+        "backdrop": "",
+        "ingredients": [
+            ["Sesame Oil", "30 mL"],
+            ["Eggs", "2 units"],
+            ["Cooked Rice", "400 g"],
+            ["Peas", "100 g"],
+            ["Carrots", "50 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Green Onions", "5 g"],
+            ["Sesame Seeds", "5 g"]
+        ]
+    },
+    {
+        "name": "Hot and Sour Soup",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "In a large pot, combine 1 liter of chicken broth, 50 mL of soy sauce, 30 mL of rice vinegar, and 10 g of ground white pepper. Bring to a simmer.",
+            "Add 200 g of thinly sliced mushrooms, 100 g of bamboo shoots, and 100 g of tofu, cut into strips. Simmer for 10 minutes.",
+            "Stir in 15 mL of sesame oil and 5 g of chopped green onions before serving.",
+            "Beat 1 egg and slowly pour into the soup while stirring to create egg ribbons.",
+            "Serve hot, garnished with cilantro."
+        ],
+        "description": "A tangy and spicy traditional Chinese soup with mushrooms, bamboo shoots, and tofu, enriched with a silky egg ribbon.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Broth", "1 L"],
+            ["Soy Sauce", "50 mL"],
+            ["Rice Vinegar", "30 mL"],
+            ["White Pepper", "10 g"],
+            ["Mushrooms", "200 g"],
+            ["Bamboo Shoots", "100 g"],
+            ["Tofu", "100 g"],
+            ["Sesame Oil", "15 mL"],
+            ["Green Onions", "5 g"],
+            ["Egg", "1 unit"],
+            ["Cilantro", "0 g"]
+        ]
     }
 ]
