@@ -9636,5 +9636,1891 @@
             ["Black Pepper", "0 g"],
             ["Parmesan", "30 g"]
         ]
+    },
+    {
+        "name": "Fruity French Toast",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "In a mixing bowl, whisk together 3 eggs and 250 mL of milk until well combined.",
+            "Soak each slice of white bread in the egg mixture, ensuring both sides are fully coated.",
+            "Heat a non-stick skillet over medium heat and cook the soaked bread for 2-3 minutes per side, until golden brown.",
+            "Serve the French toast hot, topped with 200 g of mixed berries.",
+            "Drizzle 50 mL of maple syrup over the toast before serving and dust with 25 g of powdered sugar."
+        ],
+        "description": "A sweet breakfast featuring fluffy French toast topped with mixed berries and a drizzle of maple syrup.",
+        "backdrop": "",
+        "ingredients": [
+            ["Eggs", "3 units"],
+            ["Milk", "250 mL"],
+            ["White Bread", "8 units"],
+            ["Mixed Berries", "200 g"],
+            ["Maple Syrup", "50 mL"],
+            ["Powdered Sugar", "25 g"]
+        ]
+    },
+    {
+        "name": "Fettuccine Alfredo",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Cook 300 g of fettuccine noodles in boiling water until al dente, about 8-10 minutes, then drain.",
+            "In a saucepan, melt 50 g of butter and sauté 1 minced garlic clove until fragrant, about 1 minute.",
+            "Add 200 mL of heavy cream and bring to a simmer, then stir in 100 g of grated Parmesan cheese until melted and smooth.",
+            "Toss the cooked fettuccine with the Alfredo sauce until evenly coated.",
+            "Serve immediately, garnished with extra Parmesan if desired."
+        ],
+        "description": "Creamy and rich, this classic pasta dish combines fettuccine noodles with a cheesy garlic sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Fettuccine", "300 g"],
+            ["Heavy Cream", "200 mL"],
+            ["Parmesan Cheese", "100 g"],
+            ["Garlic", "1 clove"],
+            ["Butter", "50 g"]
+        ]
+    },
+    {
+        "name": "Fiesta Chicken Salad",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Grill 400 g of chicken breast over medium heat until fully cooked, about 6-7 minutes per side, then slice thinly.",
+            "In a large bowl, combine sliced chicken with 200 g of chopped romaine lettuce, 150 g of diced tomatoes, and 1 sliced avocado.",
+            "Whisk together 2 tbsp of lime juice, 50 mL of olive oil, 1 tsp of honey, and a pinch of salt and pepper to make the dressing.",
+            "Toss the salad with the dressing until well mixed.",
+            "Serve chilled, optionally garnished with fresh cilantro or lime wedges."
+        ],
+        "description": "A vibrant salad with grilled chicken, fresh vegetables, and a zesty lime dressing.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breast", "400 g"],
+            ["Romaine Lettuce", "200 g"],
+            ["Tomatoes", "150 g"],
+            ["Avocado", "1 unit"],
+            ["Lime Juice", "2 tbsp"],
+            ["Olive Oil", "50 mL"],
+            ["Honey", "1 tsp"]
+        ]
+    },
+    {
+        "name": "Fig and Goat Cheese Pizza",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.5,
+        "servingSize": 2,
+        "method": [
+            "Preheat the oven to 220°C (428°F).",
+            "Roll out 500 g of pizza dough to form a 12-inch base and spread 150 g of fig jam evenly over the surface.",
+            "Crumble 100 g of goat cheese and sprinkle over the fig jam along with 75 g of arugula.",
+            "Drizzle 30 mL of balsamic glaze over the toppings and bake in the preheated oven for 12-15 minutes or until the crust is golden and crisp.",
+            "Serve hot, sliced into wedges."
+        ],
+        "description": "A delightful pizza with a base of fig spread, topped with goat cheese, arugula, and balsamic glaze.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pizza Dough", "500 g"],
+            ["Fig Jam", "150 g"],
+            ["Goat Cheese", "100 g"],
+            ["Arugula", "75 g"],
+            ["Balsamic Glaze", "30 mL"]
+        ]
+    },
+    {
+        "name": "Fried Green Tomatoes",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Slice 4 green tomatoes into 1/2 inch thick rounds.",
+            "In one bowl, mix 100 g of cornmeal with 50 g of flour, salt, and pepper.",
+            "In another bowl, beat 2 eggs.",
+            "Dip each tomato slice first in the egg, then dredge in the cornmeal mixture.",
+            "Fry in a skillet with hot vegetable oil over medium-high heat, about 2-3 minutes per side, until golden brown.",
+            "Drain on paper towels and serve hot with a side of spicy aioli."
+        ],
+        "description": "Crunchy and tangy green tomatoes fried to a golden perfection, served with a spicy aioli.",
+        "backdrop": "",
+        "ingredients": [
+            ["Green Tomatoes", "4 units"],
+            ["Cornmeal", "100 g"],
+            ["Flour", "50 g"],
+            ["Eggs", "2 units"],
+            ["Vegetable Oil", "100 mL"]
+        ]
+    },
+    {
+        "name": "Fennel and Orange Salad",
+        "author": "System",
+        "starRating": 4.3,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Thinly slice 2 bulbs of fennel and peel 3 oranges, then separate them into segments.",
+            "In a large bowl, combine sliced fennel and orange segments.",
+            "Drizzle with a dressing made by whisking together 30 mL of olive oil, 15 mL of white wine vinegar, and 5 mL of honey.",
+            "Season with salt and pepper to taste, and toss gently to combine.",
+            "Chill in the refrigerator for at least 30 minutes before serving, garnished with fennel fronds."
+        ],
+        "description": "A crisp and refreshing salad featuring thinly sliced fennel and fresh orange segments, dressed in a light vinaigrette.",
+        "backdrop": "",
+        "ingredients": [
+            ["Fennel Bulbs", "2 units"],
+            ["Oranges", "3 units"],
+            ["Olive Oil", "30 mL"],
+            ["White Wine Vinegar", "15 mL"],
+            ["Honey", "5 mL"]
+        ]
+    },
+    {
+        "name": "French Lentil Stew",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.2,
+        "servingSize": 6,
+        "method": [
+            "In a large pot, heat 30 mL of olive oil over medium heat.",
+            "Add 1 chopped onion, 2 minced garlic cloves, and 2 diced carrots, and sauté until the onion is translucent, about 5 minutes.",
+            "Stir in 300 g of French lentils and 1 L of vegetable broth, bring to a boil, then reduce heat and simmer for 25 minutes, or until lentils are tender.",
+            "Season with salt, pepper, and 1 tsp of thyme.",
+            "Serve hot, garnished with fresh parsley."
+        ],
+        "description": "A hearty and nutritious stew made with French lentils, vegetables, and aromatic herbs.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Carrots", "2 units"],
+            ["French Lentils", "300 g"],
+            ["Vegetable Broth", "1 L"],
+            ["Thyme", "1 tsp"],
+            ["Parsley", "0 g"]
+        ]
+    },
+    {
+        "name": "Fried Halloumi with Lemon",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Slice 200 g of halloumi cheese into 1/2 inch thick pieces.",
+            "Heat a non-stick skillet over medium heat and fry the halloumi slices for 2-3 minutes per side, until golden and crispy.",
+            "Squeeze the juice of 1 lemon over the fried halloumi right before removing from the heat.",
+            "Serve immediately, garnished with a sprinkle of chopped fresh mint."
+        ],
+        "description": "A simple yet delicious dish featuring slices of halloumi cheese fried until golden and finished with a splash of fresh lemon juice.",
+        "backdrop": "",
+        "ingredients": [
+            ["Halloumi Cheese", "200 g"],
+            ["Lemon", "1 unit"],
+            ["Mint", "0 g"]
+        ]
+    },
+    {
+        "name": "Farfalle with Spinach Sauce",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Cook 350 g of farfalle pasta in boiling water until al dente, about 10-12 minutes, then drain.",
+            "In a blender, blend 200 g of fresh spinach with 50 mL of cream and 30 g of grated Parmesan cheese until smooth.",
+            "In a pan, heat the spinach sauce over medium heat until heated through.",
+            "Toss the cooked pasta with the warm spinach sauce.",
+            "Serve garnished with extra Parmesan cheese."
+        ],
+        "description": "Creamy and vibrant, this pasta dish combines farfalle with a smooth sauce made from fresh spinach and Parmesan cheese.",
+        "backdrop": "",
+        "ingredients": [
+            ["Farfalle", "350 g"],
+            ["Spinach", "200 g"],
+            ["Cream", "50 mL"],
+            ["Parmesan Cheese", "30 g"]
+        ]
+    },
+    {
+        "name": "Fried Cod with Tartar Sauce",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Cut 500 g of cod fillets into serving-size pieces.",
+            "Season the cod pieces with salt and pepper, then dredge in flour, dip in beaten eggs, and coat in breadcrumbs.",
+            "Heat vegetable oil in a skillet over medium-high heat and fry the cod until golden and cooked through, about 4-5 minutes per side.",
+            "Serve immediately with homemade tartar sauce made by mixing 100 g of mayonnaise, 30 g of chopped pickles, and 1 tbsp of lemon juice."
+        ],
+        "description": "Golden and crispy fried cod served with a creamy and tangy homemade tartar sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Cod Fillets", "500 g"],
+            ["Flour", "50 g"],
+            ["Eggs", "2 units"],
+            ["Breadcrumbs", "100 g"],
+            ["Vegetable Oil", "100 mL"],
+            ["Mayonnaise", "100 g"],
+            ["Pickles", "30 g"],
+            ["Lemon Juice", "1 tbsp"]
+        ]
+    },
+    {
+        "name": "Farmhouse Beef Stew",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.7,
+        "servingSize": 6,
+        "method": [
+            "In a large pot, heat 50 mL of vegetable oil over medium heat.",
+            "Brown 600 g of cubed beef on all sides, then remove from the pot.",
+            "In the same pot, add 1 chopped onion, 2 cloves of minced garlic, and 200 g of sliced carrots, and cook until softened.",
+            "Return the beef to the pot, add 1 L of beef broth, 1 cup of red wine, and 2 tbsp of tomato paste, bring to a boil, then reduce heat and simmer for 1.5 hours.",
+            "Add 200 g of cubed potatoes and cook for an additional 30 minutes, or until the potatoes are tender.",
+            "Serve hot, garnished with fresh parsley."
+        ],
+        "description": "A hearty and warming stew made with tender beef, vegetables, and a rich, flavorful broth.",
+        "backdrop": "",
+        "ingredients": [
+            ["Vegetable Oil", "50 mL"],
+            ["Beef", "600 g"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Carrots", "200 g"],
+            ["Beef Broth", "1 L"],
+            ["Red Wine", "240 mL"],
+            ["Tomato Paste", "2 tbsp"],
+            ["Potatoes", "200 g"],
+            ["Parsley", "0 g"]
+        ]
+    },
+    {
+        "name": "Fusilli with Mushroom Ragu",
+        "author": "System",
+        "starRating": 4.4,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Cook 300 g of fusilli pasta in boiling water until al dente, about 8-10 minutes, then drain.",
+            "In a skillet, heat 30 mL of olive oil over medium heat.",
+            "Add 300 g of sliced mushrooms and sauté until browned, about 5-7 minutes.",
+            "Stir in 1 minced garlic clove and 1 tsp of thyme, cook for an additional minute.",
+            "Add 200 mL of tomato sauce and simmer for 10 minutes, allowing the flavors to meld.",
+            "Toss the cooked pasta with the mushroom ragu.",
+            "Serve garnished with grated Parmesan cheese."
+        ],
+        "description": "A robust and earthy pasta dish featuring fusilli tossed in a savory mushroom ragu.",
+        "backdrop": "",
+        "ingredients": [
+            ["Fusilli", "300 g"],
+            ["Olive Oil", "30 mL"],
+            ["Mushrooms", "300 g"],
+            ["Garlic", "1 clove"],
+            ["Thyme", "1 tsp"],
+            ["Tomato Sauce", "200 mL"],
+            ["Parmesan Cheese", "50 g"]
+        ]
+    },
+    {
+        "name": "Feta and Watermelon Salad",
+        "author": "System",
+        "starRating": 4.2,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Cube 500 g of watermelon and 200 g of feta cheese.",
+            "In a large bowl, combine watermelon and feta cubes with 100 g of arugula leaves.",
+            "Drizzle with a dressing made by whisking together 30 mL of olive oil, 15 mL of balsamic vinegar, and a pinch of salt and pepper.",
+            "Gently toss everything to combine without breaking the cheese too much.",
+            "Chill in the refrigerator for about 15 minutes before serving to allow flavors to meld."
+        ],
+        "description": "A refreshing summer salad that combines sweet watermelon with creamy feta and peppery arugula, dressed in a simple balsamic dressing.",
+        "backdrop": "",
+        "ingredients": [
+            ["Watermelon", "500 g"],
+            ["Feta Cheese", "200 g"],
+            ["Arugula", "100 g"],
+            ["Olive Oil", "30 mL"],
+            ["Balsamic Vinegar", "15 mL"]
+        ]
+    },
+    {
+        "name": "Five Spice Pork Ribs",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.8,
+        "servingSize": 4,
+        "method": [
+            "Rub 800 g of pork ribs with a mixture of 5 g of Chinese five-spice powder, 10 g of salt, and 5 g of black pepper.",
+            "Place the ribs in a baking dish and cover with aluminum foil.",
+            "Bake in a preheated oven at 150°C (302°F) for 2 hours.",
+            "Uncover and brush the ribs with 50 mL of hoisin sauce, then return to the oven and bake for an additional 30 minutes at 175°C (347°F) until caramelized.",
+            "Serve hot, garnished with sesame seeds and sliced green onions."
+        ],
+        "description": "Tender pork ribs seasoned with aromatic Chinese five-spice and glazed with hoisin sauce for a sweet and savory finish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pork Ribs", "800 g"],
+            ["Chinese Five-Spice Powder", "5 g"],
+            ["Salt", "10 g"],
+            ["Black Pepper", "5 g"],
+            ["Hoisin Sauce", "50 mL"],
+            ["Sesame Seeds", "5 g"],
+            ["Green Onions", "2 units"]
+        ]
+    },
+    {
+        "name": "Fried Zucchini Flowers",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Gently wash 12 zucchini flowers and pat dry.",
+            "Prepare a batter by whisking together 100 g of flour, 1 egg, and 150 mL of sparkling water until smooth.",
+            "Heat 200 mL of vegetable oil in a deep skillet to 180°C (356°F).",
+            "Dip each flower into the batter, then carefully place in the hot oil.",
+            "Fry for 2-3 minutes until golden and crisp.",
+            "Drain on paper towels and serve hot with a sprinkle of salt and a lemon wedge on the side."
+        ],
+        "description": "Delicate zucchini flowers fried in a light batter, resulting in a crispy and savory appetizer, perfect for summer gatherings.",
+        "backdrop": "",
+        "ingredients": [
+            ["Zucchini Flowers", "12 units"],
+            ["Flour", "100 g"],
+            ["Egg", "1 unit"],
+            ["Sparkling Water", "150 mL"],
+            ["Vegetable Oil", "200 mL"],
+            ["Lemon", "1 unit"]
+        ]
+    },
+    {
+        "name": "Forest Mushroom Soup",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Sauté 300 g of mixed forest mushrooms and 1 diced onion in 30 mL of butter until the mushrooms are soft and the onion is translucent.",
+            "Add 1 L of vegetable broth and bring to a simmer.",
+            "Blend half of the soup to create a smooth yet chunky texture.",
+            "Stir in 100 mL of cream, heat through, then season with salt and pepper to taste.",
+            "Serve hot, garnished with chopped chives and a dollop of sour cream."
+        ],
+        "description": "A rich and earthy soup made from a variety of forest mushrooms, blended into a creamy broth.",
+        "backdrop": "",
+        "ingredients": [
+            ["Forest Mushrooms", "300 g"],
+            ["Onion", "1 unit"],
+            ["Butter", "30 mL"],
+            ["Vegetable Broth", "1 L"],
+            ["Cream", "100 mL"],
+            ["Sour Cream", "50 mL"],
+            ["Chives", "0 g"]
+        ]
+    },
+    {
+        "name": "Fig and Prosciutto Bruschetta",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "Slice a baguette into 12 pieces and toast until crisp.",
+            "Top each slice with a thin slice of prosciutto, a slice of fresh fig, and a small spoonful of ricotta cheese.",
+            "Drizzle with 15 mL of honey and sprinkle with a pinch of salt and freshly cracked black pepper.",
+            "Broil for 2-3 minutes until the toppings are warm and slightly melted.",
+            "Serve immediately, garnished with fresh basil leaves."
+        ],
+        "description": "An elegant appetizer combining sweet figs, savory prosciutto, and creamy ricotta on toasted bruschetta, finished with a touch of honey.",
+        "backdrop": "",
+        "ingredients": [
+            ["Baguette", "1 unit"],
+            ["Prosciutto", "100 g"],
+            ["Fresh Figs", "12 units"],
+            ["Ricotta Cheese", "100 g"],
+            ["Honey", "15 mL"],
+            ["Basil", "0 g"]
+        ]
+    },
+    {
+        "name": "Flank Steak with Chimichurri",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "Season 500 g of flank steak with salt and pepper, and grill over high heat for 5-6 minutes per side for medium-rare.",
+            "Rest the steak for 10 minutes, then slice against the grain.",
+            "Combine 50 g of chopped parsley, 10 g of minced garlic, 5 g of red chili flakes, 30 mL of vinegar, and 50 mL of olive oil to make the chimichurri.",
+            "Serve the steak slices topped with the chimichurri sauce."
+        ],
+        "description": "Juicy grilled flank steak topped with a vibrant and herby chimichurri sauce, perfect for a hearty meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Flank Steak", "500 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Parsley", "50 g"],
+            ["Garlic", "10 g"],
+            ["Red Chili Flakes", "5 g"],
+            ["Vinegar", "30 mL"],
+            ["Olive Oil", "50 mL"]
+        ]
+    },
+    {
+        "name": "Fried Sweet Plantains",
+        "author": "System",
+        "starRating": 4.4,
+        "difficultyRating": 1.3,
+        "servingSize": 4,
+        "method": [
+            "Peel and slice 4 ripe plantains into 1/2 inch thick diagonal pieces.",
+            "Heat 50 mL of vegetable oil in a large skillet over medium heat.",
+            "Fry the plantain slices in batches, 2-3 minutes per side, until golden and caramelized.",
+            "Drain on paper towels and sprinkle with a pinch of salt and sugar while still hot."
+        ],
+        "description": "Sweet plantains fried to a caramelized perfection, a delicious and simple dessert or side dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Ripe Plantains", "4 units"],
+            ["Vegetable Oil", "50 mL"],
+            ["Sugar", "5 g"]
+        ]
+    },
+    {
+        "name": "French Bean and Almond Salad",
+        "author": "System",
+        "starRating": 4.4,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Blanch 300 g of French beans in boiling water for 3 minutes, then plunge into ice water to stop cooking.",
+            "Toast 50 g of sliced almonds in a dry pan over medium heat until golden, about 3 minutes.",
+            "Combine beans and toasted almonds in a bowl, drizzle with a dressing made from 30 mL olive oil, 15 mL lemon juice, and 5 g of minced garlic.",
+            "Toss everything together and season with salt and pepper to taste.",
+            "Serve chilled or at room temperature."
+        ],
+        "description": "A crunchy, nutty salad of blanched French beans and toasted almonds, dressed with a simple garlic lemon vinaigrette.",
+        "backdrop": "",
+        "ingredients": [
+            ["French Beans", "300 g"],
+            ["Sliced Almonds", "50 g"],
+            ["Olive Oil", "30 mL"],
+            ["Lemon Juice", "15 mL"],
+            ["Garlic", "5 g"]
+        ]
+    },
+    {
+        "name": "Fruit Pavlova",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 3.0,
+        "servingSize": 6,
+        "method": [
+            "Whisk 4 egg whites with a pinch of salt until soft peaks form, then gradually add 200 g of sugar until stiff peaks form.",
+            "Fold in 5 mL of vanilla extract and 5 mL of white vinegar, then spoon onto a baking sheet in a circular shape.",
+            "Bake in a preheated oven at 120°C (248°F) for 1.5 hours, then turn off the oven and let cool inside.",
+            "Top the cooled meringue with 300 mL of whipped cream and 200 g of mixed fresh berries.",
+            "Serve immediately or chill until ready to serve."
+        ],
+        "description": "A classic dessert featuring a crisp meringue base topped with whipped cream and fresh berries.",
+        "backdrop": "",
+        "ingredients": [
+            ["Egg Whites", "4 units"],
+            ["Sugar", "200 g"],
+            ["Vanilla Extract", "5 mL"],
+            ["White Vinegar", "5 mL"],
+            ["Whipped Cream", "300 mL"],
+            ["Mixed Fresh Berries", "200 g"]
+        ]
+    },
+    {
+        "name": "Fennel Pork Roast",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 3.1,
+        "servingSize": 8,
+        "method": [
+            "Rub 1 kg of pork loin with a mixture of 10 g of crushed fennel seeds, 5 g of salt, and 5 g of black pepper.",
+            "Sear the pork on all sides in a hot skillet with 30 mL of olive oil.",
+            "Transfer the pork to a roasting pan, add 200 g of sliced onions around the pork, and roast in a preheated oven at 175°C (347°F) for 1 hour.",
+            "Let rest for 10 minutes before slicing.",
+            "Serve with the roasted onions and pan juices drizzled over the top."
+        ],
+        "description": "Succulent pork loin seasoned with fennel seeds and roasted to perfection, served with caramelized onions.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pork Loin", "1 kg"],
+            ["Fennel Seeds", "10 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Olive Oil", "30 mL"],
+            ["Onions", "200 g"]
+        ]
+    },
+    {
+        "name": "Fiery Shrimp Stir-Fry",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "Marinate 400 g of shrimp in a mixture of 30 mL of soy sauce, 15 mL of sriracha, and 15 mL of honey for 30 minutes.",
+            "Heat 30 mL of vegetable oil in a wok, add shrimp and marinate, and stir-fry over high heat until shrimp are cooked through, about 3-4 minutes.",
+            "Add 200 g of mixed bell peppers and 100 g of snap peas, stir-fry for an additional 2 minutes.",
+            "Serve hot over steamed rice."
+        ],
+        "description": "Spicy and sweet shrimp stir-fried with crisp vegetables, perfect for a quick and flavorful meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Shrimp", "400 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Sriracha", "15 mL"],
+            ["Honey", "15 mL"],
+            ["Vegetable Oil", "30 mL"],
+            ["Mixed Bell Peppers", "200 g"],
+            ["Snap Peas", "100 g"]
+        ]
+    },
+    {
+        "name": "Feta Stuffed Peppers",
+        "author": "System",
+        "starRating": 4.3,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Halve 4 bell peppers and remove seeds.",
+            "Mix 200 g of crumbled feta cheese with 50 g of chopped olives and 15 mL of olive oil.",
+            "Stuff the pepper halves with the feta mixture.",
+            "Bake in a preheated oven at 180°C (356°F) for 20 minutes.",
+            "Serve warm, garnished with fresh basil."
+        ],
+        "description": "Colorful bell peppers stuffed with a tangy feta and olive filling, baked until tender.",
+        "backdrop": "",
+        "ingredients": [
+            ["Bell Peppers", "4 units"],
+            ["Feta Cheese", "200 g"],
+            ["Olives", "50 g"],
+            ["Olive Oil", "15 mL"],
+            ["Basil", "0 g"]
+        ]
+    },
+    {
+        "name": "Fluffy Pancakes",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 1.4,
+        "servingSize": 4,
+        "method": [
+            "Mix 200 g of flour, 10 g of sugar, 5 g of baking powder, and a pinch of salt in a bowl.",
+            "In another bowl, beat 2 eggs with 250 mL of milk and 30 mL of melted butter.",
+            "Combine the wet and dry ingredients until just mixed, being careful not to overmix.",
+            "Heat a non-stick skillet over medium heat and pour 60 mL of batter for each pancake.",
+            "Cook until bubbles form on the surface, then flip and cook for another 2 minutes until golden brown.",
+            "Serve hot with maple syrup and fresh berries."
+        ],
+        "description": "Classic, soft, and fluffy pancakes, perfect for a lazy weekend breakfast or brunch.",
+        "backdrop": "",
+        "ingredients": [
+            ["Flour", "200 g"],
+            ["Sugar", "10 g"],
+            ["Baking Powder", "5 g"],
+            ["Salt", "5 g"],
+            ["Eggs", "2 units"],
+            ["Milk", "250 mL"],
+            ["Butter", "30 mL"],
+            ["Maple Syrup", "0 g"],
+            ["Fresh Berries", "0 g"]
+        ]
+    },
+    {
+        "name": "Fish Pie",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.8,
+        "servingSize": 6,
+        "method": [
+            "Poach 500 g of mixed fish fillets in 500 mL of milk with 1 bay leaf, 5 g of salt, and 5 g of pepper for 10 minutes.",
+            "Remove fish and reserve the milk. Flake the fish into a baking dish.",
+            "Cook 200 g of chopped leeks and 200 g of diced carrots in 30 mL of butter until soft.",
+            "Sprinkle 30 g of flour over vegetables, stir for 1 minute, then gradually add reserved milk to form a thick sauce.",
+            "Pour sauce over flaked fish, then top with 500 g of mashed potatoes.",
+            "Bake at 200°C (392°F) for 30 minutes or until golden brown."
+        ],
+        "description": "A comforting fish pie with a creamy vegetable sauce topped with a layer of golden mashed potatoes.",
+        "backdrop": "",
+        "ingredients": [
+            ["Mixed Fish Fillets", "500 g"],
+            ["Milk", "500 mL"],
+            ["Bay Leaf", "1 unit"],
+            ["Salt", "5 g"],
+            ["Pepper", "5 g"],
+            ["Leeks", "200 g"],
+            ["Carrots", "200 g"],
+            ["Butter", "30 mL"],
+            ["Flour", "30 g"],
+            ["Mashed Potatoes", "500 g"]
+        ]
+    },
+    {
+        "name": "Filo-wrapped Asparagus",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Trim 20 spears of asparagus and blanch in boiling water for 2 minutes, then cool in ice water.",
+            "Brush 4 sheets of filo pastry with melted butter, then cut each sheet into 5 strips.",
+            "Wrap a strip of filo around each asparagus spear, leaving the tips exposed.",
+            "Bake in a preheated oven at 200°C (392°F) for 10 minutes or until the filo is golden and crisp.",
+            "Serve warm with a lemon wedge."
+        ],
+        "description": "Elegant asparagus spears wrapped in crispy filo pastry, perfect for an appetizer or side dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Asparagus", "20 units"],
+            ["Filo Pastry", "4 sheets"],
+            ["Butter", "30 mL"],
+            ["Lemon", "1 unit"]
+        ]
+    },
+    {
+        "name": "Fried Banana Fritters",
+        "author": "System",
+        "starRating": 4.3,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "Mash 4 ripe bananas and mix with 100 g of flour, 50 g of sugar, and 1 egg until smooth.",
+            "Heat 100 mL of vegetable oil in a deep skillet.",
+            "Drop spoonfuls of banana mixture into the hot oil and fry until golden brown, about 2-3 minutes per side.",
+            "Drain on paper towels and sprinkle with powdered sugar before serving."
+        ],
+        "description": "Sweet and golden, these banana fritters are a delightful treat, dusted with powdered sugar.",
+        "backdrop": "",
+        "ingredients": [
+            ["Ripe Bananas", "4 units"],
+            ["Flour", "100 g"],
+            ["Sugar", "50 g"],
+            ["Egg", "1 unit"],
+            ["Vegetable Oil", "100 mL"],
+            ["Powdered Sugar", "0 g"]
+        ]
+    },
+    {
+        "name": "Four Cheese Pasta Bake",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.4,
+        "servingSize": 6,
+        "method": [
+            "Cook 500 g of penne pasta until al dente, drain and set aside.",
+            "In a saucepan, melt 30 g of butter and stir in 30 g of flour to make a roux.",
+            "Gradually add 500 mL of milk, stirring continuously until the sauce thickens.",
+            "Remove from heat and stir in 100 g of mixed grated cheeses (mozzarella, cheddar, Parmesan, and Gouda).",
+            "Combine pasta with cheese sauce and transfer to a baking dish.",
+            "Bake in a preheated oven at 180°C (356°F) for 25 minutes or until bubbly and golden.",
+            "Serve hot, garnished with fresh parsley."
+        ],
+        "description": "A rich and comforting pasta bake made with four types of cheese, perfect for a hearty meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Penne Pasta", "500 g"],
+            ["Butter", "30 g"],
+            ["Flour", "30 g"],
+            ["Milk", "500 mL"],
+            ["Mixed Cheeses", "100 g"],
+            ["Parsley", "0 g"]
+        ]
+    },
+    {
+        "name": "Fried Butter Mushrooms",
+        "author": "System",
+        "starRating": 4.4,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Clean 300 g of button mushrooms and slice.",
+            "Heat 50 g of butter in a skillet over medium heat.",
+            "Add mushrooms and sauté until golden brown, about 5-7 minutes.",
+            "Season with 5 g of salt and 5 g of black pepper.",
+            "Finish with a splash of 15 mL of lemon juice and garnish with chopped parsley before serving."
+        ],
+        "description": "Simple yet flavorful sautéed mushrooms cooked in butter and seasoned with salt, pepper, and a hint of lemon.",
+        "backdrop": "",
+        "ingredients": [
+            ["Button Mushrooms", "300 g"],
+            ["Butter", "50 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Lemon Juice", "15 mL"],
+            ["Parsley", "0 g"]
+        ]
+    },
+    {
+        "name": "Fruit Smoothie Bowl",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.2,
+        "servingSize": 2,
+        "method": [
+            "Blend 200 g of mixed frozen berries, 1 banana, and 200 mL of almond milk until smooth.",
+            "Pour the mixture into bowls and top with 50 g of sliced strawberries, 30 g of blueberries, and 25 g of granola.",
+            "Drizzle with 10 mL of honey and sprinkle with 5 g of chia seeds before serving."
+        ],
+        "description": "A refreshing and nutritious smoothie bowl topped with fresh berries, crunchy granola, and chia seeds, perfect for a healthy breakfast.",
+        "backdrop": "",
+        "ingredients": [
+            ["Mixed Frozen Berries", "200 g"],
+            ["Banana", "1 unit"],
+            ["Almond Milk", "200 mL"],
+            ["Strawberries", "50 g"],
+            ["Blueberries", "30 g"],
+            ["Granola", "25 g"],
+            ["Honey", "10 mL"],
+            ["Chia Seeds", "5 g"]
+        ]
+    },
+    {
+        "name": "Fried Calamari",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Slice 500 g of calamari into rings.",
+            "Dredge the calamari rings in a mixture of 100 g of flour, 5 g of salt, and 2 g of black pepper.",
+            "Heat 500 mL of vegetable oil in a deep fryer to 180°C (356°F).",
+            "Fry the calamari rings in batches until golden and crispy, about 2-3 minutes per batch.",
+            "Drain on paper towels and serve hot with a side of marinara sauce."
+        ],
+        "description": "Crispy fried calamari rings served with a tangy marinara sauce, perfect for an appetizer or snack.",
+        "backdrop": "",
+        "ingredients": [
+            ["Calamari", "500 g"],
+            ["Flour", "100 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "2 g"],
+            ["Vegetable Oil", "500 mL"],
+            ["Marinara Sauce", "0 g"]
+        ]
+    },
+    {
+        "name": "Falafel Wrap",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.5,
+        "servingSize": 4,
+        "method": [
+            "Blend 300 g of soaked chickpeas with 1 chopped onion, 2 cloves of garlic, and 15 g of parsley until smooth.",
+            "Form the mixture into small patties and fry in 200 mL of vegetable oil until golden, about 3-4 minutes per side.",
+            "Wrap the falafels in pita bread with 100 g of diced tomatoes, 50 g of sliced cucumber, and drizzle with 50 mL of tahini sauce."
+        ],
+        "description": "Hearty falafel patties wrapped in soft pita bread with fresh vegetables and creamy tahini sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chickpeas", "300 g"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Parsley", "15 g"],
+            ["Vegetable Oil", "200 mL"],
+            ["Pita Bread", "4 units"],
+            ["Tomatoes", "100 g"],
+            ["Cucumber", "50 g"],
+            ["Tahini Sauce", "50 mL"]
+        ]
+    },
+    {
+        "name": "Fig Jam",
+        "author": "System",
+        "starRating": 4.3,
+        "difficultyRating": 1.6,
+        "servingSize": 10,
+        "method": [
+            "Chop 500 g of fresh figs and place them in a saucepan with 250 g of sugar and 30 mL of lemon juice.",
+            "Cook over medium heat, stirring occasionally, until the mixture thickens and reaches a jam-like consistency, about 30 minutes.",
+            "Pour the hot jam into sterilized jars and seal.",
+            "Allow to cool at room temperature before storing in the refrigerator."
+        ],
+        "description": "Sweet and luscious homemade fig jam, perfect for spreading on toast or pairing with cheeses.",
+        "backdrop": "",
+        "ingredients": [
+            ["Fresh Figs", "500 g"],
+            ["Sugar", "250 g"],
+            ["Lemon Juice", "30 mL"]
+        ]
+    },
+    {
+        "name": "Focaccia Art",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.7,
+        "servingSize": 8,
+        "method": [
+            "Prepare 500 g of focaccia dough and spread it on a baking sheet.",
+            "Decorate the top of the dough with an array of vegetables (bell peppers, cherry tomatoes, olives, onions) to create a colorful pattern.",
+            "Drizzle with 30 mL of olive oil and sprinkle with 10 g of coarse sea salt.",
+            "Bake in a preheated oven at 200°C (392°F) for 20 minutes, or until golden and fluffy.",
+            "Serve warm, cut into pieces."
+        ],
+        "description": "Beautiful and delicious focaccia decorated with fresh vegetables, creating a visually stunning edible art piece.",
+        "backdrop": "",
+        "ingredients": [
+            ["Focaccia Dough", "500 g"],
+            ["Bell Peppers", "0 g"],
+            ["Cherry Tomatoes", "0 g"],
+            ["Olives", "0 g"],
+            ["Onions", "0 g"],
+            ["Olive Oil", "30 mL"],
+            ["Coarse Sea Salt", "10 g"]
+        ]
+    },
+    {
+        "name": "Fettuccine Carbonara",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "Cook 400 g of fettuccine pasta in boiling salted water until al dente, about 8-10 minutes.",
+            "In a large skillet, cook 200 g of chopped bacon until crispy, remove and set aside.",
+            "In the same skillet, mix 2 beaten eggs, 100 g of grated Parmesan, and cooked bacon, stirring quickly to avoid scrambling the eggs.",
+            "Add the drained pasta to the skillet, tossing to coat with the sauce.",
+            "Serve immediately, garnished with extra Parmesan and freshly cracked black pepper."
+        ],
+        "description": "A classic Italian pasta dish combining creamy egg sauce, crispy bacon, and Parmesan cheese, all tossed with al dente fettuccine.",
+        "backdrop": "",
+        "ingredients": [
+            ["Fettuccine", "400 g"],
+            ["Bacon", "200 g"],
+            ["Eggs", "2 units"],
+            ["Parmesan Cheese", "100 g"]
+        ]
+    },
+    {
+        "name": "Farmhouse Chicken",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.8,
+        "servingSize": 4,
+        "method": [
+            "Season 4 chicken breasts with salt, pepper, and 5 g of dried herbs.",
+            "In a skillet, heat 30 mL of olive oil and brown the chicken on both sides.",
+            "Add 200 g of sliced mushrooms and 100 g of diced onions to the skillet, cook until the onions are translucent.",
+            "Pour in 200 mL of chicken broth and simmer until the chicken is cooked through, about 15 minutes.",
+            "Serve hot, garnished with fresh parsley."
+        ],
+        "description": "Rustic and hearty chicken breasts cooked with mushrooms and onions in a flavorful broth.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breasts", "4 units"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Dried Herbs", "5 g"],
+            ["Olive Oil", "30 mL"],
+            ["Mushrooms", "200 g"],
+            ["Onions", "100 g"],
+            ["Chicken Broth", "200 mL"],
+            ["Parsley", "0 g"]
+        ]
+    },
+    {
+        "name": "Fusilli with Peas and Ham",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Cook 350 g of fusilli pasta in boiling water until al dente, about 8-10 minutes.",
+            "In a skillet, heat 30 mL of olive oil and sauté 150 g of chopped ham until slightly browned.",
+            "Add 200 g of frozen peas and cook until heated through.",
+            "Toss the cooked pasta with the ham and peas, adding 100 mL of cream and 50 g of grated Parmesan.",
+            "Serve warm, topped with additional Parmesan if desired."
+        ],
+        "description": "A simple and satisfying pasta dish featuring fusilli, sweet peas, and savory ham in a creamy sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Fusilli", "350 g"],
+            ["Olive Oil", "30 mL"],
+            ["Ham", "150 g"],
+            ["Frozen Peas", "200 g"],
+            ["Cream", "100 mL"],
+            ["Parmesan Cheese", "50 g"]
+        ]
+    },
+    {
+        "name": "Fried Tofu with Spicy Glaze",
+        "author": "System",
+        "starRating": 4.4,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Cut 400 g of firm tofu into cubes and pat dry with paper towels.",
+            "Fry the tofu in 100 mL of hot vegetable oil until all sides are golden brown, about 5 minutes per side.",
+            "Drain the tofu on paper towels and then toss with a spicy glaze made from 30 mL of soy sauce, 30 mL of honey, and 15 mL of sriracha.",
+            "Serve hot, garnished with sesame seeds and sliced green onions."
+        ],
+        "description": "Crispy fried tofu cubes coated in a sweet and spicy glaze, perfect for a flavorful vegetarian dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Firm Tofu", "400 g"],
+            ["Vegetable Oil", "100 mL"],
+            ["Soy Sauce", "30 mL"],
+            ["Honey", "30 mL"],
+            ["Sriracha", "15 mL"],
+            ["Sesame Seeds", "5 g"],
+            ["Green Onions", "2 units"]
+        ]
+    },
+    {
+        "name": "Fig and Ricotta Crostini",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 6,
+        "method": [
+            "Slice a baguette into 18 pieces and toast until crisp.",
+            "Spread each slice with ricotta cheese, then top with a slice of fresh fig.",
+            "Drizzle with honey and sprinkle with chopped walnuts before serving."
+        ],
+        "description": "Elegant crostini topped with creamy ricotta, fresh figs, and a touch of honey, perfect for an appetizer or party snack.",
+        "backdrop": "",
+        "ingredients": [
+            ["Baguette", "1 unit"],
+            ["Ricotta Cheese", "200 g"],
+            ["Fresh Figs", "6 units"],
+            ["Honey", "30 mL"],
+            ["Walnuts", "50 g"]
+        ]
+    },
+    {
+        "name": "Fried Cheese Balls",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Mix 200 g of shredded mozzarella cheese with 100 g of breadcrumbs, 1 beaten egg, and seasonings (salt, pepper, garlic powder).",
+            "Form the mixture into small balls, about the size of a walnut.",
+            "Heat 200 mL of vegetable oil in a deep fryer or large pot to 180°C (356°F).",
+            "Fry the cheese balls in batches until golden brown, about 2-3 minutes.",
+            "Drain on paper towels and serve hot with marinara sauce for dipping."
+        ],
+        "description": "Crispy on the outside, gooey on the inside, these fried cheese balls are a crowd-pleasing appetizer or snack.",
+        "backdrop": "",
+        "ingredients": [
+            ["Mozzarella Cheese", "200 g"],
+            ["Breadcrumbs", "100 g"],
+            ["Egg", "1 unit"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "2 g"],
+            ["Garlic Powder", "5 g"],
+            ["Vegetable Oil", "200 mL"],
+            ["Marinara Sauce", "0 g"]
+        ]
+    },
+    {
+        "name": "Four Cheese Garlic Bread",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "Slice a baguette lengthwise and spread with a mixture of 50 g softened butter, 2 cloves of minced garlic, and a pinch of salt.",
+            "Top with 25 g each of grated mozzarella, cheddar, Parmesan, and Gouda cheese.",
+            "Bake in a preheated oven at 180°C (356°F) for 10-12 minutes or until the cheese is bubbly and golden.",
+            "Slice and serve hot."
+        ],
+        "description": "Decadent garlic bread loaded with a mix of four cheeses, perfect for a rich and comforting side dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Baguette", "1 unit"],
+            ["Butter", "50 g"],
+            ["Garlic", "2 cloves"],
+            ["Salt", "5 g"],
+            ["Mozzarella Cheese", "25 g"],
+            ["Cheddar Cheese", "25 g"],
+            ["Parmesan Cheese", "25 g"],
+            ["Gouda Cheese", "25 g"]
+        ]
+    },
+    {
+        "name": "Fig Stuffed Pork Tenderloin",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.9,
+        "servingSize": 4,
+        "method": [
+            "Butterfly a 500 g pork tenderloin and spread with a mixture of chopped dried figs, 50 g blue cheese, and a sprinkle of thyme.",
+            "Roll up the tenderloin and secure with kitchen twine.",
+            "Sear on all sides in a hot skillet with 15 mL of olive oil, then roast in a preheated oven at 190°C (374°F) for 25 minutes.",
+            "Rest for 10 minutes, slice, and serve."
+        ],
+        "description": "Elegant pork tenderloin stuffed with sweet figs and tangy blue cheese, roasted to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pork Tenderloin", "500 g"],
+            ["Dried Figs", "100 g"],
+            ["Blue Cheese", "50 g"],
+            ["Thyme", "5 g"],
+            ["Olive Oil", "15 mL"]
+        ]
+    },
+    {
+        "name": "Fava Bean and Pea Salad",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Blanch 200 g of shelled fava beans and 200 g of peas in boiling water for 2 minutes, then cool in ice water.",
+            "Toss with 100 g of sliced radishes, 30 mL of olive oil, and the juice of 1 lemon.",
+            "Season with salt and pepper and garnish with fresh mint leaves before serving."
+        ],
+        "description": "A light and refreshing salad featuring spring vegetables with a simple lemon olive oil dressing.",
+        "backdrop": "",
+        "ingredients": [
+            ["Fava Beans", "200 g"],
+            ["Peas", "200 g"],
+            ["Radishes", "100 g"],
+            ["Olive Oil", "30 mL"],
+            ["Lemon", "1 unit"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Mint Leaves", "0 g"]
+        ]
+    },
+    {
+        "name": "Fried Rice with Pineapple and Shrimp",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "Heat 30 mL of sesame oil in a large skillet or wok.",
+            "Add 200 g of shrimp and cook until pink, about 2-3 minutes. Remove and set aside.",
+            "In the same skillet, add 400 g of cooked and chilled rice, 100 g of diced pineapple, and 50 g of peas. Stir-fry for 5 minutes.",
+            "Return the shrimp to the skillet, add 50 mL of soy sauce, and cook for an additional 2 minutes.",
+            "Garnish with sliced green onions and serve hot."
+        ],
+        "description": "Tropical and savory fried rice loaded with shrimp and sweet pineapple, perfect for a quick and delicious meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Sesame Oil", "30 mL"],
+            ["Shrimp", "200 g"],
+            ["Cooked Rice", "400 g"],
+            ["Pineapple", "100 g"],
+            ["Peas", "50 g"],
+            ["Soy Sauce", "50 mL"],
+            ["Green Onions", "2 units"]
+        ]
+    },
+    {
+        "name": "Fennel and Citrus Cured Salmon",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 3.2,
+        "servingSize": 6,
+        "method": [
+            "Mix 50 g of salt, 50 g of sugar, zest of 1 orange, zest of 1 lemon, and 10 g of crushed fennel seeds.",
+            "Cover a 500 g piece of salmon fillet with the curing mix, wrap tightly in plastic wrap, and refrigerate for 48 hours.",
+            "Unwrap, rinse off the cure under cold water, and pat dry.",
+            "Slice thinly and serve with a drizzle of olive oil and a sprinkle of chopped dill."
+        ],
+        "description": "Luxuriously soft salmon cured with fennel and citrus, creating a delightful combination of fresh and aromatic flavors.",
+        "backdrop": "",
+        "ingredients": [
+            ["Salt", "50 g"],
+            ["Sugar", "50 g"],
+            ["Orange Zest", "1 unit"],
+            ["Lemon Zest", "1 unit"],
+            ["Fennel Seeds", "10 g"],
+            ["Salmon Fillet", "500 g"],
+            ["Olive Oil", "15 mL"],
+            ["Dill", "0 g"]
+        ]
+    },
+    {
+        "name": "Flatbread with Spicy Lamb",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.8,
+        "servingSize": 4,
+        "method": [
+            "Cook 300 g of ground lamb in a skillet with 30 mL of olive oil, 5 g of cumin, and 5 g of paprika until browned.",
+            "Spread the cooked lamb over 4 prepared flatbreads.",
+            "Top with 100 g of crumbled feta and 50 g of diced tomatoes.",
+            "Bake in a preheated oven at 200°C (392°F) for 10 minutes.",
+            "Serve garnished with fresh parsley and a drizzle of yogurt sauce."
+        ],
+        "description": "Spicy and savory flatbread topped with seasoned lamb, feta cheese, and fresh tomatoes, finished with a cool yogurt sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Ground Lamb", "300 g"],
+            ["Olive Oil", "30 mL"],
+            ["Cumin", "5 g"],
+            ["Paprika", "5 g"],
+            ["Flatbreads", "4 units"],
+            ["Feta Cheese", "100 g"],
+            ["Tomatoes", "50 g"],
+            ["Parsley", "0 g"],
+            ["Yogurt Sauce", "0 g"]
+        ]
+    },
+    {
+        "name": "French Ratatouille",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.3,
+        "servingSize": 6,
+        "method": [
+            "In a large skillet, heat 30 mL of olive oil and sauté 1 sliced onion, 2 cloves of garlic, 1 diced bell pepper, 1 sliced zucchini, and 1 sliced eggplant until soft, about 10 minutes.",
+            "Add 200 g of crushed tomatoes, 5 g of basil, 5 g of thyme, and simmer for 20 minutes.",
+            "Season with salt and pepper to taste and serve hot."
+        ],
+        "description": "Traditional French stew of summer vegetables, simmered slowly to meld the flavors into a comforting dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Bell Pepper", "1 unit"],
+            ["Zucchini", "1 unit"],
+            ["Eggplant", "1 unit"],
+            ["Crushed Tomatoes", "200 g"],
+            ["Basil", "5 g"],
+            ["Thyme", "5 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"]
+        ]
+    },
+    {
+        "name": "Frosted Cinnamon Rolls",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 3.0,
+        "servingSize": 12,
+        "method": [
+            "Prepare dough with 500 g of flour, 250 mL of milk, 50 g of sugar, and 7 g of yeast. Let rise until doubled.",
+            "Roll out the dough, spread with 50 g of melted butter, and sprinkle with a mixture of 100 g of brown sugar and 10 g of cinnamon.",
+            "Roll up the dough, cut into 12 pieces, and place in a baking pan.",
+            "Bake at 180°C (356°F) for 25 minutes.",
+            "Top with frosting made from 100 g of cream cheese, 50 g of powdered sugar, and 5 mL of vanilla extract."
+        ],
+        "description": "Soft and fluffy cinnamon rolls, freshly baked and topped with a sweet cream cheese frosting.",
+        "backdrop": "",
+        "ingredients": [
+            ["Flour", "500 g"],
+            ["Milk", "250 mL"],
+            ["Sugar", "50 g"],
+            ["Yeast", "7 g"],
+            ["Butter", "50 g"],
+            ["Brown Sugar", "100 g"],
+            ["Cinnamon", "10 g"],
+            ["Cream Cheese", "100 g"],
+            ["Powdered Sugar", "50 g"],
+            ["Vanilla Extract", "5 mL"]
+        ]
+    },
+    {
+        "name": "Fried Green Tomato BLT",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "Slice 4 green tomatoes and dredge in flour, then dip in beaten eggs and coat in breadcrumbs.",
+            "Fry in hot oil until golden, about 2 minutes per side. Drain on paper towels.",
+            "Assemble the sandwich with toasted bread, a layer of lettuce, a slice of fried green tomato, 2 slices of bacon, and a smear of mayonnaise.",
+            "Serve immediately."
+        ],
+        "description": "A Southern twist on the classic BLT, featuring crispy fried green tomatoes as the star ingredient.",
+        "backdrop": "",
+        "ingredients": [
+            ["Green Tomatoes", "4 units"],
+            ["Flour", "100 g"],
+            ["Eggs", "2 units"],
+            ["Breadcrumbs", "100 g"],
+            ["Vegetable Oil", "200 mL"],
+            ["Bread", "8 slices"],
+            ["Lettuce", "4 leaves"],
+            ["Bacon", "8 slices"],
+            ["Mayonnaise", "50 mL"]
+        ]
+    },
+    {
+        "name": "Fennel and Apple Slaw",
+        "author": "System",
+        "starRating": 4.4,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Thinly slice 1 fennel bulb and 2 apples. Toss in a bowl with 100 g of shredded cabbage.",
+            "Whisk together 30 mL of apple cider vinegar, 15 mL of honey, and 15 mL of olive oil to make the dressing.",
+            "Toss the slaw with the dressing and season with salt and pepper to taste.",
+            "Chill for at least 30 minutes before serving to allow flavors to meld."
+        ],
+        "description": "A crisp and refreshing slaw combining sweet apples and anise-flavored fennel, dressed with a light vinaigrette.",
+        "backdrop": "",
+        "ingredients": [
+            ["Fennel Bulb", "1 unit"],
+            ["Apples", "2 units"],
+            ["Cabbage", "100 g"],
+            ["Apple Cider Vinegar", "30 mL"],
+            ["Honey", "15 mL"],
+            ["Olive Oil", "15 mL"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"]
+        ]
+    },
+    {
+        "name": "Fried Camembert with Cranberry Sauce",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Cut 1 Camembert cheese into 8 wedges and coat each with flour, then dip in beaten eggs and breadcrumbs.",
+            "Fry in hot oil until golden and crispy, about 2 minutes per side.",
+            "Serve immediately with cranberry sauce on the side."
+        ],
+        "description": "Creamy Camembert cheese fried to a perfect crisp, accompanied by sweet and tangy cranberry sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Camembert Cheese", "1 unit"],
+            ["Flour", "50 g"],
+            ["Eggs", "2 units"],
+            ["Breadcrumbs", "100 g"],
+            ["Vegetable Oil", "200 mL"],
+            ["Cranberry Sauce", "100 g"]
+        ]
+    },
+    {
+        "name": "Flank Steak Fajitas",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.6,
+        "servingSize": 4,
+        "method": [
+            "Marinate 500 g of flank steak in a mixture of 30 mL lime juice, 15 mL soy sauce, 5 g cumin, and 2 cloves of minced garlic for 1 hour.",
+            "Heat a skillet over high heat, add steak and cook for 5-6 minutes per side for medium rare. Let rest for 10 minutes then slice thinly.",
+            "In the same skillet, sauté 1 sliced bell pepper and 1 sliced onion until soft, about 5 minutes.",
+            "Serve the steak with sautéed vegetables on warmed tortillas, topped with salsa and sour cream."
+        ],
+        "description": "Juicy marinated flank steak with sautéed peppers and onions, served in tortillas with traditional fajita toppings.",
+        "backdrop": "",
+        "ingredients": [
+            ["Flank Steak", "500 g"],
+            ["Lime Juice", "30 mL"],
+            ["Soy Sauce", "15 mL"],
+            ["Cumin", "5 g"],
+            ["Garlic", "2 cloves"],
+            ["Bell Pepper", "1 unit"],
+            ["Onion", "1 unit"],
+            ["Tortillas", "8 units"],
+            ["Salsa", "100 g"],
+            ["Sour Cream", "50 g"]
+        ]
+    },
+    {
+        "name": "Fried Goat Cheese Salad",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Slice 200 g of goat cheese into rounds and freeze for 30 minutes.",
+            "Dip frozen goat cheese in beaten egg, then in breadcrumbs mixed with 5 g of herbs de Provence.",
+            "Fry in 100 mL of hot olive oil until golden, about 2 minutes per side.",
+            "Serve on top of a salad made with 150 g mixed greens, 100 g cherry tomatoes, and 50 g walnuts, drizzled with balsamic vinaigrette."
+        ],
+        "description": "Crispy fried goat cheese served on a fresh salad with tomatoes, mixed greens, and a balsamic dressing.",
+        "backdrop": "",
+        "ingredients": [
+            ["Goat Cheese", "200 g"],
+            ["Egg", "1 unit"],
+            ["Breadcrumbs", "100 g"],
+            ["Herbs de Provence", "5 g"],
+            ["Olive Oil", "100 mL"],
+            ["Mixed Greens", "150 g"],
+            ["Cherry Tomatoes", "100 g"],
+            ["Walnuts", "50 g"],
+            ["Balsamic Vinaigrette", "50 mL"]
+        ]
+    },
+    {
+        "name": "Farm Style Meatloaf",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.3,
+        "servingSize": 6,
+        "method": [
+            "Mix 500 g ground beef, 200 g ground pork, 1 chopped onion, 2 beaten eggs, 100 g breadcrumbs, and 50 mL milk in a bowl.",
+            "Shape the mixture into a loaf and place on a baking tray.",
+            "Top with a glaze made by combining 50 g ketchup, 15 g mustard, and 15 g brown sugar.",
+            "Bake in a preheated oven at 180°C (356°F) for 1 hour.",
+            "Let rest for 10 minutes before slicing."
+        ],
+        "description": "Traditional meatloaf with a sweet and tangy glaze, hearty and satisfying, perfect for a family dinner.",
+        "backdrop": "",
+        "ingredients": [
+            ["Ground Beef", "500 g"],
+            ["Ground Pork", "200 g"],
+            ["Onion", "1 unit"],
+            ["Eggs", "2 units"],
+            ["Breadcrumbs", "100 g"],
+            ["Milk", "50 mL"],
+            ["Ketchup", "50 g"],
+            ["Mustard", "15 g"],
+            ["Brown Sugar", "15 g"]
+        ]
+    },
+    {
+        "name": "Fresh Herb and Ricotta Stuffed Peppers",
+        "author": "System",
+        "starRating": 4.4,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Mix 200 g ricotta cheese with 50 g chopped fresh herbs (basil, parsley, chives), 1 minced garlic clove, and 50 g grated Parmesan.",
+            "Stuff the mixture into 4 halved and seeded bell peppers.",
+            "Bake in a preheated oven at 175°C (347°F) for 20 minutes.",
+            "Serve warm, topped with additional Parmesan if desired."
+        ],
+        "description": "Bell peppers stuffed with a creamy blend of ricotta, fresh herbs, and Parmesan, baked until perfectly tender.",
+        "backdrop": "",
+        "ingredients": [
+            ["Ricotta Cheese", "200 g"],
+            ["Fresh Herbs", "50 g"],
+            ["Garlic", "1 clove"],
+            ["Parmesan Cheese", "50 g"],
+            ["Bell Peppers", "4 units"]
+        ]
+    },
+    {
+        "name": "Fruit Tart with Vanilla Custard",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.8,
+        "servingSize": 8,
+        "method": [
+            "Prepare a tart crust from 200 g flour and 100 g butter, then pre-bake at 180°C (356°F) for 15 minutes.",
+            "Cook 500 mL milk with 100 g sugar, 1 vanilla bean until it simmers.",
+            "Whisk 2 eggs with 50 g flour, then temper with hot milk and return to heat, stirring until thick.",
+            "Pour custard into the crust, top with 300 g of mixed fresh berries, and chill for 2 hours before serving."
+        ],
+        "description": "A delightful tart filled with creamy vanilla custard and topped with an array of colorful fresh berries.",
+        "backdrop": "",
+        "ingredients": [
+            ["Flour", "250 g"],
+            ["Butter", "100 g"],
+            ["Milk", "500 mL"],
+            ["Sugar", "100 g"],
+            ["Vanilla Bean", "1 unit"],
+            ["Eggs", "2 units"],
+            ["Mixed Fresh Berries", "300 g"]
+        ]
+    },
+    {
+        "name": "Feta and Olive Greek Salad",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.4,
+        "servingSize": 4,
+        "method": [
+            "Combine 200 g chopped cucumbers, 150 g halved cherry tomatoes, 100 g sliced red onions, and 100 g black olives in a bowl.",
+            "Crumble 200 g feta cheese over the salad.",
+            "Dress with 30 mL olive oil and 15 mL red wine vinegar, season with salt and pepper.",
+            "Toss gently and serve chilled."
+        ],
+        "description": "A classic Greek salad with juicy tomatoes, crisp cucumbers, sharp onions, briny olives, and creamy feta.",
+        "backdrop": "",
+        "ingredients": [
+            ["Cucumbers", "200 g"],
+            ["Cherry Tomatoes", "150 g"],
+            ["Red Onions", "100 g"],
+            ["Black Olives", "100 g"],
+            ["Feta Cheese", "200 g"],
+            ["Olive Oil", "30 mL"],
+            ["Red Wine Vinegar", "15 mL"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"]
+        ]
+    },
+    {
+        "name": "Fried Mushroom Risotto Balls",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.5,
+        "servingSize": 6,
+        "method": [
+            "Cook 300 g risotto rice with 500 mL vegetable broth until creamy, let cool.",
+            "Sauté 200 g chopped mushrooms and 1 minced garlic clove, mix into the cooled risotto with 50 g grated Parmesan.",
+            "Form into balls, coat with flour, then beaten egg, and finally breadcrumbs.",
+            "Fry in 200 mL of hot oil until golden. Drain on paper towels and serve with marinara sauce."
+        ],
+        "description": "Crispy on the outside, creamy on the inside, these risotto balls filled with mushrooms and Parmesan are a delicious treat.",
+        "backdrop": "",
+        "ingredients": [
+            ["Risotto Rice", "300 g"],
+            ["Vegetable Broth", "500 mL"],
+            ["Mushrooms", "200 g"],
+            ["Garlic", "1 clove"],
+            ["Parmesan Cheese", "50 g"],
+            ["Flour", "50 g"],
+            ["Eggs", "2 units"],
+            ["Breadcrumbs", "100 g"],
+            ["Vegetable Oil", "200 mL"],
+            ["Marinara Sauce", "100 g"]
+        ]
+    },
+    {
+        "name": "Fennel Orange Roast Chicken",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.7,
+        "servingSize": 4,
+        "method": [
+            "Rub a whole chicken (about 1.5 kg) with a mix of 5 g salt, 5 g pepper, and the zest of 1 orange.",
+            "Stuff the chicken cavity with sliced fennel and orange slices.",
+            "Roast in a preheated oven at 200°C (392°F) for 1 hour 30 minutes or until the juices run clear.",
+            "Rest for 10 minutes before carving. Serve with roasted fennel and orange slices."
+        ],
+        "description": "Aromatic roast chicken stuffed with fresh fennel and orange slices, creating a juicy, flavorful dish perfect for a special meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Whole Chicken", "1.5 kg"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Orange", "1 unit"],
+            ["Fennel", "1 unit"]
+        ]
+    },
+    {
+        "name": "Filo Pastry Apple Turnovers",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.1,
+        "servingSize": 6,
+        "method": [
+            "Peel and dice 3 apples and sauté with 50 g sugar, 5 g cinnamon, and 10 mL lemon juice until soft.",
+            "Cut 6 sheets of filo pastry into squares, spoon apple mixture into the center, fold over to form triangles, and seal edges.",
+            "Brush with melted butter and bake at 180°C (356°F) for 15 minutes or until golden.",
+            "Dust with powdered sugar before serving."
+        ],
+        "description": "Crispy filo pastry filled with a sweet and spiced apple mixture, a delightful dessert or snack.",
+        "backdrop": "",
+        "ingredients": [
+            ["Apples", "3 units"],
+            ["Sugar", "50 g"],
+            ["Cinnamon", "5 g"],
+            ["Lemon Juice", "10 mL"],
+            ["Filo Pastry", "6 sheets"],
+            ["Butter", "30 mL"],
+            ["Powdered Sugar", "25 g"]
+        ]
+    },
+    {
+        "name": "Fish and Chips",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "Cut 500 g of cod into strips. Dredge in flour, dip in batter made from 150 g flour, 250 mL beer, 1 egg, and fry in 500 mL vegetable oil until crispy.",
+            "Slice 4 potatoes into fries and fry in the same oil until golden.",
+            "Serve the fish and chips with tartar sauce and lemon wedges."
+        ],
+        "description": "Classic British fish and chips, featuring beer-battered cod and crispy fried potatoes, served with tartar sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Cod", "500 g"],
+            ["Flour", "200 g"],
+            ["Beer", "250 mL"],
+            ["Egg", "1 unit"],
+            ["Vegetable Oil", "500 mL"],
+            ["Potatoes", "4 units"],
+            ["Tartar Sauce", "50 g"],
+            ["Lemon", "1 unit"]
+        ]
+    },
+    {
+        "name": "Fig and Walnut Baked Brie",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Top a 200 g wheel of Brie with 100 g chopped dried figs and 50 g chopped walnuts.",
+            "Wrap in puff pastry and bake at 200°C (392°F) for 20 minutes or until the pastry is golden.",
+            "Serve warm with crackers and honey drizzle."
+        ],
+        "description": "Elegant baked Brie wrapped in puff pastry, topped with sweet figs and crunchy walnuts, ideal for a sophisticated appetizer.",
+        "backdrop": "",
+        "ingredients": [
+            ["Brie", "200 g"],
+            ["Dried Figs", "100 g"],
+            ["Walnuts", "50 g"],
+            ["Puff Pastry", "1 unit"],
+            ["Crackers", "0 g"],
+            ["Honey", "30 mL"]
+        ]
+    },
+    {
+        "name": "French Green Bean Casserole",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.0,
+        "servingSize": 6,
+        "method": [
+            "Blanch 500 g of green beans in boiling water for 3 minutes, then shock in ice water.",
+            "Sauté 1 chopped onion and 200 g sliced mushrooms in 30 mL of butter until soft.",
+            "Stir in 30 g of flour, then gradually add 500 mL of milk, cooking until thickened.",
+            "Mix the green beans into the mushroom sauce and top with 100 g of fried onions.",
+            "Bake at 175°C (347°F) for 20 minutes or until bubbly."
+        ],
+        "description": "A creamy, comforting casserole featuring green beans and mushrooms, topped with crispy fried onions.",
+        "backdrop": "",
+        "ingredients": [
+            ["Green Beans", "500 g"],
+            ["Onion", "1 unit"],
+            ["Mushrooms", "200 g"],
+            ["Butter", "30 mL"],
+            ["Flour", "30 g"],
+            ["Milk", "500 mL"],
+            ["Fried Onions", "100 g"]
+        ]
+    },
+    {
+        "name": "Fusilli with Broccoli and Anchovies",
+        "author": "System",
+        "starRating": 4.3,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Boil 350 g of fusilli pasta until al dente, about 10 minutes, then drain.",
+            "In a skillet, heat 30 mL of olive oil and sauté 2 cloves of minced garlic and 50 g of anchovy fillets until the anchovies melt.",
+            "Add 300 g of chopped broccoli and cook until tender, about 5 minutes.",
+            "Toss the pasta with the broccoli mixture, season with salt and pepper, and serve with grated Parmesan cheese."
+        ],
+        "description": "A savory pasta dish featuring fusilli with tender broccoli and rich, umami-packed anchovies.",
+        "backdrop": "",
+        "ingredients": [
+            ["Fusilli", "350 g"],
+            ["Olive Oil", "30 mL"],
+            ["Garlic", "2 cloves"],
+            ["Anchovy Fillets", "50 g"],
+            ["Broccoli", "300 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Parmesan Cheese", "50 g"]
+        ]
+    },
+    {
+        "name": "French Toast with Caramelized Bananas",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Whisk together 3 eggs, 100 mL of milk, and 5 g of cinnamon.",
+            "Dip 8 slices of brioche bread into the egg mixture, ensuring both sides are coated.",
+            "Cook in a buttered skillet over medium heat until golden brown, about 3 minutes per side.",
+            "In another skillet, sauté 2 sliced bananas with 50 g of brown sugar until caramelized.",
+            "Serve the French toast with caramelized bananas and a drizzle of maple syrup."
+        ],
+        "description": "Luxurious French toast topped with sweet caramelized bananas, perfect for a decadent breakfast or brunch.",
+        "backdrop": "",
+        "ingredients": [
+            ["Eggs", "3 units"],
+            ["Milk", "100 mL"],
+            ["Cinnamon", "5 g"],
+            ["Brioche Bread", "8 slices"],
+            ["Butter", "30 g"],
+            ["Bananas", "2 units"],
+            ["Brown Sugar", "50 g"],
+            ["Maple Syrup", "30 mL"]
+        ]
+    },
+    {
+        "name": "Fried Chickpea and Herb Falafel",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Process 400 g of soaked chickpeas with 50 g of chopped parsley, 30 g of chopped cilantro, 2 cloves of minced garlic, and 10 g of cumin until smooth.",
+            "Form into small balls and chill for 30 minutes.",
+            "Fry in 200 mL of vegetable oil until golden and crispy, about 5 minutes.",
+            "Serve with tahini sauce and lemon wedges."
+        ],
+        "description": "Crispy homemade falafel made from chickpeas and fresh herbs, served with creamy tahini sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chickpeas", "400 g"],
+            ["Parsley", "50 g"],
+            ["Cilantro", "30 g"],
+            ["Garlic", "2 cloves"],
+            ["Cumin", "10 g"],
+            ["Vegetable Oil", "200 mL"],
+            ["Tahini Sauce", "50 mL"],
+            ["Lemon", "1 unit"]
+        ]
+    },
+    {
+        "name": "Fig and Prosciutto Flatbread",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Roll out 500 g of pizza dough into a thin circle and place on a baking sheet.",
+            "Top with 100 g of sliced figs, 100 g of torn prosciutto, and 100 g of mozzarella cheese.",
+            "Bake in a preheated oven at 220°C (428°F) for 10-12 minutes or until the crust is crisp and golden.",
+            "Drizzle with balsamic glaze and serve immediately."
+        ],
+        "description": "A gourmet flatbread combining sweet figs, salty prosciutto, and creamy mozzarella, finished with a balsamic reduction.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pizza Dough", "500 g"],
+            ["Figs", "100 g"],
+            ["Prosciutto", "100 g"],
+            ["Mozzarella Cheese", "100 g"],
+            ["Balsamic Glaze", "30 mL"]
+        ]
+    },
+    {
+        "name": "Fish Tacos with Mango Salsa",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "Season 400 g of cod fillets with cumin, chili powder, and salt, then grill until cooked through.",
+            "Mix together 100 g diced mango, 50 g diced red onion, 30 g chopped cilantro, and the juice of 1 lime to make the salsa.",
+            "Serve the fish in corn tortillas, topped with mango salsa and a dollop of sour cream."
+        ],
+        "description": "Flavorful grilled fish tacos topped with a fresh mango salsa, perfect for a light and refreshing meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Cod Fillets", "400 g"],
+            ["Cumin", "5 g"],
+            ["Chili Powder", "5 g"],
+            ["Salt", "5 g"],
+            ["Mango", "100 g"],
+            ["Red Onion", "50 g"],
+            ["Cilantro", "30 g"],
+            ["Lime", "1 unit"],
+            ["Corn Tortillas", "8 units"],
+            ["Sour Cream", "50 g"]
+        ]
+    },
+    {
+        "name": "French Onion Chicken",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.5,
+        "servingSize": 4,
+        "method": [
+            "In a skillet, sauté 3 thinly sliced onions in 30 mL of olive oil until caramelized, about 15 minutes.",
+            "Add 500 g of chicken breasts to the skillet and cook until browned on both sides.",
+            "Pour in 250 mL of beef broth, cover, and simmer until the chicken is cooked through, about 20 minutes.",
+            "Top with 100 g of grated Gruyere cheese and broil until melted and bubbly.",
+            "Serve hot, garnished with fresh thyme."
+        ],
+        "description": "Tender chicken breasts topped with caramelized onions and melted Gruyere cheese, inspired by French onion soup.",
+        "backdrop": "",
+        "ingredients": [
+            ["Onions", "3 units"],
+            ["Olive Oil", "30 mL"],
+            ["Chicken Breasts", "500 g"],
+            ["Beef Broth", "250 mL"],
+            ["Gruyere Cheese", "100 g"],
+            ["Thyme", "5 g"]
+        ]
+    },
+    {
+        "name": "Fried Lemon Pepper Wings",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Season 500 g of chicken wings with 10 g of lemon pepper seasoning.",
+            "Fry in 200 mL of hot oil until crispy, about 8 minutes.",
+            "Drain on paper towels and serve with lemon wedges and ranch dressing."
+        ],
+        "description": "Crispy chicken wings seasoned with zesty lemon pepper, served with a side of cooling ranch.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Wings", "500 g"],
+            ["Lemon Pepper Seasoning", "10 g"],
+            ["Vegetable Oil", "200 mL"],
+            ["Lemon", "1 unit"],
+            ["Ranch Dressing", "50 mL"]
+        ]
+    },
+    {
+        "name": "Fennel Seed Crusted Pork Chops",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "Crush 10 g of fennel seeds and mix with 5 g of salt and 5 g of black pepper.",
+            "Rub the mixture onto 4 pork chops.",
+            "Sear the pork chops in 30 mL of olive oil over medium-high heat, about 4 minutes per side.",
+            "Serve with a side of sautéed spinach and mashed potatoes."
+        ],
+        "description": "Juicy pork chops crusted with aromatic fennel seeds, served with simple yet flavorful sides.",
+        "backdrop": "",
+        "ingredients": [
+            ["Fennel Seeds", "10 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Pork Chops", "4 units"],
+            ["Olive Oil", "30 mL"],
+            ["Spinach", "200 g"],
+            ["Mashed Potatoes", "300 g"]
+        ]
+    },
+    {
+        "name": "Fettuccine with Creamy Tomato Sauce",
+        "author": "System",
+        "starRating": 4.4,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Cook 400 g of fettuccine pasta in boiling salted water until al dente, then drain.",
+            "In a saucepan, heat 15 mL of olive oil, add 2 cloves of minced garlic, and sauté until fragrant.",
+            "Stir in 250 g of crushed tomatoes and 100 mL of heavy cream, simmer for 10 minutes.",
+            "Toss the pasta with the sauce, season with salt and pepper, and garnish with fresh basil."
+        ],
+        "description": "Creamy and rich tomato sauce draped over tender fettuccine, topped with fresh basil for a touch of freshness.",
+        "backdrop": "",
+        "ingredients": [
+            ["Fettuccine", "400 g"],
+            ["Olive Oil", "15 mL"],
+            ["Garlic", "2 cloves"],
+            ["Crushed Tomatoes", "250 g"],
+            ["Heavy Cream", "100 mL"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Basil", "5 g"]
+        ]
+    },
+    {
+        "name": "Fig and Honey Oatmeal",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.4,
+        "servingSize": 4,
+        "method": [
+            "Cook 200 g of rolled oats with 500 mL of milk and a pinch of salt until thick and creamy.",
+            "Stir in 30 mL of honey and 100 g of chopped fresh figs.",
+            "Serve hot, topped with a sprinkle of cinnamon and extra honey if desired."
+        ],
+        "description": "Warm, comforting oatmeal enriched with sweet figs and honey, a perfect start to the day.",
+        "backdrop": "",
+        "ingredients": [
+            ["Rolled Oats", "200 g"],
+            ["Milk", "500 mL"],
+            ["Salt", "5 g"],
+            ["Honey", "30 mL"],
+            ["Fresh Figs", "100 g"],
+            ["Cinnamon", "5 g"]
+        ]
+    },
+    {
+        "name": "Flambéed Banana Crepes",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.8,
+        "servingSize": 4,
+        "method": [
+            "Prepare crepe batter from 100 g flour, 2 eggs, and 300 mL milk. Cook thin crepes in a non-stick skillet.",
+            "Sauté 4 sliced bananas in 30 g butter and 50 g sugar until golden.",
+            "Pour 50 mL of rum over the bananas and carefully ignite to flambé.",
+            "Fold the crepes and top with flambéed bananas, serving immediately."
+        ],
+        "description": "Delicate crepes filled with caramelized, flambéed bananas, offering a spectacular dessert with a dramatic flair.",
+        "backdrop": "",
+        "ingredients": [
+            ["Flour", "100 g"],
+            ["Eggs", "2 units"],
+            ["Milk", "300 mL"],
+            ["Bananas", "4 units"],
+            ["Butter", "30 g"],
+            ["Sugar", "50 g"],
+            ["Rum", "50 mL"]
+        ]
+    },
+    {
+        "name": "Fennel Crusted Salmon with Orange Glaze",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "Mix 10 g of crushed fennel seeds, 5 g of salt, and 5 g of black pepper to create a seasoning blend.",
+            "Rub the blend onto 4 salmon fillets.",
+            "Heat 15 mL of olive oil in a skillet over medium heat and sear the salmon, skin side down, for 4 minutes.",
+            "Flip the salmon and cook for another 3 minutes until nearly done.",
+            "In a small saucepan, reduce 100 mL of orange juice with 10 g of honey until thickened to a glaze consistency.",
+            "Brush the salmon with the orange glaze and serve immediately, garnished with orange slices and fresh dill."
+        ],
+        "description": "Perfectly seared salmon fillets encrusted with a fennel seasoning, enhanced with a sweet and tangy orange glaze.",
+        "backdrop": "",
+        "ingredients": [
+            ["Fennel Seeds", "10 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Salmon Fillets", "4 units"],
+            ["Olive Oil", "15 mL"],
+            ["Orange Juice", "100 mL"],
+            ["Honey", "10 g"],
+            ["Orange Slices", "0 g"],
+            ["Dill", "0 g"]
+        ]
+    },
+    {
+        "name": "Fried Buttermilk Chicken Sandwich",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Marinate 4 chicken breasts in 250 mL of buttermilk with 5 g of paprika, 5 g of garlic powder, and salt and pepper for at least 1 hour.",
+            "Dredge each marinated chicken breast in a mixture of 200 g of flour and 5 g of cayenne pepper.",
+            "Fry in 500 mL of vegetable oil heated to 175°C (347°F) until golden and cooked through, about 4-5 minutes per side.",
+            "Toast 4 buns and spread each with 15 mL of mayonnaise.",
+            "Assemble the sandwiches with fried chicken, slices of pickles, and lettuce leaves.",
+            "Serve immediately."
+        ],
+        "description": "Crispy fried buttermilk chicken served on a soft bun with creamy mayonnaise and crisp pickles, perfect for a satisfying lunch or dinner.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breasts", "4 units"],
+            ["Buttermilk", "250 mL"],
+            ["Paprika", "5 g"],
+            ["Garlic Powder", "5 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Flour", "200 g"],
+            ["Cayenne Pepper", "5 g"],
+            ["Vegetable Oil", "500 mL"],
+            ["Buns", "4 units"],
+            ["Mayonnaise", "60 mL"],
+            ["Pickles", "8 slices"],
+            ["Lettuce Leaves", "4 units"]
+        ]
     }
 ]
