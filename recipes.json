@@ -11522,5 +11522,1869 @@
             ["Pickles", "8 slices"],
             ["Lettuce Leaves", "4 units"]
         ]
+    },
+    {
+        "name": "Garlic Herb Chicken",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "In a bowl, mix 30 mL olive oil, 5 cloves minced garlic, 5 g chopped rosemary, 5 g thyme, and salt and pepper.",
+            "Rub mixture onto 4 chicken breasts.",
+            "Bake in a preheated oven at 180°C for 25 minutes or until chicken is cooked through.",
+            "Serve with steamed green beans and mashed potatoes."
+        ],
+        "description": "Juicy chicken breasts marinated in a garlic herb sauce, baked to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "30 mL"],
+            ["Garlic", "5 cloves"],
+            ["Rosemary", "5 g"],
+            ["Thyme", "5 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Chicken Breasts", "4 units"],
+            ["Green Beans", "200 g"],
+            ["Mashed Potatoes", "300 g"]
+        ]
+    },
+    {
+        "name": "Greek Salad",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.4,
+        "servingSize": 4,
+        "method": [
+            "In a large bowl, combine 3 sliced cucumbers, 3 diced tomatoes, 1 sliced red onion, and 100 g pitted Kalamata olives.",
+            "Crumble 150 g feta cheese over the vegetables.",
+            "Whisk together 30 mL olive oil, 15 mL red wine vinegar, a pinch of oregano, salt, and pepper.",
+            "Pour dressing over salad and toss gently.",
+            "Chill for 30 minutes before serving."
+        ],
+        "description": "Classic Greek salad with crisp vegetables, tangy feta cheese, and a flavorful dressing.",
+        "backdrop": "",
+        "ingredients": [
+            ["Cucumbers", "3 units"],
+            ["Tomatoes", "3 units"],
+            ["Red Onion", "1 unit"],
+            ["Kalamata Olives", "100 g"],
+            ["Feta Cheese", "150 g"],
+            ["Olive Oil", "30 mL"],
+            ["Red Wine Vinegar", "15 mL"],
+            ["Oregano", "1 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Grilled Grouper with Mango Salsa",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "For the salsa, mix 1 diced mango, 50 g diced red bell pepper, 30 g chopped red onion, 10 g chopped cilantro, juice of 1 lime, salt, and pepper.",
+            "Grill 4 grouper fillets seasoned with salt and pepper over medium heat, about 4 minutes per side.",
+            "Serve the grilled grouper topped with mango salsa."
+        ],
+        "description": "Fresh grouper fillets grilled to perfection, topped with a sweet and spicy mango salsa.",
+        "backdrop": "",
+        "ingredients": [
+            ["Mango", "1 unit"],
+            ["Red Bell Pepper", "50 g"],
+            ["Red Onion", "30 g"],
+            ["Cilantro", "10 g"],
+            ["Lime", "1 unit"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Grouper Fillets", "4 units"]
+        ]
+    },
+    {
+        "name": "Garlic Ginger Stir-Fry",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Heat 30 mL sesame oil in a wok. Add 5 g minced garlic and 5 g grated ginger, sauté for 1 minute.",
+            "Add 200 g sliced beef, cook until browned. Add 300 g mixed vegetables (bell peppers, broccoli, carrots) and stir-fry for 5 minutes.",
+            "Mix in 30 mL soy sauce and 15 mL oyster sauce, cook for another 2 minutes.",
+            "Serve hot over steamed rice."
+        ],
+        "description": "Quick and easy stir-fry with bold flavors of garlic and ginger, combined with tender beef and crisp vegetables.",
+        "backdrop": "",
+        "ingredients": [
+            ["Sesame Oil", "30 mL"],
+            ["Garlic", "5 g"],
+            ["Ginger", "5 g"],
+            ["Sliced Beef", "200 g"],
+            ["Mixed Vegetables", "300 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Oyster Sauce", "15 mL"],
+            ["Steamed Rice", "400 g"]
+        ]
+    },
+    {
+        "name": "Gnocchi with Pesto Sauce",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Boil 500 g gnocchi according to package instructions, drain.",
+            "In a pan, heat 200 g prepared pesto and toss with the cooked gnocchi until coated.",
+            "Serve garnished with grated Parmesan and fresh basil leaves."
+        ],
+        "description": "Soft gnocchi tossed in a rich basil pesto sauce, a simple yet satisfying Italian dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Gnocchi", "500 g"],
+            ["Pesto", "200 g"],
+            ["Parmesan", "30 g"],
+            ["Basil Leaves", "5 g"]
+        ]
+    },
+    {
+        "name": "Green Bean Almondine",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "Steam 400 g green beans until tender-crisp.",
+            "In a skillet, melt 15 g butter and add 50 g sliced almonds, toast until golden.",
+            "Add the green beans and sauté for 2 minutes.",
+            "Season with salt and a squeeze of lemon juice.",
+            "Serve immediately."
+        ],
+        "description": "Classic French side dish of green beans tossed with toasted almonds and butter, enhanced with a touch of lemon.",
+        "backdrop": "",
+        "ingredients": [
+            ["Green Beans", "400 g"],
+            ["Butter", "15 g"],
+            ["Sliced Almonds", "50 g"],
+            ["Salt", "0 g"],
+            ["Lemon Juice", "5 mL"]
+        ]
+    },
+    {
+        "name": "Grilled Goat Cheese and Fig Sandwich",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.9,
+        "servingSize": 2,
+        "method": [
+            "Spread 100 g soft goat cheese on 4 slices of whole grain bread.",
+            "Top two slices with 6 sliced fresh figs and a sprinkle of fresh thyme.",
+            "Cover with the remaining bread slices and butter the outside of each sandwich.",
+            "Grill in a pan over medium heat until golden brown on both sides and the cheese is melted.",
+            "Serve hot."
+        ],
+        "description": "Savory grilled sandwiches filled with creamy goat cheese and sweet figs, perfect for a gourmet lunch.",
+        "backdrop": "",
+        "ingredients": [
+            ["Goat Cheese", "100 g"],
+            ["Whole Grain Bread", "4 slices"],
+            ["Fresh Figs", "6 units"],
+            ["Fresh Thyme", "5 g"],
+            ["Butter", "15 g"]
+        ]
+    },
+    {
+        "name": "Garlic Butter Shrimp",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Melt 50 g butter in a skillet over medium heat. Add 5 cloves minced garlic and sauté for 1 minute.",
+            "Add 400 g peeled and deveined shrimp and cook for 2-3 minutes per side until pink and cooked through.",
+            "Stir in 15 mL lemon juice and 5 g chopped parsley.",
+            "Season with salt and pepper to taste. Serve hot."
+        ],
+        "description": "Quick and delicious shrimp cooked in a rich garlic butter sauce, finished with a splash of lemon juice.",
+        "backdrop": "",
+        "ingredients": [
+            ["Butter", "50 g"],
+            ["Garlic", "5 cloves"],
+            ["Shrimp", "400 g"],
+            ["Lemon Juice", "15 mL"],
+            ["Parsley", "5 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Greek Yogurt Pancakes",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "In a bowl, mix 200 g Greek yogurt with 2 beaten eggs and 30 mL milk.",
+            "Add 150 g flour, 10 g sugar, 5 g baking powder, and a pinch of salt. Stir until just combined.",
+            "Heat a non-stick skillet over medium heat and pour 60 mL batter for each pancake.",
+            "Cook until bubbles form on the surface, then flip and cook until golden brown.",
+            "Serve with honey and fresh berries."
+        ],
+        "description": "Fluffy and light pancakes made with Greek yogurt, offering a protein-rich breakfast option.",
+        "backdrop": "",
+        "ingredients": [
+            ["Greek Yogurt", "200 g"],
+            ["Eggs", "2 units"],
+            ["Milk", "30 mL"],
+            ["Flour", "150 g"],
+            ["Sugar", "10 g"],
+            ["Baking Powder", "5 g"],
+            ["Salt", "1 g"],
+            ["Honey", "30 mL"],
+            ["Fresh Berries", "100 g"]
+        ]
+    },
+    {
+        "name": "Garlic Parmesan Risotto",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "In a saucepan, heat 30 mL olive oil over medium heat. Add 1 finely chopped onion and 3 cloves minced garlic, cook until translucent.",
+            "Add 250 g Arborio rice, stir to coat with oil. Gradually add 1 L chicken broth, stirring constantly, until the liquid is absorbed and rice is creamy.",
+            "Stir in 50 g grated Parmesan, 15 g butter, and season with salt and pepper. Serve immediately."
+        ],
+        "description": "Creamy risotto enriched with garlic and Parmesan cheese, a luxurious and comforting meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "3 cloves"],
+            ["Arborio Rice", "250 g"],
+            ["Chicken Broth", "1 L"],
+            ["Parmesan", "50 g"],
+            ["Butter", "15 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Grilled Gouda Sandwich",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.4,
+        "servingSize": 2,
+        "method": [
+            "Butter one side of 4 slices of sourdough bread. On the unbuttered side, layer 100 g sliced Gouda cheese and 50 g sliced ham.",
+            "Top with the remaining bread slices, buttered side up.",
+            "Grill in a skillet over medium heat until the bread is golden and the cheese is melted, about 3 minutes per side.",
+            "Serve hot."
+        ],
+        "description": "A simple yet satisfying grilled cheese sandwich featuring smoky Gouda and ham on sourdough bread.",
+        "backdrop": "",
+        "ingredients": [
+            ["Sourdough Bread", "4 slices"],
+            ["Gouda Cheese", "100 g"],
+            ["Ham", "50 g"],
+            ["Butter", "30 g"]
+        ]
+    },
+    {
+        "name": "Ginger Honey Chicken",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Marinate 4 chicken thighs in a mixture of 30 mL soy sauce, 20 g grated ginger, 30 mL honey, and 2 cloves minced garlic for at least 1 hour.",
+            "Preheat oven to 200°C.",
+            "Place chicken in a baking dish and pour over the marinade.",
+            "Bake for 35 minutes, basting occasionally, until chicken is cooked through.",
+            "Serve with steamed rice and sprinkle with sesame seeds."
+        ],
+        "description": "Sweet and spicy chicken thighs baked with a ginger honey glaze, perfect for an easy dinner.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Thighs", "4 units"],
+            ["Soy Sauce", "30 mL"],
+            ["Ginger", "20 g"],
+            ["Honey", "30 mL"],
+            ["Garlic", "2 cloves"],
+            ["Steamed Rice", "300 g"],
+            ["Sesame Seeds", "5 g"]
+        ]
+    },
+    {
+        "name": "Goat Cheese Stuffed Peppers",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "Halve 4 bell peppers and remove seeds. Place in a baking dish.",
+            "In a bowl, mix 200 g soft goat cheese, 50 g chopped walnuts, 5 g chopped thyme, and salt and pepper.",
+            "Stuff the peppers with the cheese mixture.",
+            "Drizzle with 15 mL olive oil and bake at 180°C for 20 minutes.",
+            "Serve warm, garnished with additional thyme."
+        ],
+        "description": "Colorful bell peppers stuffed with a rich filling of goat cheese and walnuts, baked until tender.",
+        "backdrop": "",
+        "ingredients": [
+            ["Bell Peppers", "4 units"],
+            ["Goat Cheese", "200 g"],
+            ["Walnuts", "50 g"],
+            ["Thyme", "5 g"],
+            ["Olive Oil", "15 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Gazpacho Andaluz",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.6,
+        "servingSize": 6,
+        "method": [
+            "In a blender, combine 1 kg chopped ripe tomatoes, 1 chopped cucumber, 1 chopped bell pepper, 1 small onion, and 2 cloves garlic until smooth.",
+            "Add 30 mL sherry vinegar, 60 mL olive oil, salt, and pepper. Blend until creamy.",
+            "Chill for at least 2 hours. Serve cold, garnished with diced cucumber, bell pepper, and croutons."
+        ],
+        "description": "A refreshing cold soup from Andalusia, blending fresh vegetables with vinegar and olive oil, perfect for hot days.",
+        "backdrop": "",
+        "ingredients": [
+            ["Ripe Tomatoes", "1 kg"],
+            ["Cucumber", "1 unit"],
+            ["Bell Pepper", "1 unit"],
+            ["Onion", "1 small"],
+            ["Garlic", "2 cloves"],
+            ["Sherry Vinegar", "30 mL"],
+            ["Olive Oil", "60 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Croutons", "50 g"]
+        ]
+    },
+    {
+        "name": "Gingered Carrot Soup",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "In a large pot, sauté 1 chopped onion and 2 cloves minced garlic in 30 mL olive oil until soft.",
+            "Add 500 g chopped carrots, 15 g grated fresh ginger, and 1 L vegetable broth. Bring to a boil and then simmer for 30 minutes.",
+            "Puree the mixture in a blender until smooth.",
+            "Return to the pot, reheat gently, stir in 100 mL cream, and season with salt and pepper.",
+            "Serve hot, garnished with a dollop of sour cream and chopped chives."
+        ],
+        "description": "A smooth and flavorful soup made with fresh carrots and zesty ginger, enriched with a touch of cream.",
+        "backdrop": "",
+        "ingredients": [
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Olive Oil", "30 mL"],
+            ["Carrots", "500 g"],
+            ["Fresh Ginger", "15 g"],
+            ["Vegetable Broth", "1 L"],
+            ["Cream", "100 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Sour Cream", "50 mL"],
+            ["Chives", "10 g"]
+        ]
+    },
+    {
+        "name": "Grilled Garlic Artichokes",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Trim and halve 4 artichokes, and remove the chokes. Boil in water for 15 minutes until tender.",
+            "Drain and pat dry.",
+            "Mix 60 mL olive oil with 3 cloves minced garlic, salt, and pepper. Brush this mixture over the artichokes.",
+            "Grill on medium heat for 5 minutes per side until charred.",
+            "Serve with a lemon butter sauce for dipping."
+        ],
+        "description": "Tender artichokes brushed with a garlic-infused olive oil, grilled to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Artichokes", "4 units"],
+            ["Olive Oil", "60 mL"],
+            ["Garlic", "3 cloves"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Lemon Butter Sauce", "50 mL"]
+        ]
+    },
+    {
+        "name": "Goat Cheese Crostini",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.3,
+        "servingSize": 6,
+        "method": [
+            "Slice a baguette into 12 pieces and toast until golden.",
+            "Spread each slice with soft goat cheese.",
+            "Top with a mixture of chopped sun-dried tomatoes and basil.",
+            "Drizzle with balsamic glaze before serving."
+        ],
+        "description": "Crisp toasted bread topped with creamy goat cheese and a tangy sun-dried tomato topping, drizzled with balsamic.",
+        "backdrop": "",
+        "ingredients": [
+            ["Baguette", "1 unit"],
+            ["Goat Cheese", "200 g"],
+            ["Sun-Dried Tomatoes", "100 g"],
+            ["Basil", "15 g"],
+            ["Balsamic Glaze", "30 mL"]
+        ]
+    },
+    {
+        "name": "Green Goddess Chicken Skewers",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Blend 100 g fresh herbs (parsley, tarragon, chives), 2 cloves garlic, 60 mL yogurt, juice of 1 lemon, salt, and pepper to make a marinade.",
+            "Cube 500 g chicken breasts and marinate for at least 1 hour.",
+            "Thread chicken onto skewers and grill on medium heat for 10 minutes, turning occasionally, until cooked through.",
+            "Serve with extra yogurt sauce for dipping."
+        ],
+        "description": "Juicy chicken skewers marinated in a vibrant green goddess sauce, grilled to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Fresh Herbs", "100 g"],
+            ["Garlic", "2 cloves"],
+            ["Yogurt", "60 mL"],
+            ["Lemon", "1 unit"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Chicken Breasts", "500 g"]
+        ]
+    },
+    {
+        "name": "Gnocchi with Sage Butter",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Cook 500 g potato gnocchi in boiling water until they float to the top, then drain.",
+            "In a skillet, melt 50 g butter and add 10 fresh sage leaves. Cook until the butter is foamy and sage is crisp.",
+            "Toss gnocchi in the sage butter.",
+            "Serve sprinkled with grated Parmesan and cracked black pepper."
+        ],
+        "description": "Soft potato gnocchi tossed in a nutty sage-infused butter sauce, topped with Parmesan.",
+        "backdrop": "",
+        "ingredients": [
+            ["Potato Gnocchi", "500 g"],
+            ["Butter", "50 g"],
+            ["Sage Leaves", "10 units"],
+            ["Parmesan", "30 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Ginger Peach Chutney",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.5,
+        "servingSize": 8,
+        "method": [
+            "Peel and chop 500 g ripe peaches. In a saucepan, combine peaches with 100 g sugar, 50 mL apple cider vinegar, 20 g grated ginger, and a pinch of cinnamon.",
+            "Simmer over low heat for 30 minutes, stirring occasionally, until thickened.",
+            "Cool and store in jars. Serve as a condiment with grilled meats or cheese."
+        ],
+        "description": "A sweet and spicy chutney made with fresh peaches and ginger, perfect for enhancing savory dishes.",
+        "backdrop": "",
+        "ingredients": [
+            ["Ripe Peaches", "500 g"],
+            ["Sugar", "100 g"],
+            ["Apple Cider Vinegar", "50 mL"],
+            ["Grated Ginger", "20 g"],
+            ["Cinnamon", "1 g"]
+        ]
+    },
+    {
+        "name": "Grilled Gorgonzola Polenta",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "Cook 200 g polenta in 1 L water with 5 g salt until thick. Stir in 50 g grated Gorgonzola until melted.",
+            "Spread polenta in a greased dish and chill until firm.",
+            "Cut into squares and grill over medium heat until char marks appear, about 4 minutes per side.",
+            "Serve hot, drizzled with olive oil and sprinkled with fresh rosemary."
+        ],
+        "description": "Creamy polenta enriched with Gorgonzola cheese, grilled for a smoky finish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Polenta", "200 g"],
+            ["Water", "1 L"],
+            ["Salt", "5 g"],
+            ["Gorgonzola", "50 g"],
+            ["Olive Oil", "30 mL"],
+            ["Fresh Rosemary", "5 g"]
+        ]
+    },
+    {
+        "name": "Garlic Thyme Roasted Mushrooms",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Preheat the oven to 200°C.",
+            "In a bowl, toss 500 g button mushrooms with 30 mL olive oil, 5 cloves minced garlic, 5 g fresh thyme leaves, salt, and pepper.",
+            "Spread on a baking sheet and roast for 20 minutes until golden and tender.",
+            "Serve warm garnished with additional thyme."
+        ],
+        "description": "Juicy mushrooms roasted with garlic and thyme, offering a burst of flavor perfect for a side dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Button Mushrooms", "500 g"],
+            ["Olive Oil", "30 mL"],
+            ["Garlic", "5 cloves"],
+            ["Fresh Thyme", "5 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Ginger Lime Chicken",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "In a bowl, combine the juice of 2 limes, 30 mL soy sauce, 20 g grated ginger, and 2 cloves minced garlic.",
+            "Add 4 chicken breasts and marinate for at least 2 hours.",
+            "Grill over medium heat for 6-7 minutes per side until fully cooked.",
+            "Serve with steamed broccoli and garnish with lime wedges."
+        ],
+        "description": "Tender chicken breasts marinated in a zesty ginger-lime sauce, grilled to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Limes", "2 units"],
+            ["Soy Sauce", "30 mL"],
+            ["Ginger", "20 g"],
+            ["Garlic", "2 cloves"],
+            ["Chicken Breasts", "4 units"],
+            ["Steamed Broccoli", "200 g"],
+            ["Lime Wedges", "4 units"]
+        ]
+    },
+    {
+        "name": "Golden Beet Salad with Goat Cheese",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "Roast 4 peeled and cubed golden beets at 200°C for 30 minutes or until tender.",
+            "Let cool, then mix with 100 g mixed salad greens.",
+            "Top with 100 g crumbled goat cheese and 50 g toasted walnuts.",
+            "Drizzle with a vinaigrette made from 30 mL olive oil, 15 mL balsamic vinegar, salt, and pepper.",
+            "Serve chilled."
+        ],
+        "description": "A vibrant and healthy salad featuring roasted golden beets, creamy goat cheese, and crunchy walnuts.",
+        "backdrop": "",
+        "ingredients": [
+            ["Golden Beets", "4 units"],
+            ["Salad Greens", "100 g"],
+            ["Goat Cheese", "100 g"],
+            ["Walnuts", "50 g"],
+            ["Olive Oil", "30 mL"],
+            ["Balsamic Vinegar", "15 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Grilled Grouper with Cilantro Lime Butter",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Mix 50 g softened butter with chopped cilantro, zest of 1 lime, and salt.",
+            "Grill 4 grouper fillets seasoned with salt and pepper over medium heat for 5 minutes each side.",
+            "Top each fillet with a dollop of cilantro lime butter before serving.",
+            "Serve with a side of grilled asparagus."
+        ],
+        "description": "Fresh grouper fillets grilled to perfection, topped with a flavorful cilantro and lime butter.",
+        "backdrop": "",
+        "ingredients": [
+            ["Butter", "50 g"],
+            ["Cilantro", "10 g"],
+            ["Lime", "1 unit"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Grouper Fillets", "4 units"],
+            ["Grilled Asparagus", "200 g"]
+        ]
+    },
+    {
+        "name": "Greek Chicken Gyros",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Marinate 500 g sliced chicken breast in 30 mL olive oil, 15 mL lemon juice, 2 cloves minced garlic, 5 g oregano for 1 hour.",
+            "Grill chicken until cooked through and slightly charred.",
+            "Serve wrapped in pita bread with tzatziki sauce, sliced tomatoes, and onions."
+        ],
+        "description": "Authentic Greek gyros filled with marinated chicken, fresh vegetables, and creamy tzatziki, wrapped in soft pita.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breast", "500 g"],
+            ["Olive Oil", "30 mL"],
+            ["Lemon Juice", "15 mL"],
+            ["Garlic", "2 cloves"],
+            ["Oregano", "5 g"],
+            ["Pita Bread", "4 units"],
+            ["Tzatziki Sauce", "100 g"],
+            ["Tomatoes", "2 units"],
+            ["Onions", "1 unit"]
+        ]
+    },
+    {
+        "name": "Garlic Herb Roasted Potatoes",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "Preheat oven to 200°C.",
+            "Cut 500 g potatoes into wedges. Toss with 30 mL olive oil, 5 cloves minced garlic, 5 g chopped rosemary, and 5 g chopped thyme. Season with salt and pepper.",
+            "Spread on a baking sheet and roast for 35 minutes, turning halfway through, until golden and crisp.",
+            "Serve hot, garnished with additional fresh herbs."
+        ],
+        "description": "Crispy potato wedges seasoned with fresh garlic and herbs, roasted to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Potatoes", "500 g"],
+            ["Olive Oil", "30 mL"],
+            ["Garlic", "5 cloves"],
+            ["Rosemary", "5 g"],
+            ["Thyme", "5 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Grilled Gouda and Apple Sandwich",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.4,
+        "servingSize": 2,
+        "method": [
+            "Butter two slices of whole grain bread. On one slice, layer thin slices of Gouda cheese and apple.",
+            "Top with the other slice, buttered side out.",
+            "Grill on a skillet over medium heat until the bread is golden and the cheese has melted, about 3 minutes per side.",
+            "Serve immediately, cut into halves."
+        ],
+        "description": "A delightful combination of melty Gouda cheese and crisp apples sandwiched between toasted whole grain bread.",
+        "backdrop": "",
+        "ingredients": [
+            ["Whole Grain Bread", "2 slices"],
+            ["Gouda Cheese", "100 g"],
+            ["Apple", "1 unit"],
+            ["Butter", "15 g"]
+        ]
+    },
+    {
+        "name": "Green Gazpacho",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "Combine in a blender 200 g peeled cucumber, 100 g green bell pepper, 100 g celery, 1 small chopped onion, and 2 cloves garlic until smooth.",
+            "Add 500 mL vegetable broth, juice of 1 lime, 30 mL olive oil, salt, and pepper. Blend until combined.",
+            "Chill for at least 4 hours. Serve cold garnished with diced cucumber and fresh dill."
+        ],
+        "description": "A refreshing and light soup made with a blend of green vegetables, perfect for hot weather.",
+        "backdrop": "",
+        "ingredients": [
+            ["Cucumber", "200 g"],
+            ["Green Bell Pepper", "100 g"],
+            ["Celery", "100 g"],
+            ["Onion", "1 small"],
+            ["Garlic", "2 cloves"],
+            ["Vegetable Broth", "500 mL"],
+            ["Lime", "1 unit"],
+            ["Olive Oil", "30 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Dill", "5 g"]
+        ]
+    },
+    {
+        "name": "Gumbo with Andouille Sausage",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 3.0,
+        "servingSize": 6,
+        "method": [
+            "In a large pot, cook 200 g sliced Andouille sausage until browned. Remove and set aside.",
+            "Make a roux with 50 g flour and 50 g oil, cooking until dark brown.",
+            "Add 1 chopped bell pepper, 1 chopped onion, and 2 stalks chopped celery. Cook until soft.",
+            "Return sausage to the pot along with 500 g okra, 400 g diced tomatoes, and 1.5 L chicken broth. Simmer for 1 hour.",
+            "Season with cayenne pepper, salt, and serve over cooked rice."
+        ],
+        "description": "A hearty, spicy stew from Louisiana, featuring Andouille sausage, okra, and a rich roux-based sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Andouille Sausage", "200 g"],
+            ["Flour", "50 g"],
+            ["Vegetable Oil", "50 g"],
+            ["Bell Pepper", "1 unit"],
+            ["Onion", "1 unit"],
+            ["Celery", "2 stalks"],
+            ["Okra", "500 g"],
+            ["Diced Tomatoes", "400 g"],
+            ["Chicken Broth", "1.5 L"],
+            ["Cayenne Pepper", "1 g"],
+            ["Salt", "0 g"],
+            ["Cooked Rice", "600 g"]
+        ]
+    },
+    {
+        "name": "Garlic Spinach in Cream Sauce",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "In a skillet, melt 30 g butter over medium heat. Add 3 cloves minced garlic and sauté for 1 minute.",
+            "Add 400 g fresh spinach and cook until wilted.",
+            "Stir in 100 mL heavy cream and simmer for 3 minutes. Season with salt and nutmeg.",
+            "Serve warm as a side dish."
+        ],
+        "description": "Creamy and flavorful spinach cooked with garlic and enriched with a lush cream sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Butter", "30 g"],
+            ["Garlic", "3 cloves"],
+            ["Spinach", "400 g"],
+            ["Heavy Cream", "100 mL"],
+            ["Salt", "0 g"],
+            ["Nutmeg", "1 g"]
+        ]
+    },
+    {
+        "name": "Grilled Ginger Scallops",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Marinate 400 g scallops in a mixture of 30 mL soy sauce, 20 g grated ginger, and 15 mL sesame oil for 1 hour.",
+            "Thread scallops onto skewers.",
+            "Grill over high heat for 2 minutes per side or until opaque and slightly charred.",
+            "Serve with a sprinkle of chopped spring onions and sesame seeds."
+        ],
+        "description": "Tender scallops infused with ginger and soy, grilled to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Scallops", "400 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Ginger", "20 g"],
+            ["Sesame Oil", "15 mL"],
+            ["Spring Onions", "10 g"],
+            ["Sesame Seeds", "5 g"]
+        ]
+    },
+    {
+        "name": "Garlic Lemon Cod",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Preheat oven to 200°C.",
+            "Place 4 cod fillets in a baking dish. Drizzle with 30 mL olive oil and juice of 1 lemon. Sprinkle with 5 cloves minced garlic, salt, and pepper.",
+            "Bake for 12-15 minutes or until fish flakes easily with a fork.",
+            "Garnish with chopped parsley and serve with steamed asparagus."
+        ],
+        "description": "Delicately flavored cod fillets baked with lemon and garlic, creating a light and healthy dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Cod Fillets", "4 units"],
+            ["Olive Oil", "30 mL"],
+            ["Lemon", "1 unit"],
+            ["Garlic", "5 cloves"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Parsley", "10 g"],
+            ["Asparagus", "200 g"]
+        ]
+    },
+    {
+        "name": "Ginger Beef Stir-Fry",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Slice 500 g beef flank steak into thin strips.",
+            "In a wok, heat 30 mL vegetable oil over high heat. Stir-fry beef until browned, about 3 minutes.",
+            "Add 20 g grated ginger, 3 cloves minced garlic, and 300 g mixed bell peppers sliced. Cook for another 3 minutes.",
+            "Stir in 30 mL soy sauce and 15 mL oyster sauce. Serve over cooked rice, garnished with sesame seeds."
+        ],
+        "description": "Savory and spicy beef stir-fried with ginger, garlic, and colorful bell peppers.",
+        "backdrop": "",
+        "ingredients": [
+            ["Beef Flank Steak", "500 g"],
+            ["Vegetable Oil", "30 mL"],
+            ["Ginger", "20 g"],
+            ["Garlic", "3 cloves"],
+            ["Bell Peppers", "300 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Oyster Sauce", "15 mL"],
+            ["Cooked Rice", "400 g"],
+            ["Sesame Seeds", "5 g"]
+        ]
+    },
+    {
+        "name": "Grilled Guava Chicken",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "Marinate 4 chicken breasts in a blend of 120 mL guava juice, 30 mL honey, 2 cloves minced garlic, and 10 mL lime juice for at least 2 hours.",
+            "Grill over medium heat for 6-7 minutes per side or until fully cooked.",
+            "Serve with a fresh mango salsa and lime wedges."
+        ],
+        "description": "Tropical-flavored chicken marinated in guava and honey, grilled to a perfect char.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breasts", "4 units"],
+            ["Guava Juice", "120 mL"],
+            ["Honey", "30 mL"],
+            ["Garlic", "2 cloves"],
+            ["Lime Juice", "10 mL"],
+            ["Mango Salsa", "200 g"],
+            ["Lime Wedges", "4 units"]
+        ]
+    },
+    {
+        "name": "Goat Cheese and Beet Tart",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.3,
+        "servingSize": 6,
+        "method": [
+            "Roll out 300 g puff pastry and fit into a 22 cm tart pan. Prick the base with a fork.",
+            "Spread 200 g roasted and sliced beets over the pastry. Crumble 150 g goat cheese on top.",
+            "Whisk together 2 eggs, 100 mL cream, salt, and pepper. Pour over the beets and cheese.",
+            "Bake at 190°C for 25 minutes until set and golden. Garnish with arugula before serving."
+        ],
+        "description": "A savory tart with a base of puff pastry, topped with earthy beets and creamy goat cheese, baked until golden.",
+        "backdrop": "",
+        "ingredients": [
+            ["Puff Pastry", "300 g"],
+            ["Beets", "200 g"],
+            ["Goat Cheese", "150 g"],
+            ["Eggs", "2 units"],
+            ["Cream", "100 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Arugula", "50 g"]
+        ]
+    },
+    {
+        "name": "Green Chili Cornbread",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.9,
+        "servingSize": 8,
+        "method": [
+            "Mix 200 g cornmeal, 100 g all-purpose flour, 10 g sugar, 5 g baking powder, and a pinch of salt.",
+            "Add 1 beaten egg, 240 mL milk, and 60 mL melted butter. Stir until just combined.",
+            "Fold in 100 g chopped green chilies.",
+            "Pour into a greased 20x20 cm baking dish. Bake at 200°C for 20 minutes or until golden.",
+            "Serve warm with butter."
+        ],
+        "description": "Moist and fluffy cornbread with a spicy kick from green chilies, perfect as a side for soups and stews.",
+        "backdrop": "",
+        "ingredients": [
+            ["Cornmeal", "200 g"],
+            ["All-Purpose Flour", "100 g"],
+            ["Sugar", "10 g"],
+            ["Baking Powder", "5 g"],
+            ["Salt", "1 g"],
+            ["Egg", "1 unit"],
+            ["Milk", "240 mL"],
+            ["Butter", "60 g"],
+            ["Green Chilies", "100 g"]
+        ]
+    },
+    {
+        "name": "Greek Lemon Chicken Soup",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "In a large pot, combine 1 L chicken broth, 200 g diced chicken breast, and bring to a boil. Reduce heat and simmer until chicken is cooked.",
+            "Stir in 100 g rice and cook until tender.",
+            "Whisk together the juice of 2 lemons and 2 beaten eggs. Temper with a little hot soup, then slowly stir back into the pot.",
+            "Heat gently, without boiling, until slightly thickened. Season with salt and pepper.",
+            "Serve hot, garnished with chopped dill."
+        ],
+        "description": "A comforting Greek soup with a creamy egg-lemon broth, tender chicken, and rice, enhanced with fresh dill.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Broth", "1 L"],
+            ["Chicken Breast", "200 g"],
+            ["Rice", "100 g"],
+            ["Lemons", "2 units"],
+            ["Eggs", "2 units"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Dill", "5 g"]
+        ]
+    },
+    {
+        "name": "Garlic Grilled Lobster Tails",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.5,
+        "servingSize": 2,
+        "method": [
+            "Preheat grill to high heat.",
+            "Cut 2 lobster tails in half lengthwise. Brush with a mixture of 30 mL melted butter and 3 cloves minced garlic.",
+            "Grill cut-side down for about 5 minutes. Flip, and grill for another 4 minutes until the meat is opaque and cooked through.",
+            "Serve with lemon wedges and a sprinkle of chopped parsley."
+        ],
+        "description": "Luxurious lobster tails grilled with garlic butter, offering a perfect char and succulent flavor.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lobster Tails", "2 units"],
+            ["Butter", "30 mL"],
+            ["Garlic", "3 cloves"],
+            ["Lemon Wedges", "4 units"],
+            ["Parsley", "5 g"]
+        ]
+    },
+    {
+        "name": "Gorgonzola Pear Pizza",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Preheat oven to 220°C.",
+            "Roll out 300 g pizza dough and place on a baking sheet.",
+            "Spread 100 g crumbled Gorgonzola and thinly sliced pears over the dough.",
+            "Bake for 15 minutes or until the crust is golden and cheese is bubbly.",
+            "Drizzle with balsamic glaze and sprinkle with arugula before serving."
+        ],
+        "description": "A unique pizza combining the sharp taste of Gorgonzola cheese with sweet pears, finished with a balsamic reduction.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pizza Dough", "300 g"],
+            ["Gorgonzola", "100 g"],
+            ["Pears", "2 units"],
+            ["Balsamic Glaze", "30 mL"],
+            ["Arugula", "30 g"]
+        ]
+    },
+    {
+        "name": "Ginger Pork Stir-Fry",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "In a wok, heat 30 mL vegetable oil over high heat. Add 500 g thinly sliced pork loin and stir-fry until browned.",
+            "Add 20 g grated ginger and 2 cloves minced garlic, cook for 1 minute.",
+            "Add 200 g sliced bell peppers and 100 g snow peas, stir-fry for another 3 minutes.",
+            "Stir in 30 mL soy sauce and 15 mL hoisin sauce, cook until heated through.",
+            "Serve over cooked noodles or rice."
+        ],
+        "description": "Quick and flavorful stir-fry featuring tender pork, crisp vegetables, and a rich ginger-infused sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Vegetable Oil", "30 mL"],
+            ["Pork Loin", "500 g"],
+            ["Ginger", "20 g"],
+            ["Garlic", "2 cloves"],
+            ["Bell Peppers", "200 g"],
+            ["Snow Peas", "100 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Hoisin Sauce", "15 mL"],
+            ["Cooked Noodles or Rice", "400 g"]
+        ]
+    },
+    {
+        "name": "Green Tea Ice Cream",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.2,
+        "servingSize": 6,
+        "method": [
+            "Heat 500 mL heavy cream and 500 mL whole milk in a saucepan until just simmering.",
+            "Whisk 5 egg yolks with 150 g sugar until light. Gradually add the hot milk mixture, whisking constantly.",
+            "Return to the saucepan and cook over low heat, stirring until the mixture thickens and coats the back of a spoon.",
+            "Stir in 10 g matcha green tea powder until smooth.",
+            "Chill thoroughly, then churn in an ice cream maker according to the manufacturer's instructions.",
+            "Freeze until firm."
+        ],
+        "description": "Creamy and subtly sweet ice cream infused with the distinct, earthy flavor of green tea.",
+        "backdrop": "",
+        "ingredients": [
+            ["Heavy Cream", "500 mL"],
+            ["Whole Milk", "500 mL"],
+            ["Egg Yolks", "5 units"],
+            ["Sugar", "150 g"],
+            ["Matcha Green Tea Powder", "10 g"]
+        ]
+    },
+    {
+        "name": "Garlic Rosemary Lamb Chops",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Marinate 8 lamb chops with 30 mL olive oil, 5 cloves minced garlic, 10 g chopped rosemary, salt, and pepper for at least 2 hours.",
+            "Grill over medium-high heat for 3-4 minutes per side for medium-rare.",
+            "Rest for 5 minutes before serving with a side of mashed potatoes and steamed green beans."
+        ],
+        "description": "Juicy lamb chops marinated with garlic and rosemary, grilled to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lamb Chops", "8 units"],
+            ["Olive Oil", "30 mL"],
+            ["Garlic", "5 cloves"],
+            ["Rosemary", "10 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Mashed Potatoes", "300 g"],
+            ["Green Beans", "200 g"]
+        ]
+    },
+    {
+        "name": "Golden Cauliflower Soup",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "In a large pot, sauté 1 chopped onion and 2 cloves minced garlic in 30 mL olive oil until translucent.",
+            "Add 1 head of cauliflower, chopped, and 1 L vegetable broth. Simmer until cauliflower is tender, about 20 minutes.",
+            "Puree the soup with an immersion blender until smooth.",
+            "Stir in 100 mL heavy cream, season with salt and turmeric. Heat through.",
+            "Serve garnished with chopped chives and black pepper."
+        ],
+        "description": "A creamy, comforting soup made with golden cauliflower, enriched with cream and turmeric.",
+        "backdrop": "",
+        "ingredients": [
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Olive Oil", "30 mL"],
+            ["Cauliflower", "1 head"],
+            ["Vegetable Broth", "1 L"],
+            ["Heavy Cream", "100 mL"],
+            ["Salt", "0 g"],
+            ["Turmeric", "5 g"],
+            ["Chives", "5 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Grilled Ginger Tuna Steaks",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "Marinate 4 tuna steaks in a mixture of 30 mL soy sauce, 20 g grated ginger, 2 cloves minced garlic, and 15 mL sesame oil for 1 hour.",
+            "Grill on high heat for 2 minutes per side for medium rare.",
+            "Serve with a side of sautéed spinach and steamed rice."
+        ],
+        "description": "Bold and flavorful tuna steaks marinated with ginger and soy sauce, grilled to a perfect sear.",
+        "backdrop": "",
+        "ingredients": [
+            ["Tuna Steaks", "4 units"],
+            ["Soy Sauce", "30 mL"],
+            ["Ginger", "20 g"],
+            ["Garlic", "2 cloves"],
+            ["Sesame Oil", "15 mL"],
+            ["Spinach", "200 g"],
+            ["Steamed Rice", "400 g"]
+        ]
+    },
+    {
+        "name": "Garlic Parmesan Asparagus",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Preheat oven to 200°C.",
+            "Arrange 400 g asparagus on a baking sheet. Drizzle with 15 mL olive oil and toss with 3 cloves minced garlic, salt, and pepper.",
+            "Roast for 12-15 minutes until tender.",
+            "Sprinkle with 30 g grated Parmesan cheese and return to the oven for another 2 minutes.",
+            "Serve immediately."
+        ],
+        "description": "Tender asparagus roasted with garlic and topped with melted Parmesan cheese.",
+        "backdrop": "",
+        "ingredients": [
+            ["Asparagus", "400 g"],
+            ["Olive Oil", "15 mL"],
+            ["Garlic", "3 cloves"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Parmesan Cheese", "30 g"]
+        ]
+    },
+    {
+        "name": "Gnocchi Pomodoro",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Cook 500 g potato gnocchi according to package instructions, drain.",
+            "In a skillet, heat 15 mL olive oil and sauté 3 cloves minced garlic until fragrant.",
+            "Add 400 g diced tomatoes and simmer for 10 minutes.",
+            "Stir in 10 g fresh basil, season with salt and pepper.",
+            "Toss gnocchi with the sauce, serve topped with grated Parmesan."
+        ],
+        "description": "Classic Italian dish featuring soft potato gnocchi in a fresh tomato and basil sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Potato Gnocchi", "500 g"],
+            ["Olive Oil", "15 mL"],
+            ["Garlic", "3 cloves"],
+            ["Diced Tomatoes", "400 g"],
+            ["Fresh Basil", "10 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Parmesan", "30 g"]
+        ]
+    },
+    {
+        "name": "Ginger Peach Smoothie",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.3,
+        "servingSize": 2,
+        "method": [
+            "In a blender, combine 2 peeled and sliced peaches, 200 mL Greek yogurt, 10 g grated ginger, and ice.",
+            "Blend until smooth.",
+            "Serve immediately, garnished with a slice of peach."
+        ],
+        "description": "A refreshing and spicy smoothie with ripe peaches and a zesty ginger kick.",
+        "backdrop": "",
+        "ingredients": [
+            ["Peaches", "2 units"],
+            ["Greek Yogurt", "200 mL"],
+            ["Ginger", "10 g"],
+            ["Ice", "100 g"]
+        ]
+    },
+    {
+        "name": "Garlic Green Bean Almondine",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "Blanch 400 g green beans in boiling water for 3 minutes, then shock in ice water and drain.",
+            "In a skillet, heat 15 mL olive oil. Add 3 cloves minced garlic and sauté until fragrant.",
+            "Add green beans and 30 g sliced almonds, and sauté until beans are heated through and almonds are toasted.",
+            "Season with salt and pepper. Serve warm."
+        ],
+        "description": "Crisp green beans tossed with toasted almonds and fresh garlic, a delicious and elegant side dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Green Beans", "400 g"],
+            ["Olive Oil", "15 mL"],
+            ["Garlic", "3 cloves"],
+            ["Sliced Almonds", "30 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Grilled Grapefruit with Honey",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.4,
+        "servingSize": 2,
+        "method": [
+            "Cut 2 grapefruits in half and sprinkle with a little sugar.",
+            "Place cut side down on a heated grill and cook for 5 minutes until char marks appear.",
+            "Drizzle with honey and serve warm with a sprinkle of cinnamon."
+        ],
+        "description": "Warm and caramelized grapefruit enhanced with a touch of honey and cinnamon, a simple yet delightful dessert.",
+        "backdrop": "",
+        "ingredients": [
+            ["Grapefruits", "2 units"],
+            ["Sugar", "10 g"],
+            ["Honey", "30 mL"],
+            ["Cinnamon", "5 g"]
+        ]
+    },
+    {
+        "name": "Ginger Mango Chutney",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.2,
+        "servingSize": 6,
+        "method": [
+            "Peel and chop 3 ripe mangoes. In a saucepan, combine mangoes, 100 g sugar, 50 mL vinegar, 20 g grated ginger, 1 minced garlic clove, and a pinch of salt.",
+            "Bring to a simmer and cook for 30 minutes, stirring occasionally, until thickened.",
+            "Cool completely and store in jars. Serve as an accompaniment to grilled meats or curry dishes."
+        ],
+        "description": "A sweet and spicy chutney made from fresh mangoes and ginger, perfect for enhancing any meal with a burst of flavor.",
+        "backdrop": "",
+        "ingredients": [
+            ["Mangoes", "3 units"],
+            ["Sugar", "100 g"],
+            ["Vinegar", "50 mL"],
+            ["Ginger", "20 g"],
+            ["Garlic", "1 clove"],
+            ["Salt", "1 g"]
+        ]
+    },
+    {
+        "name": "Goat Cheese Log with Herbs",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.5,
+        "servingSize": 6,
+        "method": [
+            "Mix 200 g soft goat cheese with 5 g each of chopped parsley, chives, and thyme.",
+            "Form the mixture into a log and wrap tightly in plastic wrap.",
+            "Chill for 2 hours to set. Slice and serve on crackers or with sliced baguette."
+        ],
+        "description": "A creamy goat cheese log rolled in fresh herbs, perfect for spreading on crackers or bread as an appetizer.",
+        "backdrop": "",
+        "ingredients": [
+            ["Goat Cheese", "200 g"],
+            ["Parsley", "5 g"],
+            ["Chives", "5 g"],
+            ["Thyme", "5 g"],
+            ["Crackers or Baguette", "200 g"]
+        ]
+    },
+    {
+        "name": "Gnocchi with Mushroom Sauce",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "Cook 500 g potato gnocchi according to package instructions and drain.",
+            "In a skillet, sauté 200 g sliced mushrooms and 2 cloves minced garlic in 30 mL olive oil until mushrooms are browned.",
+            "Deglaze the pan with 100 mL white wine, then stir in 100 mL cream and simmer until thickened.",
+            "Toss gnocchi with the mushroom sauce. Garnish with grated Parmesan and serve."
+        ],
+        "description": "Soft potato gnocchi smothered in a creamy mushroom sauce, a satisfying and elegant main course.",
+        "backdrop": "",
+        "ingredients": [
+            ["Potato Gnocchi", "500 g"],
+            ["Mushrooms", "200 g"],
+            ["Garlic", "2 cloves"],
+            ["Olive Oil", "30 mL"],
+            ["White Wine", "100 mL"],
+            ["Cream", "100 mL"],
+            ["Parmesan", "30 g"]
+        ]
+    },
+    {
+        "name": "Garlic-Herb Grilled Salmon",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Combine 30 mL olive oil, 5 g chopped basil, 5 g chopped parsley, 3 minced garlic cloves, salt, and pepper. Marinate 4 salmon fillets in the mixture for 1 hour.",
+            "Grill over medium heat for 5 minutes per side or until cooked through.",
+            "Serve with lemon wedges and a side of steamed asparagus."
+        ],
+        "description": "Delicious salmon fillets marinated in a garlic and herb mixture, then grilled to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "30 mL"],
+            ["Basil", "5 g"],
+            ["Parsley", "5 g"],
+            ["Garlic", "3 cloves"],
+            ["Salmon Fillets", "4 units"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Lemon Wedges", "4 units"],
+            ["Asparagus", "200 g"]
+        ]
+    },
+    {
+        "name": "Gorgonzola Polenta Bites",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.8,
+        "servingSize": 6,
+        "method": [
+            "Cook 200 g polenta with 750 mL water and a pinch of salt until thickened. Stir in 50 g crumbled Gorgonzola until melted.",
+            "Spread polenta on a tray and chill until set. Cut into bite-sized pieces.",
+            "Sear polenta bites in a hot skillet with 15 mL olive oil until crisp on both sides.",
+            "Serve topped with a small dollop of fig jam and a sprinkle of fresh thyme."
+        ],
+        "description": "Savory and creamy polenta bites with Gorgonzola cheese, crisped up and topped with sweet fig jam.",
+        "backdrop": "",
+        "ingredients": [
+            ["Polenta", "200 g"],
+            ["Water", "750 mL"],
+            ["Salt", "0 g"],
+            ["Gorgonzola", "50 g"],
+            ["Olive Oil", "15 mL"],
+            ["Fig Jam", "50 g"],
+            ["Thyme", "5 g"]
+        ]
+    },
+    {
+        "name": "Greek Spinach Pie",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.5,
+        "servingSize": 6,
+        "method": [
+            "Sauté 1 chopped onion and 2 minced garlic cloves in 15 mL olive oil until soft. Add 500 g chopped spinach; cook until wilted.",
+            "Mix spinach with 200 g feta cheese, 2 beaten eggs, salt, and pepper.",
+            "Layer phyllo dough in a baking dish, brushing each layer with melted butter. Spread spinach mixture on top, then cover with more phyllo layers, brushing with butter.",
+            "Bake at 180°C for 40 minutes or until golden and crisp.",
+            "Serve warm or at room temperature."
+        ],
+        "description": "A traditional Greek dish made with layers of crispy phyllo dough filled with a savory spinach and feta mixture.",
+        "backdrop": "",
+        "ingredients": [
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Olive Oil", "15 mL"],
+            ["Spinach", "500 g"],
+            ["Feta Cheese", "200 g"],
+            ["Eggs", "2 units"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Phyllo Dough", "200 g"],
+            ["Butter", "50 g"]
+        ]
+    },
+    {
+        "name": "Ginger Carrot Cake",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.3,
+        "servingSize": 8,
+        "method": [
+            "Mix 250 g grated carrots, 200 g flour, 150 g sugar, 10 g baking powder, 10 g ground ginger, and a pinch of salt.",
+            "In another bowl, combine 100 mL vegetable oil, 2 eggs, and 30 mL milk.",
+            "Combine wet and dry ingredients, pour into a greased cake tin.",
+            "Bake at 180°C for 45 minutes. Cool and top with cream cheese frosting."
+        ],
+        "description": "Moist carrot cake with a hint of ginger, topped with rich cream cheese frosting.",
+        "backdrop": "",
+        "ingredients": [
+            ["Carrots", "250 g"],
+            ["Flour", "200 g"],
+            ["Sugar", "150 g"],
+            ["Baking Powder", "10 g"],
+            ["Ground Ginger", "10 g"],
+            ["Salt", "0 g"],
+            ["Vegetable Oil", "100 mL"],
+            ["Eggs", "2 units"],
+            ["Milk", "30 mL"],
+            ["Cream Cheese Frosting", "100 g"]
+        ]
+    },
+    {
+        "name": "Grilled Guacamole",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "Halve 3 avocados and remove pits. Grill cut-side down for 5 minutes.",
+            "Scoop out the avocado flesh and mash with the juice of 1 lime, 1 diced tomato, 1 minced onion, and 1 chopped jalapeño. Season with salt.",
+            "Serve with tortilla chips or as a topping for tacos."
+        ],
+        "description": "A smoky twist on traditional guacamole, featuring grilled avocados for an enhanced flavor.",
+        "backdrop": "",
+        "ingredients": [
+            ["Avocados", "3 units"],
+            ["Lime", "1 unit"],
+            ["Tomato", "1 unit"],
+            ["Onion", "1 unit"],
+            ["Jalapeño", "1 unit"],
+            ["Salt", "0 g"],
+            ["Tortilla Chips", "200 g"]
+        ]
+    },
+    {
+        "name": "Garlicky Grilled Shrimp Skewers",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "In a bowl, combine 30 mL olive oil, 5 cloves minced garlic, 5 g paprika, and juice of 1 lemon. Add 400 g shrimp and marinate for 30 minutes.",
+            "Thread shrimp onto skewers.",
+            "Grill over medium heat for 2-3 minutes per side until pink and cooked through.",
+            "Serve with fresh parsley and lemon wedges."
+        ],
+        "description": "Juicy shrimp marinated in a garlicky mixture, grilled to perfection and served with a squeeze of fresh lemon.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "30 mL"],
+            ["Garlic", "5 cloves"],
+            ["Paprika", "5 g"],
+            ["Lemon", "1 unit"],
+            ["Shrimp", "400 g"],
+            ["Parsley", "10 g"],
+            ["Lemon Wedges", "4 units"]
+        ]
+    },
+    {
+        "name": "Golden Potato Soup",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "In a pot, melt 30 g butter. Add 1 diced onion and 2 minced garlic cloves, cook until soft.",
+            "Add 500 g peeled and diced potatoes, cook for 5 minutes. Pour in 1 L chicken broth and simmer until potatoes are tender, about 20 minutes.",
+            "Puree the soup until smooth. Stir in 100 mL cream, season with salt and pepper.",
+            "Serve hot, garnished with chopped chives and a dollop of sour cream."
+        ],
+        "description": "Creamy and comforting potato soup, enriched with cream and flavored with a hint of garlic.",
+        "backdrop": "",
+        "ingredients": [
+            ["Butter", "30 g"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Potatoes", "500 g"],
+            ["Chicken Broth", "1 L"],
+            ["Cream", "100 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Chives", "10 g"],
+            ["Sour Cream", "50 mL"]
+        ]
+    },
+    {
+        "name": "Grilled Greek Chicken",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Marinate 4 chicken breasts in 30 mL olive oil, juice of 1 lemon, 10 g oregano, 3 cloves minced garlic, salt, and pepper for 3 hours.",
+            "Grill over medium heat for 6-7 minutes per side or until cooked through.",
+            "Serve with a side of tzatziki sauce and cucumber salad."
+        ],
+        "description": "Flavorful chicken marinated in Greek herbs and grilled, served with cool tzatziki sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breasts", "4 units"],
+            ["Olive Oil", "30 mL"],
+            ["Lemon", "1 unit"],
+            ["Oregano", "10 g"],
+            ["Garlic", "3 cloves"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Tzatziki Sauce", "100 mL"],
+            ["Cucumber Salad", "200 g"]
+        ]
+    },
+    {
+        "name": "Ginger Honey Glazed Carrots",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.4,
+        "servingSize": 4,
+        "method": [
+            "In a skillet, combine 400 g sliced carrots, 20 mL honey, 10 g grated ginger, and 30 mL water.",
+            "Cook over medium heat until carrots are tender and glazed, about 15 minutes.",
+            "Season with salt and garnish with parsley before serving."
+        ],
+        "description": "Sweet and spicy carrots glazed with honey and ginger, a delightful side dish to any meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Carrots", "400 g"],
+            ["Honey", "20 mL"],
+            ["Ginger", "10 g"],
+            ["Water", "30 mL"],
+            ["Salt", "0 g"],
+            ["Parsley", "10 g"]
+        ]
+    },
+    {
+        "name": "Gourmet Mushroom Risotto",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "In a saucepan, heat 30 mL olive oil. Add 200 g sliced mushrooms and sauté until browned. Remove and set aside.",
+            "In the same pan, add 1 chopped onion, sauté until translucent. Add 250 g Arborio rice, toast for 2 minutes.",
+            "Gradually add 1 L vegetable broth, stirring constantly, until the rice is creamy and al dente.",
+            "Stir in the cooked mushrooms, 50 g grated Parmesan, and 10 g chopped thyme. Season with salt and pepper.",
+            "Serve garnished with more Parmesan and a drizzle of truffle oil."
+        ],
+        "description": "Luxurious risotto with earthy mushrooms, Parmesan cheese, and a hint of truffle oil for an extra touch of indulgence.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "30 mL"],
+            ["Mushrooms", "200 g"],
+            ["Onion", "1 unit"],
+            ["Arborio Rice", "250 g"],
+            ["Vegetable Broth", "1 L"],
+            ["Parmesan", "50 g"],
+            ["Thyme", "10 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Truffle Oil", "5 mL"]
+        ]
+    },
+    {
+        "name": "Garlic Butter Scallops",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Heat 30 mL olive oil and 30 g butter in a skillet over medium-high heat.",
+            "Add 12 scallops and 3 cloves minced garlic. Cook for about 2 minutes per side until golden and cooked through.",
+            "Squeeze the juice of one lemon over the scallops, sprinkle with chopped parsley, and serve immediately."
+        ],
+        "description": "Succulent scallops cooked in a rich garlic butter sauce, finished with a splash of lemon for a bright flavor.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "30 mL"],
+            ["Butter", "30 g"],
+            ["Scallops", "12 units"],
+            ["Garlic", "3 cloves"],
+            ["Lemon", "1 unit"],
+            ["Parsley", "10 g"]
+        ]
+    },
+    {
+        "name": "Grapefruit Avocado Salad",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "Segment 2 grapefruits and slice 2 avocados.",
+            "Arrange on a platter with 100 g mixed salad greens.",
+            "Drizzle with a dressing made from 30 mL olive oil, 15 mL white wine vinegar, salt, and pepper.",
+            "Garnish with a sprinkle of crushed walnuts."
+        ],
+        "description": "A refreshing and vibrant salad featuring grapefruit and avocado, dressed lightly with a citrus vinaigrette.",
+        "backdrop": "",
+        "ingredients": [
+            ["Grapefruits", "2 units"],
+            ["Avocados", "2 units"],
+            ["Salad Greens", "100 g"],
+            ["Olive Oil", "30 mL"],
+            ["White Wine Vinegar", "15 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Walnuts", "30 g"]
+        ]
+    },
+    {
+        "name": "Garlic Spinach Quiche",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.2,
+        "servingSize": 6,
+        "method": [
+            "Preheat oven to 180°C.",
+            "Prepare a pie crust in a 9-inch pan.",
+            "Sauté 200 g spinach and 3 cloves minced garlic in 15 mL olive oil until spinach is wilted.",
+            "In a bowl, whisk together 4 eggs, 200 mL cream, salt, and pepper.",
+            "Stir in the spinach mixture and pour into the crust.",
+            "Bake for 35 minutes until set and golden. Serve warm."
+        ],
+        "description": "A savory quiche with a garlic spinach filling, nestled in a buttery pie crust.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pie Crust", "1 unit"],
+            ["Spinach", "200 g"],
+            ["Garlic", "3 cloves"],
+            ["Olive Oil", "15 mL"],
+            ["Eggs", "4 units"],
+            ["Cream", "200 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Ginger Pear Crisp",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 6,
+        "method": [
+            "Preheat oven to 190°C.",
+            "Toss 6 sliced pears with 10 g grated ginger, 100 g sugar, and the juice of half a lemon.",
+            "Pour into a baking dish. Top with a crumble made from 100 g flour, 50 g sugar, 50 g rolled oats, and 50 g melted butter.",
+            "Bake for 45 minutes until topping is golden and filling is bubbly.",
+            "Serve warm with vanilla ice cream."
+        ],
+        "description": "A warm, comforting pear crisp infused with ginger, topped with a crispy oat crust.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pears", "6 units"],
+            ["Ginger", "10 g"],
+            ["Sugar", "150 g"],
+            ["Lemon", "0.5 unit"],
+            ["Flour", "100 g"],
+            ["Rolled Oats", "50 g"],
+            ["Butter", "50 g"],
+            ["Vanilla Ice Cream", "200 g"]
+        ]
+    },
+    {
+        "name": "Gouda and Apple Grilled Cheese",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.3,
+        "servingSize": 2,
+        "method": [
+            "Butter two slices of whole grain bread. On one slice, layer thin slices of Gouda cheese and thinly sliced apple.",
+            "Top with the other slice, buttered side out.",
+            "Grill in a skillet over medium heat until the bread is golden and the cheese has melted, about 3 minutes per side.",
+            "Serve immediately."
+        ],
+        "description": "A delightful twist on traditional grilled cheese, combining the sharpness of Gouda with the sweetness of apple.",
+        "backdrop": "",
+        "ingredients": [
+            ["Whole Grain Bread", "2 slices"],
+            ["Gouda Cheese", "100 g"],
+            ["Apple", "1 unit"],
+            ["Butter", "30 g"]
+        ]
+    },
+    {
+        "name": "Ginger Soy Glazed Edamame",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Heat 500 g frozen edamame according to package instructions.",
+            "In a small saucepan, combine 30 mL soy sauce, 20 g grated ginger, 10 mL honey, and 10 mL sesame oil. Bring to a simmer.",
+            "Toss the edamame in the glaze and cook for an additional 2 minutes.",
+            "Sprinkle with sesame seeds and serve warm."
+        ],
+        "description": "Edamame beans tossed in a sweet and spicy ginger soy glaze, perfect for a healthy snack or appetizer.",
+        "backdrop": "",
+        "ingredients": [
+            ["Edamame", "500 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Ginger", "20 g"],
+            ["Honey", "10 mL"],
+            ["Sesame Oil", "10 mL"],
+            ["Sesame Seeds", "5 g"]
+        ]
+    },
+    {
+        "name": "Garlic Basil Chicken",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Marinate 4 chicken breasts in a mixture of 30 mL olive oil, 3 cloves minced garlic, 10 g fresh basil, juice of 1 lemon, salt, and pepper for at least 2 hours.",
+            "Grill over medium heat for 6-7 minutes per side or until fully cooked.",
+            "Serve with a side of roasted vegetables."
+        ],
+        "description": "Juicy chicken breasts marinated with fresh basil and garlic, grilled to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breasts", "4 units"],
+            ["Olive Oil", "30 mL"],
+            ["Garlic", "3 cloves"],
+            ["Fresh Basil", "10 g"],
+            ["Lemon", "1 unit"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Roasted Vegetables", "200 g"]
+        ]
+    },
+    {
+        "name": "Goat Cheese Stuffed Dates",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.3,
+        "servingSize": 6,
+        "method": [
+            "Slice 18 dates along one side and remove pits.",
+            "Stuff each date with 10 g soft goat cheese and a small sprig of rosemary.",
+            "Wrap each stuffed date with a half slice of prosciutto.",
+            "Bake at 175°C for 10 minutes or until prosciutto is crisp.",
+            "Serve warm."
+        ],
+        "description": "Sweet dates stuffed with creamy goat cheese and wrapped in savory prosciutto, baked to crispy perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Dates", "18 units"],
+            ["Goat Cheese", "180 g"],
+            ["Rosemary", "18 sprigs"],
+            ["Prosciutto", "9 slices"]
+        ]
+    },
+    {
+        "name": "Ginger Plum Sauce",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "In a saucepan, combine 400 g chopped plums, 50 g sugar, 20 g grated ginger, and 30 mL soy sauce.",
+            "Simmer over low heat for 30 minutes, stirring occasionally, until thickened.",
+            "Puree the sauce until smooth. Serve as a condiment with grilled meats or as a dip."
+        ],
+        "description": "A sweet and tangy sauce made from fresh plums and ginger, ideal for enhancing grilled dishes.",
+        "backdrop": "",
+        "ingredients": [
+            ["Plums", "400 g"],
+            ["Sugar", "50 g"],
+            ["Ginger", "20 g"],
+            ["Soy Sauce", "30 mL"]
+        ]
+    },
+    {
+        "name": "Grilled Garlic Naan",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Combine 250 g flour, 5 g sugar, 5 g yeast, and 5 g salt in a bowl. Add 120 mL warm water and 30 mL yogurt. Knead to form a soft dough.",
+            "Let rise for 1 hour. Divide into 4 balls and roll out each piece.",
+            "Brush each naan with garlic-infused olive oil and grill over high heat for 2 minutes per side.",
+            "Serve warm with curry or as an appetizer with dips."
+        ],
+        "description": "Soft and fluffy naan bread grilled with a garlic oil topping, perfect for pairing with rich curries or dips.",
+        "backdrop": "",
+        "ingredients": [
+            ["Flour", "250 g"],
+            ["Sugar", "5 g"],
+            ["Yeast", "5 g"],
+            ["Salt", "5 g"],
+            ["Water", "120 mL"],
+            ["Yogurt", "30 mL"],
+            ["Garlic-Infused Olive Oil", "15 mL"]
+        ]
+    },
+    {
+        "name": "Green Chili Chicken Enchiladas",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.2,
+        "servingSize": 6,
+        "method": [
+            "Cook 500 g diced chicken breast in a skillet until browned. Add 200 mL green chili sauce and simmer for 10 minutes.",
+            "Fill 6 flour tortillas with the chicken mixture and roll up. Place seam side down in a baking dish.",
+            "Top with 100 g shredded Monterey Jack cheese and bake at 180°C for 20 minutes until the cheese is melted and bubbly.",
+            "Serve hot, garnished with chopped cilantro."
+        ],
+        "description": "Hearty enchiladas filled with spicy green chili chicken, smothered in cheese and baked to golden perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breast", "500 g"],
+            ["Green Chili Sauce", "200 mL"],
+            ["Flour Tortillas", "6 units"],
+            ["Monterey Jack Cheese", "100 g"],
+            ["Cilantro", "10 g"]
+        ]
+    },
+    {
+        "name": "Greek Yogurt Parfait",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.2,
+        "servingSize": 2,
+        "method": [
+            "In two serving glasses, layer 200 g Greek yogurt with 50 g granola and 100 g mixed berries (strawberries, blueberries, raspberries).",
+            "Repeat the layers until all ingredients are used.",
+            "Drizzle with 20 mL honey and garnish with a sprinkle of cinnamon before serving."
+        ],
+        "description": "A healthy and delicious parfait with layers of creamy Greek yogurt, crunchy granola, and fresh berries, sweetened with a touch of honey.",
+        "backdrop": "",
+        "ingredients": [
+            ["Greek Yogurt", "200 g"],
+            ["Granola", "50 g"],
+            ["Mixed Berries", "100 g"],
+            ["Honey", "20 mL"],
+            ["Cinnamon", "5 g"]
+        ]
+    },
+    {
+        "name": "Garlic Herb Roast Beef",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.4,
+        "servingSize": 6,
+        "method": [
+            "Rub a 1 kg beef roast with a mixture of 5 cloves minced garlic, 10 g chopped rosemary, 10 g thyme, salt, and pepper.",
+            "Sear the roast in a hot skillet with 15 mL olive oil until browned on all sides.",
+            "Roast in a preheated 175°C oven for 60-70 minutes or until the desired doneness is reached.",
+            "Let rest for 10 minutes before slicing. Serve with roasted potatoes and carrots."
+        ],
+        "description": "Tender and flavorful roast beef seasoned with garlic and fresh herbs, perfect for a hearty family dinner.",
+        "backdrop": "",
+        "ingredients": [
+            ["Beef Roast", "1 kg"],
+            ["Garlic", "5 cloves"],
+            ["Rosemary", "10 g"],
+            ["Thyme", "10 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Olive Oil", "15 mL"],
+            ["Potatoes", "300 g"],
+            ["Carrots", "200 g"]
+        ]
+    },
+    {
+        "name": "Gazpacho with Melon",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "In a blender, combine 200 g chopped cucumber, 200 g chopped cantaloupe, 100 g chopped red bell pepper, 1 small chopped onion, 2 cloves garlic, and 15 mL sherry vinegar.",
+            "Blend until smooth. Chill in the refrigerator for at least 2 hours.",
+            "Before serving, adjust seasoning with salt and pepper, and stir in 30 mL olive oil.",
+            "Serve cold, garnished with diced melon and fresh mint."
+        ],
+        "description": "A refreshing summer soup made from a blend of melon and vegetables, served chilled with a hint of mint.",
+        "backdrop": "",
+        "ingredients": [
+            ["Cucumber", "200 g"],
+            ["Cantaloupe", "200 g"],
+            ["Red Bell Pepper", "100 g"],
+            ["Onion", "1 small"],
+            ["Garlic", "2 cloves"],
+            ["Sherry Vinegar", "15 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Olive Oil", "30 mL"],
+            ["Melon", "50 g"], 
+            ["Mint", "5 g"]
+        ]
     }
 ]
