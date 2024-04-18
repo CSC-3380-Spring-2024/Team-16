@@ -18,16 +18,15 @@ class _FridgeWidgetState extends State<FridgeWidget> {
   late FridgeModel _model;
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
-  // List of all possible ingredients
   List<String> allIngredients = [
     'Milk',
     'Eggs',
     'Cheese',
     'Butter',
     'Bread'
-  ]; // You can add more items here
-  List<String> ingredients = ['Milk']; // Active ingredients in the fridge
-  String? selectedIngredient;
+  ];
+  List<String> ingredients = ['Milk'];
+  List<String> selectedIngredients = [];
   String _searchQuery = '';
   final TextEditingController _typeAheadController = TextEditingController();
 
@@ -75,6 +74,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
             ),
           ),
           title: TextField(
+            controller: _typeAheadController,
             onChanged: (value) {
               setState(() {
                 _searchQuery = value.toLowerCase();
@@ -137,14 +137,14 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                     ),
                   ),
                 ),
-                if (selectedIngredient != null)
+                if (selectedIngredients.isNotEmpty)
                   Padding(
                     padding: const EdgeInsets.symmetric(
                         horizontal: 16.0, vertical: 8.0),
                     child: FFButtonWidget(
                       onPressed: () {
                         print(
-                            'Find Recipe Button pressed for $selectedIngredient');
+                            'Find Recipe Button pressed for $selectedIngredients');
                         _showRecipeDialog(context);
                       },
                       text: 'Find Recipe',
@@ -170,8 +170,106 @@ class _FridgeWidgetState extends State<FridgeWidget> {
     );
   }
 
+  Widget buildIngredient(String name, String imageUrl, String expiry) {
+    bool isSelected = selectedIngredients.contains(name);
+    return Dismissible(
+      key: Key(name),
+      background: Container(
+        color: Colors.red,
+        padding: EdgeInsets.symmetric(horizontal: 20),
+        alignment: Alignment.centerRight,
+        child: Icon(Icons.delete, color: Colors.white),
+      ),
+      direction: DismissDirection.endToStart,
+      onDismissed: (direction) {
+        setState(() {
+          ingredients.remove(name);
+          selectedIngredients.remove(name);
+        });
+
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text("$name removed from your fridge"),
+            duration: Duration(seconds: 2),
+          ),
+        );
+      },
+      child: InkWell(
+        onTap: () {
+          setState(() {
+            if (isSelected) {
+              selectedIngredients.remove(name);
+            } else {
+              selectedIngredients.add(name);
+            }
+          });
+        },
+        child: Container(
+          decoration: BoxDecoration(
+            color: isSelected
+                ? FlutterFlowTheme.of(context).tertiary
+                : FlutterFlowTheme.of(context).secondaryBackground,
+            borderRadius: BorderRadius.circular(8.0),
+            border: Border.all(
+                color: Color(0xFF8476AB)), // Apply grayish purple border
+          ),
+          child: Row(
+            mainAxisSize: MainAxisSize.max,
+            children: [
+              Padding(
+                padding:
+                    const EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
+                child: Container(
+                  width: 100.0,
+                  height: 100.0,
+                  decoration: BoxDecoration(
+                    color: FlutterFlowTheme.of(context).secondaryBackground,
+                    borderRadius: BorderRadius.circular(8.0),
+                    image: DecorationImage(
+                      image: NetworkImage(imageUrl),
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                ),
+              ),
+              Expanded(
+                child: Padding(
+                  padding:
+                      const EdgeInsetsDirectional.fromSTEB(8.0, 0.0, 0.0, 12.0),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.max,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        name,
+                        style: FlutterFlowTheme.of(context)
+                            .titleMedium
+                            .override(
+                              fontFamily: 'Readex Pro',
+                              color: FlutterFlowTheme.of(context).primaryText,
+                            ),
+                      ),
+                      Text(
+                        expiry,
+                        style: FlutterFlowTheme.of(context)
+                            .labelMedium
+                            .override(
+                              fontFamily: 'Readex Pro',
+                              color: FlutterFlowTheme.of(context).secondaryText,
+                            ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
   
-void _showAddIngredientDialog() {
+  void _showAddIngredientDialog() {
     showDialog(
       context: context,
       builder: (BuildContext context) {
@@ -253,7 +351,9 @@ void _showAddIngredientDialog() {
               onPressed: () {
                 if (newIngredient.isNotEmpty) {
                   setState(() {
-                    ingredients.add(newIngredient);
+                    if (!ingredients.contains(newIngredient)) {
+                      ingredients.add(newIngredient);
+                    }
                     textEditingController.clear();
                   });
                   Navigator.of(context).pop();
@@ -271,103 +371,7 @@ void _showAddIngredientDialog() {
       },
     );
   }
-
-
-  Widget buildIngredient(String name, String imageUrl, String expiry) {
-    bool isSelected = selectedIngredient == name;
-    return Dismissible(
-      key: Key(name), // Unique key for Dismissible
-      background: Container(
-        color: Colors.red,
-        padding: EdgeInsets.symmetric(horizontal: 20),
-        alignment: Alignment.centerRight,
-        child: Icon(Icons.delete, color: Colors.white),
-      ),
-      direction: DismissDirection.endToStart, // Swipe direction
-      onDismissed: (direction) {
-        setState(() {
-          ingredients.remove(name); // Remove the ingredient from the list
-        });
-
-        // Optionally show a snackbar
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text("$name removed from your fridge"),
-            duration: Duration(seconds: 2),
-          ),
-        );
-      },
-      child: InkWell(
-        onTap: () {
-          setState(() {
-            selectedIngredient = isSelected ? null : name; // Toggle selection
-          });
-        },
-        child: Container(
-          decoration: BoxDecoration(
-            color: isSelected
-                ? FlutterFlowTheme.of(context).tertiary
-                : FlutterFlowTheme.of(context).secondaryBackground,
-            borderRadius: BorderRadius.circular(8.0),
-            border: Border.all(
-                color: Color(0xFF8476AB)), // Apply grayish purple border
-          ),
-          child: Row(
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              Padding(
-                padding:
-                    const EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
-                child: Container(
-                  width: 100.0,
-                  height: 100.0,
-                  decoration: BoxDecoration(
-                    color: FlutterFlowTheme.of(context).secondaryBackground,
-                    borderRadius: BorderRadius.circular(8.0),
-                    image: DecorationImage(
-                      image: NetworkImage(imageUrl),
-                      fit: BoxFit.cover,
-                    ),
-                  ),
-                ),
-              ),
-              Expanded(
-                child: Padding(
-                  padding:
-                      const EdgeInsetsDirectional.fromSTEB(8.0, 0.0, 0.0, 12.0),
-                  child: Column(
-                    mainAxisSize: MainAxisSize.max,
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        name,
-                        style: FlutterFlowTheme.of(context)
-                            .titleMedium
-                            .override(
-                              fontFamily: 'Readex Pro',
-                              color: FlutterFlowTheme.of(context).primaryText,
-                            ),
-                      ),
-                      Text(
-                        expiry,
-                        style: FlutterFlowTheme.of(context)
-                            .labelMedium
-                            .override(
-                              fontFamily: 'Readex Pro',
-                              color: FlutterFlowTheme.of(context).secondaryText,
-                            ),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-
+  
   void _showRecipeDialog(BuildContext context) {
     showDialog(
       context: context,
@@ -412,7 +416,6 @@ void _showAddIngredientDialog() {
   }
 
   Widget _buildRecipeCard() {
-    // Replace with your recipe model or data structure
     String recipeTitle = "Delicious Iced Coffee";
     String authorName = "John Doe";
     String description =
@@ -445,15 +448,15 @@ void _showAddIngredientDialog() {
               style: TextStyle(fontSize: 14.0, fontWeight: FontWeight.normal)),
           SizedBox(height: 8.0),
           Container(
-            width: 150.0, // Width set to 150 pixels
-            height: 150.0, // Height set to 150 pixels
+            width: 150.0, 
+            height: 150.0, 
             decoration: BoxDecoration(
               image: DecorationImage(
                   image: NetworkImage(
                       "https://media.istockphoto.com/id/483014582/photo/iced-coffee-with-whipping-cream.jpg?s=1024x1024&w=is&k=20&c=nPBZMC-YZCA7wjssHCh5UDWoEhv11GqYrwJ6s0ZIplk="),
                   fit: BoxFit.cover),
               borderRadius: BorderRadius.circular(
-                  8.0), // Optional: rounding the corners of the image
+                  8.0), 
             ),
           ),
           SizedBox(height: 8.0),
