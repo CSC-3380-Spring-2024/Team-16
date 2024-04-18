@@ -5,7 +5,6 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.query.Criteria;
-import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Query;
@@ -30,6 +29,14 @@ public class RecipeService {
         return mongoTemplate.find(query, Recipe.class);
     }
 
+    /* We can use this in the Ingredient controller to find ingredients by name !!!! !! !!!!!! 1!!!!!
+    public List<Recipe> recipesWithIngredient(String name) {
+        Query query = new Query();
+        query.addCriteria(Criteria.where("name").in(name));
+        return mongoTemplate.find(query, Recipe.class);
+    }
+     */
+
     public Recipe addRecipe (Recipe recipe)
     {
         if(recipe.getName() == null || recipe.getIngredients() == null)
@@ -40,39 +47,5 @@ public class RecipeService {
         {
             return mongoTemplate.insert(recipe);
         }
-    }
-
-    public String starRating (float star, String name)
-    {
-        Query query = new Query();
-        query.addCriteria(Criteria.where("name").is(name));
-        Recipe recipe = mongoTemplate.findOne(query, Recipe.class);
-        if(recipe == null)
-        {
-            return null;
-        }
-        else
-        {
-            double prevRating = recipe.getStarRating();
-            List<String> reviewId =  recipe.getReviewId();
-            int peopleReviewed = reviewId != null ? reviewId.size(): 0;
-
-            if(peopleReviewed == 0)
-            {
-                peopleReviewed = 1;
-            }
-
-            int averageRating = (int) ((prevRating+star)/peopleReviewed);
-
-            if(averageRating > 5)
-            {
-                averageRating = 5;
-            }
-
-            mongoTemplate.updateFirst(query, Update.update("starRating", averageRating), Recipe.class);
-
-            return "Sucess";
-        }
-
     }
 }
