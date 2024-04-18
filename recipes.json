@@ -19058,5 +19058,1999 @@
             ["Tomatoes", "100 g"],
             ["Red Onion", "50 g"]
         ]
+    },
+    {
+        "name": "Korean Beef Bulgogi",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Slice 500 g beef sirloin thinly. Marinate in a mixture of 30 mL soy sauce, 20 mL sesame oil, 10 g sugar, 20 g minced garlic, and 10 g grated ginger for at least 2 hours.",
+            "Heat a grill pan over high heat and cook the beef until browned and slightly charred, about 2-3 minutes per side.",
+            "Serve with steamed rice and garnish with sliced green onions and sesame seeds."
+        ],
+        "description": "A popular Korean dish featuring thinly sliced beef marinated in a sweet and savory sauce, grilled to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Beef Sirloin", "500 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Sesame Oil", "20 mL"],
+            ["Sugar", "10 g"],
+            ["Garlic", "20 g"],
+            ["Ginger", "10 g"],
+            ["Steamed Rice", "200 g"],
+            ["Green Onions", "10 g"],
+            ["Sesame Seeds", "5 g"]
+        ]
+    },
+    {
+        "name": "Kale and Quinoa Salad",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Cook 200 g quinoa according to package instructions. Let cool.",
+            "In a large bowl, combine cooked quinoa, 200 g chopped kale, 100 g diced apples, and 50 g crumbled goat cheese.",
+            "For the dressing, whisk together 30 mL olive oil, 15 mL apple cider vinegar, 5 g mustard, and salt to taste.",
+            "Toss the salad with the dressing and chill before serving. Garnish with 30 g toasted walnuts."
+        ],
+        "description": "A hearty and healthy salad with nutty quinoa, fresh kale, sweet apples, and tangy goat cheese, dressed in a zesty vinaigrette.",
+        "backdrop": "",
+        "ingredients": [
+            ["Quinoa", "200 g"],
+            ["Kale", "200 g"],
+            ["Apples", "100 g"],
+            ["Goat Cheese", "50 g"],
+            ["Olive Oil", "30 mL"],
+            ["Apple Cider Vinegar", "15 mL"],
+            ["Mustard", "5 g"],
+            ["Salt", "0 g"],
+            ["Walnuts", "30 g"]
+        ]
+    },
+    {
+        "name": "Kashmiri Rogan Josh",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.5,
+        "servingSize": 4,
+        "method": [
+            "In a large pot, heat 30 mL vegetable oil. Add 500 g cubed lamb, brown all sides. Remove lamb and set aside.",
+            "In the same pot, add 2 crushed cardamom pods, 1 cinnamon stick, 5 cloves, and 1 bay leaf; fry for 1 minute.",
+            "Add 1 minced onion, cook until golden. Return lamb to the pot with 1 tsp Kashmiri chili powder, 1 tsp turmeric, and 1 tsp salt.",
+            "Add 500 mL water and simmer covered for 1 hour until lamb is tender.",
+            "Stir in 100 mL yogurt, cook for an additional 10 minutes. Garnish with fresh coriander.",
+            "Serve with naan or rice."
+        ],
+        "description": "A rich and aromatic Kashmiri dish, Rogan Josh features tender lamb in a complex sauce of Indian spices and yogurt.",
+        "backdrop": "",
+        "ingredients": [
+            ["Vegetable Oil", "30 mL"],
+            ["Lamb", "500 g"],
+            ["Cardamom Pods", "2 units"],
+            ["Cinnamon Stick", "1 unit"],
+            ["Cloves", "5 units"],
+            ["Bay Leaf", "1 unit"],
+            ["Onion", "1 unit"],
+            ["Kashmiri Chili Powder", "1 tsp"],
+            ["Turmeric", "1 tsp"],
+            ["Salt", "1 tsp"],
+            ["Water", "500 mL"],
+            ["Yogurt", "100 mL"],
+            ["Coriander", "10 g"],
+            ["Naan or Rice", "200 g"]
+        ]
+    },
+    {
+        "name": "Kiwi Spinach Smoothie",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.2,
+        "servingSize": 2,
+        "method": [
+            "In a blender, combine 2 peeled kiwis, 100 g fresh spinach, 1 sliced banana, 200 mL apple juice, and a handful of ice.",
+            "Blend until smooth.",
+            "Serve immediately, garnished with a slice of kiwi."
+        ],
+        "description": "A refreshing and nutritious smoothie made with fresh kiwis, spinach, and banana, blended with apple juice for a sweet touch.",
+        "backdrop": "",
+        "ingredients": [
+            ["Kiwis", "2 units"],
+            ["Spinach", "100 g"],
+            ["Banana", "1 unit"],
+            ["Apple Juice", "200 mL"],
+            ["Ice", "100 g"]
+        ]
+    },
+    {
+        "name": "Korean Kimchi Pancakes",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "In a mixing bowl, combine 200 g all-purpose flour, 300 mL water, and 1 tsp salt to make a batter.",
+            "Stir in 200 g chopped kimchi and 50 g sliced green onions.",
+            "Heat 15 mL vegetable oil in a skillet over medium heat. Pour in batter to form pancakes, cook until the edges are crisp and golden, about 3-4 minutes per side.",
+            "Serve hot with a dipping sauce made from 30 mL soy sauce and 15 mL sesame oil."
+        ],
+        "description": "Savory pancakes loaded with tangy kimchi and green onions, fried to crispy perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["All-Purpose Flour", "200 g"],
+            ["Water", "300 mL"],
+            ["Salt", "1 tsp"],
+            ["Kimchi", "200 g"],
+            ["Green Onions", "50 g"],
+            ["Vegetable Oil", "15 mL"],
+            ["Soy Sauce", "30 mL"],
+            ["Sesame Oil", "15 mL"]
+        ]
+    },
+    {
+        "name": "Kale Caesar Salad",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.4,
+        "servingSize": 4,
+        "method": [
+            "In a large bowl, toss 300 g chopped kale with 50 g grated Parmesan, 50 g croutons, and Caesar dressing to coat.",
+            "For the dressing, blend together 1 crushed garlic clove, 5 mL anchovy paste, 30 mL lemon juice, 5 mL Dijon mustard, 50 mL olive oil, and 20 g grated Parmesan until smooth.",
+            "Drizzle dressing over the kale, toss again, and serve topped with more Parmesan and croutons."
+        ],
+        "description": "A hearty twist on the classic Caesar salad, using kale instead of romaine for a nutritional boost.",
+        "backdrop": "",
+        "ingredients": [
+            ["Kale", "300 g"],
+            ["Parmesan", "70 g"],
+            ["Croutons", "50 g"],
+            ["Garlic", "1 clove"],
+            ["Anchovy Paste", "5 mL"],
+            ["Lemon Juice", "30 mL"],
+            ["Dijon Mustard", "5 mL"],
+            ["Olive Oil", "50 mL"]
+        ]
+    },
+    {
+        "name": "Kashmiri Pulao",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "In a large saucepan, heat 15 mL vegetable oil. Add 2 cardamom pods, 1 cinnamon stick, 3 cloves, and 1 bay leaf; sauté for 1 minute.",
+            "Add 300 g basmati rice and 600 mL water, bring to a boil. Reduce heat to low, cover, and simmer until rice is cooked, about 20 minutes.",
+            "Stir in 100 g mixed dried fruits (raisins, apricots, cashews) and 10 g saffron soaked in 15 mL warm milk. Cook for an additional 5 minutes.",
+            "Fluff with a fork and serve garnished with fresh mint."
+        ],
+        "description": "A fragrant and colorful Kashmiri dish, this pulao is enriched with dried fruits, nuts, and saffron, offering a unique taste experience.",
+        "backdrop": "",
+        "ingredients": [
+            ["Vegetable Oil", "15 mL"],
+            ["Cardamom Pods", "2 units"],
+            ["Cinnamon Stick", "1 unit"],
+            ["Cloves", "3 units"],
+            ["Bay Leaf", "1 unit"],
+            ["Basmati Rice", "300 g"],
+            ["Water", "600 mL"],
+            ["Mixed Dried Fruits", "100 g"],
+            ["Saffron", "10 g"],
+            ["Milk", "15 mL"],
+            ["Mint", "10 g"]
+        ]
+    },
+    {
+        "name": "Kung Pao Chicken",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Marinate 500 g cubed chicken breast in a mixture of 15 mL soy sauce, 15 mL hoisin sauce, and 10 mL sesame oil for 1 hour.",
+            "In a skillet, heat 15 mL vegetable oil. Add chicken and marinade, cook until chicken is browned.",
+            "Add 100 g diced bell peppers, 50 g peanuts, and 5 g dried chilies. Cook for 5 minutes.",
+            "Mix in a sauce made from 30 mL soy sauce, 30 mL vinegar, 10 g sugar, and 5 g cornstarch dissolved in 15 mL water. Bring to a boil to thicken.",
+            "Serve hot garnished with sliced green onions."
+        ],
+        "description": "A spicy, sweet, and savory Chinese dish featuring chicken, peanuts, and bell peppers with a rich sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breast", "500 g"],
+            ["Soy Sauce", "45 mL"],
+            ["Hoisin Sauce", "15 mL"],
+            ["Sesame Oil", "10 mL"],
+            ["Vegetable Oil", "15 mL"],
+            ["Bell Peppers", "100 g"],
+            ["Peanuts", "50 g"],
+            ["Dried Chilies", "5 g"],
+            ["Vinegar", "30 mL"],
+            ["Sugar", "10 g"],
+            ["Cornstarch", "5 g"],
+            ["Water", "15 mL"],
+            ["Green Onions", "10 g"]
+        ]
+    },
+    {
+        "name": "Korean Spicy Tofu Stew",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "In a pot, heat 15 mL sesame oil. Add 20 g minced garlic and 10 g grated ginger; sauté until fragrant.",
+            "Add 300 g cubed tofu, 500 mL vegetable broth, 100 g sliced mushrooms, and 50 g kimchi. Bring to a simmer.",
+            "Season with 30 mL soy sauce and 15 g gochugaru (Korean chili powder). Cook for 20 minutes.",
+            "Stir in 50 g chopped scallions and a handful of chopped cilantro before serving.",
+            "Serve hot with steamed rice."
+        ],
+        "description": "A hearty and spicy Korean stew featuring soft tofu with mushrooms and kimchi in a vibrant, flavorful broth.",
+        "backdrop": "",
+        "ingredients": [
+            ["Sesame Oil", "15 mL"],
+            ["Garlic", "20 g"],
+            ["Ginger", "10 g"],
+            ["Tofu", "300 g"],
+            ["Vegetable Broth", "500 mL"],
+            ["Mushrooms", "100 g"],
+            ["Kimchi", "50 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Gochugaru", "15 g"],
+            ["Scallions", "50 g"],
+            ["Cilantro", "30 g"],
+            ["Steamed Rice", "200 g"]
+        ]
+    },
+    {
+        "name": "Kale Pesto Pasta",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "In a food processor, blend 200 g chopped kale, 50 g almonds, 2 cloves garlic, 50 g grated Parmesan, and 100 mL olive oil until smooth.",
+            "Cook 400 g pasta according to package instructions, drain, reserving some cooking water.",
+            "Toss pasta with kale pesto, adding pasta water as needed to thin the sauce.",
+            "Serve with extra Parmesan and a drizzle of olive oil."
+        ],
+        "description": "A vibrant and nutritious twist on traditional pesto, using kale and almonds, served with al dente pasta.",
+        "backdrop": "",
+        "ingredients": [
+            ["Kale", "200 g"],
+            ["Almonds", "50 g"],
+            ["Garlic", "2 cloves"],
+            ["Parmesan", "50 g"],
+            ["Olive Oil", "100 mL"],
+            ["Pasta", "400 g"]
+        ]
+    },
+    {
+        "name": "Kiwi Tart",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.2,
+        "servingSize": 6,
+        "method": [
+            "Preheat oven to 180°C.",
+            "Roll out 300 g pastry dough and fit into a tart pan. Prick the bottom with a fork.",
+            "Bake the crust for 20 minutes until golden. Let cool.",
+            "In a bowl, mix 200 g cream cheese with 50 g powdered sugar and 5 mL vanilla extract. Spread over the cooled crust.",
+            "Top with sliced kiwis and brush with 30 mL apricot jam for glaze.",
+            "Chill for 1 hour before serving."
+        ],
+        "description": "A fresh and delightful kiwi tart with a sweet cream cheese filling and a crisp pastry crust, topped with bright kiwi slices.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pastry Dough", "300 g"],
+            ["Cream Cheese", "200 g"],
+            ["Powdered Sugar", "50 g"],
+            ["Vanilla Extract", "5 mL"],
+            ["Kiwis", "4 units"],
+            ["Apricot Jam", "30 mL"]
+        ]
+    },
+    {
+        "name": "Kofta Kebabs",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "In a bowl, combine 500 g ground lamb, 20 g minced onion, 2 minced garlic cloves, 10 g chopped parsley, 5 g cumin, and salt and pepper.",
+            "Form the mixture into elongated kebabs around skewers.",
+            "Grill over medium heat for 6-8 minutes, turning occasionally until cooked through.",
+            "Serve with tzatziki sauce and flatbreads."
+        ],
+        "description": "Savory Middle Eastern lamb kebabs, seasoned with herbs and spices, grilled to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Ground Lamb", "500 g"],
+            ["Onion", "20 g"],
+            ["Garlic", "2 cloves"],
+            ["Parsley", "10 g"],
+            ["Cumin", "5 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Tzatziki Sauce", "50 mL"],
+            ["Flatbreads", "4 units"]
+        ]
+    },
+    {
+        "name": "Korean Kalbi",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Marinate 800 g beef short ribs in a mixture of 60 mL soy sauce, 40 mL brown sugar, 30 mL sesame oil, 20 g minced garlic, 10 g grated ginger, and 30 mL rice wine for at least 3 hours or overnight.",
+            "Grill over medium heat for 6-7 minutes per side until nicely charred and cooked through.",
+            "Serve with steamed rice and a side of kimchi."
+        ],
+        "description": "Tender and flavorful Korean BBQ ribs, marinated in a sweet and savory sauce and grilled to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Beef Short Ribs", "800 g"],
+            ["Soy Sauce", "60 mL"],
+            ["Brown Sugar", "40 mL"],
+            ["Sesame Oil", "30 mL"],
+            ["Garlic", "20 g"],
+            ["Ginger", "10 g"],
+            ["Rice Wine", "30 mL"],
+            ["Steamed Rice", "200 g"],
+            ["Kimchi", "100 g"]
+        ]
+    },
+    {
+        "name": "Key Lime Pie",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.7,
+        "servingSize": 8,
+        "method": [
+            "Mix 300 g graham cracker crumbs with 75 g melted butter and press into a pie dish.",
+            "Whisk together 400 mL condensed milk, 120 mL key lime juice, and 3 egg yolks until smooth. Pour into the crust.",
+            "Bake at 175°C for 15 minutes. Allow to cool, then refrigerate for at least 4 hours.",
+            "Top with whipped cream before serving."
+        ],
+        "description": "A classic dessert with a tangy lime filling and a sweet, crumbly graham cracker crust, topped with fluffy whipped cream.",
+        "backdrop": "",
+        "ingredients": [
+            ["Graham Cracker Crumbs", "300 g"],
+            ["Butter", "75 g"],
+            ["Condensed Milk", "400 mL"],
+            ["Key Lime Juice", "120 mL"],
+            ["Egg Yolks", "3 units"],
+            ["Whipped Cream", "100 g"]
+        ]
+    },
+    {
+        "name": "Kung Pao Tofu",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Cube 400 g firm tofu and fry in 30 mL vegetable oil until golden. Set aside.",
+            "In the same pan, add 100 g diced bell peppers, 50 g peanuts, and 5 dried chilies; stir-fry for 3 minutes.",
+            "Add the tofu back to the pan with a sauce made from 30 mL soy sauce, 15 mL vinegar, 20 g sugar, and 10 mL sesame oil; cook for 5 minutes.",
+            "Thicken with a slurry of 5 g cornstarch and 15 mL water.",
+            "Garnish with green onions and serve with rice."
+        ],
+        "description": "A spicy and savory vegetarian twist on the classic Chinese dish, featuring crispy tofu with peppers and peanuts in a bold sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Tofu", "400 g"],
+            ["Vegetable Oil", "30 mL"],
+            ["Bell Peppers", "100 g"],
+            ["Peanuts", "50 g"],
+            ["Dried Chilies", "5 units"],
+            ["Soy Sauce", "30 mL"],
+            ["Vinegar", "15 mL"],
+            ["Sugar", "20 g"],
+            ["Sesame Oil", "10 mL"],
+            ["Cornstarch", "5 g"],
+            ["Water", "15 mL"],
+            ["Green Onions", "10 g"],
+            ["Rice", "200 g"]
+        ]
+    },
+    {
+        "name": "Kerala Fish Curry",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Heat 15 mL coconut oil in a pan. Add 1 tsp mustard seeds, 20 curry leaves, and 3 sliced green chilies; sauté for 1 minute.",
+            "Add 1 chopped onion, 20 g minced garlic, and 10 g grated ginger; sauté until onions are soft.",
+            "Add 500 g chopped tomatoes, 1 tsp turmeric, and 1 tsp chili powder; cook until tomatoes break down.",
+            "Add 800 g cubed firm white fish and 200 mL coconut milk; simmer for 20 minutes.",
+            "Season with salt to taste and garnish with chopped cilantro. Serve with rice."
+        ],
+        "description": "A vibrant and spicy fish curry from Kerala, flavored with mustard seeds, curry leaves, and coconut milk.",
+        "backdrop": "",
+        "ingredients": [
+            ["Coconut Oil", "15 mL"],
+            ["Mustard Seeds", "1 tsp"],
+            ["Curry Leaves", "20 units"],
+            ["Green Chilies", "3 units"],
+            ["Onion", "1 unit"],
+            ["Garlic", "20 g"],
+            ["Ginger", "10 g"],
+            ["Tomatoes", "500 g"],
+            ["Turmeric", "1 tsp"],
+            ["Chili Powder", "1 tsp"],
+            ["White Fish", "800 g"],
+            ["Coconut Milk", "200 mL"],
+            ["Salt", "0 g"],
+            ["Cilantro", "10 g"],
+            ["Rice", "200 g"]
+        ]
+    },
+    {
+        "name": "Kielbasa and Cabbage Skillet",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Slice 500 g kielbasa sausage and sauté in a skillet with 15 mL vegetable oil until browned.",
+            "Add 1 sliced onion and 2 minced garlic cloves, cook until onion is translucent.",
+            "Stir in 500 g shredded cabbage and 100 mL chicken broth, cover and simmer for 20 minutes until cabbage is tender.",
+            "Season with salt, pepper, and a pinch of paprika before serving."
+        ],
+        "description": "A hearty and flavorful one-pan dish featuring kielbasa sausage and tender cabbage, seasoned and simmered to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Kielbasa Sausage", "500 g"],
+            ["Vegetable Oil", "15 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Cabbage", "500 g"],
+            ["Chicken Broth", "100 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Paprika", "1 g"]
+        ]
+    },
+    {
+        "name": "Kale Chips",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.2,
+        "servingSize": 4,
+        "method": [
+            "Preheat oven to 180°C.",
+            "Tear 300 g kale leaves into bite-sized pieces, discarding the stems. Wash and thoroughly dry.",
+            "Toss with 15 mL olive oil and spread on a baking sheet in a single layer.",
+            "Bake for 10-15 minutes until edges are brown but not burnt.",
+            "Sprinkle with sea salt immediately after removing from oven."
+        ],
+        "description": "Crispy and light kale chips, a healthy snack option baked to perfection with just a touch of olive oil and sea salt.",
+        "backdrop": "",
+        "ingredients": [
+            ["Kale", "300 g"],
+            ["Olive Oil", "15 mL"],
+            ["Sea Salt", "5 g"]
+        ]
+    },
+    {
+        "name": "Korean Bibimbap",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.5,
+        "servingSize": 4,
+        "method": [
+            "Cook 200 g rice according to package instructions.",
+            "In separate pans, sauté 100 g sliced mushrooms, 100 g julienned carrots, 100 g spinach, and 200 g ground beef, each seasoned lightly with soy sauce and sesame oil.",
+            "In a serving bowl, place cooked rice and arrange the cooked ingredients on top.",
+            "Top with a fried egg and a dollop of gochujang (Korean chili paste).",
+            "Serve with a side of kimchi and mix everything together before eating."
+        ],
+        "description": "A colorful and customizable Korean rice dish with assorted vegetables, beef, a fried egg, and spicy gochujang.",
+        "backdrop": "",
+        "ingredients": [
+            ["Rice", "200 g"],
+            ["Mushrooms", "100 g"],
+            ["Carrots", "100 g"],
+            ["Spinach", "100 g"],
+            ["Ground Beef", "200 g"],
+            ["Soy Sauce", "15 mL"],
+            ["Sesame Oil", "15 mL"],
+            ["Egg", "1 unit"],
+            ["Gochujang", "30 g"],
+            ["Kimchi", "100 g"]
+        ]
+    },
+    {
+        "name": "Katsu Curry",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Pound 4 chicken breasts to an even thickness, then dredge in flour, dip in beaten eggs, and coat in panko breadcrumbs.",
+            "Fry in 60 mL vegetable oil over medium heat until golden and cooked through.",
+            "For the curry, sauté 1 chopped onion, 2 minced garlic cloves, and 1 grated apple in a pot until soft. Add 15 g curry powder, 500 mL chicken broth, and simmer for 15 minutes.",
+            "Blend the sauce until smooth, then return to the pot and thicken with 10 g cornstarch mixed with 15 mL water.",
+            "Slice the chicken and serve over rice with curry sauce and pickled radishes."
+        ],
+        "description": "Crispy breaded chicken served with a rich and flavorful homemade Japanese curry sauce, a popular comfort meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breasts", "4 units"],
+            ["Flour", "100 g"],
+            ["Eggs", "2 units"],
+            ["Panko Breadcrumbs", "200 g"],
+            ["Vegetable Oil", "60 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Apple", "1 unit"],
+            ["Curry Powder", "15 g"],
+            ["Chicken Broth", "500 mL"],
+            ["Cornstarch", "10 g"],
+            ["Water", "15 mL"],
+            ["Rice", "200 g"],
+            ["Pickled Radishes", "50 g"]
+        ]
+    },
+    {
+        "name": "Korean Japchae",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Cook 200 g sweet potato noodles according to package instructions, drain and set aside.",
+            "In a large skillet, heat 15 mL sesame oil. Sauté 100 g sliced onions, 100 g julienned carrots, and 100 g sliced bell peppers until tender.",
+            "Add 200 g sliced beef and cook until browned. Mix in cooked noodles with 30 mL soy sauce and 15 mL sugar.",
+            "Stir fry until everything is heated through. Garnish with 10 g toasted sesame seeds and serve."
+        ],
+        "description": "A traditional Korean dish featuring sweet potato noodles stir-fried with vegetables and beef, seasoned with soy sauce and sesame.",
+        "backdrop": "",
+        "ingredients": [
+            ["Sweet Potato Noodles", "200 g"],
+            ["Sesame Oil", "15 mL"],
+            ["Onions", "100 g"],
+            ["Carrots", "100 g"],
+            ["Bell Peppers", "100 g"],
+            ["Beef", "200 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Sugar", "15 mL"],
+            ["Toasted Sesame Seeds", "10 g"]
+        ]
+    },
+    {
+        "name": "Kurdish Biryani",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.3,
+        "servingSize": 6,
+        "method": [
+            "In a large pot, heat 30 mL vegetable oil. Add 1 kg diced lamb, brown all over and set aside.",
+            "In the same pot, add 300 g rice, 1 diced onion, 3 cloves minced garlic, 100 g raisins, and 100 g chopped almonds; sauté until onions are translucent.",
+            "Return the lamb to the pot with 1.5 L chicken stock, bring to a boil then simmer until rice is cooked, about 20 minutes.",
+            "Season with 5 g cinnamon, 5 g cumin, and salt. Garnish with fresh parsley and serve."
+        ],
+        "description": "A rich and aromatic Kurdish-style biryani with lamb, rice, nuts, and raisins, spiced with cinnamon and cumin.",
+        "backdrop": "",
+        "ingredients": [
+            ["Vegetable Oil", "30 mL"],
+            ["Lamb", "1 kg"],
+            ["Rice", "300 g"],
+            ["Onion", "1 unit"],
+            ["Garlic", "3 cloves"],
+            ["Raisins", "100 g"],
+            ["Almonds", "100 g"],
+            ["Chicken Stock", "1.5 L"],
+            ["Cinnamon", "5 g"],
+            ["Cumin", "5 g"],
+            ["Salt", "0 g"],
+            ["Parsley", "10 g"]
+        ]
+    },
+    {
+        "name": "Kale and Potato Soup",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "In a large pot, heat 15 mL olive oil over medium heat. Add 1 diced onion and 2 cloves minced garlic, cook until soft.",
+            "Add 500 g diced potatoes, 1 L vegetable broth, and bring to a simmer. Cook until potatoes are tender, about 15 minutes.",
+            "Add 200 g chopped kale and cook until wilted, about 5 minutes.",
+            "Puree soup until smooth, season with salt and pepper. Serve hot."
+        ],
+        "description": "A comforting and hearty soup made with tender potatoes and nutrient-rich kale, blended into a smooth and creamy consistency.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "15 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Potatoes", "500 g"],
+            ["Vegetable Broth", "1 L"],
+            ["Kale", "200 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Kielbasa and Pepper Skillet",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Slice 500 g kielbasa sausage and cook in a skillet with 15 mL vegetable oil until browned.",
+            "Add 1 each sliced red and yellow bell pepper and 1 sliced onion; cook until vegetables are soft.",
+            "Season with 5 mL paprika and salt to taste. Serve hot, optionally over rice or wrapped in a warm tortilla."
+        ],
+        "description": "A simple and flavorful skillet meal with smoky kielbasa and colorful bell peppers, quick and easy for weeknight dinners.",
+        "backdrop": "",
+        "ingredients": [
+            ["Kielbasa Sausage", "500 g"],
+            ["Vegetable Oil", "15 mL"],
+            ["Red Bell Pepper", "1 unit"],
+            ["Yellow Bell Pepper", "1 unit"],
+            ["Onion", "1 unit"],
+            ["Paprika", "5 mL"],
+            ["Salt", "0 g"]
+        ]
+    },
+    {
+        "name": "Korean Spicy Cucumber Salad",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.3,
+        "servingSize": 4,
+        "method": [
+            "Slice 300 g cucumbers thinly. Sprinkle with 5 g salt and let sit for 10 minutes. Squeeze out excess water.",
+            "Mix cucumbers with 15 mL rice vinegar, 5 g sugar, 10 mL sesame oil, 15 g gochugaru (Korean chili powder), and 20 g chopped green onions.",
+            "Chill for 30 minutes before serving. Garnish with sesame seeds."
+        ],
+        "description": "A refreshing yet spicy side dish featuring thinly sliced cucumbers seasoned with Korean spices and sesame.",
+        "backdrop": "",
+        "ingredients": [
+            ["Cucumbers", "300 g"],
+            ["Salt", "5 g"],
+            ["Rice Vinegar", "15 mL"],
+            ["Sugar", "5 g"],
+            ["Sesame Oil", "10 mL"],
+            ["Gochugaru", "15 g"],
+            ["Green Onions", "20 g"],
+            ["Sesame Seeds", "5 g"]
+        ]
+    },
+    {
+        "name": "King Prawn Linguine",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Cook 400 g linguine pasta according to package instructions.",
+            "In a skillet, heat 15 mL olive oil over medium heat. Add 2 cloves minced garlic and 300 g king prawns; cook until prawns are pink.",
+            "Add 200 mL cream, zest of 1 lemon, and 30 mL chopped parsley. Simmer for 5 minutes.",
+            "Toss with drained pasta, season with salt and pepper. Serve immediately."
+        ],
+        "description": "Luxurious linguine pasta tossed with succulent king prawns in a creamy lemon and garlic sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Linguine Pasta", "400 g"],
+            ["Olive Oil", "15 mL"],
+            ["Garlic", "2 cloves"],
+            ["King Prawns", "300 g"],
+            ["Cream", "200 mL"],
+            ["Lemon", "1 unit"],
+            ["Parsley", "30 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Kale Stuffed Portobello Mushrooms",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "Preheat oven to 190°C.",
+            "Remove stems from 4 large Portobello mushrooms and brush with 15 mL olive oil. Bake for 10 minutes.",
+            "Sauté 200 g chopped kale, 1 diced onion, and 2 cloves minced garlic in 15 mL olive oil until soft.",
+            "Mix sautéed vegetables with 100 g breadcrumbs and 50 g grated Parmesan. Stuff into mushroom caps.",
+            "Bake for an additional 20 minutes. Serve warm."
+        ],
+        "description": "Savory Portobello mushrooms filled with a delicious mix of kale, onions, garlic, and Parmesan.",
+        "backdrop": "",
+        "ingredients": [
+            ["Portobello Mushrooms", "4 units"],
+            ["Olive Oil", "30 mL"],
+            ["Kale", "200 g"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Breadcrumbs", "100 g"],
+            ["Parmesan", "50 g"]
+        ]
+    },
+    {
+        "name": "Kedgeree",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Boil 300 g smoked haddock in 500 mL milk until cooked through, about 10 minutes. Flake the fish and set aside.",
+            "Cook 200 g rice in the same milk until tender.",
+            "In a skillet, heat 15 mL oil, sauté 1 chopped onion and 1 tsp curry powder until soft.",
+            "Combine flaked fish, rice, sautéed onion, and 100 g cooked peas. Heat through.",
+            "Season with salt and pepper, garnish with chopped hard-boiled eggs and parsley before serving."
+        ],
+        "description": "A traditional British dish with Indian influences, featuring smoked haddock, rice, and curry flavors, garnished with hard-boiled eggs.",
+        "backdrop": "",
+        "ingredients": [
+            ["Smoked Haddock", "300 g"],
+            ["Milk", "500 mL"],
+            ["Rice", "200 g"],
+            ["Vegetable Oil", "15 mL"],
+            ["Onion", "1 unit"],
+            ["Curry Powder", "1 tsp"],
+            ["Peas", "100 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Hard-Boiled Eggs", "2 units"],
+            ["Parsley", "10 g"]
+        ]
+    },
+    {
+        "name": "Kielbasa Potato Skillet",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Slice 500 g kielbasa sausage and cook in a skillet with 15 mL vegetable oil until browned.",
+            "Add 500 g cubed potatoes, 1 sliced onion, and 2 cloves minced garlic. Cook until potatoes are golden and tender.",
+            "Season with salt, pepper, and 5 g smoked paprika. Serve hot."
+        ],
+        "description": "A simple yet hearty skillet meal featuring kielbasa sausage, potatoes, and onions, spiced with smoked paprika.",
+        "backdrop": "",
+        "ingredients": [
+            ["Kielbasa Sausage", "500 g"],
+            ["Vegetable Oil", "15 mL"],
+            ["Potatoes", "500 g"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Smoked Paprika", "5 g"]
+        ]
+    },
+    {
+        "name": "Kale Quiche",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.0,
+        "servingSize": 6,
+        "method": [
+            "Preheat oven to 180°C.",
+            "Prepare a pie crust in a 9-inch pan. Blind bake for 10 minutes.",
+            "Sauté 200 g chopped kale, 1 diced onion, and 1 diced bell pepper in 15 mL olive oil until soft.",
+            "Whisk together 4 eggs, 200 mL cream, salt, and pepper. Stir in the sautéed vegetables.",
+            "Pour the mixture into the pie crust. Bake for 35 minutes, or until set.",
+            "Serve warm."
+        ],
+        "description": "A nutritious and flavorful quiche packed with kale and vegetables, nestled in a flaky pastry crust.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pie Crust", "1 unit"],
+            ["Kale", "200 g"],
+            ["Onion", "1 unit"],
+            ["Bell Pepper", "1 unit"],
+            ["Olive Oil", "15 mL"],
+            ["Eggs", "4 units"],
+            ["Cream", "200 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Kumquat Marmalade",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.9,
+        "servingSize": 8,
+        "method": [
+            "Wash and thinly slice 500 g kumquats, removing seeds. Place in a pot with 500 mL water and 400 g sugar.",
+            "Simmer over low heat for 2 hours, stirring occasionally, until the marmalade thickens and becomes glossy.",
+            "Cool and transfer to sterilized jars. Seal and store in a cool, dark place."
+        ],
+        "description": "A sweet and tangy marmalade made from fresh kumquats, perfect for spreading on toast or as a filling for pastries.",
+        "backdrop": "",
+        "ingredients": [
+            ["Kumquats", "500 g"],
+            ["Water", "500 mL"],
+            ["Sugar", "400 g"]
+        ]
+    },
+    {
+        "name": "Korean Kimbap",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Cook 300 g sushi rice according to package instructions. Season with a mix of 15 mL rice vinegar, 5 g sugar, and 2 g salt.",
+            "Lay out a sheet of nori on a bamboo mat. Spread rice evenly, leaving a small margin at the top.",
+            "Arrange strips of 100 g cooked spinach, 50 g pickled radish, 50 g cucumber, and 100 g cooked beef along the bottom of the rice.",
+            "Roll the nori tightly using the mat, then slice into rounds.",
+            "Serve with soy sauce for dipping."
+        ],
+        "description": "Traditional Korean seaweed rice rolls filled with vegetables, pickled radish, and beef, sliced into bite-sized pieces.",
+        "backdrop": "",
+        "ingredients": [
+            ["Sushi Rice", "300 g"],
+            ["Rice Vinegar", "15 mL"],
+            ["Sugar", "5 g"],
+            ["Salt", "2 g"],
+            ["Nori Sheets", "4 units"],
+            ["Spinach", "100 g"],
+            ["Pickled Radish", "50 g"],
+            ["Cucumber", "50 g"],
+            ["Cooked Beef", "100 g"],
+            ["Soy Sauce", "30 mL"]
+        ]
+    },
+    {
+        "name": "Kerala Style Prawn Curry",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Heat 15 mL coconut oil in a pan. Add 1 tsp mustard seeds, 10 curry leaves, and 2 chopped green chilies. Sauté until mustard seeds start to pop.",
+            "Add 200 g chopped onions, cook until golden. Stir in 20 g grated ginger, 3 cloves minced garlic, and 1 tsp turmeric. Cook for 2 minutes.",
+            "Add 500 g prawns and 200 mL coconut milk. Simmer for 10 minutes or until prawns are cooked through.",
+            "Season with salt and garnish with fresh cilantro. Serve with rice."
+        ],
+        "description": "A flavorful South Indian curry with prawns, infused with coconut milk and tempered with mustard seeds and curry leaves.",
+        "backdrop": "",
+        "ingredients": [
+            ["Coconut Oil", "15 mL"],
+            ["Mustard Seeds", "1 tsp"],
+            ["Curry Leaves", "10 units"],
+            ["Green Chilies", "2 units"],
+            ["Onions", "200 g"],
+            ["Ginger", "20 g"],
+            ["Garlic", "3 cloves"],
+            ["Turmeric", "1 tsp"],
+            ["Prawns", "500 g"],
+            ["Coconut Milk", "200 mL"],
+            ["Salt", "0 g"],
+            ["Cilantro", "10 g"],
+            ["Rice", "200 g"]
+        ]
+    },
+    {
+        "name": "Karnataka Bisi Bele Bath",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.2,
+        "servingSize": 6,
+        "method": [
+            "In a pressure cooker, cook 200 g rice and 100 g toor dal with 800 mL water until soft.",
+            "Heat 15 mL ghee in a pan, add 1 tsp mustard seeds, a pinch of asafoetida, 2 dried red chilies, and a few curry leaves.",
+            "Add 150 g tamarind extract, 50 g Bisi Bele Bath masala, 100 g chopped vegetables (carrot, beans, potato), and simmer for 20 minutes.",
+            "Mix cooked dal and rice with the masala. Adjust seasoning and consistency with salt and water.",
+            "Serve hot garnished with fried cashews and chopped coriander."
+        ],
+        "description": "A traditional Karnataka dish that is a spicy melange of rice, lentils, vegetables, and a special blend of spices.",
+        "backdrop": "",
+        "ingredients": [
+            ["Rice", "200 g"],
+            ["Toor Dal", "100 g"],
+            ["Water", "800 mL"],
+            ["Ghee", "15 mL"],
+            ["Mustard Seeds", "1 tsp"],
+            ["Asafoetida", "1 g"],
+            ["Dried Red Chilies", "2 units"],
+            ["Curry Leaves", "10 units"],
+            ["Tamarind Extract", "150 g"],
+            ["Bisi Bele Bath Masala", "50 g"],
+            ["Vegetables (Carrot, Beans, Potato)", "100 g"],
+            ["Salt", "0 g"],
+            ["Cashews", "30 g"],
+            ["Coriander", "10 g"]
+        ]
+    },
+    {
+        "name": "Kale and Blueberry Smoothie",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.1,
+        "servingSize": 2,
+        "method": [
+            "In a blender, combine 100 g kale leaves, 150 g blueberries, 1 banana, 200 mL almond milk, and a tablespoon of honey.",
+            "Blend until smooth. If the smoothie is too thick, adjust the consistency with more almond milk.",
+            "Serve immediately, garnished with a few whole blueberries."
+        ],
+        "description": "A nutrient-packed smoothie blending the sweetness of blueberries with the health benefits of kale, made creamy with almond milk.",
+        "backdrop": "",
+        "ingredients": [
+            ["Kale", "100 g"],
+            ["Blueberries", "150 g"],
+            ["Banana", "1 unit"],
+            ["Almond Milk", "200 mL"],
+            ["Honey", "15 mL"]
+        ]
+    },
+    {
+        "name": "Korean Cold Noodle Salad",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Cook 200 g buckwheat noodles according to package instructions, rinse under cold water and drain.",
+            "In a large bowl, mix noodles with 100 g thinly sliced cucumber, 50 g shredded carrots, and 50 g thinly sliced red bell pepper.",
+            "Prepare a dressing with 30 mL soy sauce, 15 mL sesame oil, 15 mL rice vinegar, 10 g sugar, and 5 g minced garlic. Pour over the noodles and vegetables.",
+            "Toss everything together and chill for at least 30 minutes.",
+            "Garnish with sesame seeds and serve cold."
+        ],
+        "description": "A refreshing and light noodle salad with a tangy sesame-soy dressing, perfect for a summer meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Buckwheat Noodles", "200 g"],
+            ["Cucumber", "100 g"],
+            ["Carrots", "50 g"],
+            ["Red Bell Pepper", "50 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Sesame Oil", "15 mL"],
+            ["Rice Vinegar", "15 mL"],
+            ["Sugar", "10 g"],
+            ["Garlic", "5 g"],
+            ["Sesame Seeds", "5 g"]
+        ]
+    },
+    {
+        "name": "Kashmiri Saag",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "In a large pot, heat 15 mL mustard oil. Add 2 minced garlic cloves, 1 chopped onion, and cook until golden.",
+            "Add 500 g chopped spinach and 200 g chopped mustard greens, cook until wilted.",
+            "Stir in 1 tsp garam masala, 1 tsp turmeric, and salt to taste. Cook for an additional 10 minutes.",
+            "Blend the mixture until smooth. Reheat gently and serve with butter on top."
+        ],
+        "description": "A traditional Kashmiri dish made from greens, seasoned with aromatic spices, and served with a dollop of butter for richness.",
+        "backdrop": "",
+        "ingredients": [
+            ["Mustard Oil", "15 mL"],
+            ["Garlic", "2 cloves"],
+            ["Onion", "1 unit"],
+            ["Spinach", "500 g"],
+            ["Mustard Greens", "200 g"],
+            ["Garam Masala", "1 tsp"],
+            ["Turmeric", "1 tsp"],
+            ["Salt", "0 g"],
+            ["Butter", "20 g"]
+        ]
+    },
+    {
+        "name": "Kiwi Pavlova",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.5,
+        "servingSize": 6,
+        "method": [
+            "Preheat oven to 120°C. Whip 4 egg whites with 250 g caster sugar until stiff peaks form.",
+            "Fold in 1 tsp vinegar and 1 tsp cornstarch. Spoon onto a lined baking sheet in a circular shape.",
+            "Bake for 1.5 hours, then turn off oven and let cool inside.",
+            "Top with whipped cream and sliced kiwis before serving."
+        ],
+        "description": "A light and airy meringue dessert topped with fresh kiwi slices and whipped cream, perfect for a festive occasion.",
+        "backdrop": "",
+        "ingredients": [
+            ["Egg Whites", "4 units"],
+            ["Caster Sugar", "250 g"],
+            ["Vinegar", "1 tsp"],
+            ["Cornstarch", "1 tsp"],
+            ["Whipped Cream", "100 mL"],
+            ["Kiwis", "3 units"]
+        ]
+    },
+    {
+        "name": "Kung Pao Shrimp",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "In a skillet, heat 15 mL vegetable oil over medium heat. Add 500 g shrimp, sauté until pink and opaque.",
+            "Add 100 g diced bell peppers, 50 g peanuts, and 10 dried chilies. Stir-fry for 3 minutes.",
+            "Mix in a sauce made from 30 mL soy sauce, 15 mL hoisin sauce, 10 mL vinegar, and 5 mL sesame oil; cook for 5 minutes.",
+            "Serve hot, garnished with chopped green onions."
+        ],
+        "description": "A spicy and savory dish featuring shrimp and peanuts in a bold Kung Pao sauce, a popular Chinese takeout favorite.",
+        "backdrop": "",
+        "ingredients": [
+            ["Vegetable Oil", "15 mL"],
+            ["Shrimp", "500 g"],
+            ["Bell Peppers", "100 g"],
+            ["Peanuts", "50 g"],
+            ["Dried Chilies", "10 units"],
+            ["Soy Sauce", "30 mL"],
+            ["Hoisin Sauce", "15 mL"],
+            ["Vinegar", "10 mL"],
+            ["Sesame Oil", "5 mL"],
+            ["Green Onions", "10 g"]
+        ]
+    },
+    {
+        "name": "Kentucky Bourbon Chicken",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "In a bowl, combine 30 mL soy sauce, 30 mL bourbon, 15 mL brown sugar, 5 g garlic powder, and 5 g ginger powder to make a marinade.",
+            "Marinate 500 g diced chicken breast in the mixture for at least 2 hours.",
+            "In a skillet, heat 15 mL vegetable oil and cook the chicken until golden and cooked through.",
+            "Serve with steamed broccoli and rice."
+        ],
+        "description": "Succulent chicken marinated in a rich bourbon sauce with a hint of soy, garlic, and ginger, paired perfectly with rice and broccoli.",
+        "backdrop": "",
+        "ingredients": [
+            ["Soy Sauce", "30 mL"],
+            ["Bourbon", "30 mL"],
+            ["Brown Sugar", "15 mL"],
+            ["Garlic Powder", "5 g"],
+            ["Ginger Powder", "5 g"],
+            ["Chicken Breast", "500 g"],
+            ["Vegetable Oil", "15 mL"],
+            ["Broccoli", "200 g"],
+            ["Rice", "200 g"]
+        ]
+    },
+    {
+        "name": "Kohlrabi Slaw",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Peel and julienne 500 g kohlrabi. In a large bowl, toss with 100 g shredded carrot and 50 g thinly sliced red onion.",
+            "Whisk together 30 mL apple cider vinegar, 15 mL honey, 30 mL olive oil, and salt and pepper to taste. Pour over the slaw and toss to coat.",
+            "Chill for 1 hour before serving. Garnish with chopped parsley."
+        ],
+        "description": "A crisp and refreshing slaw made from kohlrabi, carrots, and red onion, dressed with a sweet and tangy vinaigrette.",
+        "backdrop": "",
+        "ingredients": [
+            ["Kohlrabi", "500 g"],
+            ["Carrot", "100 g"],
+            ["Red Onion", "50 g"],
+            ["Apple Cider Vinegar", "30 mL"],
+            ["Honey", "15 mL"],
+            ["Olive Oil", "30 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Parsley", "10 g"]
+        ]
+    },
+    {
+        "name": "Korean Banchan: Spicy Pickled Radishes",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.4,
+        "servingSize": 4,
+        "method": [
+            "Slice 300 g radishes thinly. Sprinkle with 5 g salt and let sit for 30 minutes. Rinse and drain.",
+            "Mix radishes with 30 g gochugaru, 15 mL rice vinegar, 10 g sugar, and 5 g minced garlic.",
+            "Let the mixture sit for at least 3 hours or overnight to pickle.",
+            "Serve as a side dish with Korean meals."
+        ],
+        "description": "A traditional Korean side dish featuring tangy and spicy pickled radishes, perfect as an accompaniment to any meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Radishes", "300 g"],
+            ["Salt", "5 g"],
+            ["Gochugaru", "30 g"],
+            ["Rice Vinegar", "15 mL"],
+            ["Sugar", "10 g"],
+            ["Garlic", "5 g"]
+        ]
+    },
+    {
+        "name": "Kipper Pâté",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Flake 200 g smoked kippers, removing any bones.",
+            "Blend kippers in a food processor with 100 g cream cheese, 15 mL lemon juice, and 5 g chopped dill until smooth.",
+            "Season with black pepper to taste. Chill for at least 2 hours before serving on toast or crackers."
+        ],
+        "description": "A smooth and flavorful pâté made from smoked kippers, cream cheese, and dill, perfect for spreading on crisp toast.",
+        "backdrop": "",
+        "ingredients": [
+            ["Smoked Kippers", "200 g"],
+            ["Cream Cheese", "100 g"],
+            ["Lemon Juice", "15 mL"],
+            ["Dill", "5 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Korean Bean Sprout Salad",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.3,
+        "servingSize": 4,
+        "method": [
+            "Blanch 300 g bean sprouts in boiling water for 30 seconds, then quickly rinse under cold water and drain.",
+            "Mix with 10 g finely chopped green onions, 5 mL sesame oil, 5 mL soy sauce, and a sprinkle of sesame seeds.",
+            "Chill for 1 hour and serve as a refreshing side dish."
+        ],
+        "description": "A light and crunchy salad, perfect as a side dish for Korean meals, featuring blanched bean sprouts seasoned with soy sauce and sesame.",
+        "backdrop": "",
+        "ingredients": [
+            ["Bean Sprouts", "300 g"],
+            ["Green Onions", "10 g"],
+            ["Sesame Oil", "5 mL"],
+            ["Soy Sauce", "5 mL"],
+            ["Sesame Seeds", "5 g"]
+        ]
+    },
+    {
+        "name": "Kedgeree with Smoked Haddock",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "Poach 300 g smoked haddock in milk until cooked through. Flake the fish, discarding any bones.",
+            "Cook 200 g basmati rice. In another pan, heat 15 mL oil and sauté 1 diced onion until soft. Add 1 tsp curry powder and the rice, mixing well.",
+            "Combine rice with haddock, 100 g peas, and chopped hard-boiled eggs.",
+            "Season with salt, pepper, and garnish with chopped parsley. Serve with lemon wedges."
+        ],
+        "description": "A flavorful British-Indian dish of curried rice, smoked haddock, and boiled eggs, garnished with fresh herbs and served with a wedge of lemon.",
+        "backdrop": "",
+        "ingredients": [
+            ["Smoked Haddock", "300 g"],
+            ["Milk", "200 mL"],
+            ["Basmati Rice", "200 g"],
+            ["Vegetable Oil", "15 mL"],
+            ["Onion", "1 unit"],
+            ["Curry Powder", "1 tsp"],
+            ["Peas", "100 g"],
+            ["Hard-Boiled Eggs", "2 units"],
+            ["Parsley", "10 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Lemon Wedges", "4 units"]
+        ]
+    },
+    {
+        "name": "Key Lime Cheesecake",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.3,
+        "servingSize": 8,
+        "method": [
+            "Mix 200 g graham cracker crumbs with 50 g melted butter and press into the bottom of a springform pan.",
+            "Beat 400 g cream cheese with 150 g sugar until smooth. Add 100 mL key lime juice and 3 eggs, one at a time, beating until creamy.",
+            "Pour mixture over crust and bake at 160°C for 50 minutes. Cool and refrigerate for 4 hours.",
+            "Top with whipped cream and lime zest before serving."
+        ],
+        "description": "A decadent cheesecake with a tangy key lime filling atop a buttery graham cracker crust, crowned with whipped cream and lime zest.",
+        "backdrop": "",
+        "ingredients": [
+            ["Graham Cracker Crumbs", "200 g"],
+            ["Butter", "50 g"],
+            ["Cream Cheese", "400 g"],
+            ["Sugar", "150 g"],
+            ["Key Lime Juice", "100 mL"],
+            ["Eggs", "3 units"],
+            ["Whipped Cream", "100 g"],
+            ["Lime Zest", "5 g"]
+        ]
+    },
+    {
+        "name": "Kielbasa Bean Stew",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.7,
+        "servingSize": 6,
+        "method": [
+            "Slice 500 g kielbasa sausage and brown in a large pot. Remove and set aside.",
+            "In the same pot, add 1 chopped onion and 2 cloves minced garlic; sauté until translucent.",
+            "Add 400 g canned white beans, 500 mL chicken broth, 200 g chopped tomatoes, and return kielbasa to the pot.",
+            "Simmer for 30 minutes. Season with salt, pepper, and 5 g smoked paprika. Serve hot with crusty bread."
+        ],
+        "description": "A hearty and warming stew made with kielbasa sausage, white beans, and tomatoes, seasoned with smoked paprika.",
+        "backdrop": "",
+        "ingredients": [
+            ["Kielbasa Sausage", "500 g"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["White Beans", "400 g"],
+            ["Chicken Broth", "500 mL"],
+            ["Tomatoes", "200 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Smoked Paprika", "5 g"],
+            ["Bread", "200 g"]
+        ]
+    },
+    {
+        "name": "Kale and Bean Soup",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "In a large pot, heat 15 mL olive oil. Add 1 chopped onion, 2 minced garlic cloves, and cook until translucent.",
+            "Add 400 g chopped kale and sauté until wilted. Pour in 1 L vegetable broth and bring to a boil.",
+            "Stir in 400 g canned white beans (drained and rinsed) and simmer for 15 minutes.",
+            "Season with salt and pepper. Serve hot, garnished with grated Parmesan."
+        ],
+        "description": "A hearty and healthy soup featuring tender kale and creamy white beans in a savory broth.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "15 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Kale", "400 g"],
+            ["Vegetable Broth", "1 L"],
+            ["White Beans", "400 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Parmesan", "30 g"]
+        ]
+    },
+    {
+        "name": "Korean Spicy Pork Ribs",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Marinate 1 kg pork ribs in a mixture of 30 mL soy sauce, 30 g gochujang, 15 mL honey, 15 g minced garlic, and 10 mL sesame oil for at least 3 hours.",
+            "Preheat oven to 180°C. Place ribs on a baking sheet and cover with foil.",
+            "Bake for 1.5 hours, then remove foil and increase heat to 220°C. Cook for an additional 30 minutes until caramelized.",
+            "Serve garnished with sesame seeds and sliced green onions."
+        ],
+        "description": "Tender pork ribs coated in a sweet and spicy Korean sauce, slow-baked to achieve a deep, rich flavor.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pork Ribs", "1 kg"],
+            ["Soy Sauce", "30 mL"],
+            ["Gochujang", "30 g"],
+            ["Honey", "15 mL"],
+            ["Garlic", "15 g"],
+            ["Sesame Oil", "10 mL"],
+            ["Sesame Seeds", "5 g"],
+            ["Green Onions", "10 g"]
+        ]
+    },
+    {
+        "name": "Kofta Curry",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "Mix 500 g ground lamb with 10 g minced garlic, 10 g minced ginger, 5 g garam masala, 5 g cumin, salt, and pepper. Form into balls.",
+            "Fry kofta balls in 30 mL vegetable oil until browned all over. Set aside.",
+            "In the same pan, add 1 chopped onion, cook until soft. Stir in 200 g crushed tomatoes, 100 mL coconut milk, and return koftas to the pan.",
+            "Simmer for 20 minutes. Garnish with fresh cilantro and serve with naan."
+        ],
+        "description": "Spicy and savory kofta meatballs simmered in a rich tomato and coconut milk sauce, served with warm naan.",
+        "backdrop": "",
+        "ingredients": [
+            ["Ground Lamb", "500 g"],
+            ["Garlic", "10 g"],
+            ["Ginger", "10 g"],
+            ["Garam Masala", "5 g"],
+            ["Cumin", "5 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Vegetable Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Crushed Tomatoes", "200 g"],
+            ["Coconut Milk", "100 mL"],
+            ["Cilantro", "10 g"],
+            ["Naan", "4 units"]
+        ]
+    },
+    {
+        "name": "Key West Chicken Skewers",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "Whisk together 30 mL soy sauce, 15 mL honey, 10 mL lime juice, and 5 g minced garlic. Marinate 500 g chicken breast cubes in this mixture for 2 hours.",
+            "Thread chicken onto skewers, alternating with pieces of bell pepper and onion.",
+            "Grill over medium heat, turning occasionally, until chicken is cooked through, about 10-15 minutes.",
+            "Serve hot, garnished with lime wedges."
+        ],
+        "description": "Grilled chicken skewers marinated in a tangy and sweet sauce, perfect for a summer barbecue.",
+        "backdrop": "",
+        "ingredients": [
+            ["Soy Sauce", "30 mL"],
+            ["Honey", "15 mL"],
+            ["Lime Juice", "10 mL"],
+            ["Garlic", "5 g"],
+            ["Chicken Breast", "500 g"],
+            ["Bell Pepper", "1 unit"],
+            ["Onion", "1 unit"],
+            ["Lime Wedges", "4 units"]
+        ]
+    },
+    {
+        "name": "Kale Caesar Salad with Crispy Chickpeas",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "Preheat oven to 200°C. Toss 200 g chickpeas with 15 mL olive oil and salt. Roast for 20 minutes until crispy.",
+            "In a large bowl, massage 300 g chopped kale with 10 mL olive oil and a pinch of salt until slightly wilted.",
+            "Add crispy chickpeas, 50 g shaved Parmesan, and 100 mL Caesar dressing. Toss to combine.",
+            "Serve topped with additional Parmesan and black pepper."
+        ],
+        "description": "A fresh twist on the classic Caesar salad, featuring nutrient-rich kale, crispy chickpeas, and a creamy Caesar dressing.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chickpeas", "200 g"],
+            ["Olive Oil", "25 mL"],
+            ["Kale", "300 g"],
+            ["Parmesan", "50 g"],
+            ["Caesar Dressing", "100 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Kumquat Chutney",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.0,
+        "servingSize": 6,
+        "method": [
+            "Chop 250 g kumquats and remove seeds. Simmer in a pot with 200 mL apple cider vinegar, 200 g sugar, 50 g raisins, 10 g grated ginger, and a pinch of salt for 1 hour until thickened.",
+            "Cool and transfer to jars. Store in the refrigerator.",
+            "Serve as an accompaniment to meats or cheeses."
+        ],
+        "description": "A tangy and sweet kumquat chutney, perfect for enhancing the flavors of a variety of dishes.",
+        "backdrop": "",
+        "ingredients": [
+            ["Kumquats", "250 g"],
+            ["Apple Cider Vinegar", "200 mL"],
+            ["Sugar", "200 g"],
+            ["Raisins", "50 g"],
+            ["Ginger", "10 g"],
+            ["Salt", "1 g"]
+        ]
+    },
+    {
+        "name": "Kielbasa and Red Cabbage Stew",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Slice 400 g kielbasa sausage and brown in a pot with 15 mL vegetable oil.",
+            "Add 500 g shredded red cabbage, 1 sliced apple, 200 mL chicken broth, and 30 mL red wine vinegar. Simmer for 30 minutes until cabbage is tender.",
+            "Season with salt and pepper. Serve hot."
+        ],
+        "description": "A hearty stew featuring smoky kielbasa sausage and sweet-tart red cabbage, simmered to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Kielbasa Sausage", "400 g"],
+            ["Vegetable Oil", "15 mL"],
+            ["Red Cabbage", "500 g"],
+            ["Apple", "1 unit"],
+            ["Chicken Broth", "200 mL"],
+            ["Red Wine Vinegar", "30 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Kale Pesto Pasta",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Blend 200 g kale, 50 g almonds, 50 g grated Parmesan, 2 cloves garlic, and 100 mL olive oil until smooth.",
+            "Cook 400 g pasta according to package directions, drain, reserving some cooking water.",
+            "Toss pasta with kale pesto, adding reserved water as needed to achieve desired consistency.",
+            "Serve garnished with additional Parmesan and red pepper flakes."
+        ],
+        "description": "A vibrant and healthy twist on traditional pesto, made with kale and almonds, served over al dente pasta.",
+        "backdrop": "",
+        "ingredients": [
+            ["Kale", "200 g"],
+            ["Almonds", "50 g"],
+            ["Parmesan", "50 g"],
+            ["Garlic", "2 cloves"],
+            ["Olive Oil", "100 mL"],
+            ["Pasta", "400 g"],
+            ["Red Pepper Flakes", "5 g"]
+        ]
+    },
+    {
+        "name": "Kedgeree with Smoked Cod",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "Cook 200 g rice in 400 mL water with a pinch of turmeric until fluffy.",
+            "Flake 300 g smoked cod. In a skillet, heat 15 mL butter and lightly fry 1 chopped onion and 2 cloves minced garlic.",
+            "Mix the flaked cod, cooked rice, 100 g peas, and 30 mL cream. Heat through.",
+            "Garnish with chopped parsley and quartered hard-boiled eggs before serving."
+        ],
+        "description": "A flavorful British-Indian dish with smoky cod and aromatic spices mixed with rice, peas, and eggs.",
+        "backdrop": "",
+        "ingredients": [
+            ["Rice", "200 g"],
+            ["Water", "400 mL"],
+            ["Turmeric", "1 g"],
+            ["Smoked Cod", "300 g"],
+            ["Butter", "15 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Peas", "100 g"],
+            ["Cream", "30 mL"],
+            ["Parsley", "10 g"],
+            ["Hard-Boiled Eggs", "2 units"]
+        ]
+    },
+    {
+        "name": "Kale and Roasted Sweet Potato Salad",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Preheat oven to 200°C. Cube 400 g sweet potatoes and toss with 15 mL olive oil and a pinch of salt. Roast for 25 minutes until tender.",
+            "In a large bowl, combine roasted sweet potatoes with 200 g chopped kale, 50 g dried cranberries, and 50 g feta cheese crumbles.",
+            "Whisk together 30 mL balsamic vinegar, 10 mL honey, and 30 mL olive oil for dressing. Pour over the salad and toss.",
+            "Serve chilled or at room temperature."
+        ],
+        "description": "A hearty and colorful salad with roasted sweet potatoes, kale, sweet cranberries, and tangy feta, dressed in a sweet balsamic vinaigrette.",
+        "backdrop": "",
+        "ingredients": [
+            ["Sweet Potatoes", "400 g"],
+            ["Olive Oil", "45 mL"],
+            ["Salt", "0 g"],
+            ["Kale", "200 g"],
+            ["Dried Cranberries", "50 g"],
+            ["Feta Cheese", "50 g"],
+            ["Balsamic Vinegar", "30 mL"],
+            ["Honey", "10 mL"]
+        ]
+    },
+    {
+        "name": "Kashmiri Paneer Masala",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Heat 15 mL vegetable oil in a pan. Fry 200 g cubed paneer until golden and set aside.",
+            "In the same pan, add 1 tsp cumin seeds, 2 crushed cardamom pods, and sauté for 1 minute. Add 200 g pureed tomatoes, 1 tsp garam masala, 1 tsp chili powder, and cook until oil separates.",
+            "Add 100 mL cream and the fried paneer. Simmer for 10 minutes.",
+            "Garnish with fresh coriander and serve with rice or naan."
+        ],
+        "description": "A rich and aromatic North Indian curry featuring soft paneer cubes in a creamy tomato-based sauce with traditional spices.",
+        "backdrop": "",
+        "ingredients": [
+            ["Vegetable Oil", "15 mL"],
+            ["Paneer", "200 g"],
+            ["Cumin Seeds", "1 tsp"],
+            ["Cardamom Pods", "2 units"],
+            ["Tomato Puree", "200 g"],
+            ["Garam Masala", "1 tsp"],
+            ["Chili Powder", "1 tsp"],
+            ["Cream", "100 mL"],
+            ["Coriander", "10 g"],
+            ["Rice or Naan", "200 g"]
+        ]
+    },
+    {
+        "name": "Kielbasa Pepper Skillet",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Slice 500 g kielbasa sausage and sauté in a skillet with 15 mL olive oil until browned.",
+            "Add 1 each sliced red and green bell pepper and 1 sliced onion, sauté until vegetables are soft.",
+            "Season with 5 mL smoked paprika and salt to taste. Serve hot with crusty bread."
+        ],
+        "description": "A quick and flavorful skillet dish featuring smoky kielbasa sausage with colorful bell peppers and onions.",
+        "backdrop": "",
+        "ingredients": [
+            ["Kielbasa Sausage", "500 g"],
+            ["Olive Oil", "15 mL"],
+            ["Red Bell Pepper", "1 unit"],
+            ["Green Bell Pepper", "1 unit"],
+            ["Onion", "1 unit"],
+            ["Smoked Paprika", "5 mL"],
+            ["Salt", "0 g"],
+            ["Bread", "200 g"]
+        ]
+    },
+    {
+        "name": "Kung Pao Cauliflower",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Cut 500 g cauliflower into florets. Toss with 15 mL soy sauce, 15 mL cornstarch, and fry in hot oil until crispy. Set aside.",
+            "In the same pan, add 5 dried chilies, 50 g peanuts, and sauté for 1 minute.",
+            "Add 30 mL soy sauce, 15 mL vinegar, 10 g sugar, and 100 mL water. Bring to a simmer.",
+            "Add the cauliflower back to the pan, toss to coat. Garnish with green onions and serve."
+        ],
+        "description": "A vegetarian take on the classic Chinese dish, featuring crispy cauliflower in a spicy and savory sauce with peanuts.",
+        "backdrop": "",
+        "ingredients": [
+            ["Cauliflower", "500 g"],
+            ["Soy Sauce", "45 mL"],
+            ["Cornstarch", "15 mL"],
+            ["Vegetable Oil", "for frying"],
+            ["Dried Chilies", "5 units"],
+            ["Peanuts", "50 g"],
+            ["Vinegar", "15 mL"],
+            ["Sugar", "10 g"],
+            ["Water", "100 mL"],
+            ["Green Onions", "10 g"]
+        ]
+    },
+    {
+        "name": "Korean Bulgogi Burger",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "Marinate 500 g thinly sliced beef in a mixture of 30 mL soy sauce, 15 mL sesame oil, 10 g sugar, and 5 g garlic for 2 hours.",
+            "Grill the beef until caramelized. Assemble burgers with the beef, kimchi, and a spicy mayo on toasted buns.",
+            "Serve immediately."
+        ],
+        "description": "A fusion dish that combines the sweet and savory flavors of traditional Korean bulgogi with the American classic burger, enhanced with kimchi.",
+        "backdrop": "",
+        "ingredients": [
+            ["Beef", "500 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Sesame Oil", "15 mL"],
+            ["Sugar", "10 g"],
+            ["Garlic", "5 g"],
+            ["Kimchi", "100 g"],
+            ["Spicy Mayo", "50 mL"],
+            ["Buns", "4 units"]
+        ]
+    },
+    {
+        "name": "Kale and Apple Salad with Maple Vinaigrette",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.4,
+        "servingSize": 4,
+        "method": [
+            "In a large bowl, combine 200 g chopped kale, 1 diced apple, and 50 g crumbled goat cheese.",
+            "Make the vinaigrette by whisking together 30 mL maple syrup, 15 mL apple cider vinegar, 30 mL olive oil, and a pinch of salt and pepper.",
+            "Drizzle the dressing over the salad and toss to coat. Top with 30 g toasted walnuts before serving."
+        ],
+        "description": "A fresh and crisp salad combining sweet apples and kale, topped with goat cheese and walnuts, dressed in a sweet maple vinaigrette.",
+        "backdrop": "",
+        "ingredients": [
+            ["Kale", "200 g"],
+            ["Apple", "1 unit"],
+            ["Goat Cheese", "50 g"],
+            ["Maple Syrup", "30 mL"],
+            ["Apple Cider Vinegar", "15 mL"],
+            ["Olive Oil", "30 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Walnuts", "30 g"]
+        ]
+    },
+    {
+        "name": "Korean BBQ Tacos",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Marinate 500 g thinly sliced beef in a mixture of 30 mL soy sauce, 20 g brown sugar, 10 mL sesame oil, and 5 g minced garlic for at least 2 hours.",
+            "Grill the beef until caramelized. Slice into bite-sized pieces.",
+            "Serve on warmed corn tortillas with kimchi, sliced green onions, and a drizzle of sriracha mayo."
+        ],
+        "description": "A fusion dish featuring tender Korean BBQ beef served in soft tacos, topped with spicy kimchi and a creamy sriracha mayo.",
+        "backdrop": "",
+        "ingredients": [
+            ["Beef", "500 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Brown Sugar", "20 g"],
+            ["Sesame Oil", "10 mL"],
+            ["Garlic", "5 g"],
+            ["Corn Tortillas", "8 units"],
+            ["Kimchi", "100 g"],
+            ["Green Onions", "10 g"],
+            ["Sriracha Mayo", "30 mL"]
+        ]
+    },
+    {
+        "name": "Kiwi Coconut Smoothie",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.1,
+        "servingSize": 2,
+        "method": [
+            "In a blender, combine 4 peeled kiwis, 200 mL coconut milk, 1 frozen banana, and 15 mL honey.",
+            "Blend until smooth. Pour into glasses and garnish with kiwi slices.",
+            "Serve immediately for a refreshing treat."
+        ],
+        "description": "A tropical and refreshing smoothie blending sweet kiwis with creamy coconut milk and a touch of honey.",
+        "backdrop": "",
+        "ingredients": [
+            ["Kiwis", "4 units"],
+            ["Coconut Milk", "200 mL"],
+            ["Banana", "1 unit"],
+            ["Honey", "15 mL"]
+        ]
+    },
+    {
+        "name": "Kashmiri Lamb Chops",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Marinate 8 lamb chops in a mix of 30 mL yogurt, 5 g garam masala, 5 g paprika, 5 g garlic paste, and 5 g ginger paste for 4 hours.",
+            "Grill over medium heat until charred and cooked to desired doneness, about 4 minutes per side for medium-rare.",
+            "Serve with mint chutney and naan."
+        ],
+        "description": "Richly spiced lamb chops marinated in a traditional Kashmiri mixture, grilled to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lamb Chops", "8 units"],
+            ["Yogurt", "30 mL"],
+            ["Garam Masala", "5 g"],
+            ["Paprika", "5 g"],
+            ["Garlic Paste", "5 g"],
+            ["Ginger Paste", "5 g"],
+            ["Mint Chutney", "50 mL"],
+            ["Naan", "4 units"]
+        ]
+    },
+    {
+        "name": "Kielbasa and Sauerkraut Skillet",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "In a skillet, heat 15 mL olive oil over medium heat. Slice 400 g kielbasa and fry until browned.",
+            "Add 500 g sauerkraut, 1 sliced onion, and 5 mL caraway seeds. Cook for 20 minutes, stirring occasionally.",
+            "Season with salt and pepper to taste. Serve hot with crusty bread."
+        ],
+        "description": "A hearty Eastern European dish featuring smoky kielbasa and tangy sauerkraut, seasoned with caraway for an authentic flavor.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "15 mL"],
+            ["Kielbasa", "400 g"],
+            ["Sauerkraut", "500 g"],
+            ["Onion", "1 unit"],
+            ["Caraway Seeds", "5 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Bread", "200 g"]
+        ]
+    },
+    {
+        "name": "Kung Pao Brussels Sprouts",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Halve 500 g Brussels sprouts and toss with 15 mL vegetable oil. Roast at 200°C for 20 minutes until crispy.",
+            "In a saucepan, combine 30 mL soy sauce, 15 mL hoisin sauce, 10 mL vinegar, 10 g sugar, and 5 mL sesame oil. Bring to a simmer.",
+            "Add roasted Brussels sprouts to the sauce, toss with 30 g peanuts and 5 g dried chilies.",
+            "Serve hot, garnished with sliced green onions."
+        ],
+        "description": "A delicious twist on a classic Chinese dish, featuring crispy roasted Brussels sprouts with a spicy and savory Kung Pao sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Brussels Sprouts", "500 g"],
+            ["Vegetable Oil", "15 mL"],
+            ["Soy Sauce", "30 mL"],
+            ["Hoisin Sauce", "15 mL"],
+            ["Vinegar", "10 mL"],
+            ["Sugar", "10 g"],
+            ["Sesame Oil", "5 mL"],
+            ["Peanuts", "30 g"],
+            ["Dried Chilies", "5 g"],
+            ["Green Onions", "10 g"]
+        ]
+    },
+    {
+        "name": "Kerala Chicken Stew",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "In a large pot, heat 15 mL coconut oil. Add 1 chopped onion, 2 cloves minced garlic, 20 g grated ginger, and 1 chopped green chili. Sauté until onion is translucent.",
+            "Add 500 g chicken pieces and brown lightly. Pour in 400 mL coconut milk and 200 mL chicken stock. Bring to a boil, then simmer for 30 minutes.",
+            "Stir in 100 g diced potatoes and 100 g carrots. Cook until vegetables are tender.",
+            "Season with salt and pepper. Garnish with fresh curry leaves. Serve with appam or rice."
+        ],
+        "description": "A fragrant and creamy stew from Kerala featuring chicken, coconut milk, and vegetables, seasoned with ginger and curry leaves.",
+        "backdrop": "",
+        "ingredients": [
+            ["Coconut Oil", "15 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Ginger", "20 g"],
+            ["Green Chili", "1 unit"],
+            ["Chicken", "500 g"],
+            ["Coconut Milk", "400 mL"],
+            ["Chicken Stock", "200 mL"],
+            ["Potatoes", "100 g"],
+            ["Carrots", "100 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Curry Leaves", "10 g"],
+            ["Appam or Rice", "200 g"]
+        ]
+    },
+    {
+        "name": "Key Lime Yogurt Parfait",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.3,
+        "servingSize": 4,
+        "method": [
+            "Mix 400 g Greek yogurt with 30 mL key lime juice and 30 g honey until smooth.",
+            "In glasses, layer the yogurt mixture with 100 g crushed graham crackers and 50 g lime zest.",
+            "Chill for 1 hour before serving, topped with whipped cream and additional lime zest."
+        ],
+        "description": "A refreshing and light parfait featuring tangy key lime yogurt layered with sweet graham crackers, perfect for a quick dessert or snack.",
+        "backdrop": "",
+        "ingredients": [
+            ["Greek Yogurt", "400 g"],
+            ["Key Lime Juice", "30 mL"],
+            ["Honey", "30 g"],
+            ["Graham Crackers", "100 g"],
+            ["Lime Zest", "50 g"],
+            ["Whipped Cream", "50 g"]
+        ]
+    },
+    {
+        "name": "Kashmiri Rajma",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Soak 300 g kidney beans overnight. Drain and cook in a pressure cooker with 1 L water until tender.",
+            "In a pan, heat 15 mL vegetable oil, add 1 tsp cumin seeds, 2 bay leaves, and 1 finely chopped onion. Sauté until onions are golden.",
+            "Add 2 minced garlic cloves, 10 g grated ginger, 1 chopped tomato, 1 tsp turmeric, 1 tsp coriander powder, and 1 tsp garam masala. Cook until oil separates.",
+            "Add cooked kidney beans with some cooking liquid, simmer for 20 minutes. Season with salt and garnish with coriander.",
+            "Serve with rice or roti."
+        ],
+        "description": "A rich and hearty bean curry from Kashmir, flavored with traditional spices and simmered to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Kidney Beans", "300 g"],
+            ["Water", "1 L"],
+            ["Vegetable Oil", "15 mL"],
+            ["Cumin Seeds", "1 tsp"],
+            ["Bay Leaves", "2 units"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Ginger", "10 g"],
+            ["Tomato", "1 unit"],
+            ["Turmeric", "1 tsp"],
+            ["Coriander Powder", "1 tsp"],
+            ["Garam Masala", "1 tsp"],
+            ["Salt", "0 g"],
+            ["Coriander", "10 g"],
+            ["Rice or Roti", "200 g"]
+        ]
+    },
+    {
+        "name": "Kofta Kebab Wrap",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "Mix 500 g ground lamb with 10 g minced garlic, 10 g minced onion, 5 g paprika, 5 g cumin, and salt. Form into elongated kebabs around skewers.",
+            "Grill over medium heat until cooked through, about 10 minutes.",
+            "Wrap kebabs in pita bread with lettuce, tomatoes, and tzatziki sauce.",
+            "Serve immediately."
+        ],
+        "description": "Savory grilled lamb koftas wrapped in soft pita with fresh vegetables and a cooling tzatziki sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Ground Lamb", "500 g"],
+            ["Garlic", "10 g"],
+            ["Onion", "10 g"],
+            ["Paprika", "5 g"],
+            ["Cumin", "5 g"],
+            ["Salt", "0 g"],
+            ["Pita Bread", "4 units"],
+            ["Lettuce", "50 g"],
+            ["Tomatoes", "2 units"],
+            ["Tzatziki Sauce", "50 mL"]
+        ]
+    },
+    {
+        "name": "Kale and Gouda Cheese Frittata",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Whisk together 6 eggs, 50 mL milk, salt, and pepper.",
+            "In a skillet, sauté 150 g chopped kale until wilted. Add 100 g diced Gouda cheese.",
+            "Pour the egg mixture over the kale and cheese. Cook over low heat until eggs are set but still moist.",
+            "Finish under the broiler until golden. Slice and serve."
+        ],
+        "description": "A delicious frittata combining earthy kale and creamy Gouda cheese, perfect for breakfast or a light dinner.",
+        "backdrop": "",
+        "ingredients": [
+            ["Eggs", "6 units"],
+            ["Milk", "50 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Kale", "150 g"],
+            ["Gouda Cheese", "100 g"]
+        ]
+    },
+    {
+        "name": "Korean Style Pan-Fried Snapper",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Season 4 snapper fillets with salt and pepper. Dust with flour.",
+            "In a skillet, heat 15 mL sesame oil over medium heat. Cook fillets until golden and cooked through, about 4 minutes per side.",
+            "Serve with a sauce made from 30 mL soy sauce, 10 mL honey, and juice of 1 lime.",
+            "Garnish with sliced scallions and sesame seeds."
+        ],
+        "description": "Tender snapper fillets pan-fried to perfection, served with a sweet and tangy Korean-inspired sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Snapper Fillets", "4 units"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Flour", "30 g"],
+            ["Sesame Oil", "15 mL"],
+            ["Soy Sauce", "30 mL"],
+            ["Honey", "10 mL"],
+            ["Lime", "1 unit"],
+            ["Scallions", "10 g"],
+            ["Sesame Seeds", "5 g"]
+        ]
+    },
+    {
+        "name": "Key West Shrimp Ceviche",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Mix 500 g cooked and cooled shrimp with juice of 2 limes, 1 chopped red onion, 1 diced avocado, and 100 g diced tomatoes.",
+            "Season with salt, pepper, and 5 mL hot sauce. Refrigerate for 1 hour to allow flavors to meld.",
+            "Serve chilled, garnished with fresh cilantro and additional lime wedges."
+        ],
+        "description": "A refreshing ceviche with juicy shrimp, citrusy lime juice, and fresh vegetables, perfect for a light meal or appetizer.",
+        "backdrop": "",
+        "ingredients": [
+            ["Shrimp", "500 g"],
+            ["Limes", "2 units"],
+            ["Red Onion", "1 unit"],
+            ["Avocado", "1 unit"],
+            ["Tomatoes", "100 g"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Hot Sauce", "5 mL"],
+            ["Cilantro", "10 g"]
+        ]
+    },
+    {
+        "name": "Kabocha Squash Soup",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Peel and cube 1 kg kabocha squash. In a large pot, sauté squash with 1 chopped onion and 2 cloves garlic in 15 mL olive oil until onion is translucent.",
+            "Add 1 L vegetable broth and bring to a boil. Reduce heat and simmer until squash is tender, about 25 minutes.",
+            "Puree the soup with an immersion blender. Season with salt, pepper, and a pinch of nutmeg.",
+            "Serve hot, garnished with a dollop of cream and roasted pumpkin seeds."
+        ],
+        "description": "A smooth and creamy soup made from kabocha squash, subtly spiced and enriched with a touch of cream.",
+        "backdrop": "",
+        "ingredients": [
+            ["Kabocha Squash", "1 kg"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Olive Oil", "15 mL"],
+            ["Vegetable Broth", "1 L"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Nutmeg", "1 g"],
+            ["Cream", "50 mL"],
+            ["Pumpkin Seeds", "30 g"]
+        ]
+    },
+    {
+        "name": "Kiwi and Strawberry Tart",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.2,
+        "servingSize": 6,
+        "method": [
+            "Preheat oven to 180°C. Roll out 300 g pastry dough and line a tart pan. Prick with a fork and bake for 15 minutes.",
+            "Mix 200 mL cream cheese with 50 g sugar and 5 mL vanilla extract. Spread over the cooled crust.",
+            "Top with sliced kiwis and strawberries in a decorative pattern.",
+            "Chill for 2 hours before serving."
+        ],
+        "description": "A delightful dessert tart featuring a creamy filling and topped with fresh kiwis and strawberries on a buttery crust.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pastry Dough", "300 g"],
+            ["Cream Cheese", "200 mL"],
+            ["Sugar", "50 g"],
+            ["Vanilla Extract", "5 mL"],
+            ["Kiwis", "3 units"],
+            ["Strawberries", "150 g"]
+        ]
+    },
+    {
+        "name": "Kung Pao Calamari",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Slice 500 g calamari into rings. In a bowl, toss with 10 mL soy sauce and 15 g cornstarch.",
+            "Heat 15 mL vegetable oil in a wok over high heat. Add calamari and stir-fry until crisp, about 2 minutes. Remove and set aside.",
+            "In the same wok, add 5 dried chilies and 50 g peanuts, stir-fry for 1 minute.",
+            "Mix in a sauce made from 30 mL soy sauce, 15 mL vinegar, 10 g sugar, 5 mL sesame oil, and 100 mL water. Bring to a simmer.",
+            "Return calamari to the wok, toss to coat with the sauce. Cook for an additional 2 minutes.",
+            "Garnish with chopped green onions and serve immediately."
+        ],
+        "description": "A spicy and savory dish featuring crispy calamari in the classic Kung Pao style, accented with peanuts and chilies.",
+        "backdrop": "",
+        "ingredients": [
+            ["Calamari", "500 g"],
+            ["Soy Sauce", "40 mL"],
+            ["Cornstarch", "15 g"],
+            ["Vegetable Oil", "15 mL"],
+            ["Dried Chilies", "5 units"],
+            ["Peanuts", "50 g"],
+            ["Vinegar", "15 mL"],
+            ["Sugar", "10 g"],
+            ["Sesame Oil", "5 mL"],
+            ["Water", "100 mL"],
+            ["Green Onions", "10 g"]
+        ]
     }
 ]
