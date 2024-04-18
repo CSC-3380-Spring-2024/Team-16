@@ -15,9 +15,9 @@ public class ReviewService {
     private MongoTemplate mongoTemplate;
     @Autowired
     private ReviewRepository reviewRepository;
-    public Review createReview (String reviewBody, String name)
+    public Review createReview (String header, String reviewBody, String author,String name)
     {
-        Review review = reviewRepository.insert(new Review(reviewBody));
+        Review review = reviewRepository.insert(new Review(header,reviewBody,author));
 
          mongoTemplate.update(Recipe.class)
                  .matching(Criteria.where("name").is(name))

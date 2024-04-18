@@ -72,7 +72,7 @@ public class Fuzzy {
         return totalUnusedIngredientScore;
     }
 
-    public static double generateRecipeScore(Recipe recipe, float starRating, float difficultyRating, Pantry pantry) {
+    public static double generateRecipeScore(Recipe recipe, double starRating, double difficultyRating, Pantry pantry) {
         // Initialize score with a starting value of 100
         double score = 10.0;
 
@@ -110,7 +110,7 @@ public class Fuzzy {
 
             // Generate score for the recipe
             float starRating = (float) recipeManager.getStarRating(recipe.getId());
-            float difficultyRating = recipeManager.getDifficultyRating(recipe.getId());
+            double difficultyRating = recipeManager.getDifficultyRating(recipe.getId());
             double score = generateRecipeScore(recipe,  starRating, difficultyRating, pantry);
 
             // Create a map to store score and recipe

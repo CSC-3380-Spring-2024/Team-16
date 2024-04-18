@@ -43,7 +43,7 @@ public class RecipeManager {
         Recipe recipe = recipes.get(id);
         return recipe.getStarRating();
     }
-    public float getDifficultyRating(ObjectId id) {
+    public double getDifficultyRating(ObjectId id) {
         Recipe recipe = recipes.get(id);
         return recipe.getDifficultyRating();
     }

@@ -27,12 +27,13 @@ public class Recipe {
     private ObjectId id;        //MongoDB internal ObjectId
     private String name;
     private double starRating;       // Star rating out of 5
-    private float difficultyRating; // Difficulty Rating out of 5
+    private double difficultyRating; // Difficulty Rating out of 5
     private int servingSize;
     private List<String> method;
     private String description;
     private List<String> reviewId;
     private String backdrop;
+    private int peopleReviewed;
 
     // Serving size that the recipe produces
      // Tells database to store only the Ids of ingredients
@@ -75,7 +76,7 @@ public class Recipe {
     }
 
     // Method to get the star rating of the recipe
-    public float getDifficultyRating() {
+    public double getDifficultyRating() {
         return difficultyRating;
     }
 

@@ -36,13 +36,23 @@ public class RecipeController {
         }
         return new ResponseEntity<Recipe>(recipeAdded, HttpStatus.OK);
     }
-    @PostMapping("/starRating")
-    public String starRating (@RequestBody Map<String, String> payload)
+    
+    public String starRating ( double star, String nameString)
     {
-        float starRating = Float.parseFloat(payload.get("starRating"));
-        String name = payload.get("name");
+        double starRating = star;
+        String name = nameString;
 
         String updating = recipeService.starRating(starRating,name);
+
+
+        return updating;
+    }
+    public String difficultyRating ( double difficult, String nameString)
+    {
+        double difficultyRating = difficult;
+        String name = nameString;
+
+        String updating = recipeService.starRating(difficultyRating,name);
 
 
         return updating;
