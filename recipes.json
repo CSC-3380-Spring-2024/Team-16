@@ -21052,5 +21052,2039 @@
             ["Water", "100 mL"],
             ["Green Onions", "10 g"]
         ]
+    },
+    {
+        "name": "Lemon Lavender Chicken",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Marinate 4 chicken breasts in a mixture of 30 mL lemon juice, 15 mL olive oil, 5 g dried lavender, and 5 g salt for 2 hours.",
+            "Bake in a preheated oven at 190°C (375°F) for 25 minutes or until cooked through.",
+            "Serve with a side of steamed asparagus and drizzled with extra lemon juice."
+        ],
+        "description": "Aromatic chicken marinated in lemon and lavender, offering a refreshing and floral twist to a classic dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breasts", "4 units"],
+            ["Lemon Juice", "30 mL"],
+            ["Olive Oil", "15 mL"],
+            ["Dried Lavender", "5 g"],
+            ["Salt", "5 g"],
+            ["Asparagus", "0 g"]
+        ]
+    },
+    {
+        "name": "Linguine with Clam Sauce",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Cook 400 g of linguine al dente, drain and set aside.",
+            "In a skillet, heat 30 mL of olive oil, sauté 4 minced garlic cloves, then add 200 g of canned clams with their juice.",
+            "Simmer for 10 minutes, then toss with the pasta and 15 mL of chopped parsley.",
+            "Serve hot, sprinkled with grated Parmesan cheese."
+        ],
+        "description": "A simple yet elegant pasta dish featuring linguine tossed in a savory clam sauce with garlic and parsley.",
+        "backdrop": "",
+        "ingredients": [
+            ["Linguine", "400 g"],
+            ["Olive Oil", "30 mL"],
+            ["Garlic", "4 cloves"],
+            ["Canned Clams", "200 g"],
+            ["Parsley", "15 mL"],
+            ["Parmesan Cheese", "0 g"]
+        ]
+    },
+    {
+        "name": "Lamb Tagine with Apricots",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "Brown 1 kg of lamb shoulder, cut into chunks, in 30 mL of oil.",
+            "Add 1 chopped onion, 3 cloves of minced garlic, and 5 g each of cumin, cinnamon, and ginger. Cook for 5 minutes.",
+            "Add 500 mL of chicken stock and 200 g of dried apricots. Simmer covered for 1 hour.",
+            "Serve with couscous and garnish with toasted almonds."
+        ],
+        "description": "Rich and flavorful Moroccan-inspired tagine, with tender lamb and sweet apricots, spiced perfectly with traditional seasonings.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lamb Shoulder", "1 kg"],
+            ["Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "3 cloves"],
+            ["Cumin", "5 g"],
+            ["Cinnamon", "5 g"],
+            ["Ginger", "5 g"],
+            ["Chicken Stock", "500 mL"],
+            ["Dried Apricots", "200 g"],
+            ["Couscous", "0 g"],
+            ["Toasted Almonds", "0 g"]
+        ]
+    },
+    {
+        "name": "Lobster Bisque",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.5,
+        "servingSize": 4,
+        "method": [
+            "Cook 2 whole lobsters in boiling water, remove meat, and reserve shells.",
+            "Sauté shells in 30 mL of oil, add 1 chopped carrot, 1 stalk of celery, and 1 onion. Cook until vegetables are soft.",
+            "Add 500 mL of fish stock and 250 mL of cream. Simmer for 30 minutes, then strain.",
+            "Add lobster meat back to the strained soup, heat through, and serve garnished with fresh chives."
+        ],
+        "description": "A creamy and luxurious soup made from fresh lobsters, enriched with a deep seafood flavor and smooth texture.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lobsters", "2 units"],
+            ["Oil", "30 mL"],
+            ["Carrot", "1 unit"],
+            ["Celery", "1 stalk"],
+            ["Onion", "1 unit"],
+            ["Fish Stock", "500 mL"],
+            ["Cream", "250 mL"],
+            ["Chives", "0 g"]
+        ]
+    },
+    {
+        "name": "Lemon Poppy Seed Cake",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.6,
+        "servingSize": 6,
+        "method": [
+            "Cream 200 g of butter with 200 g of sugar until light and fluffy. Beat in 3 eggs one at a time.",
+            "Mix in 250 g of flour, 10 g of baking powder, 5 g of poppy seeds, and zest of 2 lemons.",
+            "Pour into a greased loaf pan and bake at 180°C (356°F) for 50 minutes.",
+            "Glaze with a mix of lemon juice and powdered sugar before serving."
+        ],
+        "description": "A moist and fluffy cake infused with lemon zest and dotted with poppy seeds, topped with a sweet lemon glaze.",
+        "backdrop": "",
+        "ingredients": [
+            ["Butter", "200 g"],
+            ["Sugar", "200 g"],
+            ["Eggs", "3 units"],
+            ["Flour", "250 g"],
+            ["Baking Powder", "10 g"],
+            ["Poppy Seeds", "5 g"],
+            ["Lemon Zest", "2 lemons"],
+            ["Lemon Juice", "0 g"],
+            ["Powdered Sugar", "0 g"]
+        ]
+    },
+    {
+        "name": "Lemon Herb Roasted Turkey",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.3,
+        "servingSize": 8,
+        "method": [
+            "Rub a 5 kg turkey with a mix of 30 g of salt, 30 g of pepper, 15 g of rosemary, and the zest of 2 lemons.",
+            "Stuff the cavity with halved lemons and a bunch of thyme.",
+            "Roast in a preheated oven at 175°C (347°F) for 3.5 hours, or until the internal temperature reaches 74°C (165°F).",
+            "Rest the turkey for 20 minutes before carving. Serve with a side of roasted vegetables."
+        ],
+        "description": "Flavorful and moist turkey seasoned with lemon and fresh herbs, perfect for holiday feasts or special occasions.",
+        "backdrop": "",
+        "ingredients": [
+            ["Turkey", "5 kg"],
+            ["Salt", "30 g"],
+            ["Pepper", "30 g"],
+            ["Rosemary", "15 g"],
+            ["Lemons", "2 units"],
+            ["Thyme", "0 g"],
+            ["Roasted Vegetables", "0 g"]
+        ]
+    },
+    {
+        "name": "Lobster Roll",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Cook 500 g of lobster meat in boiling water, then chop.",
+            "Mix lobster with 30 mL of mayonnaise, 5 mL of lemon juice, and a pinch of salt and pepper.",
+            "Spoon the mixture into 4 split-top buns, lightly toasted with butter.",
+            "Serve immediately, garnished with a sprinkle of chives."
+        ],
+        "description": "A New England classic, featuring succulent lobster mixed with a light dressing and served in a buttery, toasted bun.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lobster Meat", "500 g"],
+            ["Mayonnaise", "30 mL"],
+            ["Lemon Juice", "5 mL"],
+            ["Salt", "0 g"],
+            ["Pepper", "0 g"],
+            ["Buns", "4 units"],
+            ["Butter", "0 g"],
+            ["Chives", "0 g"]
+        ]
+    },
+    {
+        "name": "Lime Coconut Curry Chicken",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "In a skillet, brown 500 g of diced chicken breast in 15 mL of coconut oil.",
+            "Add 200 mL of coconut milk, 30 mL of lime juice, 5 g of curry powder, and simmer for 20 minutes.",
+            "Stir in 50 g of diced tomatoes and 50 g of chopped cilantro. Cook for an additional 5 minutes.",
+            "Serve over steamed jasmine rice."
+        ],
+        "description": "A tropical curry with bold flavors of lime and coconut, complemented by tender chicken and aromatic spices.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breast", "500 g"],
+            ["Coconut Oil", "15 mL"],
+            ["Coconut Milk", "200 mL"],
+            ["Lime Juice", "30 mL"],
+            ["Curry Powder", "5 g"],
+            ["Tomatoes", "50 g"],
+            ["Cilantro", "50 g"],
+            ["Jasmine Rice", "0 g"]
+        ]
+    },
+    {
+        "name": "Linguine with Lemon Cream Sauce",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "Cook 400 g of linguine until al dente. Drain, reserving some pasta water.",
+            "In the same pot, melt 30 g of butter and add 200 mL of cream and zest of 1 lemon. Simmer for 5 minutes.",
+            "Toss the linguine with the cream sauce, adding pasta water as needed to loosen the sauce.",
+            "Serve garnished with Parmesan cheese and black pepper."
+        ],
+        "description": "Delicate linguine tossed in a smooth and tangy lemon cream sauce, a quick yet elegant pasta dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Linguine", "400 g"],
+            ["Butter", "30 g"],
+            ["Cream", "200 mL"],
+            ["Lemon Zest", "1 lemon"],
+            ["Parmesan Cheese", "0 g"],
+            ["Black Pepper", "0 g"]
+        ]
+    },
+    {
+        "name": "Layered Vegetable Lasagna",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.2,
+        "servingSize": 6,
+        "method": [
+            "Layer sheets of lasagna with 300 g of spinach, 200 g of ricotta cheese, 200 g of sliced zucchini, and 300 g of marinara sauce in a baking dish.",
+            "Repeat the layers twice, topping the final layer with 100 g of shredded mozzarella cheese.",
+            "Bake at 190°C (375°F) for 45 minutes or until bubbly and golden on top.",
+            "Let stand for 10 minutes before serving."
+        ],
+        "description": "A hearty and healthy lasagna packed with layers of fresh vegetables, ricotta, and marinara sauce, topped with melty mozzarella.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lasagna Sheets", "12 units"],
+            ["Spinach", "300 g"],
+            ["Ricotta Cheese", "200 g"],
+            ["Zucchini", "200 g"],
+            ["Marinara Sauce", "300 g"],
+            ["Mozzarella Cheese", "100 g"]
+        ]
+    },
+    {
+        "name": "Lamb Loin Chops with Mint Pesto",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "For the pesto, blend 50 g of fresh mint leaves, 30 g of almonds, 1 clove of garlic, 60 mL of olive oil, and salt and pepper to taste until smooth.",
+            "Season 8 lamb loin chops with salt and pepper, and grill over high heat for 4 minutes per side for medium-rare.",
+            "Serve the chops drizzled with the mint pesto."
+        ],
+        "description": "Tender grilled lamb loin chops enhanced with a vibrant and fresh mint pesto, a perfect combination of flavors.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lamb Loin Chops", "8 units"],
+            ["Mint Leaves", "50 g"],
+            ["Almonds", "30 g"],
+            ["Garlic", "1 clove"],
+            ["Olive Oil", "60 mL"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"]
+        ]
+    },
+    {
+        "name": "Lemon Dill Salmon Fillets",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "Mix 30 mL of lemon juice, 30 mL of olive oil, 5 g of chopped fresh dill, and salt and pepper to taste.",
+            "Marinate 4 salmon fillets in the mixture for 30 minutes.",
+            "Bake at 200°C (392°F) for 15 minutes, or until the salmon flakes easily with a fork.",
+            "Serve with a side of steamed green beans."
+        ],
+        "description": "Oven-baked salmon fillets marinated in lemon and dill, offering a light and refreshing flavor ideal for a healthy meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Salmon Fillets", "4 units"],
+            ["Lemon Juice", "30 mL"],
+            ["Olive Oil", "30 mL"],
+            ["Fresh Dill", "5 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Green Beans", "0 g"]
+        ]
+    },
+    {
+        "name": "Linguine with Lobster Sauce",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "Sauté 1 minced onion and 2 cloves of garlic in 30 mL of butter until translucent.",
+            "Add 500 g of chopped cooked lobster meat and 100 mL of brandy, simmer until the brandy is reduced by half.",
+            "Stir in 500 mL of heavy cream, bring to a boil, and simmer for 10 minutes until thickened.",
+            "Toss with 400 g of cooked linguine and serve garnished with chopped parsley and lemon wedges."
+        ],
+        "description": "Luxurious linguine enveloped in a creamy lobster sauce, enriched with brandy for an extra layer of flavor.",
+        "backdrop": "",
+        "ingredients": [
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Butter", "30 mL"],
+            ["Cooked Lobster Meat", "500 g"],
+            ["Brandy", "100 mL"],
+            ["Heavy Cream", "500 mL"],
+            ["Linguine", "400 g"],
+            ["Parsley", "0 g"],
+            ["Lemon Wedges", "0 g"]
+        ]
+    },
+    {
+        "name": "Lamb and Lentil Stew",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Brown 500 g of diced lamb shoulder in 30 mL of olive oil in a large pot.",
+            "Add 1 chopped onion, 2 chopped carrots, and 2 cloves of minced garlic, cook until the onion is soft.",
+            "Stir in 200 g of rinsed lentils, 1 liter of beef broth, and 5 g of thyme. Simmer covered for 1 hour or until the lentils are tender.",
+            "Season with salt and pepper and serve with crusty bread."
+        ],
+        "description": "A hearty stew with tender lamb and earthy lentils, infused with aromatic herbs, perfect for a comforting meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lamb Shoulder", "500 g"],
+            ["Olive Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Carrots", "2 units"],
+            ["Garlic", "2 cloves"],
+            ["Lentils", "200 g"],
+            ["Beef Broth", "1 L"],
+            ["Thyme", "5 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Crusty Bread", "0 g"]
+        ]
+    },
+    {
+        "name": "Leek and Potato Soup",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Sauté 3 sliced leeks and 2 diced potatoes in 30 mL of butter until the leeks are soft.",
+            "Add 1 liter of vegetable broth and bring to a boil. Simmer for 20 minutes or until the potatoes are tender.",
+            "Blend the soup until smooth, season with salt and pepper, and stir in 100 mL of cream.",
+            "Serve hot, garnished with chopped chives."
+        ],
+        "description": "A creamy and comforting soup featuring soft leeks and tender potatoes, blended into a smooth and flavorful dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Leeks", "3 units"],
+            ["Potatoes", "2 units"],
+            ["Butter", "30 mL"],
+            ["Vegetable Broth", "1 L"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Cream", "100 mL"],
+            ["Chives", "0 g"]
+        ]
+    },
+    {
+        "name": "Lobster Thermidor",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.6,
+        "servingSize": 4,
+        "method": [
+            "Boil 2 whole lobsters for 15 minutes, then extract the meat and chop. Reserve shells.",
+            "Sauté 30 g of minced shallots in 30 mL of butter until translucent. Add 15 mL of brandy and flambé.",
+            "Stir in 250 mL of heavy cream, reduce by half, then mix in the lobster meat with 5 g of mustard and 5 g of chopped tarragon.",
+            "Fill the lobster shells with the mixture, top with 50 g of grated Parmesan, and broil until golden.",
+            "Serve immediately."
+        ],
+        "description": "A luxurious French dish featuring succulent lobster in a creamy, cognac-flavored sauce, baked in its shell with Parmesan.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lobsters", "2 units"],
+            ["Shallots", "30 g"],
+            ["Butter", "30 mL"],
+            ["Brandy", "15 mL"],
+            ["Heavy Cream", "250 mL"],
+            ["Mustard", "5 g"],
+            ["Tarragon", "5 g"],
+            ["Parmesan", "50 g"]
+        ]
+    },
+    {
+        "name": "Lime-Marinated Grilled Shrimp",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Marinate 400 g of shrimp in a mixture of 30 mL of lime juice, 15 mL of olive oil, 5 g of minced garlic, and 5 g of chili flakes for 1 hour.",
+            "Skewer the shrimp and grill over medium heat for 3 minutes per side.",
+            "Serve with a fresh mango salsa made from 200 g of diced mango, 50 g of diced red pepper, and 15 mL of lime juice."
+        ],
+        "description": "Zesty and slightly spicy shrimp grilled to perfection, paired with a sweet and tangy mango salsa.",
+        "backdrop": "",
+        "ingredients": [
+            ["Shrimp", "400 g"],
+            ["Lime Juice", "45 mL"],
+            ["Olive Oil", "15 mL"],
+            ["Garlic", "5 g"],
+            ["Chili Flakes", "5 g"],
+            ["Mango", "200 g"],
+            ["Red Pepper", "50 g"]
+        ]
+    },
+    {
+        "name": "Lemon-Pepper Roasted Chicken",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Rub a whole chicken with a mixture of 30 mL of olive oil, the zest of 1 lemon, 10 g of cracked black pepper, and 5 g of salt.",
+            "Place lemon slices inside the chicken cavity and truss the legs.",
+            "Roast in a preheated oven at 190°C (375°F) for 1 hour and 20 minutes, or until the juices run clear.",
+            "Let rest for 10 minutes before serving."
+        ],
+        "description": "Crispy-skinned chicken roasted with a fragrant lemon-pepper seasoning, perfect for a flavorful Sunday dinner.",
+        "backdrop": "",
+        "ingredients": [
+            ["Whole Chicken", "1 unit"],
+            ["Olive Oil", "30 mL"],
+            ["Lemon", "1 unit"],
+            ["Black Pepper", "10 g"],
+            ["Salt", "5 g"]
+        ]
+    },
+    {
+        "name": "Lamb Koftas with Tzatziki",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Mix 500 g of ground lamb with 10 g of minced garlic, 10 g of chopped mint, 5 g of cumin, and salt and pepper to taste.",
+            "Form into 12 koftas and grill over medium heat for 6 minutes per side.",
+            "Serve with tzatziki made from 250 g of Greek yogurt, 50 g of grated cucumber, 5 mL of lemon juice, and 5 g of minced garlic."
+        ],
+        "description": "Spicy and aromatic lamb koftas paired with a cool and creamy tzatziki sauce, perfect for a Mediterranean-inspired meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Ground Lamb", "500 g"],
+            ["Garlic", "10 g"],
+            ["Mint", "10 g"],
+            ["Cumin", "5 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Greek Yogurt", "250 g"],
+            ["Cucumber", "50 g"],
+            ["Lemon Juice", "5 mL"]
+        ]
+    },
+    {
+        "name": "Layered Ratatouille",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Thinly slice 1 zucchini, 1 yellow squash, 1 eggplant, and 2 tomatoes.",
+            "Arrange in an overlapping pattern in a baking dish.",
+            "Drizzle with a mix of 30 mL olive oil, 5 g minced garlic, and herbs.",
+            "Cover and bake at 175°C (350°F) for 45 minutes, then uncover and bake for an additional 15 minutes.",
+            "Serve warm, sprinkled with fresh basil."
+        ],
+        "description": "A visually stunning and delicious dish with layers of summer vegetables, all beautifully seasoned and baked.",
+        "backdrop": "",
+        "ingredients": [
+            ["Zucchini", "1 unit"],
+            ["Yellow Squash", "1 unit"],
+            ["Eggplant", "1 unit"],
+            ["Tomatoes", "2 units"],
+            ["Olive Oil", "30 mL"],
+            ["Garlic", "5 g"],
+            ["Herbs", "5 g"],
+            ["Basil", "0 g"]
+        ]
+    },
+    {
+        "name": "Lemon Basil Pasta",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Cook 400 g of fettuccine until al dente. Drain, reserving some pasta water.",
+            "In a skillet, heat 30 mL of olive oil, add the zest and juice of 1 lemon, and 30 g of fresh chopped basil.",
+            "Toss the pasta with the lemon basil sauce, adding pasta water as needed to achieve the desired consistency.",
+            "Season with salt and pepper, serve topped with grated Parmesan cheese."
+        ],
+        "description": "A light and refreshing pasta dish featuring a simple lemon basil sauce, perfect for a quick summer meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Fettuccine", "400 g"],
+            ["Olive Oil", "30 mL"],
+            ["Lemon", "1 unit"],
+            ["Fresh Basil", "30 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Parmesan Cheese", "50 g"]
+        ]
+    },
+    {
+        "name": "Lamb Shank Osso Buco",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.5,
+        "servingSize": 4,
+        "method": [
+            "Season 4 lamb shanks with salt and pepper. Brown in a hot pan with 30 mL of olive oil.",
+            "Remove the shanks and sauté 1 chopped onion, 2 diced carrots, and 2 diced celery stalks in the same pan.",
+            "Add 200 mL of white wine and reduce by half. Return the shanks to the pan, add 500 mL of chicken broth, and simmer for 2 hours until the meat is tender.",
+            "Serve with gremolata made from lemon zest, garlic, and parsley."
+        ],
+        "description": "A hearty and luxurious dish where lamb shanks are slowly braised with vegetables and white wine, topped with a fresh gremolata.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lamb Shanks", "4 units"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Olive Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Carrots", "2 units"],
+            ["Celery Stalks", "2 units"],
+            ["White Wine", "200 mL"],
+            ["Chicken Broth", "500 mL"],
+            ["Gremolata", "0 g"]
+        ]
+    },
+    {
+        "name": "Loaded Baked Potato Soup",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Bake 4 large potatoes until tender. Scoop out the flesh and mash lightly.",
+            "In a pot, cook 5 slices of chopped bacon until crisp. Remove bacon and set aside.",
+            "In the same pot, sauté 1 diced onion in the bacon fat. Add the potato flesh, 500 mL of chicken broth, and 250 mL of cream. Simmer for 20 minutes.",
+            "Serve topped with crisp bacon, shredded cheddar cheese, and chopped green onions."
+        ],
+        "description": "Creamy and comforting potato soup loaded with all the fixings of a baked potato, perfect for a chilly day.",
+        "backdrop": "",
+        "ingredients": [
+            ["Potatoes", "4 units"],
+            ["Bacon", "5 slices"],
+            ["Onion", "1 unit"],
+            ["Chicken Broth", "500 mL"],
+            ["Cream", "250 mL"],
+            ["Cheddar Cheese", "50 g"],
+            ["Green Onions", "30 g"]
+        ]
+    },
+    {
+        "name": "Linguine Carbonara",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "Cook 400 g of linguine al dente. Reserve 120 mL of pasta water.",
+            "In a pan, cook 100 g of pancetta until crisp. Remove and set aside.",
+            "Beat 3 eggs with 100 g of grated Parmesan cheese and black pepper.",
+            "Toss the hot pasta with the egg mixture, adding reserved pasta water to create a creamy sauce.",
+            "Mix in the pancetta and serve immediately."
+        ],
+        "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper, creating a rich and creamy sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Linguine", "400 g"],
+            ["Pancetta", "100 g"],
+            ["Eggs", "3 units"],
+            ["Parmesan Cheese", "100 g"],
+            ["Black Pepper", "5 g"]
+        ]
+    },
+    {
+        "name": "Lemon Garlic Tilapia",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Marinate 4 tilapia fillets in a mixture of 30 mL lemon juice, 15 mL olive oil, 5 g minced garlic, and salt and pepper for 30 minutes.",
+            "Bake the fillets at 200°C (392°F) for 12 minutes or until fish flakes easily with a fork.",
+            "Serve with steamed broccoli and garnish with additional lemon slices."
+        ],
+        "description": "Light and flaky tilapia fillets marinated in lemon and garlic, baked to perfection for a healthy and delicious meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Tilapia Fillets", "4 units"],
+            ["Lemon Juice", "30 mL"],
+            ["Olive Oil", "15 mL"],
+            ["Garlic", "5 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Broccoli", "0 g"],
+            ["Lemon Slices", "0 g"]
+        ]
+    },
+    {
+        "name": "Lobster Newburg",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "Steam 2 whole lobsters, extract the meat and chop. Set aside.",
+            "In a saucepan, melt 30 g of butter, stir in 30 g of flour to create a roux, then gradually add 250 mL of cream.",
+            "Cook until the sauce thickens, then stir in the lobster meat, 15 mL of brandy, and 5 g of paprika.",
+            "Heat gently without boiling. Serve over buttered toast points."
+        ],
+        "description": "A rich and creamy seafood dish featuring tender lobster in a velvety sauce made with cream and a touch of brandy.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lobsters", "2 units"],
+            ["Butter", "30 g"],
+            ["Flour", "30 g"],
+            ["Cream", "250 mL"],
+            ["Brandy", "15 mL"],
+            ["Paprika", "5 g"],
+            ["Toast Points", "0 g"]
+        ]
+    },
+    {
+        "name": "Lamb Ragu with Pappardelle",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Brown 500 g of ground lamb in a skillet. Drain excess fat.",
+            "Add 1 finely chopped onion and 2 minced garlic cloves, cook until onion is soft.",
+            "Pour in 500 mL of tomato sauce and 100 mL of red wine. Simmer for 45 minutes.",
+            "Serve over cooked pappardelle pasta, garnished with grated Parmesan and fresh basil."
+        ],
+        "description": "A hearty Italian sauce made with ground lamb and simmered in a rich tomato and wine sauce, served over broad, flat pasta noodles.",
+        "backdrop": "",
+        "ingredients": [
+            ["Ground Lamb", "500 g"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Tomato Sauce", "500 mL"],
+            ["Red Wine", "100 mL"],
+            ["Pappardelle Pasta", "400 g"],
+            ["Parmesan", "0 g"],
+            ["Basil", "0 g"]
+        ]
+    },
+    {
+        "name": "Lemon Caper Chicken",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Season 4 chicken breasts with salt and pepper. Pan-fry in 30 mL of olive oil until golden.",
+            "Add 30 g of capers and the juice of 1 lemon to the pan, scraping up any browned bits.",
+            "Simmer for 5 minutes, or until chicken is cooked through.",
+            "Serve with a garnish of parsley and slices of lemon."
+        ],
+        "description": "Simple yet flavorful chicken breasts cooked with tangy lemon and briny capers, creating a delightful sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breasts", "4 units"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Olive Oil", "30 mL"],
+            ["Capers", "30 g"],
+            ["Lemon", "1 unit"],
+            ["Parsley", "0 g"]
+        ]
+    },
+    {
+        "name": "Linguine with White Clam Sauce",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "Cook 400 g of linguine until al dente, drain, reserving some pasta water.",
+            "In a pan, heat 30 mL of olive oil, sauté 4 minced garlic cloves, then add 200 g of canned clams with their juice.",
+            "Add 50 mL of white wine, simmer until the wine is reduced by half.",
+            "Toss the linguine with the clam sauce, adding reserved pasta water as needed.",
+            "Finish with chopped parsley and serve with lemon wedges."
+        ],
+        "description": "Classic Italian pasta dish featuring linguine tossed in a garlicky white clam sauce, refined with white wine and fresh herbs.",
+        "backdrop": "",
+        "ingredients": [
+            ["Linguine", "400 g"],
+            ["Olive Oil", "30 mL"],
+            ["Garlic", "4 cloves"],
+            ["Canned Clams", "200 g"],
+            ["White Wine", "50 mL"],
+            ["Parsley", "0 g"],
+            ["Lemon Wedges", "0 g"]
+        ]
+    },
+    {
+        "name": "Lavender Honey Ice Cream",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Heat 500 mL of cream with 250 mL of milk and 10 g of dried lavender until just boiling, then remove from heat.",
+            "Whisk 4 egg yolks with 100 g of honey. Gradually add the lavender cream, whisking constantly.",
+            "Return mixture to heat and cook until it thickens enough to coat the back of a spoon.",
+            "Strain, chill thoroughly, then churn in an ice cream maker according to manufacturer's instructions."
+        ],
+        "description": "Creamy homemade ice cream infused with the delicate flavors of lavender and sweet honey, a unique and refreshing treat.",
+        "backdrop": "",
+        "ingredients": [
+            ["Cream", "500 mL"],
+            ["Milk", "250 mL"],
+            ["Dried Lavender", "10 g"],
+            ["Egg Yolks", "4 units"],
+            ["Honey", "100 g"]
+        ]
+    },
+    {
+        "name": "Lamb Biryani",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.5,
+        "servingSize": 6,
+        "method": [
+            "Marinate 1 kg of lamb cubes in a mixture of 30 mL of yogurt, 10 g of garam masala, 5 g of turmeric, and 5 g of salt for 4 hours.",
+            "In a large pot, sauté 2 chopped onions in 30 mL of ghee until golden. Add the marinated lamb and brown well.",
+            "Add 500 g of washed basmati rice and 1 liter of water. Bring to a boil, then reduce heat and cover. Simmer until rice and lamb are tender, about 30 minutes.",
+            "Stir in 50 g of chopped mint before serving. Garnish with fried onions."
+        ],
+        "description": "Aromatic and flavorful Indian biryani with tender lamb and spices, cooked with fluffy basmati rice and mint.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lamb Cubes", "1 kg"],
+            ["Yogurt", "30 mL"],
+            ["Garam Masala", "10 g"],
+            ["Turmeric", "5 g"],
+            ["Salt", "5 g"],
+            ["Onions", "2 units"],
+            ["Ghee", "30 mL"],
+            ["Basmati Rice", "500 g"],
+            ["Water", "1 L"],
+            ["Mint", "50 g"],
+            ["Fried Onions", "0 g"]
+        ]
+    },
+    {
+        "name": "Lemon Pepper Cod",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Season 4 cod fillets with a mixture of 5 g of lemon zest, 10 g of cracked black pepper, and 5 g of salt.",
+            "Heat 15 mL of olive oil in a skillet over medium heat. Add cod and cook for 4 minutes per side, or until the fish flakes easily with a fork.",
+            "Serve with a side of sautéed spinach and lemon wedges."
+        ],
+        "description": "Simple yet elegant cod fillets seasoned with lemon and pepper, pan-fried to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Cod Fillets", "4 units"],
+            ["Lemon Zest", "5 g"],
+            ["Black Pepper", "10 g"],
+            ["Salt", "5 g"],
+            ["Olive Oil", "15 mL"],
+            ["Spinach", "0 g"],
+            ["Lemon Wedges", "0 g"]
+        ]
+    },
+    {
+        "name": "Linguine with Clam Sauce",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Cook 400 g of linguine until al dente; drain, reserving 120 mL of pasta water.",
+            "In a skillet, heat 30 mL of olive oil and sauté 4 minced garlic cloves. Add 200 g of drained canned clams and 100 mL of white wine; simmer until wine is reduced by half.",
+            "Toss linguine with clam sauce, adding reserved pasta water as needed. Stir in 15 mL of chopped parsley.",
+            "Serve immediately, garnished with grated Parmesan cheese."
+        ],
+        "description": "A classic Italian dish, linguine tossed with a white wine clam sauce, garlic, and parsley.",
+        "backdrop": "",
+        "ingredients": [
+            ["Linguine", "400 g"],
+            ["Olive Oil", "30 mL"],
+            ["Garlic", "4 cloves"],
+            ["Canned Clams", "200 g"],
+            ["White Wine", "100 mL"],
+            ["Parsley", "15 mL"],
+            ["Parmesan Cheese", "0 g"]
+        ]
+    },
+    {
+        "name": "Lobster Mac and Cheese",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Cook 300 g of macaroni according to package instructions; drain.",
+            "In a saucepan, melt 30 g of butter and stir in 30 g of flour to make a roux. Gradually whisk in 500 mL of milk, bringing to a boil until thickened.",
+            "Remove from heat and mix in 200 g of grated sharp cheddar and 100 g of chopped cooked lobster meat.",
+            "Combine macaroni with cheese sauce, transfer to a baking dish, top with 50 g of breadcrumbs, and bake at 180°C (356°F) for 20 minutes.",
+            "Serve hot, garnished with chopped chives."
+        ],
+        "description": "Decadent and creamy macaroni cheese enhanced with luxurious lobster meat, topped with a crispy breadcrumb layer.",
+        "backdrop": "",
+        "ingredients": [
+            ["Macaroni", "300 g"],
+            ["Butter", "30 g"],
+            ["Flour", "30 g"],
+            ["Milk", "500 mL"],
+            ["Sharp Cheddar", "200 g"],
+            ["Lobster Meat", "100 g"],
+            ["Breadcrumbs", "50 g"],
+            ["Chives", "0 g"]
+        ]
+    },
+    {
+        "name": "Lentil Soup with Smoked Sausage",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "In a large pot, sauté 1 chopped onion and 2 minced garlic cloves in 30 mL of olive oil until onion is translucent.",
+            "Add 200 g of sliced smoked sausage and cook until browned.",
+            "Stir in 300 g of rinsed lentils, 1 liter of chicken broth, and 5 g each of thyme and paprika. Simmer covered for 30 minutes or until lentils are tender.",
+            "Season with salt and pepper, serve with a dollop of sour cream."
+        ],
+        "description": "Hearty and flavorful soup made with earthy lentils and rich smoked sausage, spiced with thyme and paprika.",
+        "backdrop": "",
+        "ingredients": [
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Olive Oil", "30 mL"],
+            ["Smoked Sausage", "200 g"],
+            ["Lentils", "300 g"],
+            ["Chicken Broth", "1 L"],
+            ["Thyme", "5 g"],
+            ["Paprika", "5 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Sour Cream", "0 g"]
+        ]
+    },
+    {
+        "name": "Lemon Ginger Tea",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.3,
+        "servingSize": 4,
+        "method": [
+            "Boil 1 liter of water in a kettle.",
+            "Add the juice of 2 lemons and 20 g of freshly grated ginger to a teapot.",
+            "Pour the boiling water over the lemon and ginger and let steep for 5 minutes.",
+            "Strain into cups and sweeten with honey to taste."
+        ],
+        "description": "A soothing and refreshing tea made with fresh lemon and spicy ginger, perfect for cold days or to soothe a sore throat.",
+        "backdrop": "",
+        "ingredients": [
+            ["Water", "1 L"],
+            ["Lemons", "2 units"],
+            ["Ginger", "20 g"],
+            ["Honey", "0 g"]
+        ]
+    },
+    {
+        "name": "Lentil and Spinach Salad",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "Cook 200 g of green lentils in boiling water until tender, about 20 minutes. Drain and let cool.",
+            "In a large bowl, combine the lentils, 200 g of fresh spinach, 100 g of cherry tomatoes halved, and 50 g of crumbled feta cheese.",
+            "Whisk together 30 mL of olive oil, 15 mL of balsamic vinegar, 5 g of minced garlic, salt, and pepper.",
+            "Pour the dressing over the salad and toss to combine. Serve chilled."
+        ],
+        "description": "A nutritious and filling salad featuring earthy lentils, fresh spinach, sweet tomatoes, and tangy feta, dressed in a balsamic vinaigrette.",
+        "backdrop": "",
+        "ingredients": [
+            ["Green Lentils", "200 g"],
+            ["Spinach", "200 g"],
+            ["Cherry Tomatoes", "100 g"],
+            ["Feta Cheese", "50 g"],
+            ["Olive Oil", "30 mL"],
+            ["Balsamic Vinegar", "15 mL"],
+            ["Garlic", "5 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"]
+        ]
+    },
+    {
+        "name": "Lobster Risotto",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "In a saucepan, heat 30 mL of olive oil over medium heat. Add 1 finely chopped onion and sauté until translucent.",
+            "Add 300 g of Arborio rice and toast for 2 minutes. Pour in 100 mL of white wine and stir until absorbed.",
+            "Gradually add 1 liter of warm seafood stock, stirring constantly, until the rice is creamy and al dente.",
+            "Stir in 300 g of cooked chopped lobster meat and 30 g of butter. Season with salt and pepper.",
+            "Serve garnished with chopped parsley and lemon wedges."
+        ],
+        "description": "Creamy risotto enriched with succulent lobster and a hint of white wine, making it a luxurious seafood dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Arborio Rice", "300 g"],
+            ["White Wine", "100 mL"],
+            ["Seafood Stock", "1 L"],
+            ["Lobster Meat", "300 g"],
+            ["Butter", "30 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Parsley", "0 g"],
+            ["Lemon Wedges", "0 g"]
+        ]
+    },
+    {
+        "name": "Lime Marinated Grilled Steak",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Marinate 4 beef steaks in a mixture of 30 mL of lime juice, 30 mL of soy sauce, 10 g of minced garlic, and 5 g of cumin for 3 hours in the refrigerator.",
+            "Grill the steaks over high heat to desired doneness, about 4 minutes per side for medium-rare.",
+            "Let the steaks rest for 5 minutes before slicing. Serve with grilled vegetables and extra lime wedges."
+        ],
+        "description": "Juicy grilled steaks marinated in a zesty lime and soy sauce mixture with a touch of garlic and cumin.",
+        "backdrop": "",
+        "ingredients": [
+            ["Beef Steaks", "4 units"],
+            ["Lime Juice", "30 mL"],
+            ["Soy Sauce", "30 mL"],
+            ["Garlic", "10 g"],
+            ["Cumin", "5 g"],
+            ["Grilled Vegetables", "0 g"],
+            ["Lime Wedges", "0 g"]
+        ]
+    },
+    {
+        "name": "Leek and Potato Gratin",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Thinly slice 3 leeks and 3 potatoes. Sauté leeks in 30 mL of butter until soft.",
+            "Layer the potatoes and leeks in a greased baking dish, seasoning each layer with salt and pepper.",
+            "Pour 250 mL of cream over the top and sprinkle with 100 g of grated Gruyère cheese.",
+            "Bake at 190°C (375°F) for 45 minutes, or until the potatoes are tender and the top is golden and bubbly.",
+            "Serve hot, garnished with fresh thyme."
+        ],
+        "description": "A comforting and creamy gratin featuring tender potatoes and sweet leeks, topped with melted Gruyère cheese.",
+        "backdrop": "",
+        "ingredients": [
+            ["Leeks", "3 units"],
+            ["Potatoes", "3 units"],
+            ["Butter", "30 mL"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Cream", "250 mL"],
+            ["Gruyère Cheese", "100 g"],
+            ["Thyme", "0 g"]
+        ]
+    },
+    {
+        "name": "Lemon Risotto with Asparagus",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "In a saucepan, heat 30 mL of olive oil over medium heat. Add 1 finely chopped onion and sauté until translucent.",
+            "Stir in 300 g of Arborio rice and toast for 2 minutes. Add the zest and juice of 1 lemon, then gradually add 1 liter of vegetable broth, stirring constantly until the rice is creamy and al dente.",
+            "Add 200 g of chopped asparagus in the last 5 minutes of cooking. Stir in 30 g of Parmesan cheese and season with salt and pepper.",
+            "Serve garnished with additional lemon zest and fresh parsley."
+        ],
+        "description": "Creamy lemon-flavored risotto paired with crisp asparagus, perfect for a refreshing spring or summer meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Olive Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Arborio Rice", "300 g"],
+            ["Lemon", "1 unit"],
+            ["Vegetable Broth", "1 L"],
+            ["Asparagus", "200 g"],
+            ["Parmesan Cheese", "30 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Parsley", "0 g"]
+        ]
+    },
+    {
+        "name": "Lime-Cilantro Chicken Skewers",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Marinate 500 g of chicken breast cubes in a mixture of 30 mL lime juice, 30 mL olive oil, 15 g chopped cilantro, and 5 g chili powder for 2 hours.",
+            "Thread the chicken onto skewers and grill over medium heat until cooked through, about 10 minutes, turning occasionally.",
+            "Serve with a yogurt dipping sauce and lime wedges."
+        ],
+        "description": "Zesty and herby chicken skewers marinated in lime and cilantro, perfect for a summer barbecue or quick dinner.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breast", "500 g"],
+            ["Lime Juice", "30 mL"],
+            ["Olive Oil", "30 mL"],
+            ["Cilantro", "15 g"],
+            ["Chili Powder", "5 g"],
+            ["Yogurt Sauce", "0 g"],
+            ["Lime Wedges", "0 g"]
+        ]
+    },
+    {
+        "name": "Linguine with Garlic and Oil",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.4,
+        "servingSize": 4,
+        "method": [
+            "Cook 400 g of linguine al dente. Drain, reserving some pasta water.",
+            "In a skillet, heat 30 mL of olive oil over medium heat. Add 6 cloves of minced garlic and sauté until golden.",
+            "Toss the pasta with the garlic oil, adding reserved pasta water as needed. Season with red pepper flakes and salt.",
+            "Serve garnished with chopped parsley."
+        ],
+        "description": "A simple yet delicious Italian classic, linguine tossed with aromatic garlic-infused olive oil and a hint of spice.",
+        "backdrop": "",
+        "ingredients": [
+            ["Linguine", "400 g"],
+            ["Olive Oil", "30 mL"],
+            ["Garlic", "6 cloves"],
+            ["Red Pepper Flakes", "5 g"],
+            ["Salt", "5 g"],
+            ["Parsley", "0 g"]
+        ]
+    },
+    {
+        "name": "Lobster Bisque",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.5,
+        "servingSize": 4,
+        "method": [
+            "Boil 2 whole lobsters for 12 minutes, remove meat, and reserve shells. Chop meat and set aside.",
+            "Sauté lobster shells in 30 mL of olive oil with 1 chopped onion, 1 diced carrot, and 1 diced celery stalk until vegetables are soft.",
+            "Add 30 mL of brandy and flambé. Stir in 500 mL of fish stock and 250 mL of cream, simmer for 30 minutes.",
+            "Strain, add lobster meat back to the soup, and season with salt and white pepper. Heat through and serve."
+        ],
+        "description": "A rich and elegant soup made from fresh lobster, cream, and a touch of brandy, perfect for special occasions.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lobsters", "2 units"],
+            ["Olive Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Carrot", "1 unit"],
+            ["Celery", "1 stalk"],
+            ["Brandy", "30 mL"],
+            ["Fish Stock", "500 mL"],
+            ["Cream", "250 mL"],
+            ["Salt", "5 g"],
+            ["White Pepper", "5 g"]
+        ]
+    },
+    {
+        "name": "Lamb Stew with Root Vegetables",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.2,
+        "servingSize": 6,
+        "method": [
+            "Brown 1 kg of cubed lamb shoulder in 30 mL of olive oil in a large pot.",
+            "Add 2 chopped onions, 2 cloves of minced garlic, and sauté until onions are translucent.",
+            "Add 300 g of chopped carrots, 300 g of diced potatoes, 200 g of sliced parsnips, 1 liter of beef broth, and 10 g of rosemary. Bring to a boil, then reduce heat and simmer for 1.5 hours or until the meat is tender.",
+            "Season with salt and pepper. Serve hot with crusty bread."
+        ],
+        "description": "Hearty lamb stew cooked slowly with carrots, potatoes, and parsnips, flavored with rosemary, perfect for a cold evening.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lamb Shoulder", "1 kg"],
+            ["Olive Oil", "30 mL"],
+            ["Onions", "2 units"],
+            ["Garlic", "2 cloves"],
+            ["Carrots", "300 g"],
+            ["Potatoes", "300 g"],
+            ["Parsnips", "200 g"],
+            ["Beef Broth", "1 L"],
+            ["Rosemary", "10 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Crusty Bread", "0 g"]
+        ]
+    },
+    {
+        "name": "Lemon and Dill Salmon",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Place 4 salmon fillets on a baking sheet.",
+            "Mix 30 mL of lemon juice, 30 mL of melted butter, 5 g of chopped dill, salt, and pepper, and brush over the salmon.",
+            "Bake at 200°C (392°F) for 12-15 minutes or until salmon is cooked through.",
+            "Garnish with lemon slices and serve with steamed asparagus."
+        ],
+        "description": "Flaky salmon fillets baked with a light and tangy lemon-dill sauce, simple and perfect for a healthy dinner.",
+        "backdrop": "",
+        "ingredients": [
+            ["Salmon Fillets", "4 units"],
+            ["Lemon Juice", "30 mL"],
+            ["Butter", "30 mL"],
+            ["Dill", "5 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Lemon Slices", "0 g"],
+            ["Asparagus", "0 g"]
+        ]
+    },
+    {
+        "name": "Linguine with Cherry Tomatoes and Olives",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "Cook 400 g of linguine al dente, drain.",
+            "In a skillet, heat 30 mL of olive oil, add 200 g of halved cherry tomatoes and 100 g of pitted Kalamata olives, sauté for 5 minutes.",
+            "Toss the linguine with the tomato mixture, add 15 g of chopped basil, and season with salt and pepper.",
+            "Serve with grated Parmesan cheese."
+        ],
+        "description": "A vibrant and flavorful pasta dish featuring sweet cherry tomatoes, salty olives, and fresh basil.",
+        "backdrop": "",
+        "ingredients": [
+            ["Linguine", "400 g"],
+            ["Olive Oil", "30 mL"],
+            ["Cherry Tomatoes", "200 g"],
+            ["Kalamata Olives", "100 g"],
+            ["Basil", "15 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Parmesan Cheese", "0 g"]
+        ]
+    },
+    {
+        "name": "Lime Chicken Tacos",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "Marinate 500 g of chicken breast strips in a mixture of 30 mL of lime juice, 5 g of chili powder, 5 g of cumin, and salt for 1 hour.",
+            "Grill the chicken over medium heat until cooked through, about 6-8 minutes per side.",
+            "Serve in corn tortillas with diced avocado, salsa, and sour cream."
+        ],
+        "description": "Zesty and flavorful grilled chicken tacos with a fresh lime marinade, served with avocado and salsa.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breast", "500 g"],
+            ["Lime Juice", "30 mL"],
+            ["Chili Powder", "5 g"],
+            ["Cumin", "5 g"],
+            ["Salt", "5 g"],
+            ["Corn Tortillas", "8 units"],
+            ["Avocado", "1 unit"],
+            ["Salsa", "0 g"],
+            ["Sour Cream", "0 g"]
+        ]
+    },
+    {
+        "name": "Layered Mediterranean Dip",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.5,
+        "servingSize": 6,
+        "method": [
+            "In a serving dish, spread 200 g of hummus as the first layer.",
+            "Top with 100 g of chopped cucumbers, 100 g of diced tomatoes, 50 g of sliced black olives, and 100 g of crumbled feta cheese.",
+            "Drizzle with 30 mL of olive oil and a sprinkle of 5 g of za'atar.",
+            "Chill for 1 hour before serving with pita chips."
+        ],
+        "description": "A delightful and easy-to-make dip layered with hummus, fresh vegetables, olives, feta, and a touch of za'atar, perfect for any gathering.",
+        "backdrop": "",
+        "ingredients": [
+            ["Hummus", "200 g"],
+            ["Cucumbers", "100 g"],
+            ["Tomatoes", "100 g"],
+            ["Black Olives", "50 g"],
+            ["Feta Cheese", "100 g"],
+            ["Olive Oil", "30 mL"],
+            ["Za'atar", "5 g"],
+            ["Pita Chips", "0 g"]
+        ]
+    },
+    {
+        "name": "Lemon Herb Roast Chicken",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Rub a whole chicken with a mixture of 5 g salt, 5 g black pepper, the zest of 1 lemon, and 10 g chopped fresh herbs (rosemary, thyme, parsley).",
+            "Stuff the cavity with the zested lemon cut into quarters and a few sprigs of herbs.",
+            "Roast in a preheated oven at 190°C (375°F) for 1.5 hours, or until the juices run clear and the internal temperature reaches 74°C (165°F).",
+            "Let rest for 10 minutes before serving."
+        ],
+        "description": "Juicy roast chicken seasoned with fresh lemon and a blend of herbs, perfect for a comforting family meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Whole Chicken", "1 unit"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Lemon", "1 unit"],
+            ["Rosemary", "5 g"],
+            ["Thyme", "5 g"],
+            ["Parsley", "5 g"]
+        ]
+    },
+    {
+        "name": "Lobster Risotto",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Cook 300 g of lobster meat in boiling water, then chop into chunks. Set aside.",
+            "In a pot, sauté 1 finely chopped onion in 30 mL of olive oil until translucent. Add 300 g of Arborio rice and cook until the edges become slightly translucent.",
+            "Gradually add 1 liter of hot seafood broth, stirring continuously until the rice absorbs the liquid and becomes creamy.",
+            "Stir in the lobster meat, 30 g of butter, and 50 g of grated Parmesan cheese until combined and heated through.",
+            "Serve immediately, garnished with chopped fresh parsley."
+        ],
+        "description": "Luxurious risotto with tender chunks of lobster, creamy and rich with the flavors of the sea, enhanced with Parmesan.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lobster Meat", "300 g"],
+            ["Onion", "1 unit"],
+            ["Olive Oil", "30 mL"],
+            ["Arborio Rice", "300 g"],
+            ["Seafood Broth", "1 L"],
+            ["Butter", "30 g"],
+            ["Parmesan Cheese", "50 g"],
+            ["Parsley", "0 g"]
+        ]
+    },
+    {
+        "name": "Lime Cilantro Grilled Corn",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Peel back the husks of 4 ears of corn but do not remove. Remove the silks and brush the corn with 15 mL of melted butter.",
+            "Mix 5 g of salt, 5 g of chili powder, the zest and juice of 1 lime, and 10 g of chopped cilantro. Brush this mixture over the corn.",
+            "Pull the husks back over the corn and grill over medium heat for 15-20 minutes, turning occasionally, until cooked.",
+            "Serve hot with additional lime wedges and cilantro."
+        ],
+        "description": "Fresh corn grilled with a tangy lime cilantro butter, offering a delightful mix of flavors with a hint of spice.",
+        "backdrop": "",
+        "ingredients": [
+            ["Corn", "4 ears"],
+            ["Butter", "15 mL"],
+            ["Salt", "5 g"],
+            ["Chili Powder", "5 g"],
+            ["Lime", "1 unit"],
+            ["Cilantro", "10 g"]
+        ]
+    },
+    {
+        "name": "Leek and Mushroom Quiche",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Sauté 200 g of sliced leeks and 200 g of chopped mushrooms in 30 mL of olive oil until soft.",
+            "Whisk together 4 eggs, 200 mL of cream, salt, and pepper.",
+            "Spread the leek and mushroom mixture into a pre-baked pie crust, pour over the egg mixture.",
+            "Bake at 175°C (350°F) for 30 minutes or until set.",
+            "Serve warm or at room temperature."
+        ],
+        "description": "A savory quiche filled with the gentle sweetness of leeks and earthiness of mushrooms, bound in a creamy egg custard.",
+        "backdrop": "",
+        "ingredients": [
+            ["Leeks", "200 g"],
+            ["Mushrooms", "200 g"],
+            ["Olive Oil", "30 mL"],
+            ["Eggs", "4 units"],
+            ["Cream", "200 mL"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Pie Crust", "1 unit"]
+        ]
+    },
+    {
+        "name": "Lavender Honey Glazed Duck",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "Score the skin of 2 duck breasts. Season with salt and pepper.",
+            "Pan-sear duck skin-side down over low heat to render the fat, about 15 minutes.",
+            "Flip and cook for another 10 minutes until medium rare. Remove and let rest.",
+            "Discard most of the fat, add 50 mL of honey and 5 g of dried lavender to the pan, and heat until syrupy.",
+            "Slice the duck and drizzle with the lavender honey glaze.",
+            "Serve with a side of roasted root vegetables."
+        ],
+        "description": "Perfectly cooked duck breasts with crispy skin, enhanced with a sweet and aromatic lavender honey glaze.",
+        "backdrop": "",
+        "ingredients": [
+            ["Duck Breasts", "2 units"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Honey", "50 mL"],
+            ["Dried Lavender", "5 g"],
+            ["Roasted Root Vegetables", "0 g"]
+        ]
+    },
+    {
+        "name": "Lemon Thyme Roasted Turkey",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.2,
+        "servingSize": 8,
+        "method": [
+            "Rub a whole turkey with a mixture of 30 mL olive oil, the zest of 2 lemons, 10 g fresh thyme, salt, and pepper.",
+            "Stuff the cavity with lemon halves and additional thyme sprigs.",
+            "Roast in a preheated oven at 175°C (350°F) for 3 hours, or until the internal temperature reaches 74°C (165°F).",
+            "Let rest for 20 minutes before carving. Serve with a side of roasted root vegetables."
+        ],
+        "description": "A festive turkey roasted with a herbaceous lemon thyme rub, providing a juicy and aromatic centerpiece for any special occasion.",
+        "backdrop": "",
+        "ingredients": [
+            ["Turkey", "1 unit"],
+            ["Olive Oil", "30 mL"],
+            ["Lemon", "2 units"],
+            ["Fresh Thyme", "10 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Root Vegetables", "0 g"]
+        ]
+    },
+    {
+        "name": "Lobster and Corn Chowder",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.1,
+        "servingSize": 6,
+        "method": [
+            "Cook 2 whole lobsters, extract meat, chop, and set aside. Reserve shells.",
+            "Sauté shells in 30 mL butter with 1 chopped onion, 2 diced carrots, and 2 diced celery stalks. Add 500 mL fish stock and simmer for 30 minutes. Strain and reserve the broth.",
+            "In another pot, melt 30 g butter, add reserved broth, 200 g diced potatoes, and 300 g corn. Cook until vegetables are tender.",
+            "Add chopped lobster meat, 200 mL cream, and heat through. Season with salt and pepper.",
+            "Serve hot, garnished with chopped chives."
+        ],
+        "description": "A rich and comforting chowder with succulent lobster and sweet corn, perfect for a luxurious winter meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lobsters", "2 units"],
+            ["Butter", "60 g"],
+            ["Onion", "1 unit"],
+            ["Carrots", "2 units"],
+            ["Celery", "2 stalks"],
+            ["Fish Stock", "500 mL"],
+            ["Potatoes", "200 g"],
+            ["Corn", "300 g"],
+            ["Cream", "200 mL"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Chives", "0 g"]
+        ]
+    },
+    {
+        "name": "Lime Marinated Flank Steak",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Marinate 1 kg of flank steak in a mixture of 60 mL lime juice, 30 mL soy sauce, 10 g minced garlic, and 5 g ground cumin for 4 hours in the refrigerator.",
+            "Grill over high heat for 5 minutes on each side for medium-rare.",
+            "Let the steak rest for 10 minutes before slicing against the grain. Serve with grilled vegetables and fresh salsa."
+        ],
+        "description": "Tender and flavorful flank steak marinated in a zesty lime and cumin mix, grilled to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Flank Steak", "1 kg"],
+            ["Lime Juice", "60 mL"],
+            ["Soy Sauce", "30 mL"],
+            ["Garlic", "10 g"],
+            ["Ground Cumin", "5 g"],
+            ["Grilled Vegetables", "0 g"],
+            ["Salsa", "0 g"]
+        ]
+    },
+    {
+        "name": "Lavender Crème Brûlée",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Heat 500 mL of heavy cream with 5 g of dried lavender until just boiling. Remove from heat and let steep for 15 minutes. Strain.",
+            "Whisk 6 egg yolks with 70 g of sugar. Gradually add the lavender-infused cream, stirring continuously.",
+            "Pour mixture into ramekins. Bake in a water bath at 150°C (300°F) for 40 minutes. Chill for at least 2 hours.",
+            "Sprinkle with sugar and torch until caramelized. Serve immediately."
+        ],
+        "description": "A delicate and aromatic dessert, infusing traditional crème brûlée with the subtle flavor of lavender.",
+        "backdrop": "",
+        "ingredients": [
+            ["Heavy Cream", "500 mL"],
+            ["Dried Lavender", "5 g"],
+            ["Egg Yolks", "6 units"],
+            ["Sugar", "70 g"]
+        ]
+    },
+    {
+        "name": "Lemon and Herb Baked Cod",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Place 4 cod fillets in a baking dish.",
+            "Mix 30 mL of lemon juice, 15 mL of olive oil, 5 g of chopped parsley, 5 g of dill, and salt and pepper to taste.",
+            "Pour the mixture over the cod, then bake at 200°C (392°F) for 12-15 minutes until the fish is flaky.",
+            "Serve with steamed green beans and lemon slices."
+        ],
+        "description": "Light and flaky cod fillets seasoned with fresh lemon juice and herbs, baked to perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Cod Fillets", "4 units"],
+            ["Lemon Juice", "30 mL"],
+            ["Olive Oil", "15 mL"],
+            ["Parsley", "5 g"],
+            ["Dill", "5 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Green Beans", "0 g"],
+            ["Lemon Slices", "0 g"]
+        ]
+    },
+    {
+        "name": "Lamb Kebabs with Mint Yogurt Sauce",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Cube 500 g of lamb leg and marinate in a mixture of 30 mL olive oil, 10 g minced garlic, 5 g cumin, and salt and pepper for 2 hours.",
+            "Thread the lamb onto skewers and grill over medium heat for 10-12 minutes, turning occasionally.",
+            "Mix 200 g of Greek yogurt with 15 g of chopped mint, 5 mL of lemon juice, and salt to taste for the sauce.",
+            "Serve the kebabs with the mint yogurt sauce and grilled vegetables."
+        ],
+        "description": "Juicy grilled lamb kebabs marinated in a spiced oil, served with a refreshing mint yogurt sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lamb Leg", "500 g"],
+            ["Olive Oil", "30 mL"],
+            ["Garlic", "10 g"],
+            ["Cumin", "5 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Greek Yogurt", "200 g"],
+            ["Mint", "15 g"],
+            ["Lemon Juice", "5 mL"],
+            ["Grilled Vegetables", "0 g"]
+        ]
+    },
+    {
+        "name": "Linguine with Seafood Alfredo",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Cook 400 g of linguine al dente; drain and set aside.",
+            "In a saucepan, melt 30 g of butter and sauté 200 g of mixed seafood (shrimp, scallops, squid) until just cooked.",
+            "Add 250 mL of heavy cream and 50 g of grated Parmesan cheese, stir until the sauce thickens.",
+            "Toss the linguine with the seafood Alfredo sauce, season with salt and pepper.",
+            "Serve garnished with chopped parsley and additional Parmesan."
+        ],
+        "description": "Rich and creamy Alfredo sauce mixed with a medley of seafood, served over linguine for a luxurious dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Linguine", "400 g"],
+            ["Butter", "30 g"],
+            ["Mixed Seafood", "200 g"],
+            ["Heavy Cream", "250 mL"],
+            ["Parmesan Cheese", "50 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Parsley", "0 g"]
+        ]
+    },
+    {
+        "name": "Leek and Gruyère Tart",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Sauté 200 g of sliced leeks in 15 mL of butter until soft, about 10 minutes.",
+            "Spread the leeks in a pre-baked tart shell, top with 100 g of shredded Gruyère cheese.",
+            "Whisk together 3 eggs, 200 mL of cream, salt, and pepper. Pour over the leeks.",
+            "Bake at 190°C (375°F) for 25-30 minutes until the filling is set and golden.",
+            "Serve warm, garnished with fresh thyme."
+        ],
+        "description": "A savory tart filled with soft leeks and melted Gruyère cheese, encased in a flaky pastry crust.",
+        "backdrop": "",
+        "ingredients": [
+            ["Leeks", "200 g"],
+            ["Butter", "15 mL"],
+            ["Tart Shell", "1 unit"],
+            ["Gruyère Cheese", "100 g"],
+            ["Eggs", "3 units"],
+            ["Cream", "200 mL"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Thyme", "0 g"]
+        ]
+    },
+    {
+        "name": "Lemon Rosemary Grilled Squid",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Marinate 500 g of squid, cleaned and cut into rings, in a mixture of 30 mL lemon juice, 15 mL olive oil, 10 g chopped rosemary, and 5 g minced garlic for 1 hour.",
+            "Grill the squid over high heat for 2-3 minutes per side, until charred and tender.",
+            "Serve immediately, garnished with additional lemon wedges and a sprinkle of fresh rosemary."
+        ],
+        "description": "Quickly grilled squid marinated in a lemon and rosemary mix, offering a fresh, zesty flavor ideal for a light meal or appetizer.",
+        "backdrop": "",
+        "ingredients": [
+            ["Squid", "500 g"],
+            ["Lemon Juice", "30 mL"],
+            ["Olive Oil", "15 mL"],
+            ["Rosemary", "10 g"],
+            ["Garlic", "5 g"],
+            ["Lemon Wedges", "0 g"]
+        ]
+    },
+    {
+        "name": "Lamb Meatball Tagine",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Mix 500 g ground lamb with 10 g minced garlic, 10 g cumin, 5 g paprika, salt, and pepper. Form into meatballs.",
+            "Brown meatballs in 30 mL olive oil in a tagine or heavy pot. Remove and set aside.",
+            "In the same pot, add 1 chopped onion and 2 minced garlic cloves, cook until soft. Stir in 400 g diced tomatoes and 5 g each of cinnamon and ginger.",
+            "Return meatballs to the pot, cover, and simmer for 30 minutes. Stir in 30 g chopped cilantro before serving.",
+            "Serve with couscous."
+        ],
+        "description": "Spiced lamb meatballs cooked in a savory tomato sauce with traditional Moroccan spices, served in a tagine.",
+        "backdrop": "",
+        "ingredients": [
+            ["Ground Lamb", "500 g"],
+            ["Garlic", "10 g"],
+            ["Cumin", "10 g"],
+            ["Paprika", "5 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Olive Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Diced Tomatoes", "400 g"],
+            ["Cinnamon", "5 g"],
+            ["Ginger", "5 g"],
+            ["Cilantro", "30 g"],
+            ["Couscous", "0 g"]
+        ]
+    },
+    {
+        "name": "Lemon Drizzle Cake",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.7,
+        "servingSize": 6,
+        "method": [
+            "Cream 200 g of butter with 200 g of sugar until fluffy. Beat in 3 eggs one at a time, then stir in 200 g of flour and 5 g of baking powder.",
+            "Add zest of 2 lemons and mix well. Pour into a lined loaf tin.",
+            "Bake at 180°C (356°F) for 45 minutes. Mix juice of 2 lemons with 100 g of powdered sugar and pour over the hot cake.",
+            "Allow to cool in the tin before serving."
+        ],
+        "description": "A moist and tangy lemon cake with a sweet and zesty lemon drizzle topping, perfect for afternoon tea.",
+        "backdrop": "",
+        "ingredients": [
+            ["Butter", "200 g"],
+            ["Sugar", "200 g"],
+            ["Eggs", "3 units"],
+            ["Flour", "200 g"],
+            ["Baking Powder", "5 g"],
+            ["Lemons", "2 units"],
+            ["Powdered Sugar", "100 g"]
+        ]
+    },
+    {
+        "name": "Lobster Thermidor",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.5,
+        "servingSize": 4,
+        "method": [
+            "Boil 2 whole lobsters for 10 minutes, remove meat and chop. Set aside. Clean and halve the shells.",
+            "Sauté 30 g minced shallots in 30 mL butter until translucent. Stir in 30 mL flour, cook for 1 minute.",
+            "Slowly add 250 mL milk and 125 mL white wine, stirring until thick. Mix in lobster meat, 5 g mustard, and 10 g chopped tarragon. Season with salt and pepper.",
+            "Fill lobster shells with the mixture, top with 50 g grated Gruyère cheese and grill until golden.",
+            "Serve immediately."
+        ],
+        "description": "A luxurious French dish featuring succulent lobster in a creamy wine sauce, baked in its shell with Gruyère cheese.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lobsters", "2 units"],
+            ["Shallots", "30 g"],
+            ["Butter", "30 mL"],
+            ["Flour", "30 mL"],
+            ["Milk", "250 mL"],
+            ["White Wine", "125 mL"],
+            ["Mustard", "5 g"],
+            ["Tarragon", "10 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Gruyère Cheese", "50 g"]
+        ]
+    },
+    {
+        "name": "Lime Coconut Rice",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.4,
+        "servingSize": 4,
+        "method": [
+            "In a saucepan, combine 250 g of jasmine rice, 250 mL of coconut milk, 250 mL of water, and the zest of 1 lime.",
+            "Bring to a boil, then reduce heat to low, cover, and simmer for 18 minutes.",
+            "Fluff with a fork, stir in juice of 1 lime and 10 g chopped cilantro. Season with salt.",
+            "Serve as a side to grilled meats or curries."
+        ],
+        "description": "Fluffy jasmine rice cooked in coconut milk, infused with lime zest and juice, and finished with fresh cilantro.",
+        "backdrop": "",
+        "ingredients": [
+            ["Jasmine Rice", "250 g"],
+            ["Coconut Milk", "250 mL"],
+            ["Water", "250 mL"],
+            ["Lime", "1 unit"],
+            ["Cilantro", "10 g"],
+            ["Salt", "5 g"]
+        ]
+    },
+    {
+        "name": "Lobster Bisque with Saffron",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "Steam 2 lobsters, extract meat, and chop. Set aside shells.",
+            "Sauté lobster shells in 30 mL of olive oil with 1 chopped onion, 1 chopped carrot, and 1 chopped celery stalk until vegetables are soft.",
+            "Add 100 mL of brandy and flambé. Add 500 mL of fish stock, a pinch of saffron, and simmer for 30 minutes. Strain and reserve the broth.",
+            "In another pot, melt 30 g of butter, add 30 g of flour to make a roux, then gradually pour in reserved broth and 250 mL of cream. Simmer until thickened.",
+            "Add chopped lobster meat, season with salt and pepper, and heat through.",
+            "Serve hot, garnished with fresh chives."
+        ],
+        "description": "A rich and creamy lobster bisque enhanced with the luxurious flavor of saffron, perfect for a special occasion.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lobsters", "2 units"],
+            ["Olive Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Carrot", "1 unit"],
+            ["Celery", "1 stalk"],
+            ["Brandy", "100 mL"],
+            ["Fish Stock", "500 mL"],
+            ["Saffron", "0.1 g"],
+            ["Butter", "30 g"],
+            ["Flour", "30 g"],
+            ["Cream", "250 mL"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Chives", "0 g"]
+        ]
+    },
+    {
+        "name": "Lemon Garlic Shrimp Pasta",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Cook 400 g of spaghetti until al dente; drain, reserving some pasta water.",
+            "In a large skillet, heat 30 mL of olive oil, add 10 g minced garlic, and sauté until fragrant.",
+            "Add 500 g of shrimp and cook until pink. Deglaze the pan with 50 mL of white wine.",
+            "Add the zest and juice of 1 lemon, toss with pasta, adding reserved pasta water as needed.",
+            "Stir in 15 g of chopped parsley, season with salt and pepper, and serve topped with grated Parmesan."
+        ],
+        "description": "Light and refreshing pasta dish featuring plump shrimp sautéed with garlic and lemon, tossed with spaghetti.",
+        "backdrop": "",
+        "ingredients": [
+            ["Spaghetti", "400 g"],
+            ["Olive Oil", "30 mL"],
+            ["Garlic", "10 g"],
+            ["Shrimp", "500 g"],
+            ["White Wine", "50 mL"],
+            ["Lemon", "1 unit"],
+            ["Parsley", "15 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Parmesan Cheese", "0 g"]
+        ]
+    },
+    {
+        "name": "Lentil Salad with Roasted Veggies",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Roast 200 g of chopped carrots, 200 g of diced sweet potatoes, and 200 g of red bell peppers in the oven at 200°C (392°F) with olive oil, salt, and pepper for 25 minutes.",
+            "Cook 300 g of green lentils in boiling water until tender, about 20 minutes. Drain.",
+            "In a large bowl, combine lentils with roasted vegetables, 15 mL of balsamic vinegar, and 30 mL of olive oil. Season with salt and pepper.",
+            "Serve chilled or at room temperature, garnished with fresh parsley."
+        ],
+        "description": "A hearty and healthy lentil salad mixed with a medley of roasted vegetables, dressed in a simple balsamic vinaigrette.",
+        "backdrop": "",
+        "ingredients": [
+            ["Carrots", "200 g"],
+            ["Sweet Potatoes", "200 g"],
+            ["Red Bell Peppers", "200 g"],
+            ["Olive Oil", "45 mL"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Green Lentils", "300 g"],
+            ["Balsamic Vinegar", "15 mL"],
+            ["Parsley", "0 g"]
+        ]
+    },
+    {
+        "name": "Lamb Gyros with Tzatziki Sauce",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Slice 500 g of lamb shoulder thinly. Marinate in a mix of 30 mL olive oil, 10 g minced garlic, 5 g oregano, and juice of 1 lemon for 3 hours.",
+            "Cook lamb in a skillet over medium-high heat until browned.",
+            "Serve on pita bread with sliced tomatoes, onions, and homemade tzatziki made from 200 g Greek yogurt, 50 g grated cucumber, 5 mL lemon juice, and 5 g minced garlic.",
+            "Roll up the gyros and serve immediately."
+        ],
+        "description": "Deliciously seasoned lamb slices wrapped in soft pita with fresh vegetables and creamy tzatziki sauce, a classic Greek street food.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lamb Shoulder", "500 g"],
+            ["Olive Oil", "30 mL"],
+            ["Garlic", "10 g"],
+            ["Oregano", "5 g"],
+            ["Lemon", "1 unit"],
+            ["Pita Bread", "4 units"],
+            ["Tomatoes", "0 g"],
+            ["Onions", "0 g"],
+            ["Greek Yogurt", "200 g"],
+            ["Cucumber", "50 g"],
+            ["Lemon Juice", "5 mL"]
+        ]
+    },
+    {
+        "name": "Lemon Basil Scallop Pasta",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Sear 400 g of scallops in 15 mL of olive oil for 2 minutes on each side until golden and set aside.",
+            "In the same pan, add 5 g of minced garlic and sauté until fragrant. Deglaze the pan with 50 mL of white wine.",
+            "Add the zest and juice of one lemon, 30 mL of chopped fresh basil, and 200 mL of cream. Simmer until slightly thickened.",
+            "Toss with 400 g of cooked linguine, add scallops back to the pan, and heat through. Season with salt and pepper.",
+            "Serve garnished with additional basil leaves."
+        ],
+        "description": "Elegant pasta dish combining seared scallops with a creamy lemon basil sauce, perfect for a sophisticated dinner.",
+        "backdrop": "",
+        "ingredients": [
+            ["Scallops", "400 g"],
+            ["Olive Oil", "15 mL"],
+            ["Garlic", "5 g"],
+            ["White Wine", "50 mL"],
+            ["Lemon", "1 unit"],
+            ["Fresh Basil", "30 mL"],
+            ["Cream", "200 mL"],
+            ["Linguine", "400 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"]
+        ]
+    },
+    {
+        "name": "Lavender Infused Lemonade",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.3,
+        "servingSize": 4,
+        "method": [
+            "In a saucepan, bring 500 mL of water to a boil with 100 g of sugar and 5 g of dried lavender. Remove from heat and let steep for 20 minutes.",
+            "Strain the lavender and stir in the juice of 3 lemons and 500 mL of cold water.",
+            "Chill in the refrigerator. Serve over ice and garnish with lemon slices and lavender sprigs."
+        ],
+        "description": "Refreshing and aromatic lemonade infused with the subtle flavor of lavender, a perfect drink for relaxing on a warm day.",
+        "backdrop": "",
+        "ingredients": [
+            ["Water", "1 L"],
+            ["Sugar", "100 g"],
+            ["Dried Lavender", "5 g"],
+            ["Lemons", "3 units"]
+        ]
+    },
+    {
+        "name": "Lobster Rolls",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Boil 4 lobsters, extract the meat and chop. Mix lobster meat with 30 mL of mayonnaise, 5 mL of lemon juice, and 5 g of chopped chives.",
+            "Butter and lightly toast 4 split-top hot dog buns.",
+            "Fill each bun with the lobster mixture. Serve immediately with a side of coleslaw."
+        ],
+        "description": "Classic New England-style lobster rolls with a simple dressing served in buttery toasted buns, perfect for a summer meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lobsters", "4 units"],
+            ["Mayonnaise", "30 mL"],
+            ["Lemon Juice", "5 mL"],
+            ["Chives", "5 g"],
+            ["Hot Dog Buns", "4 units"],
+            ["Butter", "15 mL"],
+            ["Coleslaw", "0 g"]
+        ]
+    },
+    {
+        "name": "Linguine with Clams and Chorizo",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Cook 400 g of linguine al dente. Drain and set aside.",
+            "In a skillet, sauté 100 g of chopped chorizo until crisp. Remove chorizo and set aside.",
+            "In the same skillet, add 1 chopped garlic clove and 200 g of clams. Cover and cook until clams open, about 5-7 minutes.",
+            "Add the chorizo back to the skillet along with the linguine, toss with 30 mL of olive oil, and heat through.",
+            "Season with salt and pepper, and garnish with chopped parsley."
+        ],
+        "description": "A vibrant pasta dish featuring linguine tossed with fresh clams and spicy chorizo, bursting with flavors.",
+        "backdrop": "",
+        "ingredients": [
+            ["Linguine", "400 g"],
+            ["Chorizo", "100 g"],
+            ["Garlic", "1 clove"],
+            ["Clams", "200 g"],
+            ["Olive Oil", "30 mL"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Parsley", "0 g"]
+        ]
+    },
+    {
+        "name": "Lime-Cilantro Rice",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.4,
+        "servingSize": 4,
+        "method": [
+            "Cook 300 g of white rice according to package instructions. Fluff with a fork and set aside to cool slightly.",
+            "Mix in the zest and juice of 2 limes, 30 g of chopped cilantro, and season with salt.",
+            "Serve as a flavorful side dish to complement grilled meats or fish."
+        ],
+        "description": "A fresh and zesty side dish, white rice enhanced with lime and cilantro, offering a tangy complement to any main course.",
+        "backdrop": "",
+        "ingredients": [
+            ["White Rice", "300 g"],
+            ["Limes", "2 units"],
+            ["Cilantro", "30 g"],
+            ["Salt", "5 g"]
+        ]
+    },
+    {
+        "name": "Lamb Tagine with Prunes",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Brown 1 kg of lamb shoulder, cut into chunks, in 30 mL of olive oil. Remove and set aside.",
+            "In the same pot, add 1 chopped onion and 2 cloves of minced garlic, cook until soft.",
+            "Return the lamb to the pot with 200 g of prunes, 500 mL of beef broth, 5 g of cinnamon, 5 g of ground ginger, and 5 g of saffron. Cover and simmer for 2 hours until the lamb is tender.",
+            "Serve with couscous and garnish with toasted almonds and fresh cilantro."
+        ],
+        "description": "A traditional Moroccan dish featuring tender lamb slow-cooked with sweet prunes and aromatic spices, served with fluffy couscous.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lamb Shoulder", "1 kg"],
+            ["Olive Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Prunes", "200 g"],
+            ["Beef Broth", "500 mL"],
+            ["Cinnamon", "5 g"],
+            ["Ground Ginger", "5 g"],
+            ["Saffron", "0.1 g"],
+            ["Couscous", "0 g"],
+            ["Almonds", "0 g"],
+            ["Cilantro", "0 g"]
+        ]
+    },
+    {
+        "name": "Lemon Meringue Pie",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.1,
+        "servingSize": 6,
+        "method": [
+            "Prepare a pastry crust in a 9-inch pie dish and bake until lightly golden.",
+            "Cook 250 mL of lemon juice, 200 g of sugar, 30 mL of cornstarch, and 250 mL of water in a saucepan until thickened. Stir in 30 g of butter and 3 beaten egg yolks. Pour into the baked pie shell.",
+            "Beat 3 egg whites with 100 g of sugar to make meringue. Spread over the lemon filling.",
+            "Bake at 175°C (350°F) for 10 minutes or until the meringue is golden.",
+            "Cool before serving."
+        ],
+        "description": "Classic dessert featuring a crisp pastry shell filled with tangy lemon custard and topped with a fluffy meringue.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pastry Crust", "1 unit"],
+            ["Lemon Juice", "250 mL"],
+            ["Sugar", "300 g"],
+            ["Cornstarch", "30 mL"],
+            ["Water", "250 mL"],
+            ["Butter", "30 g"],
+            ["Egg Yolks", "3 units"],
+            ["Egg Whites", "3 units"]
+        ]
+    },
+    {
+        "name": "Loaded Baked Potato Skins",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "Halve 4 large baked potatoes and scoop out the flesh, leaving a thin layer of potato.",
+            "Brush both sides with 30 mL of melted butter and season with salt and pepper. Bake at 200°C (392°F) for 10 minutes on each side until crisp.",
+            "Fill with 100 g of cooked bacon bits, 100 g of sour cream, and 100 g of shredded cheddar cheese. Return to the oven just until cheese melts.",
+            "Garnish with 30 g of chopped chives and serve hot."
+        ],
+        "description": "Crispy potato skins loaded with bacon, cheese, and sour cream, perfect for a hearty appetizer or snack.",
+        "backdrop": "",
+        "ingredients": [
+            ["Baked Potatoes", "4 units"],
+            ["Butter", "30 mL"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Bacon", "100 g"],
+            ["Sour Cream", "100 g"],
+            ["Cheddar Cheese", "100 g"],
+            ["Chives", "30 g"]
+        ]
+    },
+    {
+        "name": "Lime Sorbet",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.4,
+        "servingSize": 4,
+        "method": [
+            "In a saucepan, dissolve 200 g of sugar in 500 mL of water over medium heat. Add the zest of 2 limes and simmer for 5 minutes.",
+            "Remove from heat, add 120 mL of lime juice, and chill the mixture in the refrigerator.",
+            "Once chilled, churn in an ice cream maker according to the manufacturer's instructions.",
+            "Freeze until firm, then serve."
+        ],
+        "description": "Refreshing and tangy lime sorbet, a light and icy dessert perfect for cleansing the palate or enjoying on a hot day.",
+        "backdrop": "",
+        "ingredients": [
+            ["Sugar", "200 g"],
+            ["Water", "500 mL"],
+            ["Lime Zest", "2 limes"],
+            ["Lime Juice", "120 mL"]
+        ]
+    },
+    {
+        "name": "Lentil and Bacon Soup",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "In a large pot, render 150 g of chopped bacon until crisp. Remove bacon and set aside.",
+            "In the bacon fat, sauté 1 chopped onion, 2 diced carrots, and 2 diced celery stalks until soft.",
+            "Add 300 g of rinsed lentils, 1 liter of chicken broth, and bring to a boil. Simmer for 30 minutes or until lentils are tender.",
+            "Blend half the soup for a creamy texture, then reintroduce the bacon. Season with salt and pepper.",
+            "Serve hot, garnished with a dollop of sour cream and extra chopped bacon."
+        ],
+        "description": "Hearty soup made with earthy lentils and rich bacon, blended for creaminess and topped with crisp bacon bits.",
+        "backdrop": "",
+        "ingredients": [
+            ["Bacon", "150 g"],
+            ["Onion", "1 unit"],
+            ["Carrots", "2 units"],
+            ["Celery", "2 stalks"],
+            ["Lentils", "300 g"],
+            ["Chicken Broth", "1 L"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Sour Cream", "0 g"]
+        ]
     }
 ]
