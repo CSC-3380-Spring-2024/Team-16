@@ -64,6 +64,7 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
                   page: LeaderboardWidget(),
                 ),
         ),
+        // MARK: FridgeRoute
         FFRoute(
           name: 'Fridge',
           path: '/fridge',

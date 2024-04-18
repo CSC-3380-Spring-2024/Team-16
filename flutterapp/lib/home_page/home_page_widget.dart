@@ -58,32 +58,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      FFButtonWidget(
-                        onPressed: () async {
-                          context.pushNamed('Fridge');
-                        },
-                        text: 'Fridge',
-                        options: FFButtonOptions(
-                          width: 100.0,
-                          height: 100.0,
-                          padding: const EdgeInsetsDirectional.fromSTEB(
-                              24.0, 0.0, 24.0, 0.0),
-                          iconPadding: const EdgeInsetsDirectional.fromSTEB(
-                              0.0, 0.0, 0.0, 0.0),
-                          color: FlutterFlowTheme.of(context).primary,
-                          textStyle:
-                              FlutterFlowTheme.of(context).titleSmall.override(
-                                    fontFamily: 'Readex Pro',
-                                    letterSpacing: 0.0,
-                                  ),
-                          elevation: 3.0,
-                          borderSide: const BorderSide(
-                            color: Colors.transparent,
-                            width: 1.0,
-                          ),
-                          borderRadius: BorderRadius.circular(6.0),
-                        ),
-                      ),
+                      ContainerButton(),
                       FFButtonWidget(
                         onPressed: () {
                           print('Freezer pressed ...');
@@ -510,6 +485,43 @@ class _HomePageWidgetState extends State<HomePageWidget> {
             ],
           ),
         ),
+      ),
+    );
+  }
+}
+
+class ContainerButton extends StatelessWidget {
+  const ContainerButton({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return FFButtonWidget(
+      onPressed: () async {
+        //TODO: Make method to properly load container menu
+        context.pushNamed('Fridge');
+      },
+      text: 'Fridge',
+      options: FFButtonOptions(
+        width: 100.0,
+        height: 100.0,
+        padding: const EdgeInsetsDirectional.fromSTEB(
+            24.0, 0.0, 24.0, 0.0),
+        iconPadding: const EdgeInsetsDirectional.fromSTEB(
+            0.0, 0.0, 0.0, 0.0),
+        color: FlutterFlowTheme.of(context).primary,
+        textStyle:
+            FlutterFlowTheme.of(context).titleSmall.override(
+                  fontFamily: 'Readex Pro',
+                  letterSpacing: 0.0,
+                ),
+        elevation: 3.0,
+        borderSide: const BorderSide(
+          color: Colors.transparent,
+          width: 1.0,
+        ),
+        borderRadius: BorderRadius.circular(6.0),
       ),
     );
   }

@@ -1,9 +1,9 @@
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
-import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'fridge_model.dart';
 export 'fridge_model.dart';
 
@@ -18,14 +18,9 @@ class _FridgeWidgetState extends State<FridgeWidget> {
   late FridgeModel _model;
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
-  List<String> allIngredients = [
-    'Milk',
-    'Eggs',
-    'Cheese',
-    'Butter',
-    'Bread'
-  ];
-  List<String> ingredients = ['Milk'];
+  Map<String, Map<String, dynamic>> ingredients = {
+    'Milk': {'quantity': 1, 'unit': 'liter'}
+  };
   List<String> selectedIngredients = [];
   String _searchQuery = '';
   final TextEditingController _typeAheadController = TextEditingController();
@@ -109,12 +104,12 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                         ),
                   ),
                 ),
-                for (var ingredient in ingredients)
+                for (var ingredient in ingredients.keys)
                   if (ingredient.toLowerCase().contains(_searchQuery))
                     buildIngredient(
-                        ingredient,
-                        'https://images.unsplash.com/photo-1600788907416-456578634209?q=80&w=1350&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Example URL for milk image
-                        'Expires in 7 days'), // Generic expiry for milk
+                      ingredient,
+                      'https://images.unsplash.com/photo-1600788907416-456578634209?q=80&w=1350&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90oy1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                    ),
                 Padding(
                   padding: const EdgeInsetsDirectional.fromSTEB(
                       16.0, 16.0, 16.0, 16.0),
@@ -170,7 +165,8 @@ class _FridgeWidgetState extends State<FridgeWidget> {
     );
   }
 
-  Widget buildIngredient(String name, String imageUrl, String expiry) {
+  Widget buildIngredient(String name, String imageUrl) {
+    Map<String, dynamic>? details = ingredients[name];
     bool isSelected = selectedIngredients.contains(name);
     return Dismissible(
       key: Key(name),
@@ -241,7 +237,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        name,
+                        '$name - ${details?['quantity']} ${details?['unit']}',
                         style: FlutterFlowTheme.of(context)
                             .titleMedium
                             .override(
@@ -250,7 +246,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                             ),
                       ),
                       Text(
-                        expiry,
+                        'Expires in 7 days',
                         style: FlutterFlowTheme.of(context)
                             .labelMedium
                             .override(
@@ -262,99 +258,78 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                   ),
                 ),
               ),
+              IconButton(
+                icon: Icon(Icons.edit),
+                onPressed: () => _showEditIngredientDialog(name),
+              ),
             ],
           ),
         ),
       ),
     );
   }
-  
+
   void _showAddIngredientDialog() {
+    TextEditingController ingredientController = TextEditingController();
+    TextEditingController quantityController = TextEditingController();
+    String unit = 'liter'; // Default unit
+
     showDialog(
       context: context,
       builder: (BuildContext context) {
-        TextEditingController textEditingController = TextEditingController();
-        String newIngredient = '';
-
         return AlertDialog(
           title: Text('Add Ingredient'),
           content: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Autocomplete<String>(
-                optionsBuilder: (TextEditingValue textEditingValue) {
-                  if (textEditingValue.text.isEmpty) {
-                    return const Iterable<String>.empty();
-                  }
-                  return allIngredients.where((String option) {
-                    return option.toLowerCase().contains(textEditingValue.text.toLowerCase());
+              TextField(
+                controller: ingredientController,
+                decoration: InputDecoration(
+                  labelText: "Ingredient Name",
+                ),
+              ),
+              TextField(
+                controller: quantityController,
+                decoration: InputDecoration(
+                  labelText: "Quantity",
+                ),
+                keyboardType: TextInputType.numberWithOptions(decimal: true),
+              ),
+              DropdownButton<String>(
+                value: unit,
+                icon: const Icon(Icons.arrow_downward),
+                elevation: 16,
+                style: const TextStyle(color: Colors.deepPurple),
+                underline: Container(
+                  height: 2,
+                  color: Colors.deepPurpleAccent,
+                ),
+                onChanged: (String? newValue) {
+                  setState(() {
+                    unit = newValue!;
                   });
                 },
-                onSelected: (String selection) {
-                  newIngredient = selection;
-                },
-                fieldViewBuilder: (
-                  BuildContext context,
-                  TextEditingController fieldTextEditingController,
-                  FocusNode fieldFocusNode,
-                  VoidCallback onFieldSubmitted
-                ) {
-                  return TextField(
-                    controller: fieldTextEditingController,
-                    decoration: InputDecoration(
-                      labelText: "Select or type an ingredient",
-                      filled: true,
-                      fillColor: Colors.white,
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(10.0),
-                      ),
-                    ),
-                    focusNode: fieldFocusNode,
+                items: <String>['liter', 'gram', 'piece']
+                    .map<DropdownMenuItem<String>>((String value) {
+                  return DropdownMenuItem<String>(
+                    value: value,
+                    child: Text(value),
                   );
-                },
-                optionsViewBuilder: (
-                  BuildContext context,
-                  AutocompleteOnSelected<String> onSelected,
-                  Iterable<String> options
-                ) {
-                  return Align(
-                    alignment: Alignment.topLeft,
-                    child: Material(
-                      child: Container(
-                        width: 300,
-                        height: 200,
-                        child: ListView.builder(
-                          padding: EdgeInsets.all(10.0),
-                          itemCount: options.length,
-                          itemBuilder: (BuildContext context, int index) {
-                            final String option = options.elementAt(index);
-                            return GestureDetector(
-                              onTap: () {
-                                onSelected(option);
-                              },
-                              child: ListTile(
-                                title: Text(option),
-                              ),
-                            );
-                          },
-                        ),
-                      ),
-                    ),
-                  );
-                },
+                }).toList(),
               ),
             ],
           ),
           actions: <Widget>[
             TextButton(
-              child: Text('Add Selected'),
+              child: Text('Add'),
               onPressed: () {
-                if (newIngredient.isNotEmpty) {
+                String ingredient = ingredientController.text;
+                if (ingredient.isNotEmpty && quantityController.text.isNotEmpty) {
                   setState(() {
-                    if (!ingredients.contains(newIngredient)) {
-                      ingredients.add(newIngredient);
+                    double quantity = double.tryParse(quantityController.text) ?? 0;
+                    if (quantity > 0) {
+                      ingredients[ingredient] = {'quantity': quantity, 'unit': unit};
                     }
-                    textEditingController.clear();
                   });
                   Navigator.of(context).pop();
                 }
@@ -362,16 +337,84 @@ class _FridgeWidgetState extends State<FridgeWidget> {
             ),
             TextButton(
               child: Text('Cancel'),
-              onPressed: () {
-                Navigator.of(context).pop();
-              },
+              onPressed: () => Navigator.of(context).pop(),
             ),
           ],
         );
       },
     );
   }
-  
+
+  void _showEditIngredientDialog(String name) {
+    TextEditingController quantityController = TextEditingController(text: ingredients[name]?['quantity'].toString());
+    String unit = ingredients[name]?['unit']; // Get current unit
+
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text('Edit Quantity'),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              TextField(
+                controller: quantityController,
+                decoration: InputDecoration(
+                  labelText: "Quantity",
+                ),
+                keyboardType: TextInputType.numberWithOptions(decimal: true),
+              ),
+              DropdownButton<String>(
+                value: unit,
+                icon: const Icon(Icons.arrow_downward),
+                elevation: 16,
+                style: const TextStyle(color: Colors.deepPurple),
+                underline: Container(
+                  height: 2,
+                  color: Colors.deepPurpleAccent,
+                ),
+                onChanged: (String? newValue) {
+                  setState(() {
+                    unit = newValue!;
+                  });
+                },
+                items: <String>['liter', 'gram', 'piece']
+                    .map<DropdownMenuItem<String>>((String value) {
+                  return DropdownMenuItem<String>(
+                    value: value,
+                    child: Text(value),
+                  );
+                }).toList(),
+              ),
+            ],
+          ),
+          actions: <Widget>[
+            TextButton(
+              child: Text('Update'),
+              onPressed: () {
+                if (quantityController.text.isNotEmpty) {
+                  setState(() {
+                    double quantity = double.tryParse(quantityController.text) ?? 0;
+                    if (quantity > 0) {
+                      ingredients[name] = {'quantity': quantity, 'unit': unit};
+                    }
+                  });
+                  Navigator.of(context).pop();
+                }
+              },
+            ),
+            TextButton(
+              child: Text('Cancel'),
+              onPressed: () => Navigator.of(context).pop(),
+            ),
+          ],
+        );
+      },
+    );
+  }
+}
+
+
   void _showRecipeDialog(BuildContext context) {
     showDialog(
       context: context,
@@ -415,6 +458,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
     );
   }
 
+
   Widget _buildRecipeCard() {
     String recipeTitle = "Delicious Iced Coffee";
     String authorName = "John Doe";
@@ -448,15 +492,14 @@ class _FridgeWidgetState extends State<FridgeWidget> {
               style: TextStyle(fontSize: 14.0, fontWeight: FontWeight.normal)),
           SizedBox(height: 8.0),
           Container(
-            width: 150.0, 
-            height: 150.0, 
+            width: 150.0,
+            height: 150.0,
             decoration: BoxDecoration(
               image: DecorationImage(
                   image: NetworkImage(
                       "https://media.istockphoto.com/id/483014582/photo/iced-coffee-with-whipping-cream.jpg?s=1024x1024&w=is&k=20&c=nPBZMC-YZCA7wjssHCh5UDWoEhv11GqYrwJ6s0ZIplk="),
                   fit: BoxFit.cover),
-              borderRadius: BorderRadius.circular(
-                  8.0), 
+              borderRadius: BorderRadius.circular(8.0),
             ),
           ),
           SizedBox(height: 8.0),
@@ -476,4 +519,4 @@ class _FridgeWidgetState extends State<FridgeWidget> {
       ),
     );
   }
-}
+
