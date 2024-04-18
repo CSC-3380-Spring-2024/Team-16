@@ -17196,5 +17196,1867 @@
             ["Salt", "0 g"],
             ["Mint", "10 g"]
         ]
+    },
+    {
+        "name": "Juicy Grilled Steak",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Season 1 kg of steak (ribeye or sirloin) with 10 g of salt and 5 g of black pepper.",
+            "Preheat grill to high heat. Grill steaks for 4 minutes per side for medium-rare.",
+            "Let rest for 5 minutes before slicing.",
+            "Serve with a side of garlic butter mushrooms and roasted potatoes."
+        ],
+        "description": "Perfectly grilled steak, seasoned simply and cooked to tender perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Steak", "1 kg"],
+            ["Salt", "10 g"],
+            ["Black Pepper", "5 g"],
+            ["Garlic Butter Mushrooms", "0 g"],
+            ["Roasted Potatoes", "0 g"]
+        ]
+    },
+    {
+        "name": "Japanese Miso Soup",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Bring 1 liter of water to a boil and add 20 g of dried seaweed. Lower heat and simmer for 5 minutes.",
+            "Stir in 100 g of miso paste until fully dissolved.",
+            "Add 200 g of tofu cubes and 5 g of chopped scallions. Heat through for 3 minutes.",
+            "Serve hot, garnished with more scallions."
+        ],
+        "description": "A traditional Japanese soup with miso, seaweed, tofu, and scallions, offering a warm and soothing flavor.",
+        "backdrop": "",
+        "ingredients": [
+            ["Water", "1 L"],
+            ["Dried Seaweed", "20 g"],
+            ["Miso Paste", "100 g"],
+            ["Tofu", "200 g"],
+            ["Scallions", "5 g"]
+        ]
+    },
+    {
+        "name": "Jalapeño Cheddar Cornbread",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.8,
+        "servingSize": 6,
+        "method": [
+            "Mix 200 g of cornmeal, 100 g of all-purpose flour, 10 g of baking powder, and 5 g of salt.",
+            "Stir in 1 beaten egg, 250 mL of milk, and 50 mL of melted butter.",
+            "Fold in 100 g of shredded cheddar cheese and 50 g of diced jalapeños.",
+            "Pour into a greased baking dish and bake at 200°C (392°F) for 20 minutes or until golden.",
+            "Serve warm, cut into squares."
+        ],
+        "description": "Savory cornbread infused with spicy jalapeños and rich cheddar cheese, perfect as a side for chili or barbecues.",
+        "backdrop": "",
+        "ingredients": [
+            ["Cornmeal", "200 g"],
+            ["All-Purpose Flour", "100 g"],
+            ["Baking Powder", "10 g"],
+            ["Salt", "5 g"],
+            ["Egg", "1 unit"],
+            ["Milk", "250 mL"],
+            ["Butter", "50 mL"],
+            ["Cheddar Cheese", "100 g"],
+            ["Jalapeños", "50 g"]
+        ]
+    },
+    {
+        "name": "Jerusalem Artichoke Soup",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Peel and chop 500 g of Jerusalem artichokes and 1 onion.",
+            "Sauté in 30 mL of olive oil until the onion is translucent.",
+            "Add 1 liter of vegetable stock and simmer for 30 minutes until the artichokes are tender.",
+            "Blend until smooth, season with salt and pepper, and stir in 50 mL of cream.",
+            "Serve hot, garnished with a drizzle of truffle oil and chopped chives."
+        ],
+        "description": "A creamy, earthy soup made from Jerusalem artichokes, enriched with a touch of cream and truffle oil for added luxury.",
+        "backdrop": "",
+        "ingredients": [
+            ["Jerusalem Artichokes", "500 g"],
+            ["Onion", "1 unit"],
+            ["Olive Oil", "30 mL"],
+            ["Vegetable Stock", "1 L"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Cream", "50 mL"],
+            ["Truffle Oil", "0 g"],
+            ["Chives", "0 g"]
+        ]
+    },
+    {
+        "name": "Jambalaya with Shrimp and Sausage",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.2,
+        "servingSize": 6,
+        "method": [
+            "Brown 200 g of sliced Andouille sausage in a large pot.",
+            "Add 1 chopped onion, 1 chopped bell pepper, and 2 minced garlic cloves, sauté until soft.",
+            "Stir in 300 g of rice, 400 g of canned tomatoes, 500 mL of chicken broth, 5 g of paprika, and 5 g of thyme.",
+            "Bring to a boil, then reduce heat and simmer for 20 minutes.",
+            "Add 300 g of shrimp and cook for an additional 10 minutes.",
+            "Serve hot, garnished with chopped parsley."
+        ],
+        "description": "A hearty Creole dish with spicy sausage, tender shrimp, and rice, bursting with flavors and perfect for feeding a crowd.",
+        "backdrop": "",
+        "ingredients": [
+            ["Andouille Sausage", "200 g"],
+            ["Onion", "1 unit"],
+            ["Bell Pepper", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Rice", "300 g"],
+            ["Canned Tomatoes", "400 g"],
+            ["Chicken Broth", "500 mL"],
+            ["Paprika", "5 g"],
+            ["Thyme", "5 g"],
+            ["Shrimp", "300 g"],
+            ["Parsley", "0 g"]
+        ]
+    },
+    {
+        "name": "Japanese Eggplant Stir-Fry",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Slice 400 g of Japanese eggplant and salt lightly.",
+            "Heat 30 mL of sesame oil in a wok and stir-fry the eggplant until it begins to soften.",
+            "Add 100 g of sliced red bell peppers and 50 g of green onions and stir-fry for another 5 minutes.",
+            "Stir in 30 mL of soy sauce and 15 mL of mirin before serving.",
+            "Garnish with sesame seeds."
+        ],
+        "description": "Quick and easy stir-fry featuring tender Japanese eggplant and crisp bell peppers, flavored with soy sauce and mirin.",
+        "backdrop": "",
+        "ingredients": [
+            ["Japanese Eggplant", "400 g"],
+            ["Sesame Oil", "30 mL"],
+            ["Red Bell Peppers", "100 g"],
+            ["Green Onions", "50 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Mirin", "15 mL"],
+            ["Sesame Seeds", "5 g"]
+        ]
+    },
+    {
+        "name": "Jicama and Carrot Slaw",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "Julienne 200 g of jicama and 200 g of carrots.",
+            "Toss with 30 mL of lime juice, 15 mL of honey, and 5 g of chopped cilantro.",
+            "Chill for 30 minutes before serving to allow flavors to meld.",
+            "Serve as a refreshing side dish to grilled meats or tacos."
+        ],
+        "description": "A crisp and refreshing slaw made with jicama and carrots, dressed with a sweet and tangy lime and honey dressing.",
+        "backdrop": "",
+        "ingredients": [
+            ["Jicama", "200 g"],
+            ["Carrots", "200 g"],
+            ["Lime Juice", "30 mL"],
+            ["Honey", "15 mL"],
+            ["Cilantro", "5 g"]
+        ]
+    },
+    {
+        "name": "Jalapeño Popper Chicken",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Slice 4 chicken breasts to create a pocket. Stuff with a mixture of 100 g of cream cheese, 50 g of chopped jalapeños, and 50 g of shredded cheddar cheese.",
+            "Secure with toothpicks and season with salt and pepper.",
+            "Grill over medium heat until the chicken is cooked through, about 6-7 minutes per side.",
+            "Serve hot, garnished with extra jalapeños and a dollop of sour cream."
+        ],
+        "description": "Chicken breasts stuffed with a spicy and creamy filling, grilled to perfection, embodying the flavors of jalapeño poppers.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breasts", "4 units"],
+            ["Cream Cheese", "100 g"],
+            ["Jalapeños", "50 g"],
+            ["Cheddar Cheese", "50 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Sour Cream", "0 g"]
+        ]
+    },
+    {
+        "name": "Juniper Berry Roasted Game Hen",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.5,
+        "servingSize": 4,
+        "method": [
+            "Crush 10 g of juniper berries and mix with 30 mL of olive oil, 5 g of salt, and 5 g of black pepper.",
+            "Rub the mixture over 2 game hens and stuff with 1 sliced lemon and a few sprigs of rosemary.",
+            "Roast at 190°C (374°F) for 50 minutes or until the hens are golden and the juices run clear.",
+            "Rest for 10 minutes before serving with a side of wild rice."
+        ],
+        "description": "Flavorful roasted game hens seasoned with juniper berries and rosemary, offering a unique taste experience.",
+        "backdrop": "",
+        "ingredients": [
+            ["Juniper Berries", "10 g"],
+            ["Olive Oil", "30 mL"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Game Hens", "2 units"],
+            ["Lemon", "1 unit"],
+            ["Rosemary", "0 g"],
+            ["Wild Rice", "0 g"]
+        ]
+    },
+    {
+        "name": "Jamaican Jerk Tofu",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "Press and cube 400 g of firm tofu.",
+            "Marinate in a blend of 30 mL soy sauce, 30 mL vinegar, 10 g jerk seasoning, and 5 g minced garlic for 2 hours.",
+            "Bake in a preheated oven at 180°C (356°F) for 20 minutes, turning halfway through.",
+            "Serve with coconut rice and steamed greens."
+        ],
+        "description": "Spicy and flavorful jerk-marinated tofu, baked until crispy, served with a side of creamy coconut rice.",
+        "backdrop": "",
+        "ingredients": [
+            ["Firm Tofu", "400 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Vinegar", "30 mL"],
+            ["Jerk Seasoning", "10 g"],
+            ["Garlic", "5 g"],
+            ["Coconut Rice", "0 g"],
+            ["Steamed Greens", "0 g"]
+        ]
+    },
+    {
+        "name": "Japanese Style Grilled Fish",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Marinate 4 fish fillets (such as sea bass) in a mixture of 30 mL soy sauce, 15 mL mirin, 15 mL sake, and 5 g grated ginger for 1 hour.",
+            "Grill the fillets over medium heat until cooked through, about 3-4 minutes per side.",
+            "Serve with steamed rice and sprinkle with finely chopped green onions."
+        ],
+        "description": "Delicately flavored grilled fish, marinated in traditional Japanese ingredients for a simple yet elegant meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Fish Fillets", "4 units"],
+            ["Soy Sauce", "30 mL"],
+            ["Mirin", "15 mL"],
+            ["Sake", "15 mL"],
+            ["Ginger", "5 g"],
+            ["Rice", "0 g"],
+            ["Green Onions", "0 g"]
+        ]
+    },
+    {
+        "name": "Jerk Chicken Skewers",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Cube 500 g of chicken breast and marinate in 50 mL of jerk marinade for at least 2 hours.",
+            "Thread the chicken onto skewers, alternating with pieces of bell pepper and onion.",
+            "Grill over medium-high heat for 6-7 minutes on each side until cooked through.",
+            "Serve with a mango salsa on the side."
+        ],
+        "description": "Spicy jerk chicken skewers, grilled with fresh vegetables and served with a sweet mango salsa.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breast", "500 g"],
+            ["Jerk Marinade", "50 mL"],
+            ["Bell Pepper", "1 unit"],
+            ["Onion", "1 unit"],
+            ["Mango Salsa", "0 g"]
+        ]
+    },
+    {
+        "name": "Jalapeño Lime Rice",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "Cook 300 g of rice according to package instructions.",
+            "In a skillet, sauté 2 finely chopped jalapeños in 15 mL of olive oil until soft.",
+            "Add the cooked rice, juice of 2 limes, and 5 g of salt. Mix well.",
+            "Serve hot, garnished with chopped cilantro."
+        ],
+        "description": "A zesty side dish of fluffy rice infused with the tangy flavors of lime and the heat of jalapeños.",
+        "backdrop": "",
+        "ingredients": [
+            ["Rice", "300 g"],
+            ["Jalapeños", "2 units"],
+            ["Olive Oil", "15 mL"],
+            ["Limes", "2 units"],
+            ["Salt", "5 g"],
+            ["Cilantro", "0 g"]
+        ]
+    },
+    {
+        "name": "Juniper Spiced Venison",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.8,
+        "servingSize": 4,
+        "method": [
+            "Rub 1 kg of venison loin with a mix of 10 g crushed juniper berries, 5 g salt, and 5 g black pepper.",
+            "Sear in a hot pan with 30 mL of olive oil, then roast in the oven at 180°C (356°F) for 15 minutes.",
+            "Let rest for 10 minutes, then slice and serve with a red wine reduction and roasted root vegetables."
+        ],
+        "description": "Rich and flavorful venison seasoned with juniper berries, offering a unique gamey taste perfect for a special dinner.",
+        "backdrop": "",
+        "ingredients": [
+            ["Venison Loin", "1 kg"],
+            ["Juniper Berries", "10 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Olive Oil", "30 mL"],
+            ["Red Wine Reduction", "0 g"],
+            ["Roasted Root Vegetables", "0 g"]
+        ]
+    },
+    {
+        "name": "Jicama Mango Salad",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "Peel and julienne 200 g of jicama and 1 ripe mango.",
+            "Toss with the juice of 1 lime, 5 g of chili powder, and 5 g of salt.",
+            "Chill for 30 minutes before serving to blend the flavors.",
+            "Garnish with fresh mint leaves."
+        ],
+        "description": "A refreshing and crunchy salad combining the sweetness of mango and the mild flavor of jicama with a hint of lime and chili.",
+        "backdrop": "",
+        "ingredients": [
+            ["Jicama", "200 g"],
+            ["Mango", "1 unit"],
+            ["Lime", "1 unit"],
+            ["Chili Powder", "5 g"],
+            ["Salt", "5 g"],
+            ["Mint Leaves", "0 g"]
+        ]
+    },
+    {
+        "name": "Jamaican Pepper Pot Soup",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "In a large pot, sauté 1 chopped onion and 2 cloves of minced garlic in 30 mL of vegetable oil until soft.",
+            "Add 1 chopped bell pepper, 200 g of sliced okra, and 300 g of diced potatoes. Cook for 5 minutes.",
+            "Pour in 1 liter of beef broth and add 200 g of chopped spinach. Simmer for 20 minutes.",
+            "Season with 5 g of allspice, salt, and pepper. Serve hot."
+        ],
+        "description": "A hearty and spicy Jamaican soup filled with vegetables and flavored with allspice, perfect for warming up on a cold day.",
+        "backdrop": "",
+        "ingredients": [
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Vegetable Oil", "30 mL"],
+            ["Bell Pepper", "1 unit"],
+            ["Okra", "200 g"],
+            ["Potatoes", "300 g"],
+            ["Beef Broth", "1 L"],
+            ["Spinach", "200 g"],
+            ["Allspice", "5 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"]
+        ]
+    },
+    {
+        "name": "Japanese Pumpkin Curry",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "Peel and cube 500 g of kabocha squash.",
+            "In a pot, heat 30 mL of coconut oil and sauté 1 chopped onion and 1 minced garlic clove until translucent.",
+            "Add the kabocha squash, 200 mL of coconut milk, 200 mL of vegetable stock, and 10 g of curry powder.",
+            "Simmer for 25 minutes or until the squash is tender.",
+            "Serve over steamed rice and garnish with chopped cilantro."
+        ],
+        "description": "A warm and comforting Japanese-inspired curry featuring sweet kabocha squash and rich coconut milk.",
+        "backdrop": "",
+        "ingredients": [
+            ["Kabocha Squash", "500 g"],
+            ["Coconut Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "1 clove"],
+            ["Coconut Milk", "200 mL"],
+            ["Vegetable Stock", "200 mL"],
+            ["Curry Powder", "10 g"],
+            ["Rice", "0 g"],
+            ["Cilantro", "0 g"]
+        ]
+    },
+    {
+        "name": "Jalapeño Cheese Dip",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.3,
+        "servingSize": 4,
+        "method": [
+            "In a saucepan, melt 50 g of butter and stir in 30 g of flour to make a roux.",
+            "Gradually add 250 mL of milk, stirring constantly until thickened.",
+            "Mix in 100 g of shredded cheddar cheese and 50 g of diced jalapeños until smooth.",
+            "Season with salt and pepper. Serve hot with tortilla chips."
+        ],
+        "description": "A creamy and spicy cheese dip, loaded with jalapeños, perfect for parties or as a tasty snack.",
+        "backdrop": "",
+        "ingredients": [
+            ["Butter", "50 g"],
+            ["Flour", "30 g"],
+            ["Milk", "250 mL"],
+            ["Cheddar Cheese", "100 g"],
+            ["Jalapeños", "50 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Tortilla Chips", "0 g"]
+        ]
+    },
+    {
+        "name": "Jerk Spiced Sweet Potato Fries",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Peel and cut 600 g of sweet potatoes into fries.",
+            "Toss with 30 mL of olive oil and 10 g of jerk spice mix.",
+            "Spread on a baking sheet and bake at 220°C (428°F) for 25 minutes, turning halfway through.",
+            "Serve hot, garnished with a sprinkle of sea salt."
+        ],
+        "description": "Crispy baked sweet potato fries seasoned with a fiery jerk spice blend, a delicious twist on a classic snack.",
+        "backdrop": "",
+        "ingredients": [
+            ["Sweet Potatoes", "600 g"],
+            ["Olive Oil", "30 mL"],
+            ["Jerk Spice Mix", "10 g"],
+            ["Sea Salt", "0 g"]
+        ]
+    },
+    {
+        "name": "Jicama Cucumber Salad",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "Peel and julienne 200 g of jicama and 200 g of cucumber.",
+            "Toss with 30 mL of lime juice, 5 g of chili powder, and 5 g of salt.",
+            "Refrigerate for 1 hour before serving to enhance flavors.",
+            "Garnish with fresh chopped mint and serve as a refreshing side dish."
+        ],
+        "description": "A crisp and refreshing salad with the unique texture of jicama and cucumber, spiced with chili and brightened with lime.",
+        "backdrop": "",
+        "ingredients": [
+            ["Jicama", "200 g"],
+            ["Cucumber", "200 g"],
+            ["Lime Juice", "30 mL"],
+            ["Chili Powder", "5 g"],
+            ["Salt", "5 g"],
+            ["Mint", "0 g"]
+        ]
+    },
+    {
+        "name": "Juniper Berry and Citrus Roasted Turkey",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.7,
+        "servingSize": 8,
+        "method": [
+            "Rub a 3 kg turkey with a mixture of 10 g crushed juniper berries, zest of 1 orange, zest of 1 lemon, 10 g salt, and 5 g black pepper.",
+            "Stuff the turkey with the orange and lemon halves and a bunch of thyme.",
+            "Roast in a preheated oven at 175°C (347°F) for 3 hours, or until the internal temperature reaches 74°C (165°F).",
+            "Rest for 20 minutes before carving. Serve with cranberry sauce."
+        ],
+        "description": "Festive roasted turkey enhanced with the aromatic flavors of juniper berries and fresh citrus, perfect for holiday celebrations.",
+        "backdrop": "",
+        "ingredients": [
+            ["Turkey", "3 kg"],
+            ["Juniper Berries", "10 g"],
+            ["Orange", "1 unit"],
+            ["Lemon", "1 unit"],
+            ["Salt", "10 g"],
+            ["Black Pepper", "5 g"],
+            ["Thyme", "0 g"],
+            ["Cranberry Sauce", "0 g"]
+        ]
+    },
+    {
+        "name": "Japanese Beef Curry",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Brown 500 g of cubed beef in 30 mL of vegetable oil in a large pot.",
+            "Add 1 chopped onion, 2 chopped carrots, and 2 chopped potatoes and sauté for 5 minutes.",
+            "Stir in 750 mL of beef broth and bring to a boil. Reduce heat to low and add 100 g of Japanese curry roux.",
+            "Simmer for 20 minutes until the vegetables are tender and the sauce has thickened.",
+            "Serve over steamed rice, garnished with pickled radish."
+        ],
+        "description": "A rich and hearty Japanese curry with tender beef and vegetables, served over rice for a satisfying meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Beef", "500 g"],
+            ["Vegetable Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Carrots", "2 units"],
+            ["Potatoes", "2 units"],
+            ["Beef Broth", "750 mL"],
+            ["Japanese Curry Roux", "100 g"],
+            ["Rice", "0 g"],
+            ["Pickled Radish", "0 g"]
+        ]
+    },
+    {
+        "name": "Jerk Pork Ribs",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "Rub 1 kg of pork ribs with 50 g of jerk seasoning.",
+            "Marinate for at least 4 hours or overnight in the refrigerator.",
+            "Preheat the oven to 160°C (320°F). Place ribs on a baking tray and cover with foil.",
+            "Bake for 3 hours until the meat is tender.",
+            "Uncover and broil for 10 minutes to crisp the exterior.",
+            "Serve with coleslaw and cornbread."
+        ],
+        "description": "Slow-cooked pork ribs coated in spicy jerk seasoning, finished under the broiler for a crispy exterior.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pork Ribs", "1 kg"],
+            ["Jerk Seasoning", "50 g"],
+            ["Coleslaw", "0 g"],
+            ["Cornbread", "0 g"]
+        ]
+    },
+    {
+        "name": "Jalapeño Honey Chicken",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Mix 30 mL of honey, 15 mL of lime juice, 1 minced jalapeño, and 5 g of minced garlic.",
+            "Marinate 4 chicken thighs in the mixture for 2 hours.",
+            "Grill over medium heat until the chicken is thoroughly cooked, about 7 minutes per side.",
+            "Serve with a fresh avocado salad."
+        ],
+        "description": "Sweet and spicy grilled chicken thighs marinated in a jalapeño honey sauce, paired with a cool avocado salad.",
+        "backdrop": "",
+        "ingredients": [
+            ["Honey", "30 mL"],
+            ["Lime Juice", "15 mL"],
+            ["Jalapeño", "1 unit"],
+            ["Garlic", "5 g"],
+            ["Chicken Thighs", "4 units"],
+            ["Avocado Salad", "0 g"]
+        ]
+    },
+    {
+        "name": "Japanese Pancakes",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Whisk together 100 g of flour, 5 g of baking powder, 1 beaten egg, 150 mL of milk, and 30 mL of vegetable oil to form a smooth batter.",
+            "Heat a non-stick skillet over low heat. Pour in batter to form 10 cm wide pancakes.",
+            "Cook slowly until fluffy and golden, about 4 minutes per side.",
+            "Serve with maple syrup and fresh fruit."
+        ],
+        "description": "Thick and fluffy Japanese-style pancakes, lightly sweetened and cooked to a soft perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Flour", "100 g"],
+            ["Baking Powder", "5 g"],
+            ["Egg", "1 unit"],
+            ["Milk", "150 mL"],
+            ["Vegetable Oil", "30 mL"],
+            ["Maple Syrup", "0 g"],
+            ["Fresh Fruit", "0 g"]
+        ]
+    },
+    {
+        "name": "Jicama Tacos",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "Peel and slice 200 g of jicama into thin rounds to use as taco shells.",
+            "Fill each shell with 200 g of grilled chicken, 50 g of diced tomatoes, and 30 g of shredded lettuce.",
+            "Top with 30 mL of cilantro-lime dressing and serve immediately."
+        ],
+        "description": "A light and refreshing take on tacos, using crisp jicama slices as the shell, filled with grilled chicken and fresh vegetables.",
+        "backdrop": "",
+        "ingredients": [
+            ["Jicama", "200 g"],
+            ["Grilled Chicken", "200 g"],
+            ["Tomatoes", "50 g"],
+            ["Lettuce", "30 g"],
+            ["Cilantro-Lime Dressing", "30 mL"]
+        ]
+    },
+    {
+        "name": "Juicy Lemon Chicken",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Season 4 chicken breasts with salt and pepper.",
+            "Brown in a skillet with 30 mL of olive oil over medium heat.",
+            "Add the juice of 2 lemons and 100 mL of chicken broth. Simmer until the chicken is cooked through, about 15 minutes.",
+            "Garnish with sliced lemons and chopped parsley before serving."
+        ],
+        "description": "Simple yet flavorful chicken breasts, pan-seared and simmered in a lemony broth, enhancing the chicken's natural juiciness.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breasts", "4 units"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Olive Oil", "30 mL"],
+            ["Lemons", "2 units"],
+            ["Chicken Broth", "100 mL"],
+            ["Parsley", "0 g"]
+        ]
+    },
+    {
+        "name": "Jumbo Shrimp Cocktail",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "Boil 20 jumbo shrimp in salted water for 2 minutes, then plunge into ice water to stop the cooking process.",
+            "Serve chilled with a sauce made from 100 g of ketchup, 15 mL of horseradish, juice of 1 lemon, and a dash of Worcestershire sauce."
+        ],
+        "description": "Classic shrimp cocktail with perfectly cooked jumbo shrimp, served with a zesty homemade cocktail sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Jumbo Shrimp", "20 units"],
+            ["Salt", "5 g"],
+            ["Ketchup", "100 g"],
+            ["Horseradish", "15 mL"],
+            ["Lemon", "1 unit"],
+            ["Worcestershire Sauce", "5 mL"]
+        ]
+    },
+    {
+        "name": "Jalapeño Bacon Wrapped Poppers",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Halve 10 jalapeños and remove the seeds. Stuff with a mixture of 100 g cream cheese and 50 g shredded cheddar cheese.",
+            "Wrap each jalapeño half with a slice of bacon.",
+            "Bake at 200°C (392°F) for 20 minutes or until the bacon is crispy.",
+            "Serve hot."
+        ],
+        "description": "Spicy jalapeños filled with creamy cheese and wrapped in crispy bacon, a perfect blend of textures and flavors.",
+        "backdrop": "",
+        "ingredients": [
+            ["Jalapeños", "10 units"],
+            ["Cream Cheese", "100 g"],
+            ["Cheddar Cheese", "50 g"],
+            ["Bacon", "10 slices"]
+        ]
+    },
+    {
+        "name": "Jamaican Banana Fritters",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Mash 4 ripe bananas in a bowl. Mix in 100 g of flour, 50 g of sugar, 5 g of baking powder, and a pinch of nutmeg.",
+            "Heat 30 mL of vegetable oil in a skillet. Drop spoonfuls of the banana mixture into the oil and fry until golden brown, about 2 minutes per side.",
+            "Drain on paper towels and dust with powdered sugar before serving."
+        ],
+        "description": "Sweet and soft fritters made with ripe bananas and a hint of nutmeg, fried to a golden perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Bananas", "4 units"],
+            ["Flour", "100 g"],
+            ["Sugar", "50 g"],
+            ["Baking Powder", "5 g"],
+            ["Nutmeg", "0 g"],
+            ["Vegetable Oil", "30 mL"],
+            ["Powdered Sugar", "0 g"]
+        ]
+    },
+    {
+        "name": "Juniper-Citrus Cured Salmon",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.6,
+        "servingSize": 4,
+        "method": [
+            "Mix 50 g of salt, 50 g of sugar, 10 g crushed juniper berries, zest of 1 orange, and zest of 1 lemon.",
+            "Cover 500 g of salmon fillet with the mixture and wrap tightly in plastic wrap.",
+            "Cure in the refrigerator for 24 hours.",
+            "Rinse off the cure, slice thinly, and serve with cream cheese and capers on rye bread."
+        ],
+        "description": "Elegantly cured salmon with a blend of juniper, citrus zests, salt, and sugar, creating a luxurious and flavorful dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Salt", "50 g"],
+            ["Sugar", "50 g"],
+            ["Juniper Berries", "10 g"],
+            ["Orange Zest", "1 unit"],
+            ["Lemon Zest", "1 unit"],
+            ["Salmon Fillet", "500 g"],
+            ["Cream Cheese", "0 g"],
+            ["Capers", "0 g"],
+            ["Rye Bread", "0 g"]
+        ]
+    },
+    {
+        "name": "Japanese Sweet Potato Soup",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Peel and cube 600 g of Japanese sweet potatoes.",
+            "Sauté 1 chopped onion in 30 mL of sesame oil until translucent.",
+            "Add sweet potatoes, 1 liter of vegetable broth, and simmer until potatoes are tender, about 20 minutes.",
+            "Puree the soup until smooth, season with salt and pepper, and stir in 50 mL of coconut milk.",
+            "Serve hot, garnished with toasted sesame seeds and a drizzle of soy sauce."
+        ],
+        "description": "Creamy and comforting soup made with Japanese sweet potatoes, subtly enhanced with sesame and coconut flavors.",
+        "backdrop": "",
+        "ingredients": [
+            ["Japanese Sweet Potatoes", "600 g"],
+            ["Onion", "1 unit"],
+            ["Sesame Oil", "30 mL"],
+            ["Vegetable Broth", "1 L"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Coconut Milk", "50 mL"],
+            ["Sesame Seeds", "0 g"],
+            ["Soy Sauce", "0 g"]
+        ]
+    },
+    {
+        "name": "Jalapeño Cheddar Biscuits",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.7,
+        "servingSize": 6,
+        "method": [
+            "Combine 250 g of all-purpose flour, 10 g of baking powder, 5 g of sugar, and 5 g of salt in a bowl.",
+            "Cut in 50 g of cold butter until the mixture resembles coarse crumbs.",
+            "Stir in 100 g of shredded cheddar cheese and 50 g of diced jalapeños.",
+            "Add 120 mL of milk and stir until the dough comes together.",
+            "Drop spoonfuls onto a baking sheet and bake at 220°C (428°F) for 12 minutes or until golden brown.",
+            "Serve warm with butter."
+        ],
+        "description": "Flaky and buttery biscuits loaded with sharp cheddar cheese and spicy jalapeños, perfect for a savory snack or breakfast.",
+        "backdrop": "",
+        "ingredients": [
+            ["All-Purpose Flour", "250 g"],
+            ["Baking Powder", "10 g"],
+            ["Sugar", "5 g"],
+            ["Salt", "5 g"],
+            ["Butter", "50 g"],
+            ["Cheddar Cheese", "100 g"],
+            ["Jalapeños", "50 g"],
+            ["Milk", "120 mL"]
+        ]
+    },
+    {
+        "name": "Jamaican Plantain Porridge",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Peel and slice 2 ripe plantains.",
+            "Blend plantains with 500 mL of milk until smooth.",
+            "Pour the mixture into a pot and cook over medium heat, stirring constantly until thickened, about 15 minutes.",
+            "Sweeten with 30 g of sugar and a pinch of nutmeg.",
+            "Serve hot, garnished with a sprinkle of cinnamon."
+        ],
+        "description": "A traditional Jamaican breakfast dish, this creamy porridge made with ripe plantains is both nourishing and comforting.",
+        "backdrop": "",
+        "ingredients": [
+            ["Plantains", "2 units"],
+            ["Milk", "500 mL"],
+            ["Sugar", "30 g"],
+            ["Nutmeg", "0 g"],
+            ["Cinnamon", "0 g"]
+        ]
+    },
+    {
+        "name": "Japanese Tofu Steak",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Drain and press 400 g of firm tofu to remove excess water.",
+            "Slice the tofu into 1 cm thick steaks.",
+            "Pan-fry in 15 mL of sesame oil over medium heat until golden on each side, about 3 minutes per side.",
+            "Deglaze the pan with 30 mL of soy sauce and 15 mL of mirin, and simmer for 1 minute.",
+            "Serve the tofu steaks with the pan sauce and a sprinkle of chopped scallions."
+        ],
+        "description": "Savory and simple tofu steaks, pan-fried to perfection and glazed with a light soy-mirin sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Firm Tofu", "400 g"],
+            ["Sesame Oil", "15 mL"],
+            ["Soy Sauce", "30 mL"],
+            ["Mirin", "15 mL"],
+            ["Scallions", "0 g"]
+        ]
+    },
+    {
+        "name": "Jersey Royal Potato Salad",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "Boil 500 g of Jersey Royal potatoes until tender, about 15 minutes.",
+            "Drain and while still warm, toss with 30 mL of olive oil, 15 mL of white wine vinegar, and 5 g of salt.",
+            "Add 50 g of chopped fresh chives and 50 g of sliced radishes.",
+            "Allow to cool to room temperature before serving."
+        ],
+        "description": "A light and fresh potato salad using Jersey Royals, enhanced with the crunch of radishes and the onion-like taste of chives.",
+        "backdrop": "",
+        "ingredients": [
+            ["Jersey Royal Potatoes", "500 g"],
+            ["Olive Oil", "30 mL"],
+            ["White Wine Vinegar", "15 mL"],
+            ["Salt", "5 g"],
+            ["Chives", "50 g"],
+            ["Radishes", "50 g"]
+        ]
+    },
+    {
+        "name": "Juniper Berry Glazed Carrots",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Simmer 300 g of baby carrots in water until just tender, about 7 minutes.",
+            "Drain and toss with a glaze made from 15 mL of honey, 5 crushed juniper berries, and 15 mL of butter.",
+            "Cook over medium heat for an additional 5 minutes until glazed.",
+            "Season with a pinch of salt and serve warm."
+        ],
+        "description": "Sweet carrots enhanced with a unique juniper berry and honey glaze, a delightful side dish with a twist.",
+        "backdrop": "",
+        "ingredients": [
+            ["Baby Carrots", "300 g"],
+            ["Honey", "15 mL"],
+            ["Juniper Berries", "5 units"],
+            ["Butter", "15 mL"],
+            ["Salt", "0 g"]
+        ]
+    },
+    {
+        "name": "Jicama and Orange Salad",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Peel and julienne 250 g of jicama.",
+            "Peel and segment 3 oranges, catching any juice and combining it with 15 mL of lime juice and 30 mL of olive oil to make a dressing.",
+            "Toss the jicama and orange segments with the dressing.",
+            "Chill for 30 minutes and serve garnished with chopped cilantro and toasted pumpkin seeds."
+        ],
+        "description": "A refreshing and crunchy salad featuring jicama and sweet oranges, dressed with a citrusy homemade vinaigrette.",
+        "backdrop": "",
+        "ingredients": [
+            ["Jicama", "250 g"],
+            ["Oranges", "3 units"],
+            ["Lime Juice", "15 mL"],
+            ["Olive Oil", "30 mL"],
+            ["Cilantro", "0 g"],
+            ["Pumpkin Seeds", "0 g"]
+        ]
+    },
+    {
+        "name": "Jackfruit Vegan Tacos",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Shred 500 g of canned young jackfruit.",
+            "Sauté in 30 mL of olive oil with 1 chopped onion and 2 minced garlic cloves until the onion is soft.",
+            "Add 30 mL of BBQ sauce and 5 g of smoked paprika, cook for 10 more minutes.",
+            "Serve on corn tortillas with avocado slices and fresh salsa."
+        ],
+        "description": "Smoky and hearty vegan tacos made with pulled jackfruit, a perfect meat substitute packed with flavor.",
+        "backdrop": "",
+        "ingredients": [
+            ["Young Jackfruit", "500 g"],
+            ["Olive Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["BBQ Sauce", "30 mL"],
+            ["Smoked Paprika", "5 g"],
+            ["Corn Tortillas", "0 g"],
+            ["Avocado", "0 g"],
+            ["Salsa", "0 g"]
+        ]
+    },
+    {
+        "name": "Jalapeño Mango Chutney",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Peel and dice 2 ripe mangoes. Finely chop 2 jalapeños.",
+            "Combine mangoes, jalapeños, 50 g of sugar, 30 mL of vinegar, and a pinch of salt in a saucepan.",
+            "Simmer over low heat for 30 minutes, stirring occasionally, until thickened.",
+            "Cool and store in jars. Serve as a condiment with grilled meats or cheese."
+        ],
+        "description": "A sweet and spicy chutney featuring tropical mangoes and fiery jalapeños, perfect as a versatile condiment.",
+        "backdrop": "",
+        "ingredients": [
+            ["Mangoes", "2 units"],
+            ["Jalapeños", "2 units"],
+            ["Sugar", "50 g"],
+            ["Vinegar", "30 mL"],
+            ["Salt", "0 g"]
+        ]
+    },
+    {
+        "name": "Jasmine Tea Smoked Duck",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.8,
+        "servingSize": 4,
+        "method": [
+            "Rub a whole duck with a mixture of 5 g of salt, 5 g of sugar, and 5 g of five-spice powder.",
+            "Fill a wok with a mixture of 100 g of rice, 50 g of sugar, 50 g of jasmine tea leaves, and heat until it starts to smoke.",
+            "Place the duck on a rack in the wok, cover, and smoke for 1 hour over low heat.",
+            "Serve sliced with hoisin sauce and pancakes."
+        ],
+        "description": "Exquisitely smoked duck with the delicate aroma of jasmine tea, creating a unique and flavorful dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Duck", "1 unit"],
+            ["Salt", "5 g"],
+            ["Sugar", "5 g"],
+            ["Five-Spice Powder", "5 g"],
+            ["Rice", "100 g"],
+            ["Jasmine Tea Leaves", "50 g"],
+            ["Hoisin Sauce", "0 g"],
+            ["Pancakes", "0 g"]
+        ]
+    },
+    {
+        "name": "Jerusalem Artichoke and Leek Quiche",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.5,
+        "servingSize": 4,
+        "method": [
+            "Slice 200 g of Jerusalem artichokes and 1 leek. Sauté in 30 mL of butter until soft.",
+            "Whisk together 3 eggs, 100 mL of cream, 50 g of grated Gruyère cheese, salt, and pepper.",
+            "Pour the egg mixture over the sautéed vegetables in a pre-baked pie crust.",
+            "Bake at 180°C (356°F) for 30 minutes or until set.",
+            "Serve warm or at room temperature."
+        ],
+        "description": "A savory quiche combining earthy Jerusalem artichokes and sweet leeks, enriched with creamy Gruyère cheese.",
+        "backdrop": "",
+        "ingredients": [
+            ["Jerusalem Artichokes", "200 g"],
+            ["Leek", "1 unit"],
+            ["Butter", "30 mL"],
+            ["Eggs", "3 units"],
+            ["Cream", "100 mL"],
+            ["Gruyère Cheese", "50 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Pie Crust", "1 unit"]
+        ]
+    },
+    {
+        "name": "Jumbo Lump Crab Cakes",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Mix 500 g of jumbo lump crabmeat with 100 g of breadcrumbs, 1 beaten egg, 30 mL of mayonnaise, 15 mL of Dijon mustard, and 5 g of chopped parsley.",
+            "Form into 8 cakes and refrigerate for 30 minutes to firm up.",
+            "Pan-fry in 30 mL of olive oil over medium heat until golden brown on each side, about 4 minutes per side.",
+            "Serve with lemon wedges and tartar sauce."
+        ],
+        "description": "Luxurious crab cakes made with jumbo lump crabmeat, lightly seasoned and pan-fried to a perfect golden crisp.",
+        "backdrop": "",
+        "ingredients": [
+            ["Jumbo Lump Crabmeat", "500 g"],
+            ["Breadcrumbs", "100 g"],
+            ["Egg", "1 unit"],
+            ["Mayonnaise", "30 mL"],
+            ["Dijon Mustard", "15 mL"],
+            ["Parsley", "5 g"],
+            ["Olive Oil", "30 mL"],
+            ["Lemon Wedges", "0 g"],
+            ["Tartar Sauce", "0 g"]
+        ]
+    },
+    {
+        "name": "Japanese Soy Glazed Eggplant",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Slice 2 large eggplants into rounds.",
+            "Brush with a mixture of 30 mL soy sauce, 15 mL mirin, and 15 mL sake.",
+            "Grill or broil the eggplant slices until tender and slightly charred, about 5 minutes per side.",
+            "Garnish with sesame seeds and chopped scallions before serving."
+        ],
+        "description": "Tender eggplant slices glazed with a savory soy sauce mixture, enhanced with the subtle sweetness of mirin and sake.",
+        "backdrop": "",
+        "ingredients": [
+            ["Eggplants", "2 units"],
+            ["Soy Sauce", "30 mL"],
+            ["Mirin", "15 mL"],
+            ["Sake", "15 mL"],
+            ["Sesame Seeds", "5 g"],
+            ["Scallions", "5 g"]
+        ]
+    },
+    {
+        "name": "Jerk Shrimp and Pineapple Skewers",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Marinate 400 g of shrimp in 30 mL of jerk seasoning paste for 1 hour.",
+            "Thread shrimp and chunks of pineapple onto skewers.",
+            "Grill over medium heat, turning occasionally, until the shrimp are cooked through, about 6 minutes.",
+            "Serve with a side of coconut rice."
+        ],
+        "description": "Spicy jerk-seasoned shrimp paired with sweet pineapple, grilled to perfection. A tropical and tasty combination.",
+        "backdrop": "",
+        "ingredients": [
+            ["Shrimp", "400 g"],
+            ["Jerk Seasoning Paste", "30 mL"],
+            ["Pineapple", "200 g"],
+            ["Coconut Rice", "0 g"]
+        ]
+    },
+    {
+        "name": "Jordanian Mansaf",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.5,
+        "servingSize": 4,
+        "method": [
+            "Simmer 1 kg of lamb chunks in a pot with 1 liter of water, 1 chopped onion, and spices for 1.5 hours until the lamb is tender.",
+            "Dissolve 200 g of jameed (dried yogurt) in 500 mL of the cooking broth, then pour back into the pot and simmer for another 30 minutes.",
+            "Serve the lamb over a bed of rice garnished with toasted pine nuts and chopped parsley."
+        ],
+        "description": "A traditional Jordanian dish featuring tender lamb cooked in a unique jameed broth, served over fragrant rice.",
+        "backdrop": "",
+        "ingredients": [
+            ["Lamb", "1 kg"],
+            ["Water", "1 L"],
+            ["Onion", "1 unit"],
+            ["Spices", "0 g"],
+            ["Jameed", "200 g"],
+            ["Rice", "0 g"],
+            ["Pine Nuts", "0 g"],
+            ["Parsley", "0 g"]
+        ]
+    },
+    {
+        "name": "Juicy Stuffed Jalapeños",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Halve and deseed 12 jalapeños.",
+            "Mix 200 g of cream cheese with 100 g of grated cheddar and 50 g of chopped bacon.",
+            "Stuff the jalapeño halves with the mixture and wrap each with a slice of bacon.",
+            "Bake at 200°C (392°F) for 20 minutes until the bacon is crispy.",
+            "Serve hot."
+        ],
+        "description": "Creamy and spicy jalapeños filled with a rich cheese and bacon mix, wrapped in bacon for extra flavor.",
+        "backdrop": "",
+        "ingredients": [
+            ["Jalapeños", "12 units"],
+            ["Cream Cheese", "200 g"],
+            ["Cheddar Cheese", "100 g"],
+            ["Bacon", "100 g"]
+        ]
+    },
+    {
+        "name": "Jamaican Banana Bread",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 6,
+        "method": [
+            "Cream together 100 g of butter and 150 g of sugar.",
+            "Add 2 beaten eggs and 3 mashed ripe bananas.",
+            "Mix in 250 g of flour, 5 g of baking soda, and a pinch of salt.",
+            "Fold in 50 g of chopped walnuts and pour into a greased loaf pan.",
+            "Bake at 175°C (347°F) for 60 minutes or until a toothpick inserted comes out clean.",
+            "Cool and serve sliced."
+        ],
+        "description": "Moist and flavorful banana bread with a hint of tropical Jamaican flair, enhanced with walnuts for a crunchy texture.",
+        "backdrop": "",
+        "ingredients": [
+            ["Butter", "100 g"],
+            ["Sugar", "150 g"],
+            ["Eggs", "2 units"],
+            ["Ripe Bananas", "3 units"],
+            ["Flour", "250 g"],
+            ["Baking Soda", "5 g"],
+            ["Salt", "0 g"],
+            ["Walnuts", "50 g"]
+        ]
+    },
+    {
+        "name": "Japanese Ginger Pork",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "Slice 500 g of pork loin into thin strips.",
+            "Marinate in a mixture of 30 mL soy sauce, 30 mL sake, 10 g grated ginger, and 5 g sugar for at least 1 hour.",
+            "Heat 15 mL of vegetable oil in a skillet and sauté the pork until fully cooked, about 5 minutes.",
+            "Serve with steamed rice and pickled vegetables."
+        ],
+        "description": "Tender slices of pork marinated in ginger and soy sauce, a quick and delicious Japanese-inspired dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pork Loin", "500 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Sake", "30 mL"],
+            ["Ginger", "10 g"],
+            ["Sugar", "5 g"],
+            ["Vegetable Oil", "15 mL"],
+            ["Rice", "0 g"],
+            ["Pickled Vegetables", "0 g"]
+        ]
+    },
+    {
+        "name": "Jerusalem Artichoke Dip",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "Peel and boil 300 g of Jerusalem artichokes until soft, about 20 minutes.",
+            "Blend with 100 g of cream cheese, 50 mL of sour cream, and salt and pepper to taste until smooth.",
+            "Stir in 5 g of chopped chives and refrigerate for 1 hour before serving.",
+            "Serve with vegetable sticks and crackers."
+        ],
+        "description": "A creamy and smooth dip made from Jerusalem artichokes, paired with cream cheese and sour cream for a rich texture.",
+        "backdrop": "",
+        "ingredients": [
+            ["Jerusalem Artichokes", "300 g"],
+            ["Cream Cheese", "100 g"],
+            ["Sour Cream", "50 mL"],
+            ["Salt", "0 g"],
+            ["Black Pepper", "0 g"],
+            ["Chives", "5 g"],
+            ["Vegetable Sticks", "0 g"],
+            ["Crackers", "0 g"]
+        ]
+    },
+    {
+        "name": "Jungle Juice Cocktail",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.4,
+        "servingSize": 4,
+        "method": [
+            "In a large pitcher, combine 500 mL of fruit punch, 250 mL of orange juice, 250 mL of pineapple juice, and 120 mL of rum.",
+            "Add slices of various fruits such as oranges, lemons, and pineapples.",
+            "Chill for at least 2 hours to allow the flavors to meld.",
+            "Serve over ice in tall glasses."
+        ],
+        "description": "A vibrant and fruity cocktail packed with a mix of juices and rum, perfect for a party or gathering.",
+        "backdrop": "",
+        "ingredients": [
+            ["Fruit Punch", "500 mL"],
+            ["Orange Juice", "250 mL"],
+            ["Pineapple Juice", "250 mL"],
+            ["Rum", "120 mL"],
+            ["Mixed Fruit Slices", "0 g"]
+        ]
+    },
+    {
+        "name": "Jumbo Stuffed Shells",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Cook 24 jumbo pasta shells according to package directions.",
+            "Mix 500 g of ricotta cheese, 100 g of spinach, 1 beaten egg, 50 g of grated Parmesan, 5 g of salt, and 5 g of black pepper.",
+            "Stuff the cooked shells with the cheese mixture.",
+            "Pour 500 mL of marinara sauce into a baking dish, arrange the stuffed shells, and top with 100 g of shredded mozzarella.",
+            "Bake at 180°C (356°F) for 25 minutes or until bubbly.",
+            "Serve hot."
+        ],
+        "description": "Cheese and spinach stuffed pasta shells, baked in marinara sauce and topped with mozzarella cheese.",
+        "backdrop": "",
+        "ingredients": [
+            ["Jumbo Pasta Shells", "24 units"],
+            ["Ricotta Cheese", "500 g"],
+            ["Spinach", "100 g"],
+            ["Egg", "1 unit"],
+            ["Parmesan Cheese", "50 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Marinara Sauce", "500 mL"],
+            ["Mozzarella Cheese", "100 g"]
+        ]
+    },
+    {
+        "name": "Japanese Chicken Yakitori",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Cut 400 g of chicken thighs into bite-sized pieces.",
+            "Skewer the chicken pieces and season with salt.",
+            "Grill over medium heat, brushing frequently with a mix of 30 mL soy sauce, 15 mL mirin, 15 mL sake, and 5 g sugar, until cooked through, about 10 minutes.",
+            "Sprinkle with sesame seeds and sliced green onions before serving."
+        ],
+        "description": "Traditional Japanese grilled chicken skewers, glazed with a sweet and savory sauce, perfect for a quick meal or appetizer.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Thighs", "400 g"],
+            ["Salt", "5 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Mirin", "15 mL"],
+            ["Sake", "15 mL"],
+            ["Sugar", "5 g"],
+            ["Sesame Seeds", "5 g"],
+            ["Green Onions", "5 g"]
+        ]
+    },
+    {
+        "name": "Jerk Beef Stew",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "Brown 500 g of cubed beef brisket in 30 mL of vegetable oil in a large pot.",
+            "Add 1 chopped onion, 2 minced garlic cloves, and 200 g of diced potatoes.",
+            "Stir in 5 g of jerk seasoning, 500 mL of beef broth, and bring to a simmer.",
+            "Cook covered for 2 hours or until the beef is tender.",
+            "Serve hot, garnished with chopped fresh cilantro."
+        ],
+        "description": "Hearty and spicy jerk-seasoned beef stew with tender potatoes and aromatic herbs, a comforting meal for any day.",
+        "backdrop": "",
+        "ingredients": [
+            ["Beef Brisket", "500 g"],
+            ["Vegetable Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Potatoes", "200 g"],
+            ["Jerk Seasoning", "5 g"],
+            ["Beef Broth", "500 mL"],
+            ["Cilantro", "0 g"]
+        ]
+    },
+    {
+        "name": "Jalapeño Honey Glazed Salmon",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Mix 30 mL of honey with 15 mL of finely chopped jalapeños and 5 mL of soy sauce.",
+            "Place 4 salmon fillets on a baking sheet and brush with the jalapeño honey glaze.",
+            "Bake at 200°C (392°F) for 15 minutes or until the salmon is cooked through.",
+            "Garnish with lime wedges and serve."
+        ],
+        "description": "Sweet and spicy glazed salmon, with a hint of jalapeño heat, baked to flaky perfection.",
+        "backdrop": "",
+        "ingredients": [
+            ["Honey", "30 mL"],
+            ["Jalapeños", "15 mL"],
+            ["Soy Sauce", "5 mL"],
+            ["Salmon Fillets", "4 units"],
+            ["Lime Wedges", "0 g"]
+        ]
+    },
+    {
+        "name": "Jamaican Spiced Corn Soup",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.1,
+        "servingSize": 4,
+        "method": [
+            "Sauté 1 chopped onion, 2 cloves of minced garlic, and 1 chopped bell pepper in 30 mL of coconut oil.",
+            "Add 400 g of fresh corn kernels, 1 chopped Scotch bonnet pepper, 500 mL of vegetable broth, and 200 mL of coconut milk.",
+            "Simmer for 20 minutes, then blend until smooth.",
+            "Reheat, adjust seasoning with salt and pepper, and serve hot with chopped chives."
+        ],
+        "description": "A creamy and vibrantly flavored Jamaican-inspired corn soup, with a touch of heat from Scotch bonnet peppers.",
+        "backdrop": "",
+        "ingredients": [
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Bell Pepper", "1 unit"],
+            ["Coconut Oil", "30 mL"],
+            ["Corn Kernels", "400 g"],
+            ["Scotch Bonnet Pepper", "1 unit"],
+            ["Vegetable Broth", "500 mL"],
+            ["Coconut Milk", "200 mL"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Chives", "0 g"]
+        ]
+    },
+    {
+        "name": "Jelly Filled Doughnuts",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.2,
+        "servingSize": 6,
+        "method": [
+            "Prepare dough by mixing 500 g of flour, 100 g of sugar, 10 g of yeast, 5 g of salt, 250 mL of warm milk, 1 beaten egg, and 50 g of melted butter.",
+            "Knead until smooth and let rise for 1 hour.",
+            "Roll out dough, cut into rounds, and spoon 15 mL of jelly into the center of half the rounds.",
+            "Top with the other half, seal edges, and let rise for 30 minutes.",
+            "Fry in 180°C (356°F) oil until golden, about 2 minutes per side.",
+            "Roll in sugar and serve warm."
+        ],
+        "description": "Sweet, fluffy doughnuts filled with jelly and dusted with sugar, a delightful treat for any time of day.",
+        "backdrop": "",
+        "ingredients": [
+            ["Flour", "500 g"],
+            ["Sugar", "100 g"],
+            ["Yeast", "10 g"],
+            ["Salt", "5 g"],
+            ["Warm Milk", "250 mL"],
+            ["Egg", "1 unit"],
+            ["Butter", "50 g"],
+            ["Jelly", "90 mL"]
+        ]
+    },
+    {
+        "name": "Juniper Berry Game Pie",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.6,
+        "servingSize": 6,
+        "method": [
+            "Brown 500 g of mixed game meat (venison, rabbit, pheasant) in 30 mL of oil.",
+            "Add 1 chopped onion, 2 cloves of minced garlic, and 300 mL of beef stock. Simmer for 1 hour.",
+            "Add 10 crushed juniper berries, 100 mL of red wine, and thicken with a flour-water paste.",
+            "Pour into a pie dish, cover with pie dough, and bake at 200°C (392°F) for 30 minutes.",
+            "Serve hot, garnished with fresh thyme."
+        ],
+        "description": "A hearty and rustic pie filled with tender game meat and flavored with juniper berries and red wine.",
+        "backdrop": "",
+        "ingredients": [
+            ["Game Meat", "500 g"],
+            ["Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Garlic", "2 cloves"],
+            ["Beef Stock", "300 mL"],
+            ["Juniper Berries", "10 units"],
+            ["Red Wine", "100 mL"],
+            ["Flour", "50 g"],
+            ["Pie Dough", "1 unit"],
+            ["Thyme", "0 g"]
+        ]
+    },
+    {
+        "name": "Jamaican Curry Goat",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.5,
+        "servingSize": 4,
+        "method": [
+            "Marinate 1 kg of goat meat in a mixture of 30 mL curry powder, 5 g allspice, 5 cloves of minced garlic, and juice of 1 lime for 3 hours.",
+            "Brown the goat meat in a pot with 30 mL of oil. Add 1 chopped onion and 2 chopped tomatoes.",
+            "Cover with water and simmer for 2 hours until meat is tender.",
+            "Serve with rice and peas."
+        ],
+        "description": "Authentic Jamaican dish featuring succulent goat meat slow-cooked with a robust blend of spices.",
+        "backdrop": "",
+        "ingredients": [
+            ["Goat Meat", "1 kg"],
+            ["Curry Powder", "30 mL"],
+            ["Allspice", "5 g"],
+            ["Garlic", "5 cloves"],
+            ["Lime", "1 unit"],
+            ["Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Tomatoes", "2 units"],
+            ["Rice and Peas", "0 g"]
+        ]
+    },
+    {
+        "name": "Jelly Bean Bark",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.4,
+        "servingSize": 4,
+        "method": [
+            "Melt 300 g of white chocolate in a double boiler.",
+            "Pour the melted chocolate onto a baking sheet lined with parchment paper.",
+            "Sprinkle 100 g of assorted jelly beans over the chocolate.",
+            "Refrigerate until set, about 1 hour. Break into pieces and serve."
+        ],
+        "description": "A colorful and sweet treat, perfect for parties, featuring creamy white chocolate studded with vibrant jelly beans.",
+        "backdrop": "",
+        "ingredients": [
+            ["White Chocolate", "300 g"],
+            ["Jelly Beans", "100 g"]
+        ]
+    },
+    {
+        "name": "Japanese Udon Noodle Soup",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "In a pot, bring 1 liter of chicken broth to a boil. Add 200 g udon noodles and cook for 10 minutes.",
+            "Add 100 g of sliced mushrooms, 100 g of baby spinach, and 30 mL of soy sauce.",
+            "Simmer for an additional 5 minutes.",
+            "Serve hot, garnished with sliced green onions and a boiled egg halved."
+        ],
+        "description": "A comforting and simple Japanese noodle soup with udon noodles, fresh vegetables, and a savory broth.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Broth", "1 L"],
+            ["Udon Noodles", "200 g"],
+            ["Mushrooms", "100 g"],
+            ["Baby Spinach", "100 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Green Onions", "5 g"],
+            ["Boiled Egg", "2 units"]
+        ]
+    },
+    {
+        "name": "Jicama Watermelon Salad",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Combine 200 g of jicama cut into matchsticks, 300 g of cubed watermelon, and 100 g of crumbled feta cheese in a bowl.",
+            "Drizzle with a dressing made from 30 mL of lime juice, 15 mL of honey, and 5 g of chopped mint.",
+            "Toss gently and chill before serving."
+        ],
+        "description": "A refreshing and crunchy salad perfect for summer, combining the sweetness of watermelon with the mild flavor of jicama, accented with feta and mint.",
+        "backdrop": "",
+        "ingredients": [
+            ["Jicama", "200 g"],
+            ["Watermelon", "300 g"],
+            ["Feta Cheese", "100 g"],
+            ["Lime Juice", "30 mL"],
+            ["Honey", "15 mL"],
+            ["Mint", "5 g"]
+        ]
+    },
+    {
+        "name": "Jerky Spice Rubbed Ribs",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Rub 1 kg of pork ribs with a mixture of 10 g smoked paprika, 5 g garlic powder, 5 g onion powder, and 10 g salt.",
+            "Wrap the ribs in foil and bake at 150°C (302°F) for 3 hours.",
+            "Unwrap, increase oven temperature to 220°C (428°F), and bake for an additional 20 minutes to crisp.",
+            "Serve with BBQ sauce on the side."
+        ],
+        "description": "Slow-cooked pork ribs seasoned with a homemade jerky spice mix, finished in the oven for a crispy exterior.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pork Ribs", "1 kg"],
+            ["Smoked Paprika", "10 g"],
+            ["Garlic Powder", "5 g"],
+            ["Onion Powder", "5 g"],
+            ["Salt", "10 g"],
+            ["BBQ Sauce", "0 g"]
+        ]
+    },
+    {
+        "name": "Jumbo Shrimp Scampi",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Sauté 400 g of jumbo shrimp in 30 mL of olive oil and 5 cloves of minced garlic until pink, about 3 minutes.",
+            "Deglaze the pan with 100 mL of white wine and add 15 mL of lemon juice. Simmer for 2 minutes.",
+            "Stir in 15 g of chopped parsley and 50 g of butter until the butter is melted.",
+            "Serve over cooked linguine and garnish with more parsley."
+        ],
+        "description": "Garlic and lemon-infused jumbo shrimp served over linguine, a classic Italian-American seafood dish.",
+        "backdrop": "",
+        "ingredients": [
+            ["Jumbo Shrimp", "400 g"],
+            ["Olive Oil", "30 mL"],
+            ["Garlic", "5 cloves"],
+            ["White Wine", "100 mL"],
+            ["Lemon Juice", "15 mL"],
+            ["Parsley", "15 g"],
+            ["Butter", "50 g"],
+            ["Linguine", "0 g"]
+        ]
+    },
+    {
+        "name": "Japanese Miso Eggplant",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 1.9,
+        "servingSize": 4,
+        "method": [
+            "Slice 2 large eggplants in half lengthwise. Score the flesh in a diamond pattern.",
+            "Brush with a mixture of 30 mL miso paste, 15 mL mirin, 15 mL sake, and 5 g sugar.",
+            "Bake at 200°C (392°F) for 25 minutes or until tender.",
+            "Garnish with sesame seeds and sliced green onions before serving."
+        ],
+        "description": "Rich and savory miso-glazed eggplant, a popular Japanese side dish that's both simple and delicious.",
+        "backdrop": "",
+        "ingredients": [
+            ["Eggplants", "2 units"],
+            ["Miso Paste", "30 mL"],
+            ["Mirin", "15 mL"],
+            ["Sake", "15 mL"],
+            ["Sugar", "5 g"],
+            ["Sesame Seeds", "5 g"],
+            ["Green Onions", "5 g"]
+        ]
+    },
+    {
+        "name": "Jerk Chicken Pizza",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.2,
+        "servingSize": 4,
+        "method": [
+            "Spread 200 g of jerk-seasoned chicken, pre-cooked and shredded, over a prepared pizza dough.",
+            "Top with 100 g of mozzarella cheese, 50 g of pineapple chunks, and 50 g of sliced red onions.",
+            "Bake at 220°C (428°F) for 15 minutes or until the crust is golden and cheese is bubbly.",
+            "Drizzle with BBQ sauce before serving."
+        ],
+        "description": "A spicy and sweet fusion pizza with jerk chicken and pineapple, perfect for a flavorful dinner.",
+        "backdrop": "",
+        "ingredients": [
+            ["Jerk-Seasoned Chicken", "200 g"],
+            ["Pizza Dough", "1 unit"],
+            ["Mozzarella Cheese", "100 g"],
+            ["Pineapple Chunks", "50 g"],
+            ["Red Onions", "50 g"],
+            ["BBQ Sauce", "30 mL"]
+        ]
+    },
+    {
+        "name": "Japanese Beef Bowl",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Brown 500 g of thinly sliced beef in 30 mL of sesame oil. Remove and set aside.",
+            "In the same pan, sauté 1 sliced onion until translucent. Add the beef back to the pan.",
+            "Mix in 30 mL of soy sauce, 30 mL of sake, and 15 mL of mirin. Simmer for 5 minutes.",
+            "Serve the beef and onion mixture over steamed rice, topped with a fried egg and pickled ginger."
+        ],
+        "description": "A traditional Japanese dish featuring savory beef and onions over rice, garnished with a fried egg for extra richness.",
+        "backdrop": "",
+        "ingredients": [
+            ["Beef", "500 g"],
+            ["Sesame Oil", "30 mL"],
+            ["Onion", "1 unit"],
+            ["Soy Sauce", "30 mL"],
+            ["Sake", "30 mL"],
+            ["Mirin", "15 mL"],
+            ["Steamed Rice", "0 g"],
+            ["Fried Egg", "4 units"],
+            ["Pickled Ginger", "0 g"]
+        ]
+    },
+    {
+        "name": "Jalapeño Cheddar Soup",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "In a pot, melt 30 g of butter. Add 1 diced onion and 2 minced jalapeños, sauté until soft.",
+            "Stir in 30 g of flour to form a roux. Gradually add 500 mL of milk and 250 mL of chicken broth, stirring continuously until thickened.",
+            "Add 200 g of shredded cheddar cheese and stir until melted. Season with salt and pepper.",
+            "Serve hot, garnished with crumbled bacon and extra jalapeño slices."
+        ],
+        "description": "Creamy and spicy cheddar soup with a kick of jalapeño, topped with crispy bacon for a perfect comfort meal.",
+        "backdrop": "",
+        "ingredients": [
+            ["Butter", "30 g"],
+            ["Onion", "1 unit"],
+            ["Jalapeños", "2 units"],
+            ["Flour", "30 g"],
+            ["Milk", "500 mL"],
+            ["Chicken Broth", "250 mL"],
+            ["Cheddar Cheese", "200 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Bacon", "50 g"]
+        ]
+    },
+    {
+        "name": "Jicama Slaw with Citrus Vinaigrette",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.6,
+        "servingSize": 4,
+        "method": [
+            "Julienne 300 g of jicama, 100 g of carrot, and 100 g of red cabbage.",
+            "Whisk together 30 mL of orange juice, 15 mL of lime juice, 15 mL of honey, and 30 mL of olive oil for the dressing.",
+            "Toss the julienned vegetables with the dressing and let sit for 30 minutes to marinate.",
+            "Serve chilled, garnished with chopped cilantro."
+        ],
+        "description": "A crisp and refreshing slaw made from jicama, carrots, and red cabbage, dressed in a sweet citrus vinaigrette.",
+        "backdrop": "",
+        "ingredients": [
+            ["Jicama", "300 g"],
+            ["Carrot", "100 g"],
+            ["Red Cabbage", "100 g"],
+            ["Orange Juice", "30 mL"],
+            ["Lime Juice", "15 mL"],
+            ["Honey", "15 mL"],
+            ["Olive Oil", "30 mL"],
+            ["Cilantro", "0 g"]
+        ]
+    },
+    {
+        "name": "Jalapeño Cheddar Quiche",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Prepare a pie crust in a 9-inch pan. Pre-bake at 190°C (375°F) for 10 minutes.",
+            "Whisk together 4 eggs, 200 mL of cream, 100 g of shredded cheddar cheese, 30 g of diced jalapeños, and 5 g of salt.",
+            "Pour the egg mixture into the crust and bake at 175°C (350°F) for 35 minutes, or until set.",
+            "Allow to cool for 10 minutes before serving."
+        ],
+        "description": "A spicy and cheesy quiche with jalapeños and cheddar, perfect for brunch or a light dinner.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pie Crust", "1 unit"],
+            ["Eggs", "4 units"],
+            ["Cream", "200 mL"],
+            ["Cheddar Cheese", "100 g"],
+            ["Jalapeños", "30 g"],
+            ["Salt", "5 g"]
+        ]
+    },
+    {
+        "name": "Japanese Soba Noodle Salad",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Cook 200 g of soba noodles according to package instructions, then rinse under cold water and drain.",
+            "Combine noodles with 100 g of sliced cucumber, 50 g of shredded carrots, and 50 g of sliced green onions.",
+            "Whisk together 30 mL of soy sauce, 15 mL of sesame oil, 15 mL of rice vinegar, and 5 g of sugar to make a dressing.",
+            "Toss the noodles and vegetables with the dressing and chill before serving.",
+            "Garnish with sesame seeds and serve cold."
+        ],
+        "description": "A refreshing and light salad featuring soba noodles and fresh vegetables, dressed in a tangy Asian-inspired sauce.",
+        "backdrop": "",
+        "ingredients": [
+            ["Soba Noodles", "200 g"],
+            ["Cucumber", "100 g"],
+            ["Carrots", "50 g"],
+            ["Green Onions", "50 g"],
+            ["Soy Sauce", "30 mL"],
+            ["Sesame Oil", "15 mL"],
+            ["Rice Vinegar", "15 mL"],
+            ["Sugar", "5 g"],
+            ["Sesame Seeds", "5 g"]
+        ]
+    },
+    {
+        "name": "Jamaican Fried Plantains",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.3,
+        "servingSize": 4,
+        "method": [
+            "Slice 4 ripe plantains into 1 cm thick rounds.",
+            "Heat 30 mL of vegetable oil in a large skillet over medium heat.",
+            "Fry plantain slices in batches until golden brown, about 2 minutes per side.",
+            "Drain on paper towels and sprinkle with salt to serve."
+        ],
+        "description": "Sweet and caramelized fried plantains, a popular Jamaican side dish that pairs well with both sweet and savory meals.",
+        "backdrop": "",
+        "ingredients": [
+            ["Plantains", "4 units"],
+            ["Vegetable Oil", "30 mL"],
+            ["Salt", "5 g"]
+        ]
+    },
+    {
+        "name": "Jerk Pork Belly",
+        "author": "System",
+        "starRating": 4.9,
+        "difficultyRating": 2.5,
+        "servingSize": 4,
+        "method": [
+            "Score 1 kg of pork belly and rub with 50 g of jerk seasoning.",
+            "Marinate for at least 4 hours in the fridge.",
+            "Roast in a preheated oven at 160°C (320°F) for 2.5 hours.",
+            "Increase heat to 220°C (428°F) and roast for an additional 30 minutes to crisp the skin.",
+            "Slice and serve with a side of coleslaw and fried dumplings."
+        ],
+        "description": "Slow-roasted pork belly with a fiery jerk spice crust, delivering a rich and flavorful Caribbean experience.",
+        "backdrop": "",
+        "ingredients": [
+            ["Pork Belly", "1 kg"],
+            ["Jerk Seasoning", "50 g"],
+            ["Coleslaw", "0 g"],
+            ["Fried Dumplings", "0 g"]
+        ]
+    },
+    {
+        "name": "Japanese Rice Balls",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.7,
+        "servingSize": 4,
+        "method": [
+            "Cook 300 g of sushi rice according to package instructions and let cool slightly.",
+            "Wet hands and form rice into 12 small balls.",
+            "Make an indentation in each ball and fill with a mixture of 50 g of finely chopped cooked salmon and 15 g of finely chopped pickled plums.",
+            "Reshape to enclose the filling, then roll in 5 g of sesame seeds.",
+            "Serve at room temperature with soy sauce for dipping."
+        ],
+        "description": "Traditional Japanese onigiri, or rice balls, filled with savory salmon and tangy pickled plums, wrapped in nori seaweed.",
+        "backdrop": "",
+        "ingredients": [
+            ["Sushi Rice", "300 g"],
+            ["Cooked Salmon", "50 g"],
+            ["Pickled Plums", "15 g"],
+            ["Sesame Seeds", "5 g"],
+            ["Soy Sauce", "0 g"]
+        ]
+    },
+    {
+        "name": "Juniper Spiced Venison Steaks",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Crush 10 g of juniper berries and mix with 5 g of salt, 5 g of black pepper, and 2 g of dried thyme.",
+            "Rub the mixture onto 4 venison steaks.",
+            "Heat 15 mL of olive oil in a skillet over medium-high heat and cook the steaks for 5 minutes per side for medium rare.",
+            "Let rest for 5 minutes before serving with a side of roasted root vegetables."
+        ],
+        "description": "Flavorful venison steaks enhanced with a juniper berry rub, offering a robust and earthy flavor.",
+        "backdrop": "",
+        "ingredients": [
+            ["Juniper Berries", "10 g"],
+            ["Salt", "5 g"],
+            ["Black Pepper", "5 g"],
+            ["Dried Thyme", "2 g"],
+            ["Venison Steaks", "4 units"],
+            ["Olive Oil", "15 mL"],
+            ["Roasted Root Vegetables", "0 g"]
+        ]
+    },
+    {
+        "name": "Japanese Matcha Tiramisu",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Whisk together 3 egg yolks and 50 g of sugar until pale and fluffy.",
+            "Fold in 250 g of mascarpone and 5 g of matcha powder.",
+            "Dip ladyfingers in a mixture of 100 mL of water and 15 g of matcha powder, then layer into a serving dish.",
+            "Spread the mascarpone mixture over the ladyfingers. Repeat layering and refrigerate for 4 hours.",
+            "Dust with additional matcha powder before serving."
+        ],
+        "description": "A delightful twist on the classic Italian dessert using matcha green tea for a distinctive flavor and color.",
+        "backdrop": "",
+        "ingredients": [
+            ["Egg Yolks", "3 units"],
+            ["Sugar", "50 g"],
+            ["Mascarpone", "250 g"],
+            ["Matcha Powder", "20 g"],
+            ["Ladyfingers", "12 units"],
+            ["Water", "100 mL"]
+        ]
+    },
+    {
+        "name": "Jalapeño Lime Grilled Chicken",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "Marinate 4 chicken breasts in a mixture of 30 mL lime juice, 15 mL olive oil, 1 minced jalapeño, and 5 g salt for 1 hour.",
+            "Grill over medium heat until cooked through, about 7 minutes per side.",
+            "Serve with a fresh corn salsa made from 200 g of corn, 100 g of diced tomatoes, 50 g of diced red onion, and 15 mL of lime juice."
+        ],
+        "description": "Zesty and mildly spicy grilled chicken perfectly paired with a vibrant and sweet corn salsa.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Breasts", "4 units"],
+            ["Lime Juice", "45 mL"],
+            ["Olive Oil", "15 mL"],
+            ["Jalapeño", "1 unit"],
+            ["Salt", "5 g"],
+            ["Corn", "200 g"],
+            ["Tomatoes", "100 g"],
+            ["Red Onion", "50 g"]
+        ]
     }
-]    
+]
