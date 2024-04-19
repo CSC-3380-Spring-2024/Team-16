@@ -32,10 +32,4 @@ public class ReviewService {
         return review;
     }
     
-    public void addLike (ObjectId reviewId, String namePerson)
-    {
-        mongoTemplate.update(Review.class)
-        .matching(Criteria.where("_id").is(reviewId))
-        .apply(new Update().addToSet("personLiked", namePerson));
-    }
 }

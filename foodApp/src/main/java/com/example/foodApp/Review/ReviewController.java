@@ -34,8 +34,8 @@ public class ReviewController {
     private MongoTemplate mongoTemplate;
     /**
      * @apiNote
-     * POST /reviews HTTP/1.1
-        Host: yourapi.com
+     * POST /api/reviews/create HTTP/1.1
+        Host: local8080
         Content-Type: application/json
 
             [
@@ -74,6 +74,19 @@ public class ReviewController {
         Review createdReview = reviewService.createReview(header,reviewBody,author, recipeName);
         return new ResponseEntity<>(createdReview, HttpStatus.OK);
     }
+    /**
+     * @apiNote 
+     * POST /api/reviews/addLike HTTP/1.1
+        Host: yourapi.com
+        Content-Type: application/json
+     *  {
+            "id": "661ee97695691a0bdeed4cb4",  // Use a valid ObjectId
+            "personName": "Jonh Doe"
+        }
+     * 
+     * @param payload
+     * @return addlike to the reviewer
+     */
 
     @PostMapping("/addLike")
     public ResponseEntity<String> postMethodName(@RequestBody Map<String,String> payload)
