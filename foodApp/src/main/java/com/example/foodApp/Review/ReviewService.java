@@ -2,9 +2,15 @@ package com.example.foodApp.Review;
 
 
 import com.example.foodApp.Recipe.Recipe;
+import com.mongodb.internal.operation.CreateCollectionOperation;
+
+import javax.management.Query;
+
+import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.CriteriaDefinition;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
 
@@ -24,5 +30,12 @@ public class ReviewService {
                  .apply(new Update().push("reivewId").value(review)).first();
 
         return review;
+    }
+    
+    public void addLike (ObjectId reviewId, String namePerson)
+    {
+        mongoTemplate.update(Review.class)
+        .matching(Criteria.where("_id").is(reviewId))
+        .apply(new Update().addToSet("personLiked", namePerson));
     }
 }
