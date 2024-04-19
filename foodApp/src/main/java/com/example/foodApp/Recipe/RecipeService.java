@@ -55,17 +55,20 @@ public class RecipeService {
         {
             double prevRating = recipe.getStarRating();
             List<String> reviewId =  recipe.getReviewId();
-            int peopleReviewed = recipe.getPeopleReviewed();
-            peopleReviewed ++;
+            int prevPeopleReviewed = recipe.getPeopleReviewed();
+            
+            int peopleReviewed = 1;
 
 
         
         System.out.println(prevRating);
         
-            double averageRating = (prevRating +star)/peopleReviewed;
+            double averageRating = ((prevRating * prevPeopleReviewed) + (star))/(prevPeopleReviewed +peopleReviewed);
+
+            peopleReviewed += prevPeopleReviewed;
 
             mongoTemplate.updateFirst(query, Update.update("starRating", averageRating), Recipe.class);
-            mongoTemplate.updateFirst(query, Update.update("peopleReviewed", peopleReviewed), Recipe.class);
+            
 
             return "Sucess";
         }
@@ -84,19 +87,19 @@ public class RecipeService {
         else
         {
             double prevRating = recipe.getDifficultyRating();
-            List<String> reviewId =  recipe.getReviewId();
-            int peopleReviewed = reviewId != null ? reviewId.size(): 0;
+            
+            int prevPeopleReviewed = recipe.getPeopleReviewed();
 
-            if(peopleReviewed == 0)
-            {
-                peopleReviewed = 1;
-            }
+            int peopleReviewed = 1;
 
-            int averageRating = (int) ((prevRating+star)/peopleReviewed);
+            
 
+            double averageRating = ((prevRating * prevPeopleReviewed) + (star))/(prevPeopleReviewed + peopleReviewed);
+            
+            peopleReviewed += prevPeopleReviewed;
 
             mongoTemplate.updateFirst(query, Update.update("difficultyRating", averageRating), Recipe.class);
-
+            mongoTemplate.updateFirst(query, Update.update("peopleReviewed", peopleReviewed), Recipe.class);
             return "Sucess";
         }
     }

@@ -47,7 +47,7 @@ public class RecipeController {
 
         return updating;
     }
-    public String difficultyRating ( double difficult, String nameString)
+    public String difficultyRating (double difficult, String nameString)
     {
         double difficultyRating = difficult;
         String name = nameString;
