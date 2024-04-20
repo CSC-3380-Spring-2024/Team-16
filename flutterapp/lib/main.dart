@@ -105,7 +105,6 @@ class _NavBarPageState extends State<NavBarPage> {
   Widget build(BuildContext context) {
     final tabs = {
       'HomePage': const HomePageWidget(),
-      'Search': const SearchWidget(),
       'Create': const CreateWidget(),
       'Leaderboard': const LeaderboardWidget(),
       'Account': const AccountWidget(),
@@ -147,6 +146,7 @@ class _NavBarPageState extends State<NavBarPage> {
                   color: currentIndex == 0
                       ? FlutterFlowTheme.of(context).primary
                       : const Color(0x8A000000),
+                  size: 30.0,
                 ),
                 Text(
                   'Home',
@@ -166,13 +166,13 @@ class _NavBarPageState extends State<NavBarPage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Icon(
-                  Icons.search_sharp,
+                  Icons.add,
                   color: currentIndex == 1
                       ? FlutterFlowTheme.of(context).primary
                       : const Color(0x8A000000),
                 ),
                 Text(
-                  'Search',
+                  'Create',
                   overflow: TextOverflow.ellipsis,
                   style: TextStyle(
                     color: currentIndex == 1
@@ -189,13 +189,13 @@ class _NavBarPageState extends State<NavBarPage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Icon(
-                  Icons.add,
+                  Icons.leaderboard_sharp,
                   color: currentIndex == 2
                       ? FlutterFlowTheme.of(context).primary
                       : const Color(0x8A000000),
                 ),
                 Text(
-                  'Create',
+                  'Leaderboard',
                   overflow: TextOverflow.ellipsis,
                   style: TextStyle(
                     color: currentIndex == 2
@@ -212,31 +212,8 @@ class _NavBarPageState extends State<NavBarPage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Icon(
-                  Icons.leaderboard_sharp,
-                  color: currentIndex == 3
-                      ? FlutterFlowTheme.of(context).primary
-                      : const Color(0x8A000000),
-                ),
-                Text(
-                  'Leaderboard',
-                  overflow: TextOverflow.ellipsis,
-                  style: TextStyle(
-                    color: currentIndex == 3
-                        ? FlutterFlowTheme.of(context).primary
-                        : const Color(0x8A000000),
-                    fontSize: 11.0,
-                  ),
-                ),
-              ],
-            ),
-          ),
-          FloatingNavbarItem(
-            customWidget: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Icon(
                   Icons.account_box,
-                  color: currentIndex == 4
+                  color: currentIndex == 3
                       ? FlutterFlowTheme.of(context).primary
                       : const Color(0x8A000000),
                 ),
@@ -244,7 +221,7 @@ class _NavBarPageState extends State<NavBarPage> {
                   'Account',
                   overflow: TextOverflow.ellipsis,
                   style: TextStyle(
-                    color: currentIndex == 4
+                    color: currentIndex == 3
                         ? FlutterFlowTheme.of(context).primary
                         : const Color(0x8A000000),
                     fontSize: 11.0,

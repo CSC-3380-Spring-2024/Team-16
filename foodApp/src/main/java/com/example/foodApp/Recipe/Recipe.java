@@ -28,7 +28,6 @@ public class Recipe {
     private byte [] uploadImage;
     private String youtubeVid;
     private String description;
-    private List<String> reviewId;
     private String backdrop;
     private int peopleReviewed;
 
@@ -68,7 +67,7 @@ public class Recipe {
         return id;
     }
     // Method to get the star rating of the recipe
-    public double getStarRating() {
+    public float getStarRating() {
         return starRating;
     }
 
@@ -80,10 +79,6 @@ public class Recipe {
     // Method to get the serving size of the recipe
     public int getServingSize() {
         return servingSize;
-    }
-    public List<String> getReviewId()
-    {
-        return reviewId;
     }
 
     public void addAllIngredientsFromArray(String[][] ingredientsArray) {
