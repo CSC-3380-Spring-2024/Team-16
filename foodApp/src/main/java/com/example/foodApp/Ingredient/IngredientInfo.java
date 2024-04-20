@@ -23,6 +23,7 @@ public class IngredientInfo {
     private double gramPerUnit; //unit weight
     private boolean isLiquid;
     private boolean isCountable;
+    private int appropriateQuantity;
     public IngredientInfo(String name, int shelfLife, double gramPerUnit, boolean isLiquid) {
         this.name = name;
         this.shelfLife = shelfLife;
@@ -47,5 +48,8 @@ public class IngredientInfo {
     }
     public boolean isCountable() {
         return isCountable;
+    }
+    public int getAppropriateQuantity() {
+        return appropriateQuantity;
     }
 }
