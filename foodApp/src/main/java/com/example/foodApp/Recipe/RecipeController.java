@@ -52,6 +52,7 @@ public class RecipeController {
      * @apiNote
      *http://localhost:8080/api/recipe/add
      * {
+     *     "recipe": {
      *   "name": "Classic Cheesecake",
      *   "starRating": 4.8,
      *   "difficultyRating": 3.5,
@@ -73,19 +74,22 @@ public class RecipeController {
      *     "Pour mixture over crust and bake for 45 minutes."
      *   ],
      *   "description": "A rich and creamy classic cheesecake that is perfect for all occasions.",
-     *   "reviewIds": [],
      *   "backdrop": "http://example.com/images/cheesecake.jpg",
      *   "peopleReviewed": 0
+     * },
+     *     "username": "Jonh Doe"
      * }
-     * @param recipe
+     * @param
      * @return
      */
 
     @PostMapping("/add")
-    public ResponseEntity<Recipe> addRecipe (@RequestBody Recipe recipe)
+    public ResponseEntity<Recipe> addRecipe (@RequestBody RecipeAndUsernameRequest recipeAndUsernameRequest)
     {
+        Recipe recipe = recipeAndUsernameRequest.getRecipe();
+        String username = recipeAndUsernameRequest.getUsername();
         System.out.println(recipe.getName());
-        Recipe recipeAdded = recipeService.addRecipe(recipe);
+        Recipe recipeAdded = recipeService.addRecipe(recipe,username);
         if(recipeAdded== null)
         {
             return ResponseEntity.badRequest().build();
