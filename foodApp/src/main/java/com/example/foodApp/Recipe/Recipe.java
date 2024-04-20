@@ -1,22 +1,17 @@
 package com.example.foodApp.Recipe;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-///import java.util.Map;
-
 import com.example.foodApp.Backend.Ingredient;
-import org.bson.types.ObjectId;
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
-//import org.springframework.data.mongodb.core.mapping.DocumentReference;
-import org.springframework.data.mongodb.core.mapping.Field;
-
-//import com.example.foodApp.Ingredient.IngredientInfo;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.bson.types.ObjectId;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.mongodb.core.mapping.Field;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 @Document(collection = "Recipe")
 @Data               //generates getters and setters
@@ -26,12 +21,15 @@ public class Recipe {
     @Id
     private ObjectId id;        //MongoDB internal ObjectId
     private String name;
-    private float starRating;       // Star rating out of 5
-    private float difficultyRating; // Difficulty Rating out of 5
+    private double starRating;       // Star rating out of 5
+    private double difficultyRating; // Difficulty Rating out of 5
     private int servingSize;
     private List<String> method;
+    private byte [] uploadImage;
+    private String youtubeVid;
     private String description;
     private String backdrop;
+    private int peopleReviewed;
 
     // Serving size that the recipe produces
      // Tells database to store only the Ids of ingredients
@@ -74,7 +72,7 @@ public class Recipe {
     }
 
     // Method to get the star rating of the recipe
-    public float getDifficultyRating() {
+    public double getDifficultyRating() {
         return difficultyRating;
     }
 
