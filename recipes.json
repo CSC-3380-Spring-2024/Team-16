@@ -44395,5 +44395,1350 @@
             ["Toasted Almonds", "50 g"],
             ["Balsamic Glaze", "60 mL"]
         ]
+    },
+    {
+        "name": "Xylitol-Crusted Salmon",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 3.2,
+        "servingSize": 4,
+        "method": [
+            "Preheat oven to 400°F (200°C).",
+            "In a small bowl, mix xylitol, lemon zest, salt, and black pepper.",
+            "Pat dry the salmon fillets and coat both sides with the xylitol mixture.",
+            "Place the salmon fillets on a baking sheet lined with parchment paper.",
+            "Bake in the preheated oven for 12-15 minutes, or until the salmon is cooked through and the xylitol crust is golden brown.",
+            "Serve hot with your favorite side dishes."
+        ],
+        "description": "This Xylitol-Crusted Salmon is a delightful and flavorful dish that's perfect for any occasion. Tender salmon fillets are coated with a sweet and savory xylitol crust, then baked to perfection. It's a healthy and delicious meal that the whole family will love.",
+        "backdrop": "",
+        "ingredients": [
+            ["Salmon Fillets", "4 units"],
+            ["Xylitol", "50 g"],
+            ["Lemon Zest", "1 tsp"],
+            ["Salt", "to taste"],
+            ["Black Pepper", "to taste"]
+        ]
+    },
+    {
+        "name": "Xanthan Gum Lemon Bars",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 3.0,
+        "servingSize": 12,
+        "method": [
+            "Preheat oven to 350°F (175°C).",
+            "In a mixing bowl, combine almond flour, xanthan gum, powdered erythritol, and salt.",
+            "Add melted butter and mix until a dough forms.",
+            "Press the dough into the bottom of a greased 9x9-inch baking dish.",
+            "Bake in the preheated oven for 10-12 minutes, or until the crust is lightly golden brown.",
+            "Meanwhile, prepare the filling by whisking together eggs, powdered erythritol, lemon zest, lemon juice, and almond flour.",
+            "Pour the filling over the baked crust and return to the oven.",
+            "Bake for an additional 20-25 minutes, or until the filling is set.",
+            "Let cool completely before slicing into bars.",
+            "Dust with powdered erythritol before serving, if desired."
+        ],
+        "description": "These Xanthan Gum Lemon Bars are a delightful low-carb and gluten-free treat that's bursting with tangy lemon flavor. The almond flour crust is crisp and buttery, while the lemon filling is lusciously creamy. They're perfect for satisfying your sweet tooth without the guilt.",
+        "backdrop": "",
+        "ingredients": [
+            ["Almond Flour", "150 g"],
+            ["Xanthan Gum", "1 tsp"],
+            ["Powdered Erythritol", "100 g"],
+            ["Salt", "1/4 tsp"],
+            ["Butter, melted", "85 g"],
+            ["Eggs", "3 units"],
+            ["Lemon Zest", "2 tsp"],
+            ["Lemon Juice", "120 mL"],
+            ["Almond Flour (for filling)", "30 g"]
+        ]
+    },
+    {
+        "name": "Xylitol-Crusted Chicken Tenders",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.9,
+        "servingSize": 4,
+        "method": [
+            "Preheat oven to 400°F (200°C).",
+            "In a shallow bowl, mix xylitol, paprika, garlic powder, salt, and black pepper.",
+            "Dip each chicken tender into the xylitol mixture, coating evenly on both sides.",
+            "Place the coated chicken tenders on a baking sheet lined with parchment paper.",
+            "Bake in the preheated oven for 20-25 minutes, or until the chicken is cooked through and the xylitol crust is golden brown and crispy.",
+            "Serve hot with your favorite dipping sauce."
+        ],
+        "description": "These Xylitol-Crusted Chicken Tenders are a delicious and healthier twist on classic chicken tenders. Tender chicken strips are coated in a sweet and savory xylitol crust, then baked to perfection. They're crunchy on the outside, juicy on the inside, and irresistibly tasty.",
+        "backdrop": "",
+        "ingredients": [
+            ["Chicken Tenders", "400 g"],
+            ["Xylitol", "50 g"],
+            ["Paprika", "1 tsp"],
+            ["Garlic Powder", "1 tsp"],
+            ["Salt", "to taste"],
+            ["Black Pepper", "to taste"]
+        ]
+    },
+    {
+        "name": "Xanthan Gum Peanut Butter Cookies",
+        "author": "System",
+        "starRating": 4.4,
+        "difficultyRating": 2.8,
+        "servingSize": 24,
+        "method": [
+            "Preheat oven to 350°F (175°C).",
+            "In a mixing bowl, cream together softened butter, peanut butter, xylitol, and powdered erythritol until smooth.",
+            "Add eggs, one at a time, beating well after each addition.",
+            "In a separate bowl, whisk together almond flour, xanthan gum, baking powder, and salt.",
+            "Gradually add the dry ingredients to the wet ingredients, mixing until well combined.",
+            "Roll the dough into balls and place them on a parchment-lined baking sheet.",
+            "Use a fork to flatten each cookie, creating a crisscross pattern.",
+            "Bake in the preheated oven for 10-12 minutes, or until the edges are golden brown.",
+            "Let cool on the baking sheet for 5 minutes before transferring to a wire rack to cool completely."
+        ],
+        "description": "These Xanthan Gum Peanut Butter Cookies are a delightful low-carb and gluten-free treat that's perfect for peanut butter lovers. They're soft, chewy, and packed with peanut butter flavor. Plus, they're quick and easy to make, so you can enjoy them anytime.",
+        "backdrop": "",
+        "ingredients": [
+            ["Butter, softened", "115 g"],
+            ["Creamy Peanut Butter", "200 g"],
+            ["Xylitol", "100 g"],
+            ["Powdered Erythritol", "50 g"],
+            ["Eggs", "2 units"],
+            ["Almond Flour", "200 g"],
+            ["Xanthan Gum", "1 tsp"],
+            ["Baking Powder", "1 tsp"],
+            ["Salt", "1/4 tsp"]
+        ]
+    },
+    {
+        "name": "Xylitol-Sweetened Chocolate Pudding",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.5,
+        "servingSize": 4,
+        "method": [
+            "In a saucepan, whisk together xylitol, cocoa powder, cornstarch, and salt.",
+            "Gradually whisk in milk until smooth.",
+            "Cook over medium heat, stirring constantly, until the mixture thickens and comes to a boil.",
+            "Remove from heat and stir in vanilla extract and butter until smooth and creamy.",
+            "Pour the pudding into individual serving dishes and let cool to room temperature.",
+            "Cover with plastic wrap and refrigerate for at least 2 hours, or until set.",
+            "Serve chilled, topped with whipped cream or fresh berries, if desired."
+        ],
+        "description": "This Xylitol-Sweetened Chocolate Pudding is a creamy and decadent dessert that's perfect for satisfying your sweet tooth without the guilt. Made with xylitol instead of sugar, it's lower in calories and carbs but still rich and indulgent. It's a delightful treat for any occasion.",
+        "backdrop": "",
+        "ingredients": [
+            ["Xylitol", "100 g"],
+            ["Cocoa Powder", "30 g"],
+            ["Cornstarch", "20 g"],
+            ["Salt", "1/4 tsp"],
+            ["Milk", "480 mL"],
+            ["Vanilla Extract", "1 tsp"],
+            ["Butter", "30 g"]
+        ]
+    },
+    {
+        "name": "Xanthan Gum Berry Smoothie",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.3,
+        "servingSize": 2,
+        "method": [
+            "In a blender, combine mixed berries, almond milk, xylitol, and xanthan gum.",
+            "Blend on high speed until smooth and creamy.",
+            "Taste and adjust sweetness if needed by adding more xylitol.",
+            "Pour the smoothie into glasses and serve immediately.",
+            "Enjoy this refreshing and nutritious Xanthan Gum Berry Smoothie!"
+        ],
+        "description": "This Xanthan Gum Berry Smoothie is a delicious and healthy way to start your day or refuel after a workout. Packed with mixed berries, almond milk, and a touch of xylitol for sweetness, it's a refreshing treat that's sure to satisfy your cravings.",
+        "backdrop": "",
+        "ingredients": [
+            ["Mixed Berries", "200 g"],
+            ["Almond Milk", "240 mL"],
+            ["Xylitol", "20 g"],
+            ["Xanthan Gum", "1/4 tsp"]
+        ]
+    },
+    {
+        "name": "Xylitol-Sweetened Lemonade",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.8,
+        "servingSize": 4,
+        "method": [
+            "In a pitcher, combine freshly squeezed lemon juice, water, and xylitol.",
+            "Stir until the xylitol is completely dissolved.",
+            "Taste and adjust sweetness if needed by adding more xylitol.",
+            "Serve the lemonade over ice and garnish with lemon slices or fresh mint leaves, if desired.",
+            "Enjoy this refreshing and naturally sweetened Xylitol-Sweetened Lemonade!"
+        ],
+        "description": "This Xylitol-Sweetened Lemonade is a refreshing and hydrating drink that's perfect for a hot summer day. Made with freshly squeezed lemon juice and sweetened with xylitol, it's a healthier alternative to traditional lemonade that's just as delicious.",
+        "backdrop": "",
+        "ingredients": [
+            ["Freshly Squeezed Lemon Juice", "240 mL"],
+            ["Water", "960 mL"],
+            ["Xylitol", "60 g"]
+        ]
+    },
+    {
+        "name": "Xanthan Gum Blueberry Muffins",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.7,
+        "servingSize": 12,
+        "method": [
+            "Preheat oven to 375°F (190°C).",
+            "In a mixing bowl, whisk together almond flour, xanthan gum, baking powder, and salt.",
+            "In another bowl, whisk together eggs, xylitol, melted butter, and almond milk until well combined.",
+            "Gradually add the wet ingredients to the dry ingredients, mixing until just combined.",
+            "Gently fold in fresh blueberries.",
+            "Spoon the batter into greased or lined muffin cups, filling each about 2/3 full.",
+            "Bake in the preheated oven for 20-25 minutes, or until golden brown and a toothpick inserted into the center comes out clean.",
+            "Let cool in the muffin tin for 5 minutes before transferring to a wire rack to cool completely."
+        ],
+        "description": "These Xanthan Gum Blueberry Muffins are light, fluffy, and bursting with juicy blueberries. Made with almond flour and sweetened with xylitol, they're a healthier alternative to traditional muffins without sacrificing flavor or texture. Enjoy them for breakfast or as a snack any time of day.",
+        "backdrop": "",
+        "ingredients": [
+            ["Almond Flour", "200 g"],
+            ["Xanthan Gum", "1 tsp"],
+            ["Baking Powder", "2 tsp"],
+            ["Salt", "1/4 tsp"],
+            ["Eggs", "2 units"],
+            ["Xylitol", "100 g"],
+            ["Butter, melted", "85 g"],
+            ["Almond Milk", "120 mL"],
+            ["Fresh Blueberries", "150 g"]
+        ]
+    },
+    {
+        "name": "Xylitol-Sweetened Iced Tea",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.5,
+        "servingSize": 4,
+        "method": [
+            "Bring water to a boil in a saucepan.",
+            "Remove from heat and add tea bags.",
+            "Let steep for 5 minutes, then remove tea bags.",
+            "Stir in xylitol until completely dissolved.",
+            "Let cool to room temperature, then refrigerate until chilled.",
+            "Serve over ice with lemon slices, if desired.",
+            "Enjoy this refreshing and naturally sweetened Xylitol-Sweetened Iced Tea!"
+        ],
+        "description": "This Xylitol-Sweetened Iced Tea is a refreshing and hydrating drink that's perfect for hot summer days. Made with your favorite tea and sweetened with xylitol, it's a healthier alternative to store-bought iced tea that's just as delicious. Enjoy it on its own or with a splash of lemon.",
+        "backdrop": "",
+        "ingredients": [
+            ["Water", "960 mL"],
+            ["Tea Bags", "4 units"],
+            ["Xylitol", "60 g"]
+        ]
+    },
+    {
+        "name": "Xanthan Gum Chocolate Cake",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 3.3,
+        "servingSize": 12,
+        "method": [
+            "Preheat oven to 350°F (175°C).",
+            "Grease and flour two 9-inch round cake pans.",
+            "In a mixing bowl, whisk together almond flour, xanthan gum, cocoa powder, baking powder, baking soda, and salt.",
+            "In another bowl, beat together eggs, xylitol, melted butter, and vanilla extract until smooth.",
+            "Gradually add the dry ingredients to the wet ingredients, mixing until well combined.",
+            "Stir in hot water until the batter is smooth.",
+            "Divide the batter evenly between the prepared cake pans.",
+            "Bake in the preheated oven for 25-30 minutes, or until a toothpick inserted into the center comes out clean.",
+            "Let cool in the pans for 10 minutes, then transfer to a wire rack to cool completely before frosting."
+        ],
+        "description": "This Xanthan Gum Chocolate Cake is rich, moist, and utterly decadent. Made with almond flour and sweetened with xylitol, it's a healthier twist on classic chocolate cake without sacrificing flavor or texture. Whether you're celebrating a special occasion or simply craving something sweet, this cake is sure to impress.",
+        "backdrop": "",
+        "ingredients": [
+            ["Almond Flour", "200 g"],
+            ["Xanthan Gum", "1 tsp"],
+            ["Cocoa Powder", "60 g"],
+            ["Baking Powder", "2 tsp"],
+            ["Baking Soda", "1 tsp"],
+            ["Salt", "1/4 tsp"],
+            ["Eggs", "3 units"],
+            ["Xylitol", "150 g"],
+            ["Butter, melted", "115 g"],
+            ["Vanilla Extract", "2 tsp"],
+            ["Hot Water", "240 mL"]
+        ]
+    },
+    {
+        "name": "Xylitol-Sweetened Cinnamon Rolls",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 3.5,
+        "servingSize": 12,
+        "method": [
+            "Preheat oven to 350°F (175°C).",
+            "In a mixing bowl, whisk together almond flour, baking powder, xanthan gum, and salt.",
+            "In another bowl, beat together softened butter, xylitol, and eggs until smooth.",
+            "Gradually add the dry ingredients to the wet ingredients, mixing until a dough forms.",
+            "Place the dough between two sheets of parchment paper and roll into a rectangle.",
+            "Spread softened butter over the dough, then sprinkle with a mixture of xylitol and ground cinnamon.",
+            "Starting from one long side, roll the dough into a tight log.",
+            "Cut the log into 12 equal slices and place them in a greased baking dish.",
+            "Bake in the preheated oven for 25-30 minutes, or until golden brown.",
+            "Let cool slightly before serving."
+        ],
+        "description": "These Xylitol-Sweetened Cinnamon Rolls are soft, fluffy, and irresistible. Made with almond flour and sweetened with xylitol, they're a healthier alternative to traditional cinnamon rolls without sacrificing flavor or texture. Enjoy them warm from the oven for breakfast or as a delicious treat any time of day.",
+        "backdrop": "",
+        "ingredients": [
+            ["Almond Flour", "200 g"],
+            ["Baking Powder", "2 tsp"],
+            ["Xanthan Gum", "1 tsp"],
+            ["Salt", "1/4 tsp"],
+            ["Butter, softened", "115 g"],
+            ["Xylitol", "100 g"],
+            ["Eggs", "2 units"],
+            ["Ground Cinnamon", "2 tsp"]
+        ]
+    },
+    {
+        "name": "Xanthan Gum Garlic Bread",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.6,
+        "servingSize": 8,
+        "method": [
+            "Preheat oven to 375°F (190°C).",
+            "In a small bowl, combine softened butter, minced garlic, chopped parsley, and xanthan gum.",
+            "Slice the baguette lengthwise, then spread the garlic butter mixture evenly over the cut sides.",
+            "Wrap the baguette halves in aluminum foil and place on a baking sheet.",
+            "Bake in the preheated oven for 15-20 minutes, or until the bread is heated through and the edges are crispy.",
+            "Slice and serve warm, enjoy this flavorful Xanthan Gum Garlic Bread!"
+        ],
+        "description": "This Xanthan Gum Garlic Bread is a delicious side dish that pairs perfectly with pasta, soup, or salad. Crispy on the outside and soft on the inside, it's loaded with garlicky flavor and sure to be a hit with your family and friends.",
+        "backdrop": "",
+        "ingredients": [
+            ["Baguette", "1 unit"],
+            ["Butter, softened", "115 g"],
+            ["Garlic, minced", "4 cloves"],
+            ["Fresh Parsley, chopped", "2 tbsp"],
+            ["Xanthan Gum", "1/2 tsp"]
+        ]
+    },
+    {
+        "name": "Xylitol-Sweetened Vanilla Cupcakes",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 3.1,
+        "servingSize": 12,
+        "method": [
+            "Preheat oven to 350°F (175°C).",
+            "Line a muffin tin with cupcake liners.",
+            "In a mixing bowl, whisk together almond flour, xanthan gum, baking powder, and salt.",
+            "In another bowl, beat together softened butter, xylitol, eggs, and vanilla extract until smooth.",
+            "Gradually add the dry ingredients to the wet ingredients, mixing until well combined.",
+            "Divide the batter evenly among the cupcake liners, filling each about 2/3 full.",
+            "Bake in the preheated oven for 18-20 minutes, or until a toothpick inserted into the center comes out clean.",
+            "Let cool in the muffin tin for 5 minutes, then transfer to a wire rack to cool completely before frosting."
+        ],
+        "description": "These Xylitol-Sweetened Vanilla Cupcakes are light, fluffy, and utterly delicious. Made with almond flour and sweetened with xylitol, they're a healthier alternative to traditional cupcakes without sacrificing flavor or texture. Enjoy them topped with your favorite frosting for a delightful treat!",
+        "backdrop": "",
+        "ingredients": [
+            ["Almond Flour", "200 g"],
+            ["Xanthan Gum", "1 tsp"],
+            ["Baking Powder", "2 tsp"],
+            ["Salt", "1/4 tsp"],
+            ["Butter, softened", "115 g"],
+            ["Xylitol", "100 g"],
+            ["Eggs", "2 units"],
+            ["Vanilla Extract", "2 tsp"]
+        ]
+    },
+    {
+        "name": "Xanthan Gum Pizza Dough",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 3.0,
+        "servingSize": 4,
+        "method": [
+            "In a mixing bowl, whisk together almond flour, xanthan gum, baking powder, and salt.",
+            "Add beaten eggs and olive oil to the dry ingredients, stirring until a dough forms.",
+            "Transfer the dough to a parchment-lined baking sheet and press it into a round pizza crust shape.",
+            "Bake in a preheated oven at 400°F (200°C) for 10-12 minutes, or until the crust is lightly golden brown.",
+            "Remove from the oven and add your favorite pizza toppings.",
+            "Return the pizza to the oven and bake for an additional 8-10 minutes, or until the toppings are heated through and the cheese is melted and bubbly.",
+            "Slice and serve hot, enjoy this delicious Xanthan Gum Pizza!"
+        ],
+        "description": "This Xanthan Gum Pizza Dough is perfect for anyone following a low-carb or gluten-free diet. Made with almond flour and xanthan gum, it's easy to prepare and yields a deliciously crispy crust. Add your favorite toppings for a tasty homemade pizza that everyone will love.",
+        "backdrop": "",
+        "ingredients": [
+            ["Almond Flour", "200 g"],
+            ["Xanthan Gum", "1 tsp"],
+            ["Baking Powder", "1 tsp"],
+            ["Salt", "1/4 tsp"],
+            ["Eggs, beaten", "2 units"],
+            ["Olive Oil", "30 mL"]
+        ]
+    },
+    {
+        "name": "Xylitol-Sweetened Lemon Muffins",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.8,
+        "servingSize": 12,
+        "method": [
+            "Preheat oven to 350°F (175°C).",
+            "Line a muffin tin with cupcake liners.",
+            "In a mixing bowl, whisk together almond flour, xanthan gum, baking powder, and salt.",
+            "In another bowl, beat together softened butter, xylitol, eggs, lemon zest, and lemon juice until smooth.",
+            "Gradually add the dry ingredients to the wet ingredients, mixing until well combined.",
+            "Divide the batter evenly among the cupcake liners, filling each about 2/3 full.",
+            "Bake in the preheated oven for 18-20 minutes, or until a toothpick inserted into the center comes out clean.",
+            "Let cool in the muffin tin for 5 minutes, then transfer to a wire rack to cool completely before serving."
+        ],
+        "description": "These Xylitol-Sweetened Lemon Muffins are bursting with fresh citrus flavor. Made with almond flour and sweetened with xylitol, they're a healthier option for breakfast or a snack. Enjoy them warm from the oven with a cup of tea or coffee for a delightful treat!",
+        "backdrop": "",
+        "ingredients": [
+            ["Almond Flour", "200 g"],
+            ["Xanthan Gum", "1 tsp"],
+            ["Baking Powder", "2 tsp"],
+            ["Salt", "1/4 tsp"],
+            ["Butter, softened", "115 g"],
+            ["Xylitol", "100 g"],
+            ["Eggs", "2 units"],
+            ["Lemon Zest", "2 tsp"],
+            ["Fresh Lemon Juice", "60 mL"]
+        ]
+    },
+    {
+        "name": "Xanthan Gum Cheesecake",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 3.4,
+        "servingSize": 8,
+        "method": [
+            "Preheat oven to 325°F (160°C).",
+            "In a mixing bowl, beat together cream cheese, xylitol, and vanilla extract until smooth.",
+            "Add eggs one at a time, mixing well after each addition.",
+            "Stir in sour cream until fully incorporated.",
+            "Pour the batter into a greased 9-inch springform pan.",
+            "Bake in the preheated oven for 45-50 minutes, or until the edges are set and the center is slightly jiggly.",
+            "Turn off the oven and let the cheesecake cool in the oven with the door slightly ajar for 1 hour.",
+            "Remove from the oven and let cool to room temperature, then refrigerate for at least 4 hours or overnight.",
+            "Slice and serve chilled, enjoy this creamy Xanthan Gum Cheesecake!"
+        ],
+        "description": "This Xanthan Gum Cheesecake is smooth, creamy, and utterly delicious. Made with almond flour and sweetened with xylitol, it's a healthier option for dessert without sacrificing flavor or texture. Whether you're celebrating a special occasion or simply indulging your sweet tooth, this cheesecake is sure to impress.",
+        "backdrop": "",
+        "ingredients": [
+            ["Cream Cheese, softened", "450 g"],
+            ["Xylitol", "150 g"],
+            ["Vanilla Extract", "2 tsp"],
+            ["Eggs", "3 units"],
+            ["Sour Cream", "240 mL"]
+        ]
+    },
+    {
+        "name": "Xylitol-Sweetened Strawberry Jam",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.0,
+        "servingSize": 16,
+        "method": [
+            "In a saucepan, combine fresh strawberries and xylitol.",
+            "Bring the mixture to a boil over medium-high heat, stirring frequently.",
+            "Reduce heat to low and simmer for 20-25 minutes, or until the strawberries break down and the mixture thickens.",
+            "Remove from heat and let cool slightly.",
+            "Transfer the jam to sterilized jars and let cool completely before sealing.",
+            "Refrigerate for up to 2 weeks or freeze for longer storage.",
+            "Spread this delicious Xylitol-Sweetened Strawberry Jam on toast, muffins, or use it as a topping for yogurt or ice cream!"
+        ],
+        "description": "This Xylitol-Sweetened Strawberry Jam is bursting with fruity flavor and naturally sweetened with xylitol. It's easy to make and perfect for spreading on toast, muffins, or using as a topping for yogurt or ice cream. Enjoy the taste of summer all year round with this delicious homemade jam!",
+        "backdrop": "",
+        "ingredients": [
+            ["Fresh Strawberries, hulled and sliced", "500 g"],
+            ["Xylitol", "100 g"]
+        ]
+    },
+    {
+        "name": "Xanthan Gum Chocolate Chip Cookies",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.7,
+        "servingSize": 24,
+        "method": [
+            "Preheat oven to 350°F (175°C).",
+            "In a mixing bowl, cream together softened butter, xylitol, and powdered erythritol until light and fluffy.",
+            "Add eggs, one at a time, beating well after each addition.",
+            "In a separate bowl, whisk together almond flour, xanthan gum, baking powder, and salt.",
+            "Gradually add the dry ingredients to the wet ingredients, mixing until well combined.",
+            "Stir in sugar-free chocolate chips until evenly distributed.",
+            "Drop spoonfuls of dough onto parchment-lined baking sheets, spacing them 2 inches apart.",
+            "Bake in the preheated oven for 10-12 minutes, or until the edges are golden brown.",
+            "Let cool on the baking sheets for 5 minutes before transferring to wire racks to cool completely."
+        ],
+        "description": "These Xanthan Gum Chocolate Chip Cookies are soft, chewy, and packed with chocolatey goodness. Made with almond flour and sweetened with xylitol, they're a healthier option for satisfying your sweet tooth. Enjoy them warm from the oven with a glass of milk for a classic treat!",
+        "backdrop": "",
+        "ingredients": [
+            ["Butter, softened", "115 g"],
+            ["Xylitol", "100 g"],
+            ["Powdered Erythritol", "50 g"],
+            ["Eggs", "2 units"],
+            ["Almond Flour", "200 g"],
+            ["Xanthan Gum", "1 tsp"],
+            ["Baking Powder", "1 tsp"],
+            ["Salt", "1/4 tsp"],
+            ["Sugar-Free Chocolate Chips", "120 g"]
+        ]
+    },
+    {
+        "name": "Xylitol-Sweetened Berry Crisp",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.9,
+        "servingSize": 6,
+        "method": [
+            "Preheat oven to 350°F (175°C).",
+            "In a mixing bowl, toss together mixed berries, xylitol, lemon juice, and vanilla extract.",
+            "Transfer the berry mixture to a greased baking dish.",
+            "In another bowl, combine almond flour, xylitol, cinnamon, and melted butter.",
+            "Sprinkle the almond flour mixture evenly over the berries.",
+            "Bake in the preheated oven for 30-35 minutes, or until the topping is golden brown and the berries are bubbling.",
+            "Let cool slightly before serving.",
+            "Enjoy this delicious Xylitol-Sweetened Berry Crisp warm, topped with a scoop of vanilla ice cream!"
+        ],
+        "description": "This Xylitol-Sweetened Berry Crisp is the perfect dessert for summer gatherings or cozy nights in. Made with a mix of fresh berries and topped with a crunchy almond flour topping sweetened with xylitol, it's a healthier option for satisfying your sweet tooth. Serve it warm with a scoop of vanilla ice cream for a truly indulgent treat!",
+        "backdrop": "",
+        "ingredients": [
+            ["Mixed Berries", "500 g"],
+            ["Xylitol", "100 g"],
+            ["Fresh Lemon Juice", "2 tbsp"],
+            ["Vanilla Extract", "1 tsp"],
+            ["Almond Flour", "100 g"],
+            ["Cinnamon", "1 tsp"],
+            ["Butter, melted", "85 g"]
+        ]
+    },
+    {
+        "name": "Xanthan Gum Pancakes",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.5,
+        "servingSize": 4,
+        "method": [
+            "In a mixing bowl, whisk together almond flour, xanthan gum, baking powder, and salt.",
+            "In another bowl, beat together eggs, almond milk, melted butter, and vanilla extract.",
+            "Gradually add the wet ingredients to the dry ingredients, mixing until smooth.",
+            "Heat a non-stick skillet or griddle over medium heat and lightly grease with butter or oil.",
+            "Pour about 1/4 cup of batter onto the skillet for each pancake.",
+            "Cook until bubbles form on the surface, then flip and cook until golden brown on the other side.",
+            "Serve hot with your favorite toppings, such as fresh berries, maple syrup, or whipped cream.",
+            "Enjoy these fluffy Xanthan Gum Pancakes for a delicious breakfast or brunch!"
+        ],
+        "description": "These Xanthan Gum Pancakes are light, fluffy, and perfect for a leisurely breakfast or brunch. Made with almond flour and sweetened with xylitol, they're a healthier option for satisfying your pancake cravings. Top them with your favorite toppings for a delicious start to your day!",
+        "backdrop": "",
+        "ingredients": [
+            ["Almond Flour", "200 g"],
+            ["Xanthan Gum", "1 tsp"],
+            ["Baking Powder", "2 tsp"],
+            ["Salt", "1/4 tsp"],
+            ["Eggs", "2 units"],
+            ["Almond Milk", "240 mL"],
+            ["Butter, melted", "30 g"],
+            ["Vanilla Extract", "1 tsp"]
+        ]
+    },
+    {
+        "name": "Xylitol-Sweetened Raspberry Sorbet",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 2.3,
+        "servingSize": 6,
+        "method": [
+            "In a blender, combine frozen raspberries, xylitol, lemon juice, and water.",
+            "Blend on high speed until smooth and creamy.",
+            "Taste and adjust sweetness if needed by adding more xylitol.",
+            "Transfer the mixture to an ice cream maker and churn according to the manufacturer's instructions.",
+            "Once the sorbet reaches a soft-serve consistency, transfer it to a freezer-safe container and freeze for at least 4 hours or until firm.",
+            "Serve scoops of this refreshing Xylitol-Sweetened Raspberry Sorbet in chilled bowls.",
+            "Garnish with fresh raspberries or mint leaves, if desired.",
+            "Enjoy this guilt-free treat on a hot day!"
+        ],
+        "description": "This Xylitol-Sweetened Raspberry Sorbet is a refreshing and fruity dessert that's perfect for cooling down on a hot day. Made with frozen raspberries and naturally sweetened with xylitol, it's a healthier alternative to store-bought sorbet that's just as delicious. Enjoy it on its own or as a palate cleanser between courses!",
+        "backdrop": "",
+        "ingredients": [
+            ["Frozen Raspberries", "400 g"],
+            ["Xylitol", "100 g"],
+            ["Fresh Lemon Juice", "2 tbsp"],
+            ["Water", "120 mL"]
+        ]
+    },
+    {
+        "name": "Yogurt Parfait",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.9,
+        "servingSize": 1,
+        "method": [
+            "In a glass or bowl, layer Greek yogurt, granola, fresh berries, and honey.",
+            "Repeat the layers until the glass or bowl is filled.",
+            "Top with additional berries and a drizzle of honey, if desired.",
+            "Serve immediately and enjoy this delicious and nutritious Yogurt Parfait!"
+        ],
+        "description": "This Yogurt Parfait is a simple and versatile breakfast or snack option that's both delicious and nutritious. Made with creamy Greek yogurt, crunchy granola, fresh berries, and a drizzle of honey, it's packed with protein, fiber, and antioxidants. Customize it with your favorite toppings for a satisfying treat!",
+        "backdrop": "",
+        "ingredients": [
+            ["Greek Yogurt", "1 cup"],
+            ["Granola", "1/2 cup"],
+            ["Fresh Berries", "1/2 cup"],
+            ["Honey", "2 tbsp"]
+        ]
+    },
+    {
+        "name": "Yogurt-Marinated Chicken Skewers",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 3.2,
+        "servingSize": 4,
+        "method": [
+            "In a mixing bowl, combine Greek yogurt, minced garlic, lemon juice, olive oil, paprika, cumin, salt, and black pepper.",
+            "Add chicken cubes to the marinade, ensuring they are evenly coated.",
+            "Cover and refrigerate for at least 1 hour, or overnight for best results.",
+            "Preheat grill to medium-high heat.",
+            "Thread marinated chicken cubes onto skewers.",
+            "Grill the skewers for 8-10 minutes, turning occasionally, until the chicken is cooked through and slightly charred.",
+            "Serve hot with your favorite dipping sauce or side dishes.",
+            "Enjoy these flavorful Yogurt-Marinated Chicken Skewers as a delicious appetizer or main course!"
+        ],
+        "description": "These Yogurt-Marinated Chicken Skewers are tender, juicy, and packed with flavor. Marinated in a mixture of Greek yogurt, garlic, lemon juice, and spices, they're perfect for grilling and make a delicious appetizer or main course. Serve them with your favorite dipping sauce or side dishes for a satisfying meal!",
+        "backdrop": "",
+        "ingredients": [
+            ["Greek Yogurt", "1 cup"],
+            ["Garlic, minced", "2 cloves"],
+            ["Lemon Juice", "2 tbsp"],
+            ["Olive Oil", "2 tbsp"],
+            ["Paprika", "1 tsp"],
+            ["Ground Cumin", "1 tsp"],
+            ["Salt", "1/2 tsp"],
+            ["Black Pepper", "1/4 tsp"],
+            ["Boneless, Skinless Chicken Breast, cut into cubes", "500 g"],
+            ["Wooden Skewers, soaked in water for 30 minutes", "8 units"]
+        ]
+    },
+    {
+        "name": "Yogurt-Covered Strawberries",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.0,
+        "servingSize": 6,
+        "method": [
+            "In a bowl, mix together Greek yogurt and honey until smooth.",
+            "Dip each strawberry into the yogurt mixture, coating it evenly.",
+            "Place the yogurt-covered strawberries on a parchment-lined baking sheet.",
+            "Freeze for 1-2 hours, or until the yogurt is set.",
+            "Serve immediately as a refreshing and healthy snack or dessert.",
+            "Enjoy these Yogurt-Covered Strawberries straight from the freezer!"
+        ],
+        "description": "These Yogurt-Covered Strawberries are a delightful and healthy treat that's perfect for snacking or dessert. Made with creamy Greek yogurt and sweetened with honey, they're a guilt-free indulgence that's easy to make and irresistibly delicious. Enjoy them straight from the freezer for a refreshing burst of flavor!",
+        "backdrop": "",
+        "ingredients": [
+            ["Greek Yogurt", "1 cup"],
+            ["Honey", "2 tbsp"],
+            ["Fresh Strawberries, hulled", "250 g"]
+        ]
+    },
+    {
+        "name": "Yogurt-Crusted Salmon",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 3.5,
+        "servingSize": 4,
+        "method": [
+            "Preheat oven to 400°F (200°C).",
+            "In a bowl, mix together Greek yogurt, lemon juice, minced garlic, dill, salt, and black pepper.",
+            "Place salmon fillets on a parchment-lined baking sheet.",
+            "Spread the yogurt mixture evenly over the top of each salmon fillet.",
+            "Bake in the preheated oven for 12-15 minutes, or until the salmon is cooked through and the yogurt crust is golden brown.",
+            "Serve hot with your favorite side dishes or salads.",
+            "Enjoy this flavorful and nutritious Yogurt-Crusted Salmon for a delicious and satisfying meal!"
+        ],
+        "description": "This Yogurt-Crusted Salmon is a simple yet elegant dish that's perfect for any occasion. The Greek yogurt crust keeps the salmon moist and adds a tangy flavor, while the lemon, garlic, and dill infuse it with fresh, aromatic notes. Serve it with your favorite side dishes or salads for a nutritious and delicious meal!",
+        "backdrop": "",
+        "ingredients": [
+            ["Greek Yogurt", "1/2 cup"],
+            ["Lemon Juice", "2 tbsp"],
+            ["Garlic, minced", "2 cloves"],
+            ["Fresh Dill, chopped", "2 tbsp"],
+            ["Salt", "1/2 tsp"],
+            ["Black Pepper", "1/4 tsp"],
+            ["Salmon Fillets", "4 units"]
+        ]
+    },
+    {
+        "name": "Yogurt Berry Smoothie",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.5,
+        "servingSize": 2,
+        "method": [
+            "In a blender, combine Greek yogurt, mixed berries, banana, honey, and almond milk.",
+            "Blend until smooth and creamy.",
+            "Taste and adjust sweetness if needed by adding more honey.",
+            "Pour into glasses and serve immediately.",
+            "Enjoy this refreshing and nutritious Yogurt Berry Smoothie for a quick and easy breakfast or snack!"
+        ],
+        "description": "This Yogurt Berry Smoothie is a delicious and satisfying way to start your day. Packed with protein, vitamins, and antioxidants from Greek yogurt and mixed berries, it's a nutritious and refreshing option for breakfast or snack time. Customize it with your favorite fruits and enjoy it on the go!",
+        "backdrop": "",
+        "ingredients": [
+            ["Greek Yogurt", "1 cup"],
+            ["Mixed Berries", "1 cup"],
+            ["Banana", "1 unit"],
+            ["Honey", "2 tbsp"],
+            ["Almond Milk", "1/2 cup"]
+        ]
+    },
+    {
+        "name": "Yogurt-Marinated Tandoori Chicken",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 3.3,
+        "servingSize": 4,
+        "method": [
+            "In a mixing bowl, combine Greek yogurt, lemon juice, minced garlic, grated ginger, paprika, turmeric, cumin, coriander, garam masala, salt, and black pepper.",
+            "Add chicken pieces to the marinade, ensuring they are evenly coated.",
+            "Cover and refrigerate for at least 2 hours, or overnight for best results.",
+            "Preheat grill to medium-high heat.",
+            "Thread marinated chicken pieces onto skewers.",
+            "Grill the skewers for 10-12 minutes, turning occasionally, until the chicken is cooked through and slightly charred.",
+            "Serve hot with naan bread, rice, and your favorite chutneys.",
+            "Enjoy this flavorful Yogurt-Marinated Tandoori Chicken as a delicious and exotic meal!"
+        ],
+        "description": "This Yogurt-Marinated Tandoori Chicken is a classic Indian dish that's bursting with flavor. Marinated in a mixture of Greek yogurt, lemon juice, and aromatic spices, it's tender, juicy, and perfect for grilling. Serve it with naan bread, rice, and your favorite chutneys for a satisfying and exotic meal!",
+        "backdrop": "",
+        "ingredients": [
+            ["Greek Yogurt", "1 cup"],
+            ["Lemon Juice", "2 tbsp"],
+            ["Garlic, minced", "2 cloves"],
+            ["Fresh Ginger, grated", "1 tbsp"],
+            ["Paprika", "1 tsp"],
+            ["Ground Turmeric", "1/2 tsp"],
+            ["Ground Cumin", "1/2 tsp"],
+            ["Ground Coriander", "1/2 tsp"],
+            ["Garam Masala", "1/2 tsp"],
+            ["Salt", "1/2 tsp"],
+            ["Black Pepper", "1/4 tsp"],
+            ["Boneless, Skinless Chicken Thighs, cut into pieces", "500 g"],
+            ["Wooden Skewers, soaked in water for 30 minutes", "8 units"]
+        ]
+    },
+    {
+        "name": "Yogurt Ranch Dressing",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 1.8,
+        "servingSize": 8,
+        "method": [
+            "In a mixing bowl, whisk together Greek yogurt, mayonnaise, buttermilk, minced garlic, chopped fresh dill, chopped fresh parsley, onion powder, garlic powder, salt, and black pepper.",
+            "Taste and adjust seasoning as needed.",
+            "Cover and refrigerate for at least 30 minutes before serving to allow the flavors to meld.",
+            "Serve as a dressing for salads, a dip for vegetables, or a sauce for chicken wings.",
+            "Enjoy this creamy and tangy Yogurt Ranch Dressing on all your favorite dishes!"
+        ],
+        "description": "This Yogurt Ranch Dressing is a healthier twist on the classic favorite. Made with Greek yogurt and flavored with fresh herbs and spices, it's creamy, tangy, and full of flavor. Use it as a dressing for salads, a dip for vegetables, or a sauce for chicken wings. It's versatile, delicious, and sure to become a staple in your kitchen!",
+        "backdrop": "",
+        "ingredients": [
+            ["Greek Yogurt", "1 cup"],
+            ["Mayonnaise", "1/4 cup"],
+            ["Buttermilk", "1/4 cup"],
+            ["Garlic, minced", "2 cloves"],
+            ["Fresh Dill, chopped", "2 tbsp"],
+            ["Fresh Parsley, chopped", "2 tbsp"],
+            ["Onion Powder", "1 tsp"],
+            ["Garlic Powder", "1 tsp"],
+            ["Salt", "1/2 tsp"],
+            ["Black Pepper", "1/4 tsp"]
+        ]
+    },
+    {
+        "name": "Yogurt Blueberry Muffins",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.5,
+        "servingSize": 12,
+        "method": [
+            "Preheat oven to 375°F (190°C).",
+            "Line a muffin tin with paper liners or grease with non-stick cooking spray.",
+            "In a mixing bowl, whisk together flour, baking powder, baking soda, and salt.",
+            "In another bowl, whisk together Greek yogurt, eggs, sugar, melted butter, and vanilla extract until smooth.",
+            "Gradually add the dry ingredients to the wet ingredients, mixing until just combined.",
+            "Gently fold in fresh blueberries until evenly distributed.",
+            "Divide the batter evenly among the prepared muffin cups.",
+            "Bake in the preheated oven for 18-20 minutes, or until a toothpick inserted into the center comes out clean.",
+            "Let cool in the muffin tin for 5 minutes, then transfer to a wire rack to cool completely.",
+            "Enjoy these moist and flavorful Yogurt Blueberry Muffins for breakfast or as a snack!",
+            "Store leftovers in an airtight container at room temperature for up to 3 days, or freeze for longer storage."
+        ],
+        "description": "These Yogurt Blueberry Muffins are soft, moist, and bursting with juicy blueberries. Made with Greek yogurt for added richness and tanginess, they're a delicious treat for breakfast or snack time. Enjoy them warm from the oven or pack them for a convenient on-the-go snack. Either way, they're sure to be a hit with the whole family!",
+        "backdrop": "",
+        "ingredients": [
+            ["All-Purpose Flour", "2 cups"],
+            ["Baking Powder", "2 tsp"],
+            ["Baking Soda", "1/2 tsp"],
+            ["Salt", "1/4 tsp"],
+            ["Greek Yogurt", "1 cup"],
+            ["Eggs", "2 units"],
+            ["Granulated Sugar", "3/4 cup"],
+            ["Butter, melted", "1/2 cup"],
+            ["Vanilla Extract", "1 tsp"],
+            ["Fresh Blueberries", "1 cup"]
+        ]
+    },
+    {
+        "name": "Yogurt-Coated Pretzels",
+        "author": "System",
+        "starRating": 4.4,
+        "difficultyRating": 2.1,
+        "servingSize": 8,
+        "method": [
+            "In a microwave-safe bowl, melt white chocolate chips in 30-second intervals, stirring in between, until smooth and melted.",
+            "Stir in Greek yogurt until fully combined.",
+            "Dip each pretzel into the yogurt mixture, coating it evenly.",
+            "Place the coated pretzels on a parchment-lined baking sheet.",
+            "Sprinkle with colored sprinkles, if desired.",
+            "Refrigerate for 30 minutes, or until the yogurt coating is set.",
+            "Serve as a sweet and salty snack or pack them in airtight containers for on-the-go enjoyment.",
+            "Enjoy these Yogurt-Coated Pretzels as a fun and delicious treat!"
+        ],
+        "description": "These Yogurt-Coated Pretzels are a delightful combination of sweet and salty flavors. Made with creamy Greek yogurt and melted white chocolate, they're a fun and easy snack that's perfect for parties, movie nights, or anytime you're craving something sweet. Enjoy them on their own or pack them for a convenient on-the-go treat!",
+        "backdrop": "",
+        "ingredients": [
+            ["White Chocolate Chips", "1 cup"],
+            ["Greek Yogurt", "1/2 cup"],
+            ["Pretzels", "4 cups"],
+            ["Colored Sprinkles (optional)", "0 g"]
+        ]
+    },
+    {
+        "name": "Yogurt-Marinated Lamb Kebabs",
+        "author": "System",
+        "starRating": 4.8,
+        "difficultyRating": 3.6,
+        "servingSize": 4,
+        "method": [
+            "In a mixing bowl, combine Greek yogurt, minced garlic, grated ginger, lemon juice, paprika, cumin, coriander, cinnamon, cayenne pepper, salt, and black pepper.",
+            "Add lamb cubes to the marinade, ensuring they are evenly coated.",
+            "Cover and refrigerate for at least 2 hours, or overnight for best results.",
+            "Preheat grill to medium-high heat.",
+            "Thread marinated lamb cubes onto skewers.",
+            "Grill the skewers for 8-10 minutes, turning occasionally, until the lamb is cooked through and slightly charred.",
+            "Serve hot with rice, couscous, or flatbread.",
+            "Enjoy these flavorful Yogurt-Marinated Lamb Kebabs as a delicious and satisfying meal!"
+        ],
+        "description": "These Yogurt-Marinated Lamb Kebabs are tender, juicy, and packed with flavor. Marinated in a mixture of Greek yogurt, garlic, ginger, and aromatic spices, they're perfect for grilling and make a delicious and satisfying meal. Serve them with rice, couscous, or flatbread for a taste of the Mediterranean!",
+        "backdrop": "",
+        "ingredients": [
+            ["Greek Yogurt", "1 cup"],
+            ["Garlic, minced", "2 cloves"],
+            ["Fresh Ginger, grated", "1 tbsp"],
+            ["Lemon Juice", "2 tbsp"],
+            ["Paprika", "1 tsp"],
+            ["Ground Cumin", "1/2 tsp"],
+            ["Ground Coriander", "1/2 tsp"],
+            ["Ground Cinnamon", "1/4 tsp"],
+            ["Cayenne Pepper", "1/4 tsp"],
+            ["Salt", "1/2 tsp"],
+            ["Black Pepper", "1/4 tsp"],
+            ["Lamb Leg Meat, cut into cubes", "500 g"],
+            ["Wooden Skewers, soaked in water for 30 minutes", "8 units"]
+        ]
+    },
+    {
+        "name": "Yogurt-Based Tzatziki Sauce",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 1.6,
+        "servingSize": 8,
+        "method": [
+            "Grate cucumber using a box grater or food processor.",
+            "Place grated cucumber in a fine-mesh sieve set over a bowl and sprinkle with salt.",
+            "Let sit for 10-15 minutes, then squeeze out excess moisture from the cucumber using your hands or a clean kitchen towel.",
+            "In a mixing bowl, combine Greek yogurt, grated cucumber, minced garlic, chopped fresh dill, lemon juice, olive oil, salt, and black pepper.",
+            "Taste and adjust seasoning as needed.",
+            "Cover and refrigerate for at least 1 hour before serving to allow the flavors to meld.",
+            "Serve chilled as a dip for vegetables, a sauce for grilled meats, or a topping for gyros.",
+            "Enjoy this creamy and refreshing Yogurt-Based Tzatziki Sauce with your favorite Mediterranean dishes!"
+        ],
+        "description": "This Yogurt-Based Tzatziki Sauce is a classic Greek condiment that's creamy, tangy, and full of flavor. Made with Greek yogurt, cucumber, garlic, and fresh dill, it's perfect for dipping vegetables, drizzling over grilled meats, or topping gyros. Serve it alongside your favorite Mediterranean dishes for a burst of freshness and flavor!",
+        "backdrop": "",
+        "ingredients": [
+            ["Cucumber, grated", "1 medium"],
+            ["Salt", "1/2 tsp"],
+            ["Greek Yogurt", "1 cup"],
+            ["Garlic, minced", "2 cloves"],
+            ["Fresh Dill, chopped", "2 tbsp"],
+            ["Lemon Juice", "2 tbsp"],
+            ["Olive Oil", "1 tbsp"],
+            ["Black Pepper", "1/4 tsp"]
+        ]
+    },
+    {
+        "name": "Yogurt-Marinated Vegetable Skewers",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.8,
+        "servingSize": 4,
+        "method": [
+            "In a mixing bowl, combine Greek yogurt, minced garlic, lemon juice, olive oil, dried oregano, salt, and black pepper.",
+            "Add vegetable chunks (such as bell peppers, zucchini, cherry tomatoes, and red onion) to the marinade, ensuring they are evenly coated.",
+            "Cover and refrigerate for at least 1 hour, or overnight for best results.",
+            "Preheat grill to medium-high heat.",
+            "Thread marinated vegetable chunks onto skewers.",
+            "Grill the skewers for 8-10 minutes, turning occasionally, until the vegetables are tender and slightly charred.",
+            "Serve hot with rice, couscous, or grilled meats.",
+            "Enjoy these flavorful Yogurt-Marinated Vegetable Skewers as a delicious and nutritious side dish or main course!"
+        ],
+        "description": "These Yogurt-Marinated Vegetable Skewers are a colorful and delicious addition to any barbecue or summer meal. Marinated in a mixture of Greek yogurt, garlic, lemon, and herbs, they're tender, juicy, and bursting with flavor. Serve them alongside your favorite grilled meats or enjoy them on their own for a healthy and satisfying meal!",
+        "backdrop": "",
+        "ingredients": [
+            ["Greek Yogurt", "1 cup"],
+            ["Garlic, minced", "2 cloves"],
+            ["Lemon Juice", "2 tbsp"],
+            ["Olive Oil", "2 tbsp"],
+            ["Dried Oregano", "1 tsp"],
+            ["Salt", "1/2 tsp"],
+            ["Black Pepper", "1/4 tsp"],
+            ["Assorted Vegetables (bell peppers, zucchini, cherry tomatoes, red onion), cut into chunks", "800 g"],
+            ["Wooden Skewers, soaked in water for 30 minutes", "8 units"]
+        ]
+    },
+    {
+        "name": "Yogurt-Marinated Tofu Satay",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.4,
+        "servingSize": 4,
+        "method": [
+            "In a mixing bowl, combine Greek yogurt, soy sauce, lime juice, honey, grated ginger, minced garlic, curry powder, and turmeric.",
+            "Cut tofu into cubes and add them to the marinade, ensuring they are evenly coated.",
+            "Cover and refrigerate for at least 30 minutes, or up to 2 hours.",
+            "Preheat grill to medium-high heat.",
+            "Thread marinated tofu cubes onto skewers.",
+            "Grill the skewers for 5-7 minutes per side, or until the tofu is golden brown and slightly charred.",
+            "Serve hot with peanut sauce and a sprinkle of chopped peanuts and cilantro.",
+            "Enjoy these flavorful Yogurt-Marinated Tofu Satay skewers as a delicious vegetarian appetizer or main course!"
+        ],
+        "description": "These Yogurt-Marinated Tofu Satay skewers are a vegetarian twist on the classic Indonesian dish. Marinated in a mixture of Greek yogurt, soy sauce, lime, and spices, they're flavorful, tender, and perfect for grilling. Serve them with peanut sauce for dipping and garnish with chopped peanuts and cilantro for a delicious and satisfying meal!",
+        "backdrop": "",
+        "ingredients": [
+            ["Greek Yogurt", "1/2 cup"],
+            ["Soy Sauce", "2 tbsp"],
+            ["Lime Juice", "2 tbsp"],
+            ["Honey", "1 tbsp"],
+            ["Fresh Ginger, grated", "1 tbsp"],
+            ["Garlic, minced", "2 cloves"],
+            ["Curry Powder", "1 tsp"],
+            ["Ground Turmeric", "1/2 tsp"],
+            ["Extra-Firm Tofu, drained and pressed, cut into cubes", "400 g"],
+            ["Wooden Skewers, soaked in water for 30 minutes", "8 units"],
+            ["Peanut Sauce, for serving", "0 g"],
+            ["Chopped Peanuts, for garnish", "0 g"],
+            ["Fresh Cilantro, chopped, for garnish", "0 g"]
+        ]
+    },
+    {
+        "name": "Yogurt-Dipped Apple Slices",
+        "author": "System",
+        "starRating": 4.4,
+        "difficultyRating": 1.2,
+        "servingSize": 4,
+        "method": [
+            "In a bowl, mix together Greek yogurt and honey until smooth.",
+            "Dip apple slices into the yogurt mixture, coating them halfway.",
+            "Place the yogurt-dipped apple slices on a parchment-lined baking sheet.",
+            "Freeze for 1 hour, or until the yogurt is set.",
+            "Serve immediately as a refreshing and healthy snack.",
+            "Enjoy these Yogurt-Dipped Apple Slices as a delicious and guilt-free treat!"
+        ],
+        "description": "These Yogurt-Dipped Apple Slices are a simple yet satisfying snack that's perfect for any time of day. Made with creamy Greek yogurt and sweetened with honey, they're a healthier alternative to traditional caramel apples. Enjoy them frozen for a refreshing burst of flavor!",
+        "backdrop": "",
+        "ingredients": [
+            ["Greek Yogurt", "1/2 cup"],
+            ["Honey", "2 tbsp"],
+            ["Apple, sliced", "2 units"]
+        ]
+    },
+    {
+        "name": "Yogurt-Crusted Chicken Tenders",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "Preheat oven to 400°F (200°C).",
+            "In a shallow bowl, mix together Greek yogurt, Dijon mustard, minced garlic, dried thyme, salt, and black pepper.",
+            "In another shallow bowl, place breadcrumbs.",
+            "Dip chicken tenders into the yogurt mixture, coating them evenly.",
+            "Dredge coated chicken tenders in breadcrumbs, pressing gently to adhere.",
+            "Place coated chicken tenders on a parchment-lined baking sheet.",
+            "Bake in the preheated oven for 15-20 minutes, or until chicken is cooked through and coating is golden brown and crispy.",
+            "Serve hot with your favorite dipping sauce.",
+            "Enjoy these crunchy Yogurt-Crusted Chicken Tenders as a delicious and healthier alternative to fried chicken!"
+        ],
+        "description": "These Yogurt-Crusted Chicken Tenders are tender, juicy, and packed with flavor. Coated in a mixture of Greek yogurt, Dijon mustard, and herbs, then baked until golden brown and crispy, they're a healthier alternative to traditional fried chicken tenders. Serve them with your favorite dipping sauce for a satisfying meal!",
+        "backdrop": "",
+        "ingredients": [
+            ["Greek Yogurt", "1/2 cup"],
+            ["Dijon Mustard", "2 tbsp"],
+            ["Garlic, minced", "2 cloves"],
+            ["Dried Thyme", "1 tsp"],
+            ["Salt", "1/2 tsp"],
+            ["Black Pepper", "1/4 tsp"],
+            ["Chicken Tenders", "500 g"],
+            ["Breadcrumbs", "1 cup"]
+        ]
+    },
+    {
+        "name": "Yogurt-Marinated Shrimp Skewers",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.6,
+        "servingSize": 4,
+        "method": [
+            "In a mixing bowl, combine Greek yogurt, minced garlic, lemon zest, lemon juice, chopped fresh parsley, smoked paprika, salt, and black pepper.",
+            "Add shrimp to the marinade, ensuring they are evenly coated.",
+            "Cover and refrigerate for at least 30 minutes, or up to 2 hours.",
+            "Preheat grill to medium-high heat.",
+            "Thread marinated shrimp onto skewers.",
+            "Grill the skewers for 2-3 minutes per side, or until the shrimp are pink and opaque.",
+            "Serve hot with lemon wedges and additional chopped parsley for garnish.",
+            "Enjoy these flavorful Yogurt-Marinated Shrimp Skewers as a delicious and easy-to-make appetizer or main course!"
+        ],
+        "description": "These Yogurt-Marinated Shrimp Skewers are a quick and easy dish that's perfect for summer grilling. Marinated in a mixture of Greek yogurt, garlic, lemon, and spices, they're tender, juicy, and bursting with flavor. Serve them as an appetizer or main course for a delicious and satisfying meal!",
+        "backdrop": "",
+        "ingredients": [
+            ["Greek Yogurt", "1/2 cup"],
+            ["Garlic, minced", "2 cloves"],
+            ["Lemon Zest", "1 tsp"],
+            ["Lemon Juice", "2 tbsp"],
+            ["Fresh Parsley, chopped", "2 tbsp"],
+            ["Smoked Paprika", "1 tsp"],
+            ["Salt", "1/2 tsp"],
+            ["Black Pepper", "1/4 tsp"],
+            ["Large Shrimp, peeled and deveined", "500 g"],
+            ["Wooden Skewers, soaked in water for 30 minutes", "8 units"],
+            ["Lemon Wedges, for serving", "0 g"]
+        ]
+    },
+    {
+        "name": "Zesty Yogurt-Marinated Chicken Wings",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 2.9,
+        "servingSize": 4,
+        "method": [
+            "In a mixing bowl, combine Greek yogurt, lemon zest, lemon juice, minced garlic, smoked paprika, cayenne pepper, honey, salt, and black pepper.",
+            "Add chicken wings to the marinade, ensuring they are evenly coated.",
+            "Cover and refrigerate for at least 2 hours, or overnight for best results.",
+            "Preheat oven to 400°F (200°C).",
+            "Line a baking sheet with aluminum foil and place a wire rack on top.",
+            "Arrange marinated chicken wings on the wire rack in a single layer.",
+            "Bake in the preheated oven for 35-40 minutes, flipping halfway through, until wings are cooked through and crispy.",
+            "Serve hot with ranch or blue cheese dressing and celery sticks.",
+            "Enjoy these zesty Yogurt-Marinated Chicken Wings as a flavorful appetizer or main course!"
+        ],
+        "description": "These Zesty Yogurt-Marinated Chicken Wings are bursting with flavor and perfect for game day or any gathering. Marinated in a tangy mixture of Greek yogurt, lemon, and spices, they're tender on the inside and crispy on the outside. Serve them with your favorite dipping sauce for a crowd-pleasing appetizer that's sure to impress!",
+        "backdrop": "",
+        "ingredients": [
+            ["Greek Yogurt", "1 cup"],
+            ["Lemon Zest", "1 tbsp"],
+            ["Lemon Juice", "2 tbsp"],
+            ["Garlic, minced", "2 cloves"],
+            ["Smoked Paprika", "1 tsp"],
+            ["Cayenne Pepper", "1/2 tsp"],
+            ["Honey", "2 tbsp"],
+            ["Salt", "1/2 tsp"],
+            ["Black Pepper", "1/4 tsp"],
+            ["Chicken Wings", "1 kg"],
+            ["Ranch or Blue Cheese Dressing, for serving", "0 g"],
+            ["Celery Sticks, for serving", "0 g"]
+        ]
+    },
+    {
+        "name": "Zucchini Noodles with Yogurt Pesto Sauce",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.2,
+        "servingSize": 2,
+        "method": [
+            "Using a spiralizer, spiralize zucchini into noodles.",
+            "In a blender or food processor, combine Greek yogurt, fresh basil leaves, pine nuts, grated Parmesan cheese, garlic, lemon juice, olive oil, salt, and black pepper.",
+            "Blend until smooth and creamy, adding water as needed to reach desired consistency.",
+            "In a skillet, heat olive oil over medium heat.",
+            "Add zucchini noodles and sauté for 2-3 minutes, until just tender.",
+            "Pour yogurt pesto sauce over the zucchini noodles and toss to coat.",
+            "Remove from heat and serve immediately, garnished with additional Parmesan cheese and fresh basil leaves, if desired.",
+            "Enjoy these Zucchini Noodles with Yogurt Pesto Sauce as a light and healthy alternative to traditional pasta dishes!"
+        ],
+        "description": "These Zucchini Noodles with Yogurt Pesto Sauce are a fresh and flavorful way to enjoy a classic dish without the carbs. Made with spiralized zucchini noodles and a creamy yogurt pesto sauce, they're light, healthy, and bursting with flavor. Serve them as a side dish or add your favorite protein for a complete meal!",
+        "backdrop": "",
+        "ingredients": [
+            ["Zucchini, spiralized into noodles", "4 units"],
+            ["Greek Yogurt", "1/2 cup"],
+            ["Fresh Basil Leaves", "1 cup"],
+            ["Pine Nuts", "1/4 cup"],
+            ["Grated Parmesan Cheese", "1/4 cup"],
+            ["Garlic, minced", "2 cloves"],
+            ["Lemon Juice", "2 tbsp"],
+            ["Olive Oil", "2 tbsp"],
+            ["Salt", "1/2 tsp"],
+            ["Black Pepper", "1/4 tsp"]
+        ]
+    },
+    {
+        "name": "Zesty Yogurt-Marinated Shrimp Tacos",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.5,
+        "servingSize": 4,
+        "method": [
+            "In a mixing bowl, combine Greek yogurt, lime zest, lime juice, minced garlic, chili powder, cumin, smoked paprika, salt, and black pepper.",
+            "Add shrimp to the marinade, ensuring they are evenly coated.",
+            "Cover and refrigerate for at least 30 minutes, or up to 2 hours.",
+            "Preheat grill to medium-high heat.",
+            "Thread marinated shrimp onto skewers.",
+            "Grill the skewers for 2-3 minutes per side, or until the shrimp are pink and opaque.",
+            "Warm corn tortillas on the grill or in a skillet.",
+            "Fill tortillas with grilled shrimp, shredded cabbage, diced tomatoes, avocado slices, and a dollop of Greek yogurt.",
+            "Serve hot with lime wedges and additional toppings as desired.",
+            "Enjoy these zesty Yogurt-Marinated Shrimp Tacos as a delicious and satisfying meal!"
+        ],
+        "description": "These Zesty Yogurt-Marinated Shrimp Tacos are bursting with flavor and perfect for a quick and easy weeknight meal. Marinated in a tangy mixture of Greek yogurt, lime, and spices, the shrimp are tender, juicy, and packed with flavor. Serve them in warm corn tortillas with your favorite toppings for a delicious and satisfying dinner!",
+        "backdrop": "",
+        "ingredients": [
+            ["Greek Yogurt", "1/2 cup"],
+            ["Lime Zest", "1 tsp"],
+            ["Lime Juice", "2 tbsp"],
+            ["Garlic, minced", "2 cloves"],
+            ["Chili Powder", "1 tsp"],
+            ["Ground Cumin", "1/2 tsp"],
+            ["Smoked Paprika", "1/2 tsp"],
+            ["Salt", "1/2 tsp"],
+            ["Black Pepper", "1/4 tsp"],
+            ["Large Shrimp, peeled and deveined", "500 g"],
+            ["Corn Tortillas", "8 units"],
+            ["Shredded Cabbage", "1 cup"],
+            ["Diced Tomatoes", "1 cup"],
+            ["Avocado, sliced", "1 unit"],
+            ["Lime Wedges, for serving", "0 g"]
+        ]
+    },
+    {
+        "name": "Zucchini Fritters with Yogurt Dill Sauce",
+        "author": "System",
+        "starRating": 4.4,
+        "difficultyRating": 2.8,
+        "servingSize": 4,
+        "method": [
+            "Grate zucchini using a box grater or food processor.",
+            "Place grated zucchini in a colander and sprinkle with salt.",
+            "Let sit for 10-15 minutes, then squeeze out excess moisture from the zucchini using your hands or a clean kitchen towel.",
+            "In a mixing bowl, combine grated zucchini, beaten eggs, minced garlic, chopped scallions, chopped fresh dill, flour, baking powder, salt, and black pepper.",
+            "Heat olive oil in a skillet over medium heat.",
+            "Drop spoonfuls of the zucchini mixture into the skillet and flatten with a spatula.",
+            "Cook for 3-4 minutes per side, or until golden brown and crispy.",
+            "Transfer cooked fritters to a paper towel-lined plate to drain excess oil.",
+            "In a small bowl, mix together Greek yogurt, chopped fresh dill, lemon juice, salt, and black pepper to make the yogurt dill sauce.",
+            "Serve zucchini fritters hot with yogurt dill sauce on the side.",
+            "Enjoy these crispy Zucchini Fritters with Yogurt Dill Sauce as a delicious appetizer or side dish!"
+        ],
+        "description": "These Zucchini Fritters with Yogurt Dill Sauce are a crispy and flavorful way to enjoy summer zucchini. Made with grated zucchini, eggs, garlic, and fresh herbs, they're easy to make and bursting with flavor. Serve them with a tangy yogurt dill sauce for a delicious appetizer or side dish!",
+        "backdrop": "",
+        "ingredients": [
+            ["Zucchini, grated", "2 units"],
+            ["Eggs, beaten", "2 units"],
+            ["Garlic, minced", "2 cloves"],
+            ["Scallions, chopped", "2 units"],
+            ["Fresh Dill, chopped", "1/4 cup"],
+            ["All-Purpose Flour", "1/4 cup"],
+            ["Baking Powder", "1/2 tsp"],
+            ["Salt", "1/2 tsp"],
+            ["Black Pepper", "1/4 tsp"],
+            ["Olive Oil", "4 tbsp"],
+            ["Greek Yogurt", "1/2 cup"],
+            ["Lemon Juice", "1 tbsp"]
+        ]
+    },
+    {
+        "name": "Zesty Yogurt-Marinated Veggie Skewers",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.3,
+        "servingSize": 4,
+        "method": [
+            "In a mixing bowl, combine Greek yogurt, minced garlic, lemon juice, olive oil, dried oregano, salt, and black pepper.",
+            "Add vegetable chunks (such as bell peppers, zucchini, cherry tomatoes, and red onion) to the marinade, ensuring they are evenly coated.",
+            "Cover and refrigerate for at least 1 hour, or overnight for best results.",
+            "Preheat grill to medium-high heat.",
+            "Thread marinated vegetable chunks onto skewers.",
+            "Grill the skewers for 8-10 minutes, turning occasionally, until the vegetables are tender and slightly charred.",
+            "Serve hot with rice, couscous, or grilled meats.",
+            "Enjoy these flavorful Zesty Yogurt-Marinated Veggie Skewers as a delicious and nutritious side dish or main course!"
+        ],
+        "description": "These Zesty Yogurt-Marinated Veggie Skewers are bursting with flavor and perfect for summer grilling. Marinated in a tangy mixture of Greek yogurt, lemon, and herbs, they're tender, juicy, and packed with flavor. Serve them as a side dish or alongside your favorite grilled meats for a delicious and satisfying meal!",
+        "backdrop": "",
+        "ingredients": [
+            ["Greek Yogurt", "1 cup"],
+            ["Garlic, minced", "2 cloves"],
+            ["Lemon Juice", "2 tbsp"],
+            ["Olive Oil", "2 tbsp"],
+            ["Dried Oregano", "1 tsp"],
+            ["Salt", "1/2 tsp"],
+            ["Black Pepper", "1/4 tsp"],
+            ["Assorted Vegetables (bell peppers, zucchini, cherry tomatoes, red onion), cut into chunks", "800 g"],
+            ["Wooden Skewers, soaked in water for 30 minutes", "8 units"]
+        ]
+    },
+    {
+        "name": "Zucchini and Yogurt Dip",
+        "author": "System",
+        "starRating": 4.3,
+        "difficultyRating": 1.8,
+        "servingSize": 6,
+        "method": [
+            "Grate zucchini and squeeze out excess moisture.",
+            "In a bowl, combine grated zucchini, Greek yogurt, minced garlic, lemon juice, chopped dill, salt, and black pepper.",
+            "Mix well until all ingredients are evenly incorporated.",
+            "Refrigerate for at least 30 minutes to allow flavors to meld.",
+            "Serve chilled as a dip with fresh vegetables or pita chips.",
+            "Enjoy this refreshing Zucchini and Yogurt Dip as a healthy and flavorful snack!"
+        ],
+        "description": "This Zucchini and Yogurt Dip is a light and refreshing appetizer that's perfect for summer gatherings. Made with grated zucchini, Greek yogurt, and fresh herbs, it's creamy, tangy, and full of flavor. Serve it with crisp vegetables or pita chips for a delicious and healthy snack!",
+        "backdrop": "",
+        "ingredients": [
+            ["Zucchini, grated and squeezed", "2 cups"],
+            ["Greek Yogurt", "1 cup"],
+            ["Garlic, minced", "2 cloves"],
+            ["Lemon Juice", "2 tbsp"],
+            ["Fresh Dill, chopped", "2 tbsp"],
+            ["Salt", "1/2 tsp"],
+            ["Black Pepper", "1/4 tsp"]
+        ]
+    },
+    {
+        "name": "Zucchini and Yogurt Soup",
+        "author": "System",
+        "starRating": 4.4,
+        "difficultyRating": 2.0,
+        "servingSize": 4,
+        "method": [
+            "Heat olive oil in a large pot over medium heat.",
+            "Add chopped onion and minced garlic, sauté until softened.",
+            "Add diced zucchini and cook for 5-7 minutes, until slightly tender.",
+            "Pour in vegetable broth and bring to a simmer.",
+            "Reduce heat and let simmer for 15-20 minutes, until zucchini is fully cooked.",
+            "Remove from heat and let cool slightly.",
+            "Using an immersion blender, blend the soup until smooth.",
+            "Stir in Greek yogurt and season with salt and black pepper to taste.",
+            "Reheat gently if needed, then ladle into bowls and garnish with fresh herbs.",
+            "Enjoy this creamy Zucchini and Yogurt Soup as a comforting and nutritious meal!"
+        ],
+        "description": "This Zucchini and Yogurt Soup is a comforting and creamy dish that's perfect for cooler days. Made with fresh zucchini, onions, garlic, and Greek yogurt, it's hearty, nutritious, and full of flavor. Serve it as a starter or main course for a satisfying meal!",
+        "backdrop": "",
+        "ingredients": [
+            ["Zucchini, diced", "4 cups"],
+            ["Olive Oil", "2 tbsp"],
+            ["Onion, chopped", "1 unit"],
+            ["Garlic, minced", "3 cloves"],
+            ["Vegetable Broth", "4 cups"],
+            ["Greek Yogurt", "1 cup"],
+            ["Salt", "to taste"],
+            ["Black Pepper", "to taste"],
+            ["Fresh Herbs, for garnish", "0 g"]
+        ]
+    },
+    {
+        "name": "Zesty Yogurt-Marinated Salmon",
+        "author": "System",
+        "starRating": 4.7,
+        "difficultyRating": 3.2,
+        "servingSize": 4,
+        "method": [
+            "In a mixing bowl, combine Greek yogurt, lemon zest, lemon juice, minced garlic, chopped fresh dill, salt, and black pepper.",
+            "Add salmon fillets to the marinade, ensuring they are evenly coated.",
+            "Cover and refrigerate for at least 30 minutes, or up to 2 hours.",
+            "Preheat grill to medium-high heat.",
+            "Grill the salmon fillets for 4-5 minutes per side, or until fish flakes easily with a fork.",
+            "Serve hot with a squeeze of lemon juice and additional dill for garnish.",
+            "Enjoy this zesty Yogurt-Marinated Salmon as a delicious and nutritious main course!"
+        ],
+        "description": "This Zesty Yogurt-Marinated Salmon is a flavorful and healthy dish that's perfect for grilling season. Marinated in a tangy mixture of Greek yogurt, lemon, garlic, and dill, the salmon is tender, moist, and bursting with flavor. Serve it with your favorite side dishes for a delicious and satisfying meal!",
+        "backdrop": "",
+        "ingredients": [
+            ["Greek Yogurt", "1/2 cup"],
+            ["Lemon Zest", "1 tsp"],
+            ["Lemon Juice", "2 tbsp"],
+            ["Garlic, minced", "2 cloves"],
+            ["Fresh Dill, chopped", "2 tbsp"],
+            ["Salt", "1/2 tsp"],
+            ["Black Pepper", "1/4 tsp"],
+            ["Salmon Fillets", "4 units"]
+        ]
+    },
+    {
+        "name": "Zesty Yogurt-Marinated Grilled Eggplant",
+        "author": "System",
+        "starRating": 4.5,
+        "difficultyRating": 2.6,
+        "servingSize": 4,
+        "method": [
+            "In a mixing bowl, combine Greek yogurt, lemon zest, lemon juice, minced garlic, chopped fresh parsley, dried oregano, salt, and black pepper.",
+            "Slice eggplant into rounds and place them in a single layer on a baking sheet.",
+            "Brush both sides of the eggplant rounds with the yogurt marinade.",
+            "Cover and refrigerate for at least 30 minutes, or up to 2 hours.",
+            "Preheat grill to medium-high heat.",
+            "Grill the eggplant rounds for 3-4 minutes per side, or until tender and grill marks appear.",
+            "Serve hot with a sprinkle of chopped parsley and a squeeze of lemon juice.",
+            "Enjoy this zesty Yogurt-Marinated Grilled Eggplant as a delicious and nutritious side dish or appetizer!"
+        ],
+        "description": "This Zesty Yogurt-Marinated Grilled Eggplant is a simple yet flavorful dish that's perfect for summer barbecues. Marinated in a tangy mixture of Greek yogurt, lemon, garlic, and herbs, the eggplant is tender, smoky, and bursting with flavor. Serve it as a side dish or appetizer for a delicious and nutritious addition to any meal!",
+        "backdrop": "",
+        "ingredients": [
+            ["Greek Yogurt", "1/2 cup"],
+            ["Lemon Zest", "1 tsp"],
+            ["Lemon Juice", "2 tbsp"],
+            ["Garlic, minced", "2 cloves"],
+            ["Fresh Parsley, chopped", "2 tbsp"],
+            ["Dried Oregano", "1 tsp"],
+            ["Salt", "1/2 tsp"],
+            ["Black Pepper", "1/4 tsp"],
+            ["Eggplant, sliced into rounds", "1 large"],
+            ["Lemon Wedges, for serving", "0 g"]
+        ]
+    },
+    {
+        "name": "Zucchini and Yogurt Muffins",
+        "author": "System",
+        "starRating": 4.6,
+        "difficultyRating": 2.4,
+        "servingSize": 12,
+        "method": [
+            "Preheat oven to 375°F (190°C).",
+            "In a large mixing bowl, whisk together flour, baking powder, baking soda, salt, and cinnamon.",
+            "In another bowl, mix together Greek yogurt, melted butter, brown sugar, eggs, and vanilla extract until well combined.",
+            "Pour the wet ingredients into the dry ingredients and stir until just combined.",
+            "Fold in grated zucchini until evenly distributed.",
+            "Spoon the batter into lined muffin cups, filling each about 2/3 full.",
+            "Bake for 18-20 minutes, or until a toothpick inserted into the center comes out clean.",
+            "Remove from oven and let cool in the pan for 5 minutes before transferring to a wire rack to cool completely.",
+            "Enjoy these moist and flavorful Zucchini and Yogurt Muffins as a delicious breakfast or snack!"
+        ],
+        "description": "These Zucchini and Yogurt Muffins are moist, tender, and bursting with flavor. Made with grated zucchini, Greek yogurt, and warm spices, they're the perfect way to sneak some veggies into your breakfast or snack. Enjoy them fresh out of the oven or freeze for later for a convenient treat!",
+        "backdrop": "",
+        "ingredients": [
+            ["All-Purpose Flour", "2 cups"],
+            ["Baking Powder", "1 tsp"],
+            ["Baking Soda", "1/2 tsp"],
+            ["Salt", "1/2 tsp"],
+            ["Ground Cinnamon", "1 tsp"],
+            ["Greek Yogurt", "1 cup"],
+            ["Butter, melted", "1/2 cup"],
+            ["Brown Sugar", "1/2 cup"],
+            ["Eggs", "2 units"],
+            ["Vanilla Extract", "1 tsp"],
+            ["Zucchini, grated", "1 cup"]
+        ]
     }
 ]
