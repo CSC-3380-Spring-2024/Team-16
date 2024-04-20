@@ -1,14 +1,16 @@
 package com.example.foodApp.Recipe;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.query.Query;
+import org.springframework.data.mongodb.core.query.Update;
+import org.springframework.stereotype.Service;
+
 import java.util.List;
 import java.util.Optional;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.mongodb.core.query.Criteria;
-import org.springframework.data.mongodb.core.query.Update;
-import org.springframework.stereotype.Service;
-import org.springframework.data.mongodb.core.MongoTemplate;
-import org.springframework.data.mongodb.core.query.Query;
+import static org.springframework.data.mongodb.core.query.Criteria.where;
+import static org.springframework.data.mongodb.core.query.Query.query;
 
 @Service
 public class RecipeService {
@@ -26,9 +28,10 @@ public class RecipeService {
 
     public List<Recipe> recipesWithIngredient(String name) {
         Query query = new Query();
-        query.addCriteria(Criteria.where("ingredients").elemMatch(Criteria.where("0").is(name)));
+        query.addCriteria(where("ingredients").elemMatch(where("0").is(name)));
         return mongoTemplate.find(query, Recipe.class);
     }
+
 
     public Recipe addRecipe (Recipe recipe)
     {
@@ -41,11 +44,22 @@ public class RecipeService {
             return mongoTemplate.insert(recipe);
         }
     }
+    public String addImage (byte [] image, String recipeName)
+    {
+
+        Query query = new Query();
+        mongoTemplate.update(Recipe.class)
+                .matching(query(where("name").is(recipeName)))
+                .apply(new Update().set("uploadImage", image))
+                .first();
+
+        return "upload Sucess";
+    }
 
     public String starRating (double star, String name)
     {
         Query query = new Query();
-        query.addCriteria(Criteria.where("name").is(name));
+        query.addCriteria(where("name").is(name));
         Recipe recipe = mongoTemplate.findOne(query, Recipe.class);
         if(recipe == null)
         {
@@ -65,8 +79,6 @@ public class RecipeService {
         
             double averageRating = ((prevRating * prevPeopleReviewed) + (star))/(prevPeopleReviewed +peopleReviewed);
 
-            peopleReviewed += prevPeopleReviewed;
-
             mongoTemplate.updateFirst(query, Update.update("starRating", averageRating), Recipe.class);
             
 
@@ -78,7 +90,7 @@ public class RecipeService {
     public String difficultyRating (double star, String name)
     {
         Query query = new Query();
-        query.addCriteria(Criteria.where("name").is(name));
+        query.addCriteria(where("name").is(name));
         Recipe recipe = mongoTemplate.findOne(query, Recipe.class);
         if(recipe == null)
         {

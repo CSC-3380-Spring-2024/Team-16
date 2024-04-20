@@ -7,45 +7,27 @@ import java.util.Set;
 
 public class LikeNDislikeFilter {
 
-    private List<String> listOffName;
-    private List<String> listOffName1;
-    private String personName;
+   private Set<String> setOfAllName; 
 
-    public LikeNDislikeFilter (List<String> listofNameList,List<String> listofName1, String personName)
+    public LikeNDislikeFilter (List<String> listofNameList,List<String> listofName1)
     {
-        this.listOffName = listofNameList;
-        this.personName = personName;
-        this.listOffName1 = listofName1;
+        setOfAllName = new HashSet<>();
+        if(listofNameList != null)
+        {
+            setOfAllName.addAll(listofNameList);
+        }
+        if(listofName1 != null )
+        {
+            setOfAllName.addAll(listofName1);
+        }
     }
 
-    public int filter()
+    public boolean filter(String personName)
     {
-        ArrayList<String> allNameInBothList = new ArrayList<>();
-        if(listOffName != null)
-        {
-            allNameInBothList.addAll(listOffName);
-        }
-        if(listOffName1 != null)
-        {
-            allNameInBothList.addAll(listOffName1);
-        }
-        if(allNameInBothList == null)
-        {
-            return 0;
-        }
-        Set<String> allName = new HashSet<>(allNameInBothList);
+        return setOfAllName.contains(personName);
 
-        for(String word : allName)
-        {
-            if(personName.contains(word))
-            {
-                return 1;
-            }
-
-        }
-
-      return 0;
     }
+
     
 
     
