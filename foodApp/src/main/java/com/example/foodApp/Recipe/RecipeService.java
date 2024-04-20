@@ -1,7 +1,9 @@
 package com.example.foodApp.Recipe;
 
+import com.example.foodApp.AccountCreaete.Account;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
@@ -33,7 +35,7 @@ public class RecipeService {
     }
 
 
-    public Recipe addRecipe (Recipe recipe)
+    public Recipe addRecipe (Recipe recipe, String username)
     {
         if(recipe.getName() == null || recipe.getIngredients() == null)
         {
@@ -41,7 +43,12 @@ public class RecipeService {
         }
         else
         {
-            return mongoTemplate.insert(recipe);
+            Recipe recipe1 = recipeRepository.insert(recipe);
+            mongoTemplate.update(Account.class)
+                    .matching(Criteria.where("username").is(username))
+                    .apply(new Update().push("postId").value(recipe)).first();
+
+            return recipe1;
         }
     }
     public String addImage (byte [] image, String recipeName)
@@ -68,7 +75,6 @@ public class RecipeService {
         else
         {
             double prevRating = recipe.getStarRating();
-            List<String> reviewId =  recipe.getReviewId();
             int prevPeopleReviewed = recipe.getPeopleReviewed();
             
             int peopleReviewed = 1;

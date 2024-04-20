@@ -69,7 +69,7 @@ public class ReviewController {
             recipeService.difficultyRating(difficultyRating, recipeName);
 
 
-        reviewBody = ProfanityFilter.filterText(reviewBody);
+
 
         Review createdReview = reviewService.createReview(header,reviewBody,author, recipeName);
         return new ResponseEntity<>(createdReview, HttpStatus.OK);

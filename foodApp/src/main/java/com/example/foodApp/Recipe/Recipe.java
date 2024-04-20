@@ -67,7 +67,7 @@ public class Recipe {
         return id;
     }
     // Method to get the star rating of the recipe
-    public float getStarRating() {
+    public double getStarRating() {
         return starRating;
     }
 
