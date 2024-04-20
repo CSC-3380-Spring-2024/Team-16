@@ -1,6 +1,7 @@
 package com.example.foodApp.Backend;
 import com.example.foodApp.Backend.Pantry;
 import com.example.foodApp.Backend.Fuzzy;
+import com.example.foodApp.Backend.Quantity;
 import com.example.foodApp.Recipe.Recipe;
 
 import java.util.*;
@@ -12,8 +13,21 @@ public class Grocery {
 
         for (Map.Entry<String, Ingredient> entry : pantryIngredients.entrySet()) {
             Ingredient ingredient = entry.getValue();
+            Quantity quantity = new Quantity();
             if (ingredient.getQuantity() < ingredient.getIngredientInfo().getAppropriateQuantity()) {
-                grocery.add(ingredient);
+                // Convert the quantity to grams if the ingredient is not liquid
+                if (!ingredient.getIngredientInfo().isLiquid()) {
+                    double quantityInGrams = quantity.dryToGram(ingredient.getQuantity(), ingredient.getUnit(), ingredient);
+                    if (quantityInGrams < ingredient.getIngredientInfo().getAppropriateQuantity()) {
+                        grocery.add(ingredient);
+                    }
+                } else {
+                    // For liquids, change the quantity to ml
+                    double quantityInLiters = quantity.volumeToMilliliter(ingredient.getQuantity(), ingredient.getUnit());
+                    if (quantityInLiters < ingredient.getIngredientInfo().getAppropriateQuantity()) {
+                        grocery.add(ingredient);
+                    }
+                }
             }
         }
         return grocery;
