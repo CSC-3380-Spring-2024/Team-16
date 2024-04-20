@@ -30,7 +30,6 @@ public class Recipe {
     private String description;
     private String backdrop;
     private int peopleReviewed;
-    private List<String> reviewID;
 
     // Serving size that the recipe produces
      // Tells database to store only the Ids of ingredients
@@ -80,9 +79,6 @@ public class Recipe {
     // Method to get the serving size of the recipe
     public int getServingSize() {
         return servingSize;
-    }
-    public List<String> getReviewId() {
-        return reviewID;
     }
 
     public void addAllIngredientsFromArray(String[][] ingredientsArray) {
