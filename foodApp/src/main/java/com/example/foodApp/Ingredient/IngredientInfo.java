@@ -45,4 +45,7 @@ public class IngredientInfo {
     public boolean isLiquid() {
         return isLiquid;
     }
+    public boolean isCountable() {
+        return isCountable;
+    }
 }

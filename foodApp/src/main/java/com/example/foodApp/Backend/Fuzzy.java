@@ -27,12 +27,14 @@ public class Fuzzy {
         // Initialize total missing quantity
         double totalMissingQuantity = 0.0;
 
+        double missing = 1.0;
+
         // Iterate through each ingredient in the recipe
         for (Ingredient ingredient : ingredients.values()) {
             // Check if the ingredient exists in the pantry
             if (!pantry.getAllIngredients().containsKey(ingredient.getName())) {
                 // Ingredient not found in the pantry, calculate missing quantity
-                totalMissingQuantity += 1.0; // add one score
+                totalMissingQuantity += missing++; // add one score
             } else {
                 // Ingredient found in the pantry, check if quantity is sufficient
                 Ingredient pantryIngredient = pantry.getAllIngredients().get(ingredient.getName());

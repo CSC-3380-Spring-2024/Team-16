@@ -49,9 +49,11 @@ public class IngredientInfoController {
             ingredient.setIngredientInfo(ingredientInfoService.ingredientInfoByName(ingredient.getName()));
             pantry.addIngredient(ingredient);
             if (ingredient.getExpiry() < soonestExpiry) {
+                soonestExpiry = ingredient.getExpiry();
                 soonestExpiringIngredientName = ingredient.getName();
             }
         }
+        //TODO: stop at 500
         //Get list of Recipes with soonest expiring ingredient
         List<Recipe> recipeList = recipeService.recipesWithIngredient(soonestExpiringIngredientName);
 
@@ -70,6 +72,8 @@ public class IngredientInfoController {
         int servingSize = 4;
         
         List<Map<Double, Recipe>> topRecipes = Fuzzy.findTopScoringRecipes(recipeManager, pantry, servingSize);
+        System.out.println(topRecipes.get(0));
+        System.out.println(topRecipes.get(9));
         List<Recipe> resultRecipeList = new ArrayList<Recipe>();
 
         for (Map<Double, Recipe> scoreRecipeMap : topRecipes) {

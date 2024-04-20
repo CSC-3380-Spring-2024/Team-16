@@ -39,7 +39,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
           : FocusScope.of(context).unfocus(),
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryText,
+        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
           top: true,
           child: ListView(
@@ -58,7 +58,32 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      ContainerButton(),
+                      FFButtonWidget(
+                        onPressed: () async {
+                          context.pushNamed('Fridge');
+                        },
+                        text: 'Fridge',
+                        options: FFButtonOptions(
+                          width: 100.0,
+                          height: 100.0,
+                          padding: const EdgeInsetsDirectional.fromSTEB(
+                              24.0, 0.0, 24.0, 0.0),
+                          iconPadding: const EdgeInsetsDirectional.fromSTEB(
+                              0.0, 0.0, 0.0, 0.0),
+                          color: FlutterFlowTheme.of(context).primary,
+                          textStyle:
+                              FlutterFlowTheme.of(context).titleSmall.override(
+                                    fontFamily: 'Readex Pro',
+                                    letterSpacing: 0.0,
+                                  ),
+                          elevation: 3.0,
+                          borderSide: const BorderSide(
+                            color: Colors.transparent,
+                            width: 1.0,
+                          ),
+                          borderRadius: BorderRadius.circular(6.0),
+                        ),
+                      ),
                       FFButtonWidget(
                         onPressed: () {
                           print('Freezer pressed ...');
@@ -113,6 +138,33 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           borderRadius: BorderRadius.circular(8.0),
                         ),
                       ),
+                      FFButtonWidget(
+                        onPressed: () {
+                          print('Add pressed ...');
+                        },
+                        text: '+',
+                        options: FFButtonOptions(
+                          width: 100.0,
+                          height: 100.0,
+                          padding: const EdgeInsetsDirectional.fromSTEB(
+                              24.0, 0.0, 24.0, 0.0),
+                          iconPadding: const EdgeInsetsDirectional.fromSTEB(
+                              0.0, 0.0, 0.0, 0.0),
+                          color: FlutterFlowTheme.of(context).primary,
+                          textStyle:
+                              FlutterFlowTheme.of(context).titleSmall.override(
+                                    fontFamily: 'Readex Pro',
+                                    color: Colors.white,
+                                    letterSpacing: 0.0,
+                                  ),
+                          elevation: 3.0,
+                          borderSide: const BorderSide(
+                            color: Colors.transparent,
+                            width: 1.0,
+                          ),
+                          borderRadius: BorderRadius.circular(8.0),
+                        ),
+                      ),
                     ].divide(const SizedBox(width: 20.0)),
                   ),
                 ),
@@ -139,6 +191,15 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                               children: [
                                 Text(
                                   'Posted by yes',
+                                  style: FlutterFlowTheme.of(context)
+                                      .labelSmall
+                                      .override(
+                                        fontFamily: 'Readex Pro',
+                                        letterSpacing: 0.0,
+                                      ),
+                                ),
+                                Text(
+                                  '2h',
                                   style: FlutterFlowTheme.of(context)
                                       .labelSmall
                                       .override(
@@ -266,6 +327,15 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         letterSpacing: 0.0,
                                       ),
                                 ),
+                                Text(
+                                  '5h',
+                                  style: FlutterFlowTheme.of(context)
+                                      .labelSmall
+                                      .override(
+                                        fontFamily: 'Readex Pro',
+                                        letterSpacing: 0.0,
+                                      ),
+                                ),
                               ],
                             ),
                             Padding(
@@ -386,6 +456,15 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         letterSpacing: 0.0,
                                       ),
                                 ),
+                                Text(
+                                  '8h',
+                                  style: FlutterFlowTheme.of(context)
+                                      .labelSmall
+                                      .override(
+                                        fontFamily: 'Readex Pro',
+                                        letterSpacing: 0.0,
+                                      ),
+                                ),
                               ],
                             ),
                             Padding(
@@ -485,43 +564,6 @@ class _HomePageWidgetState extends State<HomePageWidget> {
             ],
           ),
         ),
-      ),
-    );
-  }
-}
-
-class ContainerButton extends StatelessWidget {
-  const ContainerButton({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return FFButtonWidget(
-      onPressed: () async {
-        //TODO: Make method to properly load container menu
-        context.pushNamed('Fridge');
-      },
-      text: 'Fridge',
-      options: FFButtonOptions(
-        width: 100.0,
-        height: 100.0,
-        padding: const EdgeInsetsDirectional.fromSTEB(
-            24.0, 0.0, 24.0, 0.0),
-        iconPadding: const EdgeInsetsDirectional.fromSTEB(
-            0.0, 0.0, 0.0, 0.0),
-        color: FlutterFlowTheme.of(context).primary,
-        textStyle:
-            FlutterFlowTheme.of(context).titleSmall.override(
-                  fontFamily: 'Readex Pro',
-                  letterSpacing: 0.0,
-                ),
-        elevation: 3.0,
-        borderSide: const BorderSide(
-          color: Colors.transparent,
-          width: 1.0,
-        ),
-        borderRadius: BorderRadius.circular(6.0),
       ),
     );
   }
