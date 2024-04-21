@@ -45,32 +45,13 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               : const HomePageWidget(),
         ),
         FFRoute(
-          name: 'Search',
-          path: '/search',
-          builder: (context, params) => params.isEmpty
-              ? const NavBarPage(initialPage: 'Search')
-              : const SearchWidget(),
-        ),
-        FFRoute(
           name: 'Create',
           path: '/create',
-          builder: (context, params) => params.isEmpty
-              ? const NavBarPage(initialPage: 'Create')
-              : const NavBarPage(
-                  initialPage: 'Create',
-                  page: CreateWidget(),
-                ),
+          builder: (context, params) => const NavBarPage(initialPage: '',
+            page: CreateWidget(),
+          ),
         ),
-        FFRoute(
-          name: 'Leaderboard',
-          path: '/leaderboard',
-          builder: (context, params) => params.isEmpty
-              ? const NavBarPage(initialPage: 'Leaderboard')
-              : const NavBarPage(
-                  initialPage: 'Leaderboard',
-                  page: LeaderboardWidget(),
-                ),
-        ),
+        // MARK: FridgeRoute
         FFRoute(
           name: 'Fridge',
           path: '/fridge',
@@ -88,14 +69,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
                   initialPage: 'Account',
                   page: AccountWidget(),
                 ),
-        ),
-        FFRoute(
-          name: 'RecipeSearchPage',
-          path: '/recipeSearchPage',
-          builder: (context, params) => const NavBarPage(
-            initialPage: '',
-            page: RecipeSearchPageWidget(),
-          ),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
