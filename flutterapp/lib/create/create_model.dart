@@ -1,8 +1,7 @@
 import '/flutter_flow/flutter_flow_util.dart';
-import 'create_widget.dart' show CreateWidget;
 import 'package:flutter/material.dart';
 
-class CreateModel extends FlutterFlowModel<CreateWidget> {
+class CreateModel extends FlutterFlowModel {
   ///  Local state fields for this page.
 
   int currentPageIndex = 0;
@@ -17,6 +16,8 @@ class CreateModel extends FlutterFlowModel<CreateWidget> {
   bool isDataUploading = false;
   FFUploadedFile uploadedLocalFile =
       FFUploadedFile(bytes: Uint8List.fromList([]));
+
+  get ingredients => null;
 
   @override
   void initState(BuildContext context) {}
