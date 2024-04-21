@@ -40,6 +40,43 @@ class _FridgeWidgetState extends State<FridgeWidget> {
     super.dispose();
   }
 
+  RecipeData dummyRecipe = RecipeData(
+    name: "Spaghetti Carbonara",
+    starRating: 4.5,
+    difficultyRating: 2.5,
+    servingSize: 4,
+    method: [
+      "Boil water in a large pot.",
+      "Cook spaghetti according to package instructions.",
+      "In a skillet, cook pancetta until crispy.",
+      "Whisk together eggs, cheese, and black pepper.",
+      "Drain spaghetti and toss with egg mixture.",
+      "Add pancetta and mix well. Serve hot."
+    ],
+    uploadImage:
+        "https://example.com/spaghetti_carbonara.jpg",
+    youtubeVid: "https://www.youtube.com/watch?v=MHMQi9jygMA",
+    description:
+        "Classic Italian pasta dish with creamy egg and cheese sauce, topped with crispy pancetta.",
+    backdrop:
+        "https://example.com/spaghetti_carbonara_backdrop.jpg",
+    peopleReviewed: 50,
+    ingredients: [
+      ["Spaghetti", "200g"],
+      ["Eggs", "2"],
+      ["Pancetta", "100g"],
+      ["Grated Parmesan cheese", "50g"],
+      ["Black pepper", "to taste"],
+    ],
+    allIngredients: {
+      "Spaghetti": "200g",
+      "Eggs": "2",
+      "Pancetta": "100g",
+      "Grated Parmesan cheese": "50g",
+      "Black pepper": "0g",
+    },
+  );
+
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
@@ -113,7 +150,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                       ingredient
                       //'https://images.unsplash.com/photo-1600788907416-456578634209?q=80&w=1350&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90oy1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                     ),
-                const RecipeCard(),
+                RecipeCard(recipeData: dummyRecipe),
                 Padding(
                   padding: const EdgeInsetsDirectional.fromSTEB(
                       16.0, 16.0, 16.0, 16.0),
@@ -209,9 +246,9 @@ class _FridgeWidgetState extends State<FridgeWidget> {
         child: Container(
           decoration: BoxDecoration(
             color: isSelected
-                ? FlutterFlowTheme.of(context).tertiary
+                ? FlutterFlowTheme.of(context).primary
                 : FlutterFlowTheme.of(context).secondaryBackground,
-            borderRadius: BorderRadius.circular(8.0),
+            borderRadius: BorderRadius.circular(20.0),
             border: Border.all(
                 color: const Color.fromARGB(255, 204, 199, 216)), // Apply grayish purple border
           ),
@@ -223,7 +260,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                     const EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
                 child: Container(
                   width: 100.0,
-                  height: 100.0,
+                  height: 80.0,
                   decoration: BoxDecoration(
                     color: FlutterFlowTheme.of(context).secondaryBackground,
                     borderRadius: BorderRadius.circular(8.0),
@@ -236,33 +273,29 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                 ),
               ),
               Expanded(
-                child: Padding(
-                  padding:
-                      const EdgeInsetsDirectional.fromSTEB(8.0, 0.0, 0.0, 12.0),
-                  child: Column(
-                    mainAxisSize: MainAxisSize.max,
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        '${ingredientData.name} - ${ingredientData.quantity}',// - ${details?['quantity']} ${details?['unit']}',
-                        style: FlutterFlowTheme.of(context)
-                            .titleMedium
-                            .override(
-                              fontFamily: 'Readex Pro',
-                              color: FlutterFlowTheme.of(context).primaryText,
-                            ),
-                      ),
-                      Text(
-                        'Expires in 7 days',
-                        style: FlutterFlowTheme.of(context)
-                            .labelMedium
-                            .override(
-                              fontFamily: 'Readex Pro',
-                              color: FlutterFlowTheme.of(context).secondaryText,
-                            ),
-                      ),
-                    ],
-                  ),
+                child: Column(
+                  mainAxisSize: MainAxisSize.max,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      '${ingredientData.name} - ${ingredientData.quantity}',// - ${details?['quantity']} ${details?['unit']}',
+                      style: FlutterFlowTheme.of(context)
+                          .titleMedium
+                          .override(
+                            fontFamily: 'Readex Pro',
+                            color: FlutterFlowTheme.of(context).primaryText,
+                          ),
+                    ),
+                    Text(
+                      'Expires in 7 days',
+                      style: FlutterFlowTheme.of(context)
+                          .labelMedium
+                          .override(
+                            fontFamily: 'Readex Pro',
+                            color: FlutterFlowTheme.of(context).secondaryText,
+                          ),
+                    ),
+                  ],
                 ),
               ),
               IconButton(
@@ -467,11 +500,12 @@ void _showRecipeDialog(BuildContext context) {
       context: context,
       builder: (BuildContext context) {
         return Dialog(
+          backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
           shape:
-              RoundedRectangleBorder(borderRadius: BorderRadius.circular(12.0)),
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
           child: Container(
-            width: MediaQuery.of(context).size.width * 0.8,
-            height: MediaQuery.of(context).size.height * 0.8,
+            width: MediaQuery.of(context).size.width * 0.9,
+            height: MediaQuery.of(context).size.height * 0.9,
             padding: EdgeInsets.all(16.0),
             child: Column(
               children: [
@@ -479,9 +513,11 @@ void _showRecipeDialog(BuildContext context) {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      'Suggested Recipes',
-                      style: TextStyle(
-                          fontSize: 20.0, fontWeight: FontWeight.bold),
+                      "Suggested Recipes",
+                      style: FlutterFlowTheme.of(context).headlineMedium.override(
+                        fontFamily: 'Outfit',
+                        letterSpacing: 0.0,
+                      ),
                     ),
                     IconButton(
                       icon: Icon(Icons.close),
@@ -585,20 +621,188 @@ void _showRecipeDialog(BuildContext context) {
 }
 
 class RecipeCard extends StatelessWidget {
-  final RecipeData? recipeData;
+  final RecipeData recipeData;
 
   const RecipeCard({
     super.key,
-    this.recipeData
+    required this.recipeData
   });
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      
-      child: Text(
-        "1.4 stars"
+    FlutterFlowTheme ffTheme = FlutterFlowTheme.of(context);
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Container(
+        padding: const EdgeInsets.all(30.0),
+        decoration: BoxDecoration(
+          color: Color.fromARGB(255,255,255,255),
+          borderRadius: BorderRadius.circular(40),
+        ),
+        
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Column(
+              children: [
+                SizedBox(
+                  width:90,
+                  height:90,
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(10), // Adjust the radius as needed
+                    child: Image.network(
+                      'https://th.bing.com/th/id/R.99a429149891b8331ab9a4d9dcdeca89?rik=ZFGjK2aI0XNcog&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fFresh-hot-delicious-food-wallpaper.jpg&ehk=YcpVrjnOnSm%2fhnTl3VFd3ve98wBRCKiyDEZj%2fJ43ix8%3d&risl=&pid=ImgRaw&r=0', // Replace with your image URL
+                      fit: BoxFit.cover, // Adjust the fit mode (cover, contain, etc.)
+                    ),
+                  ),
+                ),
+                const Padding(padding: EdgeInsets.all(8)),
+                buildRecipeTidbit("${recipeData.ingredients.length} Ingredients", 0, FlutterFlowTheme.of(context)),
+                buildRecipeTidbit("${recipeData.servingSize} Servings", 0, FlutterFlowTheme.of(context)),
+                buildRecipeTidbit("1 Substitution", 1, FlutterFlowTheme.of(context)),
+              ],
+            ),
+            const Padding(padding: EdgeInsets.all(10)),
+            Expanded(
+              flex: 2, // Takes two-thirds of the remaining space
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text( recipeData.name,
+                    style: ffTheme.bodyLarge
+                  ),
+                  const Padding(padding: EdgeInsets.all(1)),
+                  Text( "",
+                    style: ffTheme.bodySmall
+                  ),
+                  const Padding(padding: EdgeInsets.all(2)),
+                  Text( //TO MODIFY
+                    recipeData.description,
+                    style: ffTheme.labelSmall,
+                    maxLines:8,
+                    overflow: TextOverflow.ellipsis, // Truncate with ellipsis
+                  ),
+                ],
+              ),
+            ),
+            const Padding(padding: EdgeInsets.all(10)),
+            Expanded(
+              flex: 1, // Takes one-third of the remaining space
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text( "Rating:",
+                    style: ffTheme.bodySmall
+                  ),
+                  Row(
+                    children: [
+                      SizedBox(
+                        width: 24.0,
+                        child: Text(
+                          recipeData.starRating.toString(),
+                          style: ffTheme.bodySmall,
+                      ),
+                      ),
+                      Expanded(
+                        child: Container(
+                          height: 5.0,
+                          decoration: BoxDecoration(
+                            color: Colors.grey, // Background fill color
+                            borderRadius: BorderRadius.circular(5.0),
+                          ),
+                          child: FractionallySizedBox(
+                            alignment: Alignment.centerLeft,
+                            widthFactor: recipeData.starRating/5,
+                            child: Container(
+                              decoration: BoxDecoration(
+                                color: _calculateBarColor((recipeData.starRating-1)/4), // Foreground fill color
+                                borderRadius: BorderRadius.circular(5.0),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                  Text( "Difficulty:",
+                    style: ffTheme.bodySmall
+                  ),
+                  Row(
+                    
+                    children: [
+                      SizedBox(
+                        width: 24.0,
+                        child: Text(
+                          recipeData.difficultyRating.toString(),
+                          style: ffTheme.bodySmall,
+                      ),
+                      ),
+                      Expanded(
+                        child: Container(
+                          height: 5.0,
+                          decoration: BoxDecoration(
+                            color: Colors.grey, // Background fill color
+                            borderRadius: BorderRadius.circular(5.0),
+                          ),
+                          child: FractionallySizedBox(
+                            alignment: Alignment.centerLeft,
+                            widthFactor:  recipeData.difficultyRating/5,
+                            child: Container(
+                              decoration: BoxDecoration(
+                                color: _calculateBarColor(1-((recipeData.difficultyRating-1)/4)), // Foreground fill color
+                                borderRadius: BorderRadius.circular(5.0),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                  buildRecipeTidbit("4,324 Reviews", 2, ffTheme)
+                ],
+              ),
+            ),
+          ],
+        ),
       ),
     );
+  }
+
+  RichText buildRecipeTidbit(String text, int iconEnum, FlutterFlowTheme ffTheme) {
+    Icon icon = Icon(Icons.info, size: 12, color: ffTheme.secondaryText);
+    if (iconEnum == 1) {
+      icon = Icon(Icons.info, size: 12, color: ffTheme.warning);
+    } else if (iconEnum == 2) {
+      icon = Icon(Icons.people, size:12, color: ffTheme.secondaryText);
+    }
+    return RichText(
+      text: TextSpan(
+        children: [
+          WidgetSpan(
+            child: icon,
+          ),
+          const TextSpan(text:" "),
+          TextSpan(
+            text: text,
+            style: ffTheme.labelSmall,
+          ),
+        ],
+      ),
+      
+    );
+  }
+}
+
+Color _calculateBarColor(double percentage) {
+  if (percentage < 0.5) {
+    final hsvColor1 = HSVColor.fromColor(Colors.red);
+    final hsvColor2 = HSVColor.fromColor(Colors.amber);
+    final interpolatedColor = HSVColor.lerp(hsvColor1, hsvColor2, percentage * 2)!;
+    return interpolatedColor.toColor();
+  } else {
+    final hsvColor1 = HSVColor.fromColor(Colors.amber);
+    final hsvColor2 = HSVColor.fromColor(Colors.green);
+    final interpolatedColor = HSVColor.lerp(hsvColor1, hsvColor2, (percentage - 0.5) * 2)!;
+    return interpolatedColor.toColor();
   }
 }
