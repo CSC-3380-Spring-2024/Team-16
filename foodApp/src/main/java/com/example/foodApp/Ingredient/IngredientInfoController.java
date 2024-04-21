@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -20,6 +21,7 @@ import com.example.foodApp.Recipe.Recipe;
 import com.example.foodApp.Recipe.RecipeService;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("ingredient")
 public class IngredientInfoController {
     @Autowired

@@ -68,7 +68,7 @@ public class RecipeService {
         else
         {
             double prevRating = recipe.getStarRating();
-            List<String> reviewId =  recipe.getReviewId();
+            //List<String> reviewId =  recipe.getReviewId();
             int prevPeopleReviewed = recipe.getPeopleReviewed();
             
             int peopleReviewed = 1;

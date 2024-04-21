@@ -1,10 +1,12 @@
-import '/flutter_flow/flutter_flow_icon_button.dart';
+import 'package:flutter/material.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
-import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'fridge_model.dart';
+import 'package:foodappproject/app_data.dart';
+import 'package:json_annotation/json_annotation.dart';
+import 'package:http/http.dart' as http;
+import 'dart:convert';
 export 'fridge_model.dart';
 
 class FridgeWidget extends StatefulWidget {
@@ -16,9 +18,16 @@ class FridgeWidget extends StatefulWidget {
 
 class _FridgeWidgetState extends State<FridgeWidget> {
   late FridgeModel _model;
-
   final scaffoldKey = GlobalKey<ScaffoldState>();
+  FridgeData openedFridge = FFAppState().containers[0];
 
+  Map<String, Map<String, dynamic>> ingredients = { 
+    'Milk': {'quantity': 1, 'unit': 'liter'}
+  };
+  List<IngredientData> selectedIngredients = [];
+  String _searchQuery = '';
+  final TextEditingController _typeAheadController = TextEditingController();
+  
   @override
   void initState() {
     super.initState();
@@ -28,7 +37,6 @@ class _FridgeWidgetState extends State<FridgeWidget> {
   @override
   void dispose() {
     _model.dispose();
-
     super.dispose();
   }
 
@@ -46,7 +54,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
           automaticallyImplyLeading: false,
           leading: FFButtonWidget(
             onPressed: () async {
-              context.pushNamed('HomePage');
+              Navigator.pop(context);
             },
             text: '',
             icon: Icon(
@@ -56,44 +64,29 @@ class _FridgeWidgetState extends State<FridgeWidget> {
             ),
             options: FFButtonOptions(
               height: 40.0,
-              padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-              iconPadding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
               color: FlutterFlowTheme.of(context).primaryBackground,
-              textStyle: FlutterFlowTheme.of(context).titleLarge.override(
-                    fontFamily: 'Outfit',
-                    fontSize: 50.0,
-                    letterSpacing: 0.0,
-                    fontWeight: FontWeight.w600,
-                  ),
-              elevation: 3.0,
               borderSide: const BorderSide(
                 color: Colors.transparent,
-                width: 1.0,
               ),
               borderRadius: BorderRadius.circular(8.0),
             ),
           ),
-          title: Text(
-            'My Fridge',
-            style: FlutterFlowTheme.of(context).headlineLarge.override(
-                  fontFamily: 'Outfit',
-                  letterSpacing: 0.0,
-                ),
-          ),
-          actions: [
-            FlutterFlowIconButton(
-              buttonSize: 60.0,
-              icon: FaIcon(
-                FontAwesomeIcons.search,
-                color: FlutterFlowTheme.of(context).primaryText,
-                size: 24.0,
-              ),
-              onPressed: () {
-                print('IconButton pressed ...');
-              },
+          title: TextField(
+            controller: _typeAheadController,
+            onChanged: (value) {
+              setState(() {
+                _searchQuery = value.toLowerCase();
+              });
+            },
+            decoration: const InputDecoration(
+              hintText: 'Search ingredients...',
+              suffixIcon: Icon(Icons.search),
+              border: InputBorder.none,
             ),
-          ],
-          centerTitle: false,
+            style: TextStyle(
+                fontSize: 18, color: FlutterFlowTheme.of(context).primaryText),
+          ),
+          centerTitle: true,
           elevation: 0.0,
         ),
         body: SafeArea(
@@ -104,397 +97,507 @@ class _FridgeWidgetState extends State<FridgeWidget> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Padding(
-                  padding:
-                      const EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 0.0, 16.0),
+                  padding: const EdgeInsetsDirectional.fromSTEB(
+                      16.0, 16.0, 0.0, 16.0),
                   child: Text(
-                    'Ingredients in Your Fridge',
+                    openedFridge.name,
                     style: FlutterFlowTheme.of(context).headlineMedium.override(
                           fontFamily: 'Outfit',
                           letterSpacing: 0.0,
                         ),
                   ),
                 ),
-                Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(16.0, 8.0, 16.0, 8.0),
-                  child: SingleChildScrollView(
-                    child: Column(
-                      mainAxisSize: MainAxisSize.max,
-                      children: [
-                        Padding(
-                          padding: const EdgeInsetsDirectional.fromSTEB(
-                              0.0, 0.0, 8.0, 0.0),
-                          child: Row(
-                            mainAxisSize: MainAxisSize.max,
-                            children: [
-                              Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
-                                    8.0, 8.0, 8.0, 8.0),
-                                child: Container(
-                                  width: 100.0,
-                                  height: 100.0,
-                                  decoration: BoxDecoration(
-                                    color: FlutterFlowTheme.of(context)
-                                        .secondaryBackground,
-                                    borderRadius: const BorderRadius.only(
-                                      bottomLeft: Radius.circular(2.0),
-                                      bottomRight: Radius.circular(2.0),
-                                      topLeft: Radius.circular(2.0),
-                                      topRight: Radius.circular(2.0),
-                                    ),
-                                  ),
-                                  child: Padding(
-                                    padding: const EdgeInsetsDirectional.fromSTEB(
-                                        2.0, 2.0, 2.0, 2.0),
-                                    child: ClipRRect(
-                                      borderRadius: BorderRadius.circular(8.0),
-                                      child: Image.network(
-                                        'https://images.unsplash.com/photo-1589205001520-c100f5b294b8?w=1280&h=720',
-                                        width: 100.0,
-                                        height: 100.0,
-                                        fit: BoxFit.cover,
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                              Expanded(
-                                child: Padding(
-                                  padding: const EdgeInsetsDirectional.fromSTEB(
-                                      8.0, 0.0, 0.0, 12.0),
-                                  child: Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
-                                    children: [
-                                      Text(
-                                        'Milk',
-                                        style: FlutterFlowTheme.of(context)
-                                            .titleMedium
-                                            .override(
-                                              fontFamily: 'Readex Pro',
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .primaryText,
-                                              letterSpacing: 0.0,
-                                            ),
-                                      ),
-                                      Text(
-                                        'Expires in 5 days',
-                                        style: FlutterFlowTheme.of(context)
-                                            .labelMedium
-                                            .override(
-                                              fontFamily: 'Readex Pro',
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .secondaryText,
-                                              letterSpacing: 0.0,
-                                            ),
-                                      ),
-                                      FFButtonWidget(
-                                        onPressed: () async {
-                                          context.pushNamed('RecipeSearchPage');
-                                        },
-                                        text: 'Select Ingredient',
-                                        options: FFButtonOptions(
-                                          height: 40.0,
-                                          padding:
-                                              const EdgeInsetsDirectional.fromSTEB(
-                                                  24.0, 0.0, 24.0, 0.0),
-                                          iconPadding:
-                                              const EdgeInsetsDirectional.fromSTEB(
-                                                  0.0, 0.0, 0.0, 0.0),
-                                          color: FlutterFlowTheme.of(context)
-                                              .primary,
-                                          textStyle:
-                                              FlutterFlowTheme.of(context)
-                                                  .titleSmall
-                                                  .override(
-                                                    fontFamily: 'Readex Pro',
-                                                    color: Colors.white,
-                                                    letterSpacing: 0.0,
-                                                  ),
-                                          elevation: 3.0,
-                                          borderSide: const BorderSide(
-                                            color: Colors.transparent,
-                                            width: 1.0,
-                                          ),
-                                          borderRadius:
-                                              BorderRadius.circular(8.0),
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsetsDirectional.fromSTEB(
-                              0.0, 0.0, 8.0, 0.0),
-                          child: Row(
-                            mainAxisSize: MainAxisSize.max,
-                            children: [
-                              Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
-                                    8.0, 8.0, 8.0, 8.0),
-                                child: Container(
-                                  width: 100.0,
-                                  height: 100.0,
-                                  decoration: BoxDecoration(
-                                    color: FlutterFlowTheme.of(context)
-                                        .secondaryBackground,
-                                    borderRadius: const BorderRadius.only(
-                                      bottomLeft: Radius.circular(2.0),
-                                      bottomRight: Radius.circular(2.0),
-                                      topLeft: Radius.circular(2.0),
-                                      topRight: Radius.circular(2.0),
-                                    ),
-                                  ),
-                                  child: Padding(
-                                    padding: const EdgeInsetsDirectional.fromSTEB(
-                                        2.0, 2.0, 2.0, 2.0),
-                                    child: ClipRRect(
-                                      borderRadius: BorderRadius.circular(8.0),
-                                      child: Image.network(
-                                        'https://images.unsplash.com/photo-1508681709134-5c29540d9964?w=1280&h=720',
-                                        width: 100.0,
-                                        height: 100.0,
-                                        fit: BoxFit.cover,
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                              Expanded(
-                                child: Padding(
-                                  padding: const EdgeInsetsDirectional.fromSTEB(
-                                      8.0, 0.0, 0.0, 12.0),
-                                  child: Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
-                                    children: [
-                                      Text(
-                                        'Eggs',
-                                        style: FlutterFlowTheme.of(context)
-                                            .titleMedium
-                                            .override(
-                                              fontFamily: 'Readex Pro',
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .primaryText,
-                                              letterSpacing: 0.0,
-                                            ),
-                                      ),
-                                      Text(
-                                        'Expires in 10 days',
-                                        style: FlutterFlowTheme.of(context)
-                                            .labelMedium
-                                            .override(
-                                              fontFamily: 'Readex Pro',
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .secondaryText,
-                                              letterSpacing: 0.0,
-                                            ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsetsDirectional.fromSTEB(
-                              0.0, 0.0, 8.0, 0.0),
-                          child: Row(
-                            mainAxisSize: MainAxisSize.max,
-                            children: [
-                              Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
-                                    8.0, 8.0, 8.0, 8.0),
-                                child: Container(
-                                  width: 100.0,
-                                  height: 100.0,
-                                  decoration: BoxDecoration(
-                                    color: FlutterFlowTheme.of(context)
-                                        .secondaryBackground,
-                                    borderRadius: const BorderRadius.only(
-                                      bottomLeft: Radius.circular(2.0),
-                                      bottomRight: Radius.circular(2.0),
-                                      topLeft: Radius.circular(2.0),
-                                      topRight: Radius.circular(2.0),
-                                    ),
-                                  ),
-                                  child: Padding(
-                                    padding: const EdgeInsetsDirectional.fromSTEB(
-                                        2.0, 2.0, 2.0, 2.0),
-                                    child: ClipRRect(
-                                      borderRadius: BorderRadius.circular(8.0),
-                                      child: Image.network(
-                                        'https://images.unsplash.com/photo-1701743807800-b406b9bd2423?w=1280&h=720',
-                                        width: 100.0,
-                                        height: 100.0,
-                                        fit: BoxFit.cover,
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                              Expanded(
-                                child: Padding(
-                                  padding: const EdgeInsetsDirectional.fromSTEB(
-                                      8.0, 0.0, 0.0, 12.0),
-                                  child: Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
-                                    children: [
-                                      Text(
-                                        'Cheese',
-                                        style: FlutterFlowTheme.of(context)
-                                            .titleMedium
-                                            .override(
-                                              fontFamily: 'Readex Pro',
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .primaryText,
-                                              letterSpacing: 0.0,
-                                            ),
-                                      ),
-                                      Text(
-                                        'Expires in 7 days',
-                                        style: FlutterFlowTheme.of(context)
-                                            .labelMedium
-                                            .override(
-                                              fontFamily: 'Readex Pro',
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .secondaryText,
-                                              letterSpacing: 0.0,
-                                            ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsetsDirectional.fromSTEB(
-                              0.0, 0.0, 8.0, 0.0),
-                          child: Row(
-                            mainAxisSize: MainAxisSize.max,
-                            children: [
-                              Padding(
-                                padding: const EdgeInsetsDirectional.fromSTEB(
-                                    8.0, 8.0, 8.0, 8.0),
-                                child: Container(
-                                  width: 100.0,
-                                  height: 100.0,
-                                  decoration: BoxDecoration(
-                                    color: FlutterFlowTheme.of(context)
-                                        .secondaryBackground,
-                                    borderRadius: const BorderRadius.only(
-                                      bottomLeft: Radius.circular(2.0),
-                                      bottomRight: Radius.circular(2.0),
-                                      topLeft: Radius.circular(2.0),
-                                      topRight: Radius.circular(2.0),
-                                    ),
-                                  ),
-                                  child: Padding(
-                                    padding: const EdgeInsetsDirectional.fromSTEB(
-                                        2.0, 2.0, 2.0, 2.0),
-                                    child: ClipRRect(
-                                      borderRadius: BorderRadius.circular(8.0),
-                                      child: Image.network(
-                                        'https://images.unsplash.com/photo-1644375386140-f22123ceeec4?w=1280&h=720',
-                                        width: 100.0,
-                                        height: 100.0,
-                                        fit: BoxFit.cover,
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                              ),
-                              Expanded(
-                                child: Padding(
-                                  padding: const EdgeInsetsDirectional.fromSTEB(
-                                      8.0, 0.0, 0.0, 12.0),
-                                  child: Column(
-                                    mainAxisSize: MainAxisSize.max,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
-                                    children: [
-                                      Text(
-                                        'Carrots',
-                                        style: FlutterFlowTheme.of(context)
-                                            .titleMedium
-                                            .override(
-                                              fontFamily: 'Readex Pro',
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .primaryText,
-                                              letterSpacing: 0.0,
-                                            ),
-                                      ),
-                                      Text(
-                                        'Expires in 3 days',
-                                        style: FlutterFlowTheme.of(context)
-                                            .labelMedium
-                                            .override(
-                                              fontFamily: 'Readex Pro',
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .secondaryText,
-                                              letterSpacing: 0.0,
-                                            ),
-                                      ),
-                                    ],
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                      ],
+                for (var ingredient in openedFridge.contents)//ingredients.keys)//TODO: Remove ingredients.keys (wherever that is)
+                  if (ingredient.name.toLowerCase().contains(_searchQuery))
+                    buildIngredient(
+                      ingredient
+                      //'https://images.unsplash.com/photo-1600788907416-456578634209?q=80&w=1350&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90oy1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                     ),
-                  ),
-                ),
+                const RecipeCard(),
                 Padding(
-                  padding:
-                      const EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 16.0),
+                  padding: const EdgeInsetsDirectional.fromSTEB(
+                      16.0, 16.0, 16.0, 16.0),
                   child: FFButtonWidget(
                     onPressed: () {
-                      print('Button pressed ...');
+                      _showAddIngredientDialog();
                     },
                     text: 'Add Ingredient',
                     options: FFButtonOptions(
                       width: double.infinity,
                       height: 50.0,
-                      padding:
-                          const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                      iconPadding:
-                          const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                       color: FlutterFlowTheme.of(context).primary,
                       textStyle:
                           FlutterFlowTheme.of(context).titleSmall.override(
                                 fontFamily: 'Readex Pro',
                                 color: Colors.white,
-                                letterSpacing: 0.0,
                               ),
                       elevation: 2.0,
                       borderRadius: BorderRadius.circular(12.0),
                     ),
                   ),
                 ),
+                if (selectedIngredients.isNotEmpty)
+                  Padding(
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 16.0, vertical: 8.0),
+                    child: FFButtonWidget(
+                      onPressed: () {
+                        print(
+                            'Find Recipe Button pressed for $selectedIngredients');
+                        _showRecipeDialog(context);
+                      },
+                      text: 'Find Recipe',
+                      options: FFButtonOptions(
+                        width: double.infinity,
+                        height: 50.0,
+                        color: FlutterFlowTheme.of(context).tertiary,
+                        textStyle:
+                            FlutterFlowTheme.of(context).titleSmall.override(
+                                  fontFamily: 'Readex Pro',
+                                  color: Colors.white,
+                                ),
+                        elevation: 2.0,
+                        borderRadius: BorderRadius.circular(12.0),
+                      ),
+                    ),
+                  ),
               ],
             ),
           ),
         ),
+      ),
+    );
+  }
+
+  Widget buildIngredient(IngredientData ingredientData) {
+    //Map<String, dynamic>? details = ingredients[name];
+    String hashCode = ingredientData.hashCode.toString();
+    bool isSelected = selectedIngredients.contains(ingredientData);
+    return Dismissible(
+      key: Key(hashCode),
+      background: Container(
+        color: Colors.red,
+        padding: const EdgeInsets.symmetric(horizontal: 20),
+        alignment: Alignment.centerRight,
+        child: const Icon(Icons.delete, color: Colors.white),
+      ),
+      direction: DismissDirection.endToStart,
+      onDismissed: (direction) {
+        setState(() {
+          //TODO: Fix dismissable
+          openedFridge.contents.remove(ingredientData);
+          selectedIngredients.remove(ingredientData);
+        });
+
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text("${ingredientData.name} removed from your fridge"),
+            duration: const Duration(seconds: 2),
+          ),
+        );
+      },
+      child: InkWell(
+        onTap: () {
+          setState(() {
+            if (isSelected) {
+              selectedIngredients.remove(ingredientData);
+            } else {
+              selectedIngredients.add(ingredientData);
+            }
+          });
+        },
+        child: Container(
+          decoration: BoxDecoration(
+            color: isSelected
+                ? FlutterFlowTheme.of(context).tertiary
+                : FlutterFlowTheme.of(context).secondaryBackground,
+            borderRadius: BorderRadius.circular(8.0),
+            border: Border.all(
+                color: const Color.fromARGB(255, 204, 199, 216)), // Apply grayish purple border
+          ),
+          child: Row(
+            mainAxisSize: MainAxisSize.max,
+            children: [
+              Padding(
+                padding:
+                    const EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
+                child: Container(
+                  width: 100.0,
+                  height: 100.0,
+                  decoration: BoxDecoration(
+                    color: FlutterFlowTheme.of(context).secondaryBackground,
+                    borderRadius: BorderRadius.circular(8.0),
+                  ),
+                  child: Icon(
+                    Icons.access_alarm_outlined, // Replace with your desired icon
+                    color: FlutterFlowTheme.of(context).primaryBackground, // Customize the icon color
+                    size: 48, // Set the icon size
+                  ),
+                ),
+              ),
+              Expanded(
+                child: Padding(
+                  padding:
+                      const EdgeInsetsDirectional.fromSTEB(8.0, 0.0, 0.0, 12.0),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.max,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        '${ingredientData.name} - ${ingredientData.quantity}',// - ${details?['quantity']} ${details?['unit']}',
+                        style: FlutterFlowTheme.of(context)
+                            .titleMedium
+                            .override(
+                              fontFamily: 'Readex Pro',
+                              color: FlutterFlowTheme.of(context).primaryText,
+                            ),
+                      ),
+                      Text(
+                        'Expires in 7 days',
+                        style: FlutterFlowTheme.of(context)
+                            .labelMedium
+                            .override(
+                              fontFamily: 'Readex Pro',
+                              color: FlutterFlowTheme.of(context).secondaryText,
+                            ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              IconButton(
+                icon: Icon(Icons.edit),
+                onPressed: () => _showEditIngredientDialog(ingredientData.name),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  void _showAddIngredientDialog() {
+    TextEditingController ingredientController = TextEditingController();
+    TextEditingController quantityController = TextEditingController();
+    String unit = 'liter'; // Default unit
+
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: const Text('Add Ingredient'),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              TextField(
+                controller: ingredientController,
+                decoration: const InputDecoration(
+                  labelText: "Ingredient Name",
+                ),
+              ),
+              TextField(
+                controller: quantityController,
+                decoration: const InputDecoration(
+                  labelText: "Quantity",
+                ),
+                keyboardType: const TextInputType.numberWithOptions(decimal: true),
+              ),
+              DropdownButton<String>(
+                value: unit,
+                icon: const Icon(Icons.arrow_downward),
+                elevation: 16,
+                style: const TextStyle(color: Colors.deepPurple),
+                underline: Container(
+                  height: 2,
+                  color: Colors.deepPurpleAccent,
+                ),
+                onChanged: (String? newValue) {
+                  setState(() {
+                    unit = newValue!;
+                  });
+                },
+                items: <String>['liter', 'gram', 'piece']
+                    .map<DropdownMenuItem<String>>((String value) {
+                  return DropdownMenuItem<String>(
+                    value: value,
+                    child: Text(value),
+                  );
+                }).toList(),
+              ),
+            ],
+          ),
+          actions: <Widget>[
+            TextButton(
+              child: const Text('Add'),
+              onPressed: () {
+                String ingredientName = ingredientController.text;
+                if (ingredientName.isNotEmpty && quantityController.text.isNotEmpty) {
+                  setState(() {
+                    double quantity = double.tryParse(quantityController.text) ?? 0;
+                    if (quantity > 0) {
+                      IngredientData newIngredient = IngredientData(
+                        name: ingredientName, 
+                        quantity: "$quantity $unit", 
+                        expiry: 69 //TODO: Get days until expiry from server!!!!
+                      );
+                      openedFridge.contents.add(newIngredient);
+                    }
+                  });
+                  Navigator.of(context).pop();
+                }
+              },
+            ),
+            TextButton(
+              child: const Text('Cancel'),
+              onPressed: () => Navigator.of(context).pop(),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  void _showEditIngredientDialog(String name) {
+    TextEditingController quantityController = TextEditingController(text: ingredients[name]?['quantity'].toString());
+    String unit = ingredients[name]?['unit']; // Get current unit
+
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text('Edit Quantity'),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              TextField(
+                controller: quantityController,
+                decoration: InputDecoration(
+                  labelText: "Quantity",
+                ),
+                keyboardType: TextInputType.numberWithOptions(decimal: true),
+              ),
+              DropdownButton<String>(
+                value: unit,
+                icon: const Icon(Icons.arrow_downward),
+                elevation: 16,
+                style: const TextStyle(color: Colors.deepPurple),
+                underline: Container(
+                  height: 2,
+                  color: Colors.deepPurpleAccent,
+                ),
+                onChanged: (String? newValue) {
+                  setState(() {
+                    unit = newValue!;
+                  });
+                },
+                items: <String>['liter', 'gram', 'piece']
+                    .map<DropdownMenuItem<String>>((String value) {
+                  return DropdownMenuItem<String>(
+                    value: value,
+                    child: Text(value),
+                  );
+                }).toList(),
+              ),
+            ],
+          ),
+          actions: <Widget>[
+            TextButton(
+              child: Text('Update'),
+              onPressed: () {
+                if (quantityController.text.isNotEmpty) {
+                  setState(() {
+                    double quantity = double.tryParse(quantityController.text) ?? 0;
+                    if (quantity > 0) {
+                      ingredients[name] = {'quantity': quantity, 'unit': unit};
+                    }
+                  });
+                  Navigator.of(context).pop();
+                }
+              },
+            ),
+            TextButton(
+              child: const Text('Cancel'),
+              onPressed: () => Navigator.of(context).pop(),
+            ),
+          ],
+        );
+      },
+    );
+  }
+    //MARK: fetchSuggstedRecipes
+  Future<List<RecipeData>> fetchSuggestedRecipes() async {
+    String sendingBody = '{"listOfIngredients":[';
+    print(sendingBody);
+    for (var ingredient in selectedIngredients) {
+      sendingBody += '{"name":"${ingredient.name}","quantity":"${ingredient.quantity}","expiry":"${ingredient.expiry}"}';
+    }
+    //sendingBody += jsonEncode(_FridgeWidgetState().selectedIngredients);
+    sendingBody += ']}';
+    print(sendingBody);
+
+    const String apiUrl = 'http://localhost:8080/ingredient';
+    print("ambatatry");
+    try {
+
+      final response = await http.post(
+        Uri.parse(apiUrl),
+        body: sendingBody,
+        headers: {'Content-Type': 'application/json'},
+      );
+
+      print("I tried");
+
+      if (response.statusCode == 200) {
+        List<RecipeData> recipes = (jsonDecode(response.body) as List<dynamic>)
+          .map((json) => RecipeData.fromJson(json))
+          .toList();
+        return recipes;
+      } else {
+        throw Exception('Failed to fetch recipes');
+      }
+
+    } catch (e) {
+      print("FATAL ERROR INSIDE fetchSuggestedRecipes!");
+      print(e);
+      throw Exception('Error: $e');
+    }
+  }
+void _showRecipeDialog(BuildContext context) {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return Dialog(
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(12.0)),
+          child: Container(
+            width: MediaQuery.of(context).size.width * 0.8,
+            height: MediaQuery.of(context).size.height * 0.8,
+            padding: EdgeInsets.all(16.0),
+            child: Column(
+              children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      'Suggested Recipes',
+                      style: TextStyle(
+                          fontSize: 20.0, fontWeight: FontWeight.bold),
+                    ),
+                    IconButton(
+                      icon: Icon(Icons.close),
+                      onPressed: () => Navigator.of(context).pop(),
+                    ),
+                  ],
+                ),
+                Divider(),
+                Expanded(
+                  child: FutureBuilder(
+                    future: fetchSuggestedRecipes(),
+                    builder: (context, snapshot) {
+                      // error handling //
+                      if (snapshot.connectionState == ConnectionState.waiting) {
+                        return const CircularProgressIndicator();//TODO: fix ugly ass
+                      } else if (snapshot.hasError) {
+                        return const Text('Error loading recipes');
+                      ///////////////////
+                      } else if (snapshot.hasData) {
+                        final recipes = snapshot.data;
+                        return ListView.builder(
+                          itemCount: snapshot.data?.length,
+                          itemBuilder: (context, index) {
+                            return RecipeCard(recipeData: snapshot.data![index],);
+                          },
+                        );
+                      } else {
+                        return const Text('No recipes found');
+                      }
+                    },
+                  ),
+                ),
+              ],
+            ),
+          ),
+        );
+      },
+    );
+  }
+
+  Widget _buildRecipeCard() {
+    String recipeTitle = "Delicious Iced Coffee";
+    String authorName = "John Doe";
+    String description =
+        "A simple and delightful iced coffee with whipping cream, perfect for summer.";
+    double rating = 4.5;
+    String difficulty = "Easy";
+
+    return Container(
+      margin: EdgeInsets.only(bottom: 16.0),
+      padding: EdgeInsets.all(16.0),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(8.0),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.grey.withOpacity(0.2),
+            spreadRadius: 1,
+            blurRadius: 1,
+            offset: Offset(0, 2), // Changes position of shadow
+          ),
+        ],
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(recipeTitle,
+              style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold)),
+          SizedBox(height: 4.0),
+          Text(authorName,
+              style: TextStyle(fontSize: 14.0, fontWeight: FontWeight.normal)),
+          SizedBox(height: 8.0),
+          Container(
+            width: 150.0,
+            height: 150.0,
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                  image: NetworkImage(
+                      "https://media.istockphoto.com/id/483014582/photo/iced-coffee-with-whipping-cream.jpg?s=1024x1024&w=is&k=20&c=nPBZMC-YZCA7wjssHCh5UDWoEhv11GqYrwJ6s0ZIplk="),
+                  fit: BoxFit.cover),
+              borderRadius: BorderRadius.circular(8.0),
+            ),
+          ),
+          SizedBox(height: 8.0),
+          Text(description,
+              maxLines: 3,
+              overflow: TextOverflow.ellipsis,
+              style: TextStyle(fontSize: 14.0)),
+          SizedBox(height: 8.0),
+          Row(
+            children: [
+              Text("⭐ $rating", style: TextStyle(fontSize: 14.0)),
+              Spacer(),
+              Text("Difficulty: $difficulty", style: TextStyle(fontSize: 14.0)),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class RecipeCard extends StatelessWidget {
+  final RecipeData? recipeData;
+
+  const RecipeCard({
+    super.key,
+    this.recipeData
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      
+      child: Text(
+        "1.4 stars"
       ),
     );
   }
