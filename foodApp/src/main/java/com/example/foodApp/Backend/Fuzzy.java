@@ -27,12 +27,14 @@ public class Fuzzy {
         // Initialize total missing quantity
         double totalMissingQuantity = 0.0;
 
+        double missing = 1.0;
+
         // Iterate through each ingredient in the recipe
         for (Ingredient ingredient : ingredients.values()) {
             // Check if the ingredient exists in the pantry
             if (!pantry.getAllIngredients().containsKey(ingredient.getName())) {
                 // Ingredient not found in the pantry, calculate missing quantity
-                totalMissingQuantity += 1.0; // add one score
+                totalMissingQuantity += missing++; // add one score
             } else {
                 // Ingredient found in the pantry, check if quantity is sufficient
                 Ingredient pantryIngredient = pantry.getAllIngredients().get(ingredient.getName());
@@ -72,7 +74,7 @@ public class Fuzzy {
         return totalUnusedIngredientScore;
     }
 
-    public static double generateRecipeScore(Recipe recipe, float starRating, float difficultyRating, Pantry pantry) {
+    public static double generateRecipeScore(Recipe recipe, double starRating, double difficultyRating, Pantry pantry) {
         // Initialize score with a starting value of 100
         double score = 10.0;
 
@@ -109,8 +111,8 @@ public class Fuzzy {
             adjustIngredientQuantities(recipe, servingSize);
 
             // Generate score for the recipe
-            float starRating = (float) recipeManager.getStarRating(recipe.getId());
-            float difficultyRating = recipeManager.getDifficultyRating(recipe.getId());
+            double starRating = recipeManager.getStarRating(recipe.getId());
+            double difficultyRating = recipeManager.getDifficultyRating(recipe.getId());
             double score = generateRecipeScore(recipe,  starRating, difficultyRating, pantry);
 
             // Create a map to store score and recipe
@@ -135,5 +137,62 @@ public class Fuzzy {
         }
 
         return topScoringRecipes;
+    }
+    private static double calculateRecipeGroceryScore(Recipe recipe, Pantry pantry) {
+        // Initialize total score for the recipe
+        double score = 0.0;
+
+        // Iterate through each ingredient in the recipe
+        for (Ingredient ingredient : recipe.getAllIngredients().values()) {
+            // Check if the ingredient exists in the pantry
+            if (pantry.getAllIngredients().containsKey(ingredient.getName())) {
+                Ingredient pantryIngredient = pantry.getAllIngredients().get(ingredient.getName());
+                // Calculate missing ratio from the quantity
+                double missingRatio = 1;
+                if(pantryIngredient.getQuantity() < ingredient.getQuantity()){
+                    missingRatio = pantryIngredient.getQuantity() / ingredient.getQuantity();
+                }
+                // Adjust score based on missing ratio and expiration date
+                double ingredientScore = Math.pow(missingRatio, 2) + 10 / (pantryIngredient.getExpiry() + 1);
+                // Multiply recipe score by ingredient score
+                score += ingredientScore;
+            }
+        }
+        return score;
+    }
+    public static List<Map<Double, Recipe>> findRecipesGrocery(RecipeManager recipeManager, Pantry pantry) {
+        List<Map<Double, Recipe>> topRecipesGrocery = new ArrayList<>();
+
+        // Process each recipe in the RecipeManager
+        for (Recipe recipe : recipeManager.getAllRecipes().values()) {
+            // Generate score for the recipe
+            double starRating = recipeManager.getStarRating(recipe.getId());
+            double difficultyRating = recipeManager.getDifficultyRating(recipe.getId());
+            // Initialize score with a starting value of 100
+            double score = 1.0;
+            // Multiply score by the square of the star rating
+            score *= starRating * starRating;
+            // Divide score by the square root of the difficulty rating
+            score /= Math.sqrt(difficultyRating);
+            score *= calculateRecipeGroceryScore(recipe, pantry);
+            // Create a map to store score and recipe
+            Map<Double, Recipe> scoreRecipeMap = new HashMap<>();
+            scoreRecipeMap.put(score, recipe);
+            // Add the map to the list
+            topRecipesGrocery.add(scoreRecipeMap);
+        }
+        // Sort the list based on scores in descending order
+        Collections.sort(topRecipesGrocery, new Comparator<Map<Double, Recipe>>() {
+            @Override
+            public int compare(Map<Double, Recipe> map1, Map<Double, Recipe> map2) {
+                return map2.keySet().iterator().next().compareTo(map1.keySet().iterator().next());
+            }
+        });
+        // Keep only the top 10 highest scoring recipes
+        if (topRecipesGrocery.size() > 10) {
+            topRecipesGrocery.subList(10, topRecipesGrocery.size()).clear();
+        }
+
+        return topRecipesGrocery;
     }
 }

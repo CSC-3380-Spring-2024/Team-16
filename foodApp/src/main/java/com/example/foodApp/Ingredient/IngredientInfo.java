@@ -23,11 +23,14 @@ public class IngredientInfo {
     private double gramPerUnit; //unit weight
     private boolean isLiquid;
     private boolean isCountable;
-    public IngredientInfo(String name, int shelfLife, double gramPerUnit, boolean isLiquid) {
+    private int appropriateQuantity;
+    public IngredientInfo(String name, int shelfLife, double gramPerUnit, boolean isLiquid, boolean isCountable, int appropriateQuantity) {
         this.name = name;
         this.shelfLife = shelfLife;
         this.gramPerUnit = gramPerUnit;
         this.isLiquid = isLiquid;
+        this.isCountable = isCountable;
+        this.appropriateQuantity = appropriateQuantity;
     }
     // Getters and setters
     public ObjectId getId() {
@@ -44,5 +47,11 @@ public class IngredientInfo {
     }
     public boolean isLiquid() {
         return isLiquid;
+    }
+    public boolean isCountable() {
+        return isCountable;
+    }
+    public int getAppropriateQuantity() {
+        return appropriateQuantity;
     }
 }

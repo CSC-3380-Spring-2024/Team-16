@@ -35,15 +35,15 @@ public class RecipeManager {
     }
 
     // Method to clear all recipes from the manager
-    /*public void clearRecipes() {
+    public void clearRecipes() {
         recipes.clear();
-    }*/
+    }
 
     public double getStarRating(ObjectId id) {
         Recipe recipe = recipes.get(id);
         return recipe.getStarRating();
     }
-    public float getDifficultyRating(ObjectId id) {
+    public double getDifficultyRating(ObjectId id) {
         Recipe recipe = recipes.get(id);
         return recipe.getDifficultyRating();
     }

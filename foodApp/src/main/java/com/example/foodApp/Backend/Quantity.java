@@ -5,19 +5,19 @@ public class Quantity {
     public double dryToGram(double quantity, String unit, Ingredient ingredient) {
         IngredientInfo ingredientInfo = ingredient.getIngredientInfo();
         switch (unit.toLowerCase()) {
-            case "kg":
+            case "kg", "kilograms":
                 return quantity * 1000;
-            case "g":
+            case "g", "grams":
                 return quantity;
-            case "mg":
+            case "mg", "milligrams":
                 return quantity / 1000;
-            case "lbs":
+            case "lbs", "lb":
                 return quantity * 453.592; // 1 lb = 453.592 grams
             case "oz":
                 return quantity * 28.3495; // 1 oz = 28.3495 grams
-            case "unit(regular)":
+            case "unit(regular)","unit","":
                 return quantity * ingredientInfo.getGramPerUnit(); // 1 unit * grams per units = grams
-            case "unit(baby)":
+            case "unit(baby)", "cloves":
                 return quantity * ingredientInfo.getGramPerUnit() / 5;
             default:
                 throw new IllegalArgumentException("Invalid unit: " + unit);
@@ -27,19 +27,19 @@ public class Quantity {
     public double inverseDryToGram(double grams, String unit, Ingredient ingredient) {
         IngredientInfo ingredientInfo = ingredient.getIngredientInfo();
         switch (unit.toLowerCase()) {
-            case "kg":
+            case "kg", "kilograms":
                 return grams / 1000;
-            case "g":
+            case "g", "grams":
                 return grams;
-            case "mg":
+            case "mg", "milligrams":
                 return grams * 1000;
-            case "lbs":
+            case "lbs", "lb":
                 return grams / 453.592; // 1 lb = 453.592 grams
             case "oz":
                 return grams / 28.3495; // 1 oz = 28.3495 grams
-            case "unit(regular)":
+            case "unit(regular)","unit","":
                 return grams / ingredientInfo.getGramPerUnit(); // grams / grams per unit = units
-            case "unit(baby)":
+            case "unit(baby)", "cloves":
                 return grams / (ingredientInfo.getGramPerUnit() / 5);
             default:
                 throw new IllegalArgumentException("Invalid unit: " + unit);
@@ -61,9 +61,9 @@ public class Quantity {
                 return quantity * 14.7868; // 1 tablespoon = 14.7868 milliliters
             case "tsp":
                 return quantity * 4.92892; // 1 teaspoon = 4.92892 milliliters
-            case "l":
+            case "l", "liter":
                 return quantity * 1000; // 1 liter = 1000 milliliters
-            case "ml":
+            case "ml", "milliliter":
                 return quantity; // Milliliter to milliliter, no conversion needed
             default:
                 throw new IllegalArgumentException("Invalid unit: " + unit);
@@ -86,9 +86,9 @@ public class Quantity {
                 return milliliters / 14.7868; // 1 tablespoon = 14.7868 milliliters
             case "tsp":
                 return milliliters / 4.92892; // 1 teaspoon = 4.92892 milliliters
-            case "l":
+            case "l", "liter":
                 return milliliters / 1000; // 1 liter = 1000 milliliters
-            case "ml":
+            case "ml", "milliliter":
                 return milliliters; // Milliliter to milliliter, no conversion needed
             default:
                 throw new IllegalArgumentException("Invalid unit: " + unit);
