@@ -263,7 +263,7 @@ class ThemeTypography extends Typography {
         'Readex Pro',
         color: theme.secondaryText,
         fontWeight: FontWeight.normal,
-        fontSize: 12.0,
+        fontSize: 10.0,
       );
   String get bodyLargeFamily => 'Readex Pro';
   TextStyle get bodyLarge => GoogleFonts.getFont(
