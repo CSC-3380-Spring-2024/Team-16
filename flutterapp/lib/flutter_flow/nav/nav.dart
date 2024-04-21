@@ -47,12 +47,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
         FFRoute(
           name: 'Create',
           path: '/create',
-          builder: (context, params) => params.isEmpty
-              ? const NavBarPage(initialPage: 'Create')
-              : const NavBarPage(
-                  initialPage: 'Create',
-                  page: CreateWidget(),
-                ),
+          builder: (context, params) => const NavBarPage(initialPage: '',
+            page: CreateWidget(),
+          ),
         ),
         // MARK: FridgeRoute
         FFRoute(

@@ -1,7 +1,8 @@
 import '/flutter_flow/flutter_flow_util.dart';
+import 'create_widget.dart' show CreateWidget;
 import 'package:flutter/material.dart';
 
-class CreateModel extends FlutterFlowModel {
+class CreateModel extends FlutterFlowModel<CreateWidget>{
   ///  Local state fields for this page.
 
   int currentPageIndex = 0;
