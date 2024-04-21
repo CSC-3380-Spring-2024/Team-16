@@ -86,7 +86,7 @@ class RecipeData {
   String? backdrop;
   int? peopleReviewed;
   List<List<dynamic>> ingredients;
-  Map<String, dynamic> allIngredients;
+  Map<String, dynamic>? allIngredients;
 
   RecipeData({
     required this.name,
@@ -100,7 +100,7 @@ class RecipeData {
     this.backdrop,
     this.peopleReviewed,
     required this.ingredients,
-    required this.allIngredients,
+    this.allIngredients,
   });
 
   factory RecipeData.fromJson(Map<String, dynamic> json) {

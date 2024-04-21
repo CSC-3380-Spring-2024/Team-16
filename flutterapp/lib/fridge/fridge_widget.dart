@@ -42,8 +42,8 @@ class _FridgeWidgetState extends State<FridgeWidget> {
 
   RecipeData dummyRecipe = RecipeData(
     name: "Spaghetti Carbonara",
-    starRating: 4.5,
-    difficultyRating: 2.5,
+    starRating: 2.1,
+    difficultyRating: 4.5,
     servingSize: 4,
     method: [
       "Boil water in a large pot.",
@@ -224,6 +224,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
           //TODO: Fix dismissable
           openedFridge.contents.remove(ingredientData);
           selectedIngredients.remove(ingredientData);
+          suggestedRecipes.clear();
         });
 
         ScaffoldMessenger.of(context).showSnackBar(
@@ -237,8 +238,10 @@ class _FridgeWidgetState extends State<FridgeWidget> {
         onTap: () {
           setState(() {
             if (isSelected) {
+              suggestedRecipes.clear();
               selectedIngredients.remove(ingredientData);
             } else {
+              suggestedRecipes.clear();
               selectedIngredients.add(ingredientData);
             }
           });
@@ -457,6 +460,8 @@ class _FridgeWidgetState extends State<FridgeWidget> {
       },
     );
   }
+
+  List<RecipeData> suggestedRecipes = [];
     //MARK: fetchSuggstedRecipes
   Future<List<RecipeData>> fetchSuggestedRecipes() async {
     String sendingBody = '{"listOfIngredients":[';
@@ -470,8 +475,11 @@ class _FridgeWidgetState extends State<FridgeWidget> {
 
     const String apiUrl = 'http://localhost:8080/ingredient';
     print("ambatatry");
+    if (suggestedRecipes.length != 0) {
+      return suggestedRecipes;
+    }
     try {
-
+      
       final response = await http.post(
         Uri.parse(apiUrl),
         body: sendingBody,
@@ -484,6 +492,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
         List<RecipeData> recipes = (jsonDecode(response.body) as List<dynamic>)
           .map((json) => RecipeData.fromJson(json))
           .toList();
+        suggestedRecipes = recipes;
         return recipes;
       } else {
         throw Exception('Failed to fetch recipes');

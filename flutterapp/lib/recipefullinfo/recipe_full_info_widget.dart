@@ -7,7 +7,7 @@ import 'package:provider/provider.dart';
 
 import 'recipe_full_info_model.dart';
 export 'recipe_full_info_model.dart';
-/*
+
 class RecipeFullInfoWidget extends StatefulWidget {
   const RecipeFullInfoWidget({super.key});
 
@@ -205,4 +205,3 @@ class _RecipeFullInfoWidgetState extends State<RecipeFullInfoWidget> {
     );
   }
 }
-*/

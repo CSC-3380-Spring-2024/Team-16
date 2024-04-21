@@ -1,6 +1,7 @@
-2024/04/21-03:54:27.009 41c Reusing MANIFEST C:\Users\makei\AppData\Local\Temp\flutter_tools.71adbdf2\flutter_tools_chrome_device.4c83b393\Default\Sync Data\LevelDB/MANIFEST-000001
-2024/04/21-03:54:27.010 41c Recovering log #3
-2024/04/21-03:54:27.012 41c Reusing old log C:\Users\makei\AppData\Local\Temp\flutter_tools.71adbdf2\flutter_tools_chrome_device.4c83b393\Default\Sync Data\LevelDB/000003.log 
-2024/04/21-04:10:06.469 77fc Level-0 table #5: started
-2024/04/21-04:10:06.484 77fc Level-0 table #5: 161763 bytes OK
-2024/04/21-04:10:06.489 77fc Delete type=0 #3
+2024/04/21-16:08:05.807 5f08 Reusing MANIFEST C:\Users\makei\AppData\Local\Temp\flutter_tools.f01a453b\flutter_tools_chrome_device.ffa880d5\Default\Sync Data\LevelDB/MANIFEST-000001
+2024/04/21-16:08:05.808 5f08 Recovering log #4
+2024/04/21-16:08:05.811 5f08 Reusing old log C:\Users\makei\AppData\Local\Temp\flutter_tools.f01a453b\flutter_tools_chrome_device.ffa880d5\Default\Sync Data\LevelDB/000004.log 
+2024/04/21-16:08:05.812 5f08 Delete type=0 #3
+2024/04/21-16:13:41.220 6e54 Level-0 table #8: started
+2024/04/21-16:13:41.238 6e54 Level-0 table #8: 71750 bytes OK
+2024/04/21-16:13:41.244 6e54 Delete type=0 #4
