@@ -1,6 +1,7 @@
 package com.example.foodApp.Recipe;
 
 import com.example.foodApp.AccountCreaete.Account;
+import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
@@ -51,22 +52,22 @@ public class RecipeService {
             return recipe1;
         }
     }
-    public String addImage (byte [] image, String recipeName)
+    public String addImage (byte [] image, ObjectId id)
     {
 
         Query query = new Query();
         mongoTemplate.update(Recipe.class)
-                .matching(query(where("name").is(recipeName)))
+                .matching(query(where("_id").is(id)))
                 .apply(new Update().set("uploadImage", image))
                 .first();
 
         return "upload Sucess";
     }
 
-    public String starRating (double star, String name)
+    public String starRating (double star, ObjectId RecipeId)
     {
         Query query = new Query();
-        query.addCriteria(where("name").is(name));
+        query.addCriteria(where("_id").is(RecipeId));
         Recipe recipe = mongoTemplate.findOne(query, Recipe.class);
         if(recipe == null)
         {
@@ -93,10 +94,10 @@ public class RecipeService {
 
 
     }
-    public String difficultyRating (double star, String name)
+    public String difficultyRating (double star, ObjectId recipeId)
     {
         Query query = new Query();
-        query.addCriteria(where("name").is(name));
+        query.addCriteria(where("_id").is(recipeId));
         Recipe recipe = mongoTemplate.findOne(query, Recipe.class);
         if(recipe == null)
         {

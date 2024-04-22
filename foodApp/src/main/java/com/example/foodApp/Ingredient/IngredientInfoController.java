@@ -20,7 +20,7 @@ import com.example.foodApp.Recipe.Recipe;
 import com.example.foodApp.Recipe.RecipeService;
 
 @RestController
-@RequestMapping("ingredient")
+@RequestMapping("/ingredient")
 public class IngredientInfoController {
     @Autowired
     private IngredientInfoService ingredientInfoService;
