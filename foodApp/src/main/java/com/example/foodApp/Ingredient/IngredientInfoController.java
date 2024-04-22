@@ -42,6 +42,7 @@ public class IngredientInfoController {
      * This method returns a list of heuristically scored recipes based given pantry information by the client.
      */
     public List<Recipe> recipesFromPantry(@RequestBody Map<String, List<Ingredient>> payload) {
+        /*
         List<Ingredient> listOfIngredients = payload.get("listOfIngredients");
         //Add each ingredient to Pantry while keeping track of soonest expiring
         int soonestExpiry = 9999;
@@ -74,8 +75,8 @@ public class IngredientInfoController {
         int servingSize = 4;
         
         List<Map<Double, Recipe>> topRecipes = Fuzzy.findTopScoringRecipes(recipeManager, pantry, servingSize);
-        System.out.println(topRecipes.get(0));
-        System.out.println(topRecipes.get(9));
+        //System.out.println(topRecipes.get(0));
+        //System.out.println(topRecipes.get(9));
         List<Recipe> resultRecipeList = new ArrayList<Recipe>();
 
         for (Map<Double, Recipe> scoreRecipeMap : topRecipes) {
@@ -84,6 +85,17 @@ public class IngredientInfoController {
             }
         }
 
-        return resultRecipeList;
+        return resultRecipeList;*/
+        List<Recipe> list = new ArrayList<Recipe>();
+        Recipe recipe = recipeService.recipeByName("Apple Cinnamon Oatmeal").get();
+        list.add(recipe);
+        System.out.println(list.getFirst().getUploadImage());
+        try {
+            wait(1);
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        return list;
     }
 }

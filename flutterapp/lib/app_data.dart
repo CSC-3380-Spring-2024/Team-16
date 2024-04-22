@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:typed_data';
 
 enum PresetColor {
   red, green, blue, yellow, purple
@@ -80,13 +81,13 @@ class RecipeData {
   double difficultyRating;
   int servingSize;
   List<String> method;
-  String? uploadImage;
   String? youtubeVid;
   String description;
   String? backdrop;
   int? peopleReviewed;
   List<List<dynamic>> ingredients;
   Map<String, dynamic>? allIngredients;
+  String? uploadImage;
 
   RecipeData({
     required this.name,
