@@ -14,7 +14,7 @@ import org.springframework.data.mongodb.core.query.CriteriaDefinition;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
 
-/*@Service
+@Service
 public class ReviewService {
 
     @Autowired
@@ -32,4 +32,4 @@ public class ReviewService {
         return review;
     }
     
-}*/
+}
