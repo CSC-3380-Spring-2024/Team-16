@@ -11,7 +11,9 @@
         "Beef Steak",
         "Beef Stew Meat",
         "Beef Tenderloin",
-        "Prime Rib Roast"
+        "Prime Rib Roast",
+        "Ribeye Steak",
+        "Steak"
     ],
     "Poultry": [
         "Chicken Breast",
@@ -37,6 +39,9 @@
         "Roast Pork"
     ],
     "Seafood": [
+        "Fishes",
+        "Fish Fillet",
+        "Fish Fillets",
         "Ahi Tuna Steak",
         "Catfish Fillet",
         "Clam",
@@ -60,6 +65,7 @@
         "Whitefish Fillet"
     ],
     "Lamb": [
+        "Lamb",
         "Lamb Chop",
         "Lamb Cube",
         "Lamb Leg",
@@ -119,9 +125,11 @@
         "Scallop",
         "Snapper Fillet",
         "Squid",
+        "Steak",
         "Tuna",
         "Tuna Steak",
         "Whitefish Fillet",
+        "Lamb",
         "Lamb Chop",
         "Lamb Cube",
         "Lamb Leg",
@@ -132,6 +140,9 @@
         "Lamb Shoulder"
     ],
     "Fish": [
+        "Fishes",
+        "Fish Fillet",
+        "Fish Fillets",
         "Ahi Tuna Steak",
         "Catfish Fillet",
         "Cod Fillet",
@@ -166,6 +177,7 @@
         "Dried Nori"
     ],
     "Roots": [
+        "Root Vegetables",
         "Carrot",
         "Beetroot",
         "Turnip",
@@ -228,6 +240,7 @@
         "Yellow Squash"
     ],
     "Vegetables": [
+        "Vegetables",
         "Arugula",
         "Spinach",
         "Kale",
@@ -422,6 +435,7 @@
         "Tikka Masala Paste"
     ],
     "Sauces": [
+        "Sauces",
         "BBQ Sauce",
         "Bechamel Sauce",
         "Bolognese Sauce",
@@ -453,6 +467,8 @@
         "Salsa",
         "Salsa Verde",
         "Soy Sauce",
+        "Sriracha",
+        "Sriracha Mayo",
         "Sriracha Sauce",
         "Tahini Sauce",
         "Tartar Sauce",
@@ -474,7 +490,9 @@
         "Buffalo Sauce",
         "Chipotle Sauce",
         "Hot Sauce",
-        "Sriracha Sauce"
+        "Sriracha Sauce",
+        "Sriracha",
+        "Sriracha Mayo"
     ],
     "Tangy and Vinegary Sauces": [
         "BBQ Sauce",
@@ -611,14 +629,13 @@
         "Strawberry"
     ],
     "Fruit Jam/Preserve": [
-        [
-            "Apricot Jam",
-            "Apricot Preserve",
-            "Blueberry Preserve",
-            "Fig Jam",
-            "Raspberry Jam",
-            "Raspberry Preserve"
-        ]
+        "Apricot Jam",
+        "Apricot Preserve",
+        "Blueberry Preserve",
+        "Fig Jam",
+        "Raspberry Jam",
+        "Raspberry Preserve"
+
     ],
     "Whole Grains": [
         "Barley",
@@ -926,6 +943,7 @@
         "Monterey Jack Cheese"
     ],
     "Pickled Foods": [
+        "Pickled Vegetables",
         "Pickle",
         "Pickled Ginger",
         "Pickled Plum",
@@ -1022,6 +1040,8 @@
         "Dry-Aged Beef"
     ], 
     "Dried Fruits/Berries": [
+        "Dried Fruit",
+        "Dried Fruits",
         "Dried Apricot", 
         "Dried Cherry", 
         "Dried Cranberry", 
@@ -1145,5 +1165,18 @@
         "Food Colorings",
         "Red Food Coloring",
         "Green Food Coloring"
+    ],
+    "Coffee": [
+        "Coffee",
+        "Coffee Bean",
+        "Coffee Liqueur",
+        "Instant Coffee"
+    ],
+    "Broth and Stocks": [
+        "Beef Broth",
+        "Chicken Broth",
+        "Fish Stock",
+        "Seafood Broth",
+        "Vegetable Broth"
     ]
 }
