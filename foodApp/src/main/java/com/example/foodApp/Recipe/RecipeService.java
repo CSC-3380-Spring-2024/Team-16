@@ -31,8 +31,10 @@ public class RecipeService {
 
     public List<Recipe> recipesWithIngredient(String name) {
         Query query = new Query();
-        query.addCriteria(where("ingredients").elemMatch(where("0").is(name)));
-        return mongoTemplate.find(query, Recipe.class);
+        query.addCriteria(where("ingredients").elemMatch(where("0").is(name))).limit(30);
+        List<Recipe> found = mongoTemplate.find(query, Recipe.class);
+        System.out.println(found.size());
+        return found;
     }
 
 
@@ -76,6 +78,7 @@ public class RecipeService {
         else
         {
             double prevRating = recipe.getStarRating();
+            //List<String> reviewId =  recipe.getReviewId();
             int prevPeopleReviewed = recipe.getPeopleReviewed();
             
             int peopleReviewed = 1;

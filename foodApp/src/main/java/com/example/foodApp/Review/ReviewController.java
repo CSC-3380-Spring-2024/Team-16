@@ -1,24 +1,24 @@
-package com.example.foodApp.Review;
+// package com.example.foodApp.Review;
 
-import org.bson.types.ObjectId;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.mongodb.core.MongoTemplate;
-import org.springframework.data.mongodb.core.query.Criteria;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.data.mongodb.core.query.Query;
-import org.springframework.data.mongodb.core.query.Update;
+// import org.bson.types.ObjectId;
+// import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.data.mongodb.core.MongoTemplate;
+// import org.springframework.data.mongodb.core.query.Criteria;
+// import org.springframework.http.HttpStatus;
+// import org.springframework.http.ResponseEntity;
+// import org.springframework.web.bind.annotation.PostMapping;
+// import org.springframework.web.bind.annotation.RequestBody;
+// import org.springframework.web.bind.annotation.RequestMapping;
+// import org.springframework.web.bind.annotation.RestController;
+// import org.springframework.data.mongodb.core.query.Query;
+// import org.springframework.data.mongodb.core.query.Update;
 
-import com.example.foodApp.Recipe.RecipeController;
-import com.example.foodApp.Recipe.RecipeService;
+// import com.example.foodApp.Recipe.RecipeController;
+// import com.example.foodApp.Recipe.RecipeService;
 
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+// import java.util.List;
+// import java.util.Map;
+// import java.util.Optional;
 
 
 
@@ -47,15 +47,15 @@ public class ReviewController {
             "3"                                 // difficultyRating              
             ] 
 
-     * 
-     * @param payload (String reviewBody, recipeName, author, double starRating)
-     * @return Write to the database
-     */
-    @PostMapping("/create")
-    public ResponseEntity<Review> createReview(@RequestBody List<String> payload) {
-        if (payload.size()!= 6) {
-            return ResponseEntity.badRequest().build();
-        }
+//      * 
+//      * @param payload (String reviewBody, recipeName, author, double starRating)
+//      * @return Write to the database
+//      */
+//     @PostMapping("/create")
+//     public ResponseEntity<Review> createReview(@RequestBody List<String> payload) {
+//         if (payload.size()!= 6) {
+//             return ResponseEntity.badRequest().build();
+//         }
         
         String header = payload.get(0);
         String reviewBody = payload.get(1);
@@ -86,30 +86,36 @@ public class ReviewController {
      * @return addlike to the reviewer
      */
 
-    @PostMapping("/addLike")
-    public ResponseEntity<String> addLike (@RequestBody Map<String,String> payload)
-     {
-        ObjectId reviewId = new ObjectId(payload.get("id"));
-        String personName = payload.get("personName");
+//         Query query = new Query();
+//         query.addCriteria(Criteria.where("_id").is(reviewId));
+//         Review review = mongoTemplate.findOne(query, Review.class);
 
-        Query query = new Query();
-        query.addCriteria(Criteria.where("_id").is(reviewId));
-        Review review = mongoTemplate.findOne(query, Review.class);
+//         List<String> peopleLiked = review.getPeopleLiked();
+//         List<String> peopleDisliked = review.getPeopleDisliked();
 
-        List<String> peopleLiked = review.getPeopleLiked();
-        List<String> peopleDisliked = review.getPeopleDisliked();
+//         LikeNDislikeFilter filtering = new LikeNDislikeFilter(peopleLiked, peopleDisliked);
+//         boolean filterCheck = filtering.filter(personName);
 
-        LikeNDislikeFilter filtering = new LikeNDislikeFilter(peopleLiked, peopleDisliked);
-        boolean filterCheck = filtering.filter(personName);
+//         if(filterCheck)
+//         {
+//             return ResponseEntity.unprocessableEntity().body("You have like or disliked");
+//         }
+//         Update update = new Update().addToSet("peopleLiked", personName);
+//         mongoTemplate.updateFirst(query, update, Review.class);
+//         return ResponseEntity.ok("Review Updated Successfully");
+//     }
 
-        if(filterCheck)
-        {
-            return ResponseEntity.unprocessableEntity().body("You have like or disliked");
-        }
-        Update update = new Update().addToSet("peopleLiked", personName);
-        mongoTemplate.updateFirst(query, update, Review.class);
-        return ResponseEntity.ok("Review Updated Successfully");
-    }
+//     /**
+//      * @apiNote
+//      *  http://localhost:8080/api/review/addDislike
+//      * {
+//      *  "id": "661ee97695691a0bdeed4cb4" // valid ObjectID
+//      *  "personName": "Jonh Doe"
+//      *
+//      * }
+//      * @param payload
+//      * @return addDislike to the reviewer
+//      */
 
     /**
      * @apiNote
@@ -129,24 +135,20 @@ public class ReviewController {
         ObjectId reviewId = new ObjectId(payload.get("id"));
         String personName = payload.get("username");
 
-        Query query = new Query();
-        query.addCriteria(Criteria.where("_id").is(reviewId));
-        Review review = mongoTemplate.findOne(query, Review.class);
+//         List<String> peopleLiked = review.getPeopleLiked();
+//         List<String> peopleDisliked = review.getPeopleDisliked();
 
-        List<String> peopleLiked = review.getPeopleLiked();
-        List<String> peopleDisliked = review.getPeopleDisliked();
+//         LikeNDislikeFilter filtering = new LikeNDislikeFilter(peopleLiked, peopleDisliked);
+//         boolean filterCheck = filtering.filter(personName);
 
-        LikeNDislikeFilter filtering = new LikeNDislikeFilter(peopleLiked, peopleDisliked);
-        boolean filterCheck = filtering.filter(personName);
-
-        if(filterCheck)
-        {
-            return ResponseEntity.unprocessableEntity().body("You have like or disliked");
-        }
-        Update update = new Update().addToSet("peopleDisliked", personName);
-        mongoTemplate.updateFirst(query, update, Review.class);
-        return ResponseEntity.ok("Review Updated Successfully");
-    }
+//         if(filterCheck)
+//         {
+//             return ResponseEntity.unprocessableEntity().body("You have like or disliked");
+//         }
+//         Update update = new Update().addToSet("peopleDisliked", personName);
+//         mongoTemplate.updateFirst(query, update, Review.class);
+//         return ResponseEntity.ok("Review Updated Successfully");
+//     }
     
     
-}
+// }
