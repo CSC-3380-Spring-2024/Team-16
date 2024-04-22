@@ -22,30 +22,30 @@
 
 
 
-// @RestController
-// @RequestMapping("/api/reviews")
-// public class ReviewController {
+@RestController
+@RequestMapping("/api/review")
+public class ReviewController {
 
-//     @Autowired
-//     private RecipeService recipeService;
-//     @Autowired
-//     private ReviewService reviewService;
-//     @Autowired
-//     private MongoTemplate mongoTemplate;
-//     /**
-//      * @apiNote
-//      * POST /api/reviews/create HTTP/1.1
-//         Host: local8080
-//         Content-Type: application/json
+    @Autowired
+    private RecipeService recipeService;
+    @Autowired
+    private ReviewService reviewService;
+    @Autowired
+    private MongoTemplate mongoTemplate;
+    /**
+     * @apiNote
+     * POST /api/review/create HTTP/1.1
+        Host: local8080
+        Content-Type: application/json
 
-//             [
-//             "Amazing Cheesecake"               // Header
-//             "This is amazing",                  // reviewBody
-//             "Cheesecake",                        // recipeName
-//             "John Doe",                         // authorName
-//             "3"                                 // starRating
-//             "3"                                 // difficultyRating              
-//             ] 
+            [
+            "Amazing Cheesecake"               // Header
+            "This is amazing",                  // reviewBody
+            "66259dd4cf6c9bdb66b36f6a",         // Recipe ObjectId
+            "John Doe",                         // authorName
+            "3"                                 // starRating
+            "3"                                 // difficultyRating              
+            ] 
 
 //      * 
 //      * @param payload (String reviewBody, recipeName, author, double starRating)
@@ -57,42 +57,34 @@
 //             return ResponseEntity.badRequest().build();
 //         }
         
-//         String header = payload.get(0);
-//         String reviewBody = payload.get(1);
-//         String recipeName = payload.get(2);
-//         String author = payload.get(3);
-//         double starRating = Double.parseDouble(payload.get(4));
-//         double difficultyRating = Double.parseDouble(payload.get(5));
+        String header = payload.get(0);
+        String reviewBody = payload.get(1);
+        ObjectId recipeId = new ObjectId(payload.get(2));
+        String author = payload.get(3);
+        double starRating = Double.parseDouble(payload.get(4));
+        double difficultyRating = Double.parseDouble(payload.get(5));
 
-//         // calling adding starRating and diffcultyRating from recipeController
-//             recipeService.starRating(starRating, recipeName);
-//             recipeService.difficultyRating(difficultyRating, recipeName);
+        // calling adding starRating and diffcultyRating from recipeController
+            recipeService.starRating(starRating, recipeId);
+            recipeService.difficultyRating(difficultyRating, recipeId);
 
 
-//         reviewBody = ProfanityFilter.filterText(reviewBody);
-
-//         Review createdReview = reviewService.createReview(header,reviewBody,author, recipeName);
-//         return new ResponseEntity<>(createdReview, HttpStatus.OK);
-//     }
-//     /**
-//      * @apiNote 
-//      * POST /api/reviews/addLike HTTP/1.1
-//         Host: yourapi.com
-//         Content-Type: application/json
-//      *  {
-//             "id": "661ee97695691a0bdeed4cb4",  // Use a valid ObjectId
-//             "personName": "Jonh Doe"
-//         }
-//      * 
-//      * @param payload
-//      * @return addlike to the reviewer
-//      */
-
-//     @PostMapping("/addLike")
-//     public ResponseEntity<String> addLike (@RequestBody Map<String,String> payload)
-//      {
-//         ObjectId reviewId = new ObjectId(payload.get("id"));
-//         String personName = payload.get("personName");
+        Review createdReview = reviewService.createReview(header,reviewBody,author, recipeId);
+        return new ResponseEntity<>(createdReview, HttpStatus.OK);
+    }
+    /**
+     * @apiNote 
+     * POST /api/reviews/addLike HTTP/1.1
+        Host: yourapi.com
+        Content-Type: application/json
+     *  {
+            "id": "661ee97695691a0bdeed4cb4",  // Review ObjectId
+            "personName": "Jonh Doe"
+        }
+     * 
+     * @param payload
+     * @return addlike to the reviewer
+     */
 
 //         Query query = new Query();
 //         query.addCriteria(Criteria.where("_id").is(reviewId));
@@ -125,15 +117,23 @@
 //      * @return addDislike to the reviewer
 //      */
 
-//     @PostMapping("/addDislike")
-//     public ResponseEntity<String> addDislike(@RequestBody Map<String,String> payload)
-//     {
-//         ObjectId reviewId = new ObjectId(payload.get("id"));
-//         String personName = payload.get("personName");
+    /**
+     * @apiNote
+     *  http://localhost:8080/api/review/addDislike
+     * {
+     *  "id": "661ee97695691a0bdeed4cb4" // valid ObjectID
+     *  "username": "Jonh Doe"
+     *
+     * }
+     * @param payload
+     * @return addDislike to the reviewer
+     */
 
-//         Query query = new Query();
-//         query.addCriteria(Criteria.where("_id").is(reviewId));
-//         Review review = mongoTemplate.findOne(query, Review.class);
+    @PostMapping("/addDislike")
+    public ResponseEntity<String> addDislike(@RequestBody Map<String,String> payload)
+    {
+        ObjectId reviewId = new ObjectId(payload.get("id"));
+        String personName = payload.get("username");
 
 //         List<String> peopleLiked = review.getPeopleLiked();
 //         List<String> peopleDisliked = review.getPeopleDisliked();

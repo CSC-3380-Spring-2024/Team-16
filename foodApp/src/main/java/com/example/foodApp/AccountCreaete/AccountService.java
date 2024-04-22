@@ -33,4 +33,10 @@ public class AccountService {
 
         return mongoTemplate.exists(query,Account.class);
     }
+    public boolean prevUsernameDup (String username)
+    {
+        Query query =  new Query(Criteria.where("username").is(username));
+
+            return mongoTemplate.exists(query,Account.class);
+    }
 }

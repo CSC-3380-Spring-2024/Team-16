@@ -1,5 +1,6 @@
 package com.example.foodApp.Recipe;
 
+import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -32,20 +33,6 @@ public class RecipeController {
         return new ResponseEntity<List<Recipe>>(recipeService.recipesWithIngredient(name), HttpStatus.OK);
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
    //PostMapping
 
     /**
@@ -53,11 +40,11 @@ public class RecipeController {
      *http://localhost:8080/api/recipe/add
      * {
      *     "recipe": {
-     *   "name": "Classic Cheesecake",
+     *   "name": "Classic Cheesecake", // with the name of recipe the api will return null and not will be added
      *   "starRating": 4.8,
      *   "difficultyRating": 3.5,
      *   "servingSize": 12,
-     *   "ingredients": [
+     *   "ingredients": [               // without ingredient the api will return null and not will be added
      *     ["Cream Cheese", "1 kg"],
      *     ["Sugar", "150 g"],
      *     ["Eggs", "3"],
@@ -76,6 +63,9 @@ public class RecipeController {
      *   "description": "A rich and creamy classic cheesecake that is perfect for all occasions.",
      *   "backdrop": "http://example.com/images/cheesecake.jpg",
      *   "peopleReviewed": 0
+     *   "difficultyRating": 0
+     *   "starRating": 0
+     *
      * },
      *     "username": "Jonh Doe"
      * }
@@ -102,8 +92,8 @@ public class RecipeController {
      * curl -X POST http://localhost:8080/image \
      *      -H "Content-Type: application/json" \
      *      -d '{
-     *            "name": "Cheesecake",
-     *            "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAC..."
+     *            "id": "66259dd4cf6c9bdb66b36f6a",
+     *            "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAC..."  // image need to be converted to base64
      *           }
      * @param payload
      * @return
@@ -112,46 +102,30 @@ public class RecipeController {
     public ResponseEntity<String> uploadImage (@RequestBody Map<String, String> payload)
     {
 
-        String recipeName = payload.get("name");
+        ObjectId id = new ObjectId(payload.get("id"));
         String image = payload.get("image");
         try
         {
+            // Check for PNG format
             if (image.startsWith("data:image/png;base64,")) {
                 image = image.substring("data:image/png;base64,".length());
-            } else if (image.startsWith("data:image/jpeg;base64,")) {
+            }
+            // Check for JPEG format
+            else if (image.startsWith("data:image/jpeg;base64,")) {
                 image = image.substring("data:image/jpeg;base64,".length());
+            } else {
+                // Handle unsupported format
+                return ResponseEntity.badRequest().body("Unsupported image format");
             }
 
             byte [] decodeBytes = Base64.getDecoder().decode(image);
-            recipeService.addImage(decodeBytes, recipeName);
+            recipeService.addImage(decodeBytes, id);
             return ResponseEntity.ok("File uploaded and saved to MongoDB successfully");
         }
         catch (Exception e) {
             e.printStackTrace();
             return ResponseEntity.internalServerError().body("Error uploading file: " + e.getMessage());
         }
-    }
-
-    
-    public String starRating ( double star, String nameString)
-    {
-        double starRating = star;
-        String name = nameString;
-
-        String updating = recipeService.starRating(starRating,name);
-
-
-        return updating;
-    }
-    public String difficultyRating (double difficult, String nameString)
-    {
-        double difficultyRating = difficult;
-        String name = nameString;
-
-        String updating = recipeService.starRating(difficultyRating,name);
-
-
-        return updating;
     }
 
 

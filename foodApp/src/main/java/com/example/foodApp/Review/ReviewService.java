@@ -21,12 +21,12 @@ public class ReviewService {
     private MongoTemplate mongoTemplate;
     @Autowired
     private ReviewRepository reviewRepository;
-    public Review createReview (String header, String reviewBody, String author,String name)
+    public Review createReview (String header, String reviewBody, String author,ObjectId recipeId)
     {
         Review review = reviewRepository.insert(new Review(header,reviewBody,author));
 
          mongoTemplate.update(Recipe.class)
-                 .matching(Criteria.where("name").is(name))
+                 .matching(Criteria.where("_id").is(recipeId))
                  .apply(new Update().push("reivewId").value(review)).first();
 
         return review;

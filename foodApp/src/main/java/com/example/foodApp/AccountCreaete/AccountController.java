@@ -16,15 +16,47 @@ public class AccountController {
     private AccountService accountService;
 
     //PostMapping
+
+    /**
+     * @apiNote
+     *    http://localhost:8080/api/account/create
+     *   {
+     *
+     *        "username": "Jonh Doe" // username ( have to be distinct)
+     *        "password": "password" // user pasword
+     *
+     *     }
+     * @param payload
+     * @return
+     */
     @PostMapping("/create")
     public ResponseEntity<String> createAccount (@RequestBody Map<String, String> payload)
     {
         Account account = new Account(payload.get("username"), payload.get("password"));
         System.out.println(account.getPassword());
+        if(accountService.prevUsernameDup(account.getUsername()))
+        {
+            return ResponseEntity.unprocessableEntity().body("Please Choose Different Username");
+        }
         String createAccount =accountService.createAccount(account);
 
-        return ResponseEntity.unprocessableEntity().body(createAccount);
+        return ResponseEntity.status(HttpStatus.OK).body(createAccount);
     }
+
+
+    /**
+     * @apiNote
+     *    http://localhost:8080/api/account/create
+     *   {
+     *
+     *        "username": "Jonh Doe" // username (has to be valid)
+     *        "password": "password" // user pasword (has to be valid)
+     *
+     *     }
+     * @param payload
+     * @return
+     */
+
     @PostMapping("/login")
     public ResponseEntity<String> login (@RequestBody  Map<String, String> payload){
         String username = payload.get("username");
@@ -42,6 +74,5 @@ public class AccountController {
     }
 
 
-    //GetMapping
 }
 
