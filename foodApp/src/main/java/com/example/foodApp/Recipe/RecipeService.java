@@ -31,7 +31,7 @@ public class RecipeService {
 
     public List<Recipe> recipesWithIngredient(String name) {
         Query query = new Query();
-        query.addCriteria(where("ingredients").elemMatch(where("0").is(name))).limit(30);
+        query.addCriteria(where("ingredients").elemMatch(where("0").is(name))).limit(200);
         List<Recipe> found = mongoTemplate.find(query, Recipe.class);
         System.out.println(found.size());
         return found;

@@ -42,7 +42,6 @@ class FFAppState extends ChangeNotifier {
     contents: [IngredientData(name: "Banana", quantity: "1 qt", expiry: 4)],
     )
   ];
-  
   ////////////////////////////////////////////////////
   
   String _savedText = '';

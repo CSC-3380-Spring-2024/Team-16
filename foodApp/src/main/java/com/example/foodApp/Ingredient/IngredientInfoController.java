@@ -73,8 +73,8 @@ public class IngredientInfoController {
         int servingSize = 4;
         
         List<Map<Double, Recipe>> topRecipes = Fuzzy.findTopScoringRecipes(recipeManager, pantry, servingSize);
-        System.out.println(topRecipes.get(0));
-        System.out.println(topRecipes.get(9));
+        //System.out.println(topRecipes.get(0));
+        //System.out.println(topRecipes.get(9));
         List<Recipe> resultRecipeList = new ArrayList<Recipe>();
 
         for (Map<Double, Recipe> scoreRecipeMap : topRecipes) {

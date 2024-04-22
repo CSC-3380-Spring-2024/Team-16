@@ -53,8 +53,6 @@ class _FridgeWidgetState extends State<FridgeWidget> {
       "Drain spaghetti and toss with egg mixture.",
       "Add pancetta and mix well. Serve hot."
     ],
-    uploadImage:
-        "https://example.com/spaghetti_carbonara.jpg",
     youtubeVid: "https://www.youtube.com/watch?v=MHMQi9jygMA",
     description:
         "Classic Italian pasta dish with creamy egg and cheese sauce, topped with crispy pancetta.",
@@ -466,9 +464,13 @@ class _FridgeWidgetState extends State<FridgeWidget> {
   Future<List<RecipeData>> fetchSuggestedRecipes() async {
     String sendingBody = '{"listOfIngredients":[';
     print(sendingBody);
-    for (var ingredient in selectedIngredients) {
-      sendingBody += '{"name":"${ingredient.name}","quantity":"${ingredient.quantity}","expiry":"${ingredient.expiry}"}';
+    for (var i = 0; i < selectedIngredients.length; i++) {
+    var ingredient = selectedIngredients[i];
+    sendingBody += '{"name":"${ingredient.name}","quantity":"${ingredient.quantity}","expiry":"${ingredient.expiry}"}';
+    if (i < selectedIngredients.length - 1) {
+        sendingBody += ',';
     }
+}
     //sendingBody += jsonEncode(_FridgeWidgetState().selectedIngredients);
     sendingBody += ']}';
     print(sendingBody);
@@ -492,6 +494,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
         List<RecipeData> recipes = (jsonDecode(response.body) as List<dynamic>)
           .map((json) => RecipeData.fromJson(json))
           .toList();
+        print(recipes.first.uploadImage);
         suggestedRecipes = recipes;
         return recipes;
       } else {

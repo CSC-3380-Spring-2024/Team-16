@@ -24,13 +24,15 @@ public class IngredientInfo {
     private boolean isLiquid;
     private boolean isCountable;
     private int appropriateQuantity;
-    public IngredientInfo(String name, int shelfLife, double gramPerUnit, boolean isLiquid, boolean isCountable, int appropriateQuantity) {
+    private String similarityTable;
+    public IngredientInfo(String name, int shelfLife, double gramPerUnit, boolean isLiquid, boolean isCountable, int appropriateQuantity, String similarityTable) {
         this.name = name;
         this.shelfLife = shelfLife;
         this.gramPerUnit = gramPerUnit;
         this.isLiquid = isLiquid;
         this.isCountable = isCountable;
         this.appropriateQuantity = appropriateQuantity;
+        this.similarityTable = similarityTable;
     }
     // Getters and setters
     public ObjectId getId() {
@@ -53,5 +55,8 @@ public class IngredientInfo {
     }
     public int getAppropriateQuantity() {
         return appropriateQuantity;
+    }
+    public String getSimilarityTable(){
+        return similarityTable;
     }
 }

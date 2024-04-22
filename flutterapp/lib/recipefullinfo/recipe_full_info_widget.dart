@@ -53,15 +53,14 @@ class _RecipeFullInfoWidgetState extends State<RecipeFullInfoWidget> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Padding(
-                      padding:
-                          EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 0.0),
+                      padding: const EdgeInsetsDirectional.fromSTEB(
+                          16.0, 16.0, 0.0, 16.0),
                       child: Text(
-                        'Recipe Name',
-                        style:
-                            FlutterFlowTheme.of(context).headlineLarge.override(
-                                  fontFamily: 'Outfit',
-                                  letterSpacing: 0.0,
-                                ),
+                        "Recipe Name",
+                        style: FlutterFlowTheme.of(context).headlineMedium.override(
+                              fontFamily: 'Outfit',
+                              letterSpacing: 0.0,
+                            ),
                       ),
                     ),
                     Row(
