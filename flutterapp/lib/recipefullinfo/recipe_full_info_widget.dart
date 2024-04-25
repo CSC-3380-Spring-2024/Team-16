@@ -1,3 +1,5 @@
+import 'package:foodappproject/app_shared.dart';
+
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
@@ -98,6 +100,9 @@ class _RecipeFullInfoWidgetState extends State<RecipeFullInfoWidget> {
                               letterSpacing: 0.0,
                             ),
                       ),
+                    ),
+                    const ReorderableExample(
+
                     ),
                     Padding(
                       padding:
