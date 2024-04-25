@@ -1,4 +1,4 @@
-import 'dart:async';
+/*import 'dart:async';
 
 import 'package:collection/collection.dart';
 
@@ -81,3 +81,4 @@ class ScrollTestRecordDocumentEquality implements Equality<ScrollTestRecord> {
   @override
   bool isValidKey(Object? o) => o is ScrollTestRecord;
 }
+*/
