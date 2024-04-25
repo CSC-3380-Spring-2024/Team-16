@@ -1,4 +1,4 @@
-/*import 'dart:async';
+import 'dart:async';
 
 import 'package:collection/collection.dart';
 
@@ -91,4 +91,3 @@ class IngredientRecordDocumentEquality implements Equality<IngredientRecord> {
   @override
   bool isValidKey(Object? o) => o is IngredientRecord;
 }
-*/
