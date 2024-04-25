@@ -126,4 +126,15 @@ public class RecipeService {
         }
     }
 
+    public byte [] getImage (ObjectId id )
+    {
+         Query query = new Query();
+         query.addCriteria((where("_id").is(id)));
+         Recipe recipe = mongoTemplate.findOne(query,Recipe.class);
+         byte [] image = recipe.getUploadImage();
+         return image;
+
+
+    }
+
 }

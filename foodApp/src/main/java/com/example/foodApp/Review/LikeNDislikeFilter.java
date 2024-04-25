@@ -7,28 +7,22 @@ import java.util.Set;
 
 public class LikeNDislikeFilter {
 
-   private Set<String> setOfAllName; 
+    private Set<String> setOfAllName;
 
-    public LikeNDislikeFilter (List<String> listofNameList,List<String> listofName1)
-    {
+    public LikeNDislikeFilter(List<String> listofNameList, List<String> listofName1) {
         setOfAllName = new HashSet<>();
-        if(listofNameList != null)
-        {
+        if (listofNameList != null) {
             setOfAllName.addAll(listofNameList);
         }
-        if(listofName1 != null )
-        {
+        if (listofName1 != null) {
             setOfAllName.addAll(listofName1);
         }
     }
 
-    public boolean filter(String personName)
-    {
+    public boolean filter(String personName) {
         return setOfAllName.contains(personName);
 
     }
 
-    
 
-    
 }

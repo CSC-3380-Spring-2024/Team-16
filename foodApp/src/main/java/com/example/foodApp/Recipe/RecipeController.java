@@ -5,6 +5,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.http.MediaType;
+
+
 
 import java.util.Base64;
 import java.util.List;
@@ -31,6 +34,14 @@ public class RecipeController {
     public ResponseEntity<List<Recipe>> getRecipesWithIngredient(@PathVariable String name) {
         System.out.println("it work");
         return new ResponseEntity<List<Recipe>>(recipeService.recipesWithIngredient(name), HttpStatus.OK);
+    }
+    @GetMapping("/images/{id}")
+    public ResponseEntity<byte[]> getImage(@PathVariable String id) {
+        byte[] imageData = recipeService.getImage(new ObjectId(id));
+        return ResponseEntity
+                .ok()
+                .contentType(MediaType.IMAGE_PNG) // or MediaType.IMAGE_PNG, depending on the image format
+                .body(imageData);
     }
 
    //PostMapping
