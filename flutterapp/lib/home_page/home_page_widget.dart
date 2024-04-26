@@ -48,7 +48,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
             children: [
               Container(
                 decoration: BoxDecoration(
-                  color: FlutterFlowTheme.of(context).accent2,
+                  color: FlutterFlowTheme.of(context).secondaryBackground,
                   shape: BoxShape.rectangle,
                 ),
                 child: SingleChildScrollView(
@@ -124,7 +124,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                     Container(
                       width: double.infinity,
                       decoration: BoxDecoration(
-                        color: FlutterFlowTheme.of(context).secondaryBackground,
+                        color: FlutterFlowTheme.of(context).primaryBackground,
                       ),
                       child: Padding(
                         padding: const EdgeInsetsDirectional.fromSTEB(
