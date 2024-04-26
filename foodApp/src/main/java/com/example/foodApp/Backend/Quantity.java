@@ -15,10 +15,12 @@ public class Quantity {
                 return quantity * 453.592; // 1 lb = 453.592 grams
             case "oz":
                 return quantity * 28.3495; // 1 oz = 28.3495 grams
-            case "unit(regular)","unit","":
+            case "unit(regular)","unit","","head","units":
                 return quantity * ingredientInfo.getGramPerUnit(); // 1 unit * grams per units = grams
-            case "unit(baby)", "cloves":
-                return quantity * ingredientInfo.getGramPerUnit() / 5;
+            case "unit(baby)", "cloves","clove":
+                return quantity * ingredientInfo.getGramPerUnit() / 8;
+            case "slice", "slices":
+                return quantity * ingredientInfo.getGramPerUnit() / 32;
             default:
                 throw new IllegalArgumentException("Invalid unit: " + unit);
         }
@@ -37,25 +39,27 @@ public class Quantity {
                 return grams / 453.592; // 1 lb = 453.592 grams
             case "oz":
                 return grams / 28.3495; // 1 oz = 28.3495 grams
-            case "unit(regular)","unit","":
+            case "unit(regular)","unit","","head","units":
                 return grams / ingredientInfo.getGramPerUnit(); // grams / grams per unit = units
-            case "unit(baby)", "cloves":
-                return grams / (ingredientInfo.getGramPerUnit() / 5);
+            case "unit(baby)", "cloves","clove":
+                return grams / (ingredientInfo.getGramPerUnit() / 8);
+            case "slice", "slices":
+                return grams / (ingredientInfo.getGramPerUnit() / 32);
             default:
                 throw new IllegalArgumentException("Invalid unit: " + unit);
         }
     }
     public double volumeToMilliliter(double quantity, String unit) {
         switch (unit.toLowerCase()) {
-            case "gal":
+            case "gal", "gallon":
                 return quantity * 3785.41; // 1 US gallon = 3785.41 milliliters
-            case "qt":
+            case "quart","qt":
                 return quantity * 946.353; // 1 quart = 946.353 milliliters
-            case "pt":
+            case "pint","pt":
                 return quantity * 473.176; // 1 pint = 473.176 milliliters
-            case "cup":
+            case "cup","cups":
                 return quantity * 236.588; // 1 cup = 236.588 milliliters
-            case "fl oz":
+            case "oz":
                 return quantity * 29.5735; // 1 fluid ounce = 29.5735 milliliters
             case "tbsp":
                 return quantity * 14.7868; // 1 tablespoon = 14.7868 milliliters
@@ -72,15 +76,15 @@ public class Quantity {
 
     public double inverseVolumeToMilliliter(double milliliters, String unit) {
         switch (unit.toLowerCase()) {
-            case "gallon":
+            case "gal", "gallon":
                 return milliliters / 3785.41; // 1 US gallon = 3785.41 milliliters
-            case "quart":
+            case "quart","qt":
                 return milliliters / 946.353; // 1 quart = 946.353 milliliters
-            case "pint":
+            case "pint","pt":
                 return milliliters / 473.176; // 1 pint = 473.176 milliliters
-            case "cup":
+            case "cup","cups":
                 return milliliters / 236.588; // 1 cup = 236.588 milliliters
-            case "fluid oz":
+            case "oz":
                 return milliliters / 29.5735; // 1 fluid ounce = 29.5735 milliliters
             case "tbsp":
                 return milliliters / 14.7868; // 1 tablespoon = 14.7868 milliliters
