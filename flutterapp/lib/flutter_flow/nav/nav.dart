@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:foodappproject/recipefullinfo/recipe_full_info_widget.dart';
+import 'package:foodappproject/recipefullinfo/recipe_reviews_widget.dart';
 import 'package:provider/provider.dart';
 
 import '/index.dart';
@@ -57,6 +58,13 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           path: '/RecipeFullInfo',
           builder: (context, params) => const NavBarPage(initialPage: '',
             page: RecipeFullInfoWidget(),
+          ),
+        ),
+        FFRoute(
+          name: 'RecipeReviews',
+          path: '/Reviews',
+          builder: (context, params) => const NavBarPage(initialPage: '',
+            page: RecipeReviewsWidget(),
           ),
         ),
         // MARK: FridgeRoute

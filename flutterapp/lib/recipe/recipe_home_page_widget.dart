@@ -1,4 +1,5 @@
 import 'package:foodappproject/app_data.dart';
+import 'package:foodappproject/app_shared.dart';
 
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
@@ -38,16 +39,7 @@ class _RecipeHomePageWidgetState extends State<RecipeHomePageWidget> {
     ],
     youtubeVid: "https://www.youtube.com/watch?v=MHMQi9jygMA",
     description:
-        '''Classic *Italian* pasta dish with creamy egg and cheese sauce, topped with crispy pancetta
-
-# Creamy
-
-## Italian
-
----
-
-### Seasoning
-
+        '''Classic *Italian* pasta dish with creamy egg and cheese sauce, topped with crispy pancetta.
 I ***love*** italian seasoning. It ~~isn't~~ delicious.
         ''',
     backdrop:
@@ -101,15 +93,7 @@ I ***love*** italian seasoning. It ~~isn't~~ delicious.
             mainAxisSize: MainAxisSize.max,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(
-                'Recipes',
-                style: FlutterFlowTheme.of(context).bodyMedium.override(
-                      fontFamily: 'Readex Pro',
-                      fontSize: 35.0,
-                      letterSpacing: 0.0,
-                      fontWeight: FontWeight.normal,
-                    ),
-              ),
+              const PageHeader(text: "Recipes"),
               Align(
                 alignment: AlignmentDirectional(0.93, 0.0),
                 child: Text(

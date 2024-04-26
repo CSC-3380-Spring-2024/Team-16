@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:foodappproject/app_shared.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
@@ -131,17 +132,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
               mainAxisSize: MainAxisSize.max,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(
-                      16.0, 16.0, 0.0, 16.0),
-                  child: Text(
-                    openedFridge.name,
-                    style: FlutterFlowTheme.of(context).headlineMedium.override(
-                          fontFamily: 'Outfit',
-                          letterSpacing: 0.0,
-                        ),
-                  ),
-                ),
+                PageHeader(text: openedFridge.name),
                 for (var ingredient in openedFridge.contents)//ingredients.keys)//TODO: Remove ingredients.keys (wherever that is)
                   if (ingredient.name.toLowerCase().contains(_searchQuery))
                     buildIngredient(
@@ -462,6 +453,9 @@ class _FridgeWidgetState extends State<FridgeWidget> {
   List<RecipeData> suggestedRecipes = [];
     //MARK: fetchSuggstedRecipes
   Future<List<RecipeData>> fetchSuggestedRecipes() async {
+    /// Yes i am manually making the json
+    /// i could not figure out how to make the library work
+    /// might put a TODO here to fix later :')
     String sendingBody = '{"listOfIngredients":[';
     print(sendingBody);
     for (var i = 0; i < selectedIngredients.length; i++) {
@@ -569,65 +563,37 @@ void _showRecipeDialog(BuildContext context) {
       },
     );
   }
+}
 
-  Widget _buildRecipeCard() {
-    String recipeTitle = "Delicious Iced Coffee";
-    String authorName = "John Doe";
-    String description =
-        "A simple and delightful iced coffee with whipping cream, perfect for summer.";
-    double rating = 4.5;
-    String difficulty = "Easy";
+class PageHeader extends StatelessWidget {
+  const PageHeader({
+    super.key,
+    required this.text,
+  });
 
-    return Container(
-      margin: EdgeInsets.only(bottom: 16.0),
-      padding: EdgeInsets.all(16.0),
-      decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(8.0),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.grey.withOpacity(0.2),
-            spreadRadius: 1,
-            blurRadius: 1,
-            offset: Offset(0, 2), // Changes position of shadow
-          ),
-        ],
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(recipeTitle,
-              style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold)),
-          SizedBox(height: 4.0),
-          Text(authorName,
-              style: TextStyle(fontSize: 14.0, fontWeight: FontWeight.normal)),
-          SizedBox(height: 8.0),
-          Container(
-            width: 150.0,
-            height: 150.0,
-            decoration: BoxDecoration(
-              image: DecorationImage(
-                  image: NetworkImage(
-                      "https://media.istockphoto.com/id/483014582/photo/iced-coffee-with-whipping-cream.jpg?s=1024x1024&w=is&k=20&c=nPBZMC-YZCA7wjssHCh5UDWoEhv11GqYrwJ6s0ZIplk="),
-                  fit: BoxFit.cover),
-              borderRadius: BorderRadius.circular(8.0),
+  final String text;
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        Expanded(
+          child: Container(
+            color: FlutterFlowTheme.of(context).secondaryBackground,
+            child: Padding(
+              padding: const EdgeInsetsDirectional.fromSTEB(
+                  16.0, 16.0, 0.0, 16.0),
+              child: Text(
+                text,
+                style: FlutterFlowTheme.of(context).headlineMedium.override(
+                      fontFamily: 'Outfit',
+                      letterSpacing: 0.0,
+                    ),
+              ),
             ),
           ),
-          SizedBox(height: 8.0),
-          Text(description,
-              maxLines: 3,
-              overflow: TextOverflow.ellipsis,
-              style: TextStyle(fontSize: 14.0)),
-          SizedBox(height: 8.0),
-          Row(
-            children: [
-              Text("⭐ $rating", style: TextStyle(fontSize: 14.0)),
-              Spacer(),
-              Text("Difficulty: $difficulty", style: TextStyle(fontSize: 14.0)),
-            ],
-          ),
-        ],
-      ),
+        ),
+      ],
     );
   }
 }
@@ -645,136 +611,78 @@ class RecipeCard extends StatelessWidget {
     FlutterFlowTheme ffTheme = FlutterFlowTheme.of(context);
     return Padding(
       padding: const EdgeInsets.all(8.0),
-      child: Container(
-        padding: const EdgeInsets.all(25.0),
-        decoration: BoxDecoration(
-          color: Color.fromARGB(255,255,255,255),
-          borderRadius: BorderRadius.circular(40),
-        ),
-        
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Column(
-              children: [
-                SizedBox(
-                  width:90,
-                  height:90,
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(10), // Adjust the radius as needed
-                    child: Image.network(
-                      'https://th.bing.com/th/id/R.99a429149891b8331ab9a4d9dcdeca89?rik=ZFGjK2aI0XNcog&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fFresh-hot-delicious-food-wallpaper.jpg&ehk=YcpVrjnOnSm%2fhnTl3VFd3ve98wBRCKiyDEZj%2fJ43ix8%3d&risl=&pid=ImgRaw&r=0', // Replace with your image URL
-                      fit: BoxFit.cover, // Adjust the fit mode (cover, contain, etc.)
+      child: InkWell(
+        borderRadius: BorderRadius.circular(40),
+        onTap:() {
+          AppData.viewedRecipe = recipeData;
+          context.pushNamed("RecipeFullInfo");
+        },
+        child: Ink(
+          padding: const EdgeInsets.all(25.0),
+          decoration: BoxDecoration(
+            color: ffTheme.secondaryBackground,
+            borderRadius: BorderRadius.circular(40),
+          ),
+          
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Column(
+                children: [
+                  SizedBox(
+                    width:90,
+                    height:90,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(10), // Adjust the radius as needed
+                      child: Image.network(
+                        'https://th.bing.com/th/id/R.99a429149891b8331ab9a4d9dcdeca89?rik=ZFGjK2aI0XNcog&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fFresh-hot-delicious-food-wallpaper.jpg&ehk=YcpVrjnOnSm%2fhnTl3VFd3ve98wBRCKiyDEZj%2fJ43ix8%3d&risl=&pid=ImgRaw&r=0', // Replace with your image URL
+                        fit: BoxFit.cover, // Adjust the fit mode (cover, contain, etc.)
+                      ),
                     ),
                   ),
+                  const Padding(padding: EdgeInsets.all(8)),
+                  buildRecipeTidbit("${recipeData.ingredients.length} Ingredients", 0, FlutterFlowTheme.of(context)),
+                  buildRecipeTidbit("${recipeData.servingSize} Servings", 0, FlutterFlowTheme.of(context)),
+                  buildRecipeTidbit("1 Substitution", 1, FlutterFlowTheme.of(context)),
+                ],
+              ),
+              const Padding(padding: EdgeInsets.all(10)),
+              Expanded(
+                flex: 2, // Takes two-thirds of the remaining space
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text( recipeData.name,
+                      style: ffTheme.bodyLarge
+                    ),
+                    const Padding(padding: EdgeInsets.all(1)),
+                    Text( "",
+                      style: ffTheme.bodySmall
+                    ),
+                    const Padding(padding: EdgeInsets.all(2)),
+                    Text( //TO MODIFY
+                      recipeData.description,
+                      style: ffTheme.labelSmall,
+                      maxLines:8,
+                      overflow: TextOverflow.ellipsis, // Truncate with ellipsis
+                    ),
+                  ],
                 ),
-                const Padding(padding: EdgeInsets.all(8)),
-                buildRecipeTidbit("${recipeData.ingredients.length} Ingredients", 0, FlutterFlowTheme.of(context)),
-                buildRecipeTidbit("${recipeData.servingSize} Servings", 0, FlutterFlowTheme.of(context)),
-                buildRecipeTidbit("1 Substitution", 1, FlutterFlowTheme.of(context)),
-              ],
-            ),
-            const Padding(padding: EdgeInsets.all(10)),
-            Expanded(
-              flex: 2, // Takes two-thirds of the remaining space
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text( recipeData.name,
-                    style: ffTheme.bodyLarge
-                  ),
-                  const Padding(padding: EdgeInsets.all(1)),
-                  Text( "",
-                    style: ffTheme.bodySmall
-                  ),
-                  const Padding(padding: EdgeInsets.all(2)),
-                  Text( //TO MODIFY
-                    recipeData.description,
-                    style: ffTheme.labelSmall,
-                    maxLines:8,
-                    overflow: TextOverflow.ellipsis, // Truncate with ellipsis
-                  ),
-                ],
               ),
-            ),
-            const Padding(padding: EdgeInsets.all(10)),
-            Expanded(
-              flex: 1, // Takes one-third of the remaining space
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text( "Rating:",
-                    style: ffTheme.bodySmall
-                  ),
-                  Row(
-                    children: [
-                      SizedBox(
-                        width: 24.0,
-                        child: Text(
-                          recipeData.starRating.toString(),
-                          style: ffTheme.bodySmall,
-                      ),
-                      ),
-                      Expanded(
-                        child: Container(
-                          height: 5.0,
-                          decoration: BoxDecoration(
-                            color: Colors.grey, // Background fill color
-                            borderRadius: BorderRadius.circular(5.0),
-                          ),
-                          child: FractionallySizedBox(
-                            alignment: Alignment.centerLeft,
-                            widthFactor: recipeData.starRating/5,
-                            child: Container(
-                              decoration: BoxDecoration(
-                                color: _calculateBarColor((recipeData.starRating-1)/4), // Foreground fill color
-                                borderRadius: BorderRadius.circular(5.0),
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                  Text( "Difficulty:",
-                    style: ffTheme.bodySmall
-                  ),
-                  Row(
-                    
-                    children: [
-                      SizedBox(
-                        width: 24.0,
-                        child: Text(
-                          recipeData.difficultyRating.toString(),
-                          style: ffTheme.bodySmall,
-                      ),
-                      ),
-                      Expanded(
-                        child: Container(
-                          height: 5.0,
-                          decoration: BoxDecoration(
-                            color: Colors.grey, // Background fill color
-                            borderRadius: BorderRadius.circular(5.0),
-                          ),
-                          child: FractionallySizedBox(
-                            alignment: Alignment.centerLeft,
-                            widthFactor:  recipeData.difficultyRating/5,
-                            child: Container(
-                              decoration: BoxDecoration(
-                                color: _calculateBarColor(1-((recipeData.difficultyRating-1)/4)), // Foreground fill color
-                                borderRadius: BorderRadius.circular(5.0),
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                  buildRecipeTidbit("4,324 Reviews", 2, ffTheme)
-                ],
+              const Padding(padding: EdgeInsets.all(10)),
+              Expanded(
+                flex: 1, // Takes one-third of the remaining space
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    RecipeValueBar(recipeData: recipeData, isRating: true),
+                    RecipeValueBar(recipeData: recipeData, isRating: false),
+                    buildRecipeTidbit("4,324 Reviews", 2, ffTheme)
+                  ],
+                ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
@@ -804,6 +712,7 @@ class RecipeCard extends StatelessWidget {
     );
   }
 }
+
 
 Color _calculateBarColor(double percentage) {
   if (percentage < 0.5) {
