@@ -138,3 +138,7 @@ class RecipeData {
     };
   }
 }
+
+class AppData {
+  static RecipeData? viewedRecipe;
+}

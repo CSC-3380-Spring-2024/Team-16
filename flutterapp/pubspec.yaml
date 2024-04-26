@@ -27,6 +27,7 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
+  flutter_markdown: 0.6.20
   http: 1.2.1
   auto_size_text: 3.0.0
   cached_network_image: 3.3.1

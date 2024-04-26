@@ -44,6 +44,8 @@ class FFAppState extends ChangeNotifier {
   ];
   ////////////////////////////////////////////////////
   
+  RecipeData? viewedRecipe;
+
   String _savedText = '';
   String get savedText => _savedText;
   set savedText(String value) {

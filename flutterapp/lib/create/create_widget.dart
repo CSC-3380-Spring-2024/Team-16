@@ -1,6 +1,8 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:foodappproject/app_data.dart';
+import 'package:foodappproject/app_shared.dart';
 import 'package:image_picker/image_picker.dart'; // Import the image picker package
 
 import '/flutter_flow/flutter_flow_theme.dart';
@@ -26,6 +28,10 @@ class _CreateWidgetState extends State<CreateWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   List<Map<String, String>> ingredients = [];
+  List<IngredientData> testIngredients = [
+    IngredientData(name: "benis", quantity: "46 g", expiry: 4),
+    IngredientData(name: "bonis", quantity: "47 lb", expiry: 3)
+    ];
   List<String> units = ["pieces", "grams", "ounces", "ml", "liters"];
   List<String> methods = [];
 
@@ -278,6 +284,7 @@ Widget build(BuildContext context) {
                   onTap: () => _showAddIngredientDialog(isEditing: true, index: ingredients.indexOf(ingredient)),
                 ),
               )).toList(),
+              ReorderableExample(editable: true, items: testIngredients, header: "Ingredients"),
               ElevatedButton(
                 onPressed: () => _showAddIngredientDialog(),
                 child: const Text('Add Ingredient'),
@@ -291,9 +298,16 @@ Widget build(BuildContext context) {
               ),
               const SizedBox(height: 20),
               Text('Method', style: Theme.of(context).textTheme.headline6),
+
+
+
+
+
+
               ReorderableListView(
                 shrinkWrap: true,
-                physics: NeverScrollableScrollPhysics(), // to prevent scrolling within the view
+                physics: NeverScrollableScrollPhysics(),
+                onReorder: _onReorderMethod, // to prevent scrolling within the view
                 children: [
                   for (int index = 0; index < methods.length; index++)
                     Dismissible(
@@ -322,8 +336,13 @@ Widget build(BuildContext context) {
                       ),
                     ),
                 ],
-                onReorder: _onReorderMethod,
               ),
+
+
+
+
+
+              
               ElevatedButton(
                 onPressed: () => _showAddMethodDialog(),
                 child: const Text('Add Method'),
