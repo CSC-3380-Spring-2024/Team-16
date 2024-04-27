@@ -48,6 +48,9 @@ public class Pantry {
             }
         }
     }
+    public Ingredient getIngredientByName(String name) {
+        return ingredients.get(name);
+    }
     // Method to use the ingredients from a recipe in the pantry
     public static void useRecipeIngredientsInPantry(Recipe recipe, Pantry pantry) {
         for (Ingredient ingredient : recipe.getAllIngredients().values()) {
