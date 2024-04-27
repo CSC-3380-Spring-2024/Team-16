@@ -47,7 +47,7 @@ public class IngredientInfoService {
 
     private List<String> retrieveStrings(String similarityTable) {
         // Implement logic to retrieve matching strings from MongoDB based on similarityTable
-        // You can use mongoTemplate or any other method to query the database
+        // use mongoTemplate or any other method to query the database
         // For now, let's return an empty list as a placeholder
         if (similarityTable == "") return null;
         return Arrays.asList("Carrot", "Beetroot", "Turnip", "Radish", "Parsnip", "Rutabaga", "Horseradish");
