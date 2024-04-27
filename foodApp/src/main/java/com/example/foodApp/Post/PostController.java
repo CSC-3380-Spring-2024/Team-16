@@ -2,11 +2,9 @@ package com.example.foodApp.Post;
 
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -18,6 +16,13 @@ public class PostController
     @Autowired
     private PostService postService;
 
+
+
+    @GetMapping("/getAll")
+    public ResponseEntity<List<Post>> allPost()
+    {
+        return new ResponseEntity<List<Post>>(postService.allPost(),HttpStatus.OK);
+    }
 
     /**
      * @apiNote

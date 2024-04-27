@@ -8,6 +8,8 @@ import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class PostService
 {
@@ -15,6 +17,9 @@ public class PostService
     private PostRespository postRespository;
     @Autowired
     private MongoTemplate mongoTemplate;
+
+
+    public List<Post> allPost() {return postRespository.findAll();}
 
     public String createPost (String caption, String username, ObjectId reference, byte[] photoImage)
     {

@@ -24,9 +24,10 @@ public class CommentController
     private MongoTemplate mongoTemplate;
 
 //    @GetMapping("/comment")
-//    public ResponseEntity<String> getallComment (@RequestBody List<String> payload)
+//    public ResponseEntity<String> getallComment (@RequestBody  ObjectId id)
 //    {
-//        return "..."
+//
+//        return;
 //    }
 
     /**
@@ -35,7 +36,7 @@ public class CommentController
      * [
      *     "Jonh Doe", // username
      *     "This post is a amazing", // comment
-     *     "66233a7b4d364a7c8cc383bb" // valid Objectid
+     *     "66233a7b4d364a7c8cc383bb" // valid Post obejctID
      * ]
      * @param payload
      * @return
