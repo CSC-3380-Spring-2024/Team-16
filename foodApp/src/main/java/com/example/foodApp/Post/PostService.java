@@ -35,11 +35,11 @@ public class PostService
         return allPosts;
     }
 
-    public String createPost (String caption, String username, ObjectId reference, byte[] photoImage)
+    public String createPost (String caption, String username, ObjectId reference, byte[] photoImage, String imageFormat)
     {
-        if(photoImage != null)
+        if(photoImage != null && imageFormat != null)
         {
-            Post createPost = postRespository.insert(new Post(reference,caption,username,photoImage));
+            Post createPost = postRespository.insert(new Post(reference,caption,username,photoImage,imageFormat));
 
             mongoTemplate.update(Account.class)
                     .matching(Criteria.where("username").is(username))

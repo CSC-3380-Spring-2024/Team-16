@@ -24,13 +24,15 @@ public class Post
     private List<String> like;
     private List<String> disLike;
     private byte[] uploadImage;
+    private String imageFormat;
 
-    public Post (ObjectId reference, String caption, String username, byte [] uploadImage)
+    public Post (ObjectId reference, String caption, String username, byte [] uploadImage,String imageFormat)
     {
         this.reference = reference;
         this.caption = caption;
         this.username = username;
         this.uploadImage = uploadImage;
+        this.imageFormat = imageFormat;
     }
 
     public Post(ObjectId reference, String caption, String username)

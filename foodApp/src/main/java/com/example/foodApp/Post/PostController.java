@@ -54,18 +54,19 @@ public class PostController
 
         if(payload.size() != 4)
         {
-             createPost = postService.createPost(caption,username,referenceId,null);
+             createPost = postService.createPost(caption,username,referenceId,null, null);
             return ResponseEntity.ok(createPost);
         }
             String image = payload.get(4);
 
             byte[] binaryImage = imageConverter.base64Tobinary(image);
+            String imageFormat = imageConverter.getImageFormat();
 
-            if (binaryImage == null) {
+            if (binaryImage == null || imageFormat == null) {
                 return ResponseEntity.unprocessableEntity().body("image conversion failed");
             }
 
-            createPost = postService.createPost(caption, username, referenceId, binaryImage);
+            createPost = postService.createPost(caption, username, referenceId, binaryImage, imageFormat);
 
             return ResponseEntity.ok(createPost);
 
