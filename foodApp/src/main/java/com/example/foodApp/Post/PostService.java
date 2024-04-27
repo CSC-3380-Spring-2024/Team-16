@@ -19,7 +19,21 @@ public class PostService
     private MongoTemplate mongoTemplate;
 
 
-    public List<Post> allPost() {return postRespository.findAll();}
+    public List<Post> getAllPostsRanked() {
+        List<Post> allPosts = postRespository.findAll();
+        allPosts.sort((post1, post2) -> {
+
+            int score1 = (post1.getLike() != null ? post1.getLike().size() : 0)
+                    - (post1.getDisLike() != null ? post1.getDisLike().size() : 0);
+
+
+            int score2 = (post2.getLike() != null ? post2.getLike().size() : 0)
+                    - (post2.getDisLike() != null ? post2.getLike().size() : 0);
+
+            return score2 - score1;
+        });
+        return allPosts;
+    }
 
     public String createPost (String caption, String username, ObjectId reference, byte[] photoImage)
     {

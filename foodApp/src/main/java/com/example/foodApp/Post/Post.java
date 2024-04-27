@@ -22,6 +22,7 @@ public class Post
     private String caption;
     private String username;
     private List<String> like;
+    private List<String> disLike;
     private byte[] uploadImage;
 
     public Post (ObjectId reference, String caption, String username, byte [] uploadImage)
