@@ -184,11 +184,23 @@ class _RecipeFullInfoWidgetState extends State<RecipeFullInfoWidget> {
                       borderRadius: BorderRadius.circular(16),
                     ),
                     
-                    child: MarkdownBody(
-                      data: AppData.viewedRecipe!.description,
-                      styleSheet: MarkdownStyleSheet(
-                        p: FlutterFlowTheme.of(context).bodyMedium,
-                      ),
+                    child: Column(
+                      children: [
+                        Text(
+                          "Description",
+                          style: FlutterFlowTheme.of(context).titleLarge.override(
+                                fontFamily: 'Outfit',
+                                letterSpacing: 0.0,
+                              ),
+                        ),
+                        const SizedBox(height: 4),
+                        MarkdownBody(
+                          data: AppData.viewedRecipe!.description,
+                          styleSheet: MarkdownStyleSheet(
+                            p: FlutterFlowTheme.of(context).bodyMedium,
+                          ),
+                        ),
+                      ],
                     ),
                   ),
                   ReorderableExample(

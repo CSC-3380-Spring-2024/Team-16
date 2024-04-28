@@ -1,3 +1,5 @@
+import 'dart:collection';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:foodappproject/app_data.dart';
@@ -45,12 +47,15 @@ class ReorderableExample extends StatefulWidget {
   late List<dynamic> items;
   late bool editable;
   late String header;
+  late Function(List<dynamic>)? dialogMethod;
 
   ReorderableExample({
     super.key,
     required this.editable,
     required this.items,
-    required this.header,
+    required this.header, 
+    this.dialogMethod,
+    //void Function(List<Map<String,String>>)? dialogMethod,
     });
 
   @override
@@ -63,7 +68,6 @@ class _ReorderableListViewExampleState extends State<ReorderableExample> {
   Widget build(BuildContext conext) {
     
     FlutterFlowTheme ffTheme = FlutterFlowTheme.of(context);
-    print(widget.items.length);
 
     return Padding(
       padding: const EdgeInsetsDirectional.fromSTEB(0, 8.0,0,0),
@@ -76,12 +80,15 @@ class _ReorderableListViewExampleState extends State<ReorderableExample> {
           padding: const EdgeInsets.all(4.0),
           child: Column(
             children: [
-              Text(
-                widget.header,
-                style: FlutterFlowTheme.of(context).titleLarge.override(
-                      fontFamily: 'Outfit',
-                      letterSpacing: 0.0,
-                    ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text(
+                  widget.header,
+                  style: FlutterFlowTheme.of(context).titleLarge.override(
+                        fontFamily: 'Outfit',
+                        letterSpacing: 0.0,
+                      ),
+                ),
               ),
               ReorderableListView(
                 buildDefaultDragHandles: widget.editable ? true : false,
@@ -95,17 +102,31 @@ class _ReorderableListViewExampleState extends State<ReorderableExample> {
                     Dismissible(
                       key: UniqueKey(),
                       //Dismissible bs
-                      direction: widget.editable ? DismissDirection.endToStart : DismissDirection.none,
+                      direction: widget.editable ? DismissDirection.endToStart : DismissDirection.startToEnd,
                       onDismissed: (direction) {
-                        setState(() {
-                          //widget.items.removeWhere((item) => item['name'] == ingredient['name']);
-                          widget.items.removeAt(index);
-                        });
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          SnackBar(
-                            content: Text("${widget.items[index]} dismissed", style: FlutterFlowTheme.of(context).bodySmall),
-                          ),
-                        );
+                        if (direction == DismissDirection.endToStart) {
+                          setState(() {
+                            //widget.items.removeWhere((item) => item['name'] == ingredient['name']);
+                            widget.items.removeAt(index);
+                          });
+                          ScaffoldMessenger.of(context).showSnackBar(
+                            SnackBar(
+                              content: Text("${widget.items[index]} dismissed", style: FlutterFlowTheme.of(context).bodySmall),
+                            ),
+                          );
+                        } else {
+                          
+                        }
+                      },
+                      confirmDismiss: (DismissDirection direction) async {
+                        if (direction == DismissDirection.endToStart) {
+                          return true;
+                        } else {
+                          setState(() {
+                            
+                          });
+                          return false;
+                        }
                       },
                       /*background: Container(
                         color: FlutterFlowTheme.of(context).secondaryBackground,
@@ -115,16 +136,23 @@ class _ReorderableListViewExampleState extends State<ReorderableExample> {
                       ),*/
                       ////////////////
                       
-                      child: Container(
-                        decoration: BoxDecoration(
-                          color: FlutterFlowTheme.of(context).primaryBackground,
-                          borderRadius: BorderRadius.circular(8.0),
-                          border: Border.all(color: const Color.fromARGB(255, 106, 106, 106))
+                      child: Padding(
+                        padding: const EdgeInsets.all(2.0),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: FlutterFlowTheme.of(context).primaryBackground,
+                            borderRadius: BorderRadius.circular(8.0),
+                            //border: Border.all(color: const Color.fromARGB(255, 106, 106, 106))
+                            ),
+                          child: Container(
+                            child: ListTile(
+                              title: widget.items.isNotEmpty ? widget.items.first is List
+                                ? Text('${widget.items[index][1]}			|  ${widget.items[index][0]}',style: FlutterFlowTheme.of(context).bodySmall)
+                                : widget.items.first is Map
+                                ? Text('${widget.items[index]["quantity"]} ${widget.items[index]["unit"]}  | ${widget.items[index]["name"]}',style: FlutterFlowTheme.of(context).bodySmall)
+                                : Text('${index+1}			|  ${widget.items[index]}',style: FlutterFlowTheme.of(context).bodySmall) : const SizedBox(),
+                            ),
                           ),
-                        child: ListTile(
-                          title: widget.items.first.runtimeType == List 
-                            ? Text('${widget.items[index][1]}			|  ${widget.items[index][0]}',style: FlutterFlowTheme.of(context).bodySmall)
-                            : Text('$index			|  ${widget.items[index]}',style: FlutterFlowTheme.of(context).bodySmall),
                         ),
                       ),
                     ),
@@ -150,16 +178,18 @@ class _ReorderableListViewExampleState extends State<ReorderableExample> {
               ),
               Visibility(
                 visible: widget.editable ? true : false,
-                child: ElevatedButton(
-                  onPressed: () {},//=> _showAddIngredientDialog(),
-                  child: const Text('Add Ingredient'),
-                  style: ElevatedButton.styleFrom(
+                child: TextButton(
+                  onPressed: () {
+                    widget.dialogMethod!(widget.items);
+                  },
+                  child: const Text('+ Add...'),
+                  /*style: ElevatedButton.styleFrom(
                     foregroundColor: Colors.white,
                     backgroundColor: Colors.blue,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(8.0),
                     ),
-                  ),
+                  ),*/
                 ),
               ),
             ],

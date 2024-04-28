@@ -84,7 +84,7 @@ class RecipeData {
   String? youtubeVid;
   String description;
   String? backdrop;
-  int? peopleReviewed;
+  int? peopleReviewed = 0;
   List<List<dynamic>> ingredients;
   Map<String, dynamic>? allIngredients;
   String? uploadImage;
@@ -140,5 +140,47 @@ class RecipeData {
 }
 
 class AppData {
-  static RecipeData? viewedRecipe;
+  static String? currentUser;
+  static RecipeData? viewedRecipe = dummyRecipe;
+  static bool isTrackingRecipe = false;
+  //static List<String> draftRecipe;
+
+  /*
+   * placeholder data used for quick hotloading n stuff
+   */
+  static RecipeData dummyRecipe = RecipeData(
+    name: "Spaghetti Carbonara",
+    starRating: 2.1,
+    difficultyRating: 4.5,
+    servingSize: 4,
+    method: [
+      "Boil water in a large pot.",
+      "Cook spaghetti according to package instructions.",
+      "In a skillet, cook pancetta until crispy.",
+      "Whisk together eggs, cheese, and black pepper.",
+      "Drain spaghetti and toss with egg mixture.",
+      "Add pancetta and mix well. Serve hot."
+    ],
+    youtubeVid: "https://www.youtube.com/watch?v=MHMQi9jygMA",
+    description:
+        "Classic Italian pasta dish with creamy egg and cheese sauce, topped with crispy pancetta.",
+    backdrop:
+        "https://example.com/spaghetti_carbonara_backdrop.jpg",
+    peopleReviewed: 50,
+    ingredients: [
+      ["Spaghetti", "200g"],
+      ["Eggs", "2"],
+      ["Pancetta", "100g"],
+      ["Grated Parmesan cheese", "50g"],
+      ["Black pepper", "to taste"],
+    ],
+    allIngredients: {
+      "Spaghetti": "200g",
+      "Eggs": "2",
+      "Pancetta": "100g",
+      "Grated Parmesan cheese": "50g",
+      "Black pepper": "0g",
+    },
+  );
+
 }

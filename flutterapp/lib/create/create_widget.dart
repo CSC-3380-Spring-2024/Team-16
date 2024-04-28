@@ -1,9 +1,11 @@
+import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:foodappproject/app_data.dart';
 import 'package:foodappproject/app_shared.dart';
 import 'package:image_picker/image_picker.dart'; // Import the image picker package
+import 'package:numberpicker/numberpicker.dart';
 
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -21,18 +23,23 @@ class CreateWidget extends StatefulWidget {
 }
 
 class _CreateWidgetState extends State<CreateWidget> {
+  TextEditingController recipeNameController = TextEditingController();
+  TextEditingController recipeDescriptionController = TextEditingController();
+  int servingSize = 1;
+  int difficultyRating = 1;
+  String dialogSelectedUnit = "g";
   late CreateModel _model;
   final ImagePicker _picker = ImagePicker();
   File? _imageFile;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
-  List<Map<String, String>> ingredients = [];
-  List<IngredientData> testIngredients = [
+  List<Map<String, String>> ingredients = [];//{"name":"Benis","quantity":"86","unit":"lb"}];
+  /*List<IngredientData> testIngredients = [
     IngredientData(name: "benis", quantity: "46 g", expiry: 4),
     IngredientData(name: "bonis", quantity: "47 lb", expiry: 3)
-    ];
-  List<String> units = ["pieces", "grams", "ounces", "ml", "liters"];
+    ];*/
+  List<String> units = ["L", "mL","oz","cup","g", "kg","lb","tsp","tbsp","unit"];
   List<String> methods = [];
 
   @override
@@ -61,27 +68,38 @@ class _CreateWidgetState extends State<CreateWidget> {
   void _postRecipe() {
     // Implement your logic to handle recipe posting, e.g., uploading to a server
     print('Posting recipe with image path: ${_imageFile?.path}');
+
+    List<List<String>> processedIngredients = [];
+    for (Map<String,String> ingredient in ingredients) {
+      processedIngredients.add([ingredient["name"]!,"${ingredient["quantity"]!} ${ingredient["unit"]}"]);
+    }
+    //build recipe data ( no, i still cannot automate this :( )
+    var outerBody = {};
+    var body = {};
+    body["name"]=recipeNameController.text;
+    body["starRating"]=2.5;//This is ignored on the server
+    body["difficultyRaing"]=difficultyRating; //TODO: USER SPECIFIED DIFFICULTY
+    body["servingSize"]=servingSize; //TODO: SEE ABOVE
+    body["ingredients"]=processedIngredients;
+    body["method"]=methods;
+    body["description"]=recipeDescriptionController.text;
+    body["backdrop"]="";
+    body["peopleReviewed"]=0;
+    outerBody["recipe"]=body;
+    outerBody["username"]=AppData?.currentUser;
+    print(json.encode(outerBody));
   }
 
-  void _showAddIngredientDialog({bool isEditing = false, int? index}) {
+  void _showAddIngredientDialog(List<dynamic> unused) {
     TextEditingController nameController = TextEditingController();
     TextEditingController quantityController = TextEditingController();
-    String dialogSelectedUnit = units.first;
-
-    if (isEditing && index != null) {
-      Map<String, String> ingredient = ingredients[index];
-      nameController.text = ingredient['name']!;
-      quantityController.text = ingredient['quantity']!;
-      dialogSelectedUnit = ingredient['unit']!;
-    }
-
     showDialog(
       context: context,
       builder: (BuildContext context) {
         return StatefulBuilder(
           builder: (BuildContext context, StateSetter setDialogState) {
             return AlertDialog(
-              title: Text(isEditing ? 'Edit Ingredient' : 'Add Ingredient'),
+              title: const Text('Add Ingredient'),
               content: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
@@ -90,7 +108,6 @@ class _CreateWidgetState extends State<CreateWidget> {
                     decoration: const InputDecoration(
                       labelText: 'Ingredient Name',
                     ),
-                    enabled: !isEditing,
                   ),
                   TextField(
                     controller: quantityController,
@@ -102,6 +119,9 @@ class _CreateWidgetState extends State<CreateWidget> {
                       FilteringTextInputFormatter.allow(RegExp(r'^\d*\.?\d*')),
                     ],
                   ),
+                  
+
+
                   DropdownButton<String>(
                     value: dialogSelectedUnit,
                     isExpanded: true,
@@ -117,6 +137,8 @@ class _CreateWidgetState extends State<CreateWidget> {
                       );
                     }).toList(),
                   ),
+
+
                 ],
               ),
               actions: <Widget>[
@@ -137,23 +159,14 @@ class _CreateWidgetState extends State<CreateWidget> {
                       return;
                     }
 
-                    if (isEditing && index != null) {
-                      setState(() {
-                        ingredients[index] = {
-                          "name": nameController.text,
-                          "quantity": quantityController.text,
-                          "unit": dialogSelectedUnit
-                        };
+                    setState(() {
+                      ingredients.add({
+                        "name": nameController.text,
+                        "quantity": quantityController.text,
+                        "unit": dialogSelectedUnit
                       });
-                    } else {
-                      setState(() {
-                        ingredients.add({
-                          "name": nameController.text,
-                          "quantity": quantityController.text,
-                          "unit": dialogSelectedUnit
-                        });
-                      });
-                    }
+                    });
+
                     Navigator.of(context).pop();
                   },
                 ),
@@ -165,17 +178,14 @@ class _CreateWidgetState extends State<CreateWidget> {
     );
   }
 
-  void _showAddMethodDialog({bool isEditing = false, int? index}) {
+  void _showAddMethodDialog(List<dynamic> methods) {
     TextEditingController methodController = TextEditingController();
-    if (isEditing && index != null) {
-      methodController.text = methods[index];
-    }
 
     showDialog(
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Text(isEditing ? 'Edit Method' : 'Add Method'),
+          title: const Text('Add Method'),
           content: TextField(
             controller: methodController,
             decoration: const InputDecoration(
@@ -199,17 +209,10 @@ class _CreateWidgetState extends State<CreateWidget> {
                     ),
                   );
                   return;
-                }
-                
-                if (isEditing && index != null) {
-                  setState(() {
-                    methods[index] = methodController.text;
-                  });
-                } else {
-                  setState(() {
-                    methods.add(methodController.text);
-                  });
-                }
+                }                
+                setState(() {
+                  methods.add(methodController.text);
+                });
                 Navigator.of(context).pop();
               },
             ),
@@ -219,141 +222,121 @@ class _CreateWidgetState extends State<CreateWidget> {
     );
   }
 
-  void _onReorderMethod(int oldIndex, int newIndex) {
-    setState(() {
-      if (newIndex > oldIndex) {
-        newIndex -= 1;
-      }
-      final item = methods.removeAt(oldIndex);
-      methods.insert(newIndex, item);
-    });
-  }
-
   @override
 Widget build(BuildContext context) {
+  FlutterFlowTheme ffTheme = FlutterFlowTheme.of(context);
   return GestureDetector(
     onTap: () => FocusScope.of(context).unfocus(),
     child: Scaffold(
+      backgroundColor: ffTheme.primaryBackground,
       key: scaffoldKey,
       appBar: AppBar(
-        title: const Text('Create Recipe'),
+        title: Text('Create Recipe',style: ffTheme.headlineMedium,),
         centerTitle: true,
         elevation: 0,
-        backgroundColor: Colors.white,
-        iconTheme: IconThemeData(color: Colors.black),
+        backgroundColor: ffTheme.secondaryBackground,
+        iconTheme: IconThemeData(color: ffTheme.primaryText),
       ),
       body: SafeArea(
         child: SingleChildScrollView(
-          padding: const EdgeInsets.all(16.0),
+          padding: const EdgeInsets.all(8.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               TextField(
-                controller: _model.textController,
-                focusNode: _model.textFieldFocusNode,
-                decoration: InputDecoration(
+                controller: recipeNameController,
+                decoration: const InputDecoration(
                   labelText: 'Enter Recipe Name',
                   border: OutlineInputBorder(),
                   contentPadding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 12.0),
                 ),
               ),
               const SizedBox(height: 20),
-              Text('Ingredients', style: Theme.of(context).textTheme.headline6),
-              ...ingredients.map((ingredient) => Dismissible(
-                key: Key(ingredient['name']!),
-                direction: DismissDirection.endToStart,
-                onDismissed: (direction) {
-                  setState(() {
-                    ingredients.removeWhere((item) => item['name'] == ingredient['name']);
-                  });
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    SnackBar(
-                      content: Text("${ingredient['name']} dismissed"),
-                    ),
-                  );
-                },
-                background: Container(
-                  color: Colors.red,
-                  alignment: Alignment.centerRight,
-                  padding: EdgeInsets.only(right: 20.0),
-                  child: Icon(Icons.delete, color: Colors.white),
-                ),
-                child: ListTile(
-                  title: Text(ingredient['name']!),
-                  trailing: Text('${ingredient['quantity']} ${ingredient['unit']}'),
-                  onTap: () => _showAddIngredientDialog(isEditing: true, index: ingredients.indexOf(ingredient)),
-                ),
-              )).toList(),
-              ReorderableExample(editable: true, items: testIngredients, header: "Ingredients"),
-              ElevatedButton(
-                onPressed: () => _showAddIngredientDialog(),
-                child: const Text('Add Ingredient'),
-                style: ElevatedButton.styleFrom(
-                  foregroundColor: Colors.white,
-                  backgroundColor: Colors.blue,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(8.0),
+
+              //Serving Size Selector
+              Padding(
+                padding: const EdgeInsetsDirectional.fromSTEB(0, 8.0,0,0),
+                child: Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(16.0),
+                    color: ffTheme.secondaryBackground,
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.all(4.0),
+                    child: Row(
+                      children: [
+                        Column(
+                          children: [
+                            Text("Serving Size:",style: ffTheme.bodyLarge,),
+                            NumberPicker(
+                              value: servingSize,
+                              minValue: 1,
+                              maxValue: 69,
+                              onChanged: (value) => setState(() => servingSize = value)
+                            )
+                          ],
+                        ),
+                        Column(
+                          children: [
+                            Text("Difficulty:",style: ffTheme.bodyLarge,),
+                            NumberPicker(
+                              value: difficultyRating,
+                              minValue: 1,
+                              maxValue: 5,
+                              onChanged: (value) => setState(() => difficultyRating = value)
+                            )
+                          ],
+                        ),
+                      ],
+                    )
                   ),
                 ),
               ),
-              const SizedBox(height: 20),
-              Text('Method', style: Theme.of(context).textTheme.headline6),
-
-
-
-
-
-
-              ReorderableListView(
-                shrinkWrap: true,
-                physics: NeverScrollableScrollPhysics(),
-                onReorder: _onReorderMethod, // to prevent scrolling within the view
-                children: [
-                  for (int index = 0; index < methods.length; index++)
-                    Dismissible(
-                      key: Key('method_$index'),
-                      direction: DismissDirection.endToStart,
-                      onDismissed: (direction) {
-                        setState(() {
-                          methods.removeAt(index);
-                        });
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          SnackBar(
-                            content: Text("Step ${index + 1} dismissed"),
+              //Description Field
+              Padding(
+                padding: const EdgeInsetsDirectional.fromSTEB(0, 8.0,0,0),
+                child: Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(16.0),
+                    color: ffTheme.secondaryBackground,
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.all(4.0),
+                    child: Column(
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            "Description",
+                            style: FlutterFlowTheme.of(context).titleLarge.override(
+                                  fontFamily: 'Outfit',
+                                  letterSpacing: 0.0,
+                                ),
                           ),
-                        );
-                      },
-                      background: Container(
-                        color: Colors.red,
-                        alignment: Alignment.centerRight,
-                        padding: EdgeInsets.only(right: 20.0),
-                        child: Icon(Icons.delete, color: Colors.white),
-                      ),
-                      child: ListTile(
-                        key: Key('$index'),
-                        title: Text('Step ${index + 1}: ${methods[index]}'),
-                        onTap: () => _showAddMethodDialog(isEditing: true, index: index),
-                      ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: TextField(
+                            controller: recipeDescriptionController,
+                            keyboardType: TextInputType.multiline,
+                            maxLines: null,
+                            decoration: InputDecoration(
+                              border: OutlineInputBorder(),
+                              hintText: 'Enter some information about your recipe...',
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
-                ],
-              ),
-
-
-
-
-
-              
-              ElevatedButton(
-                onPressed: () => _showAddMethodDialog(),
-                child: const Text('Add Method'),
-                style: ElevatedButton.styleFrom(
-                  foregroundColor: Colors.white,
-                  backgroundColor: Colors.green,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(8.0),
                   ),
                 ),
               ),
+
+
+              ReorderableExample(editable: true, items: ingredients, header: "Ingredients", dialogMethod: _showAddIngredientDialog,),
+              
+              ReorderableExample(editable: true, items: methods, header: "Methods", dialogMethod: _showAddMethodDialog),
+
               const SizedBox(height: 20),
               Text('Upload Image', style: Theme.of(context).textTheme.headline6),
               SizedBox(height: 10),
@@ -370,6 +353,8 @@ Widget build(BuildContext context) {
                 ),
               ),
               const SizedBox(height: 20),
+
+
               ElevatedButton(
                 onPressed: _postRecipe,
                 child: Text('Post Recipe'),
@@ -377,6 +362,8 @@ Widget build(BuildContext context) {
                   foregroundColor: Colors.white, backgroundColor: Colors.green,
                 ),
               ),
+
+
             ],
           ),
         ),
@@ -389,4 +376,8 @@ Widget build(BuildContext context) {
     ),
   );
 }
+}
+
+class ApiRecipe {
+  
 }

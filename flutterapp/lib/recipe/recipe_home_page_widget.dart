@@ -24,44 +24,6 @@ class _RecipeHomePageWidgetState extends State<RecipeHomePageWidget> {
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
-  RecipeData dummyRecipe = RecipeData(
-    name: "Spaghetti Carbonara",
-    starRating: 2.1,
-    difficultyRating: 4.5,
-    servingSize: 4,
-    method: [
-      "Boil water in a large pot.",
-      "Cook spaghetti according to package instructions.",
-      "In a skillet, cook pancetta until crispy.",
-      "Whisk together eggs, cheese, and black pepper.",
-      "Drain spaghetti and toss with egg mixture.",
-      "Add pancetta and mix well. Serve hot."
-    ],
-    youtubeVid: "https://www.youtube.com/watch?v=MHMQi9jygMA",
-    description:
-        '''Classic *Italian* pasta dish with creamy egg and cheese sauce, topped with crispy pancetta.
-I ***love*** italian seasoning. It ~~isn't~~ delicious.
-        ''',
-    backdrop:
-        "https://example.com/spaghetti_carbonara_backdrop.jpg",
-    peopleReviewed: 50,
-    ingredients: [
-      ["Spaghetti", "200g"],
-      ["Eggs", "2"],
-      ["Pancetta", "100g"],
-      ["Grated Parmesan cheese", "50g"],
-      ["Black pepper", "to taste"],
-    ],
-    allIngredients: {
-      "Spaghetti": "200g",
-      "Eggs": "2",
-      "Pancetta": "100g",
-      "Grated Parmesan cheese": "50g",
-      "Black pepper": "0g",
-    },
-  );
-
-
   @override
   void initState() {
     super.initState();
@@ -281,7 +243,7 @@ I ***love*** italian seasoning. It ~~isn't~~ delicious.
                       hoverColor: Colors.transparent,
                       highlightColor: Colors.transparent,
                       onTap: () async {
-                        AppData.viewedRecipe = dummyRecipe;
+                        AppData.viewedRecipe = AppData.dummyRecipe;
                         context.pushNamed('RecipeFullInfo');
                       },
                       child: Container(
