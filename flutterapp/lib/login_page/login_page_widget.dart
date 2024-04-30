@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
-import 'apiService.dart'; // Import your NetworkService class here
+import '../apiService/apiService.dart'; // Import your NetworkService class here
 import '/flutter_flow/flutter_flow_theme.dart';
 import 'package:flutter/material.dart';
 import 'login_page_model.dart';
