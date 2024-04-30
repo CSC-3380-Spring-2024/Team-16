@@ -1,7 +1,6 @@
 package com.example.foodApp.Post;
 
-import com.example.foodApp.Review.LikeNDislikeFilter;
-import com.example.foodApp.System.DistinctId;
+import com.example.foodApp.System.LikeNDislikeFilter;
 import com.example.foodApp.System.ImageConverter;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;

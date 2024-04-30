@@ -1,7 +1,6 @@
 package com.example.foodApp.Comment;
 
-import com.example.foodApp.Review.LikeNDislikeFilter;
-import com.example.foodApp.Review.Review;
+import com.example.foodApp.System.LikeNDislikeFilter;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;

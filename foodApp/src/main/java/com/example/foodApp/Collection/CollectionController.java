@@ -1,5 +1,7 @@
 package com.example.foodApp.Collection;
 
+import com.example.foodApp.System.DistinctId;
+import com.example.foodApp.System.ImageConverter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -9,11 +11,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/api/collection")
 public class CollectionController
 {
+
     @Autowired
     private CollectionService collectionService;
     /**
@@ -26,20 +30,44 @@ public class CollectionController
      *     },
      *     "username": "Jonh Doe" // userName
      * }
-     * @param collectionsAndName
+     * @param payload
      * @return
      */
     @PostMapping("/create")
-    public ResponseEntity<String> createCollection (@RequestBody CollectionAndUserName collectionsAndName)
+    public ResponseEntity<String> createCollection (@RequestBody CollectionNUsername payload)
     {
-        String username = collectionsAndName.getUsername();
-        Collection collection = collectionsAndName.getCollection();
-        // image converter === when merge with Post
+        String username  = payload.getUsername();;
+        Collection collection = payload.getCollection();
+
+
 
         String result = collectionService.createCollection(collection,username);
 
         return ResponseEntity.ok(result);
 
     }
+
+    /**
+     * @apiNote
+     * http://localhost:8080/api/collection/addImage
+     *
+     * {
+     *     "distinctId": "", // valid distinctId for
+     *     "uploadImage: ""
+     * }
+     * @param paylaod
+     * @return
+     */
+    @PostMapping("/addImage")
+    public ResponseEntity<String> imageCollection (@RequestBody Map<String,String> paylaod)
+    {
+        String distinctId = paylaod.get("distinctId");
+        String imagebase64 = paylaod.get("uploadImage");
+
+        String uploadImage = collectionService.addCollectionImage(distinctId,imagebase64);
+
+        return ResponseEntity.ok(uploadImage);
+    }
+
 
 }
