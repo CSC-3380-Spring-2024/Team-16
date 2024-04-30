@@ -1,8 +1,11 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:foodappproject/comments/comments_widget.dart';
+import 'package:foodappproject/grocery/grocery_widget.dart';
 import 'package:foodappproject/login_page/login_page_model.dart';
 import 'package:foodappproject/login_page/login_page_widget.dart';
+import 'package:foodappproject/login_page/signup_page_widget.dart';
 import 'package:foodappproject/recipefullinfo/recipe_full_info_widget.dart';
 import 'package:foodappproject/recipefullinfo/recipe_reviews_widget.dart';
 import 'package:provider/provider.dart';
@@ -85,6 +88,13 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           ),
         ),
         FFRoute(
+          name: 'Comments',
+          path: '/comments',
+          builder: (context, params) => const NavBarPage(initialPage: '',
+            page: CommentsWidget(),
+          ),
+        ),
+        FFRoute(
           name: 'Account',
           path: '/account',
           builder: (context, params) => params.isEmpty
@@ -93,6 +103,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
                   initialPage: 'Account',
                   page: AccountWidget(),
                 ),
+        ),
+        FFRoute(
+          name: 'Signup',
+          path: '/signup',
+          builder: (context, _) => SignupPageWidget(controller: null, obscureText: false, hintText: '', onTap: () {  },), 
         ),
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

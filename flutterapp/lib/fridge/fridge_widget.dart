@@ -132,7 +132,26 @@ class _FridgeWidgetState extends State<FridgeWidget> {
               mainAxisSize: MainAxisSize.max,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                PageHeader(text: openedFridge.name),
+                Row(
+                  children: [
+                    Expanded(
+                      child: Container(
+                        child: Padding(
+                          padding: const EdgeInsetsDirectional.fromSTEB(
+                              16.0, 16.0, 0.0, 16.0),
+                          child: Text(
+                            openedFridge.name,
+                            style: FlutterFlowTheme.of(context).headlineMedium.override(
+                                  fontFamily: 'Outfit',
+                                  letterSpacing: 0.0,
+                                ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                SizedBox(height:5),
                 for (var ingredient in openedFridge.contents)//ingredients.keys)//TODO: Remove ingredients.keys (wherever that is)
                   if (ingredient.name.toLowerCase().contains(_searchQuery))
                     buildIngredient(
@@ -187,6 +206,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                       ),
                     ),
                   ),
+                  SizedBox(height:60),
               ],
             ),
           ),
@@ -241,8 +261,6 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                 ? FlutterFlowTheme.of(context).primary
                 : FlutterFlowTheme.of(context).secondaryBackground,
             borderRadius: BorderRadius.circular(20.0),
-            border: Border.all(
-                color: const Color.fromARGB(255, 204, 199, 216)), // Apply grayish purple border
           ),
           child: Row(
             mainAxisSize: MainAxisSize.max,
