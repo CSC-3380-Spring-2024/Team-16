@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
-
+import 'apiService.dart'; // Import your NetworkService class here
 import '/flutter_flow/flutter_flow_theme.dart';
 import 'package:flutter/material.dart';
 import 'login_page_model.dart';
@@ -14,7 +14,7 @@ class LoginPageWidget extends StatelessWidget {
   final Function()? onTap;
 
   LoginPageWidget({
-    super.key,
+    Key? key,
     required this.controller,
     required this.hintText,
     required this.obscureText,
@@ -25,8 +25,18 @@ class LoginPageWidget extends StatelessWidget {
   final passwordController = TextEditingController();
 
   //USER SIGN IN METHOD HERE
-  void signin() {
+  void signin(BuildContext context) async {
+    String username = usernameController.text;
+    String password = passwordController.text;
 
+    try {
+      String message = await NetworkService.login(username, password);
+      // Handle successful login, you can navigate to another page or show a success message
+      print(message); // For demonstration, printing the message
+    } catch (e) {
+      // Handle errors, such as network errors or invalid credentials
+      print(e.toString()); // For demonstration, printing the error message
+    }
   }
 
   @override
@@ -47,7 +57,7 @@ class LoginPageWidget extends StatelessWidget {
               Text(
                 'Welcome to OnlyFoods',
                 style: TextStyle(
-                  fontWeight:FontWeight.bold ,
+                  fontWeight: FontWeight.bold,
                   fontStyle: FontStyle.italic,
                   color: Colors.black,
                   fontSize: 40,
@@ -117,7 +127,7 @@ class LoginPageWidget extends StatelessWidget {
 
               //SIGN IN BUTTON
               GestureDetector(
-                onTap: signin,
+                onTap: () => signin(context), // Pass context to signin method
                 child: Container(
                   padding: EdgeInsets.all(25),
                   margin: EdgeInsets.symmetric(horizontal: 25),
