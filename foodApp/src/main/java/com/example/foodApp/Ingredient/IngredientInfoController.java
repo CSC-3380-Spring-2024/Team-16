@@ -22,6 +22,7 @@ import com.example.foodApp.Recipe.RecipeService;
 
 @RestController
 @RequestMapping("ingredient")
+@CrossOrigin(origins = "*")
 public class IngredientInfoController {
     @Autowired
     private IngredientInfoService ingredientInfoService;

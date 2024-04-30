@@ -4,10 +4,10 @@ package com.example.foodApp.System;
 import java.util.Base64;
 
 public class ImageConverter {
-    private String base64;
+
     private static String imageFormat;
 
-    public static byte [] base64Tobinary(String image)
+    public  byte [] base64Tobinary(String image)
     {
         try
         {

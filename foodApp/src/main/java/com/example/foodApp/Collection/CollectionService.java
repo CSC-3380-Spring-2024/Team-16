@@ -19,6 +19,7 @@ public class CollectionService {
     private DistinctId distinctId;
     @Autowired
     private MongoTemplate mongoTemplate;
+    private ImageConverter imageConverter;
 
 
     public String createCollection(Collection collections, String username) {
@@ -36,7 +37,7 @@ public class CollectionService {
     {
         Query query = new Query();
 
-        byte [] image = ImageConverter.base64Tobinary(imageFile);
+        byte [] image = imageConverter.base64Tobinary(imageFile);
 
         query.addCriteria(Criteria.where("distinctId").is(distinctId));
         Collection collection = mongoTemplate.findOne(query,Collection.class);

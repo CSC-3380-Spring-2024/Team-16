@@ -23,7 +23,10 @@ public class PostService
 
 
     public List<Post> getAllPostsRanked() {
+
+
         List<Post> allPosts = postRespository.findAll();
+        // lamda function for sorting all of the posts based on net difference between dislike and like
         allPosts.sort((post1, post2) -> {
 
             int score1 = (post1.getLike() != null ? post1.getLike().size() : 0)
@@ -38,12 +41,12 @@ public class PostService
         return allPosts;
     }
 
-    public String createPost (String caption, String username, ObjectId reference, byte[] photoImage, String imageFormat)
+    public String createPost (String caption, String username, String reference, byte[] photoImage, String imageFormat, String objectReference)
     {
         String postId = distinctId.generateId();
         if(photoImage != null && imageFormat != null)
         {
-            Post createPost = postRespository.insert(new Post(reference,caption,username,photoImage,imageFormat,postId));
+            Post createPost = postRespository.insert(new Post(reference,caption,username,photoImage,imageFormat,postId,objectReference));
 
             mongoTemplate.update(Account.class)
                     .matching(Criteria.where("username").is(username))
@@ -52,7 +55,7 @@ public class PostService
         }
         else
         {
-            Post createPost = postRespository.insert(new Post(reference,caption,username,postId));
+            Post createPost = postRespository.insert(new Post(reference,caption,username,postId,objectReference));
 
             mongoTemplate.update(Account.class)
                     .matching(Criteria.where("username").is(username))

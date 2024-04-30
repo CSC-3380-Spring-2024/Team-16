@@ -26,6 +26,7 @@ public class Recipe {
     private int servingSize;
     private List<String> method;
     private byte [] uploadImage;
+    private String distinctId;
     private String youtubeVid;
     private String description;
     private String backdrop;

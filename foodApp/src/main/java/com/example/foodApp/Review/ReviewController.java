@@ -7,10 +7,7 @@
  import org.springframework.data.mongodb.core.query.Criteria;
  import org.springframework.http.HttpStatus;
  import org.springframework.http.ResponseEntity;
- import org.springframework.web.bind.annotation.PostMapping;
- import org.springframework.web.bind.annotation.RequestBody;
- import org.springframework.web.bind.annotation.RequestMapping;
- import org.springframework.web.bind.annotation.RestController;
+ import org.springframework.web.bind.annotation.*;
  import org.springframework.data.mongodb.core.query.Query;
  import org.springframework.data.mongodb.core.query.Update;
 
@@ -21,6 +18,7 @@
 
 
  @RestController
+ @CrossOrigin(origins = "*")
 @RequestMapping("/api/review")
 public class ReviewController {
 
@@ -39,7 +37,7 @@ public class ReviewController {
             [
             "Amazing Cheesecake"               // Header
             "This is amazing",                  // reviewBody
-            "66259dd4cf6c9bdb66b36f6a",         // Recipe ObjectId
+            "0a737ed7-fa83-4695-9ea9-1bf55d8aa457",         // Recipe ObjectId
             "John Doe",                         // authorName
             "3"                                 // starRating
             "3"                                 // difficultyRating
@@ -57,7 +55,7 @@ public class ReviewController {
 
         String header = payload.get(0);
         String reviewBody = payload.get(1);
-        ObjectId recipeId = new ObjectId(payload.get(2));
+        String recipeId = payload.get(2);
         String author = payload.get(3);
         double starRating = Double.parseDouble(payload.get(4));
         double difficultyRating = Double.parseDouble(payload.get(5));

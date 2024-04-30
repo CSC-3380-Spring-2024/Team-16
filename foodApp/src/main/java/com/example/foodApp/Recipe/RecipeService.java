@@ -1,6 +1,7 @@
 package com.example.foodApp.Recipe;
 
 import com.example.foodApp.AccountCreaete.Account;
+import com.example.foodApp.System.DistinctId;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
@@ -21,6 +22,8 @@ public class RecipeService {
     private RecipeRepository recipeRepository;
     @Autowired
     private MongoTemplate mongoTemplate;
+    @Autowired
+    private DistinctId distinctId;
 
     public List<Recipe> allRecipes() {
         return recipeRepository.findAll();
@@ -40,6 +43,7 @@ public class RecipeService {
 
     public Recipe addRecipe (Recipe recipe, String username)
     {
+            recipe.setDistinctId(distinctId.generateId());
         if(recipe.getName() == null || recipe.getIngredients() == null)
         {
             return null;
@@ -54,22 +58,22 @@ public class RecipeService {
             return recipe1;
         }
     }
-    public String addImage (byte [] image, ObjectId id)
+    public String addImage (byte [] image, String id)
     {
 
         Query query = new Query();
         mongoTemplate.update(Recipe.class)
-                .matching(query(where("_id").is(id)))
+                .matching(query(where("distinctId").is(id)))
                 .apply(new Update().set("uploadImage", image))
                 .first();
 
         return "upload Sucess";
     }
 
-    public String starRating (double star, ObjectId RecipeId)
+    public String starRating (double star, String RecipeId)
     {
         Query query = new Query();
-        query.addCriteria(where("_id").is(RecipeId));
+        query.addCriteria(where("distinctId").is(RecipeId));
         Recipe recipe = mongoTemplate.findOne(query, Recipe.class);
         if(recipe == null)
         {
@@ -97,10 +101,10 @@ public class RecipeService {
 
 
     }
-    public String difficultyRating (double star, ObjectId recipeId)
+    public String difficultyRating (double star, String recipeId)
     {
         Query query = new Query();
-        query.addCriteria(where("_id").is(recipeId));
+        query.addCriteria(where("distinctId").is(recipeId));
         Recipe recipe = mongoTemplate.findOne(query, Recipe.class);
         if(recipe == null)
         {

@@ -18,7 +18,7 @@ public class Post
 {
     @Id
     ObjectId id;
-    private ObjectId reference;
+    private String reference;
     private String caption;
     private String username;
     private String distinctId;
@@ -27,8 +27,9 @@ public class Post
     private byte[] uploadImage;
     private String imageFormat;
     private List<String> commentIds;
+    private String objectReference;
 
-    public Post (ObjectId reference, String caption, String username, byte [] uploadImage,String imageFormat, String distinctId)
+    public Post ( String reference, String caption, String username, byte [] uploadImage,String imageFormat, String distinctId, String objectReference )
     {
         this.reference = reference;
         this.caption = caption;
@@ -36,13 +37,15 @@ public class Post
         this.username = username;
         this.uploadImage = uploadImage;
         this.imageFormat = imageFormat;
+        this.objectReference = objectReference;
     }
 
-    public Post(ObjectId reference, String caption, String username, String distinctId)
+    public Post(String reference, String caption, String username, String distinctId, String objectReference)
     {
         this.reference = reference;
         this.caption = caption;
         this.username = username;
         this.distinctId = distinctId;
+        this.objectReference = objectReference;
     }
 }

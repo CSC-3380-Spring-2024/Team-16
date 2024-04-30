@@ -15,6 +15,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/comment")
+@CrossOrigin(origins = "*")
 public class CommentController
 {
     @Autowired
@@ -35,7 +36,7 @@ public class CommentController
      * [
      *     "Jonh Doe", // username
      *     "This post is a amazing", // comment
-     *     "66233a7b4d364a7c8cc383bb" // valid Post obejctID
+     *     "89c5372e-51c6-4569-8d1d-bf7b3fa50e6a" // valid Post obejctID
      * ]
      * @param payload
      * @return
@@ -45,9 +46,9 @@ public class CommentController
     {
         String username = payload.get(0);
         String commentBody = payload.get(1);
-        ObjectId id = new ObjectId(payload.get(2));
+        String postId = payload.get(2) ;
 
-        String update = commentService.createComment(commentBody,username,id);
+        String update = commentService.createComment(commentBody,username,postId);
 
         return ResponseEntity.ok(update);
     }
@@ -57,7 +58,7 @@ public class CommentController
      * @apiNote
      * local8080/api/comment/addLike
      * {
-     *     id = "66233a7b4d364a7c8cc383bb" // valid Comment ObjectId
+     *     id = "89c5372e-51c6-4569-8d1d-bf7b3fa50e6a" // valid Comment distinctId
      *     username = "Jonh Doe"
      * }
      * @param payload
@@ -67,10 +68,10 @@ public class CommentController
     @PostMapping("/addLike")
     public ResponseEntity<String> addLike (@RequestBody Map<String,String> payload)
     {
-        ObjectId commentId = new ObjectId(payload.get("id"));
+        String commentId = payload.get("id");
         String personName = payload.get("username");
         Query query = new Query();
-        query.addCriteria(Criteria.where("_id").is(commentId));
+        query.addCriteria(Criteria.where("distinctId").is(commentId));
         Comment comment = mongoTemplate.findOne(query, Comment.class);
 
         List<String> peopleLiked = comment.getLike();
@@ -95,7 +96,7 @@ public class CommentController
      * @apiNote
      * local8080/api/comment/addDislike
      * {
-     *     id = "66233a7b4d364a7c8cc383bb" // valid Comment ObjectId
+     *     id = "89c5372e-51c6-4569-8d1d-bf7b3fa50e6a" // valid Comment distinctId
      *     username = "Jonh Doe"
      * }
      * @param payload
@@ -104,10 +105,10 @@ public class CommentController
     @PostMapping("/addDislike")
     public ResponseEntity<String> addDislike (@RequestBody Map<String,String> payload)
     {
-        ObjectId commentId = new ObjectId(payload.get("id"));
+        String commentId = payload.get("id");
         String personName = payload.get("username");
         Query query = new Query();
-        query.addCriteria(Criteria.where("_id").is(commentId));
+        query.addCriteria(Criteria.where("distinctId").is(commentId));
         Comment comment = mongoTemplate.findOne(query, Comment.class);
 
         List<String> peopleLiked = comment.getLike();

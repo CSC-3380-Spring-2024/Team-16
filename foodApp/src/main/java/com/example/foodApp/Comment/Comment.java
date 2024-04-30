@@ -15,12 +15,14 @@ public class Comment {
     private String commentBody;
     private List<String> like;
     private List<String> dislike;
+    private String distinctId;
     private String username;
 
 
-    public Comment(String commentBody, String username) {
+    public Comment(String commentBody, String username, String distinctId) {
         this.commentBody = commentBody;
         this.username = username;
+        this.distinctId = distinctId;
     }
 
 }

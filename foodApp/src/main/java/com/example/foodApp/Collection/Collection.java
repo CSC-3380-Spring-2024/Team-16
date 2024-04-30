@@ -17,13 +17,13 @@ public class Collection {
 
     @Id
     private ObjectId id;
-    private List<ObjectId> recipeId;
+    private List<String> recipeId;
     private String collectionName;
     private byte [] image;
     private String imageFormat;
     private String distinctId;
 
-    public Collection (List<ObjectId> recipeId, String name, String distinctIds)
+    public Collection (List<String> recipeId, String name, String distinctIds)
     {
         this.collectionName = name;
         this.recipeId = recipeId;
@@ -31,7 +31,7 @@ public class Collection {
         this.imageFormat = null;
         this.distinctId = distinctIds;
     }
-    public Collection (List<ObjectId> recipeId, String name, byte [] image, String imageFormat)
+    public Collection (List<String> recipeId, String name, byte [] image, String imageFormat)
     {
         this.collectionName = name;
         this.recipeId = recipeId;

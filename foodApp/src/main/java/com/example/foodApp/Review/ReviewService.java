@@ -2,6 +2,7 @@ package com.example.foodApp.Review;
 
 
 import com.example.foodApp.Recipe.Recipe;
+import com.example.foodApp.System.DistinctId;
 import com.mongodb.internal.operation.CreateCollectionOperation;
 
 import javax.management.Query;
@@ -21,12 +22,14 @@ public class ReviewService {
     private MongoTemplate mongoTemplate;
     @Autowired
     private ReviewRepository reviewRepository;
-    public Review createReview (String header, String reviewBody, String author,ObjectId recipeId)
+    @Autowired
+    private DistinctId distinctId;
+    public Review createReview (String header, String reviewBody, String author,String recipeId)
     {
-        Review review = reviewRepository.insert(new Review(header,reviewBody,author));
+        Review review = reviewRepository.insert(new Review(header,reviewBody,author,distinctId.generateId()));
 
          mongoTemplate.update(Recipe.class)
-                 .matching(Criteria.where("_id").is(recipeId))
+                 .matching(Criteria.where("distinctId").is(recipeId))
                  .apply(new Update().push("reivewId").value(review)).first();
 
         return review;

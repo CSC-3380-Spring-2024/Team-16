@@ -21,7 +21,8 @@ public class Review {
     private ObjectId id;
     private String header;
     private String reviewBody;
-    private String author; 
+    private String author;
+    private String distinctId;
     private List<String> peopleLiked;
     private List<String> peopleDisliked;
 
@@ -29,10 +30,11 @@ public class Review {
 
 
 
-    public Review(String header,String reviewBody,String author) {
+    public Review(String header,String reviewBody,String author, String distinctId) {
         this.reviewBody = reviewBody;
         this.author = author;
         this.header = header;
+        this.distinctId = distinctId;
         
     }
 

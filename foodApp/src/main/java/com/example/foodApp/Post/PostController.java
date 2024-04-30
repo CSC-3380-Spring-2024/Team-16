@@ -17,6 +17,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/post")
+@CrossOrigin(origins = "*")
 public class PostController
 {
     private ImageConverter imageConverter;
@@ -51,26 +52,27 @@ public class PostController
         String createPost;
         String username = payload.get(0);
         String caption = payload.get(1);
-        ObjectId referenceId = new ObjectId(payload.get(2));
+        String referenceId = payload.get(2);
+        String objectReference = payload.get(3);
 
 
 
-        if(payload.size() < 4)
+        if(payload.size() < 5)
         {
-             createPost = postService.createPost(caption,username,referenceId,null, null);
+             createPost = postService.createPost(caption,username,referenceId,null, null,objectReference);
             return ResponseEntity.ok(createPost);
         }
 
             String image = payload.get(4);
 
-            byte[] binaryImage = ImageConverter.base64Tobinary(image);
+            byte[] binaryImage = imageConverter.base64Tobinary(image);
             String imageFormat = imageConverter.getImageFormat();
 
             if (binaryImage == null || imageFormat == null) {
                 return ResponseEntity.unprocessableEntity().body("image conversion failed");
             }
 
-            createPost = postService.createPost(caption, username, referenceId, binaryImage, imageFormat);
+            createPost = postService.createPost(caption, username, referenceId, binaryImage, imageFormat,objectReference);
 
             return ResponseEntity.ok(createPost);
 
@@ -79,10 +81,10 @@ public class PostController
     @PostMapping("/addLike")
     public ResponseEntity<String> addLike (@RequestBody Map<String,String> payload)
     {
-        ObjectId postId = new ObjectId(payload.get("id"));
+        String postId = payload.get("id");
         String personName = payload.get("username");
         Query query = new Query();
-        query.addCriteria(Criteria.where("_id").is(postId));
+        query.addCriteria(Criteria.where("distinctId").is(postId));
         Post post = mongoTemplate.findOne(query, Post.class);
 
         List<String> peopleLiked = post.getLike();
@@ -102,10 +104,10 @@ public class PostController
     @PostMapping("/addDislike")
     public ResponseEntity<String> addDislike (@RequestBody Map<String,String> payload)
     {
-        ObjectId postId = new ObjectId(payload.get("id"));
+       String postId = payload.get("id");
         String personName = payload.get("username");
         Query query = new Query();
-        query.addCriteria(Criteria.where("_id").is(postId));
+        query.addCriteria(Criteria.where("distinctId").is(postId));
         Post post = mongoTemplate.findOne(query, Post.class);
 
         List<String> peopleLiked = post.getLike();

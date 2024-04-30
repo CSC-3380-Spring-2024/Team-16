@@ -15,6 +15,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/recipe")
+@CrossOrigin(origins = "*")
 public class RecipeController {
     @Autowired
     private RecipeService recipeService;
@@ -113,7 +114,7 @@ public class RecipeController {
     public ResponseEntity<String> uploadImage (@RequestBody Map<String, String> payload)
     {
 
-        ObjectId id = new ObjectId(payload.get("id"));
+        String id = payload.get("id");
         String image = payload.get("image");
         try
         {
