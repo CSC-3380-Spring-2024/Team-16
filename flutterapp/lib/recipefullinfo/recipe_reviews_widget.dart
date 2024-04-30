@@ -46,6 +46,7 @@ class _RecipeReviewsWidgetState extends State<RecipeReviewsWidget> {
     super.dispose();
   }
   
+  
   @override
   Widget build(BuildContext context) {
 
@@ -60,14 +61,26 @@ return Scaffold(
   body: CustomScrollView(
     slivers: <Widget>[
       SliverAppBar(
+        backgroundColor: FlutterFlowTheme.of(context).secondaryBackground,
         pinned: true,
         floating: true,
         expandedHeight: 200.0,
         flexibleSpace: FlexibleSpaceBar(
-          title: const Text(
-            'REVIEWS FOR FOOD',
-            style: TextStyle(color: Colors.cyan, fontWeight: FontWeight.w900),
-          ),
+          title: Text(
+          'Reviews For ${AppData.viewedRecipe!.name}',
+            style: FlutterFlowTheme.of(context).bodyMedium.copyWith(
+            fontFamily: 'Readex Pro', // Specify the font family if needed
+            fontSize: 25,             // Set the font size
+            color: Colors.white,      // Set the color of the text
+            shadows: <Shadow>[
+              Shadow(
+                offset: Offset(0.0, 0.0),  // Offset of the shadow; zero here means the shadow is directly behind the text
+                blurRadius: 8.0,          // Blur radius for a soft shadow effect
+                color: Color.fromARGB(255, 0, 0, 0),  // Shadow color
+      ),
+    ],
+  ),
+),
           background: CachedNetworkImage(
             imageUrl: "https://images.pexels.com/photos/1860208/pexels-photo-1860208.jpeg?cs=srgb&dl=cooked-food-1860208.jpg&fm=jpg",
             fit: BoxFit.cover,
@@ -88,27 +101,43 @@ return Scaffold(
                     // Reviewer's details can go here (e.g., name, date, etc.)
                     Text(
                       'Reviewer\'s Name - ${index + 1}',
-                      style: TextStyle(fontWeight: FontWeight.bold),
+                      style:FlutterFlowTheme.of(context)
+                          .bodyMedium
+                          .override(
+                            fontFamily: 'Readex Pro',
+                    ),
                     ),
                     // Star rating, could use a package or custom widget to display
                     Row(
-                      children: <Widget>[
-                        Text('Rating:',style:TextStyle(fontWeight: FontWeight.w900)),
-                        Icon(Icons.star, color: Colors.amber),
+                      children: [
+                    RecipeValueBar(recipeData: AppData.viewedRecipe!, isRating: true),
                       ],
                     ),
                     // Review text
                     Row(
                           children: <Widget>[
-                            Text('Difficulty:',style:TextStyle(fontWeight: FontWeight.w900)),
+                            Text('Difficulty:',style:FlutterFlowTheme.of(context)
+                          .bodyMedium
+                          .override(
+                            fontFamily: 'Readex Pro',
+                    ),),
                             Icon(Icons.star, color: Colors.red)
                           ],
                     ),
                     Row(
                       children: [
-                        Text('Description:',style:TextStyle(fontWeight: FontWeight.w900)),
+                        Text('Description:',style:FlutterFlowTheme.of(context)
+                          .bodyMedium
+                          .override(
+                            fontFamily: 'Readex Pro',
+                    ),),
                         Text(
                           'This shit fire',
+                          style:FlutterFlowTheme.of(context)
+                          .bodyMedium
+                          .override(
+                            fontFamily: 'Readex Pro',
+                          ),
                         ),
                       ],
                     ),

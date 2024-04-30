@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:foodappproject/app_data.dart';
 import 'package:foodappproject/app_shared.dart';
 import 'package:image_picker/image_picker.dart'; // Import the image picker package
-
+import 'package:file_picker/file_picker.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
@@ -50,13 +50,18 @@ class _CreateWidgetState extends State<CreateWidget> {
   }
 
   Future<void> _pickImage() async {
-    final pickedFile = await _picker.pickImage(source: ImageSource.gallery);
-    if (pickedFile != null) {
-      setState(() {
-        _imageFile = File(pickedFile.path);
-      });
-    }
+  FilePickerResult? result = await FilePicker.platform.pickFiles(
+    type: FileType.image,
+  );
+
+  if (result != null) {
+    File file = File(result.files.single.path!);
+    setState(() {
+      _imageFile = file;
+    });
   }
+}
+
 
   void _postRecipe() {
     // Implement your logic to handle recipe posting, e.g., uploading to a server

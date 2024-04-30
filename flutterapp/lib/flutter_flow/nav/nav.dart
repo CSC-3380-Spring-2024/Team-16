@@ -31,7 +31,7 @@ class AppStateNotifier extends ChangeNotifier {
 }
 
 GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
-      initialLocation: '/',
+      initialLocation: '/login',
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
       errorBuilder: (context, state) => const NavBarPage(),
@@ -42,11 +42,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, _) => const NavBarPage(),
         ),
         // MAKES THE LOGIN PAGE COMES FIRST BUT IMMA COMMENT IT OUT FOR NOW CUZ WE DONT HAVE AUTH
-        //  FFRoute(
-        //     name: 'LoginPage',
-        //     path: '/login',
-        //     builder: (context, _) => LoginPageWidget(controller: null, obscureText: false, hintText: '', onTap: () {  },),  // Instantiate the widget correctly
-        // ),
+         FFRoute(
+            name: 'LoginPage',
+            path: '/login',
+            builder: (context, _) => LoginPageWidget(controller: null, obscureText: false, hintText: '', onTap: () {  },),  // Instantiate the widget correctly
+        ),
         FFRoute(
           name: 'HomePage',
           path: '/homePage',
