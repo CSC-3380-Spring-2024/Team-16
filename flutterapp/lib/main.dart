@@ -211,4 +211,3 @@ class _NavBarPageState extends State<NavBarPage> {
     );
   }
 }
-

@@ -1,6 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:foodappproject/login_page/login_page_model.dart';
+import 'package:foodappproject/login_page/login_page_widget.dart';
 import 'package:foodappproject/recipefullinfo/recipe_full_info_widget.dart';
 import 'package:foodappproject/recipefullinfo/recipe_reviews_widget.dart';
 import 'package:provider/provider.dart';
@@ -29,7 +31,7 @@ class AppStateNotifier extends ChangeNotifier {
 }
 
 GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
-      initialLocation: '/',
+      initialLocation: '/login',
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
       errorBuilder: (context, state) => const NavBarPage(),
@@ -38,6 +40,12 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: '_initialize',
           path: '/',
           builder: (context, _) => const NavBarPage(),
+        ),
+        // MAKES THE LOGIN PAGE COMES FIRST BUT IMMA COMMENT IT OUT FOR NOW CUZ WE DONT HAVE AUTH
+         FFRoute(
+            name: 'LoginPage',
+            path: '/login',
+            builder: (context, _) => LoginPageWidget(controller: null, obscureText: false, hintText: '', onTap: () {  },),  // Instantiate the widget correctly
         ),
         FFRoute(
           name: 'HomePage',
@@ -85,7 +93,7 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
                   initialPage: 'Account',
                   page: AccountWidget(),
                 ),
-        )
+        ),
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
 

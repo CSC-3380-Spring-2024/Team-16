@@ -316,6 +316,7 @@ class DarkModeTheme extends FlutterFlowTheme {
 
 extension TextStyleHelper on TextStyle {
   TextStyle override({
+    
     String? fontFamily,
     Color? color,
     double? fontSize,
