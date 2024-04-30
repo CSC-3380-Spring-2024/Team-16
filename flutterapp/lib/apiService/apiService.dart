@@ -129,9 +129,9 @@ static Future<List<Post>> getAllPosts() async
     );
 
     if (response.statusCode == 200) {
-      return "success";
+      return "Signup successful";
     } else if (response.statusCode == 422) {
-      return "Please choose a different username";
+      return "Username Taken";
     } else {
       throw Exception('Failed to sign up');
     }
