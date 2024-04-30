@@ -18,8 +18,9 @@ public class FoodAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FoodAppApplication.class, args);
-		
+
 	}
+
 	@GetMapping
 	public ResponseEntity<String> bais() {
 		System.out.println("bais");

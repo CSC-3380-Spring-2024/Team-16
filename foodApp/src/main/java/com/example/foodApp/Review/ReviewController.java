@@ -1,5 +1,6 @@
  package com.example.foodApp.Review;
 
+ import com.example.foodApp.System.LikeNDislikeFilter;
  import org.bson.types.ObjectId;
  import org.springframework.beans.factory.annotation.Autowired;
  import org.springframework.data.mongodb.core.MongoTemplate;
@@ -13,16 +14,13 @@
  import org.springframework.data.mongodb.core.query.Query;
  import org.springframework.data.mongodb.core.query.Update;
 
- import com.example.foodApp.Recipe.RecipeController;
  import com.example.foodApp.Recipe.RecipeService;
 
  import java.util.List;
  import java.util.Map;
- import java.util.Optional;
 
 
-
-@RestController
+ @RestController
 @RequestMapping("/api/review")
 public class ReviewController {
 
@@ -109,18 +107,6 @@ public class ReviewController {
          mongoTemplate.updateFirst(query, update, Review.class);
          return ResponseEntity.ok("Review Updated Successfully");
      }
-
-//     /**
-//      * @apiNote
-//      *  http://localhost:8080/api/review/addDislike
-//      * {
-//      *  "id": "661ee97695691a0bdeed4cb4" // valid ObjectID
-//      *  "personName": "Jonh Doe"
-//      *
-//      * }
-//      * @param payload
-//      * @return addDislike to the reviewer
-//      */
 
     /**
      * @apiNote
