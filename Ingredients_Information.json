@@ -1,0 +1,7583 @@
+[
+    {
+        "name": "Acini di Pepe Pasta",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Acorn Squash",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Cucurbits"
+    },
+    {
+        "name": "Active Dry Yeast",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 50,
+        "similarityTable": ""
+    },
+    {
+        "name": "Ahi Tuna Steak",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "All-purpose Flour",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": ""
+    },
+    {
+        "name": "Allspice",
+        "shelfLife": 1095,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 50,
+        "similarityTable": "Spices"
+    },
+    {
+        "name": "Almond",
+        "shelfLife": 365,
+        "gramPerUnit": 1,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Nuts"
+    },
+    {
+        "name": "Almond Butter",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": ""
+    },
+    {
+        "name": "Almond Cream",
+        "shelfLife": 10,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": ""
+    },
+    {
+        "name": "Almond Extract",
+        "shelfLife": 1825,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": ""
+    },
+    {
+        "name": "Almond Flour",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Almond Milk",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": ""
+    },
+    {
+        "name": "Almond Paste",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": ""
+    },
+    {
+        "name": "Ancho Chili Powder",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 50,
+        "similarityTable": "Spices"
+    },
+    {
+        "name": "Anchovy",
+        "shelfLife": 60,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 50,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Anchovy Fillet",
+        "shelfLife": 60,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 50,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Anchovy Paste",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 50,
+        "similarityTable": ""
+    },
+    {
+        "name": "Andouille Sausage",
+        "shelfLife": 10,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Sausages and Smoked Meats"
+    },
+    {
+        "name": "Anise Extract",
+        "shelfLife": 1825,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 50,
+        "similarityTable": ""
+    },
+    {
+        "name": "Apple",
+        "shelfLife": 30,
+        "gramPerUnit": 150,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Fruits"
+    },
+    {
+        "name": "Apple Cider",
+        "shelfLife": 10,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Apple Cider Vinegar",
+        "shelfLife": 1825,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": ""
+    },
+    {
+        "name": "Apple Juice",
+        "shelfLife": 10,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Apricot",
+        "shelfLife": 5,
+        "gramPerUnit": 35,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Fruits"
+    },
+    {
+        "name": "Apricot Jam",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": ""
+    },
+    {
+        "name": "Apricot Preserve",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": ""
+    },
+    {
+        "name": "Arborio Rice",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Rices"
+    },
+    {
+        "name": "Artichoke",
+        "shelfLife": 10,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Vegetables"
+    },
+    {
+        "name": "Arugula",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": "Leafy Greens"
+    },
+    {
+        "name": "Asafoetida",
+        "shelfLife": 1825,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 50,
+        "similarityTable": "Spices"
+    },
+    {
+        "name": "Asiago Cheese",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Asian Pear",
+        "shelfLife": 30,
+        "gramPerUnit": 300,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 600,
+        "similarityTable": "Fruits"
+    },
+    {
+        "name": "Asparagus",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Vegetables"
+    },
+    {
+        "name": "Avocado",
+        "shelfLife": 7,
+        "gramPerUnit": 150,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 300,
+        "similarityTable": "Fruits"
+    },
+    {
+        "name": "BBQ Sauce",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "BBQ Seasoning",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 150,
+        "similarityTable": "Spices"
+    },
+    {
+        "name": "Bacon",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Protein"
+    },
+    {
+        "name": "Bagel",
+        "shelfLife": 5,
+        "gramPerUnit": 100,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 300,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Baguette",
+        "shelfLife": 2,
+        "gramPerUnit": 250,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Baking Powder",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": ""
+    },
+    {
+        "name": "Baking Soda",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": ""
+    },
+    {
+        "name": "Balsamic Vinegar",
+        "shelfLife": 1825,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Vinegars and Alternatives"
+    },
+    {
+        "name": "Balsamic Glaze",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Balsamic Vinaigrette",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Bamboo",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Banana",
+        "shelfLife": 7,
+        "gramPerUnit": 120,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Fruits"
+    },
+    {
+        "name": "Barley",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Whole Grains"
+    },
+    {
+        "name": "Basil",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 50,
+        "similarityTable": "Herbal Spices"
+    },
+    {
+        "name": "Basil Pesto",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Herbal and Fresh Sauces"
+    },
+    {
+        "name": "Basmati Rice",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Whole Grains"
+    },
+    {
+        "name": "Bay Leaf",
+        "shelfLife": 1095,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 20,
+        "similarityTable": "Spices"
+    },
+    {
+        "name": "Bean",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Legumes"
+    },
+    {
+        "name": "Bean Sprout",
+        "shelfLife": 6,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": "Legumes"
+    },
+    {
+        "name": "Bechamel Sauce",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Creamy and Rich Sauces"
+    },
+    {
+        "name": "Beef",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Beef"
+    },
+    {
+        "name": "Beef Brisket",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Beef"
+    },
+    {
+        "name": "Beef Broth",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Beef Chuck",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Beef"
+    },
+    {
+        "name": "Beef Chunk",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Beef"
+    },
+    {
+        "name": "Beef Flank Steak",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Beef"
+    },
+    {
+        "name": "Beef Rib",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Beef"
+    },
+    {
+        "name": "Beef Roast",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Beef"
+    },
+    {
+        "name": "Beef Short Rib",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Beef"
+    },
+    {
+        "name": "Beef Sirloin",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Beef"
+    },
+    {
+        "name": "Beef Steak",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Beef"
+    },
+    {
+        "name": "Beef Stew Meat",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Beef"
+    },
+    {
+        "name": "Beef Tenderloin",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Beef"
+    },
+    {
+        "name": "Beer",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Alcohols"
+    },
+    {
+        "name": "Beetroot",
+        "shelfLife": 60,
+        "gramPerUnit": 100,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 300,
+        "similarityTable": "Roots"
+    },
+    {
+        "name": "Bell Pepper",
+        "shelfLife": 30,
+        "gramPerUnit": 120,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 300,
+        "similarityTable": "Nightshades"
+    },
+    {
+        "name": "Berries",
+        "shelfLife": 10,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Berries"
+    },
+    {
+        "name": "Berry Coulis",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Sweet and Fruity Sauces"
+    },
+    {
+        "name": "Beurre Manie",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": "Creamy and Rich Sauces"
+    },
+    {
+        "name": "Bisi Bele Bath Masala",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 50,
+        "similarityTable": "Complex Blends of Spices"
+    },
+    {
+        "name": "Black Bean",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Legumes"
+    },
+    {
+        "name": "Black Olive",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Pickled Foods"
+    },
+    {
+        "name": "Black Pepper",
+        "shelfLife": 1095,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 50,
+        "similarityTable": "Spices"
+    },
+    {
+        "name": "Black Tea",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": ""
+    },
+    {
+        "name": "Blackberry",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Berries"
+    },
+    {
+        "name": "Blue Cheese",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Blue Cheese Dressing",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Creamy and Rich Sauces"
+    },
+    {
+        "name": "Blue Corn Tortilla Chip",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 300,
+        "similarityTable": ""
+    },
+    {
+        "name": "Blueberry",
+        "shelfLife": 10,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Berries"
+    },
+    {
+        "name": "Blueberry Preserve",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 300,
+        "similarityTable": "Fruit Jam/Preserve"
+    },
+    {
+        "name": "Bouquet Garni",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 30,
+        "similarityTable": "Herbal Spices"
+    },
+    {
+        "name": "Bourbon",
+        "shelfLife": 1825,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Rich and Smooth Alcohol"
+    },
+    {
+        "name": "Brandy",
+        "shelfLife": 1825,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Rich and Smooth Alcohol"
+    },
+    {
+        "name": "Branzino",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Bread",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Bread Crumb",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Bread Dough",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Bread Flour",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": ""
+    },
+    {
+        "name": "Brie Cheese",
+        "shelfLife": 60,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Brioche Bread",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Broccoli",
+        "shelfLife": 15,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Vegetables"
+    },
+    {
+        "name": "Broccoli Floret",
+        "shelfLife": 15,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Vegetables"
+    },
+    {
+        "name": "Broccoli Rabe",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Greens"
+    },
+    {
+        "name": "Brown Sugar",
+        "shelfLife": 720,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Sugars and Sugar Alternatives"
+    },
+    {
+        "name": "Brussels Sprout",
+        "shelfLife": 30,
+        "gramPerUnit": 10,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Vegetables"
+    },
+    {
+        "name": "Buckwheat Noodle",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Buffalo Mozzarella",
+        "shelfLife": 20,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Buffalo Sauce",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Spicy and Bold Sauces"
+    },
+    {
+        "name": "Bulgur",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Whole Grains"
+    },
+    {
+        "name": "Bulgur Wheat",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Whole Grains"
+    },
+    {
+        "name": "Bull Penis",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Protein"
+    },
+    {
+        "name": "Bun",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 300,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Burger Bun",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 300,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Burger Sauce",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Burger Toppings",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Burger Toppings"
+    },
+    {
+        "name": "Butter",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Dairy"
+    },
+    {
+        "name": "Butter Lettuce",
+        "shelfLife": 10,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": "Salad Greens"
+    },
+    {
+        "name": "Buttermilk",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Dairy"
+    },
+    {
+        "name": "Butternut Squash",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Cucurbits"
+    },
+    {
+        "name": "Button Mushroom",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Fungi"
+    },
+    {
+        "name": "Cabbage",
+        "shelfLife": 28,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Vegetables"
+    },
+    {
+        "name": "Cabbage Slaw",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": ""
+    },
+    {
+        "name": "Caesar Dressing",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Creamy and Rich Sauces"
+    },
+    {
+        "name": "Caesar Salad",
+        "shelfLife": 2,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 150,
+        "similarityTable": ""
+    },
+    {
+        "name": "Cajun Seasoning",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": "Complex Blends of Spices"
+    },
+    {
+        "name": "Calamari",
+        "shelfLife": 2,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Camembert",
+        "shelfLife": 20,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Camembert Cheese",
+        "shelfLife": 20,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Canned Salmon",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Cannellini Bean",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Legumes"
+    },
+    {
+        "name": "Cantaloupe",
+        "shelfLife": 7,
+        "gramPerUnit": 500,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Sweet Fruits"
+    },
+    {
+        "name": "Caper",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 50,
+        "similarityTable": "Pickled Foods"
+    },
+    {
+        "name": "Caramel",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Sweet and Fruity Sauces"
+    },
+    {
+        "name": "Caraway Seed",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": "Spices"
+    },
+    {
+        "name": "Cardamom",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": "Warm and Sweet Spices"
+    },
+    {
+        "name": "Carrot",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Roots"
+    },
+    {
+        "name": "Cashew",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Nuts"
+    },
+    {
+        "name": "Caster Sugar",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Sugars and Sugar Alternatives"
+    },
+    {
+        "name": "Catfish Fillet",
+        "shelfLife": 2,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Cauliflower",
+        "shelfLife": 20,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Vegetables"
+    },
+    {
+        "name": "Cayenne",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 50,
+        "similarityTable": "Hot and Pungent Spices"
+    },
+    {
+        "name": "Cayenne Pepper",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 50,
+        "similarityTable": "Hot and Pungent Spices"
+    },
+    {
+        "name": "Celery",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Vegetables"
+    },
+    {
+        "name": "Cheddar Cheese",
+        "shelfLife": 60,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Cheeses",
+        "shelfLife": 60,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Cherry",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Berries"
+    },
+    {
+        "name": "Cherry Liqueur",
+        "shelfLife": 1825,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Alcohols"
+    },
+    {
+        "name": "Cherry Tomato",
+        "shelfLife": 7,
+        "gramPerUnit": 10,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Nightshades"
+    },
+    {
+        "name": "Chia Seed",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Seeds"
+    },
+    {
+        "name": "Chicken",
+        "shelfLife": 2,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Poultry"
+    },
+    {
+        "name": "Chicken Breast",
+        "shelfLife": 2,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Poultry"
+    },
+    {
+        "name": "Chicken Broth",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Chicken Drumstick",
+        "shelfLife": 2,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Poultry"
+    },
+    {
+        "name": "Chicken Tender",
+        "shelfLife": 2,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Poultry"
+    },
+    {
+        "name": "Chicken Thigh",
+        "shelfLife": 2,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Poultry"
+    },
+    {
+        "name": "Chicken Wing",
+        "shelfLife": 2,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Poultry"
+    },
+    {
+        "name": "Chickpea",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Legumes"
+    },
+    {
+        "name": "Chickpea Flour",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Chili",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": "Hot and Pungent Spices"
+    },
+    {
+        "name": "Chili Flake",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 50,
+        "similarityTable": "Hot and Pungent Spices"
+    },
+    {
+        "name": "Chili Pepper",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": "Nightshades"
+    },
+    {
+        "name": "Chili Powder",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": "Hot and Pungent Spices"
+    },
+    {
+        "name": "Chipotle Sauce",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Spicy and Bold Sauces"
+    },
+    {
+        "name": "Chipotle in Adobo Sauce",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Spicy and Bold Sauces"
+    },
+    {
+        "name": "Chive",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 50,
+        "similarityTable": "Alliums"
+    },
+    {
+        "name": "Chocolate",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Chocolate Cake",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Chocolate Chip",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Dessert Toppings and Sauces"
+    },
+    {
+        "name": "Chocolate Glaze",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Sweet and Fruity Sauces"
+    },
+    {
+        "name": "Chocolate Hazelnut Spread",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Sweet and Fruity Sauces"
+    },
+    {
+        "name": "Chocolate Ice Cream",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Chocolate Sauce",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Sweet and Fruity Sauces"
+    },
+    {
+        "name": "Chocolate Syrup",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Sweet and Fruity Sauces"
+    },
+    {
+        "name": "Chorizo",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Sausages and Smoked Meats"
+    },
+    {
+        "name": "Choux Pastry",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Ciabatta Bread",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Cilantro",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 50,
+        "similarityTable": "Herbal Spices"
+    },
+    {
+        "name": "Cilantro-Lime Dressing",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Herbal and Fresh Sauces"
+    },
+    {
+        "name": "Cinnamon",
+        "shelfLife": 1095,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": "Warm and Sweet Spices"
+    },
+    {
+        "name": "Cinnamon Stick",
+        "shelfLife": 1095,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 100,
+        "similarityTable": "Warm and Sweet Spices"
+    },
+    {
+        "name": "Cinnamon Sugar",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Sugars and Sugar Alternatives"
+    },
+    {
+        "name": "Clam",
+        "shelfLife": 2,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Clam Juice",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Clotted Cream",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Dairy"
+    },
+    {
+        "name": "Clove",
+        "shelfLife": 1095,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 50,
+        "similarityTable": "Warm and Sweet Spices"
+    },
+    {
+        "name": "Coarse Sugar",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Sugars and Sugar Alternatives"
+    },
+    {
+        "name": "Cocoa Powder",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": ""
+    },
+    {
+        "name": "Coconut",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Exotic and Tropical Fruits"
+    },
+    {
+        "name": "Coconut Cream",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Creamy and Rich Sauces"
+    },
+    {
+        "name": "Coconut Flake",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": ""
+    },
+    {
+        "name": "Coconut Milk",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Coconut Oil",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Oils"
+    },
+    {
+        "name": "Coconut Rice",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Coconut Sugar",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Sugars and Sugar Alternatives"
+    },
+    {
+        "name": "Coconut Water",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Cod Fillet",
+        "shelfLife": 2,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Coffee",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Bitter and Robust Alcohol"
+    },
+    {
+        "name": "Coffee Bean",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Coffee Liqueur",
+        "shelfLife": 1825,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Rich and Smooth Alcohol"
+    },
+    {
+        "name": "Coleslaw",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": ""
+    },
+    {
+        "name": "Condensed Milk",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Dairy"
+    },
+    {
+        "name": "Coriander",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 50,
+        "similarityTable": "Earthy and Aromatic Spices"
+    },
+    {
+        "name": "Coriander Powder",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": "Earthy and Aromatic Spices"
+    },
+    {
+        "name": "Corn",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Vegetables"
+    },
+    {
+        "name": "Corn Syrup",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Sugars and Sugar Alternatives"
+    },
+    {
+        "name": "Corn Tortilla",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Cornbread",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Cornmeal",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Processed Grains"
+    },
+    {
+        "name": "Cornstarch",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Cotija Cheese",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Couscous",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Processed Grains"
+    },
+    {
+        "name": "Crabmeat",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Cracker",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Cookies, Crackers, etc."
+    },
+    {
+        "name": "Cranberry",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Berries"
+    },
+    {
+        "name": "Cranberry Juice",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Cranberry Sauce",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Sweet and Fruity Sauces"
+    },
+    {
+        "name": "Cream",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Dairy"
+    },
+    {
+        "name": "Cream Cheese",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Dairy"
+    },
+    {
+        "name": "Creme Fraiche",
+        "shelfLife": 20,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Dairy"
+    },
+    {
+        "name": "Croissant",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 300,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Crouton",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": ""
+    },
+    {
+        "name": "Crusty Bread",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Cuban Bread",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Cucumber",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Cucurbits"
+    },
+    {
+        "name": "Cucumber Salad",
+        "shelfLife": 2,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": ""
+    },
+    {
+        "name": "Cumin",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": "Earthy and Aromatic Spices"
+    },
+    {
+        "name": "Cumin Powder",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": "Earthy and Aromatic Spices"
+    },
+    {
+        "name": "Cumin Seed",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": "Earthy and Aromatic Spices"
+    },
+    {
+        "name": "Curry Leaf",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 50,
+        "similarityTable": "Herbal Spices"
+    },
+    {
+        "name": "Curry Paste",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Complex Blends of Spices"
+    },
+    {
+        "name": "Curry Powder",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": "Complex Blends of Spices"
+    },
+    {
+        "name": "Custard",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Dessert Toppings and Sauces"
+    },
+    {
+        "name": "Dandelion Flower",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 30,
+        "similarityTable": "Salad Greens"
+    },
+    {
+        "name": "Dandelion Green",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 150,
+        "similarityTable": "Salad Greens"
+    },
+    {
+        "name": "Dark Ale",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 1500,
+        "similarityTable": "Alcohols"
+    },
+    {
+        "name": "Dark Chocolate",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Dessert Toppings and Sauces"
+    },
+    {
+        "name": "Date",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Fruits"
+    },
+    {
+        "name": "Digestive Biscuit",
+        "shelfLife": 60,
+        "gramPerUnit": 12,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 250,
+        "similarityTable": "Cookies, Crackers, etc."
+    },
+    {
+        "name": "Dijon Mustard",
+        "shelfLife": 365,
+        "gramPerUnit": 5,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 50,
+        "similarityTable": ""
+    },
+    {
+        "name": "Dill",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 50,
+        "similarityTable": "Herbal Spices"
+    },
+    {
+        "name": "Dill Pickle",
+        "shelfLife": 90,
+        "gramPerUnit": 15,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 300,
+        "similarityTable": "Pickled Foods"
+    },
+    {
+        "name": "Dipping Sauce",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Dough",
+        "shelfLife": 3,
+        "gramPerUnit": 500,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Dragon Fruit",
+        "shelfLife": 5,
+        "gramPerUnit": 150,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 300,
+        "similarityTable": "Exotic and Tropical Fruits"
+    },
+    {
+        "name": "Dried Apricot",
+        "shelfLife": 365,
+        "gramPerUnit": 5,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 50,
+        "similarityTable": "Dried Fruits/Berries"
+    },
+    {
+        "name": "Dried Basil",
+        "shelfLife": 365,
+        "gramPerUnit": 1,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 30,
+        "similarityTable": "Dried Herbs"
+    },
+    {
+        "name": "Dried Cherry",
+        "shelfLife": 365,
+        "gramPerUnit": 2,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 50,
+        "similarityTable": "Dried Fruits/Berries"
+    },
+    {
+        "name": "Dried Chili",
+        "shelfLife": 365,
+        "gramPerUnit": 1,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 30,
+        "similarityTable": "Dried Vegetables"
+    },
+    {
+        "name": "Dried Cranberry",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Dried Fruits/Berries"
+    },
+    {
+        "name": "Dried Dandelion leaf",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Dried Fruits/Berries"
+    },
+    {
+        "name": "Dried Fig",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Dried Fruits/Berries"
+    },
+    {
+        "name": "Dried Fruit",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Dried Fruits/Berries"
+    },
+    {
+        "name": "Dried Herbs",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Dried Herbs"
+    },
+    {
+        "name": "Dried Lavender",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Dried Herbs"
+    },
+    {
+        "name": "Dried Lentil",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Dried Proteins"
+    },
+    {
+        "name": "Dried Nori",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Dried Seaweed"
+    },
+    {
+        "name": "Dried Oregano",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Dried Herbs"
+    },
+    {
+        "name": "Dried Parsley",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Dried Herbs"
+    },
+    {
+        "name": "Dried Rosemary",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Dried Herbs"
+    },
+    {
+        "name": "Dried Seaweed",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Dried Seaweed"
+    },
+    {
+        "name": "Dried Thyme",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Dried Herbs"
+    },
+    {
+        "name": "Dried Tomato",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Dried Fruits/Berries"
+    },
+    {
+        "name": "Dry-Aged Beef",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Dried Proteins"
+    },
+    {
+        "name": "Dry White Wine",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 750,
+        "similarityTable": "Wine"
+    },
+    {
+        "name": "Dry Yeast",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Dried Proteins"
+    },
+    {
+        "name": "Dry-Aged Beef",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Dried Proteins"
+    },
+    {
+        "name": "Duck",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Poultry"
+    },
+    {
+        "name": "Duck Breast",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Poultry"
+    },
+    {
+        "name": "Duck Fat",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Poultry"
+    },
+    {
+        "name": "Duck Leg",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Poultry"
+    },
+    {
+        "name": "Duck Liver",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Poultry"
+    },
+    {
+        "name": "Dulce de Leche",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Dessert Toppings and Sauces"
+    },
+    {
+        "name": "Dumpling Wrapper",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Durian",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Exotic and Tropical Fruits"
+    },
+    {
+        "name": "Earl Grey Tea Bag",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Edamame",
+        "shelfLife": 3,
+        "gramPerUnit": 100,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 300,
+        "similarityTable": "Legumes"
+    },
+    {
+        "name": "Eel",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Eel Sauce",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Egg",
+        "shelfLife": 30,
+        "gramPerUnit": 60,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 360,
+        "similarityTable": "Protein"
+    },
+    {
+        "name": "Egg Noodle",
+        "shelfLife": 365,
+        "gramPerUnit": 100,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Egg Tofu",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Eggnog",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": ""
+    },
+    {
+        "name": "Eggplant",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Nightshades"
+    },
+    {
+        "name": "Egusi Seed",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Elderberry",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Fruits"
+    },
+    {
+        "name": "Elderflower Cordial",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": ""
+    },
+    {
+        "name": "Elderflower Head",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Elderflower Jelly",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Elk Steak",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Emmental Cheese",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Enchilada Sauce",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Umami and Savory Sauces"
+    },
+    {
+        "name": "Endive",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Greens"
+    },
+    {
+        "name": "English Ale",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Alcohols"
+    },
+    {
+        "name": "English Muffin",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Enoki Mushroom",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Fungi"
+    },
+    {
+        "name": "Entrecote Steak",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Escargot",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 50,
+        "similarityTable": "Legumes"
+    },
+    {
+        "name": "Escarole",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Greens"
+    },
+    {
+        "name": "Espresso",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": ""
+    },
+    {
+        "name": "Evaporated Milk",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 400,
+        "similarityTable": ""
+    },
+    {
+        "name": "Extra Virgin Olive Oil",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Oils"
+    },
+    {
+        "name": "Farfalle",
+        "shelfLife": 730,
+        "gramPerUnit": 100,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 300,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Farro",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Whole Grains"
+    },
+    {
+        "name": "Fava Bean",
+        "shelfLife": 7,
+        "gramPerUnit": 10,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Legumes"
+    },
+    {
+        "name": "Fennel",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 300,
+        "similarityTable": ""
+    },
+    {
+        "name": "Fennel Bulb",
+        "shelfLife": 14,
+        "gramPerUnit": 500,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": ""
+    },
+    {
+        "name": "Fennel Seed",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 100,
+        "similarityTable": "Unique and Special Spices"
+    },
+    {
+        "name": "Feta",
+        "shelfLife": 14,
+        "gramPerUnit": 100,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Feta Cheese",
+        "shelfLife": 14,
+        "gramPerUnit": 100,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Fettuccine",
+        "shelfLife": 730,
+        "gramPerUnit": 100,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 400,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Fettuccine Pasta",
+        "shelfLife": 730,
+        "gramPerUnit": 100,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 400,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Fig",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": "Fruits"
+    },
+    {
+        "name": "Fig Jam",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Fruit Jam/Preserve"
+    },
+    {
+        "name": "Filo Pastry",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": ""
+    },
+    {
+        "name": "Fish Fillet",
+        "shelfLife": 2,
+        "gramPerUnit": 150,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Fish"
+    },
+    {
+        "name": "Fish Fillets",
+        "shelfLife": 2,
+        "gramPerUnit": 150,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Fish"
+    },
+    {
+        "name": "Fish Sauce",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 300,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Fish Stock",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Fishes",
+        "shelfLife": 2,
+        "gramPerUnit": 150,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Fish"
+    },
+    {
+        "name": "Five-Spice",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": "Complex Blends of Spices"
+    },
+    {
+        "name": "Flank Steak",
+        "shelfLife": 2,
+        "gramPerUnit": 500,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Beef"
+    },
+    {
+        "name": "Flatbread",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Flaxseed",
+        "shelfLife": 180,
+        "gramPerUnit": 10,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Seeds and Nuts"
+    },
+    {
+        "name": "Flounder Fillet",
+        "shelfLife": 2,
+        "gramPerUnit": 150,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Fish"
+    },
+    {
+        "name": "Flour",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": ""
+    },
+    {
+        "name": "Flour Tortilla",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": ""
+    },
+    {
+        "name": "Focaccia Dough",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Forest Mushroom",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 150,
+        "similarityTable": "Mushroom"
+    },
+    {
+        "name": "French Bean",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Bean"
+    },
+    {
+        "name": "Fruit Punch",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 2000,
+        "similarityTable": "Fruits"
+    },
+    {
+        "name": "Fruits",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Fruits"
+    },
+    {
+        "name": "Fufu",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": ""
+    },
+    {
+        "name": "Fusilli",
+        "shelfLife": 365,
+        "gramPerUnit": 80,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Game Meat",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Meat"
+    },
+    {
+        "name": "Garam Masala",
+        "shelfLife": 365,
+        "gramPerUnit": 5,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 50,
+        "similarityTable": "Garam Masala"
+    },
+    {
+        "name": "Garlic",
+        "shelfLife": 60,
+        "gramPerUnit": 5,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 150,
+        "similarityTable": "Alliums"
+    },
+    {
+        "name": "Garlic Aioli",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Garlic Butter Pasta",
+        "shelfLife": 5,
+        "gramPerUnit": 80,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Garlic Chive",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": "Chive"
+    },
+    {
+        "name": "Garlic Mashed Potato",
+        "shelfLife": 3,
+        "gramPerUnit": 200,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Garlic Paste",
+        "shelfLife": 60,
+        "gramPerUnit": 5,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Alliums"
+    },
+    {
+        "name": "Garlic Powder",
+        "shelfLife": 365,
+        "gramPerUnit": 5,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 100,
+        "similarityTable": "Alliums"
+    },
+    {
+        "name": "Garlic-Infused Olive Oil",
+        "shelfLife": 365,
+        "gramPerUnit": 5,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Oils"
+    },
+    {
+        "name": "Gelatin",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Ghee",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Gin",
+        "shelfLife": 0,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Alcohols"
+    },
+    {
+        "name": "Ginger",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Warm and Sweet Spices"
+    },
+    {
+        "name": "Ginger Paste",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Herbal Spices"
+    },
+    {
+        "name": "Ginger Powder",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Warm and Sweet Spices"
+    },
+    {
+        "name": "Gluten-Free Pie Crust",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Gnocchi",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Goat Cheese",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Goat Meat",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Lamb"
+    },
+    {
+        "name": "Gochugaru",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Hot and Pungent Spices"
+    },
+    {
+        "name": "Gochujang",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Golden Beet",
+        "shelfLife": 21,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Gorgonzola",
+        "shelfLife": 21,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Gouda Cheese",
+        "shelfLife": 21,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 300,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Graham Cracker",
+        "shelfLife": 90,
+        "gramPerUnit": 15,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 300,
+        "similarityTable": "Sweet Cookies, Crackers, etc."
+    },
+    {
+        "name": "Gram Flour",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": ""
+    },
+    {
+        "name": "Granola",
+        "shelfLife": 180,
+        "gramPerUnit": 50,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Grape",
+        "shelfLife": 7,
+        "gramPerUnit": 5,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Fruits"
+    },
+    {
+        "name": "Grapefruit",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 400,
+        "similarityTable": "Citrus Fruits"
+    },
+    {
+        "name": "Greek Yogurt",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Yogurt"
+    },
+    {
+        "name": "Green Bean",
+        "shelfLife": 5,
+        "gramPerUnit": 10,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Vegetables"
+    },
+    {
+        "name": "Green Bell Pepper",
+        "shelfLife": 7,
+        "gramPerUnit": 180,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Nightshades"
+    },
+    {
+        "name": "Green Cabbage",
+        "shelfLife": 21,
+        "gramPerUnit": 1000,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Vegetables"
+    },
+    {
+        "name": "Green Chili",
+        "shelfLife": 7,
+        "gramPerUnit": 5,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 50,
+        "similarityTable": "Chili Pepper"
+    },
+    {
+        "name": "Green Chili Sauce",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Hot and Pungent Spices"
+    },
+    {
+        "name": "Green Chilies",
+        "shelfLife": 14,
+        "gramPerUnit": 5,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 50,
+        "similarityTable": "Chili Pepper"
+    },
+    {
+        "name": "Green Food Coloring",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 30,
+        "similarityTable": ""
+    },
+    {
+        "name": "Green Lentil",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Legumes"
+    },
+    {
+        "name": "Green Olive",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Pickled Foods"
+    },
+    {
+        "name": "Green Onion",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Alliums"
+    },
+    {
+        "name": "Green Peppercorn",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 100,
+        "similarityTable": ""
+    },
+    {
+        "name": "Green Tomato",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Nightshades"
+    },
+    {
+        "name": "Gremolata",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 50,
+        "similarityTable": ""
+    },
+    {
+        "name": "Ground Beef",
+        "shelfLife": 3,
+        "gramPerUnit": 453,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Beef"
+    },
+    {
+        "name": "Ground Chicken",
+        "shelfLife": 2,
+        "gramPerUnit": 454,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 800,
+        "similarityTable": "Poultry"
+    },
+    {
+        "name": "Ground Elk Meat",
+        "shelfLife": 3,
+        "gramPerUnit": 454,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Protein"
+    },
+    {
+        "name": "Ground Lamb",
+        "shelfLife": 3,
+        "gramPerUnit": 454,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Lamb"
+    },
+    {
+        "name": "Ground Pork",
+        "shelfLife": 3,
+        "gramPerUnit": 454,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Pork"
+    },
+    {
+        "name": "Grouper Fillet",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Gruyere Cheese",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Guacamole",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Guava Juice",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": ""
+    },
+    {
+        "name": "Habanero Pepper",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Hot and Pungent Spices"
+    },
+    {
+        "name": "Haddock",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Halibut Fillet",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Halloumi Cheese",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Ham",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Meat"
+    },
+    {
+        "name": "Hamburger Bun",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Harissa Paste",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Hot and Pungent Spices"
+    },
+    {
+        "name": "Hash Brown",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Hazelnut",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Nuts"
+    },
+    {
+        "name": "Hazelnut Gelato",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": ""
+    },
+    {
+        "name": "Heavy Cream",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Creamy and Rich Sauces"
+    },
+    {
+        "name": "Heirloom Tomato",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Nightshades"
+    },
+    {
+        "name": "Hemp Seed",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Seeds and Nuts"
+    },
+    {
+        "name": "Herbs",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Herbal Spices"
+    },
+    {
+        "name": "Herbs de Provence",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Herbal Spices"
+    },
+    {
+        "name": "Hibiscus Tea",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Hoisin Sauce",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Umami and Savory Sauces"
+    },
+    {
+        "name": "Hollandaise Sauce",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Creamy and Rich Sauces"
+    },
+    {
+        "name": "Honey",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Sugars and Sugar Alternatives"
+    },
+    {
+        "name": "Honey Mustard",
+        "shelfLife": 120,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Sweet and Fruity Sauces"
+    },
+    {
+        "name": "Honey Mustard Dipping Sauce",
+        "shelfLife": 120,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Sweet and Fruity Sauces"
+    },
+    {
+        "name": "Horseradish",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Roots"
+    },
+    {
+        "name": "Hot Dog Bun",
+        "shelfLife": 2,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 100,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Hot Sauce",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Spicy and Bold Sauces"
+    },
+    {
+        "name": "Hot Water",
+        "shelfLife": 0,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Hummus",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Legumes"
+    },
+    {
+        "name": "Instant Coffee",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Irish Whiskey",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Alcohols"
+    },
+    {
+        "name": "Italian Sausage",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Italian Seasoning",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Herbal Spices"
+    },
+    {
+        "name": "Jackfruit",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Fruits"
+    },
+    {
+        "name": "Jalapeno",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 50,
+        "similarityTable": "Vegetables"
+    },
+    {
+        "name": "Jalapeno Pepper",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 50,
+        "similarityTable": "Vegetables"
+    },
+    {
+        "name": "Jam",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Fruit Jam/Preserve"
+    },
+    {
+        "name": "Jameed",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Japanese Curry Roux",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Complex Blends of Spices"
+    },
+    {
+        "name": "Japanese Eggplant",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Vegetables"
+    },
+    {
+        "name": "Jasmine Rice",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Whole Grains"
+    },
+    {
+        "name": "Jasmine Tea Leaf",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Jelly",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Fruit Jam/Preserve"
+    },
+    {
+        "name": "Jelly Bean",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Dessert Toppings and Sauces"
+    },
+    {
+        "name": "Jerk Marinade",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 300,
+        "similarityTable": "Jerk Seasoning"
+    },
+    {
+        "name": "Jerk Seasoning",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Jerk Spice Mix"
+    },
+    {
+        "name": "Jerk Seasoning Paste",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Jerk Spice Mix"
+    },
+    {
+        "name": "Jerk Spice Mix",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Jerk Spice Mix"
+    },
+    {
+        "name": "Jerusalem Artichoke",
+        "shelfLife": 14,
+        "gramPerUnit": 150,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 300,
+        "similarityTable": ""
+    },
+    {
+        "name": "Jicama",
+        "shelfLife": 14,
+        "gramPerUnit": 300,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 600,
+        "similarityTable": ""
+    },
+    {
+        "name": "Jumbo Shrimp",
+        "shelfLife": 3,
+        "gramPerUnit": 20,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 100,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Juniper Berry",
+        "shelfLife": 365,
+        "gramPerUnit": 1,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 50,
+        "similarityTable": "Unique and Special Spices"
+    },
+    {
+        "name": "Kabocha Squash",
+        "shelfLife": 14,
+        "gramPerUnit": 1000,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 2000,
+        "similarityTable": "Tubers"
+    },
+    {
+        "name": "Kalamata Olive",
+        "shelfLife": 30,
+        "gramPerUnit": 5,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 50,
+        "similarityTable": "Olives"
+    },
+    {
+        "name": "Kale",
+        "shelfLife": 7,
+        "gramPerUnit": 100,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Greens"
+    },
+    {
+        "name": "Kashmiri Chili Powder",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Earthy and Aromatic Spices"
+    },
+    {
+        "name": "Kecap Manis",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Ketchup",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Key Lime Juice",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Citrus Fruits"
+    },
+    {
+        "name": "Kidney Bean",
+        "shelfLife": 365,
+        "gramPerUnit": 100,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Legumes"
+    },
+    {
+        "name": "Kielbasa",
+        "shelfLife": 14,
+        "gramPerUnit": 300,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 900,
+        "similarityTable": "Pork"
+    },
+    {
+        "name": "Kielbasa Sausage",
+        "shelfLife": 14,
+        "gramPerUnit": 300,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 900,
+        "similarityTable": "Pork"
+    },
+    {
+        "name": "Kimchi",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Pickled Foods"
+    },
+    {
+        "name": "King Prawns",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Kipper",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Kiwi",
+        "shelfLife": 14,
+        "gramPerUnit": 100,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Tart and Tangy Fruits"
+    },
+    {
+        "name": "Kohlrabi",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Korma Paste",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Kumquat",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Fruits"
+    },
+    {
+        "name": "Ladyfinger",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Lamb",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Lamb"
+    },
+    {
+        "name": "Lamb Chop",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Lamb"
+    },
+    {
+        "name": "Lamb Cube",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Lamb"
+    },
+    {
+        "name": "Lamb Leg",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Lamb"
+    },
+    {
+        "name": "Lamb Leg Meat",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Lamb"
+    },
+    {
+        "name": "Lamb Loin Chop",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Lamb"
+    },
+    {
+        "name": "Lamb Rack",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Lamb"
+    },
+    {
+        "name": "Lamb Shank",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Lamb"
+    },
+    {
+        "name": "Lamb Shoulder",
+        "shelfLife": 4,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Lamb"
+    },
+    {
+        "name": "Lasagna Noodle",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Lavender Sprig",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 5,
+        "similarityTable": ""
+    },
+    {
+        "name": "Leek",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Alliums"
+    },
+    {
+        "name": "Lemon",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 3,
+        "similarityTable": "Citrus Fruits"
+    },
+    {
+        "name": "Lemon Aioli",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Lemon Butter Sauce",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Lemon Juice",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Lemon Pepper Seasoning",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Spices"
+    },
+    {
+        "name": "Lemon Vinaigrette",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Lemonade",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": ""
+    },
+    {
+        "name": "Lemongrass",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 50,
+        "similarityTable": ""
+    },
+    {
+        "name": "Lentil",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Legumes"
+    },
+    {
+        "name": "Lettuce",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Greens"
+    },
+    {
+        "name": "Lime",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 100,
+        "similarityTable": "Citrus Fruits"
+    },
+    {
+        "name": "Lime Crema",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": ""
+    },
+    {
+        "name": "Lime Juice",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Citrus Fruits"
+    },
+    {
+        "name": "Lime Leaf",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 10,
+        "similarityTable": ""
+    },
+    {
+        "name": "Linguine",
+        "shelfLife": 365,
+        "gramPerUnit": 85,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Linguine Pasta",
+        "shelfLife": 365,
+        "gramPerUnit": 85,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Lobster",
+        "shelfLife": 2,
+        "gramPerUnit": 454,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 454,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Macaroni",
+        "shelfLife": 365,
+        "gramPerUnit": 85,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Mackerel",
+        "shelfLife": 2,
+        "gramPerUnit": 85,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Fish"
+    },
+    {
+        "name": "Mango",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Exotic and Tropical Fruits"
+    },
+    {
+        "name": "Mango Chutney",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Mango Juice",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Exotic and Tropical Fruits"
+    },
+    {
+        "name": "Mango Pulp",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Exotic and Tropical Fruits"
+    },
+    {
+        "name": "Mango Puree",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Exotic and Tropical Fruits"
+    },
+    {
+        "name": "Mango Salsa",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 400,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Maple Syrup",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Sugars and Sugar Alternatives"
+    },
+    {
+        "name": "Marinara Sauce",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Marshmallow",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Dessert Toppings and Sauces"
+    },
+    {
+        "name": "Mascarpone",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Dairy"
+    },
+    {
+        "name": "Mascarpone Cheese",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Matcha Green Tea Powder",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": "Teas"
+    },
+    {
+        "name": "Matcha Powder",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": "Teas"
+    },
+    {
+        "name": "Mayonnaise",
+        "shelfLife": 60,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Meatballs",
+        "shelfLife": 5,
+        "gramPerUnit": 20,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Protein"
+    },
+    {
+        "name": "Melon",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Fruits"
+    },
+    {
+        "name": "Milk",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Dairy"
+    },
+    {
+        "name": "Millet",
+        "shelfLife": 365,
+        "gramPerUnit": 100,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Whole Grains"
+    },
+    {
+        "name": "Mint",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 50,
+        "similarityTable": "Herbal Spices"
+    },
+    {
+        "name": "Mint Chutney",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Mint Jelly",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Mint Sauce",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Mint Yogurt Sauce",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Mirin",
+        "shelfLife": 0,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Miso Paste",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Umami and Savory Sauces"
+    },
+    {
+        "name": "Molasses",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Sugars and Sugar Alternatives"
+    },
+    {
+        "name": "Monterey Jack Cheese",
+        "shelfLife": 7,
+        "gramPerUnit": 28,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Mild Cheese"
+    },
+    {
+        "name": "Mozzarella",
+        "shelfLife": 7,
+        "gramPerUnit": 28,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Mild Cheese"
+    },
+    {
+        "name": "Mushroom",
+        "shelfLife": 7,
+        "gramPerUnit": 100,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Fungi"
+    },
+    {
+        "name": "Mushroom Duxelles",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Fungi"
+    },
+    {
+        "name": "Mushroom Risotto",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Risotto"
+    },
+    {
+        "name": "Mussel",
+        "shelfLife": 3,
+        "gramPerUnit": 100,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Mustard",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Umami and Savory Sauces"
+    },
+    {
+        "name": "Mustard Green",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Greens"
+    },
+    {
+        "name": "Mustard Oil",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Oils"
+    },
+    {
+        "name": "Mustard Seed",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Unique and Special Spices"
+    },
+    {
+        "name": "Naan Bread",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Napa Cabbage",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Greens"
+    },
+    {
+        "name": "Navy Bean",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Legumes"
+    },
+    {
+        "name": "Nectarine",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Sweet Fruits"
+    },
+    {
+        "name": "New York Strip Steak",
+        "shelfLife": 3,
+        "gramPerUnit": 454,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 454,
+        "similarityTable": "Beef"
+    },
+    {
+        "name": "Noodle",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Nori",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Dried Seaweed"
+    },
+    {
+        "name": "Nori Sheet",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Dried Seaweed"
+    },
+    {
+        "name": "Nutella",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Dessert Toppings and Sauces"
+    },
+    {
+        "name": "Nutmeg",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 50,
+        "similarityTable": "Warm and Sweet Spices"
+    },
+    {
+        "name": "Nutritional Yeast",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Nutty and Rich Nuts and Seeds"
+    },
+    {
+        "name": "Nuts",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Nuts"
+    },
+    {
+        "name": "Oat",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Whole Grains"
+    },
+    {
+        "name": "Oat Flour",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Processed Grains"
+    },
+    {
+        "name": "Olive Oil",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Dressings and Marinades Oils"
+    },
+    {
+        "name": "Okra",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Vegetables"
+    },
+    {
+        "name": "Orange",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Fruits"
+    },
+    {
+        "name": "Orange Bell Pepper",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Nightshades"
+    },
+    {
+        "name": "Orange Juice",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Fruits"
+    },
+    {
+        "name": "Oregano",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Herbal Spices"
+    },
+    {
+        "name": "Oreo Cookie",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 20,
+        "similarityTable": "Sweet Cookies, Crackers, etc."
+    },
+    {
+        "name": "Oyster Cracker",
+        "shelfLife": 90,
+        "gramPerUnit": 3,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 150,
+        "similarityTable": "Cookies, Crackers, etc."
+    },
+    {
+        "name": "Oyster Mushroom",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 150,
+        "similarityTable": "Mushroom"
+    },
+    {
+        "name": "Oyster Sauce",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Umami and Savory Sauces"
+    },
+    {
+        "name": "Paella Rice",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Processed Grains"
+    },
+    {
+        "name": "Palm Oil",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Cooking and Frying Oils"
+    },
+    {
+        "name": "Pancake",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 150,
+        "similarityTable": ""
+    },
+    {
+        "name": "Pancetta",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": ""
+    },
+    {
+        "name": "Pandan Leaf",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 10,
+        "similarityTable": ""
+    },
+    {
+        "name": "Paneer",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Dairy"
+    },
+    {
+        "name": "Panko Bread Crumb",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 250,
+        "similarityTable": ""
+    },
+    {
+        "name": "Papaya",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Fruits"
+    },
+    {
+        "name": "Pappardelle Pasta",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Paprika",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Nightshades"
+    },
+    {
+        "name": "Parmesan",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 150,
+        "similarityTable": ""
+    },
+    {
+        "name": "Parmesan Cheese",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Parsley",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 20,
+        "similarityTable": ""
+    },
+    {
+        "name": "Parsnip",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Roots"
+    },
+    {
+        "name": "Pasta",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Pasta Shell",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Pastry Crust",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Pastry Dough",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Pea",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Legumes"
+    },
+    {
+        "name": "Peach",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Sweet Fruits"
+    },
+    {
+        "name": "Peanut",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Legumes"
+    },
+    {
+        "name": "Peanut Butter",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": ""
+    },
+    {
+        "name": "Peanut Sauce",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Pear",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Sweet Fruits"
+    },
+    {
+        "name": "Pearl Onion",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Alliums"
+    },
+    {
+        "name": "Pecan",
+        "shelfLife": 120,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Nutty and Rich Nuts and Seeds"
+    },
+    {
+        "name": "Penne Pasta",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Pepper",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Spices"
+    },
+    {
+        "name": "Pepper Jack Cheese",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Nutty Cheese"
+    },
+    {
+        "name": "Pepper Soup Spice",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Complex Blends of Spices"
+    },
+    {
+        "name": "Peppermint Extract",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Unique and Special Spices"
+    },
+    {
+        "name": "Pepperoni",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Poultry"
+    },
+    {
+        "name": "Pesto",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Herbal Spices"
+    },
+    {
+        "name": "Pesto Sauce",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Phyllo Dough",
+        "shelfLife": 2,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Pickle",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Pickled Foods"
+    },
+    {
+        "name": "Pickle Juice",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Pickled Foods"
+    },
+    {
+        "name": "Pickled Ginger",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Pickled Foods"
+    },
+    {
+        "name": "Pickled Plum",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Pickled Foods"
+    },
+    {
+        "name": "Pickled Radish",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Pickled Foods"
+    },
+    {
+        "name": "Pickled Red Onion",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Pickled Foods"
+    },
+    {
+        "name": "Pickled Vegetables",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Pickled Foods"
+    },
+    {
+        "name": "Pie Crust",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Pie Dough",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Pine Nut",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 100,
+        "similarityTable": "Nuts"
+    },
+    {
+        "name": "Pineapple",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Sweet Fruits"
+    },
+    {
+        "name": "Pineapple Juice",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Pistachio",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 100,
+        "similarityTable": "Nuts"
+    },
+    {
+        "name": "Pita Bread",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Pita Chip",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 100,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Pizza Dough",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Pizza Sauce",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Pizza Toppings",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Plantain",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Fruits"
+    },
+    {
+        "name": "Plum",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Sweet Fruits"
+    },
+    {
+        "name": "Polenta",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Processed Grains"
+    },
+    {
+        "name": "Pomegranate",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Exotic and Tropical Fruits"
+    },
+    {
+        "name": "Pomegranate Seed",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Exotic and Tropical Fruits"
+    },
+    {
+        "name": "Popcorn",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Poppy Seed",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Unique and Distinctive Seeds and Nuts"
+    },
+    {
+        "name": "Pork",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Pork"
+    },
+    {
+        "name": "Pork Belly",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Pork"
+    },
+    {
+        "name": "Pork Chop",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Pork"
+    },
+    {
+        "name": "Pork Loin",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Pork"
+    },
+    {
+        "name": "Pork Rib",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Pork"
+    },
+    {
+        "name": "Pork Sausage",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Pork"
+    },
+    {
+        "name": "Pork Shoulder",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Pork"
+    },
+    {
+        "name": "Pork Tenderloin",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Pork"
+    },
+    {
+        "name": "Portobello Mushroom",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Fungi"
+    },
+    {
+        "name": "Potato",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 2000,
+        "similarityTable": "Tubers"
+    },
+    {
+        "name": "Potato Gnocchi",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Pound Cake",
+        "shelfLife": 4,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Powdered Erythritol",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Powdered Sugar",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Prawns",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Pretzel",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": ""
+    },
+    {
+        "name": "Prime Rib Roast",
+        "shelfLife": 4,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Beef"
+    },
+    {
+        "name": "Probiotic Powder",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Prosciutto",
+        "shelfLife": 60,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Prune",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Fruits"
+    },
+    {
+        "name": "Puff Pastry",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Pumpkin",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Cucurbits"
+    },
+    {
+        "name": "Pumpkin Pie Spice",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Warm and Sweet Spices"
+    },
+    {
+        "name": "Pumpkin Puree",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 425,
+        "similarityTable": "Cucurbits"
+    },
+    {
+        "name": "Pumpkin Ravioli",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 400,
+        "similarityTable": "Cucurbits"
+    },
+    {
+        "name": "Pumpkin Seed",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Seeds"
+    },
+    {
+        "name": "Quinoa",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Whole Grains"
+    },
+    {
+        "name": "Quinoa Salad",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Radish",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 300,
+        "similarityTable": "Roots"
+    },
+    {
+        "name": "Raisin",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Dried Fruits/Berries"
+    },
+    {
+        "name": "Ramen Noodle",
+        "shelfLife": 365,
+        "gramPerUnit": 85,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Ranch Dressing",
+        "shelfLife": 30,
+        "gramPerUnit": 14,
+        "isLiquid": true,
+        "isCountable": true,
+        "appropriateQuantity": 60,
+        "similarityTable": "Creamy and Rich Sauces"
+    },
+    {
+        "name": "Raspberry",
+        "shelfLife": 5,
+        "gramPerUnit": 5,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 150,
+        "similarityTable": "Tart and Tangy Fruits"
+    },
+    {
+        "name": "Raspberry Jam",
+        "shelfLife": 365,
+        "gramPerUnit": 20,
+        "isLiquid": true,
+        "isCountable": true,
+        "appropriateQuantity": 100,
+        "similarityTable": "Fruit Jam/Preserve"
+    },
+    {
+        "name": "Raspberry Preserve",
+        "shelfLife": 365,
+        "gramPerUnit": 20,
+        "isLiquid": true,
+        "isCountable": true,
+        "appropriateQuantity": 100,
+        "similarityTable": "Fruit Jam/Preserve"
+    },
+    {
+        "name": "Ravioli",
+        "shelfLife": 5,
+        "gramPerUnit": 80,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Raw Shrimp",
+        "shelfLife": 2,
+        "gramPerUnit": 10,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 300,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Red Bell Pepper",
+        "shelfLife": 14,
+        "gramPerUnit": 100,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Bell Peppers"
+    },
+    {
+        "name": "Red Cabbage",
+        "shelfLife": 14,
+        "gramPerUnit": 100,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Salad Greens"
+    },
+    {
+        "name": "Red Chili Flake",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Hot and Pungent Spices"
+    },
+    {
+        "name": "Red Food Coloring",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Red Onion",
+        "shelfLife": 21,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Alliums"
+    },
+    {
+        "name": "Red Pepper",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Red Pepper Flake",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Hot and Pungent Spices"
+    },
+    {
+        "name": "Red Wine",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Alcohols"
+    },
+    {
+        "name": "Red Wine Reduction",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Red Wine Sauce",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Red Wine Vinegar",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Vinegars and Alternatives"
+    },
+    {
+        "name": "Rhubarb",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Fruits"
+    },
+    {
+        "name": "Ribeye Steak",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Beef"
+    },
+    {
+        "name": "Rice",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Rice Noodle",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Rice Paper",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Rice Vinegar",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Vinegars and Alternatives"
+    },
+    {
+        "name": "Rice Wine",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 750,
+        "similarityTable": "Alcohols"
+    },
+    {
+        "name": "Rice",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 2000,
+        "similarityTable": "Whole Grains"
+    },
+    {
+        "name": "Ricotta",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Ricotta Cheese",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Rigatoni",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Rigatoni Pasta",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Ripe Plantains",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Fruits"
+    },
+    {
+        "name": "Risotto",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 400,
+        "similarityTable": ""
+    },
+    {
+        "name": "Risotto Rice",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Processed Grains"
+    },
+    {
+        "name": "Roast Pork",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Pork"
+    },
+    {
+        "name": "Roma Tomato",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 300,
+        "similarityTable": "Nightshades"
+    },
+    {
+        "name": "Romaine Lettuce",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Salad Greens"
+    },
+    {
+        "name": "Root Vegetables",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 2000,
+        "similarityTable": "Roots"
+    },
+    {
+        "name": "Roquefort Cheese",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Rosemary",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 20,
+        "similarityTable": "Herbal Spices"
+    },
+    {
+        "name": "Rum",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 750,
+        "similarityTable": "Alcohols"
+    },
+    {
+        "name": "Rum Sauce",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Umami and Savory Sauces"
+    },
+    {
+        "name": "Rye Bread",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Rye Flour",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Processed Grains"
+    },
+    {
+        "name": "Saffron",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Unique and Special Spices"
+    },
+    {
+        "name": "Sage",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Herbal Spices"
+    },
+    {
+        "name": "Sake",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Fruity and Light Alcohol"
+    },
+    {
+        "name": "Salad",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Salad Greens"
+    },
+    {
+        "name": "Salmon Fillet",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Salsa",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Tangy and Vinegary Sauces"
+    },
+    {
+        "name": "Salsa Verde",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Tangy and Vinegary Sauces"
+    },
+    {
+        "name": "Salt",
+        "shelfLife": 730,
+        "gramPerUnit": 1,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 300,
+        "similarityTable": "Salts"
+    },
+    {
+        "name": "Sambal",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Hot and Pungent Spices"
+    },
+    {
+        "name": "Sambal Sauce",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Umami and Savory Sauces"
+    },
+    {
+        "name": "Sauces",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Umami and Savory Sauces"
+    },
+    {
+        "name": "Sauerkraut",
+        "shelfLife": 60,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Pickled Foods"
+    },
+    {
+        "name": "Sausage",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Pork"
+    },
+    {
+        "name": "Scallion",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 100,
+        "similarityTable": "Alliums"
+    },
+    {
+        "name": "Scallop",
+        "shelfLife": 2,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Scotch Bonnet Pepper",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 50,
+        "similarityTable": ""
+    },
+    {
+        "name": "Sea Salt",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Salts"
+    },
+    {
+        "name": "Seafood",
+        "shelfLife": 2,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Seafood Broth",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Self-Raising Flour",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": ""
+    },
+    {
+        "name": "Sesame Oil",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Oils"
+    },
+    {
+        "name": "Sesame Seed",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Seeds"
+    },
+    {
+        "name": "Shallot",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Alliums"
+    },
+    {
+        "name": "Sherry",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Alcohols"
+    },
+    {
+        "name": "Sherry Vinegar",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Vinegars and Alternatives"
+    },
+    {
+        "name": "Shiitake Mushroom",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Mushroom"
+    },
+    {
+        "name": "Shortcrust Pastry",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Shredded Coconut",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Shrimp",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 250,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Simple Syrup",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": ""
+    },
+    {
+        "name": "Small Pasta",
+        "shelfLife": 365,
+        "gramPerUnit": 100,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Snap Pea",
+        "shelfLife": 3,
+        "gramPerUnit": 5,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 100,
+        "similarityTable": "Vegetables"
+    },
+    {
+        "name": "Snapper Fillet",
+        "shelfLife": 3,
+        "gramPerUnit": 100,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Snow Pea",
+        "shelfLife": 3,
+        "gramPerUnit": 5,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 100,
+        "similarityTable": "Vegetables"
+    },
+    {
+        "name": "Soba Noodle",
+        "shelfLife": 365,
+        "gramPerUnit": 100,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Soda Water",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": ""
+    },
+    {
+        "name": "Sour Cream",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Sourdough Bread",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Bread and Doughs"
+    },
+    {
+        "name": "Sourdough Starter",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": ""
+    },
+    {
+        "name": "Soy Sauce",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Spaghetti",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Spaghetti Noodle",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Sparkling Water",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 2000,
+        "similarityTable": ""
+    },
+    {
+        "name": "Spice",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Spices"
+    },
+    {
+        "name": "Spices",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Spices"
+    },
+    {
+        "name": "Spicy Mayo",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Spinach",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Greens"
+    },
+    {
+        "name": "Sponge Cake",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Sprinkle",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Sprout",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": ""
+    },
+    {
+        "name": "Squid",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Sriracha",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Sriracha Mayo",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Sriracha Sauce",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Steak",
+        "shelfLife": 4,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Beef"
+    },
+    {
+        "name": "Stout Beer",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 946,
+        "similarityTable": "Alcohols"
+    },
+    {
+        "name": "Strawberry",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Fruits"
+    },
+    {
+        "name": "Strawberry Ice Cream",
+        "shelfLife": 60,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Dessert Toppings and Sauces"
+    },
+    {
+        "name": "Strawbery",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Fruits"
+    },
+    {
+        "name": "String Bean",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 454,
+        "similarityTable": "Vegetables"
+    },
+    {
+        "name": "Sugar",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 2000,
+        "similarityTable": "Sugars and Sugar Alternatives"
+    },
+    {
+        "name": "Sugar Syrup",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 946,
+        "similarityTable": "Sugars and Sugar Alternatives"
+    },
+    {
+        "name": "Sunflower Seed",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Seeds and Nuts"
+    },
+    {
+        "name": "Sushi Rice",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Whole Grains"
+    },
+    {
+        "name": "Sweet Chili Sauce",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Sweet Potato",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Tubers"
+    },
+    {
+        "name": "Sweet Potato Noodle",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Swiss Cheese",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 300,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Taco Seasoning",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 50,
+        "similarityTable": "Complex Blends of Spices"
+    },
+    {
+        "name": "Taco Toppings",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": ""
+    },
+    {
+        "name": "Tahini Sauce",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Tahini sauce",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Tamari",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Tamarind Extract",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 150,
+        "similarityTable": ""
+    },
+    {
+        "name": "Tamarind Paste",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": ""
+    },
+    {
+        "name": "Tarragon",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 5,
+        "similarityTable": "Herbal Spices"
+    },
+    {
+        "name": "Tart Shell",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": ""
+    },
+    {
+        "name": "Tartar Sauce",
+        "shelfLife": 14,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Tea Bag",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 1,
+        "similarityTable": ""
+    },
+    {
+        "name": "Tempeh",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Legumes"
+    },
+    {
+        "name": "Thai Chili",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Hot and Pungent Spices"
+    },
+    {
+        "name": "Thai Chili Peppers",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Hot and Pungent Spices"
+    },
+    {
+        "name": "Thyme",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Herbal Spices"
+    },
+    {
+        "name": "Tikka Masala Paste",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Complex Blends of Spices"
+    },
+    {
+        "name": "Tilapia Fillet",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Fish"
+    },
+    {
+        "name": "Tofu",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Legumes"
+    },
+    {
+        "name": "Tomatillo",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Vegetables"
+    },
+    {
+        "name": "Tomato",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 0,
+        "similarityTable": "Nightshades"
+    },
+    {
+        "name": "Tomato Paste",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Tomato Puree",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Tomato Sauce",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Toor Dal",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Legumes"
+    },
+    {
+        "name": "Tortellini",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 250,
+        "similarityTable": ""
+    },
+    {
+        "name": "Tortilla",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 10,
+        "similarityTable": ""
+    },
+    {
+        "name": "Tortilla Chip",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": ""
+    },
+    {
+        "name": "Truffle Oil",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Flavor Enhancers Oils"
+    },
+    {
+        "name": "Tuna",
+        "shelfLife": 5,
+        "gramPerUnit": 170,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 340,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Tuna Steak",
+        "shelfLife": 3,
+        "gramPerUnit": 100,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Seafood"
+    },
+    {
+        "name": "Turkey",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 1200,
+        "similarityTable": "Poultry"
+    },
+    {
+        "name": "Turmeric",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 200,
+        "similarityTable": "Earthy and Aromatic Spices"
+    },
+    {
+        "name": "Tzatziki Sauce",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": "Creamy and Rich Sauces"
+    },
+    {
+        "name": "Udon Noodle",
+        "shelfLife": 7,
+        "gramPerUnit": 200,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 400,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Unsalted Butter",
+        "shelfLife": 14,
+        "gramPerUnit": 454,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 907,
+        "similarityTable": ""
+    },
+    {
+        "name": "Vanilla Bean",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 10,
+        "similarityTable": ""
+    },
+    {
+        "name": "Vanilla Extract",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": ""
+    },
+    {
+        "name": "Vanilla Ice Cream",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Dessert Toppings and Sauces"
+    },
+    {
+        "name": "Vanilla Pod",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 1,
+        "similarityTable": "Herbal Spices"
+    },
+    {
+        "name": "Vanilla Syrup",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Dessert Toppings and Sauces"
+    },
+    {
+        "name": "Veal Cutlet",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 150,
+        "similarityTable": "Beef"
+    },
+    {
+        "name": "Vegan Butter",
+        "shelfLife": 60,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 454,
+        "similarityTable": ""
+    },
+    {
+        "name": "Vegan Cheese",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Cheeses"
+    },
+    {
+        "name": "Vegan Cream Cheese",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Creamy Cheese"
+    },
+    {
+        "name": "Vegan Mayonnaise",
+        "shelfLife": 90,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 710,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Vegan Milk",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 946,
+        "similarityTable": "Milk"
+    },
+    {
+        "name": "Vegan Parmesan Cheese",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 200,
+        "similarityTable": "Parmesan Cheese"
+    },
+    {
+        "name": "Vegan Sour Cream",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Creamy and Rich Sauces"
+    },
+    {
+        "name": "Vegan Worcestershire Sauce",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Vegetable Broth",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 946,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Vegetable Oil",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Oils"
+    },
+    {
+        "name": "Vegetables",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": "Vegetables"
+    },
+    {
+        "name": "Venison Loin",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 300,
+        "similarityTable": "Protein"
+    },
+    {
+        "name": "Venison Steak",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Protein"
+    },
+    {
+        "name": "Vinaigrette",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Vinegar",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 946,
+        "similarityTable": "Vinegars and Alternatives"
+    },
+    {
+        "name": "Vodka",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 750,
+        "similarityTable": "Alcohols"
+    },
+    {
+        "name": "Walnut",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 250,
+        "similarityTable": "Nutty and Rich Nuts and Seeds"
+    },
+    {
+        "name": "Walnut Oil",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 473,
+        "similarityTable": "Oils"
+    },
+    {
+        "name": "Wasabi",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Unique and Special Spices"
+    },
+    {
+        "name": "Wasabi Paste",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Sauces"
+    },
+    {
+        "name": "Water Chestnut",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Vegetables"
+    },
+    {
+        "name": "Watercress",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Greens"
+    },
+    {
+        "name": "Watermelon",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Sweet Fruits"
+    },
+    {
+        "name": "Wheat Berries",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Whole Grains"
+    },
+    {
+        "name": "Whipped Cream",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Dairy"
+    },
+    {
+        "name": "White Bean",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Legumes"
+    },
+    {
+        "name": "White Bread",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "White Chocolate",
+        "shelfLife": 180,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "White Fish",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Fish"
+    },
+    {
+        "name": "White Mushroom",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Fungi"
+    },
+    {
+        "name": "White Onion",
+        "shelfLife": 30,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Alliums"
+    },
+    {
+        "name": "White Pepper",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Hot and Pungent Spices"
+    },
+    {
+        "name": "White Rum",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Alcohols"
+    },
+    {
+        "name": "White Vinegar",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": ""
+    },
+    {
+        "name": "White Wine",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 750,
+        "similarityTable": ""
+    },
+    {
+        "name": "White Wine Vinegar",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": ""
+    },
+    {
+        "name": "Whitefish Fillet",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 150,
+        "similarityTable": "Fish"
+    },
+    {
+        "name": "Whole Chicken",
+        "shelfLife": 3,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 1500,
+        "similarityTable": "Poultry"
+    },
+    {
+        "name": "Whole Duck",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 1800,
+        "similarityTable": "Poultry"
+    },
+    {
+        "name": "Whole Grain Bread",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Whole Grain Bun",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 100,
+        "similarityTable": ""
+    },
+    {
+        "name": "Whole Milk",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": ""
+    },
+    {
+        "name": "Whole Wheat Bread",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 500,
+        "similarityTable": ""
+    },
+    {
+        "name": "Whole Wheat Flour",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 1000,
+        "similarityTable": ""
+    },
+    {
+        "name": "Whole Wheat Tortilla",
+        "shelfLife": 5,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 150,
+        "similarityTable": ""
+    },
+    {
+        "name": "Wild Rice",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Whole Grains"
+    },
+    {
+        "name": "Wonton Wrapper",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 100,
+        "similarityTable": ""
+    },
+    {
+        "name": "Worcestershire Sauce",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Xanthan Gum",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    },
+    {
+        "name": "Xylitol",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Sugars and Sugar Alternatives"
+    },
+    {
+        "name": "Yeast",
+        "shelfLife": 30,
+        "gramPerUnit": 7,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 50,
+        "similarityTable": "Dried Proteins"
+    },
+    {
+        "name": "Yellow Bell Pepper",
+        "shelfLife": 7,
+        "gramPerUnit": 186,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 300,
+        "similarityTable": "Bell Peppers"
+    },
+    {
+        "name": "Yellow Squash",
+        "shelfLife": 5,
+        "gramPerUnit": 196,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 400,
+        "similarityTable": "Cucurbits"
+    },
+    {
+        "name": "Yogurt",
+        "shelfLife": 14,
+        "gramPerUnit": 245,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 500,
+        "similarityTable": "Dairy"
+    },
+    {
+        "name": "Yogurt Dip",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Dairy"
+    },
+    {
+        "name": "Yogurt Sauce",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Dairy"
+    },
+    {
+        "name": "Yogurt-Tahini Sauce",
+        "shelfLife": 7,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Dairy"
+    },
+    {
+        "name": "Za'atar",
+        "shelfLife": 365,
+        "gramPerUnit": 0,
+        "isLiquid": false,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": "Complex Blends of Spices"
+    },
+    {
+        "name": "Ziti Pasta",
+        "shelfLife": 365,
+        "gramPerUnit": 100,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 300,
+        "similarityTable": "Noodles and Pastas"
+    },
+    {
+        "name": "Zucchini",
+        "shelfLife": 5,
+        "gramPerUnit": 196,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 400,
+        "similarityTable": "Cucurbits"
+    },
+    {
+        "name": "Zucchini Flower",
+        "shelfLife": 3,
+        "gramPerUnit": 20,
+        "isLiquid": false,
+        "isCountable": true,
+        "appropriateQuantity": 30,
+        "similarityTable": "Vegetables"
+    },
+    {
+        "name": "Warm Water",
+        "shelfLife": 730,
+        "gramPerUnit": 0,
+        "isLiquid": true,
+        "isCountable": false,
+        "appropriateQuantity": 0,
+        "similarityTable": ""
+    }
+]
+
+
+
