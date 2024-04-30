@@ -21,24 +21,28 @@ public class Post
     private ObjectId reference;
     private String caption;
     private String username;
+    private String distinctId;
     private List<String> like;
     private List<String> disLike;
     private byte[] uploadImage;
     private String imageFormat;
+    private List<String> commentIds;
 
-    public Post (ObjectId reference, String caption, String username, byte [] uploadImage,String imageFormat)
+    public Post (ObjectId reference, String caption, String username, byte [] uploadImage,String imageFormat, String distinctId)
     {
         this.reference = reference;
         this.caption = caption;
+        this.distinctId = distinctId;
         this.username = username;
         this.uploadImage = uploadImage;
         this.imageFormat = imageFormat;
     }
 
-    public Post(ObjectId reference, String caption, String username)
+    public Post(ObjectId reference, String caption, String username, String distinctId)
     {
         this.reference = reference;
         this.caption = caption;
         this.username = username;
+        this.distinctId = distinctId;
     }
 }

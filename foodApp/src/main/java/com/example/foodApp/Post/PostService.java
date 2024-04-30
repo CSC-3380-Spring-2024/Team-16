@@ -1,6 +1,7 @@
 package com.example.foodApp.Post;
 
 import com.example.foodApp.AccountCreaete.Account;
+import com.example.foodApp.System.DistinctId;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
@@ -17,6 +18,8 @@ public class PostService
     private PostRespository postRespository;
     @Autowired
     private MongoTemplate mongoTemplate;
+    @Autowired
+    private DistinctId distinctId;
 
 
     public List<Post> getAllPostsRanked() {
@@ -37,9 +40,10 @@ public class PostService
 
     public String createPost (String caption, String username, ObjectId reference, byte[] photoImage, String imageFormat)
     {
+        String postId = distinctId.generateId();
         if(photoImage != null && imageFormat != null)
         {
-            Post createPost = postRespository.insert(new Post(reference,caption,username,photoImage,imageFormat));
+            Post createPost = postRespository.insert(new Post(reference,caption,username,photoImage,imageFormat,postId));
 
             mongoTemplate.update(Account.class)
                     .matching(Criteria.where("username").is(username))
@@ -48,7 +52,7 @@ public class PostService
         }
         else
         {
-            Post createPost = postRespository.insert(new Post(reference,caption,username));
+            Post createPost = postRespository.insert(new Post(reference,caption,username,postId));
 
             mongoTemplate.update(Account.class)
                     .matching(Criteria.where("username").is(username))

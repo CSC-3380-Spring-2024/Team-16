@@ -1,7 +1,8 @@
 package com.example.foodApp.Post;
 
 import com.example.foodApp.Review.LikeNDislikeFilter;
-import com.example.foodApp.Review.Review;
+import com.example.foodApp.System.DistinctId;
+import com.example.foodApp.System.ImageConverter;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
@@ -22,6 +23,7 @@ public class PostController
     private ImageConverter imageConverter;
     @Autowired
     private PostService postService;
+
     @Autowired
     private MongoTemplate mongoTemplate;
 
@@ -52,11 +54,14 @@ public class PostController
         String caption = payload.get(1);
         ObjectId referenceId = new ObjectId(payload.get(2));
 
-        if(payload.size() != 4)
+
+
+        if(payload.size() < 4)
         {
              createPost = postService.createPost(caption,username,referenceId,null, null);
             return ResponseEntity.ok(createPost);
         }
+
             String image = payload.get(4);
 
             byte[] binaryImage = imageConverter.base64Tobinary(image);
