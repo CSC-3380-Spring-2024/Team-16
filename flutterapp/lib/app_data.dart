@@ -143,6 +143,8 @@ class AppData {
   static String? currentUser;
   static RecipeData? viewedRecipe = dummyRecipe;
   static bool isTrackingRecipe = false;
+  static List<int> completedMethods = [];
+  static List<int> completedIngredients = [];
   //static List<String> draftRecipe;
 
   /*

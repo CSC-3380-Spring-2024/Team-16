@@ -213,33 +213,27 @@ class _RecipeFullInfoWidgetState extends State<RecipeFullInfoWidget> {
                     header: "Methods",
                     items: AppData.viewedRecipe!.method
                   ),
-                  Row(
-                    mainAxisSize: MainAxisSize.max,
-                    children: [
-                      Align(
-                        alignment: AlignmentDirectional(-1.0, 0.0),
-                        child: Text(
-                          '(Replace w serve size)',
-                          style: FlutterFlowTheme.of(context).bodyMedium.override(
+                  FFButtonWidget(
+                    onPressed: () {
+                      setState(() {
+                        AppData.isTrackingRecipe = !AppData.isTrackingRecipe;
+                      });
+                    },
+                    text: AppData.isTrackingRecipe ? 'Stop Tracking Recipe' : 'Start Tracking Recipe',
+                    options: FFButtonOptions(
+                      width: double.infinity,
+                      height: 50.0,
+                      color: AppData.isTrackingRecipe ? ffTheme.secondary : ffTheme.primary,
+                      textStyle:
+                          FlutterFlowTheme.of(context).titleSmall.override(
                                 fontFamily: 'Readex Pro',
-                                letterSpacing: 0.0,
+                                color: AppData.isTrackingRecipe ? Colors.black : Colors.white,
                               ),
-                        ),
-                      ),
-                      Expanded(
-                        child: Align(
-                          alignment: AlignmentDirectional(-1.0, 0.0),
-                          child: Text(
-                            'Servings',
-                            style: FlutterFlowTheme.of(context).bodyMedium.override(
-                                  fontFamily: 'Readex Pro',
-                                  letterSpacing: 0.0,
-                                ),
-                          ),
-                        ),
-                      ),
-                    ],
+                      elevation: 2.0,
+                      borderRadius: BorderRadius.circular(12.0),
+                    ),
                   ),
+                  const SizedBox(height:60),
                 ],
               ),
             ),

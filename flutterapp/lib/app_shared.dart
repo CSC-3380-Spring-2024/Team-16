@@ -65,9 +65,16 @@ class ReorderableExample extends StatefulWidget {
 class _ReorderableListViewExampleState extends State<ReorderableExample> {
 
   @override
-  Widget build(BuildContext conext) {
+  Widget build(BuildContext context) {
     
     FlutterFlowTheme ffTheme = FlutterFlowTheme.of(context);
+    List<int> taskList;
+
+    if (widget.items.isNotEmpty && widget.items.first is List) {
+      taskList = AppData.completedMethods;
+    } else {
+      taskList = AppData.completedIngredients;
+    }
 
     return Padding(
       padding: const EdgeInsetsDirectional.fromSTEB(0, 8.0,0,0),
@@ -102,11 +109,10 @@ class _ReorderableListViewExampleState extends State<ReorderableExample> {
                     Dismissible(
                       key: UniqueKey(),
                       //Dismissible bs
-                      direction: widget.editable ? DismissDirection.endToStart : DismissDirection.startToEnd,
+                      direction: widget.editable ? DismissDirection.endToStart : AppData.isTrackingRecipe ? DismissDirection.startToEnd : DismissDirection.none,
                       onDismissed: (direction) {
                         if (direction == DismissDirection.endToStart) {
                           setState(() {
-                            //widget.items.removeWhere((item) => item['name'] == ingredient['name']);
                             widget.items.removeAt(index);
                           });
                           ScaffoldMessenger.of(context).showSnackBar(
@@ -114,8 +120,7 @@ class _ReorderableListViewExampleState extends State<ReorderableExample> {
                               content: Text("${widget.items[index]} dismissed", style: FlutterFlowTheme.of(context).bodySmall),
                             ),
                           );
-                        } else {
-                          
+                        } else if (direction == DismissDirection.startToEnd){
                         }
                       },
                       confirmDismiss: (DismissDirection direction) async {
@@ -123,24 +128,28 @@ class _ReorderableListViewExampleState extends State<ReorderableExample> {
                           return true;
                         } else {
                           setState(() {
-                            
+                            if (taskList.contains(index)) {
+                              taskList.remove(index);
+                            } else {
+                              taskList.add(index);
+                            }
                           });
                           return false;
                         }
                       },
-                      /*background: Container(
+                      background: Container(
                         color: FlutterFlowTheme.of(context).secondaryBackground,
-                        alignment: Alignment.centerRight,
-                        padding: EdgeInsets.only(right: 40.0),
-                        child: Icon(Icons.delete, color: Colors.white),
-                      ),*/
+                        alignment: Alignment.centerLeft,
+                        padding: EdgeInsets.all(18),
+                        child: Text('${index+1}			|  ${widget.items[index]}',style: FlutterFlowTheme.of(context).bodySmall),
+                      ),
                       ////////////////
                       
                       child: Padding(
                         padding: const EdgeInsets.all(2.0),
                         child: Container(
                           decoration: BoxDecoration(
-                            color: FlutterFlowTheme.of(context).primaryBackground,
+                            color: taskList.contains(index) ? ffTheme.secondaryBackground : ffTheme.primaryBackground,
                             borderRadius: BorderRadius.circular(8.0),
                             //border: Border.all(color: const Color.fromARGB(255, 106, 106, 106))
                             ),
