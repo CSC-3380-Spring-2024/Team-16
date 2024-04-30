@@ -64,6 +64,7 @@ public class CollectionController
         String distinctId = paylaod.get("distinctId");
         String imagebase64 = paylaod.get("uploadImage");
 
+
         String uploadImage = collectionService.addCollectionImage(distinctId,imagebase64);
 
         return ResponseEntity.ok(uploadImage);

@@ -21,13 +21,15 @@ public class Collection {
     private String collectionName;
     private byte [] image;
     private String imageFormat;
+    private String distinctId;
 
-    public Collection (List<ObjectId> recipeId, String name)
+    public Collection (List<ObjectId> recipeId, String name, String distinctIds)
     {
         this.collectionName = name;
         this.recipeId = recipeId;
         this.image = null;
         this.imageFormat = null;
+        this.distinctId = distinctIds;
     }
     public Collection (List<ObjectId> recipeId, String name, byte [] image, String imageFormat)
     {

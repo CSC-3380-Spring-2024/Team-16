@@ -1,6 +1,7 @@
 package com.example.foodApp.Collection;
 
 import com.example.foodApp.AccountCreaete.Account;
+import com.example.foodApp.System.DistinctId;
 import com.example.foodApp.System.ImageConverter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.ldap.embedded.EmbeddedLdapProperties;
@@ -15,13 +16,16 @@ public class CollectionService {
     @Autowired
     private CollectionRepository collectionRepository;
     @Autowired
+    private DistinctId distinctId;
+    @Autowired
     private MongoTemplate mongoTemplate;
-    private ImageConverter imageConverter;
+
 
     public String createCollection(Collection collections, String username) {
         String result = "";
         Collection collection;
-        collection = collectionRepository.insert(new Collection(collections.getRecipeId(), collections.getCollectionName()));
+        String collectionId = distinctId.generateId();
+        collection = collectionRepository.insert(new Collection(collections.getRecipeId(), collections.getCollectionName(), collectionId));
             result = "Upload without Image";
             mongoTemplate.update(Account.class)
                     .matching(Criteria.where("username").is(username))
@@ -32,11 +36,12 @@ public class CollectionService {
     {
         Query query = new Query();
 
-        byte [] image = imageConverter.base64Tobinary(imageFile);
+        byte [] image = ImageConverter.base64Tobinary(imageFile);
 
         query.addCriteria(Criteria.where("distinctId").is(distinctId));
         Collection collection = mongoTemplate.findOne(query,Collection.class);
         Update update = new Update().addToSet("image",image);
+        mongoTemplate.updateFirst(query, update,Collection.class);
        return "Image Upload Sucessfully";
 
     }

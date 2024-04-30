@@ -63,7 +63,7 @@ public class PostController
 
             String image = payload.get(4);
 
-            byte[] binaryImage = imageConverter.base64Tobinary(image);
+            byte[] binaryImage = ImageConverter.base64Tobinary(image);
             String imageFormat = imageConverter.getImageFormat();
 
             if (binaryImage == null || imageFormat == null) {

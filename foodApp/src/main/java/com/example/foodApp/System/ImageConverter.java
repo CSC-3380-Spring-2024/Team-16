@@ -5,9 +5,9 @@ import java.util.Base64;
 
 public class ImageConverter {
     private String base64;
-    private String imageFormat;
+    private static String imageFormat;
 
-    public byte [] base64Tobinary(String image)
+    public static byte [] base64Tobinary(String image)
     {
         try
         {
