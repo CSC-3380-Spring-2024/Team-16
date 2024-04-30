@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:foodappproject/app_shared.dart';
+import 'package:foodappproject/quantity_converter.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
@@ -257,8 +258,8 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                 ),
               ),
               IconButton(
-                icon: Icon(Icons.edit),
-                onPressed: () => _showEditIngredientDialog(ingredientData.name),
+                icon: Icon(Icons.remove_circle),
+                onPressed: () => _showSubtractQuantityDialog(ingredientData),
               ),
             ],
           ),
@@ -348,47 +349,28 @@ class _FridgeWidgetState extends State<FridgeWidget> {
     );
   }
 
-  void _showEditIngredientDialog(String name) {
-    TextEditingController quantityController = TextEditingController(text: ingredients[name]?['quantity'].toString());
-    String unit = ingredients[name]?['unit']; // Get current unit
-
+  void _showSubtractQuantityDialog (IngredientData ingredientData, ) {
+    TextEditingController quantityController = TextEditingController();
+    String unit = Quantity.parseQuantity(ingredientData.quantity).unit;
     showDialog(
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Text('Edit Quantity'),
-          content: Column(
+          title: Text('Subtract from ${ingredientData.name}...', style: FlutterFlowTheme.of(context).bodyLarge,),
+          content: Row(
             mainAxisSize: MainAxisSize.min,
             children: [
-              TextField(
-                controller: quantityController,
-                decoration: InputDecoration(
-                  labelText: "Quantity",
+              Expanded(
+                flex: 1,
+                child: TextField(
+                  controller: quantityController,
+                  decoration: const InputDecoration(
+                    labelText: "Quantity",
+                  ),
+                  keyboardType: const TextInputType.numberWithOptions(decimal: true),
                 ),
-                keyboardType: TextInputType.numberWithOptions(decimal: true),
               ),
-              DropdownButton<String>(
-                value: unit,
-                icon: const Icon(Icons.arrow_downward),
-                elevation: 16,
-                style: const TextStyle(color: Colors.deepPurple),
-                underline: Container(
-                  height: 2,
-                  color: Colors.deepPurpleAccent,
-                ),
-                onChanged: (String? newValue) {
-                  setState(() {
-                    unit = newValue!;
-                  });
-                },
-                items: <String>['liter', 'gram', 'piece']
-                    .map<DropdownMenuItem<String>>((String value) {
-                  return DropdownMenuItem<String>(
-                    value: value,
-                    child: Text(value),
-                  );
-                }).toList(),
-              ),
+              Expanded(flex: 1,child: QuantityDropdown(dialogSelectedUnit: Quantity.parseQuantity(ingredientData.quantity).unit))
             ],
           ),
           actions: <Widget>[
@@ -399,7 +381,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                   setState(() {
                     double quantity = double.tryParse(quantityController.text) ?? 0;
                     if (quantity > 0) {
-                      ingredients[name] = {'quantity': quantity, 'unit': unit};
+                      //ingredients[name] = {'quantity': quantity, 'unit': unit};
                     }
                   });
                   Navigator.of(context).pop();

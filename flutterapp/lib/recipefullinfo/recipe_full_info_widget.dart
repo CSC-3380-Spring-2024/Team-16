@@ -217,6 +217,9 @@ class _RecipeFullInfoWidgetState extends State<RecipeFullInfoWidget> {
                     onPressed: () {
                       setState(() {
                         AppData.isTrackingRecipe = !AppData.isTrackingRecipe;
+                        if (!AppData.isTrackingRecipe) {
+                          _showEndTrackingDialog();
+                        }
                       });
                     },
                     text: AppData.isTrackingRecipe ? 'Stop Tracking Recipe' : 'Start Tracking Recipe',
@@ -242,4 +245,40 @@ class _RecipeFullInfoWidgetState extends State<RecipeFullInfoWidget> {
       ),
     );
   }
+    void _showEndTrackingDialog() {
+      FlutterFlowTheme ffTheme = FlutterFlowTheme.of(context);
+    TextEditingController ingredientController = TextEditingController();
+    TextEditingController quantityController = TextEditingController();
+    String unit = 'liter'; // Default unit
+
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text('Finished?', style: ffTheme.headlineSmall,),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [],
+          ),
+          actions: <Widget>[
+            TextButton(
+              child: const Text('Cancel'),
+              onPressed: () {
+              },
+            ),
+            TextButton(
+              child: const Text('Complete Recipe'),
+              onPressed: () {
+              },
+            ),
+            TextButton(
+              child: const Text('Discard Changes'),
+              onPressed: () => Navigator.of(context).pop(),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
 }

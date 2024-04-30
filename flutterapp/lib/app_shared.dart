@@ -209,6 +209,39 @@ class _ReorderableListViewExampleState extends State<ReorderableExample> {
   }
 }
 
+class QuantityDropdown extends StatefulWidget {
+  final List<String> units = ["L", "mL","oz","cup","g", "qt","kg","lb","tsp","tbsp","unit"];
+  late String dialogSelectedUnit;
+
+  QuantityDropdown({
+    required this.dialogSelectedUnit
+  });
+
+  @override
+  _QuantityDropdownState createState() => _QuantityDropdownState();
+}
+
+class _QuantityDropdownState extends State<QuantityDropdown> {
+  @override
+  Widget build(BuildContext context) {
+    return DropdownButton<String>(
+      value: widget.dialogSelectedUnit,
+      isExpanded: true,
+      onChanged: (String? newValue) {
+        setState(() {
+          widget.dialogSelectedUnit = newValue!;
+        });
+      },
+      items: widget.units.map<DropdownMenuItem<String>>((String value) {
+        return DropdownMenuItem<String>(
+          value: value,
+          child: Text(value),
+        );
+      }).toList(),
+    );
+  }
+}
+
 class RecipeValueBar extends StatelessWidget {
   const RecipeValueBar({
     super.key,
