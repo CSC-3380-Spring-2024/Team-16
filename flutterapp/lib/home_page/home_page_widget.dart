@@ -18,7 +18,6 @@ class HomePageWidget extends StatefulWidget {
 
 class _HomePageWidgetState extends State<HomePageWidget> {
   late HomePageModel _model;
-
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -30,7 +29,6 @@ class _HomePageWidgetState extends State<HomePageWidget> {
   @override
   void dispose() {
     _model.dispose();
-
     super.dispose();
   }
 
@@ -45,67 +43,27 @@ class _HomePageWidgetState extends State<HomePageWidget> {
         backgroundColor: FlutterFlowTheme.of(context).secondaryBackground,
         body: SafeArea(
           top: true,
-          child: ListView(
-            scrollDirection: Axis.vertical,
+          child: Column(
             children: [
-              Container(
-                decoration: BoxDecoration(
-                  color: FlutterFlowTheme.of(context).secondaryBackground,
-                  shape: BoxShape.rectangle,
-                ),
-                child: SingleChildScrollView(
-                  scrollDirection: Axis.horizontal,
-                  child: Container(
-                    decoration: BoxDecoration(
-                      border: Border(
-                        left: BorderSide(color: Colors.black, width: 2.0),
-                        top: BorderSide(color: Colors.black, width: 2.0),
-                        bottom: BorderSide(color: Colors.black, width: 2.0),
-                        right: BorderSide(color: Colors.black, width: 2.0),
-                      ),
-                    ),
-                    child: Row(
-                      mainAxisSize: MainAxisSize.max,
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        ContainerButton(),
-                        GroceryButton(),
-                      ],
-                    ),
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Container(
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Colors.black, width: 2.0),
+                  ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: [
+                      GroceryButton(),
+                    ],
                   ),
                 ),
               ),
-              SingleChildScrollView(
-                child: Column(
-                  mainAxisSize: MainAxisSize.max,
-                  children: [
-                    PostWidget(context),
-                    SizedBox(height: 100),
-                  ],
-                ),
+              Expanded(
+                child: FullPost(isPreview: true),
               ),
             ],
           ),
-        ),
-      ),
-    );
-  }
-
-  @override
-  Container PostWidget(BuildContext context) {
-    return Container(
-      width: double.infinity,
-      decoration: BoxDecoration(
-        color: FlutterFlowTheme.of(context).primaryBackground,
-        border: Border.all(
-              color: Colors.black,
-            ),
-      ),
-      child: Padding(
-        padding: const EdgeInsetsDirectional.fromSTEB(12.0, 12.0, 12.0, 12.0),
-        child: FullPost(
-          isPreview: true,
         ),
       ),
     );
@@ -115,10 +73,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
 class FullPost extends StatelessWidget {
   final bool isPreview;
 
-  const FullPost({
-    required this.isPreview,
-    super.key,
-  });
+  const FullPost({required this.isPreview, Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -126,204 +81,153 @@ class FullPost extends StatelessWidget {
       future: NetworkService.getAllPosts(),
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
-          return CircularProgressIndicator();
+          return const Center(child: CircularProgressIndicator());
         } else if (snapshot.hasError) {
-          return Text('Error: ${snapshot.error}');
+          return Center(child: Text('Error: ${snapshot.error}'));
         } else {
           final List<Post> posts = snapshot.data ?? [];
-          if (posts.isNotEmpty) {
-            return Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: posts.map((post) {
-                return Card(
-                  margin: EdgeInsets.symmetric(vertical: 8, horizontal: 12),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(10),
-                    side: BorderSide(color: Colors.black),
-                  ),
-                  child: Padding(
-                    padding: const EdgeInsets.all(12),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Row(
-                          mainAxisSize: MainAxisSize.max,
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Text(
-                              'Posted by ${post.username}',
-                              style: FlutterFlowTheme.of(context).labelSmall.override(
-                                    fontFamily: 'Readex Pro',
-                                    letterSpacing: 0.0,
-                                  ),
-                            ),
-                            SizedBox(
-                              height: 25,
-                            ),
-                          ],
-                        ),
-                        InkWell(
-                          onTap: () async {
-                            context.pushNamed('Comments');
-                          },
-                          child: Text(
-                            post.caption,
-                            maxLines: isPreview ? 4 : 99999,
-                            overflow: TextOverflow.ellipsis,
-                            style: FlutterFlowTheme.of(context).bodyMedium.override(
-                                  fontFamily: 'Readex Pro',
-                                  color: FlutterFlowTheme.of(context).primaryText,
-                                  letterSpacing: 0.0,
-                                ),
-                          ),
-                        ),
-                        SizedBox(height: 5,),
-                        if (post.uploadImage != null)
-                          Image.memory(
-                            post.uploadImage!,
-                            width: double.infinity,
-                            height: 200,
-                            fit: BoxFit.cover,
-                          ),
-                        SizedBox(height: 10,),
-                        Container(
-                          width: double.maxFinite,
-                          height: 100,
-                          decoration: BoxDecoration(
-                            border: Border.all(
-                              color: Colors.black,
-                            ),
-                          ),
-                          child: Row(
-                            children: [
-                              Container(
-                                width: 250,
-                                height: 85,
-                                child: Row(
-                                  children: [
-                                    Flexible(
-                                      child: Text(
-                                        post.referenceId,
-                                        softWrap: true,
-                                        overflow: TextOverflow.clip,
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                          child: Container(
-                            decoration: BoxDecoration(
-                            border: Border(
-                              bottom: BorderSide(
-                                color: Colors.black,
-                              ),
-                            ),
-                          ),
-                            child: Row(
-                              mainAxisSize: MainAxisSize.max,
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [
-                                Row(
-                                  children: <Widget>[
-                                    Icon(Icons.thumb_up_alt_outlined,
-                                        size: 16, color: Colors.grey[600]),
-                                    const SizedBox(width: 4),
-                                    Text("Like",
-                                        style:
-                                            TextStyle(fontSize: 12, color: Colors.grey[600])),
-                                    const SizedBox(width: 16),
-                                    Icon(Icons.thumb_down_alt_outlined,
-                                        size: 16, color: Colors.grey[600]),
-                                    const SizedBox(width: 4),
-                                    Text("Dislike",
-                                        style:
-                                            TextStyle(fontSize: 12, color: Colors.grey[600])),
-                                  ],
-                                ),
-                                InkWell(
-                          onTap: () async {
-                            context.pushNamed('Comments');
-                          },
-                                  child: FlutterFlowIconButton(
-                                    buttonSize: 40.0,
-                                    icon: Icon(
-                                      Icons.mode_comment_outlined,
-                                      color: FlutterFlowTheme.of(context).secondaryText,
-                                      size: 24.0,
-                                    ),
-                                  ),
-                                ),
-                                FlutterFlowIconButton(
-                                  buttonSize: 40.0,
-                                  icon: Icon(
-                                    Icons.ios_share,
-                                    color: FlutterFlowTheme.of(context).secondaryText,
-                                    size: 24.0,
-                                  ),
-                                  onPressed: () {
-                                    print('IconButton pressed ...');
-                                  },
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                );
-              }).toList(),
-            );
-          } else {
-            return Text('No posts available.');
+          if (posts.isEmpty) {
+            return const Center(child: Text('No posts available.'));
           }
+
+          return ListView.builder(
+            itemCount: posts.length,
+            itemBuilder: (context, index) {
+              return PostWidget(post: posts[index], isPreview: isPreview);
+            },
+          );
         }
       },
     );
   }
 }
 
+class PostWidget extends StatelessWidget {
+  final Post post;
+  final bool isPreview;
 
-class ContainerButton extends StatelessWidget {
-  const ContainerButton({
-    super.key,
-  });
+  const PostWidget({required this.post, required this.isPreview, Key? key}) : super(key: key);
+
+  Future<Recipe> _getRecipeById() async {
+    return await NetworkService.fetchRecipeById(post.referenceId);
+  }
 
   @override
   Widget build(BuildContext context) {
     return Container(
+      width: double.infinity,
       decoration: BoxDecoration(
-        border: Border.all(
-          color: Colors.grey.shade800,
-          width: 4.0,
-        ),
+        color: FlutterFlowTheme.of(context).primaryBackground,
+        borderRadius: BorderRadius.circular(20.0),
       ),
+      margin: const EdgeInsets.all(12.0),
+      padding: const EdgeInsets.all(12.0),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          InkWell(
-            onTap: () async {
-              context.pushNamed('Fridge');
-            },
-            child: FlutterFlowIconButton(
-              icon: Icon(
-                Icons.all_inbox,
-                color: Colors.white,
-                size: 60.0,
-              ),
-            ),
-          ),
-          Text(
-            'Fridge',
-            style: FlutterFlowTheme.of(context).bodyLarge.override(
+          // Display main post
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text(
+                'Posted by ${post.username}',
+                style: FlutterFlowTheme.of(context).labelSmall.override(
                   fontFamily: 'Readex Pro',
-                  color: FlutterFlowTheme.of(context).primaryText,
                   letterSpacing: 0.0,
                 ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 5),
+          Text(
+            post.caption,
+            maxLines: isPreview ? 4 : null,
+            overflow: TextOverflow.ellipsis,
+            style: FlutterFlowTheme.of(context).bodyMedium.override(
+              fontFamily: 'Readex Pro',
+              color: FlutterFlowTheme.of(context).primaryText,
+              letterSpacing: 0.0,
+            ),
+          ),
+          const SizedBox(height: 10),
+          if (post.uploadImage != null)
+            Image.memory(
+              post.uploadImage!,
+              width: double.infinity,
+              height: 200,
+              fit: BoxFit.cover,
+            ),
+          const SizedBox(height: 10),
+
+          // Fetch and display subpost (recipe)
+          FutureBuilder<Recipe>(
+            future: _getRecipeById(),
+            builder: (context, snapshot) {
+              if (snapshot.connectionState == ConnectionState.waiting) {
+                return const Center(child: CircularProgressIndicator());
+              } else if (snapshot.hasError) {
+                return Center(child: Text('Error: ${snapshot.error}'));
+              } else if (!snapshot.hasData) {
+                return const Center(child: Text('No recipe found.'));
+              } else {
+                final recipe = snapshot.data!;
+                return Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text("Reference from:"),
+                    Text("Recipe Name: ${recipe.name}"),
+                    const SizedBox(height: 10),
+                    if (recipe.uploadImage != null)
+                      Image.memory(
+                        recipe.uploadImage!,
+                        width: 100,
+                        height: 100,
+                        fit: BoxFit.cover,
+                      ),
+                  ],
+                );
+              }
+            },
+          ),
+
+          const SizedBox(height: 10),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Row(
+                children: [
+                  Icon(Icons.thumb_up_alt_outlined, size: 16, color: Colors.grey[600]),
+                  const SizedBox(width: 4),
+                  Text("Like", style: TextStyle(fontSize: 12, color: Colors.grey[600])),
+                  const SizedBox(width: 16),
+                  Icon(Icons.thumb_down_alt_outlined, size: 16, color: Colors.grey[600]),
+                  const SizedBox(width: 4),
+                  Text("Dislike", style: TextStyle(fontSize: 12, color: Colors.grey[600])),
+                ],
+              ),
+              FlutterFlowIconButton(
+                buttonSize: 40.0,
+                icon: Icon(
+                  Icons.mode_comment_outlined,
+                  color: FlutterFlowTheme.of(context).secondaryText,
+                  size: 24.0,
+                ),
+                onPressed: () {
+                  // Handle comment button press
+                },
+              ),
+              FlutterFlowIconButton(
+                buttonSize: 40.0,
+                icon: Icon(
+                  Icons.ios_share,
+                  color: FlutterFlowTheme.of(context).secondaryText,
+                  size: 24.0,
+                ),
+                onPressed: () {
+                  // Handle share button press
+                },
+              ),
+            ],
           ),
         ],
       ),
@@ -332,25 +236,19 @@ class ContainerButton extends StatelessWidget {
 }
 
 class GroceryButton extends StatelessWidget {
-  const GroceryButton({
-    super.key,
-  });
+  const GroceryButton({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-        border: Border.all(
-          color: Colors.grey.shade800,
-          width: 4.0,
-        ),
+        border: Border.all(color: Colors.grey.shade800, width: 4.0),
       ),
+      padding: const EdgeInsets.all(8.0),
       child: Column(
         children: [
           InkWell(
-            onTap: () async {
-              context.pushNamed('Grocery');
-            },
+            onTap: () => context.pushNamed('Grocery'),
             child: FlutterFlowIconButton(
               icon: Icon(
                 Icons.local_grocery_store,
@@ -362,10 +260,10 @@ class GroceryButton extends StatelessWidget {
           Text(
             'Grocery',
             style: FlutterFlowTheme.of(context).bodyLarge.override(
-                  fontFamily: 'Readex Pro',
-                  color: FlutterFlowTheme.of(context).primaryText,
-                  letterSpacing: 0.0,
-                ),
+              fontFamily: 'Readex Pro',
+              color: FlutterFlowTheme.of(context).primaryText,
+              letterSpacing: 0.0,
+            ),
           ),
         ],
       ),
