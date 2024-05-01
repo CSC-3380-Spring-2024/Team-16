@@ -1,17 +1,17 @@
-// import '/flutter_flow/flutter_flow_util.dart';
-// import 'grocery_widget.dart' show GroceryWidget;
-// import 'package:flutter/material.dart';
+import '/flutter_flow/flutter_flow_util.dart';
+import 'grocery_widget.dart' show GroceryWidget;
+import 'package:flutter/material.dart';
 
-// class GroceryModel extends FlutterFlowModel<GroceryWidget> {
-//   ///  State fields for stateful widgets in this page.
+class GroceryModel extends FlutterFlowModel<GroceryWidget> {
+  ///  State fields for stateful widgets in this page.
 
-//   final unfocusNode = FocusNode();
+  final unfocusNode = FocusNode();
 
-//   @override
-//   void initState(BuildContext context) {}
+  @override
+  void initState(BuildContext context) {}
 
-//   @override
-//   void dispose() {
-//     unfocusNode.dispose();
-//   }
-// }
+  @override
+  void dispose() {
+    unfocusNode.dispose();
+  }
+}
