@@ -44,7 +44,7 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           path: '/',
           builder: (context, _) => const NavBarPage(),
         ),
-        // MAKES THE LOGIN PAGE COMES FIRST BUT IMMA COMMENT IT OUT FOR NOW CUZ WE DONT HAVE AUTH
+        
          FFRoute(
             name: 'LoginPage',
             path: '/login',
@@ -85,6 +85,14 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => const NavBarPage(
             initialPage: '',
             page: FridgeWidget(),
+          ),
+        ),
+        FFRoute(
+          name: 'Grocery',
+          path: '/grocery',
+          builder: (context, params) => const NavBarPage(
+            initialPage: '',
+            page: GroceryWidget(),
           ),
         ),
         FFRoute(

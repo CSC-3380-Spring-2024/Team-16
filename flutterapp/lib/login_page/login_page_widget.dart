@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
 import 'package:foodappproject/apiService/apiService.dart';
+import 'package:foodappproject/app_data.dart';
 import 'package:foodappproject/flutter_flow/nav/nav.dart';
 
 import '/flutter_flow/flutter_flow_theme.dart';
@@ -35,6 +36,7 @@ class LoginPageWidget extends StatelessWidget {
       String message = await NetworkService.login(username, password);
       // Handle successful login, you can navigate to another page or show a success message
      // For demonstration, printing the message
+     AppData.currentUser = username;
      context.pushNamed('HomePage');
     } catch (e) {
       // Handle errors, such as network errors or invalid credentials
