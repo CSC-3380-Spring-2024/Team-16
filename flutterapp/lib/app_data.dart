@@ -237,7 +237,7 @@ class RecipeData {
       //uploadImage: json['uploadImage'],
       //youtubeVid: json['youtubeVid'],
       description: json['description'],
-      //backdrop: json['backdrop'],
+      backdrop: json['backdrop'],
       //peopleReviewed: json['peopleReviewed'],
       ingredients: List<List<dynamic>>.from(json['ingredients']),
       allIngredients: Map<String, dynamic>.from(json['allIngredients']),

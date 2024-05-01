@@ -606,6 +606,7 @@ class RecipeCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print(AppData.viewedRecipe.backdrop);
     FlutterFlowTheme ffTheme = FlutterFlowTheme.of(context);
     return Padding(
       padding: const EdgeInsets.all(8.0),
