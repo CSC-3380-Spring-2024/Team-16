@@ -40,7 +40,6 @@ class _CommentsWidgetState extends State<CommentsWidget> {
     return SingleChildScrollView(
       child: Column(
         children: [
-          FullPost(isPreview: false),
           Container(
             decoration: BoxDecoration(
               border: Border.all(

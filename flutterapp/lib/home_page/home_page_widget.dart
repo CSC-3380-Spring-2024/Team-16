@@ -32,42 +32,44 @@ class _HomePageWidgetState extends State<HomePageWidget> {
     super.dispose();
   }
 
-  @override
-  Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: () => _model.unfocusNode.canRequestFocus
-          ? FocusScope.of(context).requestFocus(_model.unfocusNode)
-          : FocusScope.of(context).unfocus(),
-      child: Scaffold(
-        key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).secondaryBackground,
-        body: SafeArea(
-          top: true,
-          child: Column(
-            children: [
-              SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-                child: Container(
-                  decoration: BoxDecoration(
-                    border: Border.all(color: Colors.black, width: 2.0),
-                  ),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: [
-                      GroceryButton(),
-                    ],
-                  ),
+@override
+Widget build(BuildContext context) {
+  return GestureDetector(
+    onTap: () => _model.unfocusNode.canRequestFocus
+        ? FocusScope.of(context).requestFocus(_model.unfocusNode)
+        : FocusScope.of(context).unfocus(),
+    child: Scaffold(
+      key: scaffoldKey,
+      backgroundColor: FlutterFlowTheme.of(context).secondaryBackground,
+      body: SafeArea(
+        top: true,
+        child: Column(
+          children: [
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Container(
+                decoration: BoxDecoration(
+                  border: Border.all(color: Colors.black, width: 2.0),
+                ),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.start, // Aligns children at the start
+                  children: [
+                    ContainerButton(),
+                    GroceryButton(),
+                  ],
                 ),
               ),
-              Expanded(
-                child: FullPost(isPreview: true),
-              ),
-            ],
-          ),
+            ),
+            Expanded(
+              child: FullPost(isPreview: true),
+            ),
+          ],
         ),
       ),
-    );
-  }
+    ),
+  );
+}
+
 }
 
 class FullPost extends StatelessWidget {
@@ -205,16 +207,16 @@ class PostWidget extends StatelessWidget {
                   Text("Dislike", style: TextStyle(fontSize: 12, color: Colors.grey[600])),
                 ],
               ),
-              FlutterFlowIconButton(
-                buttonSize: 40.0,
-                icon: Icon(
-                  Icons.mode_comment_outlined,
-                  color: FlutterFlowTheme.of(context).secondaryText,
-                  size: 24.0,
+              InkWell(
+                onTap: () => context.pushNamed('Comments'),
+                child: FlutterFlowIconButton(
+                  buttonSize: 40.0,
+                  icon: Icon(
+                    Icons.mode_comment_outlined,
+                    color: FlutterFlowTheme.of(context).secondaryText,
+                    size: 24.0,
+                  ),
                 ),
-                onPressed: () {
-                  // Handle comment button press
-                },
               ),
               FlutterFlowIconButton(
                 buttonSize: 40.0,
@@ -228,6 +230,44 @@ class PostWidget extends StatelessWidget {
                 },
               ),
             ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class ContainerButton extends StatelessWidget {
+  const ContainerButton({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      decoration: BoxDecoration(
+        border: Border.all(color: Colors.grey.shade800, width: 4.0),
+      ),
+      padding: const EdgeInsets.all(8.0),
+      child: Column(
+        children: [
+          InkWell(
+            onTap: () => context.pushNamed('Fridge'),
+            child: FlutterFlowIconButton(
+              icon: Icon(
+                Icons.all_inbox,
+                color: Colors.white,
+                size: 60.0,
+              ),
+            ),
+          ),
+          Text(
+            'Fridge',
+            style: FlutterFlowTheme.of(context).bodyLarge.override(
+              fontFamily: 'Readex Pro',
+              color: FlutterFlowTheme.of(context).primaryText,
+              letterSpacing: 0.0,
+            ),
           ),
         ],
       ),
