@@ -212,9 +212,11 @@ class _ReorderableListViewExampleState extends State<ReorderableExample> {
 class QuantityDropdown extends StatefulWidget {
   final List<String> units = ["L", "mL","oz","cup","g", "qt","kg","lb","tsp","tbsp","unit"];
   late String dialogSelectedUnit;
+  TextEditingController controller;
 
   QuantityDropdown({
-    required this.dialogSelectedUnit
+    required this.dialogSelectedUnit,
+    required this.controller,
   });
 
   @override
@@ -230,6 +232,7 @@ class _QuantityDropdownState extends State<QuantityDropdown> {
       onChanged: (String? newValue) {
         setState(() {
           widget.dialogSelectedUnit = newValue!;
+          widget.controller.text = newValue;
         });
       },
       items: widget.units.map<DropdownMenuItem<String>>((String value) {

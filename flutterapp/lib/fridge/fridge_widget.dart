@@ -6,7 +6,6 @@ import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'fridge_model.dart';
 import 'package:foodappproject/app_data.dart';
-import 'package:json_annotation/json_annotation.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 export 'fridge_model.dart';
@@ -21,7 +20,7 @@ class FridgeWidget extends StatefulWidget {
 class _FridgeWidgetState extends State<FridgeWidget> {
   late FridgeModel _model;
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  FridgeData openedFridge = FFAppState().containers[0];
+  FridgeData openedFridge = AppData.openedFridge;
 
   Map<String, Map<String, dynamic>> ingredients = { 
     'Milk': {'quantity': 1, 'unit': 'liter'}
@@ -45,6 +44,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
 
   @override
   Widget build(BuildContext context) {
+    
     return GestureDetector(
       onTap: () => _model.unfocusNode.canRequestFocus
           ? FocusScope.of(context).requestFocus(_model.unfocusNode)
@@ -121,17 +121,13 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                 SizedBox(height:5),
                 for (var ingredient in openedFridge.contents)//ingredients.keys)//TODO: Remove ingredients.keys (wherever that is)
                   if (ingredient.name.toLowerCase().contains(_searchQuery))
-                    buildIngredient(
-                      ingredient
-                      //'https://images.unsplash.com/photo-1600788907416-456578634209?q=80&w=1350&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90oy1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-                    ),
-                RecipeCard(recipeData: AppData.dummyRecipe),
+                    buildIngredient(ingredient),
                 Padding(
                   padding: const EdgeInsetsDirectional.fromSTEB(
                       16.0, 16.0, 16.0, 16.0),
                   child: FFButtonWidget(
                     onPressed: () {
-                      _showAddIngredientDialog();
+                      _showAddIngredientDialog(context);
                     },
                     text: 'Add Ingredient',
                     options: FFButtonOptions(
@@ -222,134 +218,152 @@ class _FridgeWidgetState extends State<FridgeWidget> {
             }
           });
         },
-        child: Container(
-          decoration: BoxDecoration(
-            color: isSelected
-                ? FlutterFlowTheme.of(context).primary
-                : FlutterFlowTheme.of(context).secondaryBackground,
-            borderRadius: BorderRadius.circular(20.0),
-          ),
-          child: Row(
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              Padding(
-                padding:
-                    const EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
-                child: Container(
-                  width: 100.0,
-                  height: 80.0,
-                  decoration: BoxDecoration(
-                    color: FlutterFlowTheme.of(context).secondaryBackground,
-                    borderRadius: BorderRadius.circular(8.0),
-                  ),
-                  child: Icon(
-                    Icons.access_alarm_outlined, // Replace with your desired icon
-                    color: FlutterFlowTheme.of(context).primaryBackground, // Customize the icon color
-                    size: 48, // Set the icon size
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Container(
+            decoration: BoxDecoration(
+              color: isSelected
+                  ? FlutterFlowTheme.of(context).primary
+                  : FlutterFlowTheme.of(context).secondaryBackground,
+              borderRadius: BorderRadius.circular(20.0),
+              // border: Border.all(
+              //     color: const Color.fromARGB(255, 204, 199, 216)), // Apply grayish purple border
+            ),
+            child: Row(
+              mainAxisSize: MainAxisSize.max,
+              children: [
+                Padding(
+                  padding:
+                      const EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
+                  child: Container(
+                    width: 60.0,
+                    height: 60.0,
+                    decoration: BoxDecoration(
+                      color: FlutterFlowTheme.of(context).secondaryBackground,
+                      borderRadius: BorderRadius.circular(8.0),
+                    ),
+                    child: Icon(
+                      Icons.circle, // Replace with your desired icon
+                      color: FlutterFlowTheme.of(context).primaryBackground, // Customize the icon color
+                      size: 12, // Set the icon size
+                    ),
                   ),
                 ),
-              ),
-              Expanded(
-                child: Column(
-                  mainAxisSize: MainAxisSize.max,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      '${ingredientData.name} - ${ingredientData.quantity}',// - ${details?['quantity']} ${details?['unit']}',
-                      style: FlutterFlowTheme.of(context)
-                          .titleMedium
-                          .override(
-                            fontFamily: 'Readex Pro',
-                            color: FlutterFlowTheme.of(context).primaryText,
-                          ),
-                    ),
-                    Text(
-                      'Expires in 7 days',
-                      style: FlutterFlowTheme.of(context)
-                          .labelMedium
-                          .override(
-                            fontFamily: 'Readex Pro',
-                            color: FlutterFlowTheme.of(context).secondaryText,
-                          ),
-                    ),
-                  ],
+                Expanded(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.max,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        '${ingredientData.name} - ${ingredientData.quantity}',// - ${details?['quantity']} ${details?['unit']}',
+                        style: FlutterFlowTheme.of(context)
+                            .titleMedium
+                            .override(
+                              fontFamily: 'Readex Pro',
+                              color: FlutterFlowTheme.of(context).primaryText,
+                            ),
+                      ),
+                      Text(
+                        'Expires in ${ingredientData.expiry} days',
+                        style: FlutterFlowTheme.of(context)
+                            .labelMedium
+                            .override(
+                              fontFamily: 'Readex Pro',
+                              color: FlutterFlowTheme.of(context).secondaryText,
+                            ),
+                      ),
+                    ],
+                  ),
                 ),
-              ),
-              IconButton(
-                icon: Icon(Icons.remove_circle),
-                onPressed: () => _showSubtractQuantityDialog(ingredientData),
-              ),
-            ],
+                IconButton(
+                  icon: Icon(Icons.remove_circle),
+                  onPressed: () => _showSubtractQuantityDialog(ingredientData),
+                ),
+              ],
+            ),
           ),
         ),
       ),
     );
   }
 
-  void _showAddIngredientDialog() {
-    TextEditingController ingredientController = TextEditingController();
-    TextEditingController quantityController = TextEditingController();
-    String unit = 'liter'; // Default unit
 
+
+  void _showAddIngredientDialog(BuildContext context) async {
+    String unit = 'liter'; // Default unit
+    List<String> kOptions = []; // Initialize as empty list
+
+    // Show CircularProgressIndicator while fetching options
     showDialog(
       context: context,
       builder: (BuildContext context) {
+        TextEditingController ingredientController = TextEditingController();
+        TextEditingController quantityController = TextEditingController();
+        TextEditingController unitController = TextEditingController();
+        unitController.text = "g";
         return AlertDialog(
           title: const Text('Add Ingredient'),
-          content: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              TextField(
-                controller: ingredientController,
-                decoration: const InputDecoration(
-                  labelText: "Ingredient Name",
-                ),
-              ),
-              TextField(
-                controller: quantityController,
-                decoration: const InputDecoration(
-                  labelText: "Quantity",
-                ),
-                keyboardType: const TextInputType.numberWithOptions(decimal: true),
-              ),
-              DropdownButton<String>(
-                value: unit,
-                icon: const Icon(Icons.arrow_downward),
-                elevation: 16,
-                style: const TextStyle(color: Colors.deepPurple),
-                underline: Container(
-                  height: 2,
-                  color: Colors.deepPurpleAccent,
-                ),
-                onChanged: (String? newValue) {
-                  setState(() {
-                    unit = newValue!;
-                  });
-                },
-                items: <String>['liter', 'gram', 'piece']
-                    .map<DropdownMenuItem<String>>((String value) {
-                  return DropdownMenuItem<String>(
-                    value: value,
-                    child: Text(value),
-                  );
-                }).toList(),
-              ),
-            ],
+          content: FutureBuilder<List<String>>(
+            future: fetchOptions(), // Fetch options asynchronously
+            builder: (BuildContext context, AsyncSnapshot<List<String>> snapshot) {
+              if (snapshot.connectionState == ConnectionState.waiting) {
+                return const Center(
+                  child: CircularProgressIndicator(),
+                );
+              } else if (snapshot.hasError) {
+                return Text('Error: ${snapshot.error}');
+              } else {
+                kOptions = snapshot.data ?? []; // Update kOptions with fetched data
+                return Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Autocomplete<String>(
+                      optionsBuilder: (TextEditingValue textEditingValue) {
+                        if (textEditingValue.text == '') {
+                          return const Iterable<String>.empty();
+                        }
+                        return kOptions.where((String option) {
+                          return option.toLowerCase().contains(textEditingValue.text.toLowerCase());
+                        });
+                      },
+                      onSelected: (String selection) {
+                        ingredientController.text = selection;
+                        print(ingredientController.text);
+                      },
+                    ),
+                    TextField(
+                      controller: quantityController,
+                      decoration: const InputDecoration(
+                        labelText: "Quantity",
+                      ),
+                      keyboardType: const TextInputType.numberWithOptions(decimal: true),
+                    ),
+                    QuantityDropdown(dialogSelectedUnit: "g", controller: unitController,),
+                  ],
+                );
+              }
+            },
           ),
           actions: <Widget>[
             TextButton(
               child: const Text('Add'),
               onPressed: () {
+                print("BITCH");
                 String ingredientName = ingredientController.text;
                 if (ingredientName.isNotEmpty && quantityController.text.isNotEmpty) {
+                  print("YEEEES");
                   setState(() {
                     double quantity = double.tryParse(quantityController.text) ?? 0;
+                    unit = unitController.text;
                     if (quantity > 0) {
                       IngredientData newIngredient = IngredientData(
                         name: ingredientName, 
                         quantity: "$quantity $unit", 
                         expiry: 69 //TODO: Get days until expiry from server!!!!
                       );
+                      Future(newIngredient.fetchIngredientInfo).whenComplete(() {setState(() {
+                        newIngredient.expiry = newIngredient.ingredientInfo!.shelfLife;
+                      });});
                       openedFridge.contents.add(newIngredient);
                     }
                   });
@@ -367,9 +381,22 @@ class _FridgeWidgetState extends State<FridgeWidget> {
     );
   }
 
+
+Future<List<String>> fetchOptions() async {
+  final response = await http.get(Uri.parse('http://localhost:8080/ingredient'));
+  if (response.statusCode == 200) {
+    List<dynamic> data = jsonDecode(response.body);
+    List<String> options = data.map((e) => e.toString()).toList();
+    return options;
+  } else {
+    throw Exception('Failed to load options');
+  }
+}
+
   void _showSubtractQuantityDialog (IngredientData ingredientData, ) {
     TextEditingController quantityController = TextEditingController();
-    String unit = Quantity.parseQuantity(ingredientData.quantity).unit;
+    TextEditingController unitController = TextEditingController();
+    unitController.text = ingredientData.parseQuantity().unit;
     showDialog(
       context: context,
       builder: (BuildContext context) {
@@ -388,7 +415,11 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                   keyboardType: const TextInputType.numberWithOptions(decimal: true),
                 ),
               ),
-              Expanded(flex: 1,child: QuantityDropdown(dialogSelectedUnit: Quantity.parseQuantity(ingredientData.quantity).unit))
+              Expanded(flex: 1,child: QuantityDropdown(
+                  dialogSelectedUnit: ingredientData.parseQuantity().unit,
+                  controller: unitController,
+                ),
+              ),
             ],
           ),
           actions: <Widget>[
@@ -399,7 +430,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                   setState(() {
                     double quantity = double.tryParse(quantityController.text) ?? 0;
                     if (quantity > 0) {
-                      //ingredients[name] = {'quantity': quantity, 'unit': unit};
+                      ingredientData.subtractQuantity(QuantityStruct(amount: double.parse(quantityController.text), unit: unitController.text),);
                     }
                   });
                   Navigator.of(context).pop();
