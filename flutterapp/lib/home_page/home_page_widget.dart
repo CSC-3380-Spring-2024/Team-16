@@ -1,12 +1,14 @@
+import 'package:flutter/material.dart';
 import 'package:foodappproject/apiService/apiService.dart';
-import 'package:http/http.dart';
+import 'package:foodappproject/app_data.dart';
 
+import '../comments/comments_widget.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
-import 'package:flutter/material.dart';
 import 'home_page_model.dart';
+
 export 'home_page_model.dart';
 
 class HomePageWidget extends StatefulWidget {
@@ -32,44 +34,42 @@ class _HomePageWidgetState extends State<HomePageWidget> {
     super.dispose();
   }
 
-@override
-Widget build(BuildContext context) {
-  return GestureDetector(
-    onTap: () => _model.unfocusNode.canRequestFocus
-        ? FocusScope.of(context).requestFocus(_model.unfocusNode)
-        : FocusScope.of(context).unfocus(),
-    child: Scaffold(
-      key: scaffoldKey,
-      backgroundColor: FlutterFlowTheme.of(context).secondaryBackground,
-      body: SafeArea(
-        top: true,
-        child: Column(
-          children: [
-            SingleChildScrollView(
-              scrollDirection: Axis.horizontal,
-              child: Container(
-                decoration: BoxDecoration(
-                  border: Border.all(color: Colors.black, width: 2.0),
-                ),
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.start, // Aligns children at the start
-                  children: [
-                    ContainerButton(),
-                    GroceryButton(),
-                  ],
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: () => _model.unfocusNode.canRequestFocus
+          ? FocusScope.of(context).requestFocus(_model.unfocusNode)
+          : FocusScope.of(context).unfocus(),
+      child: Scaffold(
+        key: scaffoldKey,
+        backgroundColor: FlutterFlowTheme.of(context).secondaryBackground,
+        body: SafeArea(
+          top: true,
+          child: Column(
+            children: [
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Container(
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Colors.black, width: 2.0),
+                  ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: const [
+                      GroceryButton(),
+                    ],
+                  ),
                 ),
               ),
-            ),
-            Expanded(
-              child: FullPost(isPreview: true),
-            ),
-          ],
+              Expanded(
+                child: FullPost(isPreview: true),
+              ),
+            ],
+          ),
         ),
       ),
-    ),
-  );
-}
-
+    );
+  }
 }
 
 class FullPost extends StatelessWidget {
@@ -108,7 +108,7 @@ class PostWidget extends StatelessWidget {
   final Post post;
   final bool isPreview;
 
-  const PostWidget({required this.post, required this.isPreview, Key? key}) : super(key: key);
+  const PostWidget({ required this.post, required this.isPreview, Key? key}) : super(key: key);
 
   Future<Recipe> _getRecipeById() async {
     return await NetworkService.fetchRecipeById(post.referenceId);
@@ -179,7 +179,7 @@ class PostWidget extends StatelessWidget {
                   decoration: BoxDecoration(
                     color: FlutterFlowTheme.of(context).secondaryBackground,
                     borderRadius: BorderRadius.circular(10.0),
-                    boxShadow: [
+                    boxShadow: const [
                       BoxShadow(
                         color: Colors.black26,
                         offset: Offset(0, 4),
@@ -222,57 +222,127 @@ class PostWidget extends StatelessWidget {
                       ),
                     ],
                   ),
-
                 );
               }
             },
           ),
-
           const SizedBox(height: 10),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Row(
                 children: [
-                  Icon(Icons.thumb_up_alt_outlined, size: 16, color: Colors.grey[600]),
-                  const SizedBox(width: 4),
-                  Text("Like", style: TextStyle(fontSize: 12, color: Colors.grey[600])),
-                  const SizedBox(width: 16),
-                  Icon(Icons.thumb_down_alt_outlined, size: 16, color: Colors.grey[600]),
-                  const SizedBox(width: 4),
-                  Text("Dislike", style: TextStyle(fontSize: 12, color: Colors.grey[600])),
+
+                  FlutterFlowIconButton(
+                    buttonSize: 40.0,
+                    icon: Icon(
+
+                      Icons.thumb_up_alt_outlined,
+
+                      color: FlutterFlowTheme.of(context).secondaryText,
+                      size: 24.0,
+                    ),
+                    onPressed: () => NetworkService.likePost(post.distinctId, AppData.currentUser!),
+                  ),
+                  Text(
+                    (post.likes ?? 0).toString(),  // Convert likes to String, with a fallback of 0
+                    style: TextStyle(
+                      color: FlutterFlowTheme.of(context).secondaryText,
+                      fontSize: 14.0,
+                    ),
+                  ),
+
+                  FlutterFlowIconButton(
+                    buttonSize: 40.0,
+                    icon: Icon(
+                      Icons.thumb_down_alt_outlined,
+                      color: FlutterFlowTheme.of(context).secondaryText,
+                      size: 24.0,
+                    ),
+                    onPressed: () => NetworkService.dislikePost(post.distinctId, AppData.currentUser!),
+                  ),
+                  Text(
+                    (post.dislikes ?? 0).toString(),  // Convert likes to String, with a fallback of 0
+                    style: TextStyle(
+                      color: FlutterFlowTheme.of(context).secondaryText,
+                      fontSize: 14.0,
+                    ),
+                  ),
+                  FlutterFlowIconButton(
+                    buttonSize: 40.0,
+                    icon: Icon(
+                      Icons.mode_comment_outlined,
+                      color: FlutterFlowTheme.of(context).secondaryText,
+                      size: 24.0,
+                    ),
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => CommentsWidget(postId: post.distinctId),
+                        ),
+                      );
+                    },
+                  ),
+                  FlutterFlowIconButton(
+                    buttonSize: 40.0,
+                    icon: Icon(
+                      Icons.ios_share,
+                      color: FlutterFlowTheme.of(context).secondaryText,
+                      size: 24.0,
+                    ),
+                    onPressed: () {
+                      // Handle share button press
+                    },
+                  ),
                 ],
               ),
-              InkWell(
-                onTap: () => context.pushNamed('Comments'),
-                child: FlutterFlowIconButton(
-                  buttonSize: 40.0,
-                  icon: Icon(
-                    Icons.mode_comment_outlined,
-                    color: FlutterFlowTheme.of(context).secondaryText,
-                    size: 24.0,
-                  ),
-                ),
-              ),
-              FlutterFlowIconButton(
-                buttonSize: 40.0,
-                icon: Icon(
-                  Icons.ios_share,
-                  color: FlutterFlowTheme.of(context).secondaryText,
-                  size: 24.0,
-                ),
-                onPressed: () {
-                  // Handle share button press
-                },
-              ),
+
             ],
+          ),
+          SizedBox(height: 100),
+        ],
+
+      ),
+
+    );
+  }
+}
+
+
+class GroceryButton extends StatelessWidget {
+  const GroceryButton({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      decoration: BoxDecoration(
+        border: Border.all(color: Colors.grey.shade800, width: 4.0),
+      ),
+      padding: const EdgeInsets.all(8.0),
+      child: Column(
+        children: [
+          InkWell(
+            onTap: () => context.pushNamed('Grocery'),
+            child: Icon(
+              Icons.local_grocery_store,
+              color: Colors.white,
+              size: 60.0,
+            ),
+          ),
+          Text(
+            'Grocery',
+            style: FlutterFlowTheme.of(context).bodyLarge.override(
+              fontFamily: 'Readex Pro',
+              color: FlutterFlowTheme.of(context).primaryText,
+              letterSpacing: 0.0,
+            ),
           ),
         ],
       ),
     );
   }
 }
-
 class ContainerButton extends StatelessWidget {
   const ContainerButton({
     super.key,
@@ -307,42 +377,7 @@ class ContainerButton extends StatelessWidget {
           ),
         ],
       ),
-    );
-  }
-}
 
-class GroceryButton extends StatelessWidget {
-  const GroceryButton({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      decoration: BoxDecoration(
-        border: Border.all(color: Colors.grey.shade800, width: 4.0),
-      ),
-      padding: const EdgeInsets.all(8.0),
-      child: Column(
-        children: [
-          InkWell(
-            onTap: () => context.pushNamed('Grocery'),
-            child: FlutterFlowIconButton(
-              icon: Icon(
-                Icons.local_grocery_store,
-                color: Colors.white,
-                size: 60.0,
-              ),
-            ),
-          ),
-          Text(
-            'Grocery',
-            style: FlutterFlowTheme.of(context).bodyLarge.override(
-              fontFamily: 'Readex Pro',
-              color: FlutterFlowTheme.of(context).primaryText,
-              letterSpacing: 0.0,
-            ),
-          ),
-        ],
-      ),
     );
   }
 }

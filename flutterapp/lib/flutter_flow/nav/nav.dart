@@ -95,13 +95,7 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
             page: GroceryWidget(),
           ),
         ),
-        FFRoute(
-          name: 'Comments',
-          path: '/comments',
-          builder: (context, params) => const NavBarPage(initialPage: '',
-            page: CommentsWidget(),
-          ),
-        ),
+
         FFRoute(
           name: 'Account',
           path: '/account',

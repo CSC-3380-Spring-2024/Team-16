@@ -15,3 +15,4 @@ class CommentsModel extends FlutterFlowModel<CommentsWidget> {
     unfocusNode.dispose();
   }
 }
+

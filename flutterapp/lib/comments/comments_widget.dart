@@ -1,164 +1,135 @@
+// comments_widget.dart
 import 'package:flutter/material.dart';
-import 'package:foodappproject/app_shared.dart';
-import 'package:foodappproject/flutter_flow/flutter_flow_icon_button.dart';
-import 'package:foodappproject/home_page/home_page_widget.dart';
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
-import '/flutter_flow/flutter_flow_widgets.dart';
-import 'comments_model.dart';
 import 'package:foodappproject/app_data.dart';
-import 'package:json_annotation/json_annotation.dart';
-import 'package:http/http.dart' as http;
-import 'dart:convert';
-export 'comments_model.dart';
+import '../apiService/apiService.dart';
+
 
 class CommentsWidget extends StatefulWidget {
-  const CommentsWidget({super.key});
+  final String postId;
+
+  const CommentsWidget({required this.postId, Key? key}) : super(key: key);
 
   @override
   State<CommentsWidget> createState() => _CommentsWidgetState();
 }
 
 class _CommentsWidgetState extends State<CommentsWidget> {
-  late CommentsModel _model;
-  final scaffoldKey = GlobalKey<ScaffoldState>();
+  late Future<List<Comment>> _commentsFuture;
+  final TextEditingController _commentController = TextEditingController();
 
-  
   @override
   void initState() {
     super.initState();
-    _model = createModel(context, () => CommentsModel());
+    _commentsFuture = NetworkService.getComments(widget.postId);
   }
 
   @override
   void dispose() {
-    _model.dispose();
+    _commentController.dispose();
     super.dispose();
   }
-  
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        children: [
-          Container(
-            decoration: BoxDecoration(
-              border: Border.all(
-                color: Colors.black,
-              ),
-            ),
-          ),
-          Container(
-            decoration: BoxDecoration(
-              border: Border.all(
-                color: Colors.black,
-              ),
-            ),
-            padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                Container(decoration: BoxDecoration(
-              border: Border.all(
-                color: Colors.black,
-              ),
-            ),child: CommentSection()),
-                Text(
-                  'cocksucker69',
-                  style: FlutterFlowTheme.of(context)
-                      .titleSmall
-                      .override(
-                        fontFamily: 'Readex Pro',
-                        color: FlutterFlowTheme.of(context).secondaryText,
-                        letterSpacing: 0.0,
-                      ),
-                ),
-                const SizedBox(height: 4),
-                Text(
-                  'i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar ',
-                  style: FlutterFlowTheme.of(context)
-                      .titleSmall
-                      .override(
-                        fontFamily: 'Readex Pro',
-                        color: FlutterFlowTheme.of(context).primaryText,
-                        letterSpacing: 0.0,
-                      ),
-                ),
-                const SizedBox(height: 4),
-                Text(
-                  '4hr ago',
-                  style: FlutterFlowTheme.of(context)
-                      .bodySmall
-                      .override(
-                        fontFamily: 'Readex Pro',
-                        color: FlutterFlowTheme.of(context).tertiaryColor,
-                        letterSpacing: 0.0,
-                      ),
-                ),
-                const SizedBox(height: 8),
-                Row(
-                  children: <Widget>[
-                    Icon(Icons.thumb_up_alt_outlined, size: 16, color: Colors.grey[600]),
-                    const SizedBox(width: 4),
-                    Text("Like", style: TextStyle(fontSize: 12, color: Colors.grey[600])),
-                    const SizedBox(width: 16),
-                    Icon(Icons.thumb_down_alt_outlined, size: 16, color: Colors.grey[600]),
-                    const SizedBox(width: 4),
-                    Text("Dislike", style: TextStyle(fontSize: 12, color: Colors.grey[600])),
-                  ],
-                ),
-              ],
-            ),
-          ),
-          SizedBox(height: 100),
-        ],
-      ),
-    );
-  }
-}
 
-class CommentSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: EdgeInsets.all(16),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          Text(
-            'Comments',
-            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-          ),
-          SizedBox(height: 8),
-          TextField(
-            decoration: InputDecoration(
-              hintText: 'Type your comment here...',
-              border: OutlineInputBorder(),
-            ),
-            keyboardType: TextInputType.text,
-          ),
-          SizedBox(height: 16),
-          FFButtonWidget(
-                        onPressed: () {
-                          //method
-                        },
-                        text: 'Post',
-                        options: FFButtonOptions(
-                          height: 30.0,
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              24.0, 0.0, 24.0, 0.0),
-                          iconPadding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 0.0, 0.0, 0.0),
-                          color: FlutterFlowTheme.of(context).secondaryBackground,
-                          textStyle: FlutterFlowTheme.of(context)
-                              .titleSmall
-                              .override(
-                                fontFamily: 'Readex Pro',
-                                color: FlutterFlowTheme.of(context).primaryText,
-                                letterSpacing: 0.0,
-                              ),
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Comments'),
+      ),
+      body: FutureBuilder<List<Comment>>(
+        future: _commentsFuture,
+        builder: (context, snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return const Center(child: CircularProgressIndicator());
+          } else if (snapshot.hasError) {
+            return Center(child: Text('Error: ${snapshot.error}'));
+          } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
+            return const Center(child: Text('No comments available.'));
+          } else {
+            final comments = snapshot.data!;
+            return ListView.builder(
+              itemCount: comments.length,
+              itemBuilder: (context, index) {
+                final comment = comments[index];
+                return Card(
+                  margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  elevation: 4,
+                  child: ListTile(
+                    title: Text(
+                      comment.username,
+                      style: const TextStyle(fontWeight: FontWeight.bold),
+                    ),
+                    subtitle: Padding(
+                      padding: const EdgeInsets.only(top: 8.0),
+                      child: Text(comment.commentBody),
+                    ),
+                    trailing: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: <Widget>[
+                        Text(
+                          (comment.like ?? 0).toString(),  // Convert likes to String, with a fallback of 0
+                          style: TextStyle(
+                            fontSize: 14.0,
+                          ),
                         ),
-          ),
-        ],
+                        IconButton(
+                          icon: const Icon(Icons.thumb_up),
+                          onPressed: () {
+                            // Handle like action
+                            onPressed: () => NetworkService.addLikeToComment(comment.distinctId, AppData.currentUser!);
+                          },
+                        ),
+                        Text(
+                          (comment.dislike ?? 0).toString(),  // Convert likes to String, with a fallback of 0
+                          style: TextStyle(
+                            fontSize: 14.0,
+                          ),
+                        ),
+                        IconButton(
+                          icon: const Icon(Icons.thumb_down),
+                          onPressed: () => NetworkService.addDislike(comment.distinctId, AppData.currentUser!),
+                        ),
+                      ],
+                    ),
+                  ),
+                );
+              },
+            );
+          }
+        },
+      ),
+      bottomNavigationBar: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Row(
+          children: <Widget>[
+            Expanded(
+              child: TextField(
+                controller: _commentController,
+                decoration: InputDecoration(
+                  hintText: 'Add a comment...',
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                ),
+              ),
+            ),
+            IconButton(
+              icon: const Icon(Icons.send),
+              onPressed: () {
+                final commentText = _commentController.text;
+                if (commentText.isNotEmpty) {
+                   NetworkService.createComment(AppData.currentUser!, commentText,widget.postId);
+
+                  _commentController.clear();
+                  initState();
+                  // Optionally refresh comments after posting
+                }
+              },
+            ),
+          ],
+        ),
       ),
     );
   }

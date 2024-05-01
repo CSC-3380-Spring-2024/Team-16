@@ -64,6 +64,8 @@ class NetworkService {
 
   static Future<void> likePost(String postId, String username) async
   {
+    print(username);
+    print(postId);
     final response = await http.post(
       Uri.parse('$baseUrl/post/addLike'),
       body: jsonEncode({
@@ -72,8 +74,8 @@ class NetworkService {
       }),
       headers: {'Content-Type': 'application/json'},
     );
-    if (response.statusCode != 200) {
-      throw Exception('Failed to like post');
+    if (response.statusCode == 422) {
+      throw Exception('You have already liked or disliked');
     }
   }
 
@@ -238,14 +240,13 @@ class NetworkService {
 
 
 //Comment
-  Future<List<Comment>> getComments(String postId) async {
-    const url = '$baseUrl/api/comment/get';
+  static Future<List<Comment>> getComments(String postId) async {
+    ; // Assuming Spring Boot app is running locally
+    final url = '$baseUrl/comment/get/$postId'; // Using postId as part of the URL
 
-    final response = await http.post(
-      Uri.parse(url),
-      headers: {'Content-Type': 'application/json'},
-      body: jsonEncode({'postId': postId}),
-    );
+    final response = await http.get(
+      Uri.parse(url),);
+    print(postId);
 
     if (response.statusCode == 200) {
       Iterable l = json.decode(response.body);
@@ -255,15 +256,14 @@ class NetworkService {
     }
   }
 
-
-  Future<String> createComment(String username, String comment,
-      String postId) async {
-    const url = '$baseUrl/api/comment/create';
+  static Future<String> createComment(String username, String comment, String postId) async {
+    const url = '$baseUrl/comment/create';
 
     final response = await http.post(
       Uri.parse(url),
       headers: {'Content-Type': 'application/json'},
       body: jsonEncode([username, comment, postId]),
+
     );
 
     if (response.statusCode == 200) {
@@ -273,7 +273,7 @@ class NetworkService {
     }
   }
 
-  Future<String> addLikeToComment(String commentId, String username) async {
+  static Future<String> addLikeToComment(String commentId, String username) async {
     const url = '$baseUrl/comment/addLike';
 
     final response = await http.post(
@@ -288,7 +288,7 @@ class NetworkService {
       throw Exception('Failed to add like');
     }
   }
-  Future<String> addDislike(String commentId, String username) async {
+ static Future<String> addDislike(String commentId, String username) async {
     const url = '$baseUrl/comment/addDislike';
 
     final response = await http.post(
@@ -306,7 +306,7 @@ class NetworkService {
 
 
   //Review
-  Future<List<Review>> getReviews(String recipeId) async {
+  static Future<List<Review>> getReviews(String recipeId) async {
     const url = '$baseUrl/review/getReview';
 
     final response = await http.post(
@@ -322,7 +322,7 @@ class NetworkService {
       throw Exception('Failed to load reviews');
     }
   }
-  Future<Review> createReview(String header, String reviewBody, String recipeId, String author, double starRating, double difficultyRating) async {
+  static Future<Review> createReview(String header, String reviewBody, String recipeId, String author, double starRating, double difficultyRating) async {
     const url = '$baseUrl/review/create';
 
     final response = await http.post(
@@ -338,7 +338,7 @@ class NetworkService {
     }
   }
 
-  Future<String> addReviewDislike(String reviewId, String personName) async {
+   static Future<String> addReviewDislike(String reviewId, String personName) async {
     const url = '$baseUrl/review/addDislike';
 
     final response = await http.post(
@@ -353,7 +353,7 @@ class NetworkService {
       throw Exception('Failed to add dislike to review');
     }
   }
-  Future<String> addReviewLike(String reviewId, String personName) async {
+  static Future<String> addReviewLike(String reviewId, String personName) async {
     const url = '$baseUrl/review/addLike';
 
     final response = await http.post(
@@ -372,7 +372,7 @@ class NetworkService {
 
 //collection
 
-  Future<List<Collection>> getCollections(String username) async {
+ static Future<List<Collection>> getCollections(String username) async {
     final url = '$baseUrl/collection/getCollection?username=$username';
 
     final response = await http.get(
@@ -387,7 +387,7 @@ class NetworkService {
       throw Exception('Failed to load collections');
     }
   }
-  Future<String> createCollection(CollectionNUsername collectionData) async {
+  static Future<String> createCollection(CollectionNUsername collectionData) async {
     const url = '$baseUrl/collection/create';
 
     final response = await http.post(
@@ -402,7 +402,7 @@ class NetworkService {
       throw Exception('Failed to create collection');
     }
   }
-  Future<String> addImageToCollection(String distinctId, String base64Image) async {
+  static Future<String> addImageToCollection(String distinctId, String base64Image) async {
     const url = '$baseUrl/collection/addImage';
 
     final response = await http.post(
@@ -465,15 +465,15 @@ class Post {
       }
     }
 
-    int? likes = json['likes'] is List ? (json['likes'] as List).length : json['likes'];
-    int? dislikes = json['dislikes'] is List ? (json['dislikes'] as List).length : json['dislikes'];
+    int likes = json['like'] is List ? (json['like'] as List).length : (json['like'] ?? 0);
+    int dislikes = json['dislike'] is List ? (json['dislike'] as List).length : (json['dislike'] ?? 0);
 
     return Post(
       caption: json['caption'] ?? '',
       referenceId: json['reference'] ?? '',
       username: json['username'] ?? '',
       uploadImage: imageBytes,
-      postDate: json['postDate'],
+      postDate: json['postDate']?? '',
       likes: likes,
       dislikes: dislikes,
       distinctId: json['distinctId'],
@@ -482,29 +482,33 @@ class Post {
 }
 
 class Comment {
-  final String id;
+  final String commentBody;
+  final int? like;
+  final int? dislike;
+  final String distinctId;
+  final String postId;
   final String username;
-  final String text;
-  final List<String> like;
-  final List<String> dislike;
 
   Comment({
-    required this.id,
+    required this.commentBody,
+    required this.distinctId,
+    required this.postId,
     required this.username,
-    required this.text,
-    required this.like,
-    required this.dislike,
+    this.like,
+    this.dislike,
   });
 
-  // Convert a JSON object to a Comment
+  // Factory constructor to create a Comment from a JSON object
   factory Comment.fromJson(Map<String, dynamic> json) {
-
+    int likes = json['like'] is List ? (json['like'] as List).length : (json['like'] ?? 0);
+    int dislikes = json['dislike'] is List ? (json['dislike'] as List).length : (json['dislike'] ?? 0);
     return Comment(
-      id: json['id'],
+      commentBody: json['commentBody'],
+      distinctId: json['distinctId'],
+      postId: json['postId'],
       username: json['username'],
-      text: json['text'],
-      like: List<String>.from(json['like']),
-      dislike: List<String>.from(json['dislike']),
+      like: likes,
+      dislike: dislikes
     );
   }
 }
