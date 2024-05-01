@@ -207,4 +207,9 @@ class Comment
     required this.userName,
     required this.distinctId,
 });
+  factory Comment.fromJson(Map<String, dynamic> json)
+  {
+    return Comment
+      (commentBody: json['commentBody'] ?? '', userName: json['username'] ?? '', distinctId: json['distinctId']);
+  }
 }
