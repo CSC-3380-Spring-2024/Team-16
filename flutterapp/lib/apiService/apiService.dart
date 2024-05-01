@@ -123,7 +123,7 @@ class NetworkService {
       throw Exception('Error fetching recipe: $e');
     }
   }
-  Future<http.Response?> addRecipe(Recipe recipe, String username) async {
+  static Future<http.Response?> addRecipe(Recipe recipe, String username) async {
     const url = '$baseUrl/recipe/add';
 
     try {

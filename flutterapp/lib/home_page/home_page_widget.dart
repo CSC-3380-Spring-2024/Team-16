@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:foodappproject/apiService/apiService.dart';
 import 'package:foodappproject/app_data.dart';
+import 'package:foodappproject/flutter_flow/flutter_flow_util.dart';
 
 import '../comments/comments_widget.dart';
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'home_page_model.dart';
 
@@ -26,6 +26,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => HomePageModel());
+  }
+
+  void _refreshPage() {
+    setState(() {});
   }
 
   @override
@@ -62,7 +66,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                 ),
               ),
               Expanded(
-                child: FullPost(isPreview: true),
+                child: FullPost(isPreview: true, onRefresh: _refreshPage),
               ),
             ],
           ),
@@ -74,13 +78,18 @@ class _HomePageWidgetState extends State<HomePageWidget> {
 
 class FullPost extends StatelessWidget {
   final bool isPreview;
+  final VoidCallback onRefresh;
 
-  const FullPost({required this.isPreview, Key? key}) : super(key: key);
+  const FullPost({required this.isPreview, required this.onRefresh, Key? key}) : super(key: key);
+
+  Future<List<Post>> _fetchPosts() async {
+    return await NetworkService.getAllPosts();
+  }
 
   @override
   Widget build(BuildContext context) {
     return FutureBuilder<List<Post>>(
-      future: NetworkService.getAllPosts(),
+      future: _fetchPosts(),
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return const Center(child: CircularProgressIndicator());
@@ -92,11 +101,16 @@ class FullPost extends StatelessWidget {
             return const Center(child: Text('No posts available.'));
           }
 
-          return ListView.builder(
-            itemCount: posts.length,
-            itemBuilder: (context, index) {
-              return PostWidget(post: posts[index], isPreview: isPreview);
+          return RefreshIndicator(
+            onRefresh: () async {
+              onRefresh();
             },
+            child: ListView.builder(
+              itemCount: posts.length,
+              itemBuilder: (context, index) {
+                return PostWidget(post: posts[index], isPreview: isPreview);
+              },
+            ),
           );
         }
       },
@@ -108,7 +122,7 @@ class PostWidget extends StatelessWidget {
   final Post post;
   final bool isPreview;
 
-  const PostWidget({ required this.post, required this.isPreview, Key? key}) : super(key: key);
+  const PostWidget({required this.post, required this.isPreview, Key? key}) : super(key: key);
 
   Future<Recipe> _getRecipeById() async {
     return await NetworkService.fetchRecipeById(post.referenceId);
@@ -127,7 +141,6 @@ class PostWidget extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // Display main post
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
@@ -160,8 +173,6 @@ class PostWidget extends StatelessWidget {
               fit: BoxFit.cover,
             ),
           const SizedBox(height: 10),
-
-          // Fetch and display subpost (recipe)
           FutureBuilder<Recipe>(
             future: _getRecipeById(),
             builder: (context, snapshot) {
@@ -197,7 +208,7 @@ class PostWidget extends StatelessWidget {
                           height: 80,
                           fit: BoxFit.cover,
                         ),
-                      const SizedBox(width: 8), // Add space between image and text
+                      const SizedBox(width: 8),
                       Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -206,7 +217,7 @@ class PostWidget extends StatelessWidget {
                               "Reference Recipe",
                               style: FlutterFlowTheme.of(context).bodySmall.override(
                                 fontFamily: 'Readex Pro',
-                                color: Colors.grey, // Adjust color as needed
+                                color: Colors.grey,
                               ),
                             ),
                             Text(
@@ -232,26 +243,22 @@ class PostWidget extends StatelessWidget {
             children: [
               Row(
                 children: [
-
                   FlutterFlowIconButton(
                     buttonSize: 40.0,
                     icon: Icon(
-
                       Icons.thumb_up_alt_outlined,
-
                       color: FlutterFlowTheme.of(context).secondaryText,
                       size: 24.0,
                     ),
                     onPressed: () => NetworkService.likePost(post.distinctId, AppData.currentUser!),
                   ),
                   Text(
-                    (post.likes ?? 0).toString(),  // Convert likes to String, with a fallback of 0
+                    (post.likes ?? 0).toString(),
                     style: TextStyle(
                       color: FlutterFlowTheme.of(context).secondaryText,
                       fontSize: 14.0,
                     ),
                   ),
-
                   FlutterFlowIconButton(
                     buttonSize: 40.0,
                     icon: Icon(
@@ -262,7 +269,7 @@ class PostWidget extends StatelessWidget {
                     onPressed: () => NetworkService.dislikePost(post.distinctId, AppData.currentUser!),
                   ),
                   Text(
-                    (post.dislikes ?? 0).toString(),  // Convert likes to String, with a fallback of 0
+                    (post.dislikes ?? 0).toString(),
                     style: TextStyle(
                       color: FlutterFlowTheme.of(context).secondaryText,
                       fontSize: 14.0,
@@ -297,18 +304,14 @@ class PostWidget extends StatelessWidget {
                   ),
                 ],
               ),
-
             ],
           ),
-          SizedBox(height: 100),
+          const SizedBox(height: 100),
         ],
-
       ),
-
     );
   }
 }
-
 
 class GroceryButton extends StatelessWidget {
   const GroceryButton({super.key});
@@ -340,44 +343,6 @@ class GroceryButton extends StatelessWidget {
           ),
         ],
       ),
-    );
-  }
-}
-class ContainerButton extends StatelessWidget {
-  const ContainerButton({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      decoration: BoxDecoration(
-        border: Border.all(color: Colors.grey.shade800, width: 4.0),
-      ),
-      padding: const EdgeInsets.all(8.0),
-      child: Column(
-        children: [
-          InkWell(
-            onTap: () => context.pushNamed('Fridge'),
-            child: FlutterFlowIconButton(
-              icon: Icon(
-                Icons.all_inbox,
-                color: Colors.white,
-                size: 60.0,
-              ),
-            ),
-          ),
-          Text(
-            'Fridge',
-            style: FlutterFlowTheme.of(context).bodyLarge.override(
-              fontFamily: 'Readex Pro',
-              color: FlutterFlowTheme.of(context).primaryText,
-              letterSpacing: 0.0,
-            ),
-          ),
-        ],
-      ),
-
     );
   }
 }
