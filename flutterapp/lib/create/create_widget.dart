@@ -26,6 +26,8 @@ class _CreateWidgetState extends State<CreateWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   TextEditingController recipeNameController = TextEditingController();
+  TextEditingController servingSizeController = TextEditingController();
+  TextEditingController descriptionController = TextEditingController();
   List<Map<String, String>> ingredients = [];
   List<IngredientData> testIngredients = [
     IngredientData(name: "benis", quantity: "46 g", expiry: 4),
@@ -44,6 +46,8 @@ class _CreateWidgetState extends State<CreateWidget> {
   void dispose() {
     _model.dispose();
     recipeNameController.dispose();
+    servingSizeController.dispose();
+    descriptionController.dispose();
     super.dispose();
   }
 
@@ -61,7 +65,9 @@ class _CreateWidgetState extends State<CreateWidget> {
   }
 
   void _postRecipe() async {
-    if (recipeNameController.text.trim().isEmpty || ingredients.isEmpty || methods.isEmpty) {
+    if (recipeNameController.text.trim().isEmpty ||
+        ingredients.isEmpty ||
+        methods.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Text('Please complete all fields before posting.'),
@@ -73,7 +79,10 @@ class _CreateWidgetState extends State<CreateWidget> {
 
     // Convert ingredients to the desired format
     List<List<String>> formattedIngredients = ingredients
-        .map((ingredient) => [ingredient['name']!, "${ingredient['quantity']} ${ingredient['unit']}"])
+        .map((ingredient) => [
+      ingredient['name']!,
+      "${ingredient['quantity']} ${ingredient['unit']}"
+    ])
         .toList();
 
     // Example Recipe instance
@@ -81,19 +90,22 @@ class _CreateWidgetState extends State<CreateWidget> {
       name: recipeNameController.text.trim(),
       starRating: 4.5, // Example data, adjust as needed
       difficultyRating: 2.5, // Example data, adjust as needed
-      servingSize: 4, // Example data, adjust as needed
+      servingSize: int.tryParse(servingSizeController.text.trim()) ?? 0,
       ingredients: formattedIngredients,
       method: methods,
       uploadImage: _imageFile != null ? await _imageFile!.readAsBytes() : null,
-      description: 'A simple recipe', // Example data, adjust as needed
+      description: descriptionController.text.trim(), // Example data, adjust as needed
     );
 
-    final response = await NetworkService.addRecipe(recipe, AppData.currentUser!);
+    final response =
+    await NetworkService.addRecipe(recipe, AppData.currentUser!);
 
     if (response != null && response.statusCode == 200) {
-      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Recipe added successfully')));
+      ScaffoldMessenger.of(context)
+          .showSnackBar(SnackBar(content: Text('Recipe added successfully')));
     } else {
-      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Failed to add recipe')));
+      ScaffoldMessenger.of(context)
+          .showSnackBar(SnackBar(content: Text('Failed to add recipe')));
     }
   }
 
@@ -131,7 +143,8 @@ class _CreateWidgetState extends State<CreateWidget> {
                       decoration: const InputDecoration(
                         labelText: 'Quantity',
                       ),
-                      keyboardType: TextInputType.numberWithOptions(decimal: true),
+                      keyboardType:
+                      TextInputType.numberWithOptions(decimal: true),
                       inputFormatters: [
                         FilteringTextInputFormatter.allow(RegExp(r'^\d*\.?\d*')),
                       ],
@@ -161,10 +174,12 @@ class _CreateWidgetState extends State<CreateWidget> {
                   TextButton(
                     child: const Text('Save'),
                     onPressed: () {
-                      if (nameController.text.trim().isEmpty || quantityController.text.trim().isEmpty) {
+                      if (nameController.text.trim().isEmpty ||
+                          quantityController.text.trim().isEmpty) {
                         ScaffoldMessenger.of(context).showSnackBar(
                           SnackBar(
-                            content: Text('Ingredient name and quantity cannot be empty.'),
+                            content: Text(
+                                'Ingredient name and quantity cannot be empty.'),
                             duration: Duration(seconds: 2),
                           ),
                         );
@@ -193,8 +208,7 @@ class _CreateWidgetState extends State<CreateWidget> {
                   ),
                 ],
               );
-            }
-        );
+            });
       },
     );
   }
@@ -204,7 +218,6 @@ class _CreateWidgetState extends State<CreateWidget> {
     if (isEditing && index != null) {
       methodController.text = methods[index];
     }
-
     showDialog(
       context: context,
       builder: (BuildContext context) {
@@ -287,8 +300,30 @@ class _CreateWidgetState extends State<CreateWidget> {
                   decoration: InputDecoration(
                     labelText: 'Enter Recipe Name',
                     border: OutlineInputBorder(),
-                    contentPadding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 12.0),
+                    contentPadding:
+                    EdgeInsets.symmetric(vertical: 10.0, horizontal: 12.0),
                   ),
+                ),
+                const SizedBox(height: 20),
+                TextField(
+                  controller: servingSizeController,
+                  decoration: InputDecoration(
+                    labelText: 'Serving Size',
+                    border: OutlineInputBorder(),
+                    contentPadding:
+                    EdgeInsets.symmetric(vertical: 10.0, horizontal: 12.0),
+                  ),
+                ),
+                const SizedBox(height: 20),
+                TextField(
+                  controller: descriptionController,
+                  decoration: InputDecoration(
+                    labelText: 'Description',
+                    border: OutlineInputBorder(),
+                    contentPadding:
+                    EdgeInsets.symmetric(vertical: 10.0, horizontal: 12.0),
+                  ),
+                  maxLines: 3,
                 ),
                 const SizedBox(height: 20),
                 Text('Ingredients', style: Theme.of(context).textTheme.headline6),
