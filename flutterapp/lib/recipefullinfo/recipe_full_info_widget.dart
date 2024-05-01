@@ -6,6 +6,7 @@ import 'package:flutter/rendering.dart';
 import 'package:foodappproject/app_data.dart';
 import 'package:foodappproject/app_shared.dart';
 import 'package:foodappproject/flutter_flow/flutter_flow_icon_button.dart';
+import 'package:foodappproject/quantity_converter.dart';
 
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -97,18 +98,19 @@ class _RecipeFullInfoWidgetState extends State<RecipeFullInfoWidget> {
                   ),
                   Padding(
                     padding:
-                        EdgeInsets.all(8.0),
+                        EdgeInsets.all(0.0),
                     child: Container(
                       width: double.infinity,
                       height: 240.0,
                       decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(12.0),
                         color:
                             FlutterFlowTheme.of(context).secondaryBackground,
                       ),
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(12.0),
                         child: CachedNetworkImage(
-                          imageUrl: "https://images.pexels.com/photos/1860208/pexels-photo-1860208.jpeg?cs=srgb&dl=cooked-food-1860208.jpg&fm=jpg",
+                          imageUrl: AppData.viewedRecipe.backdrop != null ? AppData.viewedRecipe.backdrop! : "",
                           fit: BoxFit.cover,
                           placeholder: (context, url) => new CircularProgressIndicator(),
                           errorWidget: (context, url, error) => new Icon(Icons.error),
@@ -245,6 +247,7 @@ class _RecipeFullInfoWidgetState extends State<RecipeFullInfoWidget> {
       ),
     );
   }
+
     void _showEndTrackingDialog() {
       FlutterFlowTheme ffTheme = FlutterFlowTheme.of(context);
     TextEditingController ingredientController = TextEditingController();
@@ -269,11 +272,25 @@ class _RecipeFullInfoWidgetState extends State<RecipeFullInfoWidget> {
             TextButton(
               child: const Text('Complete Recipe'),
               onPressed: () {
+                for (List<dynamic> ingredient in AppData.viewedRecipe!.ingredients) {
+                  for (IngredientData ingredientData in AppData.openedFridge.contents) {
+                    if (ingredient[0] == ingredientData.name) {
+                      print("ambatasubtract");
+                      QuantityStruct neg = Quantity.parseQuantity(ingredient[1]);
+                      ingredientData.subtractQuantity(neg);
+                    }
+                  }
+                }
+                clearRecipeInfo();
+                Navigator.of(context).pop();
               },
             ),
             TextButton(
               child: const Text('Discard Changes'),
-              onPressed: () => Navigator.of(context).pop(),
+              onPressed: () {
+                clearRecipeInfo();
+                Navigator.of(context).pop();
+              }
             ),
           ],
         );
@@ -281,4 +298,10 @@ class _RecipeFullInfoWidgetState extends State<RecipeFullInfoWidget> {
     );
   }
 
+  void clearRecipeInfo() {
+    setState(() {
+      AppData.completedIngredients.clear();
+      AppData.completedMethods.clear();
+    });
+  }
 }

@@ -117,7 +117,7 @@ class _ReorderableListViewExampleState extends State<ReorderableExample> {
                           });
                           ScaffoldMessenger.of(context).showSnackBar(
                             SnackBar(
-                              content: Text("${widget.items[index]} dismissed", style: FlutterFlowTheme.of(context).bodySmall),
+                              content: Text("Item removed", style: FlutterFlowTheme.of(context).bodySmall),
                             ),
                           );
                         } else if (direction == DismissDirection.startToEnd){
@@ -141,7 +141,11 @@ class _ReorderableListViewExampleState extends State<ReorderableExample> {
                         color: FlutterFlowTheme.of(context).secondaryBackground,
                         alignment: Alignment.centerLeft,
                         padding: EdgeInsets.all(18),
-                        child: Text('${index+1}			|  ${widget.items[index]}',style: FlutterFlowTheme.of(context).bodySmall),
+                        child: !widget.editable ? widget.items.isNotEmpty ? widget.items.first is List
+                                ? Text('${widget.items[index][1]}			|  ${widget.items[index][0]}',style: FlutterFlowTheme.of(context).bodySmall)
+                                : widget.items.first is Map
+                                ? Text('${widget.items[index]["quantity"]} ${widget.items[index]["unit"]}  | ${widget.items[index]["name"]}',style: FlutterFlowTheme.of(context).bodySmall)
+                                : Text('${index+1}			|  ${widget.items[index]}',style: FlutterFlowTheme.of(context).bodySmall) : const SizedBox() : const SizedBox(),
                       ),
                       ////////////////
                       
@@ -212,9 +216,11 @@ class _ReorderableListViewExampleState extends State<ReorderableExample> {
 class QuantityDropdown extends StatefulWidget {
   final List<String> units = ["L", "mL","oz","cup","g", "qt","kg","lb","tsp","tbsp","unit"];
   late String dialogSelectedUnit;
+  TextEditingController controller;
 
   QuantityDropdown({
-    required this.dialogSelectedUnit
+    required this.dialogSelectedUnit,
+    required this.controller,
   });
 
   @override
@@ -230,6 +236,7 @@ class _QuantityDropdownState extends State<QuantityDropdown> {
       onChanged: (String? newValue) {
         setState(() {
           widget.dialogSelectedUnit = newValue!;
+          widget.controller.text = newValue;
         });
       },
       items: widget.units.map<DropdownMenuItem<String>>((String value) {

@@ -263,39 +263,103 @@ class _CreateWidgetState extends State<CreateWidget> {
                 ),
                 const SizedBox(height: 20),
 
-                //Serving Size Selector
-                Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(0, 8.0,0,0),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(16.0),
-                      color: ffTheme.secondaryBackground,
-                    ),
+              //Serving Size Selector
+              Row(
+                children: [
+                  Expanded(
                     child: Padding(
-                      padding: const EdgeInsets.all(4.0),
-                      child: Row(
-                        children: [
-                          Column(
-                            children: [
-                              Text("Serving Size:",style: ffTheme.bodyLarge,),
-                              NumberPicker(
-                                value: servingSize,
-                                minValue: 1,
-                                maxValue: 69,
-                                onChanged: (value) => setState(() => servingSize = value)
-                              )
-                            ],
+                      padding: const EdgeInsetsDirectional.fromSTEB(0, 8.0,0,0),
+                      child: AspectRatio(
+                        aspectRatio: 1,
+                        child: Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(16.0),
+                            color: ffTheme.secondaryBackground,
                           ),
-                          Column(
-                            children: [
-                              Text("Difficulty:",style: ffTheme.bodyLarge,),
-                              NumberPicker(
-                                value: difficultyRating,
-                                minValue: 1,
-                                maxValue: 5,
-                                onChanged: (value) => setState(() => difficultyRating = value)
-                              )
-                            ],
+                          child: Padding(
+                            padding: const EdgeInsets.all(4.0),
+                            child: Row(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Column(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Text("Serving Size:",style: ffTheme.bodyLarge,),
+                                    NumberPicker(
+                                      value: servingSize,
+                                      minValue: 1,
+                                      maxValue: 69,
+                                      onChanged: (value) => setState(() => servingSize = value)
+                                    )
+                                  ],
+                                ),                          ],
+                            )
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(width: 8,),
+                  Expanded(
+                    child: Padding(
+                      padding: const EdgeInsetsDirectional.fromSTEB(0, 8.0,0,0),
+                      child: AspectRatio(
+                        aspectRatio: 1,
+                        child: Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(16.0),
+                            color: ffTheme.secondaryBackground,
+                          ),
+                          child: Padding(
+                            padding: const EdgeInsets.all(4.0),
+                            child: Row(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Column(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Text("Difficulty:",style: ffTheme.bodyLarge,),
+                                    NumberPicker(
+                                      value: difficultyRating,
+                                      minValue: 1,
+                                      maxValue: 5,
+                                      onChanged: (value) => setState(() => difficultyRating = value)
+                                    )
+                                  ],
+                                ),                          ],
+                            )
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+              //Description Field
+              Padding(
+                padding: const EdgeInsetsDirectional.fromSTEB(0, 8.0,0,0),
+                child: Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(16.0),
+                    color: ffTheme.secondaryBackground,
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.all(4.0),
+                    child: Column(
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            "Description",
+                            style: FlutterFlowTheme.of(context).titleLarge.override(
+                                  fontFamily: 'Outfit',
+                                  letterSpacing: 0.0,
+                                ),
+                            ),
                           ),
                         ],
                       )
