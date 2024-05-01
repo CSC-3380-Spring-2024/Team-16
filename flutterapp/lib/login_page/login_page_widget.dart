@@ -1,12 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
-<<<<<<< Updated upstream
-import '../apiService/apiService.dart'; // Import your NetworkService class here
-=======
+import 'package:foodappproject/apiService/apiService.dart';
 import 'package:foodappproject/flutter_flow/nav/nav.dart';
 
->>>>>>> Stashed changes
 import '/flutter_flow/flutter_flow_theme.dart';
 import 'package:flutter/material.dart';
 import 'login_page_model.dart';
@@ -37,7 +34,8 @@ class LoginPageWidget extends StatelessWidget {
     try {
       String message = await NetworkService.login(username, password);
       // Handle successful login, you can navigate to another page or show a success message
-      print(message); // For demonstration, printing the message
+     // For demonstration, printing the message
+     context.pushNamed('HomePage');
     } catch (e) {
       // Handle errors, such as network errors or invalid credentials
       print(e.toString()); // For demonstration, printing the error message
@@ -60,21 +58,11 @@ class LoginPageWidget extends StatelessWidget {
               ),
               const SizedBox(height: 50),
               Text(
-<<<<<<< Updated upstream
-                'Welcome to OnlyFoods',
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontStyle: FontStyle.italic,
-                  color: Colors.black,
-                  fontSize: 40,
-                ),
-=======
                 'OnlyFoods',style:FlutterFlowTheme.of(context).headlineLarge.override(
                                 fontFamily: 'Readex Pro',
                                 color: FlutterFlowTheme.of(context).primaryText,
                                 letterSpacing: 0.0,
                               ),
->>>>>>> Stashed changes
               ),
               const SizedBox(height: 25),
               //USERNAME PLACE
@@ -140,24 +128,8 @@ class LoginPageWidget extends StatelessWidget {
 
               //SIGN IN BUTTON
               GestureDetector(
-<<<<<<< Updated upstream
-                onTap: () => signin(context), // Pass context to signin method
-                child: Container(
-                  padding: EdgeInsets.all(25),
-                  margin: EdgeInsets.symmetric(horizontal: 25),
-                  decoration: BoxDecoration(color: Colors.black),
-                  child: Center(
-                      child: Text("Sign In",
-                          style: TextStyle(
-                            color: Colors.white54,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 16,
-                          ))),
-=======
-                onTap: signin,
                 child: InkWell(
-                  onTap: () {
-                   context.pushNamed('HomePage');
+                  onTap: () {signin(context);
                    },
                   child: Container(
                     padding: EdgeInsets.all(25),
@@ -171,7 +143,6 @@ class LoginPageWidget extends StatelessWidget {
                               fontSize: 16,
                             ))),
                   ),
->>>>>>> Stashed changes
                 ),
               ),
 

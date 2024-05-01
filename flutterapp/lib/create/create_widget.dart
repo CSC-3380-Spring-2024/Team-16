@@ -382,11 +382,8 @@ Widget build(BuildContext context) {
                   foregroundColor: Colors.white, backgroundColor: Colors.green,
                 ),
               ),
-<<<<<<< Updated upstream
-=======
             SizedBox(height:60),
 
->>>>>>> Stashed changes
             ],
           ),
         ),
@@ -394,10 +391,6 @@ Widget build(BuildContext context) {
     ),
   );
 }
-<<<<<<< Updated upstream
-}
-=======
 
 }
 
->>>>>>> Stashed changes

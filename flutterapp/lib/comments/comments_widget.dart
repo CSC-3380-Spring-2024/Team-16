@@ -36,54 +36,131 @@ class _CommentsWidgetState extends State<CommentsWidget> {
     super.dispose();
   }
   
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      child: Column(
+        children: [
+          FullPost(isPreview: false),
+          Container(
+            decoration: BoxDecoration(
+              border: Border.all(
+                color: Colors.black,
+              ),
+            ),
+          ),
+          Container(
+            decoration: BoxDecoration(
+              border: Border.all(
+                color: Colors.black,
+              ),
+            ),
+            padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Container(decoration: BoxDecoration(
+              border: Border.all(
+                color: Colors.black,
+              ),
+            ),child: CommentSection()),
+                Text(
+                  'cocksucker69',
+                  style: FlutterFlowTheme.of(context)
+                      .titleSmall
+                      .override(
+                        fontFamily: 'Readex Pro',
+                        color: FlutterFlowTheme.of(context).secondaryText,
+                        letterSpacing: 0.0,
+                      ),
+                ),
+                const SizedBox(height: 4),
+                Text(
+                  'i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar i like bar ',
+                  style: FlutterFlowTheme.of(context)
+                      .titleSmall
+                      .override(
+                        fontFamily: 'Readex Pro',
+                        color: FlutterFlowTheme.of(context).primaryText,
+                        letterSpacing: 0.0,
+                      ),
+                ),
+                const SizedBox(height: 4),
+                Text(
+                  '4hr ago',
+                  style: FlutterFlowTheme.of(context)
+                      .bodySmall
+                      .override(
+                        fontFamily: 'Readex Pro',
+                        color: FlutterFlowTheme.of(context).tertiaryColor,
+                        letterSpacing: 0.0,
+                      ),
+                ),
+                const SizedBox(height: 8),
+                Row(
+                  children: <Widget>[
+                    Icon(Icons.thumb_up_alt_outlined, size: 16, color: Colors.grey[600]),
+                    const SizedBox(width: 4),
+                    Text("Like", style: TextStyle(fontSize: 12, color: Colors.grey[600])),
+                    const SizedBox(width: 16),
+                    Icon(Icons.thumb_down_alt_outlined, size: 16, color: Colors.grey[600]),
+                    const SizedBox(width: 4),
+                    Text("Dislike", style: TextStyle(fontSize: 12, color: Colors.grey[600])),
+                  ],
+                ),
+              ],
+            ),
+          ),
+          SizedBox(height: 100),
+        ],
+      ),
+    );
+  }
+}
+
+class CommentSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        FullPost(isPreview: false,),
-      Container(
-        decoration: BoxDecoration(
-                border: Border.all(
-                color: Colors.black, ),
-        ),
-      padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
+    return Container(
+      padding: EdgeInsets.all(16),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Text(
-            'cocksucker69',
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 14,
-              color: Colors.grey[900],
+            'Comments',
+            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+          ),
+          SizedBox(height: 8),
+          TextField(
+            decoration: InputDecoration(
+              hintText: 'Type your comment here...',
+              border: OutlineInputBorder(),
             ),
+            keyboardType: TextInputType.text,
           ),
-          const SizedBox(height: 4),
-          Text(
-            'i like bar',
-            style: TextStyle(fontSize: 14, color: Colors.grey[800]),
-          ),
-          const SizedBox(height: 4),
-          Text(
-            '4hr ago',
-            style: TextStyle(fontSize: 12, color: Colors.grey[600]),
-          ),
-          const SizedBox(height: 8),
-          Row(
-            children: <Widget>[
-              Icon(Icons.thumb_up_alt_outlined, size: 16, color: Colors.grey[600]),
-              const SizedBox(width: 4),
-              Text("Like", style: TextStyle(fontSize: 12, color: Colors.grey[600])),
-              const SizedBox(width: 16),
-              Icon(Icons.thumb_down_alt_outlined, size: 16, color: Colors.grey[600]),
-              const SizedBox(width: 4),
-              Text("Dislike", style: TextStyle(fontSize: 12, color: Colors.grey[600])),
-            ],
+          SizedBox(height: 16),
+          FFButtonWidget(
+                        onPressed: () {
+                          //method
+                        },
+                        text: 'Post',
+                        options: FFButtonOptions(
+                          height: 30.0,
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              24.0, 0.0, 24.0, 0.0),
+                          iconPadding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 0.0, 0.0, 0.0),
+                          color: FlutterFlowTheme.of(context).secondaryBackground,
+                          textStyle: FlutterFlowTheme.of(context)
+                              .titleSmall
+                              .override(
+                                fontFamily: 'Readex Pro',
+                                color: FlutterFlowTheme.of(context).primaryText,
+                                letterSpacing: 0.0,
+                              ),
+                        ),
           ),
         ],
       ),
-      ),
-      ],
     );
   }
 }

@@ -160,7 +160,7 @@ class Post {
     this.userProfilePicture,
     this.postDate,
     this.likes,
-    this.comments,
+    required this.comments,
     this.dislike,
   });
 
@@ -206,5 +206,5 @@ class Comment
     required this.commentBody,
     required this.userName,
     required this.distinctId,
-})
+});
 }

@@ -272,30 +272,6 @@ I ***love*** italian seasoning. It ~~isn't~~ delicious.
                 ],
               ),
               SingleChildScrollView(
-<<<<<<< Updated upstream
-                scrollDirection: Axis.horizontal,
-                child: Row(
-                  mainAxisSize: MainAxisSize.max,
-                  children: [
-                    InkWell(
-                      splashColor: Colors.transparent,
-                      focusColor: Colors.transparent,
-                      hoverColor: Colors.transparent,
-                      highlightColor: Colors.transparent,
-                      onTap: () async {
-                        AppData.viewedRecipe = dummyRecipe;
-                        context.pushNamed('RecipeFullInfo');
-                      },
-                      child: Container(
-                        width: 296.0,
-                        height: 140.0,
-                        decoration: BoxDecoration(
-                          color:
-                              FlutterFlowTheme.of(context).secondaryBackground,
-                        ),
-                        child: Column(
-                          mainAxisSize: MainAxisSize.max,
-=======
   scrollDirection: Axis.horizontal,
   child: Row(
     mainAxisSize: MainAxisSize.max,
@@ -349,7 +325,6 @@ I ***love*** italian seasoning. It ~~isn't~~ delicious.
                       Container(
                         width: 140,
                         child: Row(
->>>>>>> Stashed changes
                           children: [
                             Expanded(child: RecipeValueBar(recipeData: AppData.viewedRecipe!, isRating: true)),
                           ],

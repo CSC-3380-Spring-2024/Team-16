@@ -136,6 +136,7 @@ class FullPost extends StatelessWidget {
                     letterSpacing: 0.0,
                   ),
             ),
+            SizedBox(height: 25,),
           ],
         ),
         Padding(
@@ -223,35 +224,16 @@ class FullPost extends StatelessWidget {
                   MainAxisAlignment.spaceBetween,
               children: [
                 Row(
-                  mainAxisSize: MainAxisSize.max,
-                  children: [
-                    Icon(
-                      Icons.arrow_upward_rounded,
-                      color: FlutterFlowTheme.of(context)
-                          .secondaryText,
-                      size: 24.0,
-                    ),
-                    Padding(
-                      padding: const EdgeInsetsDirectional.fromSTEB(
-                          0.0, 8.0, 0.0, 8.0),
-                      child: Text(
-                        '1.2k',
-                        style: FlutterFlowTheme.of(context)
-                            .labelMedium
-                            .override(
-                              fontFamily: 'Readex Pro',
-                              letterSpacing: 0.0,
-                            ),
-                      ),
-                    ),
-                    Icon(
-                      Icons.arrow_downward_rounded,
-                      color: FlutterFlowTheme.of(context)
-                          .secondaryText,
-                      size: 24.0,
-                    ),
-                  ],
-                ),
+              children: <Widget>[
+                Icon(Icons.thumb_up_alt_outlined, size: 16, color: Colors.grey[600]),
+                const SizedBox(width: 4),
+                Text("Like", style: TextStyle(fontSize: 12, color: Colors.grey[600])),
+                const SizedBox(width: 16),
+                Icon(Icons.thumb_down_alt_outlined, size: 16, color: Colors.grey[600]),
+                const SizedBox(width: 4),
+                Text("Dislike", style: TextStyle(fontSize: 12, color: Colors.grey[600])),
+              ],
+            ),
                 FlutterFlowIconButton(
                   buttonSize: 40.0,
                   icon: Icon(

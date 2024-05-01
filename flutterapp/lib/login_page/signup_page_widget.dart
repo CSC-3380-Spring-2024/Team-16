@@ -10,9 +10,20 @@ class SignupPageWidget extends StatelessWidget {
   final TextEditingController usernameController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
   final TextEditingController confirmPasswordController = TextEditingController();
+  final controller;
+  final String hintText;
+  final bool obscureText;
+  final Function()? onTap;
 
-  SignupPageWidget({Key? key}) : super(key: key);
+  SignupPageWidget({
+    super.key,
+    required this.controller,
+    required this.hintText,
+    required this.obscureText,
+    required this.onTap,
+  });
 
+    
   void signup(BuildContext context) async {
     String username = usernameController.text.trim();
     String password = passwordController.text.trim();
@@ -44,6 +55,7 @@ class SignupPageWidget extends StatelessWidget {
       );
     }
   }
+  
 
   @override
   Widget build(BuildContext context) {
@@ -94,15 +106,48 @@ class SignupPageWidget extends StatelessWidget {
                   ),
                 ),
                 SizedBox(height: 10),
-                ElevatedButton(
-                  onPressed: () => signup(context),
-                  child: Text('Sign Up'),
-                ),
-                SizedBox(height: 50),
+
                 GestureDetector(
-                  onTap: () => Navigator.pushNamed(context, 'LoginPage'),
-                  child: Text('Already have an account? Sign in'),
+                child: InkWell(
+                  onTap: () {signup(context);
+                   },
+                  child: Container(
+                    padding: EdgeInsets.all(25),
+                    margin: EdgeInsets.symmetric(horizontal: 25),
+                    decoration: BoxDecoration(color: Colors.black),
+                    child: Center(
+                        child: Text("Sign up",
+                            style: TextStyle(
+                              color: Colors.white54,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 16,
+                            ))),
+                  ),
                 ),
+              ),
+                SizedBox(height: 50),
+                Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    'Already part of our OF family?',
+                    style: TextStyle(color: Colors.grey),
+                  ),
+                  const SizedBox(width: 4),
+                  InkWell(
+                  onTap: () {
+                   context.pushNamed('LoginPage');
+                   },
+                    child: const Text(
+                      'Log in',
+                       style: TextStyle(
+                       color: Colors.blue, 
+                       fontWeight: FontWeight.bold,
+                         ),
+                       ),
+                      ),
+                ],
+              )
               ],
             ),
           ),
