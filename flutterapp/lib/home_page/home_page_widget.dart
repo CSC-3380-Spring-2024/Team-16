@@ -60,6 +60,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: const [
+                                          const ContainerButton(),
+
                       GroceryButton(),
                     ],
                   ),
@@ -313,29 +315,79 @@ class PostWidget extends StatelessWidget {
   }
 }
 
+class ContainerButton extends StatelessWidget {
+  const ContainerButton({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    FlutterFlowTheme ffTheme = FlutterFlowTheme.of(context);
+    return Container(
+      height: 80,
+      width: 80,
+      decoration: BoxDecoration(
+        color: ffTheme.accent1,
+        borderRadius: const BorderRadius.all(Radius.circular(8)),
+        border: Border.all(color: ffTheme.accent1, width: 4.0),
+      ),
+      padding: const EdgeInsets.all(0.0),
+      child: Column(
+        children: [
+          InkWell(
+            borderRadius: BorderRadius.all(Radius.circular(8)),
+            onTap: () => context.pushNamed('Fridge'),
+            child: FlutterFlowIconButton(
+              icon: Icon(
+                Icons.all_inbox,
+                color: ffTheme.primaryText,
+                size: 40.0,
+              ),
+            ),
+          ),
+          Text(
+            'Fridge',
+            style: FlutterFlowTheme.of(context).bodySmall.override(
+                  fontFamily: 'Readex Pro',
+                  color: FlutterFlowTheme.of(context).primaryText,
+                  letterSpacing: 0.0,
+                ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+
 class GroceryButton extends StatelessWidget {
   const GroceryButton({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Container(
+      width: 80,
+      height:80,
       decoration: BoxDecoration(
-        border: Border.all(color: Colors.grey.shade800, width: 4.0),
+        color: FlutterFlowTheme.of(context).accent2,
+        borderRadius: const BorderRadius.all(Radius.circular(8)),
+        border: Border.all(color: FlutterFlowTheme.of(context).accent2, width: 4.0),
       ),
-      padding: const EdgeInsets.all(8.0),
+      padding: const EdgeInsets.all(0.0),
       child: Column(
         children: [
           InkWell(
+            borderRadius: BorderRadius.all(Radius.circular(8)),
             onTap: () => context.pushNamed('Grocery'),
             child: Icon(
               Icons.local_grocery_store,
               color: Colors.white,
-              size: 60.0,
+              size: 50.0,
             ),
           ),
           Text(
             'Grocery',
-            style: FlutterFlowTheme.of(context).bodyLarge.override(
+            style: FlutterFlowTheme.of(context).bodySmall.override(
               fontFamily: 'Readex Pro',
               color: FlutterFlowTheme.of(context).primaryText,
               letterSpacing: 0.0,

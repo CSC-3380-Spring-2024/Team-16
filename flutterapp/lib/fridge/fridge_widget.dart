@@ -1,11 +1,12 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:foodappproject/app_shared.dart';
+import 'package:foodappproject/quantity_converter.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'fridge_model.dart';
 import 'package:foodappproject/app_data.dart';
-import 'package:json_annotation/json_annotation.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 export 'fridge_model.dart';
@@ -20,7 +21,7 @@ class FridgeWidget extends StatefulWidget {
 class _FridgeWidgetState extends State<FridgeWidget> {
   late FridgeModel _model;
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  FridgeData openedFridge = FFAppState().containers[0];
+  FridgeData openedFridge = AppData.openedFridge;
 
   Map<String, Map<String, dynamic>> ingredients = { 
     'Milk': {'quantity': 1, 'unit': 'liter'}
@@ -41,43 +42,10 @@ class _FridgeWidgetState extends State<FridgeWidget> {
     super.dispose();
   }
 
-  RecipeData dummyRecipe = RecipeData(
-    name: "Spaghetti Carbonara",
-    starRating: 2.1,
-    difficultyRating: 4.5,
-    servingSize: 4,
-    method: [
-      "Boil water in a large pot.",
-      "Cook spaghetti according to package instructions.",
-      "In a skillet, cook pancetta until crispy.",
-      "Whisk together eggs, cheese, and black pepper.",
-      "Drain spaghetti and toss with egg mixture.",
-      "Add pancetta and mix well. Serve hot."
-    ],
-    youtubeVid: "https://www.youtube.com/watch?v=MHMQi9jygMA",
-    description:
-        "Classic Italian pasta dish with creamy egg and cheese sauce, topped with crispy pancetta.",
-    backdrop:
-        "https://example.com/spaghetti_carbonara_backdrop.jpg",
-    peopleReviewed: 50,
-    ingredients: [
-      ["Spaghetti", "200g"],
-      ["Eggs", "2"],
-      ["Pancetta", "100g"],
-      ["Grated Parmesan cheese", "50g"],
-      ["Black pepper", "to taste"],
-    ],
-    allIngredients: {
-      "Spaghetti": "200g",
-      "Eggs": "2",
-      "Pancetta": "100g",
-      "Grated Parmesan cheese": "50g",
-      "Black pepper": "0g",
-    },
-  );
 
   @override
   Widget build(BuildContext context) {
+    
     return GestureDetector(
       onTap: () => _model.unfocusNode.canRequestFocus
           ? FocusScope.of(context).requestFocus(_model.unfocusNode)
@@ -154,17 +122,13 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                 SizedBox(height:5),
                 for (var ingredient in openedFridge.contents)//ingredients.keys)//TODO: Remove ingredients.keys (wherever that is)
                   if (ingredient.name.toLowerCase().contains(_searchQuery))
-                    buildIngredient(
-                      ingredient
-                      //'https://images.unsplash.com/photo-1600788907416-456578634209?q=80&w=1350&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90oy1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-                    ),
-                RecipeCard(recipeData: dummyRecipe),
+                    buildIngredient(ingredient),
                 Padding(
                   padding: const EdgeInsetsDirectional.fromSTEB(
                       16.0, 16.0, 16.0, 16.0),
                   child: FFButtonWidget(
                     onPressed: () {
-                      _showAddIngredientDialog();
+                      _showAddIngredientDialog(context);
                     },
                     text: 'Add Ingredient',
                     options: FFButtonOptions(
@@ -255,134 +219,152 @@ class _FridgeWidgetState extends State<FridgeWidget> {
             }
           });
         },
-        child: Container(
-          decoration: BoxDecoration(
-            color: isSelected
-                ? FlutterFlowTheme.of(context).primary
-                : FlutterFlowTheme.of(context).secondaryBackground,
-            borderRadius: BorderRadius.circular(20.0),
-          ),
-          child: Row(
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              Padding(
-                padding:
-                    const EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
-                child: Container(
-                  width: 100.0,
-                  height: 80.0,
-                  decoration: BoxDecoration(
-                    color: FlutterFlowTheme.of(context).secondaryBackground,
-                    borderRadius: BorderRadius.circular(8.0),
-                  ),
-                  child: Icon(
-                    Icons.access_alarm_outlined, // Replace with your desired icon
-                    color: FlutterFlowTheme.of(context).primaryBackground, // Customize the icon color
-                    size: 48, // Set the icon size
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Container(
+            decoration: BoxDecoration(
+              color: isSelected
+                  ? FlutterFlowTheme.of(context).primary
+                  : FlutterFlowTheme.of(context).secondaryBackground,
+              borderRadius: BorderRadius.circular(20.0),
+              // border: Border.all(
+              //     color: const Color.fromARGB(255, 204, 199, 216)), // Apply grayish purple border
+            ),
+            child: Row(
+              mainAxisSize: MainAxisSize.max,
+              children: [
+                Padding(
+                  padding:
+                      const EdgeInsetsDirectional.fromSTEB(8.0, 8.0, 8.0, 8.0),
+                  child: Container(
+                    width: 60.0,
+                    height: 60.0,
+                    decoration: BoxDecoration(
+                      color: FlutterFlowTheme.of(context).secondaryBackground,
+                      borderRadius: BorderRadius.circular(8.0),
+                    ),
+                    child: Icon(
+                      Icons.circle, // Replace with your desired icon
+                      color: FlutterFlowTheme.of(context).primaryBackground, // Customize the icon color
+                      size: 12, // Set the icon size
+                    ),
                   ),
                 ),
-              ),
-              Expanded(
-                child: Column(
-                  mainAxisSize: MainAxisSize.max,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      '${ingredientData.name} - ${ingredientData.quantity}',// - ${details?['quantity']} ${details?['unit']}',
-                      style: FlutterFlowTheme.of(context)
-                          .titleMedium
-                          .override(
-                            fontFamily: 'Readex Pro',
-                            color: FlutterFlowTheme.of(context).primaryText,
-                          ),
-                    ),
-                    Text(
-                      'Expires in 7 days',
-                      style: FlutterFlowTheme.of(context)
-                          .labelMedium
-                          .override(
-                            fontFamily: 'Readex Pro',
-                            color: FlutterFlowTheme.of(context).secondaryText,
-                          ),
-                    ),
-                  ],
+                Expanded(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.max,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        '${ingredientData.name} - ${ingredientData.quantity}',// - ${details?['quantity']} ${details?['unit']}',
+                        style: FlutterFlowTheme.of(context)
+                            .titleMedium
+                            .override(
+                              fontFamily: 'Readex Pro',
+                              color: FlutterFlowTheme.of(context).primaryText,
+                            ),
+                      ),
+                      Text(
+                        'Expires in ${ingredientData.expiry} days',
+                        style: FlutterFlowTheme.of(context)
+                            .labelMedium
+                            .override(
+                              fontFamily: 'Readex Pro',
+                              color: FlutterFlowTheme.of(context).secondaryText,
+                            ),
+                      ),
+                    ],
+                  ),
                 ),
-              ),
-              IconButton(
-                icon: Icon(Icons.edit),
-                onPressed: () => _showEditIngredientDialog(ingredientData.name),
-              ),
-            ],
+                IconButton(
+                  icon: Icon(Icons.remove_circle),
+                  onPressed: () => _showSubtractQuantityDialog(ingredientData),
+                ),
+              ],
+            ),
           ),
         ),
       ),
     );
   }
 
-  void _showAddIngredientDialog() {
-    TextEditingController ingredientController = TextEditingController();
-    TextEditingController quantityController = TextEditingController();
-    String unit = 'liter'; // Default unit
 
+
+  void _showAddIngredientDialog(BuildContext context) async {
+    String unit = 'liter'; // Default unit
+    List<String> kOptions = []; // Initialize as empty list
+
+    // Show CircularProgressIndicator while fetching options
     showDialog(
       context: context,
       builder: (BuildContext context) {
+        TextEditingController ingredientController = TextEditingController();
+        TextEditingController quantityController = TextEditingController();
+        TextEditingController unitController = TextEditingController();
+        unitController.text = "g";
         return AlertDialog(
           title: const Text('Add Ingredient'),
-          content: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              TextField(
-                controller: ingredientController,
-                decoration: const InputDecoration(
-                  labelText: "Ingredient Name",
-                ),
-              ),
-              TextField(
-                controller: quantityController,
-                decoration: const InputDecoration(
-                  labelText: "Quantity",
-                ),
-                keyboardType: const TextInputType.numberWithOptions(decimal: true),
-              ),
-              DropdownButton<String>(
-                value: unit,
-                icon: const Icon(Icons.arrow_downward),
-                elevation: 16,
-                style: const TextStyle(color: Colors.deepPurple),
-                underline: Container(
-                  height: 2,
-                  color: Colors.deepPurpleAccent,
-                ),
-                onChanged: (String? newValue) {
-                  setState(() {
-                    unit = newValue!;
-                  });
-                },
-                items: <String>['liter', 'gram', 'piece']
-                    .map<DropdownMenuItem<String>>((String value) {
-                  return DropdownMenuItem<String>(
-                    value: value,
-                    child: Text(value),
-                  );
-                }).toList(),
-              ),
-            ],
+          content: FutureBuilder<List<String>>(
+            future: fetchOptions(), // Fetch options asynchronously
+            builder: (BuildContext context, AsyncSnapshot<List<String>> snapshot) {
+              if (snapshot.connectionState == ConnectionState.waiting) {
+                return const Center(
+                  child: CircularProgressIndicator(),
+                );
+              } else if (snapshot.hasError) {
+                return Text('Error: ${snapshot.error}');
+              } else {
+                kOptions = snapshot.data ?? []; // Update kOptions with fetched data
+                return Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Autocomplete<String>(
+                      optionsBuilder: (TextEditingValue textEditingValue) {
+                        if (textEditingValue.text == '') {
+                          return const Iterable<String>.empty();
+                        }
+                        return kOptions.where((String option) {
+                          return option.toLowerCase().contains(textEditingValue.text.toLowerCase());
+                        });
+                      },
+                      onSelected: (String selection) {
+                        ingredientController.text = selection;
+                        print(ingredientController.text);
+                      },
+                    ),
+                    TextField(
+                      controller: quantityController,
+                      decoration: const InputDecoration(
+                        labelText: "Quantity",
+                      ),
+                      keyboardType: const TextInputType.numberWithOptions(decimal: true),
+                    ),
+                    QuantityDropdown(dialogSelectedUnit: "g", controller: unitController,),
+                  ],
+                );
+              }
+            },
           ),
           actions: <Widget>[
             TextButton(
               child: const Text('Add'),
               onPressed: () {
+                print("BITCH");
                 String ingredientName = ingredientController.text;
                 if (ingredientName.isNotEmpty && quantityController.text.isNotEmpty) {
+                  print("YEEEES");
                   setState(() {
                     double quantity = double.tryParse(quantityController.text) ?? 0;
+                    unit = unitController.text;
                     if (quantity > 0) {
                       IngredientData newIngredient = IngredientData(
                         name: ingredientName, 
                         quantity: "$quantity $unit", 
                         expiry: 69 //TODO: Get days until expiry from server!!!!
                       );
+                      Future(newIngredient.fetchIngredientInfo).whenComplete(() {setState(() {
+                        newIngredient.expiry = newIngredient.ingredientInfo!.shelfLife;
+                      });});
                       openedFridge.contents.add(newIngredient);
                     }
                   });
@@ -400,46 +382,44 @@ class _FridgeWidgetState extends State<FridgeWidget> {
     );
   }
 
-  void _showEditIngredientDialog(String name) {
-    TextEditingController quantityController = TextEditingController(text: ingredients[name]?['quantity'].toString());
-    String unit = ingredients[name]?['unit']; // Get current unit
 
+Future<List<String>> fetchOptions() async {
+  final response = await http.get(Uri.parse('http://localhost:8080/ingredient'));
+  if (response.statusCode == 200) {
+    List<dynamic> data = jsonDecode(response.body);
+    List<String> options = data.map((e) => e.toString()).toList();
+    return options;
+  } else {
+    throw Exception('Failed to load options');
+  }
+}
+
+  void _showSubtractQuantityDialog (IngredientData ingredientData, ) {
+    TextEditingController quantityController = TextEditingController();
+    TextEditingController unitController = TextEditingController();
+    unitController.text = ingredientData.parseQuantity().unit;
     showDialog(
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Text('Edit Quantity'),
-          content: Column(
+          title: Text('Subtract from ${ingredientData.name}...', style: FlutterFlowTheme.of(context).bodyLarge,),
+          content: Row(
             mainAxisSize: MainAxisSize.min,
             children: [
-              TextField(
-                controller: quantityController,
-                decoration: InputDecoration(
-                  labelText: "Quantity",
+              Expanded(
+                flex: 1,
+                child: TextField(
+                  controller: quantityController,
+                  decoration: const InputDecoration(
+                    labelText: "Quantity",
+                  ),
+                  keyboardType: const TextInputType.numberWithOptions(decimal: true),
                 ),
-                keyboardType: TextInputType.numberWithOptions(decimal: true),
               ),
-              DropdownButton<String>(
-                value: unit,
-                icon: const Icon(Icons.arrow_downward),
-                elevation: 16,
-                style: const TextStyle(color: Colors.deepPurple),
-                underline: Container(
-                  height: 2,
-                  color: Colors.deepPurpleAccent,
+              Expanded(flex: 1,child: QuantityDropdown(
+                  dialogSelectedUnit: ingredientData.parseQuantity().unit,
+                  controller: unitController,
                 ),
-                onChanged: (String? newValue) {
-                  setState(() {
-                    unit = newValue!;
-                  });
-                },
-                items: <String>['liter', 'gram', 'piece']
-                    .map<DropdownMenuItem<String>>((String value) {
-                  return DropdownMenuItem<String>(
-                    value: value,
-                    child: Text(value),
-                  );
-                }).toList(),
               ),
             ],
           ),
@@ -451,7 +431,7 @@ class _FridgeWidgetState extends State<FridgeWidget> {
                   setState(() {
                     double quantity = double.tryParse(quantityController.text) ?? 0;
                     if (quantity > 0) {
-                      ingredients[name] = {'quantity': quantity, 'unit': unit};
+                      ingredientData.subtractQuantity(QuantityStruct(amount: double.parse(quantityController.text), unit: unitController.text),);
                     }
                   });
                   Navigator.of(context).pop();
@@ -528,8 +508,8 @@ void _showRecipeDialog(BuildContext context) {
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
           child: Container(
-            width: MediaQuery.of(context).size.width * 0.9,
-            height: MediaQuery.of(context).size.height * 0.9,
+            width: MediaQuery.of(context).size.width,
+            height: MediaQuery.of(context).size.height,
             padding: EdgeInsets.all(16.0),
             child: Column(
               children: [
@@ -626,6 +606,7 @@ class RecipeCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print(AppData.viewedRecipe.backdrop);
     FlutterFlowTheme ffTheme = FlutterFlowTheme.of(context);
     return Padding(
       padding: const EdgeInsets.all(8.0),
@@ -652,10 +633,12 @@ class RecipeCard extends StatelessWidget {
                     height:90,
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(10), // Adjust the radius as needed
-                      child: Image.network(
-                        'https://th.bing.com/th/id/R.99a429149891b8331ab9a4d9dcdeca89?rik=ZFGjK2aI0XNcog&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fFresh-hot-delicious-food-wallpaper.jpg&ehk=YcpVrjnOnSm%2fhnTl3VFd3ve98wBRCKiyDEZj%2fJ43ix8%3d&risl=&pid=ImgRaw&r=0', // Replace with your image URL
-                        fit: BoxFit.cover, // Adjust the fit mode (cover, contain, etc.)
-                      ),
+                      child: CachedNetworkImage(
+                          imageUrl: AppData.viewedRecipe.backdrop != null ? AppData.viewedRecipe.backdrop! : "",
+                          fit: BoxFit.cover,
+                          placeholder: (context, url) => new CircularProgressIndicator(),
+                          errorWidget: (context, url, error) => new Icon(Icons.error),
+                        ),
                     ),
                   ),
                   const Padding(padding: EdgeInsets.all(8)),
