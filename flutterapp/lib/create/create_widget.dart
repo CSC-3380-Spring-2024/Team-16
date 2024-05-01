@@ -11,6 +11,7 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import '/flutter_flow/upload_data.dart';
+import 'package:http/http.dart' as http;
 
 import 'create_model.dart';
 export 'create_model.dart';
@@ -78,7 +79,7 @@ class _CreateWidgetState extends State<CreateWidget> {
     }
   }
 
-  void _postRecipe() {
+  Future<void> _postRecipe() async {
     // Implement your logic to handle recipe posting, e.g., uploading to a server
     if (kIsWeb) {
       print('Posting recipe with file bytes: ${_fileBytes != null ? "File Selected" : "No File Selected"}');
@@ -102,8 +103,57 @@ class _CreateWidgetState extends State<CreateWidget> {
     body["backdrop"]="";
     body["peopleReviewed"]=0;
     outerBody["recipe"]=body;
-    outerBody["username"]=AppData?.currentUser;
+    outerBody["username"]="usr";
     print(json.encode(outerBody));
+
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (BuildContext context) {
+        return const Dialog(
+          child: Padding(
+            padding: EdgeInsets.all(20.0),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                CircularProgressIndicator(),
+                SizedBox(height: 20.0),
+                Text("Sending data..."),
+              ],
+            ),
+          ),
+        );
+      },
+    );
+
+    // Actual HTTP post request
+    final response = await http.post(
+      Uri.parse('http://localhost:8080/api/recipe/add'),
+      body: ""//json.encode(outerBody)
+    );
+    
+    //if (response.statusCode == 200) {
+      // ignore: use_build_context_synchronously
+      showDialog(
+        context: context,
+        builder: (BuildContext context) {
+          return AlertDialog(
+            title: Text(response.statusCode.toString()),
+            content: Text(response.body),
+            actions: [
+              TextButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: Text("OK"),
+                //RecipeData newRecipe =
+              ),
+            ],
+          );
+        },
+      );
+    //}
+
   }
 
   void _showAddIngredientDialog(List<dynamic> unused) {
