@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:foodappproject/app_data.dart';
 import 'package:foodappproject/app_shared.dart';
 
@@ -233,89 +234,99 @@ class _RecipeHomePageWidgetState extends State<RecipeHomePageWidget> {
                 ],
               ),
               SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-                child: Row(
-                  mainAxisSize: MainAxisSize.max,
-                  children: [
-                    InkWell(
-                      splashColor: Colors.transparent,
-                      focusColor: Colors.transparent,
-                      hoverColor: Colors.transparent,
-                      highlightColor: Colors.transparent,
-                      onTap: () async {
-                        AppData.viewedRecipe = AppData.dummyRecipe;
-                        context.pushNamed('RecipeFullInfo');
-                      },
-                      child: Container(
-                        width: 296.0,
-                        height: 140.0,
-                        decoration: BoxDecoration(
-                          color:
-                              FlutterFlowTheme.of(context).secondaryBackground,
-                        ),
-                        child: Column(
-                          mainAxisSize: MainAxisSize.max,
+  scrollDirection: Axis.horizontal,
+  child: Row(
+    mainAxisSize: MainAxisSize.max,
+    children: [
+      InkWell(
+        splashColor: Colors.transparent,
+        focusColor: Colors.transparent,
+        hoverColor: Colors.transparent,
+        highlightColor: Colors.transparent,
+        onTap: () async {
+          AppData.viewedRecipe = AppData.dummyRecipe;
+          context.pushNamed('RecipeFullInfo');
+        },
+        child: Container(
+          width: 300.0,
+          height: 140.0,
+          decoration: BoxDecoration(
+            color: FlutterFlowTheme.of(context).secondaryBackground,
+            borderRadius: BorderRadius.circular(20.0),
+          ),
+          child: Column(
+            mainAxisSize: MainAxisSize.max,
+            children: [
+              Text(
+                '${AppData.viewedRecipe.name}',
+                style: FlutterFlowTheme.of(context)
+                    .bodyMedium
+                    .override(
+                      fontFamily: 'Readex Pro',
+                      letterSpacing: 0.0,
+                    ),
+              ),
+              Row(
+                mainAxisSize: MainAxisSize.max,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Align(
+                    alignment: AlignmentDirectional(-1.0, 0.0),
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(8.0),
+                      child: CachedNetworkImage(
+                        imageUrl: "https://images.pexels.com/photos/1860208/pexels-photo-1860208.jpeg?cs=srgb&dl=cooked-food-1860208.jpg&fm=jpg",
+                        width: 140.0,
+                        height: 115.0,
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  ),
+                  Column(
+                    children: [
+                      Container(
+                        width: 140,
+                        child: Row(
                           children: [
-                            Text(
-                              'CHUNS BULLSHIT RECIPES',
-                              style: FlutterFlowTheme.of(context)
-                                  .bodyMedium
-                                  .override(
-                                    fontFamily: 'Readex Pro',
-                                    letterSpacing: 0.0,
-                                  ),
-                            ),
-                            Row(
-                              mainAxisSize: MainAxisSize.max,
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Align(
-                                  alignment: AlignmentDirectional(-1.0, 0.0),
-                                  child: ClipRRect(
-                                    borderRadius: BorderRadius.circular(8.0),
-                                    child: Image.network(
-                                      'https://picsum.photos/seed/378/600',
-                                      width: 150.0,
-                                      height: 120.0,
-                                      fit: BoxFit.cover,
-                                    ),
-                                  ),
-                                ),
-                                Align(
-                                  alignment: AlignmentDirectional(0.0, -1.0),
-                                  child: Text(
-                                    'Rating:\n#Ingredients:\nTime:',
-                                    textAlign: TextAlign.center,
-                                    style: FlutterFlowTheme.of(context)
-                                        .bodyMedium
-                                        .override(
-                                          fontFamily: 'Readex Pro',
-                                          letterSpacing: 0.0,
-                                        ),
-                                  ),
-                                ),
-                                Align(
-                                  alignment: AlignmentDirectional(0.0, -1.0),
-                                  child: Text(
-                                    '4.5⭐\n3\n90 mins',
-                                    textAlign: TextAlign.center,
-                                    style: FlutterFlowTheme.of(context)
-                                        .bodyMedium
-                                        .override(
-                                          fontFamily: 'Readex Pro',
-                                          letterSpacing: 0.0,
-                                        ),
-                                  ),
-                                ),
-                              ],
-                            ),
+                            Expanded(child: RecipeValueBar(recipeData: AppData.viewedRecipe!, isRating: true)),
                           ],
                         ),
                       ),
-                    ),
-                  ],
-                ),
+                      Container(
+                        width: 140,
+                        child: Row(
+                          children: [
+                            Expanded(child: RecipeValueBar(recipeData: AppData.viewedRecipe!, isRating: false)),
+                          ],
+                        ),
+                      ),
+                      Container(
+                        width: 140,
+                        child: Row(
+                          children:[
+                            Text(
+                            'Serving Size: 1',
+                              style:FlutterFlowTheme.of(context)
+                              .bodyMedium
+                              .override(
+                              fontFamily: 'Readex Pro',
+                            ),
+                           ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
               ),
+            ],
+          ),
+        ),
+      ),
+    ],
+  ),
+),
+
               Row(
                 mainAxisSize: MainAxisSize.max,
                 children: [

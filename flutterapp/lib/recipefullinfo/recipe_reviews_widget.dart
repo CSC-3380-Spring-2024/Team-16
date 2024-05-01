@@ -67,7 +67,7 @@ return Scaffold(
         expandedHeight: 200.0,
         flexibleSpace: FlexibleSpaceBar(
           title: Text(
-          'Reviews For ${AppData.viewedRecipe!.name}',
+          'Reviews For ${AppData.viewedRecipe.name}',
             style: FlutterFlowTheme.of(context).bodyMedium.copyWith(
             fontFamily: 'Readex Pro', // Specify the font family if needed
             fontSize: 25,             // Set the font size
@@ -108,21 +108,22 @@ return Scaffold(
                     ),
                     ),
                     // Star rating, could use a package or custom widget to display
-                    Row(
-                      children: [
-                    RecipeValueBar(recipeData: AppData.viewedRecipe!, isRating: true),
-                      ],
+                    Container(
+                      width:200,
+                      child: Row(
+                        children: [
+                      Expanded(child: RecipeValueBar(recipeData: AppData.viewedRecipe!, isRating: true)),
+                        ],
+                      ),
                     ),
                     // Review text
-                    Row(
-                          children: <Widget>[
-                            Text('Difficulty:',style:FlutterFlowTheme.of(context)
-                          .bodyMedium
-                          .override(
-                            fontFamily: 'Readex Pro',
-                    ),),
-                            Icon(Icons.star, color: Colors.red)
-                          ],
+                    Container(
+                      width: 200,
+                      child: Row(
+                            children: [
+                      Expanded(child: RecipeValueBar(recipeData: AppData.viewedRecipe!, isRating: false)),
+                        ],
+                      ),
                     ),
                     Row(
                       children: [
@@ -132,7 +133,7 @@ return Scaffold(
                             fontFamily: 'Readex Pro',
                     ),),
                         Text(
-                          'This shit fire',
+                          'This shit fire,This shit fire,This shit fire,This shit fire',
                           style:FlutterFlowTheme.of(context)
                           .bodyMedium
                           .override(
@@ -155,24 +156,5 @@ return Scaffold(
 
 
 
-
-
-    // RecipeData? recipe = AppData.viewedRecipe;
-
-    // return GestureDetector(
-    //   onTap: () => _model.unfocusNode.canRequestFocus
-    //       ? FocusScope.of(context).requestFocus(_model.unfocusNode)
-    //       : FocusScope.of(context).unfocus(),
-    //   child: Scaffold(
-    //     key: scaffoldKey,
-    //     backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
-    //     body: SafeArea(
-    //       top: true,
-    //       child: SingleChildScrollView(
-    //         child: Text("Hello World! (Viewing ${AppData.viewedRecipe!.name})")
-    //       ),
-    //     ),
-    //   ),
-    // );
   }
 }
