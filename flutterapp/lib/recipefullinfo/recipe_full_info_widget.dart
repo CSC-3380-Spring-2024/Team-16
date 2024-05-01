@@ -98,18 +98,19 @@ class _RecipeFullInfoWidgetState extends State<RecipeFullInfoWidget> {
                   ),
                   Padding(
                     padding:
-                        EdgeInsets.all(8.0),
+                        EdgeInsets.all(0.0),
                     child: Container(
                       width: double.infinity,
                       height: 240.0,
                       decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(12.0),
                         color:
                             FlutterFlowTheme.of(context).secondaryBackground,
                       ),
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(12.0),
                         child: CachedNetworkImage(
-                          imageUrl: "https://images.pexels.com/photos/1860208/pexels-photo-1860208.jpeg?cs=srgb&dl=cooked-food-1860208.jpg&fm=jpg",
+                          imageUrl: AppData.viewedRecipe.backdrop != null ? AppData.viewedRecipe.backdrop! : "",
                           fit: BoxFit.cover,
                           placeholder: (context, url) => new CircularProgressIndicator(),
                           errorWidget: (context, url, error) => new Icon(Icons.error),

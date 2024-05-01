@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:foodappproject/app_shared.dart';
 import 'package:foodappproject/quantity_converter.dart';
@@ -507,8 +508,8 @@ void _showRecipeDialog(BuildContext context) {
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
           child: Container(
-            width: MediaQuery.of(context).size.width * 0.9,
-            height: MediaQuery.of(context).size.height * 0.9,
+            width: MediaQuery.of(context).size.width,
+            height: MediaQuery.of(context).size.height,
             padding: EdgeInsets.all(16.0),
             child: Column(
               children: [
@@ -631,10 +632,12 @@ class RecipeCard extends StatelessWidget {
                     height:90,
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(10), // Adjust the radius as needed
-                      child: Image.network(
-                        'https://th.bing.com/th/id/R.99a429149891b8331ab9a4d9dcdeca89?rik=ZFGjK2aI0XNcog&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fFresh-hot-delicious-food-wallpaper.jpg&ehk=YcpVrjnOnSm%2fhnTl3VFd3ve98wBRCKiyDEZj%2fJ43ix8%3d&risl=&pid=ImgRaw&r=0', // Replace with your image URL
-                        fit: BoxFit.cover, // Adjust the fit mode (cover, contain, etc.)
-                      ),
+                      child: CachedNetworkImage(
+                          imageUrl: AppData.viewedRecipe.backdrop != null ? AppData.viewedRecipe.backdrop! : "",
+                          fit: BoxFit.cover,
+                          placeholder: (context, url) => new CircularProgressIndicator(),
+                          errorWidget: (context, url, error) => new Icon(Icons.error),
+                        ),
                     ),
                   ),
                   const Padding(padding: EdgeInsets.all(8)),
