@@ -169,20 +169,56 @@ class PostWidget extends StatelessWidget {
                 return const Center(child: Text('No recipe found.'));
               } else {
                 final recipe = snapshot.data!;
-                return Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text("Reference from:"),
-                    Text("Recipe Name: ${recipe.name}"),
-                    const SizedBox(height: 10),
-                    if (recipe.uploadImage != null)
-                      Image.memory(
-                        recipe.uploadImage!,
-                        width: 100,
-                        height: 100,
-                        fit: BoxFit.cover,
+                return Container(
+                  padding: const EdgeInsets.all(8.0),
+                  margin: const EdgeInsets.only(left: 16, right: 16),
+                  decoration: BoxDecoration(
+                    color: FlutterFlowTheme.of(context).secondaryBackground,
+                    borderRadius: BorderRadius.circular(10.0),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black26,
+                        offset: Offset(0, 4),
+                        blurRadius: 8.0,
                       ),
-                  ],
+                    ],
+                  ),
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      if (recipe.uploadImage != null)
+                        Image.memory(
+                          recipe.uploadImage!,
+                          width: 80,
+                          height: 80,
+                          fit: BoxFit.cover,
+                        ),
+                      const SizedBox(width: 8), // Add space between image and text
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              "Reference Recipe",
+                              style: FlutterFlowTheme.of(context).bodySmall.override(
+                                fontFamily: 'Readex Pro',
+                                color: Colors.grey, // Adjust color as needed
+                              ),
+                            ),
+                            Text(
+                              "Recipe Name: ${recipe.name}",
+                              style: FlutterFlowTheme.of(context).bodyMedium.override(
+                                fontFamily: 'Readex Pro',
+                                color: FlutterFlowTheme.of(context).primaryText,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+
                 );
               }
             },
@@ -211,7 +247,7 @@ class PostWidget extends StatelessWidget {
                   size: 24.0,
                 ),
                 onPressed: () {
-                  // Handle comment button press
+
                 },
               ),
               FlutterFlowIconButton(
