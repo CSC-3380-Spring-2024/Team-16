@@ -368,16 +368,11 @@ Widget build(BuildContext context) {
                   foregroundColor: Colors.white, backgroundColor: Colors.green,
                 ),
               ),
-
+            SizedBox(height:60),
 
             ],
           ),
         ),
-      ),
-      // This bottom padding could be adjusted according to the height of your floating navigation bar
-      bottomNavigationBar: Container(
-        height: 60.0, // Example height of a bottom navigation bar
-        color: Colors.transparent,
       ),
     ),
   );
