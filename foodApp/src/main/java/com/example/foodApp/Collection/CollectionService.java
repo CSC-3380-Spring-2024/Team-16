@@ -26,7 +26,7 @@ public class CollectionService {
         String result = "";
         Collection collection;
         String collectionId = distinctId.generateId();
-        collection = collectionRepository.insert(new Collection(collections.getRecipeId(), collections.getCollectionName(), collectionId));
+        collection = collectionRepository.insert(new Collection(collections.getRecipeId(), collections.getCollectionName(), collectionId,username));
             result = "Upload without Image";
             mongoTemplate.update(Account.class)
                     .matching(Criteria.where("username").is(username))

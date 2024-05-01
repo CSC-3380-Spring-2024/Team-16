@@ -8,10 +8,11 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.http.MediaType;
 
 
-
+import java.lang.management.OperatingSystemMXBean;
 import java.util.Base64;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/recipe")
@@ -19,11 +20,6 @@ import java.util.Map;
 public class RecipeController {
     @Autowired
     private RecipeService recipeService;
-
-
-
-
-
 
     //GetMapping
     @GetMapping
@@ -36,6 +32,13 @@ public class RecipeController {
         System.out.println("it work");
         return new ResponseEntity<List<Recipe>>(recipeService.recipesWithIngredient(name), HttpStatus.OK);
     }
+    @GetMapping("/find/{id}")
+    public ResponseEntity<Optional<Recipe>> getRecipebyId (@PathVariable String id)
+    {
+        ObjectId ids = new ObjectId(id);
+        return new ResponseEntity<Optional<Recipe>>(recipeService.getArecipeViaId(ids), HttpStatus.OK);
+    }
+
     @GetMapping("/images/{id}")
     public ResponseEntity<byte[]> getImage(@PathVariable String id) {
         byte[] imageData = recipeService.getImage(new ObjectId(id));

@@ -26,7 +26,7 @@ public class ReviewService {
     private DistinctId distinctId;
     public Review createReview (String header, String reviewBody, String author,String recipeId)
     {
-        Review review = reviewRepository.insert(new Review(header,reviewBody,author,distinctId.generateId()));
+        Review review = reviewRepository.insert(new Review(header,reviewBody,author,distinctId.generateId(),recipeId));
 
          mongoTemplate.update(Recipe.class)
                  .matching(Criteria.where("distinctId").is(recipeId))

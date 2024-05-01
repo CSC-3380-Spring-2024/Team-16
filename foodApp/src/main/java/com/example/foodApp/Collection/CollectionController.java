@@ -1,8 +1,12 @@
 package com.example.foodApp.Collection;
 
+import com.example.foodApp.Review.Review;
 import com.example.foodApp.System.DistinctId;
 import com.example.foodApp.System.ImageConverter;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,6 +22,24 @@ public class CollectionController
 
     @Autowired
     private CollectionService collectionService;
+    @Autowired
+    private MongoTemplate mongoTemplate;
+
+
+
+    @GetMapping("/getCollection")
+    public ResponseEntity<List<Collection>> getCollection (String username)
+    {
+        Query query = new Query();
+
+        query.addCriteria(Criteria.where("username").is(username));
+
+
+        List<Collection> colllection = mongoTemplate.find(query, Collection.class);
+
+
+        return ResponseEntity.ok(colllection);
+    }
     /**
      * @apiNote
      * http://localhost:8080/api/collection/create
@@ -50,8 +72,8 @@ public class CollectionController
      * http://localhost:8080/api/collection/addImage
      *
      * {
-     *     "distinctId": "", // valid distinctId for
-     *     "uploadImage: ""
+     *     "distinctId": "dufhgqiuehqe-fgdgrf-bwg-wr", // valid distinctId for
+     *     "uploadImage: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAC..."
      * }
      * @param paylaod
      * @return

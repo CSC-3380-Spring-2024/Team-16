@@ -25,7 +25,7 @@ public class CommentService {
 
         String commentId = distinctId.generateId();
 
-        Comment comment = commentRepository.insert(new Comment(commentBody,username, commentId));
+        Comment comment = commentRepository.insert(new Comment(commentBody,username, commentId,postId));
 
 
         mongoTemplate.update(Post.class)

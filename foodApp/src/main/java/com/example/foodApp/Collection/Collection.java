@@ -21,9 +21,10 @@ public class Collection {
     private String collectionName;
     private byte [] image;
     private String imageFormat;
+    private String username;
     private String distinctId;
 
-    public Collection (List<String> recipeId, String name, String distinctIds)
+    public Collection (List<String> recipeId, String name, String distinctIds,String username)
     {
         this.collectionName = name;
         this.recipeId = recipeId;
@@ -31,11 +32,12 @@ public class Collection {
         this.imageFormat = null;
         this.distinctId = distinctIds;
     }
-    public Collection (List<String> recipeId, String name, byte [] image, String imageFormat)
+    public Collection (List<String> recipeId, String name, byte [] image, String imageFormat, String username)
     {
         this.collectionName = name;
         this.recipeId = recipeId;
         this.image = image;
         this.imageFormat = imageFormat;
+        this.username = username;
     }
 }

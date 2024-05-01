@@ -32,6 +32,7 @@ public class RecipeService {
         return recipeRepository.findRecipeByName(name);
     }
 
+    public Optional<Recipe> getArecipeViaId (ObjectId id){return recipeRepository.findById(id);}
     public List<Recipe> recipesWithIngredient(String name) {
         Query query = new Query();
         query.addCriteria(where("ingredients").elemMatch(where("0").is(name))).limit(200);

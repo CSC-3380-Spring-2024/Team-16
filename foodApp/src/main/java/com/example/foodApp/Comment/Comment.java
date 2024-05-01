@@ -16,13 +16,15 @@ public class Comment {
     private List<String> like;
     private List<String> dislike;
     private String distinctId;
+    private String postId;
     private String username;
 
 
-    public Comment(String commentBody, String username, String distinctId) {
+    public Comment(String commentBody, String username, String distinctId,String postId) {
         this.commentBody = commentBody;
         this.username = username;
         this.distinctId = distinctId;
+        this.postId = postId;
     }
 
 }

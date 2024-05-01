@@ -24,17 +24,19 @@ public class Review {
     private String author;
     private String distinctId;
     private List<String> peopleLiked;
+    public String recipeId;
     private List<String> peopleDisliked;
 
      
 
 
 
-    public Review(String header,String reviewBody,String author, String distinctId) {
+    public Review(String header,String reviewBody,String author, String distinctId, String recipeId) {
         this.reviewBody = reviewBody;
         this.author = author;
         this.header = header;
         this.distinctId = distinctId;
+        this.recipeId = recipeId;
         
     }
 

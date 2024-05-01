@@ -23,13 +23,27 @@ public class CommentController
     @Autowired
     private MongoTemplate mongoTemplate;
 
-//    @GetMapping("/comment")
-//    public ResponseEntity<String> getallComment (@RequestBody  ObjectId id)
-//    {
-//
-//        return;
-//    }
 
+@GetMapping("/get/{postId}")
+    public ResponseEntity<List<Comment>> getComment(@PathVariable String postId) {
+
+        Query query = new Query();
+
+    System.out.println(postId);
+        query.addCriteria(Criteria.where("postId").is(postId));
+
+
+
+
+
+        List<Comment> comments = mongoTemplate.find(query, Comment.class);
+
+            System.out.println(comments);
+
+
+
+        return ResponseEntity.ok(comments);
+    }
     /**
      * @apiNote
      * local8080/api/comment/create

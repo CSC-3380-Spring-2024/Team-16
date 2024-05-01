@@ -1,5 +1,6 @@
  package com.example.foodApp.Review;
 
+ import com.example.foodApp.Comment.Comment;
  import com.example.foodApp.System.LikeNDislikeFilter;
  import org.bson.types.ObjectId;
  import org.springframework.beans.factory.annotation.Autowired;
@@ -28,6 +29,21 @@ public class ReviewController {
     private ReviewService reviewService;
     @Autowired
     private MongoTemplate mongoTemplate;
+
+     @GetMapping("/getReview")
+     public ResponseEntity<List<Review>> getComment(@RequestBody String recipeId) {
+
+         Query query = new Query();
+
+         query.addCriteria(Criteria.where("recipeId").is(recipeId));
+
+
+         List<Review> reviews = mongoTemplate.find(query, Review.class);
+
+
+         return ResponseEntity.ok(reviews);
+     }
+
     /**
      * @apiNote
      * POST /api/review/create HTTP/1.1
@@ -37,7 +53,7 @@ public class ReviewController {
             [
             "Amazing Cheesecake"               // Header
             "This is amazing",                  // reviewBody
-            "0a737ed7-fa83-4695-9ea9-1bf55d8aa457",         // Recipe ObjectId
+            "0a737ed7-fa83-4695-9ea9-1bf55d8aa457",         // Recipe distinctId
             "John Doe",                         // authorName
             "3"                                 // starRating
             "3"                                 // difficultyRating
@@ -47,6 +63,8 @@ public class ReviewController {
 //      * @param payload (String reviewBody, recipeName, author, double starRating)
 //      * @return Write to the database
 //      */
+
+
      @PostMapping("/create")
      public ResponseEntity<Review> createReview(@RequestBody List<String> payload) {
          if (payload.size()!= 6) {
@@ -74,7 +92,7 @@ public class ReviewController {
         Host: yourapi.com
         Content-Type: application/json
      *  {
-            "id": "661ee97695691a0bdeed4cb4",  // Review ObjectId
+            "id": "661ee97695691a0bdeed4cb4",  // Review distinctId
             "personName": "Jonh Doe"
         }
      *
@@ -85,10 +103,10 @@ public class ReviewController {
     @PostMapping("/addLike")
     public ResponseEntity<String> addLike (@RequestBody Map<String,String> payload)
     {
-        ObjectId reviewId = new ObjectId(payload.get("id"));
+        String reviewId =payload.get("id");
         String personName = payload.get("username");
          Query query = new Query();
-         query.addCriteria(Criteria.where("_id").is(reviewId));
+         query.addCriteria(Criteria.where("distinctId").is(reviewId));
          Review review = mongoTemplate.findOne(query, Review.class);
 
          List<String> peopleLiked = review.getPeopleLiked();
@@ -110,7 +128,7 @@ public class ReviewController {
      * @apiNote
      *  http://localhost:8080/api/review/addDislike
      * {
-     *  "id": "661ee97695691a0bdeed4cb4" // valid ObjectID
+     *  "id": "661ee97695691a0bdeed4cb4" // review distinctId
      *  "username": "Jonh Doe"
      *
      * }
@@ -121,10 +139,10 @@ public class ReviewController {
     @PostMapping("/addDislike")
     public ResponseEntity<String> addDislike(@RequestBody Map<String,String> payload)
     {
-        ObjectId reviewId = new ObjectId(payload.get("id"));
+        String reviewId = payload.get("id");
         String personName = payload.get("username");
         Query query = new Query();
-        query.addCriteria(Criteria.where("_id").is(reviewId));
+        query.addCriteria(Criteria.where("distinctId").is(reviewId));
 
         Review review = mongoTemplate.findOne(query, Review.class);
 

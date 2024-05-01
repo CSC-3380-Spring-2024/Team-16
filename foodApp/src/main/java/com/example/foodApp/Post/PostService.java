@@ -41,12 +41,12 @@ public class PostService
         return allPosts;
     }
 
-    public String createPost (String caption, String username, String reference, byte[] photoImage, String imageFormat, String objectReference)
+    public String createPost (String caption, String username, String reference, byte[] photoImage, String imageFormat)
     {
         String postId = distinctId.generateId();
         if(photoImage != null && imageFormat != null)
         {
-            Post createPost = postRespository.insert(new Post(reference,caption,username,photoImage,imageFormat,postId,objectReference));
+            Post createPost = postRespository.insert(new Post(reference,caption,username,photoImage,imageFormat,postId));
 
             mongoTemplate.update(Account.class)
                     .matching(Criteria.where("username").is(username))
@@ -55,7 +55,7 @@ public class PostService
         }
         else
         {
-            Post createPost = postRespository.insert(new Post(reference,caption,username,postId,objectReference));
+            Post createPost = postRespository.insert(new Post(reference,caption,username,postId));
 
             mongoTemplate.update(Account.class)
                     .matching(Criteria.where("username").is(username))

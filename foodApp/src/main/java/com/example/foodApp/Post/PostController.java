@@ -33,6 +33,7 @@ public class PostController
     public ResponseEntity<List<Post>> allPost()
     {
         return new ResponseEntity<List<Post>>(postService.getAllPostsRanked(),HttpStatus.OK);
+
     }
 
     /**
@@ -53,13 +54,13 @@ public class PostController
         String username = payload.get(0);
         String caption = payload.get(1);
         String referenceId = payload.get(2);
-        String objectReference = payload.get(3);
+
 
 
 
         if(payload.size() < 5)
         {
-             createPost = postService.createPost(caption,username,referenceId,null, null,objectReference);
+             createPost = postService.createPost(caption,username,referenceId,null, null);
             return ResponseEntity.ok(createPost);
         }
 
@@ -72,7 +73,7 @@ public class PostController
                 return ResponseEntity.unprocessableEntity().body("image conversion failed");
             }
 
-            createPost = postService.createPost(caption, username, referenceId, binaryImage, imageFormat,objectReference);
+            createPost = postService.createPost(caption, username, referenceId, binaryImage, imageFormat);
 
             return ResponseEntity.ok(createPost);
 
