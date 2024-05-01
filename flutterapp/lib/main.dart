@@ -8,6 +8,7 @@ import 'flutter_flow/flutter_flow_theme.dart';
 import 'flutter_flow/flutter_flow_util.dart';
 import 'package:floating_bottom_navigation_bar/floating_bottom_navigation_bar.dart';
 import 'index.dart';
+import 'package:http/http.dart' as http;
 
 
 void main() async {
@@ -19,6 +20,7 @@ void main() async {
 
   final appState = FFAppState(); // Initialize FFAppState
   await appState.initializePersistedState();
+
 
   runApp(ChangeNotifierProvider(
     create: (context) => appState,

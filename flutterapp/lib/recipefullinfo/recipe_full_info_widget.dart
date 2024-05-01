@@ -6,6 +6,7 @@ import 'package:flutter/rendering.dart';
 import 'package:foodappproject/app_data.dart';
 import 'package:foodappproject/app_shared.dart';
 import 'package:foodappproject/flutter_flow/flutter_flow_icon_button.dart';
+import 'package:foodappproject/quantity_converter.dart';
 
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -242,4 +243,63 @@ class _RecipeFullInfoWidgetState extends State<RecipeFullInfoWidget> {
       ),
     );
   }
+<<<<<<< Updated upstream
+=======
+    void _showEndTrackingDialog() {
+      FlutterFlowTheme ffTheme = FlutterFlowTheme.of(context);
+    TextEditingController ingredientController = TextEditingController();
+    TextEditingController quantityController = TextEditingController();
+    String unit = 'liter'; // Default unit
+
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text('Finished?', style: ffTheme.headlineSmall,),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [],
+          ),
+          actions: <Widget>[
+            TextButton(
+              child: const Text('Cancel'),
+              onPressed: () {
+              },
+            ),
+            TextButton(
+              child: const Text('Complete Recipe'),
+              onPressed: () {
+                for (List<dynamic> ingredient in AppData.viewedRecipe!.ingredients) {
+                  for (IngredientData ingredientData in AppData.openedFridge.contents) {
+                    if (ingredient[0] == ingredientData.name) {
+                      print("ambatasubtract");
+                      QuantityStruct neg = Quantity.parseQuantity(ingredient[1]);
+                      ingredientData.subtractQuantity(neg);
+                    }
+                  }
+                }
+                clearRecipeInfo();
+                Navigator.of(context).pop();
+              },
+            ),
+            TextButton(
+              child: const Text('Discard Changes'),
+              onPressed: () {
+                clearRecipeInfo();
+                Navigator.of(context).pop();
+              }
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  void clearRecipeInfo() {
+    setState(() {
+      AppData.completedIngredients.clear();
+      AppData.completedMethods.clear();
+    });
+  }
+>>>>>>> Stashed changes
 }
