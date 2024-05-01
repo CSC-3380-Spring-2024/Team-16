@@ -384,7 +384,7 @@ class _RecipeHomePageWidgetState extends State<RecipeHomePageWidget> {
                         color: FlutterFlowTheme.of(context).secondaryBackground,
                       ),
                       child: Text(
-                        'CHUNS BULLSHIT',
+                        '',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Readex Pro',
                               letterSpacing: 0.0,
@@ -451,7 +451,7 @@ class _RecipeHomePageWidgetState extends State<RecipeHomePageWidget> {
                         color: FlutterFlowTheme.of(context).secondaryBackground,
                       ),
                       child: Text(
-                        'CHUNS BULLSHIT',
+                        '',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Readex Pro',
                               letterSpacing: 0.0,
