@@ -22,7 +22,7 @@ import com.example.foodApp.Recipe.RecipeService;
 
 @RestController
 @RequestMapping("ingredient")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "*") //please don't delete this is needed to test frontend dont ask any more questions
 public class IngredientInfoController {
     @Autowired
     private IngredientInfoService ingredientInfoService;
@@ -36,6 +36,11 @@ public class IngredientInfoController {
         IngredientInfo info = ingredientInfoService.ingredientInfoByName(name);
         System.out.println(name + info);
         return info;
+    }
+
+    @GetMapping
+    public List<String> getAllIngredientNames() {
+        return ingredientInfoService.allIngredientNames();
     }
     @PostMapping
     /*

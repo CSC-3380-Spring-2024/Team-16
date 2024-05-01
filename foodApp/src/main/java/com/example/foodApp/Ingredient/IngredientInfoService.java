@@ -52,4 +52,13 @@ public class IngredientInfoService {
         if (similarityTable == "") return null;
         return Arrays.asList("Carrot", "Beetroot", "Turnip", "Radish", "Parsnip", "Rutabaga", "Horseradish");
     }
+    
+    public List<String> allIngredientNames() {
+        List<IngredientInfo> ingredients = mongoTemplate.findAll(IngredientInfo.class);
+        List<String> names = new ArrayList<String>();
+        for (IngredientInfo ingredient : ingredients) {
+            names.add(ingredient.getName());
+        }
+        return names;
+    }
 }
