@@ -90,7 +90,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
           ),
         ),
       ),
-    );
+        );
   }
 }
 
@@ -349,12 +349,14 @@ class ContainerButton extends StatelessWidget {
     );
   }
 }
-
-class GroceryButton extends StatelessWidget {
-  const GroceryButton({super.key});
+class ContainerButton extends StatelessWidget {
+  const ContainerButton({
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
+    FlutterFlowTheme ffTheme = FlutterFlowTheme.of(context);
     return Container(
       width: 80,
       height:80,
