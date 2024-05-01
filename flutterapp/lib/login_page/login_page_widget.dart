@@ -54,19 +54,11 @@ class LoginPageWidget extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const SizedBox(height: 50),
-              Icon(
-                Icons.food_bank,
-                size: 100,
-              ),
-              const SizedBox(height: 50),
-              Text(
-                'OnlyFoods',style:FlutterFlowTheme.of(context).headlineLarge.override(
-                                fontFamily: 'Readex Pro',
-                                color: FlutterFlowTheme.of(context).primaryText,
-                                letterSpacing: 0.0,
-                              ),
-              ),
-              const SizedBox(height: 25),
+              Image.network(
+              'assets/OFlogo.png',
+              width: 300, // Adjust the width as needed
+              height: 300, // Adjust the height as needed
+            ),
               //USERNAME PLACE
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 25.0),

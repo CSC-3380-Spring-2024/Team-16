@@ -1,12 +1,11 @@
 import 'dart:convert';
 import 'dart:io';
+import 'package:flutter/foundation.dart'; // Needed for kIsWeb
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:foodappproject/app_data.dart';
 import 'package:foodappproject/app_shared.dart';
-import 'package:image_picker/image_picker.dart'; // Import the image picker package
 import 'package:numberpicker/numberpicker.dart';
-
 import 'package:file_picker/file_picker.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -30,16 +29,13 @@ class _CreateWidgetState extends State<CreateWidget> {
   int difficultyRating = 1;
   String dialogSelectedUnit = "g";
   late CreateModel _model;
-  final ImagePicker _picker = ImagePicker();
-  File? _imageFile;
+  Uint8List? _fileBytes; // For web
+  File? _file; // For mobile
+  String? _fileName;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
-  List<Map<String, String>> ingredients = [];//{"name":"Benis","quantity":"86","unit":"lb"}];
-  /*List<IngredientData> testIngredients = [
-    IngredientData(name: "benis", quantity: "46 g", expiry: 4),
-    IngredientData(name: "bonis", quantity: "47 lb", expiry: 3)
-    ];*/
+  List<Map<String, String>> ingredients = [];
   List<String> units = ["L", "mL","oz","cup","g", "kg","lb","tsp","tbsp","unit"];
   List<String> methods = [];
 
@@ -57,35 +53,49 @@ class _CreateWidgetState extends State<CreateWidget> {
     super.dispose();
   }
 
-  Future<void> _pickImage() async {
-  FilePickerResult? result = await FilePicker.platform.pickFiles(
-    type: FileType.image,
-  );
+  Future<void> _pickFile() async {
+    FilePickerResult? result = await FilePicker.platform.pickFiles(
+      type: FileType.any,
+    );
 
-  if (result != null) {
-    File file = File(result.files.single.path!);
-    setState(() {
-      _imageFile = file;
-    });
+    if (result != null) {
+      setState(() {
+        _fileName = result.files.single.name;
+      });
+
+      if (kIsWeb) {
+        // For web
+        setState(() {
+          _fileBytes = result.files.first.bytes;
+        });
+      } else {
+        // For mobile and desktop
+        File file = File(result.files.single.path!);
+        setState(() {
+          _file = file;
+        });
+      }
+    }
   }
-}
-
 
   void _postRecipe() {
     // Implement your logic to handle recipe posting, e.g., uploading to a server
-    print('Posting recipe with image path: ${_imageFile?.path}');
+    if (kIsWeb) {
+      print('Posting recipe with file bytes: ${_fileBytes != null ? "File Selected" : "No File Selected"}');
+    } else {
+      print('Posting recipe with file path: ${_file?.path}');
+    }
 
     List<List<String>> processedIngredients = [];
     for (Map<String,String> ingredient in ingredients) {
       processedIngredients.add([ingredient["name"]!,"${ingredient["quantity"]!} ${ingredient["unit"]}"]);
     }
-    //build recipe data ( no, i still cannot automate this :( )
     var outerBody = {};
     var body = {};
     body["name"]=recipeNameController.text;
-    body["starRating"]=2.5;//This is ignored on the server
-    body["difficultyRaing"]=difficultyRating; //TODO: USER SPECIFIED DIFFICULTY
-    body["servingSize"]=servingSize; //TODO: SEE ABOVE
+    body["starRating"]=2.5;
+    body["difficultyRaing"]=difficultyRating;
+    body["servingSize"]=servingSize;
     body["ingredients"]=processedIngredients;
     body["method"]=methods;
     body["description"]=recipeDescriptionController.text;
@@ -125,9 +135,6 @@ class _CreateWidgetState extends State<CreateWidget> {
                       FilteringTextInputFormatter.allow(RegExp(r'^\d*\.?\d*')),
                     ],
                   ),
-                  
-
-
                   DropdownButton<String>(
                     value: dialogSelectedUnit,
                     isExpanded: true,
@@ -143,8 +150,6 @@ class _CreateWidgetState extends State<CreateWidget> {
                       );
                     }).toList(),
                   ),
-
-
                 ],
               ),
               actions: <Widget>[
@@ -164,7 +169,6 @@ class _CreateWidgetState extends State<CreateWidget> {
                       );
                       return;
                     }
-
                     setState(() {
                       ingredients.add({
                         "name": nameController.text,
@@ -229,154 +233,177 @@ class _CreateWidgetState extends State<CreateWidget> {
   }
 
   @override
-Widget build(BuildContext context) {
-  FlutterFlowTheme ffTheme = FlutterFlowTheme.of(context);
-  return GestureDetector(
-    onTap: () => FocusScope.of(context).unfocus(),
-    child: Scaffold(
-      backgroundColor: ffTheme.primaryBackground,
-      key: scaffoldKey,
-      appBar: AppBar(
-        title: Text('Create Recipe',style: ffTheme.headlineMedium,),
-        centerTitle: true,
-        elevation: 0,
-        backgroundColor: ffTheme.secondaryBackground,
-        iconTheme: IconThemeData(color: ffTheme.primaryText),
-      ),
-      body: SafeArea(
-        child: SingleChildScrollView(
-          padding: const EdgeInsets.all(8.0),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              TextField(
-                controller: recipeNameController,
-                decoration: const InputDecoration(
-                  labelText: 'Enter Recipe Name',
-                  border: OutlineInputBorder(),
-                  contentPadding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 12.0),
+  Widget build(BuildContext context) {
+    FlutterFlowTheme ffTheme = FlutterFlowTheme.of(context);
+    return GestureDetector(
+      onTap: () => FocusScope.of(context).unfocus(),
+      child: Scaffold(
+        backgroundColor: ffTheme.primaryBackground,
+        key: scaffoldKey,
+        appBar: AppBar(
+          title: Text('Create Recipe',style: ffTheme.headlineMedium,),
+          centerTitle: true,
+          elevation: 0,
+          backgroundColor: ffTheme.secondaryBackground,
+          iconTheme: IconThemeData(color: ffTheme.primaryText),
+        ),
+        body: SafeArea(
+          child: SingleChildScrollView(
+            padding: const EdgeInsets.all(8.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                TextField(
+                  controller: recipeNameController,
+                  decoration: const InputDecoration(
+                    labelText: 'Enter Recipe Name',
+                    border: OutlineInputBorder(),
+                    contentPadding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 12.0),
+                  ),
                 ),
-              ),
-              const SizedBox(height: 20),
+                const SizedBox(height: 20),
 
-              //Serving Size Selector
-              Padding(
-                padding: const EdgeInsetsDirectional.fromSTEB(0, 8.0,0,0),
-                child: Container(
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(16.0),
-                    color: ffTheme.secondaryBackground,
-                  ),
-                  child: Padding(
-                    padding: const EdgeInsets.all(4.0),
-                    child: Row(
-                      children: [
-                        Column(
-                          children: [
-                            Text("Serving Size:",style: ffTheme.bodyLarge,),
-                            NumberPicker(
-                              value: servingSize,
-                              minValue: 1,
-                              maxValue: 69,
-                              onChanged: (value) => setState(() => servingSize = value)
-                            )
-                          ],
-                        ),
-                        Column(
-                          children: [
-                            Text("Difficulty:",style: ffTheme.bodyLarge,),
-                            NumberPicker(
-                              value: difficultyRating,
-                              minValue: 1,
-                              maxValue: 5,
-                              onChanged: (value) => setState(() => difficultyRating = value)
-                            )
-                          ],
-                        ),
-                      ],
-                    )
-                  ),
-                ),
-              ),
-              //Description Field
-              Padding(
-                padding: const EdgeInsetsDirectional.fromSTEB(0, 8.0,0,0),
-                child: Container(
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(16.0),
-                    color: ffTheme.secondaryBackground,
-                  ),
-                  child: Padding(
-                    padding: const EdgeInsets.all(4.0),
-                    child: Column(
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            "Description",
-                            style: FlutterFlowTheme.of(context).titleLarge.override(
-                                  fontFamily: 'Outfit',
-                                  letterSpacing: 0.0,
-                                ),
+                //Serving Size Selector
+                Padding(
+                  padding: const EdgeInsetsDirectional.fromSTEB(0, 8.0,0,0),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(16.0),
+                      color: ffTheme.secondaryBackground,
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.all(4.0),
+                      child: Row(
+                        children: [
+                          Column(
+                            children: [
+                              Text("Serving Size:",style: ffTheme.bodyLarge,),
+                              NumberPicker(
+                                value: servingSize,
+                                minValue: 1,
+                                maxValue: 69,
+                                onChanged: (value) => setState(() => servingSize = value)
+                              )
+                            ],
                           ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: TextField(
-                            controller: recipeDescriptionController,
-                            keyboardType: TextInputType.multiline,
-                            maxLines: null,
-                            decoration: InputDecoration(
-                              border: OutlineInputBorder(),
-                              hintText: 'Enter some information about your recipe...',
-                            ),
+                          Column(
+                            children: [
+                              Text("Difficulty:",style: ffTheme.bodyLarge,),
+                              NumberPicker(
+                                value: difficultyRating,
+                                minValue: 1,
+                                maxValue: 5,
+                                onChanged: (value) => setState(() => difficultyRating = value)
+                              )
+                            ],
                           ),
-                        ),
-                      ],
+                        ],
+                      )
                     ),
                   ),
                 ),
-              ),
-
-
-              ReorderableExample(editable: true, items: ingredients, header: "Ingredients", dialogMethod: _showAddIngredientDialog,),
-              
-              ReorderableExample(editable: true, items: methods, header: "Methods", dialogMethod: _showAddMethodDialog),
-
-              const SizedBox(height: 20),
-              Text('Upload Image', style: Theme.of(context).textTheme.headline6),
-              SizedBox(height: 10),
-              Center(
-                child: _imageFile == null
-                    ? Text('No image selected.')
-                    : Image.file(_imageFile!),
-              ),
-              ElevatedButton(
-                onPressed: _pickImage,
-                child: Text('Select Image'),
-                style: ElevatedButton.styleFrom(
-                  foregroundColor: Colors.white, backgroundColor: Colors.blue,
+                //Description Field
+                Padding(
+                  padding: const EdgeInsetsDirectional.fromSTEB(0, 8.0,0,0),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(16.0),
+                      color: ffTheme.secondaryBackground,
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.all(4.0),
+                      child: Column(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text(
+                              "Description",
+                              style: FlutterFlowTheme.of(context).titleLarge.override(
+                                    fontFamily: 'Outfit',
+                                    letterSpacing: 0.0,
+                                  ),
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: TextField(
+                              controller: recipeDescriptionController,
+                              keyboardType: TextInputType.multiline,
+                              maxLines: null,
+                              decoration: InputDecoration(
+                                border: OutlineInputBorder(),
+                                hintText: 'Enter some information about your recipe...',
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
                 ),
+
+                ReorderableExample(editable: true, items: ingredients, header: "Ingredients", dialogMethod: _showAddIngredientDialog,),
+
+                ReorderableExample(editable: true, items: methods, header: "Methods", dialogMethod: _showAddMethodDialog),
+
+                const SizedBox(height: 20),
+                Text('Upload File', style: Theme.of(context).textTheme.headline6),
+                SizedBox(height: 10),
+                Center(
+  child: (_fileBytes == null && _file == null)
+      ? Text('No file selected.')
+      : Column(
+          children: [
+            Text('Selected file: $_fileName'),
+            SizedBox(height: 10),
+            // Show preview for image files
+            if (_fileBytes != null)
+              Image.memory(_fileBytes!)
+            else if (_file != null &&
+                ['jpg', 'jpeg', 'png']
+                    .contains(_file!.path.split('.').last.toLowerCase()))
+              Image.file(_file!),
+            SizedBox(height: 10),
+            ElevatedButton(
+              onPressed: () {
+                setState(() {
+                  _fileBytes = null;
+                  _file = null;
+                  _fileName = null;
+                });
+              },
+              child: Text('Delete Image'),
+              style: ElevatedButton.styleFrom(
+                foregroundColor: Colors.white,
+                backgroundColor: Colors.red,
               ),
-              const SizedBox(height: 20),
+            ),
+          ],
+        ),
+),
 
-
-              ElevatedButton(
-                onPressed: _postRecipe,
-                child: Text('Post Recipe'),
-                style: ElevatedButton.styleFrom(
-                  foregroundColor: Colors.white, backgroundColor: Colors.green,
+                ElevatedButton(
+                  onPressed: _pickFile,
+                  child: Text('Select File'),
+                  style: ElevatedButton.styleFrom(
+                    foregroundColor: Colors.white, backgroundColor: Colors.black87,
+                  ),
                 ),
-              ),
-            SizedBox(height:60),
+                const SizedBox(height: 20),
 
-            ],
+                ElevatedButton(
+                  onPressed: _postRecipe,
+                  child: Text('Post Recipe'),
+                  style: ElevatedButton.styleFrom(
+                    foregroundColor: Colors.white, backgroundColor: Colors.black12,
+                  ),
+                ),
+                SizedBox(height:60),
+              ],
+            ),
           ),
         ),
       ),
-    ),
-  );
+    );
+  }
 }
-
-}
-
