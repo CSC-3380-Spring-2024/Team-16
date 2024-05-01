@@ -377,8 +377,6 @@ Widget build(BuildContext context) {
     ),
   );
 }
+
 }
 
-class ApiRecipe {
-  
-}
