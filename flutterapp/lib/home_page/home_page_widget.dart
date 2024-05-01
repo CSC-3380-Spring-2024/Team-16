@@ -1,11 +1,10 @@
+import 'package:flutter/material.dart';
 import 'package:foodappproject/apiService/apiService.dart';
-import 'package:http/http.dart';
 
 import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
-import 'package:flutter/material.dart';
 import 'home_page_model.dart';
 export 'home_page_model.dart';
 
@@ -32,58 +31,67 @@ class _HomePageWidgetState extends State<HomePageWidget> {
     super.dispose();
   }
 
-@override
-Widget build(BuildContext context) {
-  return GestureDetector(
-    onTap: () => _model.unfocusNode.canRequestFocus
-        ? FocusScope.of(context).requestFocus(_model.unfocusNode)
-        : FocusScope.of(context).unfocus(),
-    child: Scaffold(
-      key: scaffoldKey,
-      backgroundColor: FlutterFlowTheme.of(context).secondaryBackground,
-      body: SafeArea(
-        top: true,
-        child: Container(
-          child: Column(
-            children: [
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: () => _model.unfocusNode.canRequestFocus
+          ? FocusScope.of(context).requestFocus(_model.unfocusNode)
+          : FocusScope.of(context).unfocus(),
+      child: Scaffold(
+        key: scaffoldKey,
+        backgroundColor: FlutterFlowTheme.of(context).secondaryBackground,
+        body: SafeArea(
+          top: true,
+          child: Container(
+            child: Column(
+              children: [
                 Container(
                   color: FlutterFlowTheme.of(context).primaryBackground,
-                  padding: EdgeInsetsDirectional.fromSTEB(16,8,16,8),
+                  padding: EdgeInsetsDirectional.fromSTEB(16, 8, 16, 8),
                   child: Row(
-                   crossAxisAlignment: CrossAxisAlignment.start, // Aligns children at the start
-                   children: [
-                    ContainerButton(),
-
-                    Expanded(child: Column(
-                      children: [
-                        Text(
-                          "\nGood Morning!",
-                          style: FlutterFlowTheme.of(context).bodyLarge,
-                          textAlign: TextAlign.center,
-                        ),
-                        Text(
-                          "Welcome to your personalized feed.",
-                          style: FlutterFlowTheme.of(context).bodySmall,
-                          textAlign: TextAlign.center,
-                        ),
-                      ],
-                    )),
-
-                    GroceryButton(),
-                   ],
-                                 ),
+                    crossAxisAlignment:
+                        CrossAxisAlignment.start, // Aligns children at the start
+                    children: [
+                      ContainerButton(),
+                      Expanded(
+                          child: Column(
+                        children: [
+                          Text(
+                            "\nGood Morning!",
+                            style: FlutterFlowTheme.of(context).bodyLarge,
+                            textAlign: TextAlign.center,
+                          ),
+                          Text(
+                            "Welcome to your personalized feed.",
+                            style: FlutterFlowTheme.of(context).bodySmall,
+                            textAlign: TextAlign.center,
+                          ),
+                        ],
+                      )),
+                      GroceryButton(),
+                    ],
+                  ),
                 ),
-              Expanded(
-                child: FullPost(isPreview: true),
-              ),
-            ],
+                Expanded(
+                  child: FullPost(isPreview: true),
+                ),
+              ],
+            ),
+          ),
+        ),
+        floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+        floatingActionButton: Padding(
+          padding: const EdgeInsets.only(bottom: 50),
+          child: FloatingActionButton(
+            onPressed: () {
+              context.pushNamed('CreatePost');
+            },
+            child: Icon(Icons.add), // "+" sign icon
           ),
         ),
       ),
-    ),
-  );
-}
-
+    );
+  }
 }
 
 class FullPost extends StatelessWidget {
@@ -122,7 +130,8 @@ class PostWidget extends StatelessWidget {
   final Post post;
   final bool isPreview;
 
-  const PostWidget({required this.post, required this.isPreview, Key? key}) : super(key: key);
+  const PostWidget({required this.post, required this.isPreview, Key? key})
+      : super(key: key);
 
   Future<Recipe> _getRecipeById() async {
     return await NetworkService.fetchRecipeById(post.referenceId);
@@ -148,9 +157,9 @@ class PostWidget extends StatelessWidget {
               Text(
                 'Posted by ${post.username}',
                 style: FlutterFlowTheme.of(context).labelSmall.override(
-                  fontFamily: 'Readex Pro',
-                  letterSpacing: 0.0,
-                ),
+                      fontFamily: 'Readex Pro',
+                      letterSpacing: 0.0,
+                    ),
               ),
             ],
           ),
@@ -160,10 +169,10 @@ class PostWidget extends StatelessWidget {
             maxLines: isPreview ? 4 : null,
             overflow: TextOverflow.ellipsis,
             style: FlutterFlowTheme.of(context).bodyMedium.override(
-              fontFamily: 'Readex Pro',
-              color: FlutterFlowTheme.of(context).primaryText,
-              letterSpacing: 0.0,
-            ),
+                  fontFamily: 'Readex Pro',
+                  color: FlutterFlowTheme.of(context).primaryText,
+                  letterSpacing: 0.0,
+                ),
           ),
           const SizedBox(height: 10),
           if (post.uploadImage != null)
@@ -218,25 +227,29 @@ class PostWidget extends StatelessWidget {
                           children: [
                             Text(
                               "Reference Recipe",
-                              style: FlutterFlowTheme.of(context).bodySmall.override(
-                                fontFamily: 'Readex Pro',
-                                color: Colors.grey, // Adjust color as needed
-                              ),
+                              style: FlutterFlowTheme.of(context)
+                                  .bodySmall
+                                  .override(
+                                    fontFamily: 'Readex Pro',
+                                    color: Colors.grey, // Adjust color as needed
+                                  ),
                             ),
                             Text(
                               "Recipe Name: ${recipe.name}",
-                              style: FlutterFlowTheme.of(context).bodyMedium.override(
-                                fontFamily: 'Readex Pro',
-                                color: FlutterFlowTheme.of(context).primaryText,
-                                fontWeight: FontWeight.bold,
-                              ),
+                              style: FlutterFlowTheme.of(context)
+                                  .bodyMedium
+                                  .override(
+                                    fontFamily: 'Readex Pro',
+                                    color:
+                                        FlutterFlowTheme.of(context).primaryText,
+                                    fontWeight: FontWeight.bold,
+                                  ),
                             ),
                           ],
                         ),
                       ),
                     ],
                   ),
-
                 );
               }
             },
@@ -248,13 +261,19 @@ class PostWidget extends StatelessWidget {
             children: [
               Row(
                 children: [
-                  Icon(Icons.thumb_up_alt_outlined, size: 16, color: Colors.grey[600]),
+                  Icon(Icons.thumb_up_alt_outlined,
+                      size: 16, color: Colors.grey[600]),
                   const SizedBox(width: 4),
-                  Text("Like", style: TextStyle(fontSize: 12, color: Colors.grey[600])),
+                  Text("Like",
+                      style:
+                          TextStyle(fontSize: 12, color: Colors.grey[600])),
                   const SizedBox(width: 16),
-                  Icon(Icons.thumb_down_alt_outlined, size: 16, color: Colors.grey[600]),
+                  Icon(Icons.thumb_down_alt_outlined,
+                      size: 16, color: Colors.grey[600]),
                   const SizedBox(width: 4),
-                  Text("Dislike", style: TextStyle(fontSize: 12, color: Colors.grey[600])),
+                  Text("Dislike",
+                      style:
+                          TextStyle(fontSize: 12, color: Colors.grey[600])),
                 ],
               ),
               InkWell(
@@ -320,10 +339,10 @@ class ContainerButton extends StatelessWidget {
           Text(
             'Fridge',
             style: FlutterFlowTheme.of(context).bodySmall.override(
-              fontFamily: 'Readex Pro',
-              color: FlutterFlowTheme.of(context).primaryText,
-              letterSpacing: 0.0,
-            ),
+                  fontFamily: 'Readex Pro',
+                  color: FlutterFlowTheme.of(context).primaryText,
+                  letterSpacing: 0.0,
+                ),
           ),
         ],
       ),

@@ -110,7 +110,7 @@ class _RecipeFullInfoWidgetState extends State<RecipeFullInfoWidget> {
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(12.0),
                         child: CachedNetworkImage(
-                          imageUrl: AppData.viewedRecipe.backdrop != null ? AppData.viewedRecipe.backdrop! : "",
+                          imageUrl: AppData.viewedRecipe.backdrop!,
                           fit: BoxFit.cover,
                           placeholder: (context, url) => new CircularProgressIndicator(),
                           errorWidget: (context, url, error) => new Icon(Icons.error),

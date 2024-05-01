@@ -339,33 +339,6 @@ class _CreateWidgetState extends State<CreateWidget> {
                   ),
                 ],
               ),
-              //Description Field
-              Padding(
-                padding: const EdgeInsetsDirectional.fromSTEB(0, 8.0,0,0),
-                child: Container(
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(16.0),
-                    color: ffTheme.secondaryBackground,
-                  ),
-                  child: Padding(
-                    padding: const EdgeInsets.all(4.0),
-                    child: Column(
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            "Description",
-                            style: FlutterFlowTheme.of(context).titleLarge.override(
-                                  fontFamily: 'Outfit',
-                                  letterSpacing: 0.0,
-                                ),
-                            ),
-                          ),
-                        ],
-                      )
-                    ),
-                  ),
-                ),
                 //Description Field
                 Padding(
                   padding: const EdgeInsetsDirectional.fromSTEB(0, 8.0,0,0),
