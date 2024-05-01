@@ -422,7 +422,7 @@ I ***love*** italian seasoning. It ~~isn't~~ delicious.
                         color: FlutterFlowTheme.of(context).secondaryBackground,
                       ),
                       child: Text(
-                        'CHUNS BULLSHIT',
+                        '',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Readex Pro',
                               letterSpacing: 0.0,
@@ -489,7 +489,7 @@ I ***love*** italian seasoning. It ~~isn't~~ delicious.
                         color: FlutterFlowTheme.of(context).secondaryBackground,
                       ),
                       child: Text(
-                        'CHUNS BULLSHIT',
+                        '',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Readex Pro',
                               letterSpacing: 0.0,

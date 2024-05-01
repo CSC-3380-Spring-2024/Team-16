@@ -49,28 +49,51 @@ class _HomePageWidgetState extends State<HomePageWidget> {
         backgroundColor: FlutterFlowTheme.of(context).secondaryBackground,
         body: SafeArea(
           top: true,
-          child: Column(
-            children: [
-              SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-                child: Container(
-                  decoration: BoxDecoration(
-                    border: Border.all(color: Colors.black, width: 2.0),
-                  ),
+          child: Container(
+            child: Column(
+              children: [
+                Container(
+                  color: FlutterFlowTheme.of(context).primaryBackground,
+                  padding: EdgeInsetsDirectional.fromSTEB(16, 8, 16, 8),
                   child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: const [
-                                          const ContainerButton(),
-
+                    crossAxisAlignment:
+                        CrossAxisAlignment.start, // Aligns children at the start
+                    children: [
+                      ContainerButton(),
+                      Expanded(
+                          child: Column(
+                        children: [
+                          Text(
+                            "\nGood Morning!",
+                            style: FlutterFlowTheme.of(context).bodyLarge,
+                            textAlign: TextAlign.center,
+                          ),
+                          Text(
+                            "Welcome to your personalized feed.",
+                            style: FlutterFlowTheme.of(context).bodySmall,
+                            textAlign: TextAlign.center,
+                          ),
+                        ],
+                      )),
                       GroceryButton(),
                     ],
                   ),
                 ),
-              ),
-              Expanded(
-                child: FullPost(isPreview: true, onRefresh: _refreshPage),
-              ),
-            ],
+                Expanded(
+                  child: FullPost(isPreview: true, onRefresh: () { },),
+                ),
+              ],
+            ),
+          ),
+        ),
+        floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+        floatingActionButton: Padding(
+          padding: const EdgeInsets.only(bottom: 50),
+          child: FloatingActionButton(
+            onPressed: () {
+              context.pushNamed('CreatePost');
+            },
+            child: Icon(Icons.add), // "+" sign icon
           ),
         ),
       ),
@@ -308,7 +331,7 @@ class PostWidget extends StatelessWidget {
               ),
             ],
           ),
-          const SizedBox(height: 100),
+          
         ],
       ),
     );
