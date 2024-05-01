@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 import 'dart:typed_data';
@@ -91,6 +92,35 @@ class NetworkService {
   }
 
 //Recipe
+
+  static Future<Recipe> fetchRecipeById(String id) async {
+    // Replace 'port' with the actual port number your API is running on
+    final String apiUrl = '$baseUrl/recipe/find';
+    final String endpoint = '$id';
+
+    try {
+      final response = await http.get(Uri.parse('$apiUrl/$endpoint'));
+
+      if (response.statusCode == 200) {
+        // Assuming your response is in JSON format
+        final Map<String, dynamic> responseData = json.decode(response.body);
+        // Parse the responseData into a Recipe object, assuming Recipe is a class you have defined
+        Recipe recipe = Recipe.fromJson(responseData);
+        // Handle your response here
+        return recipe;
+      } else {
+        // Handle error
+        print('Failed to load recipe, status code: ${response.statusCode}');
+        // You can throw an exception here or return null or some default value
+        throw Exception('Failed to load recipe');
+      }
+    } catch (e) {
+      // Handle exceptions
+      print('Error: $e');
+      // You can throw an exception here or return null or some default value
+      throw Exception('Error fetching recipe: $e');
+    }
+  }
   Future<http.Response?> addRecipe(Recipe recipe, String username) async {
     const url = '$baseUrl/recipe/add';
 
@@ -341,7 +371,7 @@ class NetworkService {
 
 
 //collection
-  
+
   Future<List<Collection>> getCollections(String username) async {
     final url = '$baseUrl/collection/getCollection?username=$username';
 
@@ -387,6 +417,8 @@ class NetworkService {
       throw Exception('Failed to add image to collection');
     }
   }
+
+
 
 
 
@@ -466,6 +498,7 @@ class Comment {
 
   // Convert a JSON object to a Comment
   factory Comment.fromJson(Map<String, dynamic> json) {
+
     return Comment(
       id: json['id'],
       username: json['username'],
@@ -482,6 +515,7 @@ class Recipe {
   final double starRating;
   final double difficultyRating;
   final int servingSize;
+  final Uint8List? uploadImage;
   final List<List<String>> ingredients;
   final List<String>? method;
   final String? description;
@@ -494,11 +528,36 @@ class Recipe {
     required this.difficultyRating,
     required this.servingSize,
     required this.ingredients,
-     this.method,
-     this.description,
-     this.backdrop,
-     this.peopleReviewed,
+    this.method,
+    this.uploadImage,
+    this.description,
+    this.backdrop,
+    this.peopleReviewed,
+
   });
+
+  factory Recipe.fromJson(Map<String, dynamic> json) {
+    Uint8List? imageBytes;
+    if (json['uploadImage'] != null) {
+      String? base64Image = json['uploadImage'];
+      if (base64Image != null) {
+        List<int> decodedBytes = base64Decode(base64Image);
+        imageBytes = Uint8List.fromList(decodedBytes);
+      }
+    }
+    return Recipe(
+      name: json['name'],
+      starRating: json['starRating'],
+      difficultyRating: json['difficultyRating'],
+      servingSize: json['servingSize'],
+      ingredients: List<List<String>>.from(json['ingredients'].map((x) => List<String>.from(x))),
+      method: json['method'] != null ? List<String>.from(json['method']) : null,
+      description: json['description'],
+      backdrop: json['backdrop'],
+      uploadImage: imageBytes,
+      peopleReviewed: json['peopleReviewed'],
+    );
+  }
 
   Map<String, dynamic> toJson() => {
     'name': name,
@@ -512,7 +571,6 @@ class Recipe {
     'peopleReviewed': peopleReviewed,
   };
 }
-
 class Review {
 
   final String header;
