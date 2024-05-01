@@ -3,6 +3,7 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
+import 'package:foodappproject/apiService/apiService.dart';
 import 'home_page_model.dart';
 export 'home_page_model.dart';
 
@@ -66,7 +67,6 @@ Widget build(BuildContext context) {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      ContainerButton(),
                      GroceryButton(),
                   ],
                   ),
@@ -111,203 +111,172 @@ Widget build(BuildContext context) {
 }
 
 class FullPost extends StatelessWidget {
-  late bool isPreview;
+  late final bool isPreview;
+
   FullPost({
     required this.isPreview,
-    super.key,
-  });
+    Key? key,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisSize: MainAxisSize.max,
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Row(
-          mainAxisSize: MainAxisSize.max,
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Text(
-              'Posted by cocksucker69',
-              style: FlutterFlowTheme.of(context)
-                  .labelSmall
-                  .override(
-                    fontFamily: 'Readex Pro',
-                    letterSpacing: 0.0,
-                  ),
-            ),
-            SizedBox(height: 25,),
-          ],
-        ),
-        Padding(
-          padding: const EdgeInsetsDirectional.fromSTEB(
-              0.0, 0.0, 12.0, 0.0),
-          child: Text(
-            "Whenever I think of apple pie, my mind instantly travels back to my childhood kitchen, where the warm, inviting aroma of baking apples and cinnamon seemed to permeate every corner. My mom used to make it every Thanksgiving, meticulously peeling each apple and letting me help arrange the slices in the crust. It was our little tradition, a moment of bonding over the simple pleasure of baking together. As the pie baked, the entire house would gradually fill with its scent, building anticipation for that first delicious slice. There was something magical about watching the crust turn that perfect shade of golden brown in the oven, knowing that soon we’d all be enjoying a piece. Eating apple pie is like a journey through flavors and memories. The tangy sweetness of the apples, mixed with the rich, buttery crust and a hint of spice from the cinnamon, creates a taste that’s both comforting and exhilarating. It’s not just a dessert; it’s a reminder of family, of home, and of the simple joys that make life sweet. Now, whenever I have apple pie, I always try to recreate that original recipe from my childhood. Sometimes I serve it at family gatherings or to friends who've never had homemade pie before. Each time, it's like sharing a piece of my history, a delicious slice of the past that continues to bring joy and warmth into the present.",
-            maxLines: isPreview ? 4 : 99999,
-            overflow: TextOverflow.ellipsis,
-            style: FlutterFlowTheme.of(context)
-                .bodyMedium
-                .override(
-                  fontFamily: 'Readex Pro',
-                  color: FlutterFlowTheme.of(context)
-                      .primaryText,
-                  letterSpacing: 0.0,
-                ),
-          ),
-        ),
-        SizedBox(height: 5,),
-        ClipRRect(
-          borderRadius: BorderRadius.circular(8.0),
-          child: Image.network(
-            'https://images.unsplash.com/photo-1562007908-17c67e878c88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwyfHxhcHBsZSUyMHBpZXxlbnwwfHx8fDE3MTE2NDY5MDR8MA&ixlib=rb-4.0.3&q=80&w=1080',
-            width: double.infinity,
-            height: 200.0,
-            fit: BoxFit.cover,
-          ),
-        ),
-        SizedBox(height: 10,),
-        Container(
-          width: double.maxFinite,
-          height: 100,
-          decoration: BoxDecoration(
-            border: Border.all(
-            color: Colors.black, 
-            ),
-          ),
-          child: Row(
-            children: [
-              Container(
-                width: 250,
-                height: 85,
-                decoration: BoxDecoration(
-                border: Border.all(
-                color: Colors.black, 
-                ),
-              ),
-                child: Row(
+    return FutureBuilder<List<Post>>(
+      future: NetworkService.getAllPosts(),
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return CircularProgressIndicator();
+        } else if (snapshot.hasError) {
+          return Text('Error: ${snapshot.error}');
+        } else {
+          final List<Post> posts = snapshot.data ?? [];
+          if (posts.isNotEmpty) {
+            return Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: posts.map((post) {
+                return Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    Row(
+                      mainAxisSize: MainAxisSize.max,
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          'Posted by ${post.username}',
+                          style: FlutterFlowTheme.of(context)
+                              .labelSmall
+                              .override(
+                            fontFamily: 'Readex Pro',
+                            letterSpacing: 0.0,
+                          ),
+                        ),
+                        SizedBox(height: 25,),
+                      ],
+                    ),
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Image.network(
-                      'https://images.unsplash.com/photo-1562007908-17c67e878c88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NTYyMDF8MHwxfHNlYXJjaHwyfHxhcHBsZSUyMHBpZXxlbnwwfHx8fDE3MTE2NDY5MDR8MA&ixlib=rb-4.0.3&q=80&w=1080',
-                      width: 80,
-                      height: 80,
-                      fit: BoxFit.cover,
+                      padding: const EdgeInsetsDirectional.fromSTEB(
+                          0.0, 0.0, 12.0, 0.0),
+                      child: Text(
+                        post.caption,
+                        maxLines: isPreview ? 4 : 99999,
+                        overflow: TextOverflow.ellipsis,
+                        style: FlutterFlowTheme.of(context)
+                            .bodyMedium
+                            .override(
+                          fontFamily: 'Readex Pro',
+                          color: FlutterFlowTheme.of(context)
+                              .primaryText,
+                          letterSpacing: 0.0,
+                        ),
                       ),
                     ),
-                    Flexible(
-                      child: Text(
-                        "Grandma's smashed apple pie",
-                        softWrap: true, 
-                        overflow: TextOverflow.clip,
-                      ),  
+                    SizedBox(height: 5,),
+                    if (post.uploadImage != null)
+                      Image.memory(
+                        post.uploadImage!,
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                      ),
+                    SizedBox(height: 10,),
+                    Container(
+                      width: double.maxFinite,
+                      height: 100,
+                      decoration: BoxDecoration(
+                        border: Border.all(
+                          color: Colors.black,
+                        ),
+                      ),
+                      child: Row(
+                        children: [
+                          Container(
+                            width: 250,
+                            height: 85,
+                            decoration: BoxDecoration(
+                              border: Border.all(
+                                color: Colors.black,
+                              ),
+                            ),
+                            child: Row(
+                              children: [
+                                Flexible(
+                                  child: Text(
+                                    post.referenceId,
+                                    softWrap: true,
+                                    overflow: TextOverflow.clip,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsetsDirectional.fromSTEB(
+                          0.0, 0.0, 0.0, 0.0),
+                      child: Container(
+                        decoration: BoxDecoration(
+                          border: Border.all(
+                            color: Colors.black,
+                          ),
+                        ),
+                        child: Row(
+                          mainAxisSize: MainAxisSize.max,
+                          mainAxisAlignment:
+                          MainAxisAlignment.spaceBetween,
+                          children: [
+                            Row(
+                              children: <Widget>[
+                                Icon(Icons.thumb_up_alt_outlined, size: 16, color: Colors.grey[600]),
+                                const SizedBox(width: 4),
+                                Text("Like", style: TextStyle(fontSize: 12, color: Colors.grey[600])),
+                                const SizedBox(width: 16),
+                                Icon(Icons.thumb_down_alt_outlined, size: 16, color: Colors.grey[600]),
+                                const SizedBox(width: 4),
+                                Text("Dislike", style: TextStyle(fontSize: 12, color: Colors.grey[600])),
+                              ],
+                            ),
+                            FlutterFlowIconButton(
+                              buttonSize: 40.0,
+                              icon: Icon(
+                                Icons.mode_comment_outlined,
+                                color: FlutterFlowTheme.of(context)
+                                    .secondaryText,
+                                size: 24.0,
+                              ),
+                              onPressed: () {
+                                print('IconButton pressed ...');
+                              },
+                            ),
+                            FlutterFlowIconButton(
+                              buttonSize: 40.0,
+                              icon: Icon(
+                                Icons.ios_share,
+                                color: FlutterFlowTheme.of(context)
+                                    .secondaryText,
+                                size: 24.0,
+                              ),
+                              onPressed: () {
+                                print('IconButton pressed ...');
+                              },
+                            ),
+                          ],
+                        ),
+                      ),
                     ),
                   ],
-                ),
-              ),
-            ],
-          ),
-        ),
-        Padding(
-          padding: const EdgeInsetsDirectional.fromSTEB(
-              0.0, 0.0, 0.0, 0.0),
-          child: Container(
-            decoration: BoxDecoration(
-                border: Border.all(
-                color: Colors.black, 
-                ),
-            ),
-              child: Row(
-              mainAxisSize: MainAxisSize.max,
-              mainAxisAlignment:
-                  MainAxisAlignment.spaceBetween,
-              children: [
-                Row(
-              children: <Widget>[
-                Icon(Icons.thumb_up_alt_outlined, size: 16, color: Colors.grey[600]),
-                const SizedBox(width: 4),
-                Text("Like", style: TextStyle(fontSize: 12, color: Colors.grey[600])),
-                const SizedBox(width: 16),
-                Icon(Icons.thumb_down_alt_outlined, size: 16, color: Colors.grey[600]),
-                const SizedBox(width: 4),
-                Text("Dislike", style: TextStyle(fontSize: 12, color: Colors.grey[600])),
-              ],
-            ),
-                FlutterFlowIconButton(
-                  buttonSize: 40.0,
-                  icon: Icon(
-                    Icons.mode_comment_outlined,
-                    color: FlutterFlowTheme.of(context)
-                        .secondaryText,
-                    size: 24.0,
-                  ),
-                  onPressed: () {
-                    print('IconButton pressed ...');
-                  },
-                ),
-                FlutterFlowIconButton(
-                  buttonSize: 40.0,
-                  icon: Icon(
-                    Icons.ios_share,
-                    color: FlutterFlowTheme.of(context)
-                        .secondaryText,
-                    size: 24.0,
-                  ),
-                  onPressed: () {
-                    print('IconButton pressed ...');
-                  },
-                ),
-              ],
-            ),
-          ),
-        ),
-      ],
+                );
+              }).toList(),
+            );
+          } else {
+            return Text('No posts available.');
+          }
+        }
+      },
     );
   }
 }
 
-class ContainerButton extends StatelessWidget {
-  const ContainerButton({
-    super.key,
-  });
-
-@override
-Widget build(BuildContext context) {
-  return Container(
-    decoration: BoxDecoration(
-      border: Border.all(
-        color: Colors.grey.shade800, 
-        width: 4.0,
-      ),
-    ),
-    child: Column(
-      children: [
-        InkWell(
-          onTap: () async {
-              context.pushNamed('Fridge');
-            },
-          child: FlutterFlowIconButton(
-            icon: Icon(
-              Icons.all_inbox,
-              color: Colors.white,
-              size: 60.0,
-            ),
-          ),
-        ),
-        Text(
-          'Fridge',
-          style:FlutterFlowTheme.of(context).bodyLarge.override(
-                                fontFamily: 'Readex Pro',
-                                color: FlutterFlowTheme.of(context).primaryText,
-                                letterSpacing: 0.0,
-                              ),
-        ),
-      ],
-    ),
-  );
-}
-}
 
 class GroceryButton extends StatelessWidget {
   const GroceryButton({

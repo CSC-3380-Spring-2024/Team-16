@@ -141,31 +141,29 @@ static Future<List<Post>> getAllPosts() async
 
 
 class Post {
-
   final String caption;
   final String username;
+  final String referenceId;
   final String distinctId;
   final Uint8List? uploadImage;
   final String? userProfilePicture;
   final String? postDate;
   final int? likes;
-  final List<Comment> comments;
-  final int? dislike;
+  final int? dislikes;
 
   Post({
     required this.caption,
     required this.username,
+    required this.referenceId,
     required this.distinctId,
     this.uploadImage,
     this.userProfilePicture,
     this.postDate,
     this.likes,
-    required this.comments,
-    this.dislike,
+    this.dislikes,
   });
 
   factory Post.fromJson(Map<String, dynamic> json) {
-    // Decode base64 string to Uint8List
     Uint8List? imageBytes;
     if (json['uploadImage'] != null) {
       String? base64Image = json['uploadImage'];
@@ -175,41 +173,38 @@ class Post {
       }
     }
 
-    // Parse likes and dislikes from dynamic to int
-    int? likes = json['like'] is List ? (json['like'] as List).length : json['like'];
-    int? dislikes = json['dislike'] is List ? (json['dislike'] as List).length : json['dislike'];
-
-    
+    int? likes = json['likes'] is List ? (json['likes'] as List).length : json['likes'];
+    int? dislikes = json['dislikes'] is List ? (json['dislikes'] as List).length : json['dislikes'];
 
     return Post(
       caption: json['caption'] ?? '',
+      referenceId: json['reference'] ?? '',
       username: json['username'] ?? '',
       uploadImage: imageBytes,
-      userProfilePicture: json['userProfilePicture'],
       postDate: json['postDate'],
       likes: likes,
-      dislike: dislikes,
-      comments: json['comments'],
+      dislikes: dislikes,
       distinctId: json['distinctId'],
     );
   }
 }
 
-class Comment 
-{
+class Comment {
   final String commentBody;
-  final String userName; 
+  final String userName;
   final String distinctId;
 
-  Comment
-  ({
+  Comment({
     required this.commentBody,
     required this.userName,
     required this.distinctId,
-});
-  factory Comment.fromJson(Map<String, dynamic> json)
-  {
-    return Comment
-      (commentBody: json['commentBody'] ?? '', userName: json['username'] ?? '', distinctId: json['distinctId']);
+  });
+
+  factory Comment.fromJson(Map<String, dynamic> json) {
+    return Comment(
+      commentBody: json['commentBody'] ?? '',
+      userName: json['username'] ?? '',
+      distinctId: json['distinctId'] ?? '',
+    );
   }
 }
