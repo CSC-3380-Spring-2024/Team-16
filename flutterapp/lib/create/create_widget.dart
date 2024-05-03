@@ -79,82 +79,102 @@ class _CreateWidgetState extends State<CreateWidget> {
     }
   }
 
-  Future<void> _postRecipe() async {
-    // Implement your logic to handle recipe posting, e.g., uploading to a server
-    if (kIsWeb) {
-      print('Posting recipe with file bytes: ${_fileBytes != null ? "File Selected" : "No File Selected"}');
-    } else {
-      print('Posting recipe with file path: ${_file?.path}');
-    }
+   Future<void> _postRecipe() async {
+  if (kIsWeb) {
+    print('Posting recipe with file bytes: ${_fileBytes != null ? "File Selected" : "No File Selected"}');
+  } else {
+    print('Posting recipe with file path: ${_file?.path}');
+  }
 
-    List<List<String>> processedIngredients = [];
-    for (Map<String,String> ingredient in ingredients) {
-      processedIngredients.add([ingredient["name"]!,"${ingredient["quantity"]!} ${ingredient["unit"]}"]);
-    }
-    var outerBody = {};
-    var body = {};
-    body["name"]=recipeNameController.text;
-    body["starRating"]=2.5;
-    body["difficultyRaing"]=difficultyRating;
-    body["servingSize"]=servingSize;
-    body["ingredients"]=processedIngredients;
-    body["method"]=methods;
-    body["description"]=recipeDescriptionController.text;
-    body["backdrop"]="";
-    body["peopleReviewed"]=0;
-    outerBody["recipe"]=body;
-    outerBody["username"]="usr";
-    print(json.encode(outerBody));
+  List<List<String>> processedIngredients = [];
+  for (Map<String, String> ingredient in ingredients) {
+    processedIngredients.add([ingredient["name"]!, "${ingredient["quantity"]!} ${ingredient["unit"]}"]);
+  }
 
+  var outerBody = <String, dynamic>{};
+  var body = <String, dynamic>{};
+  body["name"] = recipeNameController.text;
+  body["starRating"] = 2.5;
+  body["difficultyRating"] = difficultyRating;
+  body["servingSize"] = servingSize;
+  body["ingredients"] = processedIngredients;
+  body["method"] = methods;
+  body["description"] = recipeDescriptionController.text;
+  body["backdrop"] = ""; // Add a proper backdrop value or remove it
+  body["peopleReviewed"] = 0;
+  outerBody["recipe"] = body;
+  outerBody["username"] = "usr";
+
+  print(json.encode(outerBody));
+
+  showDialog(
+    context: context,
+    barrierDismissible: false,
+    builder: (BuildContext context) {
+      return const Dialog(
+        child: Padding(
+          padding: EdgeInsets.all(20.0),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              CircularProgressIndicator(),
+              SizedBox(height: 20.0),
+              Text("Sending data..."),
+            ],
+          ),
+        ),
+      );
+    },
+  );
+
+  final response = await http.post(
+    Uri.parse('http://localhost:8080/api/recipe/add'),
+    headers: <String, String>{
+      'Content-Type': 'application/json', // Ensure the server expects JSON
+    },
+    body: json.encode(outerBody), // Encode the outerBody as JSON
+  );
+
+  Navigator.pop(context); // Close the loading dialog
+
+  if (response.statusCode == 200) {
     showDialog(
       context: context,
-      barrierDismissible: false,
       builder: (BuildContext context) {
-        return const Dialog(
-          child: Padding(
-            padding: EdgeInsets.all(20.0),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                CircularProgressIndicator(),
-                SizedBox(height: 20.0),
-                Text("Sending data..."),
-              ],
+        return AlertDialog(
+          title: Text('Success'),
+          content: Text(response.body),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: const Text("OK"),
             ),
-          ),
+          ],
         );
       },
     );
-
-    // Actual HTTP post request
-    final response = await http.post(
-      Uri.parse('http://localhost:8080/api/recipe/add'),
-      body: ""//json.encode(outerBody)
+  } else {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text('Error ${response.statusCode}'),
+          content: Text(response.body),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: const Text("OK"),
+            ),
+          ],
+        );
+      },
     );
-    
-    //if (response.statusCode == 200) {
-      // ignore: use_build_context_synchronously
-      showDialog(
-        context: context,
-        builder: (BuildContext context) {
-          return AlertDialog(
-            title: Text(response.statusCode.toString()),
-            content: Text(response.body),
-            actions: [
-              TextButton(
-                onPressed: () {
-                  Navigator.pop(context);
-                },
-                child: Text("OK"),
-                //RecipeData newRecipe =
-              ),
-            ],
-          );
-        },
-      );
-    //}
-
   }
+}
 
   void _showAddIngredientDialog(List<dynamic> unused) {
     TextEditingController nameController = TextEditingController();
@@ -389,33 +409,6 @@ class _CreateWidgetState extends State<CreateWidget> {
                   ),
                 ],
               ),
-              //Description Field
-              Padding(
-                padding: const EdgeInsetsDirectional.fromSTEB(0, 8.0,0,0),
-                child: Container(
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(16.0),
-                    color: ffTheme.secondaryBackground,
-                  ),
-                  child: Padding(
-                    padding: const EdgeInsets.all(4.0),
-                    child: Column(
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Text(
-                            "Description",
-                            style: FlutterFlowTheme.of(context).titleLarge.override(
-                                  fontFamily: 'Outfit',
-                                  letterSpacing: 0.0,
-                                ),
-                            ),
-                          ),
-                        ],
-                      )
-                    ),
-                  ),
-                ),
                 //Description Field
                 Padding(
                   padding: const EdgeInsetsDirectional.fromSTEB(0, 8.0,0,0),

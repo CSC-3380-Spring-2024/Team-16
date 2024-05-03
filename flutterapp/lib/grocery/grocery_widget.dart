@@ -72,7 +72,7 @@ class _GroceryWidgetState extends State<GroceryWidget> {
                 child: Column(
                   mainAxisSize: MainAxisSize.max,
                   children: [
-                    ReorderableExample(editable: false, items: ['benis','penis'], header: 'Grocery List')
+                    ReorderableExample(editable: false, items: ['Work In Progress'], header: 'Grocery List')
                   ],
                 ),
               ),
