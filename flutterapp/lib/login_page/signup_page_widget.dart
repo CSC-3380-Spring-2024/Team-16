@@ -67,10 +67,12 @@ class SignupPageWidget extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(Icons.food_bank, size: 100),
-                SizedBox(height: 50),
-                Text('OnlyFoods', style: FlutterFlowTheme.of(context).headlineLarge),
-                SizedBox(height: 25),
+                Image.network(
+    'assets/OFlogo.png', // Replace with the correct path to your image file
+    width: 100, // Adjust the width as needed
+    height: 100, // Adjust the height as needed
+  ),
+  const SizedBox(height: 50),
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 25.0),
                   child: TextField(
