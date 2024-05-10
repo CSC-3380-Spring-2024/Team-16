@@ -50,12 +50,17 @@ Before building your Flutter application, run the following commands in your ter
 #### Open the foodApp Folder with VSCode or any desired IDE that could run JAVA
 
 Direct to:
+
     ``` src ```
-    and
+    
+   and
+    
     ``` main ```
-    then
+   then
+   
     ```com.example.foodApp```
-    finally 
+   finally
+   
     ```FoodAppApplication.java```
 **make sure to simultaneously run ```FoodAppApplication.java``` for backend and API to work.**
     
