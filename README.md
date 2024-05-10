@@ -51,17 +51,17 @@ Before building your Flutter application, run the following commands in your ter
 
 Direct to:
 
-    ``` src ```
+     src 
     
    and
     
-    ``` main ```
+      main 
    then
    
-    ```com.example.foodApp```
+    com.example.foodApp
    finally
    
-    ```FoodAppApplication.java```
+    FoodAppApplication.java
 **make sure to simultaneously run ```FoodAppApplication.java``` for backend and API to work.**
     
 ### Features of the app
