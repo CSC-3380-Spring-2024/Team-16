@@ -37,6 +37,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
     _model.dispose();
     super.dispose();
   }
+  
 
   @override
   Widget build(BuildContext context) {
@@ -152,6 +153,7 @@ class PostWidget extends StatelessWidget {
   Future<Recipe> _getRecipeById() async {
     return await NetworkService.fetchRecipeById(post.referenceId);
   }
+
 
   @override
   Widget build(BuildContext context) {
@@ -331,9 +333,11 @@ class PostWidget extends StatelessWidget {
               ),
             ],
           ),
-          
+          SizedBox(height: 50,),
         ],
+        
       ),
+      
     );
   }
 }

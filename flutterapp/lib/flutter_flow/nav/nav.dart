@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:foodappproject/comments/comments_widget.dart';
+import 'package:foodappproject/create/createpost_widget.dart';
 import 'package:foodappproject/grocery/grocery_widget.dart';
 import 'package:foodappproject/login_page/login_page_model.dart';
 import 'package:foodappproject/login_page/login_page_widget.dart';
@@ -62,6 +63,13 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           path: '/create',
           builder: (context, params) => const NavBarPage(initialPage: '',
             page: CreateWidget(),
+          ),
+        ),
+        FFRoute(
+          name: 'CreatePost',
+          path: '/createpost',
+          builder: (context, params) => const NavBarPage(initialPage: '',
+            page: CreatePostWidget(),
           ),
         ),
         FFRoute(
