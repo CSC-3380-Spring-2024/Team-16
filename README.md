@@ -1,6 +1,6 @@
 **Welcome to Team 16's project: OnlyFoods**
 
-OnlyFood is a meal-planning app that aims to aid users in minimizing food waste. It tracks the contents of a user's fridge and suggests recipes using a heuristic algorithm that prioritizes certain factors, such as whether a recipe utilizes ingredients close to expiry, or if the user can make easy substitutions. OnlyFood aims to maximize user retention by establishing a social-media-like platform
+Welcome to OnlyFood, an app designed to help you manage your kitchen more efficiently. OnlyFood ensures you make the most out of every ingredient in your fridge. Our app offers a variety of tools to keep track of your ingredients, prevent food waste, and connect with a community of foodies.
 
 **How to run the app**
 *  Download VSCode
@@ -12,8 +12,14 @@ OnlyFood is a meal-planning app that aims to aid users in minimizing food waste.
 *  make sure to run ```flutter clean``` and ```flutter pub get``` in the frontend project folder before building.
 
 **Features of the app**
-*  Allows the user to log and monitor the ingredients in their fridge. Enter the ingredient you have along with the quantity and our app will keep track of how much you use and when it expires
-*  Allows the user to select ingredients they have in the fridge to find recipes in our database that are most similar
-*  Allows the user to create recipes and post it into our database
-*  User would be able to create posts with an image and post it and other users would be able to read and comment on their post
+1. **Ingredient Tracking**
+OnlyFood allows you to easily log and monitor all the ingredients in your storage. Simply enter what you have and let our app keep a detailed inventory, so you always know what you have at home.
 
+2. **Expiration Date Monitoring**
+Our app allows you to track the expiration dates of all your stored ingredients. By assuming each item is kept in its ideal environment, the app helps you easily monitor which items are nearing their expiration date, allowing you to prioritize their use and prevent waste.
+
+3. **Recipe Suggestions**
+Here at OnlyFood, you can simply select ingredients from your storage and receive related recipe suggestions. Our smart algorithm prioritizes dishes that use ingredients closest to expiration, ensuring you utilize your groceries efficiently and deliciously.
+
+4. **Social Interaction**
+OnlyFood isn't just a management tool for your ingredients, it's also a social platform. Post about your meals, share recipes, and interact with other users through likes, dislikes, and comments. Connect with other foodies, exchange cooking tips, and get inspired.
