@@ -13,7 +13,6 @@ Welcome to OnlyFood, an app designed to help you manage your kitchen more effici
 
 **Features of the app**
 1. **Ingredient Tracking**
-
    OnlyFood allows you to easily log and monitor all the ingredients in your storage. Simply enter what you have and let     our app keep a detailed inventory, so you always know what you have at home.
 
 2. **Expiration Date Monitoring**
