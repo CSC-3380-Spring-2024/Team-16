@@ -53,11 +53,14 @@ class LoginPageWidget extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+            
   Image.network(
     'assets/OFlogo.png', // Replace with the correct path to your image file
     width: 300, // Adjust the width as needed
     height: 300, // Adjust the height as needed
   ),
+
+              
               //USERNAME PLACE
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 25.0),

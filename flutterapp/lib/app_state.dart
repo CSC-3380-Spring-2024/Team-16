@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:foodappproject/app_data.dart';
 
 class FFAppState extends ChangeNotifier {
   static FFAppState _instance = FFAppState._internal();
@@ -31,6 +32,19 @@ class FFAppState extends ChangeNotifier {
   }
 
   late SharedPreferences prefs;
+
+  //MARK: Test Fridge Data
+  List<FridgeData> containers = [FridgeData(
+    name: "TESTFRIDGE",
+    icon: Icons.access_alarm_outlined,
+    color: PresetColor.yellow,
+    temperature: 69.8,
+    contents: [IngredientData(name: "Banana", quantity: "1 qt", expiry: 4)],
+    )
+  ];
+  ////////////////////////////////////////////////////
+  
+  RecipeData? viewedRecipe;
 
   String _savedText = '';
   String get savedText => _savedText;

@@ -72,7 +72,7 @@ class SignupPageWidget extends StatelessWidget {
     width: 300, // Adjust the width as needed
     height: 300, // Adjust the height as needed
   ),
-  
+ 
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 25.0),
                   child: TextField(

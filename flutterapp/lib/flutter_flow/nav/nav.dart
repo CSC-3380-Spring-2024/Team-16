@@ -1,6 +1,14 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:foodappproject/comments/comments_widget.dart';
+import 'package:foodappproject/create/createpost_widget.dart';
+import 'package:foodappproject/grocery/grocery_widget.dart';
+import 'package:foodappproject/login_page/login_page_model.dart';
+import 'package:foodappproject/login_page/login_page_widget.dart';
+import 'package:foodappproject/login_page/signup_page_widget.dart';
+import 'package:foodappproject/recipefullinfo/recipe_full_info_widget.dart';
+import 'package:foodappproject/recipefullinfo/recipe_reviews_widget.dart';
 import 'package:provider/provider.dart';
 
 import '/index.dart';
@@ -27,7 +35,7 @@ class AppStateNotifier extends ChangeNotifier {
 }
 
 GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
-      initialLocation: '/',
+      initialLocation: '/login',
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
       errorBuilder: (context, state) => const NavBarPage(),
@@ -36,6 +44,12 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: '_initialize',
           path: '/',
           builder: (context, _) => const NavBarPage(),
+        ),
+        
+         FFRoute(
+            name: 'LoginPage',
+            path: '/login',
+            builder: (context, _) => LoginPageWidget(controller: null, obscureText: false, hintText: '', onTap: () {  },),  // Instantiate the widget correctly
         ),
         FFRoute(
           name: 'HomePage',
@@ -47,23 +61,32 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
         FFRoute(
           name: 'Create',
           path: '/create',
-          builder: (context, params) => params.isEmpty
-              ? const NavBarPage(initialPage: 'Create')
-              : const NavBarPage(
-                  initialPage: 'Create',
-                  page: CreateWidget(),
-                ),
+          builder: (context, params) => const NavBarPage(initialPage: '',
+            page: CreateWidget(),
+          ),
         ),
         FFRoute(
-          name: 'Leaderboard',
-          path: '/leaderboard',
-          builder: (context, params) => params.isEmpty
-              ? const NavBarPage(initialPage: 'Leaderboard')
-              : const NavBarPage(
-                  initialPage: 'Leaderboard',
-                  page: LeaderboardWidget(),
-                ),
+          name: 'CreatePost',
+          path: '/createpost',
+          builder: (context, params) => const NavBarPage(initialPage: '',
+            page: CreatePostWidget(),
+          ),
         ),
+        FFRoute(
+          name: 'RecipeFullInfo',
+          path: '/RecipeFullInfo',
+          builder: (context, params) => const NavBarPage(initialPage: '',
+            page: RecipeFullInfoWidget(),
+          ),
+        ),
+        FFRoute(
+          name: 'RecipeReviews',
+          path: '/Reviews',
+          builder: (context, params) => const NavBarPage(initialPage: '',
+            page: RecipeReviewsWidget(),
+          ),
+        ),
+        // MARK: FridgeRoute
         FFRoute(
           name: 'Fridge',
           path: '/fridge',
@@ -73,6 +96,15 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           ),
         ),
         FFRoute(
+          name: 'Grocery',
+          path: '/grocery',
+          builder: (context, params) => const NavBarPage(
+            initialPage: '',
+            page: GroceryWidget(),
+          ),
+        ),
+
+        FFRoute(
           name: 'Account',
           path: '/account',
           builder: (context, params) => params.isEmpty
@@ -81,7 +113,12 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
                   initialPage: 'Account',
                   page: AccountWidget(),
                 ),
-        )
+        ),
+        FFRoute(
+          name: 'Signup',
+          path: '/signup',
+          builder: (context, _) => SignupPageWidget(controller: null, obscureText: false, hintText: '', onTap: () {  },), 
+        ),
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
 

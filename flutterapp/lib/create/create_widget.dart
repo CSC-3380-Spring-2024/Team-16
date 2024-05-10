@@ -1,29 +1,49 @@
+import 'dart:convert';
+import 'dart:io';
+import 'package:flutter/foundation.dart'; // Needed for kIsWeb
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:foodappproject/app_data.dart';
+import 'package:foodappproject/app_shared.dart';
+import 'package:numberpicker/numberpicker.dart';
+import 'package:file_picker/file_picker.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import '/flutter_flow/upload_data.dart';
-import '/custom_code/widgets/index.dart' as custom_widgets;
-import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
+
 import 'create_model.dart';
 export 'create_model.dart';
 
 class CreateWidget extends StatefulWidget {
-  const CreateWidget({super.key});
+  const CreateWidget({Key? key}) : super(key: key);
 
   @override
   State<CreateWidget> createState() => _CreateWidgetState();
 }
 
 class _CreateWidgetState extends State<CreateWidget> {
+  TextEditingController recipeNameController = TextEditingController();
+  TextEditingController recipeDescriptionController = TextEditingController();
+  int servingSize = 1;
+  int difficultyRating = 1;
+  String dialogSelectedUnit = "g";
   late CreateModel _model;
+  Uint8List? _fileBytes; // For web
+  File? _file; // For mobile
+  String? _fileName;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
+
+  List<Map<String, String>> ingredients = [];
+  List<String> units = ["L", "mL","oz","cup","g", "kg","lb","tsp","tbsp","unit"];
+  List<String> methods = [];
 
   @override
   void initState() {
     super.initState();
     _model = createModel(context, () => CreateModel());
-
     _model.textController ??= TextEditingController();
     _model.textFieldFocusNode ??= FocusNode();
   }
@@ -31,12 +51,9 @@ class _CreateWidgetState extends State<CreateWidget> {
   @override
   void dispose() {
     _model.dispose();
-
     super.dispose();
   }
 
-<<<<<<< Updated upstream
-=======
   Future<void> _pickFile() async {
     FilePickerResult? result = await FilePicker.platform.pickFiles(
       type: FileType.any,
@@ -62,83 +79,102 @@ class _CreateWidgetState extends State<CreateWidget> {
     }
   }
 
-  Future<void> _postRecipe() async {
-    // Implement your logic to handle recipe posting, e.g., uploading to a server
-    if (kIsWeb) {
-      print('Posting recipe with file bytes: ${_fileBytes != null ? "File Selected" : "No File Selected"}');
-    } else {
-      print('Posting recipe with file path: ${_file?.path}');
-    }
+   Future<void> _postRecipe() async {
+  if (kIsWeb) {
+    print('Posting recipe with file bytes: ${_fileBytes != null ? "File Selected" : "No File Selected"}');
+  } else {
+    print('Posting recipe with file path: ${_file?.path}');
+  }
 
-    List<List<String>> processedIngredients = [];
-    for (Map<String,String> ingredient in ingredients) {
-      processedIngredients.add([ingredient["name"]!,"${ingredient["quantity"]!} ${ingredient["unit"]}"]);
-    }
-    var outerBody = <String, dynamic>{};
-    var body = <String, dynamic>{};
-    body["name"]=recipeNameController.text;
-    body["starRating"]=2.5;
-    body["difficultyRaing"]=difficultyRating;
-    body["servingSize"]=servingSize;
-    body["ingredients"]=processedIngredients;
-    body["method"]=methods;
-    body["description"]=recipeDescriptionController.text;
-    body["backdrop"]="";
-    body["peopleReviewed"]=0;
-    outerBody["recipe"]=body;
-    outerBody["username"]="usr";
-    print(json.encode(outerBody));
+  List<List<String>> processedIngredients = [];
+  for (Map<String, String> ingredient in ingredients) {
+    processedIngredients.add([ingredient["name"]!, "${ingredient["quantity"]!} ${ingredient["unit"]}"]);
+  }
 
-    /*showDialog(
-      context: context,
-      barrierDismissible: false,
-      builder: (BuildContext context) {
-        return const Dialog(
-          child: Padding(
-            padding: EdgeInsets.all(20.0),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                CircularProgressIndicator(),
-                SizedBox(height: 20.0),
-                Text("Sending data..."),
-              ],
-            ),
+  var outerBody = <String, dynamic>{};
+  var body = <String, dynamic>{};
+  body["name"] = recipeNameController.text;
+  body["starRating"] = 2.5;
+  body["difficultyRating"] = difficultyRating;
+  body["servingSize"] = servingSize;
+  body["ingredients"] = processedIngredients;
+  body["method"] = methods;
+  body["description"] = recipeDescriptionController.text;
+  body["backdrop"] = ""; // Add a proper backdrop value or remove it
+  body["peopleReviewed"] = 0;
+  outerBody["recipe"] = body;
+  outerBody["username"] = "usr";
+
+  print(json.encode(outerBody));
+
+  showDialog(
+    context: context,
+    barrierDismissible: false,
+    builder: (BuildContext context) {
+      return const Dialog(
+        child: Padding(
+          padding: EdgeInsets.all(20.0),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              CircularProgressIndicator(),
+              SizedBox(height: 20.0),
+              Text("Sending data..."),
+            ],
           ),
+        ),
+      );
+    },
+  );
+
+  final response = await http.post(
+    Uri.parse('http://localhost:8080/api/recipe/add'),
+    headers: <String, String>{
+      'Content-Type': 'application/json', // Ensure the server expects JSON
+    },
+    body: json.encode(outerBody), // Encode the outerBody as JSON
+  );
+
+  Navigator.pop(context); // Close the loading dialog
+
+  if (response.statusCode == 200) {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text('Success'),
+          content: Text(response.body),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: const Text("OK"),
+            ),
+          ],
         );
       },
-    );*/
-
-    final response = await http.post(
-      Uri.parse('http://localhost:8080/api/recipe/add'),
-      body: json.encode(outerBody),
-      headers: {
-        'Content-Type': 'application/json', // Ensure proper content-type
+    );
+  } else {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text('Error ${response.statusCode}'),
+          content: Text(response.body),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: const Text("OK"),
+            ),
+          ],
+        );
       },
     );
-    
-    if (response.statusCode == 200) {
-      showDialog(
-        context: context,
-        builder: (BuildContext context) {
-          return AlertDialog(
-            title: Text(response.statusCode.toString()),
-            content: Text("Successfully Posted review!"),
-            actions: [
-              TextButton(
-                onPressed: () {
-                  Navigator.pop(context);
-                },
-                child: Text("OK"),
-                //RecipeData newRecipe =
-              ),
-            ],
-          );
-        },
-      );
-    }
-
   }
+}
 
   void _showAddIngredientDialog(List<dynamic> unused) {
     TextEditingController nameController = TextEditingController();
@@ -266,213 +302,149 @@ class _CreateWidgetState extends State<CreateWidget> {
     );
   }
 
->>>>>>> Stashed changes
   @override
   Widget build(BuildContext context) {
+    FlutterFlowTheme ffTheme = FlutterFlowTheme.of(context);
     return GestureDetector(
-      onTap: () => _model.unfocusNode.canRequestFocus
-          ? FocusScope.of(context).requestFocus(_model.unfocusNode)
-          : FocusScope.of(context).unfocus(),
+      onTap: () => FocusScope.of(context).unfocus(),
       child: Scaffold(
+        backgroundColor: ffTheme.primaryBackground,
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         appBar: AppBar(
-          backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
-          automaticallyImplyLeading: false,
-          title: Text(
-            'Create Recipe',
-            style: FlutterFlowTheme.of(context).headlineLarge.override(
-                  fontFamily: 'Outfit',
-                  letterSpacing: 0.0,
-                ),
-          ),
-          actions: const [],
+          title: Text('Create Recipe',style: ffTheme.headlineMedium,),
           centerTitle: true,
-          elevation: 0.0,
+          elevation: 0,
+          backgroundColor: ffTheme.secondaryBackground,
+          iconTheme: IconThemeData(color: ffTheme.primaryText),
         ),
         body: SafeArea(
-          top: true,
-          child: Padding(
-            padding: const EdgeInsetsDirectional.fromSTEB(16.0, 16.0, 16.0, 16.0),
+          child: SingleChildScrollView(
+            padding: const EdgeInsets.all(8.0),
             child: Column(
-              mainAxisSize: MainAxisSize.max,
-              mainAxisAlignment: MainAxisAlignment.start,
-              crossAxisAlignment: CrossAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                SizedBox(
-                  width: double.infinity,
-                  child: TextFormField(
-                    controller: _model.textController,
-                    focusNode: _model.textFieldFocusNode,
-                    autofocus: false,
-                    obscureText: false,
-                    decoration: InputDecoration(
-                      labelText: 'Recipe',
-                      hintText: 'Enter the name of your dish',
-                      hintStyle:
-                          FlutterFlowTheme.of(context).bodyLarge.override(
-                                fontFamily: 'Readex Pro',
-                                letterSpacing: 0.0,
-                              ),
-                      enabledBorder: OutlineInputBorder(
-                        borderSide: BorderSide(
-                          color: FlutterFlowTheme.of(context).primary,
-                          width: 2.0,
-                        ),
-                        borderRadius: BorderRadius.circular(8.0),
-                      ),
-                      focusedBorder: OutlineInputBorder(
-                        borderSide: const BorderSide(
-                          color: Color(0x00000000),
-                          width: 2.0,
-                        ),
-                        borderRadius: BorderRadius.circular(8.0),
-                      ),
-                      errorBorder: OutlineInputBorder(
-                        borderSide: const BorderSide(
-                          color: Color(0x00000000),
-                          width: 2.0,
-                        ),
-                        borderRadius: BorderRadius.circular(8.0),
-                      ),
-                      focusedErrorBorder: OutlineInputBorder(
-                        borderSide: const BorderSide(
-                          color: Color(0x00000000),
-                          width: 2.0,
-                        ),
-                        borderRadius: BorderRadius.circular(8.0),
-                      ),
-                    ),
-                    style: FlutterFlowTheme.of(context).bodyLarge.override(
-                          fontFamily: 'Readex Pro',
-                          letterSpacing: 0.0,
-                        ),
-                    validator:
-                        _model.textControllerValidator.asValidator(context),
+                TextField(
+                  controller: recipeNameController,
+                  decoration: const InputDecoration(
+                    labelText: 'Enter Recipe Name',
+                    border: OutlineInputBorder(),
+                    contentPadding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 12.0),
                   ),
                 ),
-                const SizedBox(
-                  width: double.infinity,
-                  height: 300.0,
-                  child: custom_widgets.NewCustomWidget(
-                    width: double.infinity,
-                    height: 300.0,
-                  ),
-                ),
-                FFButtonWidget(
-                  onPressed: () async {
-                    final selectedMedia =
-                        await selectMediaWithSourceBottomSheet(
-                      context: context,
-                      allowPhoto: true,
-                    );
-                    if (selectedMedia != null &&
-                        selectedMedia.every((m) =>
-                            validateFileFormat(m.storagePath, context))) {
-                      setState(() => _model.isDataUploading = true);
-                      var selectedUploadedFiles = <FFUploadedFile>[];
+                const SizedBox(height: 20),
 
-                      try {
-                        selectedUploadedFiles = selectedMedia
-                            .map((m) => FFUploadedFile(
-                                  name: m.storagePath.split('/').last,
-                                  bytes: m.bytes,
-                                  height: m.dimensions?.height,
-                                  width: m.dimensions?.width,
-                                  blurHash: m.blurHash,
-                                ))
-                            .toList();
-                      } finally {
-                        _model.isDataUploading = false;
-                      }
-                      if (selectedUploadedFiles.length ==
-                          selectedMedia.length) {
-                        setState(() {
-                          _model.uploadedLocalFile =
-                              selectedUploadedFiles.first;
-                        });
-                      } else {
-                        setState(() {});
-                        return;
-                      }
-                    }
-                  },
-                  text: 'Insert Picture Here',
-                  options: FFButtonOptions(
-                    width: 300.0,
-                    height: 157.0,
-                    padding:
-                        const EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 0.0),
-                    iconPadding:
-                        const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                    color: FlutterFlowTheme.of(context).primary,
-                    textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                          fontFamily: 'Readex Pro',
-                          letterSpacing: 0.0,
-                        ),
-                    elevation: 3.0,
-                    borderSide: const BorderSide(
-                      color: Colors.transparent,
-                      width: 1.0,
-                    ),
-                    borderRadius: BorderRadius.circular(8.0),
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 0.0, 0.0),
-                  child: InkWell(
-                    splashColor: Colors.transparent,
-                    focusColor: Colors.transparent,
-                    hoverColor: Colors.transparent,
-                    highlightColor: Colors.transparent,
-                    onTap: () async {
-                      setState(() {});
-                    },
-                    child: Row(
-                      mainAxisSize: MainAxisSize.max,
-                      mainAxisAlignment: MainAxisAlignment.end,
-                      children: [
-                        FFButtonWidget(
-                          onPressed: () {
-                            print('Button pressed ...');
-                          },
-                          text: 'Post',
-                          options: FFButtonOptions(
-                            width: 150.0,
-                            height: 50.0,
-                            padding: const EdgeInsetsDirectional.fromSTEB(
-                                0.0, 0.0, 0.0, 0.0),
-                            iconPadding: const EdgeInsetsDirectional.fromSTEB(
-                                0.0, 0.0, 0.0, 0.0),
-                            color: FlutterFlowTheme.of(context).primary,
-                            textStyle: FlutterFlowTheme.of(context)
-                                .titleMedium
-                                .override(
-                                  fontFamily: 'Readex Pro',
-                                  color: Colors.white,
-                                  letterSpacing: 0.0,
-                                ),
-                            elevation: 0.0,
-                            borderRadius: BorderRadius.circular(8.0),
+              //Serving Size Selector
+              Row(
+                children: [
+                  Expanded(
+                    child: Padding(
+                      padding: const EdgeInsetsDirectional.fromSTEB(0, 8.0,0,0),
+                      child: AspectRatio(
+                        aspectRatio: 1,
+                        child: Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(16.0),
+                            color: ffTheme.secondaryBackground,
+                          ),
+                          child: Padding(
+                            padding: const EdgeInsets.all(4.0),
+                            child: Row(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Column(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Text("Serving Size:",style: ffTheme.bodyLarge,),
+                                    NumberPicker(
+                                      value: servingSize,
+                                      minValue: 1,
+                                      maxValue: 69,
+                                      onChanged: (value) => setState(() => servingSize = value)
+                                    )
+                                  ],
+                                ),                          ],
+                            )
                           ),
                         ),
-                      ],
+                      ),
                     ),
                   ),
-                ),
-<<<<<<< Updated upstream
-              ].divide(const SizedBox(height: 20.0)),
-=======
+                  const SizedBox(width: 8,),
+                  Expanded(
+                    child: Padding(
+                      padding: const EdgeInsetsDirectional.fromSTEB(0, 8.0,0,0),
+                      child: AspectRatio(
+                        aspectRatio: 1,
+                        child: Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(16.0),
+                            color: ffTheme.secondaryBackground,
+                          ),
+                          child: Padding(
+                            padding: const EdgeInsets.all(4.0),
+                            child: Row(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Column(
+                                  crossAxisAlignment: CrossAxisAlignment.center,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Text("Difficulty:",style: ffTheme.bodyLarge,),
+                                    NumberPicker(
+                                      value: difficultyRating,
+                                      minValue: 1,
+                                      maxValue: 5,
+                                      onChanged: (value) => setState(() => difficultyRating = value)
+                                    )
+                                  ],
+                                ),                          ],
+                            )
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
                 //Description Field
                 Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: TextField(
-                    controller: recipeDescriptionController,
-                    keyboardType: TextInputType.multiline,
-                    maxLines: null,
-                    decoration: InputDecoration(
-                      border: OutlineInputBorder(),
-                      hintText: 'Enter some information about your recipe...',
+                  padding: const EdgeInsetsDirectional.fromSTEB(0, 8.0,0,0),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(16.0),
+                      color: ffTheme.secondaryBackground,
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.all(4.0),
+                      child: Column(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text(
+                              "Description",
+                              style: FlutterFlowTheme.of(context).titleLarge.override(
+                                    fontFamily: 'Outfit',
+                                    letterSpacing: 0.0,
+                                  ),
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: TextField(
+                              controller: recipeDescriptionController,
+                              keyboardType: TextInputType.multiline,
+                              maxLines: null,
+                              decoration: InputDecoration(
+                                border: OutlineInputBorder(),
+                                hintText: 'Enter some information about your recipe...',
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                 ),
@@ -535,7 +507,6 @@ class _CreateWidgetState extends State<CreateWidget> {
                 ),
                 SizedBox(height:60),
               ],
->>>>>>> Stashed changes
             ),
           ),
         ),
