@@ -5,6 +5,7 @@ import 'dart:typed_data';
 import 'package:http/http.dart' as http;
 import 'package:path/path.dart';
 
+
 class NetworkService {
   static const String baseUrl = 'http://localhost:8080/api';
 

@@ -164,7 +164,15 @@ class _RecipeFullInfoWidgetState extends State<RecipeFullInfoWidget> {
                                     child: const Text("See Reviews...")
                                   ),
                                   TextButton(
-                                    onPressed: (){}, 
+                                    onPressed: () {
+                                      AppData.addFavoriteRecipe(AppData.viewedRecipe!);
+                                      ScaffoldMessenger.of(context).showSnackBar(
+                                        SnackBar(
+                                          content: Text("${AppData.viewedRecipe!.name} added to favorites!"),
+                                          duration: Duration(seconds: 2),
+                                        )
+                                      );
+                                    }, 
                                     child: const Text("Add to Favorites")
                                   ),
                                   TextButton(

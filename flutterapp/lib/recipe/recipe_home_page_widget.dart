@@ -366,72 +366,79 @@ I ***love*** italian seasoning. It ~~isn't~~ delicious.
 ),
 
               Row(
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  Text(
-                    'Saved Recipes',
-                    style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'Readex Pro',
-                          fontSize: 30.0,
-                          letterSpacing: 0.0,
-                        ),
-                  ),
-                  Expanded(
-                    child: Align(
-                      alignment: AlignmentDirectional(1.0, 0.0),
-                      child: FFButtonWidget(
-                        onPressed: () {
-                          print('Button pressed ...');
-                        },
-                        text: 'View All',
-                        options: FFButtonOptions(
-                          height: 30.0,
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              24.0, 0.0, 24.0, 0.0),
-                          iconPadding: EdgeInsetsDirectional.fromSTEB(
-                              0.0, 0.0, 0.0, 0.0),
-                          color: FlutterFlowTheme.of(context).primaryBackground,
-                          textStyle: FlutterFlowTheme.of(context)
-                              .titleSmall
-                              .override(
-                                fontFamily: 'Readex Pro',
-                                color: FlutterFlowTheme.of(context).primaryText,
-                                letterSpacing: 0.0,
-                              ),
-                          elevation: 3.0,
-                          borderSide: BorderSide(
-                            color: FlutterFlowTheme.of(context).primaryText,
-                            width: 1.0,
-                          ),
-                          borderRadius: BorderRadius.circular(8.0),
-                        ),
-                      ),
-                    ),
-                  ),
-                ],
-              ),
-              SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-                child: Row(
-                  mainAxisSize: MainAxisSize.max,
-                  children: [
-                    Container(
-                      width: 100.0,
-                      height: 100.0,
-                      decoration: BoxDecoration(
-                        color: FlutterFlowTheme.of(context).secondaryBackground,
-                      ),
-                      child: Text(
-                        '',
-                        style: FlutterFlowTheme.of(context).bodyMedium.override(
-                              fontFamily: 'Readex Pro',
-                              letterSpacing: 0.0,
-                            ),
-                      ),
-                    ),
-                  ],
+  mainAxisSize: MainAxisSize.max,
+  children: [
+    Text(
+      'Saved Recipes',
+      style: FlutterFlowTheme.of(context).bodyMedium.override(
+            fontFamily: 'Readex Pro',
+            fontSize: 30.0,
+            letterSpacing: 0.0,
+          ),
+    ),
+    Expanded(
+      child: Align(
+        alignment: AlignmentDirectional(1.0, 0.0),
+        child: FFButtonWidget(
+          onPressed: () {
+            print('Button pressed ...');
+          },
+          text: 'View All',
+          options: FFButtonOptions(
+            height: 30.0,
+            padding: EdgeInsetsDirectional.fromSTEB(
+                24.0, 0.0, 24.0, 0.0),
+            iconPadding: EdgeInsetsDirectional.fromSTEB(
+                0.0, 0.0, 0.0, 0.0),
+            color: FlutterFlowTheme.of(context).primaryBackground,
+            textStyle: FlutterFlowTheme.of(context)
+                .titleSmall
+                .override(
+                  fontFamily: 'Readex Pro',
+                  color: FlutterFlowTheme.of(context).primaryText,
+                  letterSpacing: 0.0,
                 ),
+            elevation: 3.0,
+            borderSide: BorderSide(
+              color: FlutterFlowTheme.of(context).primaryText,
+              width: 1.0,
+            ),
+            borderRadius: BorderRadius.circular(8.0),
+          ),
+        ),
+      ),
+    ),
+  ],
+),
+// Here, we add the ListView.builder to display favorite recipes
+Container(
+  height: 180.0, // Adjust size as necessary
+  child: ListView.builder(
+    scrollDirection: Axis.horizontal,
+    itemCount: AppData.favoriteRecipes.length,
+    itemBuilder: (BuildContext context, int index) {
+      RecipeData recipe = AppData.favoriteRecipes[index];
+      return Card(
+        child: Container(
+          width: 300.0,
+          child: Column(
+            children: [
+              Image.network(
+                recipe.backdrop ?? '', // Default image if none provided
+                fit: BoxFit.cover,
+                height: 140.0,
               ),
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Text(recipe.name, style: Theme.of(context).textTheme.headline6),
+              ),
+            ],
+          ),
+        ),
+      );
+    },
+  ),
+),
               Row(
                 mainAxisSize: MainAxisSize.max,
                 children: [
