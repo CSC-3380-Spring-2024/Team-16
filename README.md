@@ -23,7 +23,7 @@ Follow the instructions to download and install the Dart SDK from the official D
 Download and integrate the Flutter SDK with your editor. Detailed instructions for VSCode can be found here: [Flutter Editor Setup](https://docs.flutter.dev/get-started/editor?tab=vscode).
 
 #### 5. Java SDK
-Java is required for certain development environments and applications. Download the latest version of Java from the Oracle website: [Download Java](https://www.oracle.com/java/technologies/downloads/).
+Java is required for certain development environments and applications. Download the version of Java 21+ from the Oracle website: [Download Java](https://www.oracle.com/java/technologies/downloads/).
 
 ### How to Run the App
 
