@@ -13,13 +13,17 @@ Welcome to OnlyFood, an app designed to help you manage your kitchen more effici
 
 **Features of the app**
 1. **Ingredient Tracking**
+
 OnlyFood allows you to easily log and monitor all the ingredients in your storage. Simply enter what you have and let our app keep a detailed inventory, so you always know what you have at home.
 
 2. **Expiration Date Monitoring**
+
 Our app allows you to track the expiration dates of all your stored ingredients. By assuming each item is kept in its ideal environment, the app helps you easily monitor which items are nearing their expiration date, allowing you to prioritize their use and prevent waste.
 
 3. **Recipe Suggestions**
+
 Here at OnlyFood, you can simply select ingredients from your storage and receive related recipe suggestions. Our smart algorithm prioritizes dishes that use ingredients closest to expiration, ensuring you utilize your groceries efficiently and deliciously.
 
 4. **Social Interaction**
-OnlyFood isn't just a management tool for your ingredients, it's also a social platform. Post about your meals, share recipes, and interact with other users through likes, dislikes, and comments. Connect with other foodies, exchange cooking tips, and get inspired.
+
+OnlyFood isn't just a management tool for your ingredients, it's also a social platform. Post about your meals, share recipes and interact with other users through likes, dislikes, and comments. Connect with other foodies, exchange cooking tips, and get inspired.
